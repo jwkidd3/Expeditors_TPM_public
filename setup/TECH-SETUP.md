@@ -1,5 +1,7 @@
 # TPM Academy — Tech Setup
 
+_Last updated: 2026-05-01_
+
 Practical setup guide for participants and facilitators. Cover pre-academy setup once; refer back week-by-week as new tools come into play.
 
 ## Audience
