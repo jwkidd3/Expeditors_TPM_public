@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fundamentals &amp; Prompting for TPMs | TPM Academy — Week 1 Day 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+    <style>
+        :root {
+            --heading-color: #0b2545;
+            --accent-color: #13315c;
+            --pink: #e63946;
+            --teal: #2a9d8f;
+            --warning-color: #c05621;
+            --danger-color: #c53030;
+            --text-color: #1f2d3d;
+        }
+        .reveal { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-color); font-size: 26px; }
+        .reveal .slides section { text-align: left; padding: 20px 40px; }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 { color: var(--heading-color); font-weight: 700; text-transform: none; }
+        .reveal h1 { font-size: 2.0em; } .reveal h2 { font-size: 1.5em; } .reveal h3 { font-size: 1.2em; }
+        .title-slide { text-align: center !important; }
+        .title-slide h1 { color: #ffffff; font-size: 2.2em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); margin-bottom: 0.3em; }
+        .title-slide h2 { color: #e2e8f0; font-size: 1.3em; font-weight: 400; }
+        .title-slide h3 { color: #cbd5e0; font-size: 1.0em; font-weight: 300; }
+        .section-divider { text-align: center !important; }
+        .section-divider h2 { color: #ffffff; font-size: 1.9em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .section-divider h3 { color: #e2e8f0; font-size: 1.1em; font-weight: 400; }
+        .highlight-box { background: #ebf4ff; border-left: 4px solid var(--accent-color); padding: 18px 22px; border-radius: 0 8px 8px 0; margin: 12px 0; }
+        .highlight-box.success { background: #f0fff4; border-left-color: var(--teal); }
+        .highlight-box.warning { background: #fffaf0; border-left-color: var(--warning-color); }
+        .highlight-box.danger  { background: #fff5f5; border-left-color: var(--danger-color); }
+        .two-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; align-items: start; }
+        .three-columns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; align-items: start; }
+        .card { background: #ffffff; border-radius: 12px; padding: 22px; box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; }
+        .card h3, .card h4 { margin-top: 0; color: var(--accent-color); }
+        .concept-box { background: linear-gradient(135deg, #ebf4ff 0%, #e2e8f0 100%); border-radius: 12px; padding: 22px; margin: 12px 0; border: 1px solid #bee3f8; }
+        .concept-box h3, .concept-box h4 { color: var(--heading-color); margin-top: 0; }
+        .key-point { background: #ebf4ff; border: 2px solid var(--accent-color); border-radius: 12px; padding: 18px 22px; margin: 12px 0; font-size: 0.95em; }
+        .key-point strong { color: var(--accent-color); }
+        .lab-callout { text-align: center !important; }
+        .lab-callout h2 { color: #ffffff; font-size: 1.7em; margin-bottom: 0.3em; }
+        .lab-callout h3 { color: #ffd6a5; font-size: 1.2em; font-weight: 400; }
+        .lab-callout p, .lab-callout ul li { color: #f1f5f9; }
+        .lab-callout ul { text-align: left; display: inline-block; }
+        .lab-callout .timebox { background: rgba(255,255,255,0.12); border-radius: 8px; padding: 8px 14px; display: inline-block; margin-top: 10px; color: #fff; }
+        .day-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .day-progress .step { width: 40px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .day-progress .step.active { background: var(--pink); }
+        .day-progress .step.completed { background: var(--teal); }
+        .reveal table { border-collapse: collapse; width: 100%; font-size: 0.75em; margin: 12px 0; }
+        .reveal table th { background: var(--heading-color); color: #ffffff; padding: 10px 14px; text-align: left; font-weight: 600; }
+        .reveal table td { padding: 9px 14px; border-bottom: 1px solid #e2e8f0; }
+        .reveal table tr:nth-child(even) { background: #f7fafc; }
+        .reveal ul, .reveal ol { text-align: left; display: block; margin-left: 1em; }
+        .reveal li { margin-bottom: 0.45em; line-height: 1.5; font-size: 0.92em; }
+        .reveal p { line-height: 1.55; }
+        .reveal pre code { font-size: 0.62em; line-height: 1.35; max-height: 470px; overflow: auto; border-radius: 8px; }
+        .pill { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 0.75em; font-weight: 600; background: #edf2f7; color: var(--heading-color); margin-right: 6px; }
+        .pill.teal { background: #e6fffa; color: #0f766e; }
+        .pill.pink { background: #fff1f2; color: #be123c; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Title Slide -->
+            <section data-background="linear-gradient(135deg, #0b2545 0%, #13315c 100%)" class="title-slide">
+                <h1>&#129504; AI Fundamentals &amp; Prompting for TPMs</h1>
+                <h2>Week 1 &bull; Day 1 &bull; Customer-Centric Foundations</h2>
+                <h3>Technical Product Manager Academy</h3>
+                <div class="day-progress">
+                    <div class="step active"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                </div>
+                <aside class="notes">Welcome to Day 1. The single most impactful Week-1 muscle to build is "prompting as a first-class PM skill." Frame today as learning a new interface to knowledge work, not learning a chatbot.</aside>
+            </section>
+
+            <!-- Day Objectives -->
+            <section>
+                <h2>&#127919; Day 1 Objectives</h2>
+                <ul>
+                    <li class="fragment fade-up">Describe what a large language model (LLM) can and <em>cannot</em> reliably do for a TPM</li>
+                    <li class="fragment fade-up">Apply four prompt patterns: <strong>Role, Context, Constraints, Format</strong></li>
+                    <li class="fragment fade-up">Use AI to accelerate three recurring PM tasks: research, summarization, critique</li>
+                    <li class="fragment fade-up">Detect and recover from hallucination, grounding failures, and false confidence</li>
+                    <li class="fragment fade-up">Build a personal <strong>Prompt Pattern Library</strong> with your cohort triad</li>
+                </ul>
+                <aside class="notes">These objectives set up every other week — we'll be using AI-augmented workflows through Week 8. Stress that we are building judgment, not worshipping the tool.</aside>
+            </section>
+
+            <!-- Day Agenda -->
+            <section>
+                <h2>&#128337; Today's Shape</h2>
+                <table>
+                    <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
+                    <tr><td>09:00 – 09:15</td><td>Opening</td><td>Meet your triad, ground the week</td></tr>
+                    <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>What LLMs actually are</td></tr>
+                    <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>Four prompt patterns</td></tr>
+                    <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>Three TPM uses of AI</td></tr>
+                    <tr><td>14:30 – 16:00</td><td>Block 4 + Activity 4 + Readouts</td><td>Verification &amp; trust</td></tr>
+                </table>
+                <aside class="notes">Keep this table visible on the side monitor if possible. People orient better when they can see the whole day's arc.</aside>
+            </section>
+
+            <!-- Section: Block 1 -->
+            <section data-background="linear-gradient(135deg, #13315c 0%, #1e3a5f 100%)" class="section-divider">
+                <h2>Block 1 &mdash; What an LLM Actually Is</h2>
+                <h3>Enough mental model to stop being surprised by it</h3>
+            </section>
+
+            <!-- The mental model -->
+            <section>
+                <h2>&#128270; The Only Mental Model You Need</h2>
+                <div class="concept-box">
+                    <p>An LLM is a <strong>very large statistical model of language</strong> that predicts the next token given everything before it. It is not a database. It is not a reasoner. It does not "know" things.</p>
+                </div>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>&#9989; It is good at</h4>
+                        <ul>
+                            <li>Rephrasing, summarizing, re-formatting</li>
+                            <li>Pattern-completing from strong context</li>
+                            <li>Drafting first passes quickly</li>
+                            <li>Stress-testing your own writing</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>&#10060; It is bad at</h4>
+                        <ul>
+                            <li>Giving exact numbers or citations from memory</li>
+                            <li>Saying "I don't know"</li>
+                            <li>Reasoning about novel constraints without being shown them</li>
+                            <li>Telling you when it is wrong</li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="notes">Ask: "Who has had an LLM confidently lie to them this month?" Most hands go up. Use that energy.</aside>
+            </section>
+
+            <!-- Tokens, context, temperature -->
+            <section>
+                <h2>&#129504; Three Terms You Will Say Out Loud</h2>
+                <div class="three-columns">
+                    <div class="card">
+                        <h4>Token</h4>
+                        <p>The unit the model reads and writes. Roughly ~4 characters of English. "Product" ≈ 1 token, "Dispatch" ≈ 1–2.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Context window</h4>
+                        <p>How many tokens the model can see in one call. Everything outside this window is invisible to it.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Temperature</h4>
+                        <p>A knob from deterministic (0) to creative (1+). PMs usually want low-to-mid for drafts, low for extraction.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <strong>PM implication:</strong> If the model can't see it in the prompt, it's guessing. Always ask yourself: <em>"What does this model know about my product right now? Nothing."</em>
+                </div>
+                <aside class="notes">The "nothing" line is worth repeating at least three times during the week. It fights the most common failure mode.</aside>
+            </section>
+
+            <!-- Activity 1 -->
+            <section data-background="linear-gradient(135deg, #e63946 0%, #c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 1 &mdash; "Same Question, Three Models"</h2>
+                <h3>Triads &bull; 35 minutes</h3>
+                <p>Each triad picks one open PM question (provided list of 10). Each member asks the <em>same</em> question to a different tool (ChatGPT, Claude, Gemini/Copilot).</p>
+                <ul>
+                    <li>Compare: Where do the answers agree? Diverge? Hallucinate?</li>
+                    <li>Score each answer on <strong>usefulness</strong>, <strong>verifiability</strong>, <strong>risk if wrong</strong></li>
+                    <li>Prepare a 60-second readout: "We would trust X for Y, and never trust it for Z"</li>
+                </ul>
+                <div class="timebox">&#9201; 10 min prompt &middot; 15 min compare &middot; 10 min write readout</div>
+                <aside class="notes">This is the first collaborative exercise of the academy. Help triads discover differences — don't pre-answer. The surprise that same question yields different answers is half the learning.</aside>
+            </section>
+
+            <!-- Section: Block 2 -->
+            <section data-background="linear-gradient(135deg, #13315c 0%, #1e3a5f 100%)" class="section-divider">
+                <h2>Block 2 &mdash; Four Prompt Patterns</h2>
+                <h3>The smallest scaffold that meaningfully improves output</h3>
+            </section>
+
+            <!-- The RCCF pattern -->
+            <section>
+                <h2>&#128218; The RCCF Scaffold</h2>
+                <div class="concept-box">
+                    <p>Every time you ask an AI for non-trivial PM help, include four things: <strong>Role, Context, Constraints, Format</strong>.</p>
+                </div>
+                <table>
+                    <tr><th>Slot</th><th>Question it answers</th><th>PM example</th></tr>
+                    <tr><td><strong>Role</strong></td><td>Who is talking?</td><td>"Act as a senior technical product manager reviewing a PRD"</td></tr>
+                    <tr><td><strong>Context</strong></td><td>What does the model need to see?</td><td>User persona, the problem, prior attempts</td></tr>
+                    <tr><td><strong>Constraints</strong></td><td>What must be true of the answer?</td><td>"Flag any claim that lacks evidence"</td></tr>
+                    <tr><td><strong>Format</strong></td><td>What shape should it take?</td><td>"Markdown table with columns X, Y, Z"</td></tr>
+                </table>
+                <aside class="notes">RCCF is the kernel. Many heavier frameworks (CRISPE, CO-STAR, etc.) are elaborations — don't argue taxonomy, teach the habit.</aside>
+            </section>
+
+            <!-- Before / After -->
+            <section>
+                <h2>&#128196; Before &amp; After</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4 style="color: var(--danger-color)">&#10060; Weak prompt</h4>
+                        <pre><code class="language-text">Write me a user persona for a dispatch app.</code></pre>
+                        <p><em>Output is generic, confident, un-grounded, un-actionable.</em></p>
+                    </div>
+                    <div class="card">
+                        <h4 style="color: var(--teal)">&#9989; Scaffolded prompt</h4>
+                        <pre><code class="language-text">Role: Senior TPM for a field-service SaaS.
+Context: Target user = dispatcher at an HVAC
+company, 50–200 techs, 10+ yrs industry, low
+tolerance for screens. Pain: re-routing mid-day
+when a tech calls out sick.
+Constraints: Persona must be grounded in the
+behaviors above; flag any field that is an
+assumption I'd need to validate.
+Format: Markdown persona sheet with a final
+"Assumptions to validate" section.</code></pre>
+                    </div>
+                </div>
+                <aside class="notes">Show the difference live if time permits. The shift from "give me X" to "here is what I know, here is the shape I want" is the habit.</aside>
+            </section>
+
+            <!-- Iteration -->
+            <section>
+                <h2>&#128260; Prompting is a Dialogue, Not a Command</h2>
+                <ul>
+                    <li class="fragment fade-up"><strong>First pass:</strong> RCCF scaffold</li>
+                    <li class="fragment fade-up"><strong>Second pass:</strong> "Critique the above as if you were a skeptical engineer"</li>
+                    <li class="fragment fade-up"><strong>Third pass:</strong> "Now rewrite it, addressing those critiques"</li>
+                    <li class="fragment fade-up"><strong>Always:</strong> "What in this answer are you least confident about?"</li>
+                </ul>
+                <div class="highlight-box warning">
+                    <strong>Caution:</strong> The model will happily invent critiques too. Your judgment is what converts dialogue into value.
+                </div>
+                <aside class="notes">Model the self-critique prompt live. It's the single highest-leverage follow-up a PM can learn.</aside>
+            </section>
+
+            <!-- Activity 2 -->
+            <section data-background="linear-gradient(135deg, #e63946 0%, #c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 2 &mdash; Rewrite This Prompt</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>Each triad receives three weak prompts taken from the FieldPulse backlog. Rewrite each one using RCCF, then run the original and the rewrite side-by-side.</p>
+                <ul>
+                    <li>Capture: What changed in the output? What did <em>not</em> change?</li>
+                    <li>Add one prompt to your triad's <strong>Prompt Pattern Library</strong></li>
+                    <li>Star the prompt your triad would actually reuse on Monday morning</li>
+                </ul>
+                <div class="timebox">&#9201; 15 min rewrite &middot; 15 min run &middot; 10 min library entry</div>
+                <aside class="notes">Walk the room. The common failure is under-specifying Constraints. Ask probing questions rather than fixing for them.</aside>
+            </section>
+
+            <!-- Section: Block 3 -->
+            <section data-background="linear-gradient(135deg, #13315c 0%, #1e3a5f 100%)" class="section-divider">
+                <h2>Block 3 &mdash; Three Recurring TPM Uses</h2>
+                <h3>Where AI actually earns its seat at the table</h3>
+            </section>
+
+            <!-- Use 1: Research -->
+            <section>
+                <h2>&#128269; Use 1 &mdash; Accelerated Research</h2>
+                <div class="highlight-box">
+                    <strong>The job:</strong> Quickly build context about an unfamiliar domain, user group, or competitor landscape — enough to ask smart questions, not to ship decisions.
+                </div>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>&#9989; Good fit</h4>
+                        <ul>
+                            <li>"Explain HVAC dispatcher workflows to me in the language they'd use"</li>
+                            <li>"What are five things I might be naive about here?"</li>
+                            <li>"Give me five search queries that will find primary-source material"</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>&#10060; Bad fit</h4>
+                        <ul>
+                            <li>"What is the market size of dispatch software?" (will hallucinate)</li>
+                            <li>"Who is the leader?" (outdated and confident)</li>
+                            <li>"Cite a study that proves…" (fabricated citations)</li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="notes">The rule: use AI to generate the questions you should ask a human or a primary source, not to answer them.</aside>
+            </section>
+
+            <!-- Use 2: Summarization -->
+            <section>
+                <h2>&#128221; Use 2 &mdash; Summarization with Evidence Tags</h2>
+                <div class="concept-box">
+                    <p>When you feed a model a transcript, survey, or support-ticket batch, ask it to <strong>tag each claim with where in the source it came from</strong>. Unsourced claims are the ones to interrogate.</p>
+                </div>
+                <pre><code class="language-text">Role: Research analyst.
+Context: Below are 14 support tickets from FieldPulse dispatchers.
+Task: Extract the top 5 recurring frustrations.
+Constraints:
+  - Each frustration must cite 2+ ticket numbers as evidence
+  - Flag any frustration you inferred without direct evidence
+Format: Markdown list; each entry: Frustration / Evidence tickets / Confidence (H/M/L).
+</code></pre>
+                <aside class="notes">This pattern is the foundation for the Week 2 "AI for research summaries" block. We plant it here so it's rehearsed.</aside>
+            </section>
+
+            <!-- Use 3: Critique -->
+            <section>
+                <h2>&#129535; Use 3 &mdash; Self-Critique Loop</h2>
+                <p>Before sharing a PRD, persona, or problem statement, run a structured critique pass:</p>
+                <ol>
+                    <li>"Read the following as a skeptical engineer. What three questions will you ask me first?"</li>
+                    <li>"Read the following as the stakeholder who most often blocks launches here. What objection worries me most?"</li>
+                    <li>"Read the following as the customer in the persona. Where does it not ring true?"</li>
+                </ol>
+                <div class="highlight-box success">
+                    <strong>Why it works:</strong> You get three perspectives in five minutes without socializing a half-baked draft with real people.
+                </div>
+                <aside class="notes">This is the use that converts skeptics fastest. Encourage them to try it on an actual email or draft they have this week.</aside>
+            </section>
+
+            <!-- Activity 3 -->
+            <section data-background="linear-gradient(135deg, #e63946 0%, #c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 3 &mdash; The Three Hats</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>Each triad takes the FieldPulse one-paragraph problem brief (provided). Using AI, run it through three critique hats: <strong>Engineer</strong>, <strong>Blocker-stakeholder</strong>, <strong>Target customer</strong>.</p>
+                <ul>
+                    <li>Capture the single most uncomfortable question each hat raised</li>
+                    <li>Decide which one your triad cannot answer yet &mdash; that becomes your Day 3 research question</li>
+                </ul>
+                <div class="timebox">&#9201; 10 min each hat &middot; 10 min synthesize</div>
+                <aside class="notes">This activity produces artifacts the triads will actually reuse on Day 3 and Day 5. Make sure each triad keeps their output.</aside>
+            </section>
+
+            <!-- Section: Block 4 -->
+            <section data-background="linear-gradient(135deg, #13315c 0%, #1e3a5f 100%)" class="section-divider">
+                <h2>Block 4 &mdash; Verification &amp; Trust</h2>
+                <h3>How grown-up TPMs use AI without being fooled by it</h3>
+            </section>
+
+            <!-- Failure modes -->
+            <section>
+                <h2>&#9888;&#65039; The Four Failure Modes</h2>
+                <table>
+                    <tr><th>Failure</th><th>What it looks like</th><th>Mitigation</th></tr>
+                    <tr><td><strong>Hallucination</strong></td><td>Confident fabricated facts, citations, APIs</td><td>Treat outputs as leads, not sources. Verify numerics &amp; names manually.</td></tr>
+                    <tr><td><strong>Context starvation</strong></td><td>Plausible but generic answer</td><td>Add Role + Context explicitly. Paste in the source material.</td></tr>
+                    <tr><td><strong>Sycophancy</strong></td><td>Agrees with whatever premise you give</td><td>Ask for counter-arguments and rank them by strength.</td></tr>
+                    <tr><td><strong>Anchoring</strong></td><td>Your framing shapes its output</td><td>Ask for the opposite position as a second turn.</td></tr>
+                </table>
+                <aside class="notes">These four cover the vast majority of "AI got me in trouble" stories. Participants will recognize at least two from lived experience.</aside>
+            </section>
+
+            <!-- Evidence tiers -->
+            <section>
+                <h2>&#128290; Evidence Tiers (we'll use this all week)</h2>
+                <div class="concept-box">
+                    <p>When you write something down — persona traits, pain points, problem statements — tag each claim with its evidence tier so reviewers can calibrate trust.</p>
+                </div>
+                <table>
+                    <tr><th>Tier</th><th>Source</th><th>Trust</th></tr>
+                    <tr><td><span class="pill teal">Observed</span></td><td>You watched it happen, or recorded data shows it</td><td>High</td></tr>
+                    <tr><td><span class="pill">Reported</span></td><td>A user said it in an interview or ticket</td><td>Medium</td></tr>
+                    <tr><td><span class="pill">Inferred</span></td><td>You deduced it from related evidence</td><td>Low</td></tr>
+                    <tr><td><span class="pill pink">AI-generated</span></td><td>A model produced it — not yet validated</td><td>Lowest; must be upgraded before use</td></tr>
+                </table>
+                <aside class="notes">This table is the single most-referenced artifact of Week 1. You'll see it again on Days 3, 4, 5.</aside>
+            </section>
+
+            <!-- Activity 4 -->
+            <section data-background="linear-gradient(135deg, #e63946 0%, #c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 4 &mdash; Prompt Pattern Library (Publish)</h2>
+                <h3>Triads &bull; 45 minutes &bull; Readouts</h3>
+                <p>Each triad finalizes a shared <strong>Prompt Pattern Library</strong> for use the rest of the academy. Minimum four entries:</p>
+                <ul>
+                    <li>One <strong>Research</strong> prompt</li>
+                    <li>One <strong>Summarization-with-evidence</strong> prompt</li>
+                    <li>One <strong>Critique-hat</strong> prompt</li>
+                    <li>One <strong>"Where could you be wrong?"</strong> prompt</li>
+                </ul>
+                <div class="timebox">&#9201; 25 min draft &middot; 10 min test &middot; 10 min triad readout</div>
+                <aside class="notes">Collect these. They are the foundation artifact for Week 1 and should be referenced daily.</aside>
+            </section>
+
+            <!-- Wrap / bridge -->
+            <section>
+                <h2>&#127881; Day 1 Wrap</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>What we built</h4>
+                        <ul>
+                            <li>A mental model of what an LLM is (and isn't)</li>
+                            <li>The RCCF prompt scaffold</li>
+                            <li>Three reusable TPM uses: research, summarization, critique</li>
+                            <li>A Prompt Pattern Library per triad</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>What opens tomorrow</h4>
+                        <ul>
+                            <li><strong>Working Backwards</strong> — we write the press release <em>before</em> the product</li>
+                            <li>Your triad will use today's prompts to draft and critique your first PR/FAQ</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight-box success">
+                    <strong>Bring to Day 2:</strong> Your triad's Prompt Pattern Library + one domain you'd like to draft a Working-Backwards PR for.
+                </div>
+                <aside class="notes">Close with a 2-minute round-robin: each person says one thing they'll stop doing with AI. Commits the learning.</aside>
+            </section>
+
+            <!-- Questions -->
+            <section data-background="linear-gradient(135deg, #0b2545 0%, #13315c 100%)" class="section-divider">
+                <h2>&#128172; Questions &amp; Reflection</h2>
+                <h3>Before you leave: what's the one prompt you'll use tomorrow morning?</h3>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            plugins: [ RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html>

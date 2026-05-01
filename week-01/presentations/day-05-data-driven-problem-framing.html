@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data-Driven Problem Framing | TPM Academy — Week 1 Day 5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+    <style>
+        :root { --heading-color:#0b2545; --accent-color:#13315c; --pink:#e63946; --teal:#2a9d8f; --warning-color:#c05621; --danger-color:#c53030; --text-color:#1f2d3d; }
+        .reveal { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-color); font-size: 26px; }
+        .reveal .slides section { text-align:left; padding:20px 40px; }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 { color: var(--heading-color); font-weight:700; }
+        .reveal h1 { font-size:2.0em; } .reveal h2 { font-size:1.5em; } .reveal h3 { font-size:1.2em; }
+        .title-slide { text-align:center !important; }
+        .title-slide h1 { color:#fff; font-size:2.2em; text-shadow:2px 2px 4px rgba(0,0,0,.3); }
+        .title-slide h2 { color:#e2e8f0; font-size:1.3em; font-weight:400; }
+        .title-slide h3 { color:#cbd5e0; font-size:1.0em; font-weight:300; }
+        .section-divider { text-align:center !important; }
+        .section-divider h2 { color:#fff; font-size:1.9em; text-shadow:2px 2px 4px rgba(0,0,0,.3); }
+        .section-divider h3 { color:#e2e8f0; font-size:1.1em; font-weight:400; }
+        .highlight-box { background:#ebf4ff; border-left:4px solid var(--accent-color); padding:18px 22px; border-radius:0 8px 8px 0; margin:12px 0; }
+        .highlight-box.success { background:#f0fff4; border-left-color:var(--teal); }
+        .highlight-box.warning { background:#fffaf0; border-left-color:var(--warning-color); }
+        .highlight-box.danger { background:#fff5f5; border-left-color:var(--danger-color); }
+        .two-columns { display:grid; grid-template-columns:1fr 1fr; gap:26px; align-items:start; }
+        .three-columns { display:grid; grid-template-columns:1fr 1fr 1fr; gap:18px; align-items:start; }
+        .card { background:#fff; border-radius:12px; padding:22px; box-shadow:0 4px 6px rgba(0,0,0,.07); border:1px solid #e2e8f0; }
+        .card h3, .card h4 { margin-top:0; color:var(--accent-color); }
+        .concept-box { background:linear-gradient(135deg,#ebf4ff 0%,#e2e8f0 100%); border-radius:12px; padding:22px; margin:12px 0; border:1px solid #bee3f8; }
+        .concept-box h3, .concept-box h4 { color:var(--heading-color); margin-top:0; }
+        .key-point { background:#ebf4ff; border:2px solid var(--accent-color); border-radius:12px; padding:18px 22px; margin:12px 0; font-size:.95em; }
+        .key-point strong { color:var(--accent-color); }
+        .lab-callout { text-align:center !important; }
+        .lab-callout h2 { color:#fff; font-size:1.7em; }
+        .lab-callout h3 { color:#ffd6a5; font-size:1.2em; font-weight:400; }
+        .lab-callout p, .lab-callout ul li { color:#f1f5f9; }
+        .lab-callout ul { text-align:left; display:inline-block; }
+        .lab-callout .timebox { background:rgba(255,255,255,.12); border-radius:8px; padding:8px 14px; display:inline-block; margin-top:10px; color:#fff; }
+        .day-progress { display:flex; justify-content:center; gap:8px; margin-top:20px; }
+        .day-progress .step { width:40px; height:6px; border-radius:3px; background:#cbd5e0; }
+        .day-progress .step.active { background:var(--pink); }
+        .day-progress .step.completed { background:var(--teal); }
+        .reveal table { border-collapse:collapse; width:100%; font-size:.75em; margin:12px 0; }
+        .reveal table th { background:var(--heading-color); color:#fff; padding:10px 14px; text-align:left; }
+        .reveal table td { padding:9px 14px; border-bottom:1px solid #e2e8f0; }
+        .reveal table tr:nth-child(even) { background:#f7fafc; }
+        .reveal ul, .reveal ol { text-align:left; display:block; margin-left:1em; }
+        .reveal li { margin-bottom:.45em; line-height:1.5; font-size:.92em; }
+        .reveal pre code { font-size:.62em; line-height:1.35; max-height:470px; overflow:auto; border-radius:8px; }
+        .pill { display:inline-block; padding:3px 10px; border-radius:999px; font-size:.75em; font-weight:600; background:#edf2f7; color:var(--heading-color); margin-right:6px; }
+        .pill.teal { background:#e6fffa; color:#0f766e; }
+        .pill.pink { background:#fff1f2; color:#be123c; }
+        .template { background:#fdfdfd; border:1px dashed #94a3b8; border-radius:8px; padding:18px 22px; font-family:Georgia,serif; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section data-background="linear-gradient(135deg,#0b2545 0%,#13315c 100%)" class="title-slide">
+                <h1>&#128202; Data-Driven Problem Framing</h1>
+                <h2>Week 1 &bull; Day 5 &bull; Customer-Centric Foundations</h2>
+                <h3>Technical Product Manager Academy</h3>
+                <div class="day-progress">
+                    <div class="step completed"></div><div class="step completed"></div><div class="step completed"></div><div class="step completed"></div><div class="step active"></div>
+                </div>
+                <aside class="notes">Day 5 is the integration day for Week 1. Every prior artifact — prompts, PR/FAQ, persona, pains — funnels into a single problem statement plus Friday-afternoon readouts.</aside>
+            </section>
+
+            <section>
+                <h2>&#127919; Day 5 Objectives</h2>
+                <ul>
+                    <li class="fragment fade-up">Write a <strong>problem statement</strong> an engineer can scope from</li>
+                    <li class="fragment fade-up">Build an <strong>evidence brief</strong> that pairs every claim with its tier and source</li>
+                    <li class="fragment fade-up">Use AI to pressure-test — not author — the problem statement</li>
+                    <li class="fragment fade-up">Present a <strong>10-minute integrated Week 1 artifact</strong> to the full cohort</li>
+                    <li class="fragment fade-up">Set up the bridge to Week 2 (metrics + strategic design)</li>
+                </ul>
+                <aside class="notes">Don't introduce new frameworks today. The intellectual work is convergence, not expansion.</aside>
+            </section>
+
+            <section>
+                <h2>&#128337; Today's Shape</h2>
+                <table>
+                    <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
+                    <tr><td>09:00 – 09:15</td><td>Opening</td><td>Review Week 1 artifact stack</td></tr>
+                    <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>Problem statement template</td></tr>
+                    <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>Evidence brief &amp; AI critique</td></tr>
+                    <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>Rehearsal + peer dry-run</td></tr>
+                    <tr><td>14:30 – 16:00</td><td>Block 4 + Readouts + Wrap</td><td>Full-cohort presentations</td></tr>
+                </table>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 1 &mdash; The Problem Statement</h2>
+                <h3>Scoped, verb-led, evidence-backed, falsifiable</h3>
+            </section>
+
+            <section>
+                <h2>&#128204; The Template</h2>
+                <div class="template">
+                    <p><strong>Who</strong> &mdash; [persona role + context]</p>
+                    <p><strong>Currently</strong> &mdash; [observed behavior, with frequency]</p>
+                    <p><strong>Which causes</strong> &mdash; [measurable consequence]</p>
+                    <p><strong>Because</strong> &mdash; [root cause, from 5 Whys]</p>
+                    <p><strong>We know this because</strong> &mdash; [evidence, tagged]</p>
+                    <p><strong>Success looks like</strong> &mdash; [the change we'd see if the problem is solved]</p>
+                </div>
+                <div class="key-point">
+                    The last line is the one most problem statements skip. Without it, there's no way to know when you're done.
+                </div>
+                <aside class="notes">Point out: this is not a solution. It's a framing that a solution can be designed against. Distinction matters in Week 2.</aside>
+            </section>
+
+            <section>
+                <h2>&#128196; A FieldPulse Example</h2>
+                <div class="template">
+                    <p><strong>Who</strong> &mdash; Lead Dispatchers at 50–200 tech HVAC companies</p>
+                    <p><strong>Currently</strong> &mdash; Spend an average of 45 minutes post-shift reconciling paper tickets, truck stock, and timecards (observed, 6 of 8 ride-alongs)</p>
+                    <p><strong>Which causes</strong> &mdash; ~3.75 unpaid hours per dispatcher per week and a measured 22% turnover in the role (reported, HR data from 3 customers)</p>
+                    <p><strong>Because</strong> &mdash; Ticket submission requires connectivity techs don't have at the last job, so paper becomes the path of least resistance (5 Whys root)</p>
+                    <p><strong>We know this because</strong> &mdash; <span class="pill teal">Observed</span> 6 ride-alongs; <span class="pill">Reported</span> 4 interviews; <span class="pill">Inferred</span> turnover causality</p>
+                    <p><strong>Success looks like</strong> &mdash; Post-shift reconcile under 10 minutes for 80% of dispatchers within 6 months</p>
+                </div>
+                <aside class="notes">Walk through this live. Point to every evidence tier pill and trace it back to prior Week 1 artifacts.</aside>
+            </section>
+
+            <section>
+                <h2>&#128308; Failure Modes of Problem Statements</h2>
+                <table>
+                    <tr><th>Failure</th><th>Sounds like</th><th>Why it's weak</th></tr>
+                    <tr><td>Solution in disguise</td><td>"Dispatchers need a mobile reconcile screen"</td><td>Pre-decides the how; not falsifiable</td></tr>
+                    <tr><td>Consequence-free</td><td>"Dispatchers are frustrated with reconciliation"</td><td>No measurable cost; no way to prioritize</td></tr>
+                    <tr><td>No root cause</td><td>"The process is inefficient"</td><td>Symptom, not mechanism</td></tr>
+                    <tr><td>Ungrounded</td><td>"Customers tell us&hellip;"</td><td>No evidence tier; can't be audited</td></tr>
+                    <tr><td>Success-agnostic</td><td>Missing the last line</td><td>Can't recognize solved</td></tr>
+                </table>
+                <aside class="notes">Have participants read their draft out loud and spot-check against this list.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 1 &mdash; Draft Your Statement</h2>
+                <h3>Triads &bull; 45 minutes</h3>
+                <p>Using your Top 3 pain set and persona, draft a problem statement in the six-line template.</p>
+                <ul>
+                    <li>Start with the strongest pain from Day 4</li>
+                    <li>Every line must survive the failure-mode table</li>
+                    <li>Mark which evidence tier each claim uses</li>
+                </ul>
+                <div class="timebox">&#9201; 20 min draft &middot; 15 min failure-mode audit &middot; 10 min peer-within-triad read</div>
+                <aside class="notes">Within-triad peer read (not cross-triad yet) catches the obvious stuff before Activity 2.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 2 &mdash; The Evidence Brief</h2>
+                <h3>What goes with the problem statement</h3>
+            </section>
+
+            <section>
+                <h2>&#128221; The Brief, One Page</h2>
+                <ol>
+                    <li class="fragment fade-up"><strong>The persona</strong> &mdash; one paragraph from your Day 3 canvas</li>
+                    <li class="fragment fade-up"><strong>The pain map</strong> &mdash; your Day 4 matrix, with Top 3 highlighted</li>
+                    <li class="fragment fade-up"><strong>The problem statement</strong> &mdash; from Activity 1</li>
+                    <li class="fragment fade-up"><strong>The evidence log</strong> &mdash; each claim: source, date, tier, who captured it</li>
+                    <li class="fragment fade-up"><strong>The open questions</strong> &mdash; what you don't yet know and plan to learn</li>
+                </ol>
+                <div class="highlight-box success">
+                    <strong>The discipline:</strong> Every claim in the problem statement appears in the evidence log. Nothing floats unsupported.
+                </div>
+                <aside class="notes">This is the exact artifact shape that becomes a PRD input in Week 3. Make that connection explicit.</aside>
+            </section>
+
+            <section>
+                <h2>&#129504; AI as Pressure-Tester</h2>
+                <pre><code class="language-text">Role: Senior engineering lead reading a problem statement I intend to scope against.
+Context: [paste problem statement + evidence log]
+Constraints:
+  - Do not rewrite. Ask the questions you would ask me in a scoping meeting.
+  - Rank your questions by how much they'd change your estimate if unanswered.
+  - Flag any claim that is inferred or AI-generated that you'd want upgraded first.
+Format: Numbered list of questions, ranked.
+</code></pre>
+                <div class="highlight-box warning">
+                    <strong>Rule:</strong> AI can challenge the statement. AI does not get to write it. Ownership stays with the triad.
+                </div>
+                <aside class="notes">Some triads will want to have AI rewrite. Don't let them — they'll lose the thinking that makes the readout defensible.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 2 &mdash; Pressure Test</h2>
+                <h3>Triads &bull; 45 minutes</h3>
+                <p>Run the pressure-test prompt. Then, as a triad:</p>
+                <ul>
+                    <li>Answer every question you can from existing evidence</li>
+                    <li>Add unresolved questions to "Open questions" in the brief</li>
+                    <li>Upgrade or remove any claim that failed</li>
+                </ul>
+                <div class="timebox">&#9201; 10 min run prompt &middot; 25 min respond &middot; 10 min revise brief</div>
+                <aside class="notes">The "Open questions" section is a feature, not a bug. Its length signals humility.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 3 &mdash; Rehearsal</h2>
+                <h3>10 minutes, the right 10 minutes</h3>
+            </section>
+
+            <section>
+                <h2>&#127908; The Readout Structure</h2>
+                <ol>
+                    <li class="fragment fade-up"><strong>0:00 – 1:30</strong> Persona (who, observed behavior, 1 quote)</li>
+                    <li class="fragment fade-up"><strong>1:30 – 3:30</strong> Top 3 pains (matrix, one slide)</li>
+                    <li class="fragment fade-up"><strong>3:30 – 5:30</strong> Problem statement (read it, one line at a time)</li>
+                    <li class="fragment fade-up"><strong>5:30 – 7:30</strong> Evidence sample + open questions</li>
+                    <li class="fragment fade-up"><strong>7:30 – 10:00</strong> Q&amp;A from room, questions only</li>
+                </ol>
+                <div class="highlight-box">
+                    <strong>Norm:</strong> Don't defend in the Q&amp;A. Listen and note. You'll act on the feedback in Week 2 pre-work.
+                </div>
+                <aside class="notes">The no-defend norm is hard but keeps readouts productive. Re-invoke it before each triad starts.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 3 &mdash; Paired Dry-Run</h2>
+                <h3>Paired triads &bull; 45 minutes</h3>
+                <p>Triads pair. Each does a <strong>full timed 10-minute readout</strong> to the other, with stopwatch.</p>
+                <ul>
+                    <li>Partner writes down the <strong>3 questions</strong> they would ask in real Q&amp;A</li>
+                    <li>Partner writes down <strong>1 sentence</strong> of what they heard the problem to be</li>
+                    <li>Compare that sentence to what the triad intended to convey</li>
+                </ul>
+                <div class="timebox">&#9201; 10 min each direction &middot; 25 min debrief</div>
+                <aside class="notes">The "what I heard" test is the best rehearsal tool. If the partner's one-sentence summary doesn't match the intent, the readout has work to do.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 4 &mdash; Cohort Readouts</h2>
+                <h3>Week 1 integrated artifact</h3>
+            </section>
+
+            <section>
+                <h2>&#127942; How We Score (Reminder)</h2>
+                <table>
+                    <tr><th>Dimension</th><th>Weight</th></tr>
+                    <tr><td>Customer authenticity</td><td>25%</td></tr>
+                    <tr><td>Pain specificity</td><td>25%</td></tr>
+                    <tr><td>Evidence quality</td><td>20%</td></tr>
+                    <tr><td>Problem statement clarity</td><td>20%</td></tr>
+                    <tr><td>AI-use transparency</td><td>10%</td></tr>
+                </table>
+                <p style="font-size:.85em;">Each triad gets a score sheet from every peer triad + the instructor. Scores plus one strength and one suggestion.</p>
+                <aside class="notes">The rubric is in the Week 1 README. Make sure every triad has it during readouts.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Week 1 Readouts</h2>
+                <h3>Full cohort &bull; 10 min per triad + 3 min score-sheet writing</h3>
+                <p>Order is random (draw triad names). Between triads, a 3-minute quiet block for written feedback.</p>
+                <ul>
+                    <li>Presenting triad: follow the rehearsal structure</li>
+                    <li>Audience triads: questions only, no defending</li>
+                    <li>Everyone: written score + 1 strength + 1 suggestion</li>
+                </ul>
+                <div class="timebox">&#9201; Plan ~80–90 min for 6 triads</div>
+                <aside class="notes">Facilitator keeps the clock tight. Going long on early triads squeezes later ones — unfair.</aside>
+            </section>
+
+            <section>
+                <h2>&#127881; Week 1 Wrap</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>What we built (five artifacts)</h4>
+                        <ol>
+                            <li>Prompt Pattern Library (triad)</li>
+                            <li>PR/FAQ</li>
+                            <li>Validated persona canvas</li>
+                            <li>Ranked pain-point matrix</li>
+                            <li>Problem statement + evidence brief</li>
+                        </ol>
+                    </div>
+                    <div class="card">
+                        <h4>What Week 2 does with them</h4>
+                        <ul>
+                            <li>Problem statement &rarr; North Star metric</li>
+                            <li>Pain map &rarr; operational signals &amp; KPIs</li>
+                            <li>Persona &rarr; customer journey map</li>
+                            <li>PR/FAQ &rarr; UX-principled re-framing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight-box success">
+                    <strong>Weekend pre-read for Week 2:</strong> Re-read your problem statement. Bring 3 candidate metrics. Come curious about which one is the North Star.
+                </div>
+                <aside class="notes">End with thanks — Week 1 is the heaviest lift of the academy because it introduces the most new rituals.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#0b2545 0%,#13315c 100%)" class="section-divider">
+                <h2>&#128172; Closing Reflection</h2>
+                <h3>One sentence: what's the mindset you're taking into Week 2?</h3>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({ hash:true, slideNumber:'c/t', transition:'slide', plugins:[ RevealHighlight, RevealNotes ] });
+    </script>
+</body>
+</html>

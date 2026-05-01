@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working Backwards | TPM Academy — Week 1 Day 2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+    <style>
+        :root { --heading-color:#0b2545; --accent-color:#13315c; --pink:#e63946; --teal:#2a9d8f; --warning-color:#c05621; --danger-color:#c53030; --text-color:#1f2d3d; }
+        .reveal { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-color); font-size: 26px; }
+        .reveal .slides section { text-align: left; padding: 20px 40px; }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 { color: var(--heading-color); font-weight: 700; }
+        .reveal h1 { font-size: 2.0em; } .reveal h2 { font-size: 1.5em; } .reveal h3 { font-size: 1.2em; }
+        .title-slide { text-align: center !important; }
+        .title-slide h1 { color:#fff; font-size:2.2em; text-shadow:2px 2px 4px rgba(0,0,0,.3); }
+        .title-slide h2 { color:#e2e8f0; font-size:1.3em; font-weight:400; }
+        .title-slide h3 { color:#cbd5e0; font-size:1.0em; font-weight:300; }
+        .section-divider { text-align: center !important; }
+        .section-divider h2 { color:#fff; font-size:1.9em; text-shadow:2px 2px 4px rgba(0,0,0,.3); }
+        .section-divider h3 { color:#e2e8f0; font-size:1.1em; font-weight:400; }
+        .highlight-box { background:#ebf4ff; border-left:4px solid var(--accent-color); padding:18px 22px; border-radius:0 8px 8px 0; margin:12px 0; }
+        .highlight-box.success { background:#f0fff4; border-left-color:var(--teal); }
+        .highlight-box.warning { background:#fffaf0; border-left-color:var(--warning-color); }
+        .highlight-box.danger { background:#fff5f5; border-left-color:var(--danger-color); }
+        .two-columns { display:grid; grid-template-columns:1fr 1fr; gap:26px; align-items:start; }
+        .three-columns { display:grid; grid-template-columns:1fr 1fr 1fr; gap:18px; align-items:start; }
+        .card { background:#fff; border-radius:12px; padding:22px; box-shadow:0 4px 6px rgba(0,0,0,.07); border:1px solid #e2e8f0; }
+        .card h3, .card h4 { margin-top:0; color:var(--accent-color); }
+        .concept-box { background:linear-gradient(135deg,#ebf4ff 0%,#e2e8f0 100%); border-radius:12px; padding:22px; margin:12px 0; border:1px solid #bee3f8; }
+        .concept-box h3, .concept-box h4 { color:var(--heading-color); margin-top:0; }
+        .key-point { background:#ebf4ff; border:2px solid var(--accent-color); border-radius:12px; padding:18px 22px; margin:12px 0; font-size:.95em; }
+        .key-point strong { color:var(--accent-color); }
+        .lab-callout { text-align:center !important; }
+        .lab-callout h2 { color:#fff; font-size:1.7em; }
+        .lab-callout h3 { color:#ffd6a5; font-size:1.2em; font-weight:400; }
+        .lab-callout p, .lab-callout ul li { color:#f1f5f9; }
+        .lab-callout ul { text-align:left; display:inline-block; }
+        .lab-callout .timebox { background:rgba(255,255,255,.12); border-radius:8px; padding:8px 14px; display:inline-block; margin-top:10px; color:#fff; }
+        .day-progress { display:flex; justify-content:center; gap:8px; margin-top:20px; }
+        .day-progress .step { width:40px; height:6px; border-radius:3px; background:#cbd5e0; }
+        .day-progress .step.active { background:var(--pink); }
+        .day-progress .step.completed { background:var(--teal); }
+        .reveal table { border-collapse:collapse; width:100%; font-size:.75em; margin:12px 0; }
+        .reveal table th { background:var(--heading-color); color:#fff; padding:10px 14px; text-align:left; }
+        .reveal table td { padding:9px 14px; border-bottom:1px solid #e2e8f0; }
+        .reveal table tr:nth-child(even) { background:#f7fafc; }
+        .reveal ul, .reveal ol { text-align:left; display:block; margin-left:1em; }
+        .reveal li { margin-bottom:.45em; line-height:1.5; font-size:.92em; }
+        .reveal pre code { font-size:.62em; line-height:1.35; max-height:470px; overflow:auto; border-radius:8px; }
+        .pill { display:inline-block; padding:3px 10px; border-radius:999px; font-size:.75em; font-weight:600; background:#edf2f7; color:var(--heading-color); margin-right:6px; }
+        .pill.teal { background:#e6fffa; color:#0f766e; }
+        .pill.pink { background:#fff1f2; color:#be123c; }
+        .pr-mock { background:#fffdf7; border:1px solid #d6d3d1; border-radius:8px; padding:18px 22px; font-family:Georgia,serif; }
+        .pr-mock h4 { margin:0 0 10px 0; font-family:'Segoe UI',sans-serif; color:#0b2545; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section data-background="linear-gradient(135deg,#0b2545 0%,#13315c 100%)" class="title-slide">
+                <h1>&#128196; Working Backwards</h1>
+                <h2>Week 1 &bull; Day 2 &bull; Customer-Centric Foundations</h2>
+                <h3>Technical Product Manager Academy</h3>
+                <div class="day-progress">
+                    <div class="step completed"></div><div class="step active"></div><div class="step"></div><div class="step"></div><div class="step"></div>
+                </div>
+                <aside class="notes">Yesterday we built prompting muscle. Today we use it to draft, critique, and iterate a PR/FAQ — Amazon's forcing function for customer clarity.</aside>
+            </section>
+
+            <section>
+                <h2>&#127919; Day 2 Objectives</h2>
+                <ul>
+                    <li class="fragment fade-up">Explain why <strong>Working Backwards</strong> out-performs feature-first planning</li>
+                    <li class="fragment fade-up">Structure and draft a one-page <strong>PR/FAQ</strong> for a product idea</li>
+                    <li class="fragment fade-up">Answer the <strong>Five Customer Questions</strong> concretely, not aspirationally</li>
+                    <li class="fragment fade-up">Apply Day 1 prompts to accelerate PR/FAQ drafting and critique</li>
+                    <li class="fragment fade-up">Run a structured peer critique of another triad's PR/FAQ</li>
+                </ul>
+                <aside class="notes">Stress the word "forcing function." The PR/FAQ is not decoration; it exposes what you don't understand.</aside>
+            </section>
+
+            <section>
+                <h2>&#128337; Today's Shape</h2>
+                <table>
+                    <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
+                    <tr><td>09:00 – 09:15</td><td>Opening</td><td>Recap Day 1, set up FieldPulse stretch case</td></tr>
+                    <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>Forward vs Backward thinking</td></tr>
+                    <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>PR/FAQ structure, headline drafting</td></tr>
+                    <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>The Five Customer Questions</td></tr>
+                    <tr><td>14:30 – 16:00</td><td>Block 4 + Activity 4 + Readouts</td><td>Peer critique + revision</td></tr>
+                </table>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 1 &mdash; Why Work Backwards?</h2>
+                <h3>The feature factory problem and the fix</h3>
+            </section>
+
+            <section>
+                <h2>&#128680; The Feature Factory Pattern</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4 style="color:var(--danger-color)">&#10060; Forward-built product</h4>
+                        <ul>
+                            <li>Idea &rarr; spec &rarr; build &rarr; ship</li>
+                            <li>"Customer value" asserted, not tested</li>
+                            <li>Launch reveals whether it was needed</li>
+                            <li>Re-work paid for in production</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4 style="color:var(--teal)">&#9989; Backward-built product</h4>
+                        <ul>
+                            <li>Imagine the launch &rarr; write the PR &rarr; answer the FAQ</li>
+                            <li>Customer value is <em>written down</em> first</li>
+                            <li>If the PR is weak, the product is weak</li>
+                            <li>Re-work paid for in writing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <strong>The shift:</strong> We do not use documents to plan what we'll build. We use them to <em>decide whether to build at all</em>.
+                </div>
+                <aside class="notes">A common pushback: "Isn't this just fiction?" Yes — and that's the point. Fiction you can stress-test is cheaper than code you can't unship.</aside>
+            </section>
+
+            <section>
+                <h2>&#128161; Where Working Backwards Came From</h2>
+                <p>Amazon formalized the <strong>PR/FAQ</strong> process in the early 2000s. Teams wrote a press release <em>before</em> the product existed, answered the FAQs an exec would ask, and used the document as the meeting agenda for "should we do this?"</p>
+                <div class="highlight-box">
+                    <strong>Why it spread:</strong> It reliably kills weak ideas early, surfaces the hard questions on paper (where answers are cheap), and forces alignment before a single engineer is staffed.
+                </div>
+                <aside class="notes">You don't need to romanticize Amazon. The method is the method, regardless of origin.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 1 &mdash; Forward or Backward?</h2>
+                <h3>Triads &bull; 30 minutes</h3>
+                <p>Each triad receives 4 short vignettes describing how a real (anonymized) product was conceived. Decide: was this forward-built or backward-built? What's the evidence?</p>
+                <ul>
+                    <li>Two of the four are misleading — read carefully</li>
+                    <li>For each, write the <em>one</em> question that, if asked earlier, would have changed the outcome</li>
+                </ul>
+                <div class="timebox">&#9201; 15 min analyze &middot; 15 min full-room debrief</div>
+                <aside class="notes">Use the debrief to surface disagreement. The "misleading" vignettes are the best teachers.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 2 &mdash; The PR/FAQ Structure</h2>
+                <h3>Anatomy of the document that kills bad ideas</h3>
+            </section>
+
+            <section>
+                <h2>&#128195; One-Page PR &mdash; Six Parts</h2>
+                <table>
+                    <tr><th>#</th><th>Section</th><th>Purpose</th></tr>
+                    <tr><td>1</td><td><strong>Heading</strong></td><td>Product + audience in one line a customer would read</td></tr>
+                    <tr><td>2</td><td><strong>Sub-heading</strong></td><td>Concrete benefit in customer language</td></tr>
+                    <tr><td>3</td><td><strong>Summary paragraph</strong></td><td>The story, in 3-4 sentences, as if launched</td></tr>
+                    <tr><td>4</td><td><strong>Problem paragraph</strong></td><td>The pain before your product existed</td></tr>
+                    <tr><td>5</td><td><strong>Solution paragraph</strong></td><td>How your product removes the pain &mdash; mechanism explicit</td></tr>
+                    <tr><td>6</td><td><strong>Customer quote</strong></td><td>A fictional but credible customer &mdash; if you can't write it believably, the PR fails</td></tr>
+                </table>
+                <aside class="notes">The customer quote is the single most diagnostic section. If it sounds like marketing, the problem is marketing.</aside>
+            </section>
+
+            <section>
+                <h2>&#128196; A FieldPulse PR &mdash; Working Sketch</h2>
+                <div class="pr-mock">
+                    <h4>FieldPulse launches "End-of-Day Reconcile" &mdash; 5-minute close-outs for HVAC dispatchers</h4>
+                    <p><em>Small-business HVAC dispatchers can now close their day in five minutes instead of 45, using a guided reconcile flow that pulls truck inventory, tech timecards, and parts usage into one approval screen.</em></p>
+                    <p><strong>Dispatchers at 50-to-200-technician shops</strong> typically stay 45 minutes past close every night reconciling paper tickets, truck stock, and timecards. FieldPulse's new End-of-Day Reconcile pulls these into a single guided flow, flags anomalies, and submits the day in under five minutes.</p>
+                    <p>"I used to leave after my kids were in bed. Last week I made it home for dinner four nights in a row." &mdash; Maria R., Lead Dispatcher, Reliable Climate Co.</p>
+                </div>
+                <aside class="notes">Walk through this line by line. Note: benefit is time (quantified), not "efficiency." Pain is named concretely. Customer speaks in customer words.</aside>
+            </section>
+
+            <section>
+                <h2>&#128221; The FAQ Side</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>Customer FAQ</h4>
+                        <ul>
+                            <li>How much does it cost?</li>
+                            <li>What if my truck inventory is wrong?</li>
+                            <li>Can I use it offline?</li>
+                            <li>How does it know what parts were used?</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Internal FAQ</h4>
+                        <ul>
+                            <li>What's the riskiest assumption?</li>
+                            <li>What's the build estimate? On what evidence?</li>
+                            <li>What breaks if adoption is 30% of plan?</li>
+                            <li>What existing integrations block this?</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight-box warning">
+                    <strong>Rule:</strong> If you can't write the internal FAQ, you don't understand the product yet. Go back to the PR.
+                </div>
+                <aside class="notes">Internal FAQ is where senior reviewers probe. Participants should expect most of their review critique to land here.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 2 &mdash; Headline + Sub-headline</h2>
+                <h3>Triads &bull; 45 minutes</h3>
+                <p>Each triad selects one product idea (from their Day 1 critique artifacts, or a provided list). Draft <strong>three</strong> candidate heading + sub-headings. Then use AI to critique each:</p>
+                <ul>
+                    <li>"Which of these would a dispatcher actually click on?"</li>
+                    <li>"Which promises something we can't deliver?"</li>
+                    <li>"Which is interchangeable with a competitor's marketing?"</li>
+                </ul>
+                <div class="timebox">&#9201; 15 min draft &middot; 15 min AI critique &middot; 15 min pick + justify</div>
+                <aside class="notes">The third question usually kills the favorite draft. That's a feature.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 3 &mdash; The Five Customer Questions</h2>
+                <h3>The diagnostic under every PR/FAQ</h3>
+            </section>
+
+            <section>
+                <h2>&#10067; Five Questions That Force Clarity</h2>
+                <ol>
+                    <li class="fragment fade-up"><strong>Who is the customer?</strong> Named role, named context, not "users."</li>
+                    <li class="fragment fade-up"><strong>What is the customer problem or opportunity?</strong> A verb, not a category.</li>
+                    <li class="fragment fade-up"><strong>What is the most important benefit?</strong> One benefit. If you list three, you don't have one yet.</li>
+                    <li class="fragment fade-up"><strong>How do you know what they want or need?</strong> Name the evidence. Tag the tier.</li>
+                    <li class="fragment fade-up"><strong>What does the experience look like?</strong> Describe the moment, not the feature.</li>
+                </ol>
+                <div class="key-point">
+                    If your PR/FAQ answers all five with specifics, scoping is easy. If it doesn't, no amount of engineering rigor will save it.
+                </div>
+                <aside class="notes">Anchor on question 4 — that's where Day 1's evidence tiers re-enter. Make sure participants make the connection explicitly.</aside>
+            </section>
+
+            <section>
+                <h2>&#128308; Common Failure Modes</h2>
+                <table>
+                    <tr><th>Failure</th><th>Symptom</th><th>Fix</th></tr>
+                    <tr><td>Generic customer</td><td>"Small business owners"</td><td>Name the role, size, and context</td></tr>
+                    <tr><td>Category problem</td><td>"Inefficient workflows"</td><td>Replace with a verb the customer uses</td></tr>
+                    <tr><td>Benefit bouquet</td><td>"Faster, better, cheaper"</td><td>Choose one. Defend it.</td></tr>
+                    <tr><td>Handwave evidence</td><td>"Customers told us"</td><td>Cite <em>who</em>, <em>when</em>, <em>what tier</em></td></tr>
+                    <tr><td>Feature description</td><td>"A dashboard with&hellip;"</td><td>Describe the human moment of use</td></tr>
+                </table>
+                <aside class="notes">This is the checklist triads will use in Activity 4 to critique each other.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 3 &mdash; Answer the Five, Concretely</h2>
+                <h3>Triads &bull; 45 minutes</h3>
+                <p>Your triad has a headline/sub-headline from Activity 2. Now draft a full PR paragraph + customer quote + 3 Customer-FAQ + 3 Internal-FAQ entries.</p>
+                <ul>
+                    <li>Use Day 1's research + summarization prompts to ground each claim</li>
+                    <li>Tag every claim with an evidence tier (<span class="pill teal">Observed</span>, <span class="pill">Reported</span>, <span class="pill">Inferred</span>, <span class="pill pink">AI-generated</span>)</li>
+                    <li>Be honest — unvalidated is fine today, but it must be <em>labeled</em></li>
+                </ul>
+                <div class="timebox">&#9201; 10 min plan &middot; 25 min draft &middot; 10 min self-review</div>
+                <aside class="notes">Walk the room looking for benefit bouquets and generic customers — most common two failures.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 4 &mdash; Peer Critique &amp; Revision</h2>
+                <h3>How to review without rewriting someone else's work</h3>
+            </section>
+
+            <section>
+                <h2>&#127919; The Critique Protocol</h2>
+                <p>Critique runs on a timed protocol so every author gets balanced feedback:</p>
+                <ol>
+                    <li><strong>2 min silent read</strong> — reviewer highlights 1 line they love, 1 they question</li>
+                    <li><strong>3 min "What I heard"</strong> — reviewer restates the product to the author in one sentence</li>
+                    <li><strong>5 min questions only</strong> — reviewer asks, author listens and takes notes (no defending)</li>
+                    <li><strong>5 min author response</strong> — author says what they'll change, what they'll leave</li>
+                </ol>
+                <div class="highlight-box success">
+                    <strong>Why "questions only":</strong> It forces reviewers to reveal what confused them rather than prescribing a fix. It respects the author's ownership.
+                </div>
+                <aside class="notes">This protocol reappears in Week 3 during the mini-capstone review. Teach it well now.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 4 &mdash; Cross-Triad PR/FAQ Review</h2>
+                <h3>Paired triads &bull; 60 minutes &bull; Readouts</h3>
+                <p>Triads pair up. Using the critique protocol, each triad reviews the other's PR/FAQ. Then 15 minutes to revise.</p>
+                <ul>
+                    <li>One critique from each failure-mode table cell</li>
+                    <li>Capture which evidence tier needs to be upgraded before Friday</li>
+                    <li>Each triad does a 60-second readout: <em>"What we changed and why"</em></li>
+                </ul>
+                <div class="timebox">&#9201; 20 min review A &middot; 20 min review B &middot; 15 min revise &middot; 5 min readout</div>
+                <aside class="notes">Don't let triads skip the "what we left" moment in the protocol. Declining feedback thoughtfully is a PM skill.</aside>
+            </section>
+
+            <section>
+                <h2>&#127881; Day 2 Wrap</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>What we built</h4>
+                        <ul>
+                            <li>A complete one-page PR/FAQ per triad</li>
+                            <li>The Five Customer Questions as a working checklist</li>
+                            <li>A critique protocol we'll reuse every week</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>What opens tomorrow</h4>
+                        <ul>
+                            <li><strong>Personas</strong> &mdash; we take "Who is the customer?" from a sentence to a validated artifact</li>
+                            <li>Your PR/FAQ customer quote becomes persona input on Day 3</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight-box warning">
+                    <strong>Bring to Day 3:</strong> Your PR/FAQ + the one unvalidated assumption you're most worried about.
+                </div>
+                <aside class="notes">Close with: "Your PR/FAQ is only as good as the persona it imagines. Tomorrow we pressure-test it."</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#0b2545 0%,#13315c 100%)" class="section-divider">
+                <h2>&#128172; Questions &amp; Reflection</h2>
+                <h3>Which of the Five Questions was hardest for your triad?</h3>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({ hash:true, slideNumber:'c/t', transition:'slide', plugins:[ RevealHighlight, RevealNotes ] });
+    </script>
+</body>
+</html>

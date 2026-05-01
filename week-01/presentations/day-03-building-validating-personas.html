@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building &amp; Validating Personas | TPM Academy — Week 1 Day 3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+    <style>
+        :root { --heading-color:#0b2545; --accent-color:#13315c; --pink:#e63946; --teal:#2a9d8f; --warning-color:#c05621; --danger-color:#c53030; --text-color:#1f2d3d; }
+        .reveal { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-color); font-size: 26px; }
+        .reveal .slides section { text-align:left; padding:20px 40px; }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 { color: var(--heading-color); font-weight:700; }
+        .reveal h1 { font-size:2.0em; } .reveal h2 { font-size:1.5em; } .reveal h3 { font-size:1.2em; }
+        .title-slide { text-align:center !important; }
+        .title-slide h1 { color:#fff; font-size:2.2em; text-shadow:2px 2px 4px rgba(0,0,0,.3); }
+        .title-slide h2 { color:#e2e8f0; font-size:1.3em; font-weight:400; }
+        .title-slide h3 { color:#cbd5e0; font-size:1.0em; font-weight:300; }
+        .section-divider { text-align:center !important; }
+        .section-divider h2 { color:#fff; font-size:1.9em; text-shadow:2px 2px 4px rgba(0,0,0,.3); }
+        .section-divider h3 { color:#e2e8f0; font-size:1.1em; font-weight:400; }
+        .highlight-box { background:#ebf4ff; border-left:4px solid var(--accent-color); padding:18px 22px; border-radius:0 8px 8px 0; margin:12px 0; }
+        .highlight-box.success { background:#f0fff4; border-left-color:var(--teal); }
+        .highlight-box.warning { background:#fffaf0; border-left-color:var(--warning-color); }
+        .highlight-box.danger { background:#fff5f5; border-left-color:var(--danger-color); }
+        .two-columns { display:grid; grid-template-columns:1fr 1fr; gap:26px; align-items:start; }
+        .three-columns { display:grid; grid-template-columns:1fr 1fr 1fr; gap:18px; align-items:start; }
+        .card { background:#fff; border-radius:12px; padding:22px; box-shadow:0 4px 6px rgba(0,0,0,.07); border:1px solid #e2e8f0; }
+        .card h3, .card h4 { margin-top:0; color:var(--accent-color); }
+        .concept-box { background:linear-gradient(135deg,#ebf4ff 0%,#e2e8f0 100%); border-radius:12px; padding:22px; margin:12px 0; border:1px solid #bee3f8; }
+        .concept-box h3, .concept-box h4 { color:var(--heading-color); margin-top:0; }
+        .key-point { background:#ebf4ff; border:2px solid var(--accent-color); border-radius:12px; padding:18px 22px; margin:12px 0; font-size:.95em; }
+        .key-point strong { color:var(--accent-color); }
+        .lab-callout { text-align:center !important; }
+        .lab-callout h2 { color:#fff; font-size:1.7em; }
+        .lab-callout h3 { color:#ffd6a5; font-size:1.2em; font-weight:400; }
+        .lab-callout p, .lab-callout ul li { color:#f1f5f9; }
+        .lab-callout ul { text-align:left; display:inline-block; }
+        .lab-callout .timebox { background:rgba(255,255,255,.12); border-radius:8px; padding:8px 14px; display:inline-block; margin-top:10px; color:#fff; }
+        .day-progress { display:flex; justify-content:center; gap:8px; margin-top:20px; }
+        .day-progress .step { width:40px; height:6px; border-radius:3px; background:#cbd5e0; }
+        .day-progress .step.active { background:var(--pink); }
+        .day-progress .step.completed { background:var(--teal); }
+        .reveal table { border-collapse:collapse; width:100%; font-size:.75em; margin:12px 0; }
+        .reveal table th { background:var(--heading-color); color:#fff; padding:10px 14px; text-align:left; }
+        .reveal table td { padding:9px 14px; border-bottom:1px solid #e2e8f0; }
+        .reveal table tr:nth-child(even) { background:#f7fafc; }
+        .reveal ul, .reveal ol { text-align:left; display:block; margin-left:1em; }
+        .reveal li { margin-bottom:.45em; line-height:1.5; font-size:.92em; }
+        .reveal pre code { font-size:.62em; line-height:1.35; max-height:470px; overflow:auto; border-radius:8px; }
+        .pill { display:inline-block; padding:3px 10px; border-radius:999px; font-size:.75em; font-weight:600; background:#edf2f7; color:var(--heading-color); margin-right:6px; }
+        .pill.teal { background:#e6fffa; color:#0f766e; }
+        .pill.pink { background:#fff1f2; color:#be123c; }
+        .persona-card { background:#fff; border-radius:12px; border:1px solid #e2e8f0; padding:22px; box-shadow:0 4px 6px rgba(0,0,0,.07); }
+        .persona-card h3 { margin-top:0; color:var(--accent-color); }
+        .persona-card .meta { color:#64748b; font-size:.85em; margin-bottom:8px; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section data-background="linear-gradient(135deg,#0b2545 0%,#13315c 100%)" class="title-slide">
+                <h1>&#128100; Building &amp; Validating Personas</h1>
+                <h2>Week 1 &bull; Day 3 &bull; Customer-Centric Foundations</h2>
+                <h3>Technical Product Manager Academy</h3>
+                <div class="day-progress">
+                    <div class="step completed"></div><div class="step completed"></div><div class="step active"></div><div class="step"></div><div class="step"></div>
+                </div>
+                <aside class="notes">Day 3 turns "who is the customer?" from a phrase into an artifact a team can disagree about productively.</aside>
+            </section>
+
+            <section>
+                <h2>&#127919; Day 3 Objectives</h2>
+                <ul>
+                    <li class="fragment fade-up">Distinguish <strong>behavioral personas</strong> from demographic stereotypes</li>
+                    <li class="fragment fade-up">Construct a persona from a mix of observed, reported, and inferred evidence</li>
+                    <li class="fragment fade-up">Run a <strong>5-question validation</strong> interview — and notice when you're leading the witness</li>
+                    <li class="fragment fade-up">Stress-test a persona against its own <strong>Jobs to Be Done</strong></li>
+                    <li class="fragment fade-up">Decide when AI is safe for persona drafting vs dangerous</li>
+                </ul>
+                <aside class="notes">Participants will often arrive with personas they dislike — usually because they've seen demographic "Marketing Mary" templates. We're doing something different.</aside>
+            </section>
+
+            <section>
+                <h2>&#128337; Today's Shape</h2>
+                <table>
+                    <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
+                    <tr><td>09:00 – 09:15</td><td>Opening</td><td>Review PR/FAQ quotes → persona inputs</td></tr>
+                    <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>Behavioral vs demographic</td></tr>
+                    <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>Build a persona from evidence</td></tr>
+                    <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>Validation interviews</td></tr>
+                    <tr><td>14:30 – 16:00</td><td>Block 4 + Activity 4 + Readouts</td><td>JTBD stress-test + revision</td></tr>
+                </table>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 1 &mdash; Behavioral vs Demographic</h2>
+                <h3>Why most personas don't change any decisions</h3>
+            </section>
+
+            <section>
+                <h2>&#128308; The Persona That Doesn't Do Anything</h2>
+                <div class="persona-card">
+                    <h3>Marketing Mary &mdash; 38, CMO, urban, drinks lattes</h3>
+                    <p class="meta">Job: CMO &middot; Age: 38 &middot; Income: $150k &middot; Hobbies: yoga</p>
+                    <p>Mary wants to grow her business and loves data-driven insights. She's busy and values efficiency.</p>
+                </div>
+                <div class="highlight-box danger" style="margin-top:16px;">
+                    <strong>What decision does this persona change?</strong> None. It describes a stock character, not a customer. You could swap Mary for any persona and build the same product.
+                </div>
+                <aside class="notes">Most participants have seen this persona. Ask them to name a decision it ever changed. Silence is instructive.</aside>
+            </section>
+
+            <section>
+                <h2>&#9989; The Persona That Does</h2>
+                <div class="persona-card">
+                    <h3>Dispatcher who hates re-routing</h3>
+                    <p class="meta">Role: Lead Dispatcher, 50–200 tech HVAC co. &middot; Tenure: 10+ yrs in trades</p>
+                    <ul>
+                        <li><strong>Observed:</strong> Spends 45 min post-close reconciling tickets on paper (6 of 8 dispatchers observed)</li>
+                        <li><strong>Observed:</strong> Never uses keyboard shortcuts; refuses training that runs past 20 min</li>
+                        <li><strong>Reported:</strong> "Mid-day re-routes are my worst hour" (7 of 10 interviewed)</li>
+                        <li><strong>Inferred:</strong> Distrusts software that "hides" truck inventory behind a click</li>
+                    </ul>
+                </div>
+                <div class="key-point">
+                    This persona changes decisions: no training longer than 20 min, inventory visible on primary screen, re-route flow is the hero path.
+                </div>
+                <aside class="notes">Highlight the evidence tags. This is where Day 1's evidence tiers earn their keep.</aside>
+            </section>
+
+            <section>
+                <h2>&#128218; Components of a Working Persona</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>&#128269; Always include</h4>
+                        <ul>
+                            <li>Role + context (company type, size, tenure)</li>
+                            <li>Observed behaviors (not beliefs)</li>
+                            <li>Goals expressed in their words</li>
+                            <li>Current workarounds and tools</li>
+                            <li>Constraints (physical, organizational, cognitive)</li>
+                            <li>Evidence tier per claim</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>&#10060; Usually skip</h4>
+                        <ul>
+                            <li>Stock photo + invented name (if it distracts)</li>
+                            <li>Hobbies, lifestyle, brand preferences (unless load-bearing)</li>
+                            <li>Traits written as adjectives ("busy," "tech-savvy")</li>
+                            <li>Any claim you can't tie to evidence</li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="notes">Name + photo debate is a distraction — optional. Adjectives are the real killer because they're un-falsifiable.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 1 &mdash; Persona Triage</h2>
+                <h3>Triads &bull; 30 minutes</h3>
+                <p>Your triad gets 3 real-world personas (sanitized from actual companies). For each:</p>
+                <ul>
+                    <li>Highlight every claim that's behavioral vs demographic vs adjectival</li>
+                    <li>Mark which claims would change a product decision</li>
+                    <li>Rewrite the weakest one in 10 minutes</li>
+                </ul>
+                <div class="timebox">&#9201; 5 min read &middot; 15 min mark up &middot; 10 min rewrite</div>
+                <aside class="notes">One of the three provided personas is intentionally good. Make sure triads notice — not every persona is broken.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 2 &mdash; Build From Evidence</h2>
+                <h3>The Persona Validation Canvas</h3>
+            </section>
+
+            <section>
+                <h2>&#128203; The Canvas (one sheet, six boxes)</h2>
+                <table>
+                    <tr><th>Box</th><th>Content</th><th>Evidence tiers allowed</th></tr>
+                    <tr><td>Role &amp; context</td><td>Who they are and where they work</td><td>Observed, Reported</td></tr>
+                    <tr><td>Goals (in their words)</td><td>What they're trying to accomplish</td><td>Reported primarily</td></tr>
+                    <tr><td>Current behavior</td><td>What they do today</td><td>Observed primarily</td></tr>
+                    <tr><td>Constraints</td><td>What limits them</td><td>Observed or Reported</td></tr>
+                    <tr><td>Pain points</td><td>What hurts (verbs, not categories)</td><td>Observed or Reported</td></tr>
+                    <tr><td>Assumptions to validate</td><td>What you don't know yet</td><td>Inferred + AI-generated</td></tr>
+                </table>
+                <div class="highlight-box warning">
+                    <strong>Rule:</strong> AI-generated claims can seed Boxes 1–5 but must move to a higher tier before Friday's readout.
+                </div>
+                <aside class="notes">The canvas is provided as a printable handout in the Day 3 activity folder.</aside>
+            </section>
+
+            <section>
+                <h2>&#129504; Using AI Safely for Persona Drafting</h2>
+                <pre><code class="language-text">Role: Research assistant helping a TPM build an evidence-grounded persona.
+Context:
+  - The user role is Lead Dispatcher at a 50–200 tech HVAC company.
+  - Observed behaviors (tier: Observed): [paste notes from ride-along]
+  - Reported statements (tier: Reported): [paste 6 interview quotes]
+Constraints:
+  - Do NOT invent behaviors or quotes.
+  - Every claim in your output must cite one of the notes or quotes above, OR be flagged as Inferred.
+  - If you generate any claim not grounded in the inputs, tag it AI-generated with a note: "validate before use."
+Format: Persona Validation Canvas (6 sections).
+</code></pre>
+                <aside class="notes">This prompt is in the Day 1 Pattern Library — point back to it explicitly.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 2 &mdash; Build Your Persona</h2>
+                <h3>Triads &bull; 45 minutes</h3>
+                <p>Your triad has PR/FAQ customer quote + whatever assumptions you're carrying. Build a canvas-format persona for the primary customer in your product idea.</p>
+                <ul>
+                    <li>Start with what you actually know (provided research packet for FieldPulse)</li>
+                    <li>Use AI only for Boxes 5 and 6 — and tag carefully</li>
+                    <li>Circle the 3 claims you'd most want to validate with a real person</li>
+                </ul>
+                <div class="timebox">&#9201; 10 min plan &middot; 25 min draft &middot; 10 min mark validation targets</div>
+                <aside class="notes">FieldPulse research packet includes 3 de-identified dispatcher interviews and a ride-along note — enough grounding for a real draft.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 3 &mdash; Validation Interviews</h2>
+                <h3>Getting to evidence without leading the witness</h3>
+            </section>
+
+            <section>
+                <h2>&#128276; The Five-Question Validation Protocol</h2>
+                <ol>
+                    <li class="fragment fade-up"><strong>Walk me through the last time you did X.</strong> (Past behavior &gt; hypothetical)</li>
+                    <li class="fragment fade-up"><strong>What was hardest about that?</strong> (Let them name the pain)</li>
+                    <li class="fragment fade-up"><strong>What did you do to work around it?</strong> (Workarounds reveal severity)</li>
+                    <li class="fragment fade-up"><strong>How often does that happen?</strong> (Frequency calibrates impact)</li>
+                    <li class="fragment fade-up"><strong>If you could wave a wand, what would change?</strong> (Only at the end, and discount heavily)</li>
+                </ol>
+                <div class="highlight-box warning">
+                    <strong>Do not ask:</strong> "Would you use a product that did X?" The answer is always yes. Observe past behavior instead.
+                </div>
+                <aside class="notes">This protocol is "Mom Test"-adjacent (Rob Fitzpatrick). Credit the lineage without requiring the book.</aside>
+            </section>
+
+            <section>
+                <h2>&#9888;&#65039; Bias Traps in the Room</h2>
+                <table>
+                    <tr><th>Bias</th><th>What it sounds like</th><th>Correction</th></tr>
+                    <tr><td>Leading question</td><td>"Wouldn't it be great if&hellip;?"</td><td>Rephrase to past-tense behavior</td></tr>
+                    <tr><td>Confirmation</td><td>Only listening for "yes"</td><td>Write down the 3 things that didn't fit your hypothesis</td></tr>
+                    <tr><td>Single-story</td><td>N=1 generalized to a persona</td><td>Require 3+ interviews before claims</td></tr>
+                    <tr><td>Enthusiasm</td><td>"They loved it!"</td><td>Count compliments vs purchase/use signals</td></tr>
+                </table>
+                <aside class="notes">Every bias here is common. Ask participants which they've caught themselves in — vulnerability speeds learning.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 3 &mdash; Role-Play Interviews</h2>
+                <h3>Triads (rotating roles) &bull; 45 minutes</h3>
+                <p>Each triad member takes a turn in all three roles: <strong>interviewer</strong>, <strong>interviewee</strong> (given a FieldPulse dispatcher character card), <strong>observer</strong> (tallies bias traps).</p>
+                <ul>
+                    <li>10 min per rotation: 7 min interview + 3 min debrief</li>
+                    <li>Observer uses a provided tally sheet (leading, confirmation, enthusiasm)</li>
+                    <li>After three rounds: which validation target did <em>not</em> survive contact?</li>
+                </ul>
+                <div class="timebox">&#9201; 30 min rotations &middot; 15 min synthesize</div>
+                <aside class="notes">The character cards are in the Day 3 activity folder. They include hidden details interviewers will only surface with good questions.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#13315c 0%,#1e3a5f 100%)" class="section-divider">
+                <h2>Block 4 &mdash; JTBD Stress-Test</h2>
+                <h3>Does this persona explain why they'd hire (or fire) your product?</h3>
+            </section>
+
+            <section>
+                <h2>&#128296; Jobs to Be Done, Briefly</h2>
+                <div class="concept-box">
+                    <p>A <strong>Job to Be Done</strong> is the progress a customer is trying to make in a particular circumstance. Products are "hired" to make that progress and "fired" when something better comes along.</p>
+                </div>
+                <p>Form: <em>"When I [circumstance], I want to [motivation], so I can [expected outcome]."</em></p>
+                <div class="highlight-box success">
+                    <strong>Example:</strong> "When a tech calls out sick mid-shift, I want to re-route the remaining jobs without re-keying them, so I can keep promised ETAs without staying late."
+                </div>
+                <aside class="notes">Keep JTBD light today — we're using it as a stress-test, not teaching a full framework.</aside>
+            </section>
+
+            <section>
+                <h2>&#129514; The Stress-Test Checklist</h2>
+                <ol>
+                    <li class="fragment fade-up">For each JTBD, can the persona produce a concrete last-time-this-happened story?</li>
+                    <li class="fragment fade-up">Does the persona's current behavior explain what they "hire" today (even if it's a paper notebook)?</li>
+                    <li class="fragment fade-up">If your product didn't exist, what would they do instead? Is that a credible fallback?</li>
+                    <li class="fragment fade-up">What would have to be true for them to <em>fire</em> your product?</li>
+                </ol>
+                <div class="key-point">
+                    If the persona survives all four, you have something to engineer against. If not, you have an interview plan.
+                </div>
+                <aside class="notes">Question 4 is often the most uncomfortable — it's also the one that reveals brittle value propositions.</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#e63946 0%,#c1121f 100%)" class="lab-callout">
+                <h2>&#128101; Activity 4 &mdash; JTBD Cross-Examination</h2>
+                <h3>Paired triads &bull; 60 minutes &bull; Readouts</h3>
+                <p>Triads pair. Each presents their persona + 2 JTBDs. The other triad plays "skeptical engineer" and runs the stress-test checklist out loud.</p>
+                <ul>
+                    <li>Every "I don't know" goes on a parking lot of open validation questions</li>
+                    <li>Revise the persona to downgrade or remove unsupported claims</li>
+                    <li>60-second readout: one claim we upgraded, one we had to drop</li>
+                </ul>
+                <div class="timebox">&#9201; 25 min per direction &middot; 10 min full-room readouts</div>
+                <aside class="notes">"Dropping a claim" publicly is the hardest thing we ask all week. Celebrate triads that do it honestly.</aside>
+            </section>
+
+            <section>
+                <h2>&#127881; Day 3 Wrap</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>What we built</h4>
+                        <ul>
+                            <li>An evidence-tagged persona per triad</li>
+                            <li>A validation interview protocol we can rerun anytime</li>
+                            <li>A JTBD-based stress-test for personas</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>What opens tomorrow</h4>
+                        <ul>
+                            <li><strong>Pain points</strong> &mdash; we take the persona's "pains" box and turn it into a ranked, scored map</li>
+                            <li>Your validated persona is the input</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight-box warning">
+                    <strong>Bring to Day 4:</strong> Your persona sheet + at least 5 candidate pain points extracted from it.
+                </div>
+                <aside class="notes">Close with: "A persona you would defend in front of an engineer is worth ten you keep to yourself."</aside>
+            </section>
+
+            <section data-background="linear-gradient(135deg,#0b2545 0%,#13315c 100%)" class="section-divider">
+                <h2>&#128172; Questions &amp; Reflection</h2>
+                <h3>What's the one assumption you're leaving the day without having validated?</h3>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({ hash:true, slideNumber:'c/t', transition:'slide', plugins:[ RevealHighlight, RevealNotes ] });
+    </script>
+</body>
+</html>
