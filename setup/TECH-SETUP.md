@@ -236,5 +236,5 @@ Looking forward to Monday.
 - Course README: `README.md`
 - Source outline: `Expeditors _ TPM Immersive Academy _ Outline.pdf`
 - Daily decks: `week-XX/presentations/day-XX-*.html`
-- Lab packets: `week-XX/labs/day-XX-*/README.md`
+- Lab packets: `week-XX/labs/day-XX-*.md`
 - Week overviews: `week-XX/labs/README.md`

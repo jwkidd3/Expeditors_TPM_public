@@ -48,16 +48,16 @@ Each day's artifact is an input to the next. Friday readouts preview the muscles
 - [ ] Confirm every participant has access to a generative AI tool (ChatGPT, Claude, or equivalent) before Day 1 starts.
 - [ ] Pre-print or share digitally: the **Persona Validation Canvas** (Day 3), **Pain-Point Severity Matrix** (Day 4), and **Problem Statement Template** (Day 5).
 - [ ] Form cohort triads by the end of Day 1 morning; triads persist through Week 3.
-- [ ] Prepare the **running case study** — the academy uses a shared reference product *"FieldPulse"*, a mobile-first dispatch tool for field service technicians. This appears in every day's examples; read the FieldPulse brief in `day-01-ai-fundamentals/README.md` before facilitating.
+- [ ] Prepare the **running case study** — the academy uses a shared reference product *"FieldPulse"*, a mobile-first dispatch tool for field service technicians. This appears in every day's examples; read the FieldPulse brief in `day-01-ai-fundamentals.md` before facilitating.
 - [ ] Review the Week 1 capstone readout rubric (end of this file).
 
 ## Materials referenced across the week
 
-- `day-01-ai-fundamentals/README.md` — Prompt pattern library, FieldPulse case brief
-- `day-02-working-backwards/README.md` — PR/FAQ template, 5 customer questions worksheet
-- `day-03-personas/README.md` — Persona Validation Canvas, interview script cards
-- `day-04-pain-points/README.md` — Severity × Frequency × Addressability matrix
-- `day-05-problem-framing/README.md` — Problem statement template, evidence tier guide
+- `day-01-ai-fundamentals.md` — Prompt pattern library, FieldPulse case brief
+- `day-02-working-backwards.md` — PR/FAQ template, 5 customer questions worksheet
+- `day-03-personas.md` — Persona Validation Canvas, interview script cards
+- `day-04-pain-points.md` — Severity × Frequency × Addressability matrix
+- `day-05-problem-framing.md` — Problem statement template, evidence tier guide
 
 ## Week 1 readout rubric (Friday afternoon)
 
