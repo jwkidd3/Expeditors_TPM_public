@@ -1,0 +1,174 @@
+# Day 1 — Operational Signals & KPIs
+
+> **Activity packet** for facilitators and participant triads. This file is the single source of truth for the day's small-group work, examples, and deliverable templates.
+
+## Where we are in the week
+
+Week 2 opens by giving each triad a vocabulary for "what better looks like." Today's job is to install three terms that will be used every day for the rest of the academy: **operational signal**, **KPI**, and **North Star** (which gets its full treatment on Day 2).
+
+Inputs from Week 1: each triad arrives with its **problem statement** and **Prompt Pattern Library**. Both are referenced today.
+
+---
+
+## The Metrics Tier Sheet (today's main artifact)
+
+Each triad ends Day 1 with a Metrics Tier Sheet for the FieldPulse problem they framed in Week 1. The sheet has three rows:
+
+| Tier | Definition | How many today | Purpose |
+|------|------------|----------------|---------|
+| North Star (NS) | The single metric that, if it goes up, the customer is winning AND the business is winning | 1 candidate (placeholder) | Day 2 will replace this |
+| KPI | Business-level outcome that the NS rolls up to or that signals NS health | 2–3 | Quarterly board view |
+| Operational signal | Daily/hourly leading indicator a team can act on | 4–6 | What the squad watches in standups |
+
+A "well-formed" tier sheet has a believable **causal chain**: a change in an operational signal plausibly ripples up to a KPI, which ripples to the NS.
+
+---
+
+## Activity 1 — "Metric or Vanity?"
+
+**Format:** Triad &bull; **35 min** &bull; Block 1
+
+### Purpose
+Ground the room in the difference between metrics that move because the customer's life got better, and metrics that move because the team got clever.
+
+### Setup
+Each triad receives the **Vanity-Metric Card Pack** (12 metrics drawn from FieldPulse-adjacent SaaS products). Examples in the deck:
+
+- Daily Active Users
+- Number of features shipped per quarter
+- Average session length
+- % of dispatchers who completed onboarding
+- Support tickets closed per agent per day
+- Mean time to first dispatch after login
+- Reconcile-flow completion rate
+- New trial sign-ups per week
+
+### The triad's task
+
+For each card, the triad places it on a 2x2:
+
+```
+                Easy to game
+                    |
+                    |
+Lagging  -----------+----------- Leading
+                    |
+                    |
+                Hard to game
+```
+
+Then they pick the **two cards** they would bet on for FieldPulse and the **two cards** they would never report up.
+
+### Readout (60 seconds per triad)
+
+> "We would bet on [X] and [Y] because [reason rooted in causal chain]. We would never report up [A] or [B] because [reason]."
+
+### Facilitator coaching cues
+
+- If a triad picks "session length" as a bet — ask whether longer sessions are good for a dispatcher who hates being on the app.
+- If a triad picks "tickets closed per agent" — ask what happens when an agent closes tickets without solving them.
+- These are the productive arguments. Hold space.
+
+---
+
+## Activity 2 — Operational signal sprint
+
+**Format:** Triad &bull; **40 min** &bull; Block 2
+
+### Purpose
+Generate a credible bench of operational signals for the triad's Week-1 problem statement.
+
+### The protocol
+
+1. Re-read the triad's problem statement aloud.
+2. Each triad member independently writes 4 candidate operational signals (12 total).
+3. The triad culls to **6 finalists**. For each, capture:
+    - **What it measures**
+    - **Where the data comes from** (system, log, instrumentation gap)
+    - **How fast it moves** (real-time, hourly, daily, weekly)
+    - **What action a team would take** if it dropped 30%
+
+### The "instrumentation gap" check
+
+For at least 2 of the 6 finalists, the triad will discover the data **does not exist yet**. That is intentional. Mark these in red — they become input for the Week 4–5 technical infrastructure conversations.
+
+### Output (added to Metrics Tier Sheet)
+
+The 6 operational signals populate the bottom row.
+
+---
+
+## Activity 3 — KPI laddering
+
+**Format:** Triad &bull; **40 min** &bull; Block 3
+
+### Purpose
+Bridge from operational signals (squad-level) to KPIs (org-level). This is where TPMs earn their seat in cross-functional rooms.
+
+### The laddering exercise
+
+Take the 6 operational signals from Activity 2. For each, the triad answers:
+
+> "If this signal moved 30% in the right direction for an entire quarter, what business KPI would that show up in?"
+
+Cluster operational signals that ladder to the same KPI. Aim for **2–3 KPI clusters**.
+
+### KPI quality bar
+
+A well-formed KPI for FieldPulse passes all four:
+
+- [ ] Spoken in business terms (revenue, retention, time-to-value, NPS)
+- [ ] A senior leader cares about it without translation
+- [ ] You can imagine a single chart that shows it weekly
+- [ ] You can name what's "good" without inventing a number
+
+### Output (added to Metrics Tier Sheet)
+
+The 2–3 KPIs populate the middle row.
+
+---
+
+## Activity 4 — Tier Sheet defense + North Star placeholder
+
+**Format:** Triad &bull; **45 min** + Readouts &bull; Block 4
+
+### Purpose
+Complete the Tier Sheet, do a peer-defense round, and seed Day 2's North Star work.
+
+### Triad workflow
+
+1. **Draft a North Star placeholder** (15 min). The triad invents a one-sentence NS using the template:
+   > "We are winning when [customer outcome] increases for [user segment], measured by [single number]."
+   This will be revisited tomorrow. Today, just get a placeholder to react to.
+
+2. **Pair-defense round** (20 min). Each triad pairs with another triad. Defender presents the Tier Sheet for 4 minutes. Challenger uses the **Three Standard Challenges**:
+    - **Causal chain:** "Show me how a change in operational signal #3 plausibly moves your KPI."
+    - **Gameability:** "Pick the easiest of these to game. How would a sales-incentivized team game it?"
+    - **Instrumentation:** "Which two of these can you actually measure today, in production?"
+
+3. **Refine** (10 min). Capture the strongest challenge in a "known weaknesses" line at the bottom of the Tier Sheet.
+
+### Readout structure (60 seconds per triad)
+
+> "Our NS placeholder is [X]. Our hardest challenge was [Y]. Our biggest instrumentation gap is [Z]."
+
+### Facilitator: collect tier sheets
+
+Pin the Metrics Tier Sheets on a shared wall. They will be referenced every day this week.
+
+---
+
+## End-of-day checkpoint
+
+Each triad leaves the day with:
+
+- [x] A complete Metrics Tier Sheet (NS placeholder + 2–3 KPIs + 6 operational signals)
+- [x] At least one named instrumentation gap
+- [x] One "known weakness" of the current Tier Sheet (from the defense round)
+- [x] A Day 2 commitment: bring a candidate alternative to your NS placeholder
+
+## Facilitator reflection prompts (end of day)
+
+- Did any triad lock in a vanity metric without surfacing it as one? What language would I introduce earlier tomorrow?
+- Which triad has the weakest causal chain? They are the one to coach in tomorrow's Activity 1.
+- Did anyone propose a metric that is easy to measure but irrelevant? That's the most common silent failure mode — name it openly tomorrow.

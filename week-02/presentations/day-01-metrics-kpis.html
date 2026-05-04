@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operational Signals &amp; KPIs | TPM Academy — Week 2 Day 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+    <style>
+        :root {
+            --heading-color: #1a365d;
+            --accent-color: #2b6cb0;
+            --success-color: #2f855a;
+            --warning-color: #c05621;
+            --danger-color: #c53030;
+            --text-color: #2d3748;
+        }
+        .reveal { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-color); font-size: 28px; }
+        .reveal .slides section { text-align: left; padding: 20px 40px; }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 { color: var(--heading-color); font-weight: 700; text-transform: none; }
+        .reveal h1 { font-size: 2.2em; } .reveal h2 { font-size: 1.6em; } .reveal h3 { font-size: 1.3em; }
+        .title-slide { text-align: center !important; }
+        .title-slide h1 { color: #ffffff; font-size: 2.4em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); margin-bottom: 0.3em; }
+        .title-slide h2 { color: #e2e8f0; font-size: 1.4em; font-weight: 400; }
+        .title-slide h3 { color: #cbd5e0; font-size: 1.1em; font-weight: 300; }
+        .section-divider { text-align: center !important; }
+        .section-divider h2 { color: #ffffff; font-size: 2.0em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .section-divider h3 { color: #e2e8f0; font-size: 1.2em; font-weight: 400; }
+        .highlight-box { background: #ebf8ff; border-left: 4px solid var(--accent-color); padding: 20px 25px; border-radius: 0 8px 8px 0; margin: 15px 0; text-align: left; }
+        .highlight-box.success { background: #f0fff4; border-left-color: var(--success-color); }
+        .highlight-box.warning { background: #fffaf0; border-left-color: var(--warning-color); }
+        .highlight-box.danger { background: #fff5f5; border-left-color: var(--danger-color); }
+        .two-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; text-align: left; }
+        .three-columns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; align-items: start; text-align: left; }
+        .card { background: #ffffff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: left; }
+        .card h3, .card h4 { margin-top: 0; color: var(--accent-color); }
+        .concept-box { background: linear-gradient(135deg, #ebf8ff 0%, #e2e8f0 100%); border-radius: 12px; padding: 25px; margin: 15px 0; border: 1px solid #bee3f8; text-align: left; }
+        .concept-box h3, .concept-box h4 { color: var(--heading-color); margin-top: 0; }
+        .key-point { background: #ebf8ff; border: 2px solid var(--accent-color); border-radius: 12px; padding: 20px 25px; margin: 15px 0; text-align: left; font-size: 0.95em; }
+        .key-point strong { color: var(--accent-color); }
+        .lab-callout h2 { color: #ffffff; font-size: 1.8em; margin-bottom: 0.3em; }
+        .lab-callout h3 { color: #90cdf4; font-size: 1.3em; font-weight: 400; }
+        .lab-callout p { color: #e2e8f0; font-size: 1.0em; }
+        .lab-callout ul { color: #e2e8f0; text-align: left; display: inline-block; }
+        .lab-callout .highlight-box { background: rgba(255,255,255,0.1); border-left-color: #90cdf4; color: #e2e8f0; }
+        .questions-slide h2 { color: #ffffff; font-size: 2.2em; }
+        .questions-slide p { color: #e2e8f0; font-size: 1.2em; }
+        .module-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .module-progress .step { width: 30px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .module-progress .step.active { background: var(--accent-color); }
+        .module-progress .step.completed { background: var(--success-color); }
+        .reveal table { border-collapse: collapse; width: 100%; font-size: 0.75em; margin: 15px 0; }
+        .reveal table th { background: var(--heading-color); color: #ffffff; padding: 12px 16px; text-align: left; font-weight: 600; }
+        .reveal table td { padding: 10px 16px; border-bottom: 1px solid #e2e8f0; text-align: left; }
+        .reveal table tr:nth-child(even) { background: #f7fafc; }
+        .reveal ul, .reveal ol { text-align: left; display: block; margin-left: 1em; }
+        .reveal li { margin-bottom: 0.5em; line-height: 1.5; font-size: 0.9em; }
+        .reveal p { line-height: 1.6; }
+        .reveal pre code { font-size: 0.7em; line-height: 1.4; max-height: 500px; overflow: auto; border-radius: 8px; }
+        .instructor-card { display: grid; grid-template-columns: auto 1fr; gap: 30px; align-items: center; }
+        .instructor-photo { width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(135deg, #cbd5e0 0%, #a0aec0 100%); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 4em; }
+    
+        .day-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .day-progress .step { width: 40px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .day-progress .step.active { background: var(--accent-color); }
+        .day-progress .step.completed { background: var(--success-color); }
+        .pill { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 0.75em; font-weight: 600; background: #edf2f7; color: var(--heading-color); margin-right: 6px; }
+        .pill.accent { background: #ebf8ff; color: var(--accent-color); }
+        .pill.success { background: #f0fff4; color: var(--success-color); }
+        .pill.warning { background: #fffaf0; color: var(--warning-color); }
+        .pill.danger { background: #fff5f5; color: var(--danger-color); }
+        .timebox { background: rgba(255,255,255,0.12); border-radius: 8px; padding: 8px 14px; display: inline-block; margin-top: 10px; color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Title Slide -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="title-slide">
+                <h1>&#128202; Operational Signals &amp; KPIs</h1>
+                <h2>Week 2 &bull; Day 1 &bull; Strategic Design &amp; Metrics</h2>
+                <h3>TPM Academy</h3>
+                <div class="day-progress">
+                    <div class="step active"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                </div>
+                <aside class="notes">Welcome back. Week 1 ended with a problem statement; Week 2 turns it into something we can measure. Today is a vocabulary day — install three terms the cohort will use every day for the next 6 weeks.</aside>
+            </section>
+
+            <!-- Day Objectives -->
+            <section>
+                <h2>&#127919; Day 1 Objectives</h2>
+                <ul>
+                    <li class="fragment fade-up">Distinguish <strong>operational signals</strong>, <strong>KPIs</strong>, and a <strong>North Star</strong> — three different audiences, three different rhythms</li>
+                    <li class="fragment fade-up">Spot vanity metrics by their two telltale signs: <em>easy to move</em>, <em>hard to attribute</em></li>
+                    <li class="fragment fade-up">Build a believable <strong>causal chain</strong> from operational signal &rarr; KPI &rarr; NS</li>
+                    <li class="fragment fade-up">Identify the <strong>instrumentation gaps</strong> that block your strategy from being measurable today</li>
+                    <li class="fragment fade-up">Produce a triad <strong>Metrics Tier Sheet</strong> for your Week-1 problem statement</li>
+                </ul>
+                <aside class="notes">The Tier Sheet from today is the spine of every other artifact this week. Treat it as load-bearing.</aside>
+            </section>
+
+            <!-- Today's Shape -->
+            <section>
+                <h2>&#128337; Today's Shape</h2>
+                <table>
+                    <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
+                    <tr><td>09:00 – 09:15</td><td>Opening</td><td>Reground in your Week-1 problem statement</td></tr>
+                    <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>"Metric or Vanity?"</td></tr>
+                    <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>Operational signal sprint</td></tr>
+                    <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>KPI laddering</td></tr>
+                    <tr><td>14:30 – 16:00</td><td>Block 4 + Activity 4 + Readouts</td><td>Tier Sheet defense</td></tr>
+                </table>
+                <aside class="notes">The day reads bottom-up: signals &rarr; KPIs &rarr; placeholder NS. Day 2 does the NS properly.</aside>
+            </section>
+
+            <!-- Section: Block 1 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 1 &mdash; Three Tiers, Three Audiences</h2>
+                <h3>Why we say "metric" too loosely</h3>
+            </section>
+
+            <!-- The pyramid -->
+            <section>
+                <h2>&#127968; The Metrics Pyramid</h2>
+                <div class="pyramid">
+                    <div class="row ns">North Star &mdash; "Are we winning?"</div><br>
+                    <div class="row kpi">KPIs &mdash; "Is the business healthy?"</div><br>
+                    <div class="row ops">Operational signals &mdash; "What do we do today?"</div>
+                </div>
+                <div class="key-point">
+                    <strong>The shape matters:</strong> few NSs (1), few KPIs (2–4), many operational signals (4–10). A team that has 10 KPIs has 0 KPIs.
+                </div>
+                <aside class="notes">When someone says "metric," ask "to whom?" The CEO does not want operational signals; the squad cannot act on a North Star.</aside>
+            </section>
+
+            <!-- Definition table -->
+            <section>
+                <h2>&#128218; Definitions That Hold Up Under Pressure</h2>
+                <table>
+                    <tr><th>Tier</th><th>Definition</th><th>Rhythm</th><th>Audience</th></tr>
+                    <tr><td><strong>North Star</strong></td><td>The single number that says "the customer is winning AND the business is winning"</td><td>Quarterly to annual</td><td>Whole company</td></tr>
+                    <tr><td><strong>KPI</strong></td><td>Business outcome that the NS rolls up to or directly signals</td><td>Weekly to monthly</td><td>Leadership / board</td></tr>
+                    <tr><td><strong>Operational signal</strong></td><td>Daily/hourly leading indicator a squad can act on</td><td>Real-time to daily</td><td>Squad / TPM</td></tr>
+                </table>
+                <div class="highlight-box success">
+                    <strong>The TPM job:</strong> own the operational signals, defend the KPIs, contribute to the North Star.
+                </div>
+                <aside class="notes">Most TPMs spend 80% of their measurement attention at the operational-signal layer. That is correct.</aside>
+            </section>
+
+            <!-- Vanity vs Actionable -->
+            <section>
+                <h2>&#129327; The Vanity Metric Trap</h2>
+                <div class="concept-box">
+                    <p>A vanity metric is one that <strong>goes up</strong> when something happens that doesn't actually matter, and <strong>can't be moved</strong> by a deliberate decision.</p>
+                </div>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>&#10060; Vanity</h4>
+                        <ul>
+                            <li>Total signups (no churn signal)</li>
+                            <li>Page views</li>
+                            <li>Features shipped</li>
+                            <li>Average session length</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>&#9989; Actionable</h4>
+                        <ul>
+                            <li>Activated accounts in week 1</li>
+                            <li>Time-to-first-value</li>
+                            <li>% of intended workflows completed</li>
+                            <li>Repeat-use within 7 days</li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="notes">The session-length question is the most useful for FieldPulse: a dispatcher who *hates* the app would have low session lengths because they finished fast. Length is not a value signal.</aside>
+            </section>
+
+            <!-- Activity 1 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 1 &mdash; "Metric or Vanity?"</h2>
+                <h3>Triads &bull; 35 minutes</h3>
+                <p>Each triad receives the <strong>Vanity-Metric Card Pack</strong> (12 cards from FieldPulse-adjacent SaaS). Place each on a 2x2 of <em>Easy-to-game</em> vs <em>Lagging/Leading</em>.</p>
+                <ul>
+                    <li>Pick 2 cards your triad would <strong>bet on</strong> for FieldPulse</li>
+                    <li>Pick 2 cards your triad would <strong>never report up</strong></li>
+                    <li>Be ready with one sentence on each pick</li>
+                </ul>
+                <div class="timebox">&#9201; 10 min sort &middot; 15 min discuss &middot; 10 min readout prep</div>
+                <aside class="notes">Hold space for productive arguments. Disagreement here is the learning. Don't pre-answer.</aside>
+            </section>
+
+            <!-- Section: Block 2 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 2 &mdash; Operational Signals</h2>
+                <h3>The metrics a squad watches in standup</h3>
+            </section>
+
+            <!-- What makes a good op signal -->
+            <section>
+                <h2>&#128270; A Good Operational Signal</h2>
+                <ul>
+                    <li class="fragment fade-up"><strong>Latency:</strong> moves within a day or less</li>
+                    <li class="fragment fade-up"><strong>Specificity:</strong> changes when <em>one thing</em> in the product changes</li>
+                    <li class="fragment fade-up"><strong>Actionability:</strong> if it drops 30%, the team has a meeting tomorrow</li>
+                    <li class="fragment fade-up"><strong>Causal:</strong> plausibly rolls up to a KPI</li>
+                    <li class="fragment fade-up"><strong>Measurable today</strong> &mdash; or honestly named as an <em>instrumentation gap</em></li>
+                </ul>
+                <div class="highlight-box warning">
+                    <strong>Coach's note:</strong> "We don't measure that today" is not a failure — it's a finding. Surface it.
+                </div>
+                <aside class="notes">Often, half of a good signal list is "we don't have this data yet." That feeds Weeks 4–5.</aside>
+            </section>
+
+            <!-- FieldPulse example -->
+            <section>
+                <h2>&#128737;&#65039; FieldPulse Worked Example</h2>
+                <p><em>Problem statement (Week 1):</em> "Dispatchers spend 45 minutes after-shift reconciling tickets, truck stock, and timecards."</p>
+                <table>
+                    <tr><th>Operational signal</th><th>Source</th><th>Action if it dips</th></tr>
+                    <tr><td>Median reconcile-flow duration</td><td>App instrumentation</td><td>Inspect last release for regressions</td></tr>
+                    <tr><td>% of dispatchers using mobile reconcile vs paper</td><td>Backend events</td><td>Re-investigate adoption blockers</td></tr>
+                    <tr><td>Reconcile-flow abandonment rate</td><td>Funnel analytics</td><td>UX review of last drop-off step</td></tr>
+                    <tr><td>Manual override entries per dispatcher per day</td><td><em>Instrumentation gap</em></td><td>Indicates trust loss in automation</td></tr>
+                </table>
+                <aside class="notes">Notice the override-entries gap. That's a signal we *should* have but don't. Surface gaps openly — they become Week 5 conversations.</aside>
+            </section>
+
+            <!-- Activity 2 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 2 &mdash; Operational Signal Sprint</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>For your triad's Week-1 problem statement: brainstorm 12 candidate signals (4 per person), then cull to <strong>6 finalists</strong>.</p>
+                <ul>
+                    <li>For each: what it measures, where the data comes from, how fast it moves, what action you'd take</li>
+                    <li>Mark <strong>at least 2 in red</strong> as instrumentation gaps</li>
+                    <li>Add the 6 to your triad's <strong>Metrics Tier Sheet</strong> (bottom row)</li>
+                </ul>
+                <div class="timebox">&#9201; 10 min solo &middot; 15 min cull &middot; 15 min annotate</div>
+                <aside class="notes">Walk the room. The most common failure is signals that are leading and unmeasurable today, both equally hand-waved.</aside>
+            </section>
+
+            <!-- Section: Block 3 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 3 &mdash; KPIs</h2>
+                <h3>Where the squad's work shows up in business outcomes</h3>
+            </section>
+
+            <!-- KPI quality bar -->
+            <section>
+                <h2>&#127919; The Four-Question KPI Quality Bar</h2>
+                <div class="concept-box">
+                    <p>A well-formed KPI passes all four:</p>
+                </div>
+                <ol>
+                    <li class="fragment fade-up">Spoken in <strong>business terms</strong> (revenue, retention, time-to-value, NPS) — not feature terms</li>
+                    <li class="fragment fade-up">A senior leader cares about it <strong>without translation</strong></li>
+                    <li class="fragment fade-up">You can imagine a <strong>single chart</strong> that shows it weekly</li>
+                    <li class="fragment fade-up">You can name what's "good" <strong>without inventing a number</strong> — direction is fine, the number is set later</li>
+                </ol>
+                <aside class="notes">If a KPI fails any of the four, it's either an op-signal in disguise or a vanity metric.</aside>
+            </section>
+
+            <!-- KPI laddering -->
+            <section>
+                <h2>&#129518; Laddering: Signals Up to KPIs</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>Step</h4>
+                        <ul>
+                            <li>Take each operational signal</li>
+                            <li>Ask: "If this moves 30% for a quarter, which business outcome shifts?"</li>
+                            <li>Cluster signals that ladder to the same outcome</li>
+                            <li>Each cluster &rarr; candidate KPI</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Worked: FieldPulse</h4>
+                        <ul>
+                            <li>Reconcile-duration + abandonment + manual-overrides &rarr; <strong>"Dispatcher hours returned per week"</strong></li>
+                            <li>Mobile-reconcile adoption &rarr; <strong>"% of accounts on the new workflow"</strong></li>
+                            <li>Both ladder to <strong>NRR retention</strong> long-term</li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="notes">Often two operational signals ladder to one KPI. That's a strong signal cluster. One signal that ladders to nothing should make you suspicious.</aside>
+            </section>
+
+            <!-- Causal chain -->
+            <section>
+                <h2>&#128279; The Believable Causal Chain</h2>
+                <div class="concept-box">
+                    <p>Your Tier Sheet is only as strong as its narrative: <strong>operational signal &rarr; KPI &rarr; North Star</strong>. If you can't tell that story in three sentences, the chain is broken.</p>
+                </div>
+                <div class="highlight-box">
+                    <strong>FieldPulse three-sentence chain:</strong><br>
+                    "Median reconcile-flow duration drops &rarr; dispatchers spend less time on after-shift admin (operational). Hours-returned-per-week climbs &rarr; account-level retention conversations get easier (KPI). Net retention rate climbs &rarr; FieldPulse is winning (North Star)."
+                </div>
+                <aside class="notes">The three-sentence chain is the most useful single artifact you'll teach this week. Have triads rehearse theirs out loud.</aside>
+            </section>
+
+            <!-- Activity 3 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 3 &mdash; KPI Laddering</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>Cluster your 6 operational signals into <strong>2–3 KPI clusters</strong>. Stress-test each KPI against the four-question quality bar.</p>
+                <ul>
+                    <li>Write the three-sentence causal chain for each cluster</li>
+                    <li>Name one signal that <em>doesn't</em> ladder to anything &mdash; and decide whether to keep or drop it</li>
+                    <li>Add KPIs to your <strong>Metrics Tier Sheet</strong> (middle row)</li>
+                </ul>
+                <div class="timebox">&#9201; 15 min cluster &middot; 15 min stress-test &middot; 10 min chain narration</div>
+                <aside class="notes">Some signals will resist clustering. That's fine — flag them. Sometimes those are the most valuable signals; sometimes they're noise.</aside>
+            </section>
+
+            <!-- Section: Block 4 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 4 &mdash; Tier Sheet Defense</h2>
+                <h3>Before the squad ships, the metrics get challenged</h3>
+            </section>
+
+            <!-- Three Standard Challenges -->
+            <section>
+                <h2>&#9876;&#65039; Three Standard Challenges</h2>
+                <table>
+                    <tr><th>Challenge</th><th>Question</th><th>What it surfaces</th></tr>
+                    <tr><td><strong>Causal chain</strong></td><td>"Show me how a change in op-signal #3 plausibly moves your KPI"</td><td>Hand-waved laddering</td></tr>
+                    <tr><td><strong>Gameability</strong></td><td>"Pick the easiest of these to game. How would a sales-incentivized team game it?"</td><td>Metrics that reward bad behavior</td></tr>
+                    <tr><td><strong>Instrumentation</strong></td><td>"Which two of these can you actually measure today, in production?"</td><td>Strategy that depends on data we don't have</td></tr>
+                </table>
+                <div class="highlight-box danger">
+                    <strong>Watch for:</strong> "We'll instrument it" — a real answer also says <em>by when</em> and <em>at what cost</em>.
+                </div>
+                <aside class="notes">These three challenges show up again in Week 5 (technical infrastructure) and Week 6 (stakeholder negotiation). They are durable.</aside>
+            </section>
+
+            <!-- North Star placeholder -->
+            <section>
+                <h2>&#11088; The North Star Placeholder</h2>
+                <div class="concept-box">
+                    <p>You're not going to nail your North Star today. Tomorrow is its full treatment. Today: write a placeholder.</p>
+                </div>
+                <pre><code class="language-text">We are winning when [customer outcome] increases for
+[user segment], measured by [single number].</code></pre>
+                <p><em>FieldPulse example placeholder:</em></p>
+                <div class="highlight-box success">
+                    "We are winning when <strong>after-shift reconcile time</strong> drops for <strong>HVAC dispatchers in mid-sized shops</strong>, measured by <strong>median minutes from clock-out to ticket-closeout</strong>."
+                </div>
+                <aside class="notes">A placeholder is a target to react to. Tomorrow we'll prove or disprove it.</aside>
+            </section>
+
+            <!-- Activity 4 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 4 &mdash; Tier Sheet Defense</h2>
+                <h3>Triads &bull; 45 minutes &bull; Readouts</h3>
+                <p>Pair-defense round: each triad pairs with another. Defender presents the Tier Sheet (4 min). Challenger uses the <strong>Three Standard Challenges</strong>.</p>
+                <ul>
+                    <li>15 min: draft your <strong>North Star placeholder</strong> using the template</li>
+                    <li>20 min: pair-defense (4 min present, 4 min challenge per direction)</li>
+                    <li>10 min: capture the strongest challenge as a "known weakness" line</li>
+                </ul>
+                <div class="timebox">&#9201; 15 min NS &middot; 20 min defense &middot; 10 min refine</div>
+                <aside class="notes">Collect Tier Sheets at end of day. They become wallpaper for the rest of the week.</aside>
+            </section>
+
+            <!-- Wrap -->
+            <section>
+                <h2>&#127881; Day 1 Wrap</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>What we built</h4>
+                        <ul>
+                            <li>Vocabulary: NS / KPI / Operational signal</li>
+                            <li>Vanity-metric detector</li>
+                            <li>Three-sentence causal chain</li>
+                            <li>Triad Metrics Tier Sheet</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>What opens tomorrow</h4>
+                        <ul>
+                            <li><strong>The North Star metric</strong> — done properly, with three pitfalls</li>
+                            <li>Your placeholder NS will be challenged. Bring an alternative.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight-box success">
+                    <strong>Bring to Day 2:</strong> Your Tier Sheet, your NS placeholder, and one alternative NS your triad debated and rejected.
+                </div>
+                <aside class="notes">Round-robin close: each person says one operational signal they'll never trust again as a KPI. Crystallizes the day.</aside>
+            </section>
+
+            <!-- Questions -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>&#128172; Questions &amp; Reflection</h2>
+                <h3>Which metric on your Tier Sheet would your customer most want to see drop?</h3>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            plugins: [ RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html>

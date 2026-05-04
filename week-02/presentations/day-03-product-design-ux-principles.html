@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Design &amp; UX Principles | TPM Academy — Week 2 Day 3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+    <style>
+        :root {
+            --heading-color: #1a365d;
+            --accent-color: #2b6cb0;
+            --success-color: #2f855a;
+            --warning-color: #c05621;
+            --danger-color: #c53030;
+            --text-color: #2d3748;
+        }
+        .reveal { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-color); font-size: 28px; }
+        .reveal .slides section { text-align: left; padding: 20px 40px; }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 { color: var(--heading-color); font-weight: 700; text-transform: none; }
+        .reveal h1 { font-size: 2.2em; } .reveal h2 { font-size: 1.6em; } .reveal h3 { font-size: 1.3em; }
+        .title-slide { text-align: center !important; }
+        .title-slide h1 { color: #ffffff; font-size: 2.4em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); margin-bottom: 0.3em; }
+        .title-slide h2 { color: #e2e8f0; font-size: 1.4em; font-weight: 400; }
+        .title-slide h3 { color: #cbd5e0; font-size: 1.1em; font-weight: 300; }
+        .section-divider { text-align: center !important; }
+        .section-divider h2 { color: #ffffff; font-size: 2.0em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .section-divider h3 { color: #e2e8f0; font-size: 1.2em; font-weight: 400; }
+        .highlight-box { background: #ebf8ff; border-left: 4px solid var(--accent-color); padding: 20px 25px; border-radius: 0 8px 8px 0; margin: 15px 0; text-align: left; }
+        .highlight-box.success { background: #f0fff4; border-left-color: var(--success-color); }
+        .highlight-box.warning { background: #fffaf0; border-left-color: var(--warning-color); }
+        .highlight-box.danger { background: #fff5f5; border-left-color: var(--danger-color); }
+        .two-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; text-align: left; }
+        .three-columns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; align-items: start; text-align: left; }
+        .card { background: #ffffff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: left; }
+        .card h3, .card h4 { margin-top: 0; color: var(--accent-color); }
+        .concept-box { background: linear-gradient(135deg, #ebf8ff 0%, #e2e8f0 100%); border-radius: 12px; padding: 25px; margin: 15px 0; border: 1px solid #bee3f8; text-align: left; }
+        .concept-box h3, .concept-box h4 { color: var(--heading-color); margin-top: 0; }
+        .key-point { background: #ebf8ff; border: 2px solid var(--accent-color); border-radius: 12px; padding: 20px 25px; margin: 15px 0; text-align: left; font-size: 0.95em; }
+        .key-point strong { color: var(--accent-color); }
+        .lab-callout h2 { color: #ffffff; font-size: 1.8em; margin-bottom: 0.3em; }
+        .lab-callout h3 { color: #90cdf4; font-size: 1.3em; font-weight: 400; }
+        .lab-callout p { color: #e2e8f0; font-size: 1.0em; }
+        .lab-callout ul { color: #e2e8f0; text-align: left; display: inline-block; }
+        .lab-callout .highlight-box { background: rgba(255,255,255,0.1); border-left-color: #90cdf4; color: #e2e8f0; }
+        .questions-slide h2 { color: #ffffff; font-size: 2.2em; }
+        .questions-slide p { color: #e2e8f0; font-size: 1.2em; }
+        .module-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .module-progress .step { width: 30px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .module-progress .step.active { background: var(--accent-color); }
+        .module-progress .step.completed { background: var(--success-color); }
+        .reveal table { border-collapse: collapse; width: 100%; font-size: 0.75em; margin: 15px 0; }
+        .reveal table th { background: var(--heading-color); color: #ffffff; padding: 12px 16px; text-align: left; font-weight: 600; }
+        .reveal table td { padding: 10px 16px; border-bottom: 1px solid #e2e8f0; text-align: left; }
+        .reveal table tr:nth-child(even) { background: #f7fafc; }
+        .reveal ul, .reveal ol { text-align: left; display: block; margin-left: 1em; }
+        .reveal li { margin-bottom: 0.5em; line-height: 1.5; font-size: 0.9em; }
+        .reveal p { line-height: 1.6; }
+        .reveal pre code { font-size: 0.7em; line-height: 1.4; max-height: 500px; overflow: auto; border-radius: 8px; }
+        .instructor-card { display: grid; grid-template-columns: auto 1fr; gap: 30px; align-items: center; }
+        .instructor-photo { width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(135deg, #cbd5e0 0%, #a0aec0 100%); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 4em; }
+    
+        .day-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .day-progress .step { width: 40px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .day-progress .step.active { background: var(--accent-color); }
+        .day-progress .step.completed { background: var(--success-color); }
+        .pill { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 0.75em; font-weight: 600; background: #edf2f7; color: var(--heading-color); margin-right: 6px; }
+        .pill.accent { background: #ebf8ff; color: var(--accent-color); }
+        .pill.success { background: #f0fff4; color: var(--success-color); }
+        .pill.warning { background: #fffaf0; color: var(--warning-color); }
+        .pill.danger { background: #fff5f5; color: var(--danger-color); }
+        .timebox { background: rgba(255,255,255,0.12); border-radius: 8px; padding: 8px 14px; display: inline-block; margin-top: 10px; color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Title Slide -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="title-slide">
+                <h1>&#127912; Product Design &amp; UX Principles</h1>
+                <h2>Week 2 &bull; Day 3 &bull; Strategic Design &amp; Metrics</h2>
+                <h3>TPM Academy</h3>
+                <div class="day-progress">
+                    <div class="step completed"></div>
+                    <div class="step completed"></div>
+                    <div class="step active"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                </div>
+                <aside class="notes">A TPM is not a designer. A TPM who can't speak design loses every trade-off conversation. Today is about gaining the vocabulary, not pretending to be a UX lead.</aside>
+            </section>
+
+            <!-- Day Objectives -->
+            <section>
+                <h2>&#127919; Day 3 Objectives</h2>
+                <ul>
+                    <li class="fragment fade-up">Use <strong>Nielsen's 10 heuristics</strong> as a shared vocabulary with designers</li>
+                    <li class="fragment fade-up">Add three <strong>TPM-specific lenses</strong>: time-to-first-value, failure-mode dignity, power-user respect</li>
+                    <li class="fragment fade-up">Run an <strong>A11y floor audit</strong> in 20 minutes — the non-negotiable accessibility checks for any TPM</li>
+                    <li class="fragment fade-up">Audit a real product surface and rank findings by severity</li>
+                    <li class="fragment fade-up">Convert audit findings into <strong>3 design principles</strong> a squad can hold the line on</li>
+                </ul>
+                <aside class="notes">The 3 design principles are today's keeper artifact. They will appear again in Week 3 (PRDs) and Week 6 (negotiation).</aside>
+            </section>
+
+            <!-- Today's Shape -->
+            <section>
+                <h2>&#128337; Today's Shape</h2>
+                <table>
+                    <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
+                    <tr><td>09:00 – 09:15</td><td>Opening</td><td>What product surface is your triad auditing?</td></tr>
+                    <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>Heuristic Hunt</td></tr>
+                    <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>A11y Floor Audit</td></tr>
+                    <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>Heuristic Audit (your surface)</td></tr>
+                    <tr><td>14:30 – 16:00</td><td>Block 4 + Activity 4 + Readouts</td><td>3 Design Principles</td></tr>
+                </table>
+                <aside class="notes">The arc: calibrate eye &rarr; install floor &rarr; audit own &rarr; produce principles. Each block needs the previous.</aside>
+            </section>
+
+            <!-- Section: Block 1 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 1 &mdash; The Shared Vocabulary</h2>
+                <h3>Nielsen's 10, plus three TPM lenses</h3>
+            </section>
+
+            <!-- Why TPMs need design vocabulary -->
+            <section>
+                <h2>&#128483;&#65039; Why TPMs Need This Vocabulary</h2>
+                <div class="concept-box">
+                    <p>Designers and engineers will both override your reaction with their craft language. The TPM job is to <strong>name what's wrong in the language they will accept</strong>, then defend why it matters with metrics.</p>
+                </div>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>&#10060; Without vocabulary</h4>
+                        <p><em>"This screen feels weird. Can we redo it?"</em></p>
+                        <p>Loses the conversation in 30 seconds.</p>
+                    </div>
+                    <div class="card">
+                        <h4>&#9989; With vocabulary</h4>
+                        <p><em>"This screen violates Nielsen #5 (error prevention) and #6 (recognition over recall). The cost shows up in our reconcile-abandonment signal."</em></p>
+                        <p>Wins the conversation.</p>
+                    </div>
+                </div>
+                <aside class="notes">This isn't about being right. It's about being able to argue in the trade-off room.</aside>
+            </section>
+
+            <!-- Nielsen 10 -->
+            <section>
+                <h2>&#128218; Nielsen's 10 Heuristics</h2>
+                <table>
+                    <tr><th>#</th><th>Heuristic</th><th>One-line</th></tr>
+                    <tr><td>1</td><td>Visibility of system status</td><td>The user always knows what just happened and what's happening now</td></tr>
+                    <tr><td>2</td><td>Match real world</td><td>Use the user's words, not the system's</td></tr>
+                    <tr><td>3</td><td>User control &amp; freedom</td><td>Undo, exit, escape — always</td></tr>
+                    <tr><td>4</td><td>Consistency &amp; standards</td><td>Same word, same color, same place</td></tr>
+                    <tr><td>5</td><td>Error prevention</td><td>Make destructive actions hard, not easy</td></tr>
+                    <tr><td>6</td><td>Recognition over recall</td><td>Show options, don't make me remember them</td></tr>
+                    <tr><td>7</td><td>Flexibility &amp; efficiency</td><td>Beginners get hand-holding, experts get shortcuts</td></tr>
+                    <tr><td>8</td><td>Aesthetic &amp; minimalist</td><td>Every screen element earns its place</td></tr>
+                    <tr><td>9</td><td>Recover from errors</td><td>The error message names the field and the fix</td></tr>
+                    <tr><td>10</td><td>Help &amp; documentation</td><td>Findable, in-context, searchable</td></tr>
+                </table>
+                <aside class="notes">Don't memorize the list. Memorize the *frequency of violation* — #1, #5, and #9 are the recurring offenders in B2B SaaS.</aside>
+            </section>
+
+            <!-- TPM lenses -->
+            <section>
+                <h2>&#128269; Three TPM-Specific Lenses</h2>
+                <div class="three-columns">
+                    <div class="card">
+                        <h4>11. Time-to-first-value</h4>
+                        <p>Can a new user produce a useful result in their first session? Measured in minutes, not features.</p>
+                    </div>
+                    <div class="card">
+                        <h4>12. Failure-mode dignity</h4>
+                        <p>How does the product behave when the network drops, the data is wrong, or the user is rushed? Failure is part of UX.</p>
+                    </div>
+                    <div class="card">
+                        <h4>13. Power-user respect</h4>
+                        <p>Does the product reward repeat use with shortcuts, or punish it with the same friction every time?</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <strong>Why these three:</strong> they're the heuristics designers most often skip in early-stage products and most often blame on engineering later.
+                </div>
+                <aside class="notes">The "failure-mode dignity" lens is especially load-bearing for a logistics/dispatch tool — the product runs in trucks with bad signal.</aside>
+            </section>
+
+            <!-- Activity 1 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 1 &mdash; Heuristic Hunt</h2>
+                <h3>Triads &bull; 35 minutes</h3>
+                <p>Walk through a B2B SaaS none of your triad uses (provided link). Each member silently captures 3 heuristic violations.</p>
+                <ul>
+                    <li>Pool and de-dupe</li>
+                    <li>Identify the <strong>most painful</strong> + <strong>most subtle</strong> violation</li>
+                    <li>Prepare a 60-second readout naming the heuristic numbers</li>
+                </ul>
+                <div class="timebox">&#9201; 5 min solo &middot; 10 min pool &middot; 10 min cull &middot; 5 min readout prep</div>
+                <aside class="notes">The "I don't like it" reaction has to convert into a heuristic number. Coach for that conversion in this activity.</aside>
+            </section>
+
+            <!-- Section: Block 2 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 2 &mdash; The A11y Floor</h2>
+                <h3>The 8 checks every TPM should run before any PRD ships</h3>
+            </section>
+
+            <!-- Why a11y floor -->
+            <section>
+                <h2>&#9855;&#65039; Why a Floor, Not a Ceiling</h2>
+                <div class="concept-box">
+                    <p>Accessibility is a <strong>regulatory floor</strong> (ADA, Section 508, EAA), an <strong>SEO floor</strong>, and a <strong>usability ceiling</strong>. Fixes for keyboard-only users almost always fix mouse-user errors too.</p>
+                </div>
+                <div class="highlight-box warning">
+                    <strong>The TPM responsibility:</strong> not to be the a11y expert, but to refuse to ship a feature that fails the floor — and to spot failures unsolicited.
+                </div>
+                <aside class="notes">Most squads have a designer who knows a11y deeply. They will love a TPM who flags floor violations early. Use this to win allyship.</aside>
+            </section>
+
+            <!-- The 8 checks -->
+            <section>
+                <h2>&#9989; The 8-Check Floor</h2>
+                <table>
+                    <tr><th>Check</th><th>Tool</th><th>Fail looks like</th></tr>
+                    <tr><td>Keyboard-focusable interactives</td><td>Tab through the page</td><td>Focus disappears</td></tr>
+                    <tr><td>Visible focus indicator</td><td>Tab through the page</td><td>No outline on focus</td></tr>
+                    <tr><td>Color contrast 4.5:1</td><td>WebAIM contrast checker</td><td>Light gray on white</td></tr>
+                    <tr><td>Form fields have labels</td><td>Screen reader / inspect</td><td>"Edit text, blank"</td></tr>
+                    <tr><td>Images have alt text</td><td>View source</td><td>Empty alt on meaningful image</td></tr>
+                    <tr><td>Logical heading hierarchy</td><td>Outline tool</td><td>Jumps h1 → h4</td></tr>
+                    <tr><td>Errors identify the field</td><td>Submit broken form</td><td>"Error" with no field</td></tr>
+                    <tr><td>Touch targets &ge; 44px</td><td>Mobile devtools</td><td>Buttons too small</td></tr>
+                </table>
+                <aside class="notes">Each check is &lt; 90 seconds. The whole floor is &lt; 15 minutes. There is no excuse for skipping it.</aside>
+            </section>
+
+            <!-- Activity 2 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 2 &mdash; A11y Floor Audit</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>Run the 8-check floor on the FieldPulse mobile or your chosen surface. Split the checks across triad members so all 8 are covered (plus one overlap).</p>
+                <ul>
+                    <li>Each fail: which UX heuristic is also being violated?</li>
+                    <li>Output: one-page <strong>A11y Floor Audit</strong> for the surface</li>
+                </ul>
+                <div class="timebox">&#9201; 25 min audit &middot; 10 min cross-link to heuristics &middot; 5 min summarize</div>
+                <aside class="notes">If a triad finishes early, push them to score severity. Most triads under-rate failures because they're not living the keyboard-only experience.</aside>
+            </section>
+
+            <!-- Section: Block 3 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 3 &mdash; Audit Your Surface</h2>
+                <h3>Apply the calibrated eye + the floor to the triad's chosen flow</h3>
+            </section>
+
+            <!-- The audit template -->
+            <section>
+                <h2>&#128203; The Audit Template</h2>
+                <ul>
+                    <li class="fragment fade-up"><strong>Top 3 violations</strong> with heuristic + observation + cost + severity (1–5)</li>
+                    <li class="fragment fade-up"><strong>Top 3 strengths</strong> — what does this product do better than the average B2B SaaS?</li>
+                    <li class="fragment fade-up"><strong>A11y Floor Audit result</strong> (Pass / Partial / Fail)</li>
+                    <li class="fragment fade-up"><strong>TPM Lens findings</strong>: time-to-first-value, failure-mode dignity, power-user respect</li>
+                    <li class="fragment fade-up"><strong>One question</strong> you cannot answer without the design team</li>
+                </ul>
+                <div class="highlight-box">
+                    <strong>Strengths matter:</strong> a "kill list" of violations alienates designers. Naming what works builds trust to address what doesn't.
+                </div>
+                <aside class="notes">Most early TPMs over-index on violations. Force the strengths column.</aside>
+            </section>
+
+            <!-- Severity scoring -->
+            <section>
+                <h2>&#128202; Severity Scoring (1–5)</h2>
+                <table>
+                    <tr><th>Score</th><th>Meaning</th><th>Example</th></tr>
+                    <tr><td>5</td><td>User task failure or data loss</td><td>"Submit" button unlabeled — user can't complete reconcile</td></tr>
+                    <tr><td>4</td><td>Recurring frustration; users work around</td><td>Date picker requires 5 taps — users keep paper logs</td></tr>
+                    <tr><td>3</td><td>Slows users; stopwatch would notice</td><td>Tab order skips "amount" — users mouse over</td></tr>
+                    <tr><td>2</td><td>Cosmetic; affects trust</td><td>Inconsistent button styling</td></tr>
+                    <tr><td>1</td><td>Edge case</td><td>Tooltip cut off in landscape</td></tr>
+                </table>
+                <aside class="notes">Severity is the single most-disputed score. Encourage debate — that's the design conversation triads should be rehearsing.</aside>
+            </section>
+
+            <!-- Activity 3 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 3 &mdash; Heuristic Audit of Your Surface</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>Use the audit template on your triad's chosen flow. Severity-score each violation. Capture strengths.</p>
+                <ul>
+                    <li>10 min: solo walk-through (each member captures 3+ findings)</li>
+                    <li>15 min: pool + score severity</li>
+                    <li>10 min: write up the template (top 3 violations + strengths)</li>
+                    <li>5 min: name the one question only design can answer</li>
+                </ul>
+                <div class="timebox">&#9201; 10 solo &middot; 15 pool &middot; 10 write &middot; 5 question</div>
+                <aside class="notes">The "one question for design" is high-leverage — it shows the participant what their design partner uniquely brings.</aside>
+            </section>
+
+            <!-- Section: Block 4 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 4 &mdash; From Audit to Principles</h2>
+                <h3>The keeper artifact: 3 design principles your squad can hold the line on</h3>
+            </section>
+
+            <!-- What a principle is -->
+            <section>
+                <h2>&#127919; What a Design Principle Looks Like</h2>
+                <div class="concept-box">
+                    <p>A design principle is a <strong>statement</strong>, not a feature. It is <strong>decision-making</strong> — when two options compete, the principle picks one.</p>
+                </div>
+                <table>
+                    <tr><th>&#9989; Good</th><th>Why</th></tr>
+                    <tr><td>"If a dispatcher can't recover from a mis-tap in 1 second, we built it wrong."</td><td>Specific, decision-making, memorable</td></tr>
+                    <tr><td>"Show network state on every screen — assume connectivity is broken."</td><td>Names a constraint, drives concrete choices</td></tr>
+                    <tr><td>"Power users get keyboard shortcuts. New users get them visible too."</td><td>Resolves a tension explicitly</td></tr>
+                </table>
+                <table>
+                    <tr><th>&#10060; Bad</th><th>Why</th></tr>
+                    <tr><td>"Be user-friendly"</td><td>Vacuous</td></tr>
+                    <tr><td>"Use Material Design"</td><td>A toolkit, not a principle</td></tr>
+                    <tr><td>"Be consistent"</td><td>True but not actionable</td></tr>
+                </table>
+                <aside class="notes">The test: would an engineer quote the principle back at you in standup? If yes, it's a principle. If no, it's a slogan.</aside>
+            </section>
+
+            <!-- The cull -->
+            <section>
+                <h2>&#9986;&#65039; Cull to Three</h2>
+                <ol>
+                    <li class="fragment fade-up"><strong>Cluster audit findings into themes.</strong> Each theme suggests a principle.</li>
+                    <li class="fragment fade-up"><strong>Draft 5 candidate principles.</strong> Some will be bad. That's fine.</li>
+                    <li class="fragment fade-up"><strong>Test each:</strong> when two options compete, does this tell us what to choose?</li>
+                    <li class="fragment fade-up"><strong>Cull to 3.</strong> Three is the limit for memorability.</li>
+                    <li class="fragment fade-up"><strong>Write each principle</strong> as one line + one example of a decision it would force.</li>
+                </ol>
+                <aside class="notes">Three is a hard ceiling. Triads who want four are not yet committed enough to any of them.</aside>
+            </section>
+
+            <!-- Activity 4 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 4 &mdash; Three Design Principles</h2>
+                <h3>Triads &bull; 45 minutes &bull; Readouts</h3>
+                <p>Convert your audit into 3 design principles your squad can hold the line on. Each principle: one line + one decision it would force.</p>
+                <ul>
+                    <li>10 min: cluster findings into themes</li>
+                    <li>15 min: draft 5 candidates</li>
+                    <li>10 min: test &amp; cull to 3</li>
+                    <li>10 min: write the principle card</li>
+                </ul>
+                <div class="timebox">&#9201; 10 cluster &middot; 15 draft &middot; 10 cull &middot; 10 write &middot; 90s readouts</div>
+                <aside class="notes">Pin the 3-Principle Cards alongside the NS Defense Cards. Tomorrow's AI work and Friday's journey map both reference them.</aside>
+            </section>
+
+            <!-- Wrap -->
+            <section>
+                <h2>&#127881; Day 3 Wrap</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>What we built</h4>
+                        <ul>
+                            <li>Shared vocabulary (Nielsen + 3 TPM lenses)</li>
+                            <li>The 8-check A11y floor</li>
+                            <li>A severity-scored UX audit</li>
+                            <li>3 design principles per triad</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>What opens tomorrow</h4>
+                        <ul>
+                            <li><strong>Using AI for strategy &amp; research summaries</strong></li>
+                            <li>Reuse the Week-1 prompt patterns at strategy scale</li>
+                            <li>Process the FieldPulse interview + ticket pack</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight-box success">
+                    <strong>Bring to Day 4:</strong> Your triad's NS Defense Card, Tier Sheet, and 3 design principles — they all become inputs to AI summarization tomorrow.
+                </div>
+                <aside class="notes">Round-robin close: each person says one phrase from today's design vocabulary they'll deploy in their next product review.</aside>
+            </section>
+
+            <!-- Questions -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>&#128172; Questions &amp; Reflection</h2>
+                <h3>Which of your 3 principles will the design team disagree with most?</h3>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            plugins: [ RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html>

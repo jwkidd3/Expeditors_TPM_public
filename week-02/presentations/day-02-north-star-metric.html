@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defining the North Star Metric | TPM Academy — Week 2 Day 2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+    <style>
+        :root {
+            --heading-color: #1a365d;
+            --accent-color: #2b6cb0;
+            --success-color: #2f855a;
+            --warning-color: #c05621;
+            --danger-color: #c53030;
+            --text-color: #2d3748;
+        }
+        .reveal { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-color); font-size: 28px; }
+        .reveal .slides section { text-align: left; padding: 20px 40px; }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 { color: var(--heading-color); font-weight: 700; text-transform: none; }
+        .reveal h1 { font-size: 2.2em; } .reveal h2 { font-size: 1.6em; } .reveal h3 { font-size: 1.3em; }
+        .title-slide { text-align: center !important; }
+        .title-slide h1 { color: #ffffff; font-size: 2.4em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); margin-bottom: 0.3em; }
+        .title-slide h2 { color: #e2e8f0; font-size: 1.4em; font-weight: 400; }
+        .title-slide h3 { color: #cbd5e0; font-size: 1.1em; font-weight: 300; }
+        .section-divider { text-align: center !important; }
+        .section-divider h2 { color: #ffffff; font-size: 2.0em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .section-divider h3 { color: #e2e8f0; font-size: 1.2em; font-weight: 400; }
+        .highlight-box { background: #ebf8ff; border-left: 4px solid var(--accent-color); padding: 20px 25px; border-radius: 0 8px 8px 0; margin: 15px 0; text-align: left; }
+        .highlight-box.success { background: #f0fff4; border-left-color: var(--success-color); }
+        .highlight-box.warning { background: #fffaf0; border-left-color: var(--warning-color); }
+        .highlight-box.danger { background: #fff5f5; border-left-color: var(--danger-color); }
+        .two-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; text-align: left; }
+        .three-columns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; align-items: start; text-align: left; }
+        .card { background: #ffffff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: left; }
+        .card h3, .card h4 { margin-top: 0; color: var(--accent-color); }
+        .concept-box { background: linear-gradient(135deg, #ebf8ff 0%, #e2e8f0 100%); border-radius: 12px; padding: 25px; margin: 15px 0; border: 1px solid #bee3f8; text-align: left; }
+        .concept-box h3, .concept-box h4 { color: var(--heading-color); margin-top: 0; }
+        .key-point { background: #ebf8ff; border: 2px solid var(--accent-color); border-radius: 12px; padding: 20px 25px; margin: 15px 0; text-align: left; font-size: 0.95em; }
+        .key-point strong { color: var(--accent-color); }
+        .lab-callout h2 { color: #ffffff; font-size: 1.8em; margin-bottom: 0.3em; }
+        .lab-callout h3 { color: #90cdf4; font-size: 1.3em; font-weight: 400; }
+        .lab-callout p { color: #e2e8f0; font-size: 1.0em; }
+        .lab-callout ul { color: #e2e8f0; text-align: left; display: inline-block; }
+        .lab-callout .highlight-box { background: rgba(255,255,255,0.1); border-left-color: #90cdf4; color: #e2e8f0; }
+        .questions-slide h2 { color: #ffffff; font-size: 2.2em; }
+        .questions-slide p { color: #e2e8f0; font-size: 1.2em; }
+        .module-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .module-progress .step { width: 30px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .module-progress .step.active { background: var(--accent-color); }
+        .module-progress .step.completed { background: var(--success-color); }
+        .reveal table { border-collapse: collapse; width: 100%; font-size: 0.75em; margin: 15px 0; }
+        .reveal table th { background: var(--heading-color); color: #ffffff; padding: 12px 16px; text-align: left; font-weight: 600; }
+        .reveal table td { padding: 10px 16px; border-bottom: 1px solid #e2e8f0; text-align: left; }
+        .reveal table tr:nth-child(even) { background: #f7fafc; }
+        .reveal ul, .reveal ol { text-align: left; display: block; margin-left: 1em; }
+        .reveal li { margin-bottom: 0.5em; line-height: 1.5; font-size: 0.9em; }
+        .reveal p { line-height: 1.6; }
+        .reveal pre code { font-size: 0.7em; line-height: 1.4; max-height: 500px; overflow: auto; border-radius: 8px; }
+        .instructor-card { display: grid; grid-template-columns: auto 1fr; gap: 30px; align-items: center; }
+        .instructor-photo { width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(135deg, #cbd5e0 0%, #a0aec0 100%); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 4em; }
+    
+        .day-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .day-progress .step { width: 40px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .day-progress .step.active { background: var(--accent-color); }
+        .day-progress .step.completed { background: var(--success-color); }
+        .pill { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 0.75em; font-weight: 600; background: #edf2f7; color: var(--heading-color); margin-right: 6px; }
+        .pill.accent { background: #ebf8ff; color: var(--accent-color); }
+        .pill.success { background: #f0fff4; color: var(--success-color); }
+        .pill.warning { background: #fffaf0; color: var(--warning-color); }
+        .pill.danger { background: #fff5f5; color: var(--danger-color); }
+        .timebox { background: rgba(255,255,255,0.12); border-radius: 8px; padding: 8px 14px; display: inline-block; margin-top: 10px; color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Title Slide -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="title-slide">
+                <h1>&#11088; Defining the North Star Metric</h1>
+                <h2>Week 2 &bull; Day 2 &bull; Strategic Design &amp; Metrics</h2>
+                <h3>TPM Academy</h3>
+                <div class="day-progress">
+                    <div class="step completed"></div>
+                    <div class="step active"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                </div>
+                <aside class="notes">Yesterday's placeholder NS gets replaced today. Frame: a North Star is not a slogan. It's a load-bearing decision that shapes a quarter of squad behavior.</aside>
+            </section>
+
+            <!-- Day Objectives -->
+            <section>
+                <h2>&#127919; Day 2 Objectives</h2>
+                <ul>
+                    <li class="fragment fade-up">Recognize and rebut the <strong>three pitfalls</strong>: vanity dressed up, leading-indicator confusion, gameable target</li>
+                    <li class="fragment fade-up">Apply the <strong>customer outcome / segment / single number</strong> NS template</li>
+                    <li class="fragment fade-up">Pair an NS with a <strong>counter-metric</strong> that defends against gaming</li>
+                    <li class="fragment fade-up">Pass the <strong>"CEO and Dispatcher"</strong> test &mdash; the same NS that lands with leadership and lands with the user</li>
+                    <li class="fragment fade-up">Replace yesterday's placeholder with a defensible North Star and refresh the Tier Sheet</li>
+                </ul>
+                <aside class="notes">Today is the highest-stakes day of Week 2. The NS chosen here is the spine of every Friday readout.</aside>
+            </section>
+
+            <!-- Today's Shape -->
+            <section>
+                <h2>&#128337; Today's Shape</h2>
+                <table>
+                    <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
+                    <tr><td>09:00 – 09:15</td><td>Opening</td><td>Re-read your placeholder NS aloud</td></tr>
+                    <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>Three Pitfalls Triage</td></tr>
+                    <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>Re-write your NS</td></tr>
+                    <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>"CEO and Dispatcher" test</td></tr>
+                    <tr><td>14:30 – 16:00</td><td>Block 4 + Activity 4 + Readouts</td><td>Lock-in + Tier Sheet refresh</td></tr>
+                </table>
+                <aside class="notes">The arc is recognize &rarr; draft &rarr; defend &rarr; lock. Don't let triads lock too early.</aside>
+            </section>
+
+            <!-- Section: Block 1 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 1 &mdash; What a North Star Actually Is</h2>
+                <h3>And the three ways the term gets misused</h3>
+            </section>
+
+            <!-- The definition -->
+            <section>
+                <h2>&#128218; The Working Definition</h2>
+                <div class="concept-box">
+                    <p>A North Star is the <strong>single metric</strong> whose movement signals that the <strong>customer is winning</strong> AND <strong>the business is winning</strong>, simultaneously.</p>
+                </div>
+                <p>It has three required parts:</p>
+                <table>
+                    <tr><th>Part</th><th>Test</th></tr>
+                    <tr><td><strong>Customer outcome</strong></td><td>A verb the customer would recognize, not a feature</td></tr>
+                    <tr><td><strong>User segment</strong></td><td>Specific enough to exclude users you don't serve</td></tr>
+                    <tr><td><strong>Single number</strong></td><td>One chart, one direction, one team accountable</td></tr>
+                </table>
+                <aside class="notes">If the NS lacks any of three, the team will fight about which version they meant. Force the discipline.</aside>
+            </section>
+
+            <!-- The three pitfalls -->
+            <section>
+                <h2>&#128680; The Three Standard Pitfalls</h2>
+                <table>
+                    <tr><th>Pitfall</th><th>Looks like</th><th>The tell</th></tr>
+                    <tr><td><strong>Vanity dressed up</strong></td><td>"Total active users", "ARR"</td><td>Customers don't feel it directly when it moves</td></tr>
+                    <tr><td><strong>Leading-indicator confusion</strong></td><td>"Time-to-first-value"</td><td>Can move without long-term customer benefit</td></tr>
+                    <tr><td><strong>Gameable target</strong></td><td>"DAU" with no quality gate</td><td>Achievable via tactics that don't earn it</td></tr>
+                </table>
+                <div class="highlight-box danger">
+                    <strong>The trap:</strong> A real NS smells like a KPI to the inexperienced PM. A vanity metric also smells like a KPI. The difference is whether you can name the customer outcome behind it.
+                </div>
+                <aside class="notes">Use FieldPulse: "ARR" is fine as a financial KPI; it is *not* an NS because dispatchers don't feel ARR moving.</aside>
+            </section>
+
+            <!-- Public examples -->
+            <section>
+                <h2>&#127760; Public-Company Examples</h2>
+                <table>
+                    <tr><th>Company</th><th>NS (publicly stated or inferred)</th><th>Why it works</th></tr>
+                    <tr><td>Spotify</td><td>Time spent listening</td><td>Customer outcome (engagement); excludes "saved but never played"</td></tr>
+                    <tr><td>Airbnb</td><td>Nights booked</td><td>Single number; both sides of marketplace win when it climbs</td></tr>
+                    <tr><td>Slack</td><td>Messages sent within engaged teams</td><td>Quality gate ("engaged teams") rejects vanity</td></tr>
+                    <tr><td>Amazon retail</td><td>Customer-defined: lowest price &times; selection &times; delivery speed</td><td>Codifies the customer-experience promise</td></tr>
+                </table>
+                <aside class="notes">Spotify's NS is the cleanest pedagogical example — note the deliberate rejection of "songs saved" as the NS.</aside>
+            </section>
+
+            <!-- Activity 1 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 1 &mdash; Three Pitfalls Triage</h2>
+                <h3>Triads &bull; 35 minutes</h3>
+                <p>Your triad receives 8 NS candidates from public companies (anonymized). For each: assign 0–3 pitfalls present, with a one-line argument.</p>
+                <ul>
+                    <li>Find the one card that gets a clean bill of health</li>
+                    <li>Find the card that gets all three pitfalls</li>
+                    <li>Be ready to defend both choices</li>
+                </ul>
+                <div class="timebox">&#9201; 15 min triage &middot; 10 min argue &middot; 10 min readout prep</div>
+                <aside class="notes">"Songs Saved" and "Successful Deliveries per Active Customer" are the trickiest. Both reward close reading.</aside>
+            </section>
+
+            <!-- Section: Block 2 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 2 &mdash; Drafting Your NS</h2>
+                <h3>From placeholder to defensible</h3>
+            </section>
+
+            <!-- The template -->
+            <section>
+                <h2>&#9999;&#65039; The NS Template</h2>
+                <div class="concept-box">
+                    <p>Three blanks, no exceptions:</p>
+                </div>
+                <pre><code class="language-text">We are winning when [customer outcome]
+increases for [user segment],
+measured by [single number].</code></pre>
+                <p><em>FieldPulse worked example:</em></p>
+                <div class="highlight-box success">
+                    "We are winning when <strong>completed reconcile-flow runs per dispatcher per shift</strong> increases for <strong>HVAC dispatchers in shops with 50–200 technicians</strong>, measured by <strong>weekly completed-flow rate</strong>."
+                </div>
+                <aside class="notes">Read it slowly. Each blank failing is a different bug. Triads should call out each blank as they fill it.</aside>
+            </section>
+
+            <!-- Counter-metric -->
+            <section>
+                <h2>&#128737;&#65039; The Counter-Metric (the new tool)</h2>
+                <div class="concept-box">
+                    <p>A <strong>counter-metric</strong> is a second metric that, if it moves the wrong way, signals you're winning the NS for the wrong reasons. It is the guardrail.</p>
+                </div>
+                <table>
+                    <tr><th>NS</th><th>Counter-metric</th><th>What it catches</th></tr>
+                    <tr><td>Hours of returned dispatcher time</td><td>% of dispatchers calling support after the new flow</td><td>Auto-flow that moved time but broke trust</td></tr>
+                    <tr><td>Tickets resolved without escalation</td><td>Repeat-ticket rate from same customer</td><td>Closing tickets without solving them</td></tr>
+                    <tr><td>Active accounts in week 1</td><td>30-day retention of those accounts</td><td>Activation that doesn't stick</td></tr>
+                </table>
+                <aside class="notes">The counter-metric is the single most useful new concept today. It survives every challenge season after season.</aside>
+            </section>
+
+            <!-- Activity 2 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 2 &mdash; Re-write Your NS</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>Each triad member proposes one NS candidate. Pitfall-test all three. Converge on one. Add a counter-metric.</p>
+                <ul>
+                    <li>15 min: each member drafts a candidate</li>
+                    <li>15 min: pitfall-test all three (vanity, leading-indicator, gameable)</li>
+                    <li>10 min: write the <strong>NS Defense Card</strong> with rebuttal answers + counter-metric</li>
+                </ul>
+                <div class="timebox">&#9201; 15 min draft &middot; 15 min test &middot; 10 min defense card</div>
+                <aside class="notes">Push back on triads who agree too quickly. Disagreement here is healthy and produces sharper NSs.</aside>
+            </section>
+
+            <!-- Section: Block 3 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 3 &mdash; The "CEO and Dispatcher" Test</h2>
+                <h3>One NS, two audiences, no translation</h3>
+            </section>
+
+            <!-- The two audiences -->
+            <section>
+                <h2>&#128104;&#8205;&#128188; &#128104;&#8205;&#128295; Two Audiences, Same Number</h2>
+                <div class="concept-box">
+                    <p>A defensible NS lands with the CEO (resource allocator) and with the target customer (the person whose life it represents) <strong>without translation</strong>.</p>
+                </div>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>The CEO probes</h4>
+                        <ul>
+                            <li>"What if it goes up 20%? What does that earn the company?"</li>
+                            <li>"Why this metric, not [adjacent KPI]?"</li>
+                            <li>"How do we know we won, not lost?"</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>The customer probes</h4>
+                        <ul>
+                            <li>"What changes about my Wednesday afternoon?"</li>
+                            <li>"What do I feel when it goes up?"</li>
+                            <li>"Why would I tell a colleague this got better?"</li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="notes">If the NS only lands with one audience, it isn't an NS — it's a KPI in disguise.</aside>
+            </section>
+
+            <!-- The walk-down/walk-up -->
+            <section>
+                <h2>&#128279; Walk Down, Walk Up</h2>
+                <div class="three-columns">
+                    <div class="card">
+                        <h4>Walk down</h4>
+                        <p>From the NS to your operational signals: do they each plausibly contribute to it? Drop or replace any that don't.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Walk up</h4>
+                        <p>From the NS to a business outcome leadership cares about: revenue, retention, time-to-value. Can you trace it?</p>
+                    </div>
+                    <div class="card">
+                        <h4>If both fail</h4>
+                        <p>Your NS is a KPI in disguise. Re-pick the customer outcome layer.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <strong>The Tier Sheet, refreshed:</strong> NS at the top, KPIs and operational signals re-checked against it. Coherence above all.
+                </div>
+                <aside class="notes">The walk-down/walk-up is fast — 5 minutes. Triads who skip it ship incoherent Tier Sheets.</aside>
+            </section>
+
+            <!-- Activity 3 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 3 &mdash; "CEO and Dispatcher"</h2>
+                <h3>Triad pairs &bull; 40 minutes</h3>
+                <p>Pair with another triad. Take turns being defender and challenger. Challenger plays CEO for 4 min, then dispatcher for 4 min.</p>
+                <ul>
+                    <li>Use the persona scripts in your packet (or paraphrase)</li>
+                    <li>Defender records the strongest challenge from each role</li>
+                    <li>Note: this is rehearsal, not stand-up comedy &mdash; commit to the role</li>
+                </ul>
+                <div class="timebox">&#9201; 16 min round 1 &middot; 16 min round 2 &middot; 8 min capture</div>
+                <aside class="notes">The CEO-then-dispatcher cadence forces triads to hold both audiences at once. Don't let them skip a role.</aside>
+            </section>
+
+            <!-- Section: Block 4 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 4 &mdash; Lock In</h2>
+                <h3>Replace the placeholder, refresh the Tier Sheet, present</h3>
+            </section>
+
+            <!-- The lock-in checklist -->
+            <section>
+                <h2>&#9989; The Lock-in Checklist</h2>
+                <ul>
+                    <li class="fragment fade-up">NS uses the template (outcome / segment / number)</li>
+                    <li class="fragment fade-up">All three pitfall rebuttals are written, not waved away</li>
+                    <li class="fragment fade-up">Counter-metric is named and concrete</li>
+                    <li class="fragment fade-up">CEO challenge is captured and addressed</li>
+                    <li class="fragment fade-up">Dispatcher challenge is captured and addressed</li>
+                    <li class="fragment fade-up">Walk-down: every operational signal still belongs</li>
+                    <li class="fragment fade-up">Walk-up: it rolls up to a business outcome leadership cares about</li>
+                </ul>
+                <aside class="notes">If a triad is missing more than two boxes, they're not done. Push back.</aside>
+            </section>
+
+            <!-- Activity 4 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 4 &mdash; Lock-In + Refresh</h2>
+                <h3>Triads &bull; 45 minutes &bull; Readouts</h3>
+                <p>Final NS lock-in, walk-down/walk-up of the Tier Sheet, and a 90-second readout per triad.</p>
+                <ul>
+                    <li>10 min: lock the NS</li>
+                    <li>20 min: walk-down (signals) and walk-up (KPIs &amp; business outcome)</li>
+                    <li>15 min: polish Defense Card and Tier Sheet for sharing</li>
+                </ul>
+                <div class="timebox">&#9201; 10 lock &middot; 20 walk &middot; 15 polish &middot; 90s readouts</div>
+                <aside class="notes">Pin both artifacts on the wall when triads finish. They'll be referenced every day for the rest of the week.</aside>
+            </section>
+
+            <!-- Wrap -->
+            <section>
+                <h2>&#127881; Day 2 Wrap</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>What we built</h4>
+                        <ul>
+                            <li>Three pitfalls + rebuttal habit</li>
+                            <li>NS template (outcome / segment / number)</li>
+                            <li>Counter-metric guardrail</li>
+                            <li>"CEO and Dispatcher" test</li>
+                            <li>Locked NS + refreshed Tier Sheet</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>What opens tomorrow</h4>
+                        <ul>
+                            <li><strong>Product design &amp; UX principles</strong></li>
+                            <li>How a TPM partners with design without becoming a designer</li>
+                            <li>Audit a real product surface against UX heuristics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight-box success">
+                    <strong>Bring to Day 3:</strong> One product surface (FieldPulse mobile, web, or a competitor) you want to UX-audit.
+                </div>
+                <aside class="notes">Round-robin close: each person says one NS they will challenge differently in their day job after this week.</aside>
+            </section>
+
+            <!-- Questions -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>&#128172; Questions &amp; Reflection</h2>
+                <h3>If your NS climbs 20% next quarter, what changes about your customer's day?</h3>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            plugins: [ RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html>

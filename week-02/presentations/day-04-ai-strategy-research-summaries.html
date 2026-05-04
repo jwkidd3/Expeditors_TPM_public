@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI for Strategy &amp; Research Summaries | TPM Academy — Week 2 Day 4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+    <style>
+        :root {
+            --heading-color: #1a365d;
+            --accent-color: #2b6cb0;
+            --success-color: #2f855a;
+            --warning-color: #c05621;
+            --danger-color: #c53030;
+            --text-color: #2d3748;
+        }
+        .reveal { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-color); font-size: 28px; }
+        .reveal .slides section { text-align: left; padding: 20px 40px; }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 { color: var(--heading-color); font-weight: 700; text-transform: none; }
+        .reveal h1 { font-size: 2.2em; } .reveal h2 { font-size: 1.6em; } .reveal h3 { font-size: 1.3em; }
+        .title-slide { text-align: center !important; }
+        .title-slide h1 { color: #ffffff; font-size: 2.4em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); margin-bottom: 0.3em; }
+        .title-slide h2 { color: #e2e8f0; font-size: 1.4em; font-weight: 400; }
+        .title-slide h3 { color: #cbd5e0; font-size: 1.1em; font-weight: 300; }
+        .section-divider { text-align: center !important; }
+        .section-divider h2 { color: #ffffff; font-size: 2.0em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .section-divider h3 { color: #e2e8f0; font-size: 1.2em; font-weight: 400; }
+        .highlight-box { background: #ebf8ff; border-left: 4px solid var(--accent-color); padding: 20px 25px; border-radius: 0 8px 8px 0; margin: 15px 0; text-align: left; }
+        .highlight-box.success { background: #f0fff4; border-left-color: var(--success-color); }
+        .highlight-box.warning { background: #fffaf0; border-left-color: var(--warning-color); }
+        .highlight-box.danger { background: #fff5f5; border-left-color: var(--danger-color); }
+        .two-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; text-align: left; }
+        .three-columns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; align-items: start; text-align: left; }
+        .card { background: #ffffff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: left; }
+        .card h3, .card h4 { margin-top: 0; color: var(--accent-color); }
+        .concept-box { background: linear-gradient(135deg, #ebf8ff 0%, #e2e8f0 100%); border-radius: 12px; padding: 25px; margin: 15px 0; border: 1px solid #bee3f8; text-align: left; }
+        .concept-box h3, .concept-box h4 { color: var(--heading-color); margin-top: 0; }
+        .key-point { background: #ebf8ff; border: 2px solid var(--accent-color); border-radius: 12px; padding: 20px 25px; margin: 15px 0; text-align: left; font-size: 0.95em; }
+        .key-point strong { color: var(--accent-color); }
+        .lab-callout h2 { color: #ffffff; font-size: 1.8em; margin-bottom: 0.3em; }
+        .lab-callout h3 { color: #90cdf4; font-size: 1.3em; font-weight: 400; }
+        .lab-callout p { color: #e2e8f0; font-size: 1.0em; }
+        .lab-callout ul { color: #e2e8f0; text-align: left; display: inline-block; }
+        .lab-callout .highlight-box { background: rgba(255,255,255,0.1); border-left-color: #90cdf4; color: #e2e8f0; }
+        .questions-slide h2 { color: #ffffff; font-size: 2.2em; }
+        .questions-slide p { color: #e2e8f0; font-size: 1.2em; }
+        .module-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .module-progress .step { width: 30px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .module-progress .step.active { background: var(--accent-color); }
+        .module-progress .step.completed { background: var(--success-color); }
+        .reveal table { border-collapse: collapse; width: 100%; font-size: 0.75em; margin: 15px 0; }
+        .reveal table th { background: var(--heading-color); color: #ffffff; padding: 12px 16px; text-align: left; font-weight: 600; }
+        .reveal table td { padding: 10px 16px; border-bottom: 1px solid #e2e8f0; text-align: left; }
+        .reveal table tr:nth-child(even) { background: #f7fafc; }
+        .reveal ul, .reveal ol { text-align: left; display: block; margin-left: 1em; }
+        .reveal li { margin-bottom: 0.5em; line-height: 1.5; font-size: 0.9em; }
+        .reveal p { line-height: 1.6; }
+        .reveal pre code { font-size: 0.7em; line-height: 1.4; max-height: 500px; overflow: auto; border-radius: 8px; }
+        .instructor-card { display: grid; grid-template-columns: auto 1fr; gap: 30px; align-items: center; }
+        .instructor-photo { width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(135deg, #cbd5e0 0%, #a0aec0 100%); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 4em; }
+    
+        .day-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .day-progress .step { width: 40px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .day-progress .step.active { background: var(--accent-color); }
+        .day-progress .step.completed { background: var(--success-color); }
+        .pill { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 0.75em; font-weight: 600; background: #edf2f7; color: var(--heading-color); margin-right: 6px; }
+        .pill.accent { background: #ebf8ff; color: var(--accent-color); }
+        .pill.success { background: #f0fff4; color: var(--success-color); }
+        .pill.warning { background: #fffaf0; color: var(--warning-color); }
+        .pill.danger { background: #fff5f5; color: var(--danger-color); }
+        .timebox { background: rgba(255,255,255,0.12); border-radius: 8px; padding: 8px 14px; display: inline-block; margin-top: 10px; color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Title Slide -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="title-slide">
+                <h1>&#129504; AI for Strategy &amp; Research Summaries</h1>
+                <h2>Week 2 &bull; Day 4 &bull; Strategic Design &amp; Metrics</h2>
+                <h3>TPM Academy</h3>
+                <div class="day-progress">
+                    <div class="step completed"></div>
+                    <div class="step completed"></div>
+                    <div class="step completed"></div>
+                    <div class="step active"></div>
+                    <div class="step"></div>
+                </div>
+                <aside class="notes">Today is the second AI-heavy day. Week 1 taught prompting; today we apply it at scale and learn to defend the output. Frame: AI is a fast junior analyst — supervise it.</aside>
+            </section>
+
+            <!-- Day Objectives -->
+            <section>
+                <h2>&#127919; Day 4 Objectives</h2>
+                <ul>
+                    <li class="fragment fade-up">Use AI to <strong>synthesize multi-source research</strong> with traceable evidence</li>
+                    <li class="fragment fade-up">Detect and correct the four <strong>summarization failure modes</strong>: theme inflation, citation invention, premature confidence, source bias</li>
+                    <li class="fragment fade-up">Stay on the <strong>safe side of the bright line</strong>: structure source material, never ask AI to invent market facts</li>
+                    <li class="fragment fade-up">Produce a <strong>provenance log</strong> that makes your AI use auditable</li>
+                    <li class="fragment fade-up">Assemble an <strong>AI-Assembled Strategy Brief</strong> for your triad's problem</li>
+                </ul>
+                <aside class="notes">The provenance log is the trust-building artifact of the day. Every team that ships AI-augmented work needs one.</aside>
+            </section>
+
+            <!-- Today's Shape -->
+            <section>
+                <h2>&#128337; Today's Shape</h2>
+                <table>
+                    <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
+                    <tr><td>09:00 – 09:15</td><td>Opening</td><td>Re-ground in your Day-3 audit + design principles</td></tr>
+                    <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>Multi-source synthesis drill</td></tr>
+                    <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>The Research Pack pass</td></tr>
+                    <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>Competitive snapshot</td></tr>
+                    <tr><td>14:30 – 16:00</td><td>Block 4 + Activity 4 + Readouts</td><td>Brief assembly + provenance</td></tr>
+                </table>
+                <aside class="notes">Each block escalates the stakes — warm-up, real research, competitive (highest fabrication risk), brief.</aside>
+            </section>
+
+            <!-- Section: Block 1 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 1 &mdash; Strategy-Scale Summarization</h2>
+                <h3>Beyond a single document, beyond a single prompt</h3>
+            </section>
+
+            <!-- The leap from Week 1 -->
+            <section>
+                <h2>&#128218; What's Different at Strategy Scale</h2>
+                <table>
+                    <tr><th>Week 1 prompting</th><th>Strategy-scale prompting</th></tr>
+                    <tr><td>Single document or short brief</td><td>5–15 documents, often contradictory</td></tr>
+                    <tr><td>One prompt, one output</td><td>Iterated prompts, validated output</td></tr>
+                    <tr><td>"Summarize this"</td><td>"Synthesize across these, tag evidence"</td></tr>
+                    <tr><td>You verify confidently in 5 minutes</td><td>You only catch fabrication if you're looking</td></tr>
+                </table>
+                <div class="key-point">
+                    <strong>Mindset shift:</strong> at strategy scale, you are not consuming the AI's output — you are <em>auditing</em> it. The unit of work is the prompt + the validation pass.
+                </div>
+                <aside class="notes">Most participants will under-validate by default. The Provenance Log is the forcing function.</aside>
+            </section>
+
+            <!-- Four failure modes -->
+            <section>
+                <h2>&#9888;&#65039; Four Failure Modes (the ones that bite)</h2>
+                <table>
+                    <tr><th>Failure</th><th>What it looks like</th><th>Fix</th></tr>
+                    <tr><td><strong>Theme inflation</strong></td><td>3 distinct complaints lumped under "usability"</td><td>Demand verbs, not categories; cap themes at 5–7</td></tr>
+                    <tr><td><strong>Citation invention</strong></td><td>"Ticket #4" doesn't exist</td><td>Verify every cited source exists; demote uncited claims</td></tr>
+                    <tr><td><strong>Premature confidence</strong></td><td>Plausible synthesis with no acknowledgment of gaps</td><td>Force a "what's missing" prompt as second turn</td></tr>
+                    <tr><td><strong>Source bias</strong></td><td>The AI weights the loudest source highest, regardless of accuracy</td><td>Ask: "How would your synthesis change if I removed Source X?"</td></tr>
+                </table>
+                <aside class="notes">All four failure modes appeared in the prior cohort's first attempt. Surface them as inevitable, not as judgments of the AI.</aside>
+            </section>
+
+            <!-- The validated synthesis prompt -->
+            <section>
+                <h2>&#128221; The Validated Synthesis Prompt</h2>
+                <pre><code class="language-text">Role: Research analyst supporting a TPM.
+Context: Below are [N] interview transcripts and [M] support tickets
+from [user segment]. I am investigating [problem statement].
+Task: Extract the top 5 recurring pain themes.
+Constraints:
+  - Each theme must cite 2+ specific source identifiers (e.g., "Interview 1, Ticket #4")
+  - Themes must be verbs, not categories
+  - Flag any theme you inferred without direct evidence
+  - At the bottom, list 3 questions the sources do NOT answer
+Format: Markdown list; each entry: Theme / Evidence / Confidence (H/M/L) /
+        Inferred? (Y/N). End with "What's missing" section.
+</code></pre>
+                <aside class="notes">This is the single most-reused prompt of Week 2. Triads should add it to their Pattern Library after today.</aside>
+            </section>
+
+            <!-- Activity 1 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 1 &mdash; Multi-source Synthesis Drill</h2>
+                <h3>Triads &bull; 35 minutes</h3>
+                <p>Warm-up: a small healthcare-scheduling pack (different domain). Single-prompt attempt, then iterate after observing failure modes.</p>
+                <ul>
+                    <li>10 min: single-prompt attempt + run</li>
+                    <li>10 min: inspect — which of the 4 failure modes appeared?</li>
+                    <li>15 min: iterate the prompt; re-run; compare</li>
+                </ul>
+                <div class="timebox">&#9201; 10 attempt &middot; 10 inspect &middot; 15 iterate</div>
+                <aside class="notes">If a triad's first attempt looks "fine," ask them to verify three specific citations. Most will fail the verification.</aside>
+            </section>
+
+            <!-- Section: Block 2 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 2 &mdash; The FieldPulse Research Pack</h2>
+                <h3>Real materials, real noise, real strategy implications</h3>
+            </section>
+
+            <!-- The pack -->
+            <section>
+                <h2>&#128193; What's in the Pack</h2>
+                <ul>
+                    <li class="fragment fade-up">3 anonymized dispatcher interview transcripts (~5 pages each)</li>
+                    <li class="fragment fade-up">14 support tickets (already familiar from Week 1 Day 4)</li>
+                    <li class="fragment fade-up">1 industry analyst report (5 pages)</li>
+                    <li class="fragment fade-up">2 competitor product tour transcripts</li>
+                    <li class="fragment fade-up">1 internal "voice of customer" Slack export (50 messages)</li>
+                </ul>
+                <div class="highlight-box warning">
+                    <strong>Be honest:</strong> the pack is noisy, partly contradictory, and has gaps. That's the point. Real strategy work feels like this.
+                </div>
+                <aside class="notes">The Slack export is the most tempting source — it's high-volume and easy to summarize. It's also the most biased source. Coach for that bias.</aside>
+            </section>
+
+            <!-- The cross-validation step -->
+            <section>
+                <h2>&#129489;&#8205;&#128300; The Cross-Validation Step</h2>
+                <div class="concept-box">
+                    <p>Each triad member takes a different theme produced by the AI and verifies <strong>every</strong> citation against the source. Mark any that fail.</p>
+                </div>
+                <ul>
+                    <li class="fragment fade-up">If a citation can't be verified &rarr; <strong>cut the citation</strong>, lower theme confidence to L</li>
+                    <li class="fragment fade-up">If 2+ citations cut from one theme &rarr; <strong>cut the theme</strong> or relabel as "hypothesis to validate"</li>
+                    <li class="fragment fade-up">If a quote is paraphrased misleadingly &rarr; <strong>flag</strong> in provenance log</li>
+                </ul>
+                <div class="highlight-box danger">
+                    <strong>Don't trust:</strong> the AI's confidence rating about its own output. Independent verification is the only signal.
+                </div>
+                <aside class="notes">This is the moment most TPMs skip in real work. Today is the rehearsal of the discipline.</aside>
+            </section>
+
+            <!-- Activity 2 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 2 &mdash; The Research Pack Pass</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>Use your iterated prompt on the real FieldPulse Research Pack. Cross-validate every citation.</p>
+                <ul>
+                    <li>5 min pre-flight (confirm prompt has constraints)</li>
+                    <li>15 min run (split pack across 2–3 calls if needed)</li>
+                    <li>15 min cross-validate (one theme per member)</li>
+                    <li>5 min edit (cut failed themes; lower confidence)</li>
+                </ul>
+                <div class="timebox">&#9201; 5 prep &middot; 15 run &middot; 15 verify &middot; 5 edit</div>
+                <aside class="notes">Surface in the room: "How many themes did your triad cut?" Normalize cutting. Triads who cut nothing didn't actually verify.</aside>
+            </section>
+
+            <!-- Section: Block 3 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 3 &mdash; The Competitive Snapshot</h2>
+                <h3>The brightest line in AI-assisted research</h3>
+            </section>
+
+            <!-- The bright line -->
+            <section>
+                <h2>&#128711; The Bright Line</h2>
+                <div class="concept-box">
+                    <p style="font-size: 1.1em"><strong>AI can summarize and structure source material you provide.<br>AI cannot tell you what your competitors actually do.</strong></p>
+                </div>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>&#9989; Safe (you provide source)</h4>
+                        <ul>
+                            <li>"Structure these two product tour transcripts into a comparison matrix"</li>
+                            <li>"Identify the 3 most important questions these materials don't answer"</li>
+                            <li>"Tell me what's missing relative to my own product"</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>&#10060; Unsafe (AI invents)</h4>
+                        <ul>
+                            <li>"What is ServiceTitan's market share?"</li>
+                            <li>"Who is the leader in dispatch SaaS?"</li>
+                            <li>"Cite a study showing dispatcher productivity gains"</li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="notes">The "unsafe" prompts will all return confident, plausible, fabricated answers. They are the single highest-cost mistake a TPM makes with AI.</aside>
+            </section>
+
+            <!-- Two-prompt pattern -->
+            <section>
+                <h2>&#128279; The Two-Prompt Pattern</h2>
+                <p><strong>Prompt 1 — Structure what we know:</strong></p>
+                <pre><code class="language-text">Role: Competitive analyst.
+Context: Pasting in 2 competitor product tour transcripts plus
+their public pricing pages.
+Task: Build a comparison matrix.
+Constraints:
+  - Use only facts from the materials I pasted
+  - Do NOT pull from your training data
+  - Flag any cell where the source is silent
+Format: Markdown table, with citation column.</code></pre>
+                <p><strong>Prompt 2 — Tell us what's missing:</strong></p>
+                <pre><code class="language-text">From the matrix above, what 3 questions about these competitors
+do the source materials NOT answer? For each, suggest where a
+TPM should look (analyst reports, customer interviews, public
+earnings calls).</code></pre>
+                <aside class="notes">Prompt 2 is the highest-leverage prompt of the day. It converts AI from a "knowledge generator" to a "research planner."</aside>
+            </section>
+
+            <!-- Activity 3 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 3 &mdash; Competitive Snapshot</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>Use the two-prompt pattern on the competitor materials in the Research Pack. Build a matrix and a list of unanswered questions.</p>
+                <ul>
+                    <li>15 min: structure-what-we-know prompt + verify cells</li>
+                    <li>15 min: what's-missing prompt + decide which gaps matter</li>
+                    <li>10 min: write the Competitive Snapshot section of your brief</li>
+                </ul>
+                <div class="timebox">&#9201; 15 structure &middot; 15 missing &middot; 10 write</div>
+                <aside class="notes">Walk the room. If any triad asks AI "what is the market size" — pause and use it as a teaching moment for the whole cohort.</aside>
+            </section>
+
+            <!-- Section: Block 4 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 4 &mdash; Brief Assembly + Provenance</h2>
+                <h3>Stitch into a brief, write the parts AI cannot, log the parts AI did</h3>
+            </section>
+
+            <!-- The brief structure -->
+            <section>
+                <h2>&#128203; The Strategy Brief Structure</h2>
+                <ol>
+                    <li class="fragment fade-up"><strong>Executive summary</strong> — hand-written, 5 bullets max</li>
+                    <li class="fragment fade-up"><strong>Top 5 user pain themes</strong> — AI-summarized, evidence-tagged, cross-validated</li>
+                    <li class="fragment fade-up"><strong>Competitive snapshot</strong> — AI-drafted from your materials, hand-edited</li>
+                    <li class="fragment fade-up"><strong>Strategy implications</strong> — hand-written; ties themes to NS and design principles</li>
+                    <li class="fragment fade-up"><strong>Provenance log</strong> &mdash; mandatory; documents every AI use and validation step</li>
+                </ol>
+                <div class="highlight-box success">
+                    <strong>Hand-written sections matter most:</strong> they are where the TPM's judgment shows. AI does the volume; you do the meaning.
+                </div>
+                <aside class="notes">If a triad submits an all-AI brief, push back hard. The hand-written sections are non-negotiable.</aside>
+            </section>
+
+            <!-- Provenance log -->
+            <section>
+                <h2>&#128203; The Provenance Log</h2>
+                <div class="concept-box">
+                    <p>A trust-building artifact: documents <em>where</em> AI was used, <em>which prompts</em>, <em>what validation</em> was done, and <em>where the AI was wrong</em>.</p>
+                </div>
+                <pre><code class="language-text">## Provenance log
+
+### AI-generated sections
+| Section | Prompts (link) | Validation | Findings |
+|---------|----------------|------------|----------|
+| Pain themes | Pattern Library #3 | All citations verified | Cut 1 hallucinated theme |
+| Competitive matrix | Pattern Library #5 | Manual check vs source | Flagged 2 silent cells |
+| Missing questions | Pattern Library #6 | Triad consensus | Adopted 2 of 3 |
+
+### Where AI was wrong
+- Lumped "reconcile" and "timecard" into single theme; we split them
+- Inferred a "training" pain theme with no source; cut entirely
+- Cited "Ticket #16" — does not exist; replaced with #11
+
+### Manual hand-written sections
+- Executive summary
+- Strategy implications
+- This log</code></pre>
+                <aside class="notes">A brief without a Provenance Log is fiction. The log is what allows the brief to be reviewed by a skeptical engineer or director.</aside>
+            </section>
+
+            <!-- Activity 4 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 4 &mdash; Brief Assembly + Provenance</h2>
+                <h3>Triads &bull; 45 minutes &bull; Readouts</h3>
+                <p>Stitch the day's outputs into a single brief. Hand-write the executive summary and strategy implications. Complete the provenance log.</p>
+                <ul>
+                    <li>15 min: hand-write executive summary</li>
+                    <li>10 min: hand-write strategy implications</li>
+                    <li>10 min: complete provenance log</li>
+                    <li>10 min: polish for sharing</li>
+                </ul>
+                <div class="timebox">&#9201; 15 exec &middot; 10 strategy &middot; 10 log &middot; 10 polish &middot; 90s readouts</div>
+                <aside class="notes">Pin all briefs in the shared space. Tomorrow's journey-mapping references them directly.</aside>
+            </section>
+
+            <!-- Wrap -->
+            <section>
+                <h2>&#127881; Day 4 Wrap</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>What we built</h4>
+                        <ul>
+                            <li>Validated synthesis prompt (Pattern Library entry)</li>
+                            <li>Two-prompt competitive pattern</li>
+                            <li>Cross-validation discipline</li>
+                            <li>AI-Assembled Strategy Brief with provenance</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>What opens tomorrow</h4>
+                        <ul>
+                            <li><strong>Mapping customer journeys to features</strong></li>
+                            <li>Friday readouts: full Week-2 strategy package</li>
+                            <li>Bridge to Week 3 PRDs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight-box success">
+                    <strong>Bring to Day 5:</strong> Your Strategy Brief, NS, and 3 design principles. All three feed the journey map directly.
+                </div>
+                <aside class="notes">Round-robin close: each person names one AI failure they caught today and one they think they probably missed.</aside>
+            </section>
+
+            <!-- Questions -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>&#128172; Questions &amp; Reflection</h2>
+                <h3>Where in your brief did the AI's confidence exceed your evidence?</h3>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            plugins: [ RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html>

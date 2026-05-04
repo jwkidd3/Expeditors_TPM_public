@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Journey Mapping | TPM Academy — Week 2 Day 5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+    <style>
+        :root {
+            --heading-color: #1a365d;
+            --accent-color: #2b6cb0;
+            --success-color: #2f855a;
+            --warning-color: #c05621;
+            --danger-color: #c53030;
+            --text-color: #2d3748;
+        }
+        .reveal { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-color); font-size: 28px; }
+        .reveal .slides section { text-align: left; padding: 20px 40px; }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 { color: var(--heading-color); font-weight: 700; text-transform: none; }
+        .reveal h1 { font-size: 2.2em; } .reveal h2 { font-size: 1.6em; } .reveal h3 { font-size: 1.3em; }
+        .title-slide { text-align: center !important; }
+        .title-slide h1 { color: #ffffff; font-size: 2.4em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); margin-bottom: 0.3em; }
+        .title-slide h2 { color: #e2e8f0; font-size: 1.4em; font-weight: 400; }
+        .title-slide h3 { color: #cbd5e0; font-size: 1.1em; font-weight: 300; }
+        .section-divider { text-align: center !important; }
+        .section-divider h2 { color: #ffffff; font-size: 2.0em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .section-divider h3 { color: #e2e8f0; font-size: 1.2em; font-weight: 400; }
+        .highlight-box { background: #ebf8ff; border-left: 4px solid var(--accent-color); padding: 20px 25px; border-radius: 0 8px 8px 0; margin: 15px 0; text-align: left; }
+        .highlight-box.success { background: #f0fff4; border-left-color: var(--success-color); }
+        .highlight-box.warning { background: #fffaf0; border-left-color: var(--warning-color); }
+        .highlight-box.danger { background: #fff5f5; border-left-color: var(--danger-color); }
+        .two-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; text-align: left; }
+        .three-columns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; align-items: start; text-align: left; }
+        .card { background: #ffffff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: left; }
+        .card h3, .card h4 { margin-top: 0; color: var(--accent-color); }
+        .concept-box { background: linear-gradient(135deg, #ebf8ff 0%, #e2e8f0 100%); border-radius: 12px; padding: 25px; margin: 15px 0; border: 1px solid #bee3f8; text-align: left; }
+        .concept-box h3, .concept-box h4 { color: var(--heading-color); margin-top: 0; }
+        .key-point { background: #ebf8ff; border: 2px solid var(--accent-color); border-radius: 12px; padding: 20px 25px; margin: 15px 0; text-align: left; font-size: 0.95em; }
+        .key-point strong { color: var(--accent-color); }
+        .lab-callout h2 { color: #ffffff; font-size: 1.8em; margin-bottom: 0.3em; }
+        .lab-callout h3 { color: #90cdf4; font-size: 1.3em; font-weight: 400; }
+        .lab-callout p { color: #e2e8f0; font-size: 1.0em; }
+        .lab-callout ul { color: #e2e8f0; text-align: left; display: inline-block; }
+        .lab-callout .highlight-box { background: rgba(255,255,255,0.1); border-left-color: #90cdf4; color: #e2e8f0; }
+        .questions-slide h2 { color: #ffffff; font-size: 2.2em; }
+        .questions-slide p { color: #e2e8f0; font-size: 1.2em; }
+        .module-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .module-progress .step { width: 30px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .module-progress .step.active { background: var(--accent-color); }
+        .module-progress .step.completed { background: var(--success-color); }
+        .reveal table { border-collapse: collapse; width: 100%; font-size: 0.75em; margin: 15px 0; }
+        .reveal table th { background: var(--heading-color); color: #ffffff; padding: 12px 16px; text-align: left; font-weight: 600; }
+        .reveal table td { padding: 10px 16px; border-bottom: 1px solid #e2e8f0; text-align: left; }
+        .reveal table tr:nth-child(even) { background: #f7fafc; }
+        .reveal ul, .reveal ol { text-align: left; display: block; margin-left: 1em; }
+        .reveal li { margin-bottom: 0.5em; line-height: 1.5; font-size: 0.9em; }
+        .reveal p { line-height: 1.6; }
+        .reveal pre code { font-size: 0.7em; line-height: 1.4; max-height: 500px; overflow: auto; border-radius: 8px; }
+        .instructor-card { display: grid; grid-template-columns: auto 1fr; gap: 30px; align-items: center; }
+        .instructor-photo { width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(135deg, #cbd5e0 0%, #a0aec0 100%); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 4em; }
+    
+        .day-progress { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+        .day-progress .step { width: 40px; height: 6px; border-radius: 3px; background: #cbd5e0; }
+        .day-progress .step.active { background: var(--accent-color); }
+        .day-progress .step.completed { background: var(--success-color); }
+        .pill { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 0.75em; font-weight: 600; background: #edf2f7; color: var(--heading-color); margin-right: 6px; }
+        .pill.accent { background: #ebf8ff; color: var(--accent-color); }
+        .pill.success { background: #f0fff4; color: var(--success-color); }
+        .pill.warning { background: #fffaf0; color: var(--warning-color); }
+        .pill.danger { background: #fff5f5; color: var(--danger-color); }
+        .timebox { background: rgba(255,255,255,0.12); border-radius: 8px; padding: 8px 14px; display: inline-block; margin-top: 10px; color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Title Slide -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="title-slide">
+                <h1>&#128509;&#65039; Mapping Customer Journeys to Features</h1>
+                <h2>Week 2 &bull; Day 5 &bull; Strategic Design &amp; Metrics</h2>
+                <h3>TPM Academy</h3>
+                <div class="day-progress">
+                    <div class="step completed"></div>
+                    <div class="step completed"></div>
+                    <div class="step completed"></div>
+                    <div class="step completed"></div>
+                    <div class="step active"></div>
+                </div>
+                <aside class="notes">Friday. Today's job: connect the strategy work of Days 1–4 into a journey map and 3 features. Then present. Set the energy: this is the dress rehearsal for Week 3.</aside>
+            </section>
+
+            <!-- Day Objectives -->
+            <section>
+                <h2>&#127919; Day 5 Objectives</h2>
+                <ul>
+                    <li class="fragment fade-up">Build a <strong>customer journey map</strong> that is grounded in observed evidence, not aspirational fiction</li>
+                    <li class="fragment fade-up">Surface <strong>non-product touchpoints</strong> (paper, phone, other systems) — the parts most journey maps miss</li>
+                    <li class="fragment fade-up">Convert friction stars into <strong>3 feature concepts</strong> that link friction &rarr; metric &rarr; principle</li>
+                    <li class="fragment fade-up">Defend each feature concept with <strong>trade-offs and validation criteria</strong> — not just upside</li>
+                    <li class="fragment fade-up">Deliver a <strong>12-minute Week-2 readout</strong> that ties the whole week into one strategy package</li>
+                </ul>
+                <aside class="notes">The "non-product touchpoints" objective is the bridge to Week 4. Surface it explicitly.</aside>
+            </section>
+
+            <!-- Today's Shape -->
+            <section>
+                <h2>&#128337; Today's Shape</h2>
+                <table>
+                    <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
+                    <tr><td>09:00 – 09:15</td><td>Opening</td><td>Pin all Week-2 artifacts on the wall</td></tr>
+                    <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>Anchor the journey</td></tr>
+                    <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>Fill the lanes</td></tr>
+                    <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>From friction to features</td></tr>
+                    <tr><td>14:30 – 16:00</td><td>Block 4 + Readouts</td><td>12-min Week-2 readouts</td></tr>
+                </table>
+                <aside class="notes">Friday cadence is tighter — readouts eat the last 90 minutes. Hold the time.</aside>
+            </section>
+
+            <!-- Section: Block 1 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 1 &mdash; What a Journey Map Is</h2>
+                <h3>Anchor in evidence before debating fixes</h3>
+            </section>
+
+            <!-- Is/Is Not -->
+            <section>
+                <h2>&#9989;&#10060; Is / Is Not</h2>
+                <table>
+                    <tr><th>Is</th><th>Is not</th></tr>
+                    <tr><td>Timeline of <strong>user actions, thoughts, emotions</strong></td><td>Flowchart of your product's screens</td></tr>
+                    <tr><td>Grounded in <strong>observed</strong> + <strong>reported</strong> behavior</td><td>How you wish people used your product</td></tr>
+                    <tr><td>Specific to <strong>one persona, one job</strong></td><td>"General user" map</td></tr>
+                    <tr><td>A tool to find <strong>friction</strong> and <strong>leverage</strong></td><td>An end-state living in a wiki</td></tr>
+                </table>
+                <div class="key-point">
+                    <strong>The TPM job:</strong> not the prettiest map. <em>Find where friction is highest, then connect those points to features that move metrics.</em>
+                </div>
+                <aside class="notes">The most common rookie mistake is mapping the product, not the user. Every triad will be tempted. Coach against it.</aside>
+            </section>
+
+            <!-- Five lanes -->
+            <section>
+                <h2>&#128203; The Five Swim Lanes</h2>
+                <div class="lanes">
+                    <div class="lane"><strong>1. Stage</strong> &mdash; Phases of the journey (5–8 stages)</div>
+                    <div class="lane"><strong>2. Actions</strong> &mdash; Concrete verbs the user is doing</div>
+                    <div class="lane"><strong>3. Thoughts</strong> &mdash; Quotes from interviews where possible</div>
+                    <div class="lane emo"><strong>4. Emotions</strong> &mdash; 4-point curve, plotted</div>
+                    <div class="lane touch"><strong>5. Touchpoints</strong> &mdash; Every system &amp; person; <strong>star the friction</strong></div>
+                </div>
+                <div class="highlight-box warning">
+                    <strong>Watch:</strong> the emotions curve must <em>not</em> be flat. A flat curve means the triad is sanitizing.
+                </div>
+                <aside class="notes">Use stickies if possible — physical mapping forces decisions and surfaces disagreements.</aside>
+            </section>
+
+            <!-- The picks -->
+            <section>
+                <h2>&#127919; Pick One Persona, Pick One Scope</h2>
+                <div class="three-columns">
+                    <div class="card">
+                        <h4>Pre-shift &rarr; end-of-shift</h4>
+                        <p>A single workday. Best for journeys where time-of-day matters.</p>
+                    </div>
+                    <div class="card">
+                        <h4>First-30-days</h4>
+                        <p>Onboarding-heavy. Best for surfacing time-to-first-value friction.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Mid-shift exception</h4>
+                        <p>"Tech calls out sick." The canonical disruption. High-fidelity friction.</p>
+                    </div>
+                </div>
+                <div class="highlight-box">
+                    <strong>One persona, one scope.</strong> Not "all users, all situations." That's the difference between strategy and a wishlist.
+                </div>
+                <aside class="notes">If a triad picks "all journeys" — push back hard. Specificity is where insight lives.</aside>
+            </section>
+
+            <!-- Activity 1 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 1 &mdash; Anchor the Journey</h2>
+                <h3>Triads &bull; 35 minutes</h3>
+                <p>Pick one persona, one scope. Stage the journey (5–8 stages). Sanity-check against Week-1 evidence.</p>
+                <ul>
+                    <li>5 min: confirm persona</li>
+                    <li>10 min: pick scope</li>
+                    <li>15 min: stage the journey on the canvas</li>
+                    <li>5 min: tag any inferred stage</li>
+                </ul>
+                <div class="timebox">&#9201; 5 persona &middot; 10 scope &middot; 15 stage &middot; 5 evidence-check</div>
+                <aside class="notes">The most common stumbling block: stages that are feature names, not user-task names. "Login" is not a stage; "Arriving at the office" is.</aside>
+            </section>
+
+            <!-- Section: Block 2 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 2 &mdash; Fill the Lanes</h2>
+                <h3>Thoughts, emotions, touchpoints, friction stars</h3>
+            </section>
+
+            <!-- Why touchpoints matter -->
+            <section>
+                <h2>&#127760; Non-Product Touchpoints (the part most maps miss)</h2>
+                <div class="concept-box">
+                    <p>For every stage, list <strong>every system or person</strong> the user interacts with — including paper, phone, other software, manager, customer.</p>
+                </div>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>&#10060; Incomplete map</h4>
+                        <ul>
+                            <li>Stage: "Reconcile"</li>
+                            <li>Touchpoint: "FieldPulse mobile"</li>
+                        </ul>
+                        <p>Misses the actual journey.</p>
+                    </div>
+                    <div class="card">
+                        <h4>&#9989; Honest map</h4>
+                        <ul>
+                            <li>Stage: "Reconcile"</li>
+                            <li>Touchpoints: FieldPulse mobile, paper ticket book, tech's phone, owner's spreadsheet, the printer that jammed</li>
+                        </ul>
+                        <p>Surfaces the integration story.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <strong>Bridge to Week 4:</strong> non-product touchpoints become the input to system-component mapping in Week 4.
+                </div>
+                <aside class="notes">Most triads will want to map only their own product. Force the question: "What else is in their hand?"</aside>
+            </section>
+
+            <!-- The friction star -->
+            <section>
+                <h2>&#11088; The Friction Star</h2>
+                <div class="concept-box">
+                    <p>Place a star on every stage where the user is fighting the journey. <strong>Friction stars should cluster.</strong> If everything is friction, nothing is.</p>
+                </div>
+                <ul>
+                    <li class="fragment fade-up">2–3 stages with stars &rarr; healthy map</li>
+                    <li class="fragment fade-up">5+ stages with stars &rarr; you're not discriminating; re-rank by severity</li>
+                    <li class="fragment fade-up">0 stages with stars &rarr; you sanitized the journey; re-listen to interviews</li>
+                </ul>
+                <aside class="notes">The clustering check is simple but high-yield. Walk the room and call it out where missing.</aside>
+            </section>
+
+            <!-- Activity 2 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 2 &mdash; Fill the Lanes</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>Populate Thoughts, Emotions, Touchpoints. Star the friction. Walk-through review by one member.</p>
+                <ul>
+                    <li>10 min: thoughts (use real interview quotes when possible)</li>
+                    <li>10 min: emotions curve (must vary)</li>
+                    <li>15 min: touchpoints (include non-product)</li>
+                    <li>5 min: walk-through narration</li>
+                </ul>
+                <div class="timebox">&#9201; 10 thoughts &middot; 10 emo &middot; 15 touch &middot; 5 walk</div>
+                <aside class="notes">Hand each triad a marker for friction stars. Physicality of starring forces commitment.</aside>
+            </section>
+
+            <!-- Section: Block 3 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 3 &mdash; From Friction to Features</h2>
+                <h3>Three feature concepts that pass the strategy test</h3>
+            </section>
+
+            <!-- The strategy test -->
+            <section>
+                <h2>&#9989; The Three-Test Bar</h2>
+                <div class="concept-box">
+                    <p>A feature concept earns a place if it passes <strong>all three</strong>:</p>
+                </div>
+                <table>
+                    <tr><th>Test</th><th>Question</th></tr>
+                    <tr><td><strong>Friction link</strong></td><td>Which specific stage and friction does it reduce?</td></tr>
+                    <tr><td><strong>Metric link</strong></td><td>Which operational signal or KPI from your Tier Sheet does it move?</td></tr>
+                    <tr><td><strong>Principle link</strong></td><td>Which of your 3 design principles does it align with (or which does it deliberately trade off against)?</td></tr>
+                </table>
+                <div class="highlight-box danger">
+                    <strong>The recurring failure:</strong> features without metric links. Force the link or kill the feature.
+                </div>
+                <aside class="notes">A feature with no metric link cannot be defended in Week 6 stakeholder negotiation. Plant the discipline now.</aside>
+            </section>
+
+            <!-- Feature card -->
+            <section>
+                <h2>&#128196; The Feature Card Template</h2>
+                <pre><code class="language-text">## Feature concept: <name>
+
+**Stage(s) addressed:** <journey stages>
+**Friction reduced:** <specific friction starred on the map>
+**Metric it moves:** <op-signal or KPI>
+**Aligned principle:** <which of the 3>
+**Trade-off / risk:** <what we'd give up; what could go wrong>
+**Validation:** how would we know it actually moved the metric in 30 days?</code></pre>
+                <div class="key-point">
+                    <strong>Trade-off / risk is non-negotiable.</strong> "No downside" is a failed answer. Every choice forecloses another.
+                </div>
+                <aside class="notes">The validation row is the bridge to Week 7 (Agile delivery). Plant it now.</aside>
+            </section>
+
+            <!-- Activity 3 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 3 &mdash; From Friction to Features</h2>
+                <h3>Triads &bull; 40 minutes</h3>
+                <p>Brainstorm 8 candidates. Apply the three-test bar. Cull to 3 with full feature cards.</p>
+                <ul>
+                    <li>15 min: brainstorm (volume first)</li>
+                    <li>15 min: three-test scoring</li>
+                    <li>10 min: cull to 3 + complete cards</li>
+                </ul>
+                <div class="timebox">&#9201; 15 brainstorm &middot; 15 score &middot; 10 cull</div>
+                <aside class="notes">If a triad's 3 features all hit the same stage, ask whether that stage really is 80% of the friction. Force a defense.</aside>
+            </section>
+
+            <!-- Section: Block 4 -->
+            <section data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>Block 4 &mdash; Friday Readouts</h2>
+                <h3>The full Week-2 strategy package, 12 minutes</h3>
+            </section>
+
+            <!-- Readout structure -->
+            <section>
+                <h2>&#127908; The 12-Minute Package</h2>
+                <table>
+                    <tr><th>Time</th><th>Section</th><th>What you cover</th></tr>
+                    <tr><td>1 min</td><td>NS + counter-metric</td><td>Statement, segment, number</td></tr>
+                    <tr><td>2 min</td><td>Tier Sheet causal chain</td><td>Three sentences, op-signal &rarr; KPI &rarr; NS</td></tr>
+                    <tr><td>2 min</td><td>One design principle in detail</td><td>The one with most expected pushback</td></tr>
+                    <tr><td>4 min</td><td>Journey map walk-through</td><td>Persona, scope, friction stars</td></tr>
+                    <tr><td>3 min</td><td>3 feature concepts</td><td>Each: stage / friction / metric / principle</td></tr>
+                </table>
+                <div class="highlight-box success">
+                    <strong>All three voices speak.</strong> No single triad-spokesperson. Engineering judges lecturers harshly.
+                </div>
+                <aside class="notes">Time is enforced. The clock matters. Triads who blow their time get docked on coherence.</aside>
+            </section>
+
+            <!-- Scoring rubric -->
+            <section>
+                <h2>&#128202; Scoring Rubric (Live)</h2>
+                <table>
+                    <tr><th>Dimension</th><th>Weight</th><th>Exemplary</th></tr>
+                    <tr><td>Metric coherence</td><td>25%</td><td>Believable causal chain through Tier Sheet</td></tr>
+                    <tr><td>NS defense</td><td>20%</td><td>Three pitfall rebuttals named &amp; defended</td></tr>
+                    <tr><td>Journey realism</td><td>20%</td><td>References Week-1 evidence; non-product touchpoints present</td></tr>
+                    <tr><td>Feature linkage</td><td>15%</td><td>Each feature ties to journey friction AND a metric</td></tr>
+                    <tr><td>AI-use transparency</td><td>10%</td><td>Provenance log surfaced when relevant</td></tr>
+                    <tr><td>Design awareness</td><td>10%</td><td>Principle named with trade-off acknowledged</td></tr>
+                </table>
+                <aside class="notes">Peers score on a paper sheet, anonymous, averaged. Instructor adds a separate score.</aside>
+            </section>
+
+            <!-- Activity 4 -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout">
+                <h2>&#128101; Activity 4 &mdash; Readouts</h2>
+                <h3>Triads &bull; 12 min present + 3 min Q&amp;A each</h3>
+                <p>Assemble the package. Rehearse with the clock. All three voices on stage.</p>
+                <ul>
+                    <li>15 min: assemble &amp; order artifacts</li>
+                    <li>15 min: rehearse with timer</li>
+                    <li>5 min: assign speakers</li>
+                    <li>10 min: predict the toughest peer challenge</li>
+                </ul>
+                <div class="timebox">&#9201; 15 assemble &middot; 15 rehearse &middot; 5 speakers &middot; 10 predict</div>
+                <aside class="notes">If a triad is way under-rehearsed, give them an extra 10 minutes by trimming the predict step. Rehearsal is the most-skipped step and the most predictive of readout quality.</aside>
+            </section>
+
+            <!-- Wrap & Bridge -->
+            <section>
+                <h2>&#127881; Week 2 Wrap</h2>
+                <div class="two-columns">
+                    <div class="card">
+                        <h4>What we built this week</h4>
+                        <ul>
+                            <li>Defensible North Star + counter-metric</li>
+                            <li>Refreshed Metrics Tier Sheet</li>
+                            <li>3 design principles per triad</li>
+                            <li>AI-Assembled Strategy Brief with provenance</li>
+                            <li>Customer journey map + 3 feature concepts</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>What opens Week 3</h4>
+                        <ul>
+                            <li><strong>Requirements Engineering &amp; Mini-Capstone</strong></li>
+                            <li>Convert your top feature concept &rarr; full <strong>Technical PRD</strong> (non-AI)</li>
+                            <li>Acceptance Criteria, NFRs, peer-review cycle</li>
+                            <li>Mini-capstone delivers Friday Week 3</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight-box success">
+                    <strong>Bring to Monday:</strong> All six Week-2 artifacts in shareable form. The journey map and feature cards are direct PRD inputs.
+                </div>
+                <aside class="notes">Round-robin close: each triad names the *one* feature concept they'd take into a Week-3 PRD if they could only pick one.</aside>
+            </section>
+
+            <!-- Questions -->
+            <section data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="section-divider">
+                <h2>&#128172; Questions &amp; Reflection</h2>
+                <h3>Where does your map disagree with how your product was designed?</h3>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            plugins: [ RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html>
