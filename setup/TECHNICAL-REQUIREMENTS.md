@@ -50,7 +50,7 @@ Pre- and post-academy Product Management + Data Literacy assessments. Confirm pa
 - A modern browser (Chrome / Edge / Firefox)
 - Video conferencing client (Zoom / Teams / Meet — per delivery)
 
-**Not required for this academy:** Colab, Databricks, Sagemaker, GPUs, Pluralsight VMs, Copilot licenses. The TPM Academy is a Product Manager curriculum, not an ML engineering curriculum.
+**Not required for this academy:** Colab, Databricks, SageMaker, GPUs, Pluralsight VMs, Copilot licenses. The TPM Academy is a Product Manager curriculum, not an ML engineering curriculum.
 
 ---
 
