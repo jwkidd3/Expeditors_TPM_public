@@ -63,7 +63,11 @@ Each triad uses the **same** product (we recommend a B2B SaaS the cohort doesn't
 
 > "The most painful violation we found was [X]. The most subtle was [Y] — we almost missed it because [reason]."
 
-### Facilitator coaching cues
+### Deliverable
+
+A short list per triad: 3+ heuristic violations with the heuristic number named, plus one "most painful" and one "most subtle" call.
+
+### Facilitation cues
 
 - If two triads pick the same violation, ask the second one: "What did you see that the first triad missed?" — sharpens observation.
 - If a triad picks "the colors are ugly" — redirect to a heuristic. "Aesthetic" is in the list, but "I don't like the colors" is not the same.
@@ -101,6 +105,15 @@ TPMs at most companies inherit accessibility debt. Today we install the **non-ne
 
 Accessibility is a regulatory floor (ADA / Section 508 / EAA), an SEO floor, and a usability ceiling — fixes for keyboard-focus often fix mouse-user errors too. This audit is the kind of artifact TPMs are expected to surface unsolicited.
 
+### Deliverable
+
+A one-page A11y Floor Audit per triad: each of the 8 checks rated pass/partial/fail with a heuristic cross-link for every fail.
+
+### Facilitation cues
+
+- Most cohorts under-rate a11y findings on first pass. If a triad reports "all pass," ask them to try the keyboard-only flow themselves.
+- Push the triad that finishes early to convert fails into severity scores — that's the bridge to Activity 3.
+
 ---
 
 ## Activity 3 — Heuristic Audit of Your Triad's Surface
@@ -109,6 +122,16 @@ Accessibility is a regulatory floor (ADA / Section 508 / EAA), an SEO floor, and
 
 ### Purpose
 Apply the calibrated eye from Activity 1 + the floor from Activity 2 to the triad's chosen product surface.
+
+### Setup
+Each triad opens its chosen flow (FieldPulse mobile, web, or competitor). All three triad members need access.
+
+### Steps
+
+1. **Solo walk-through (10 min).** Each member captures 3+ findings independently.
+2. **Pool + score severity (15 min).** Consolidate findings; assign 1–5 severity per the guide.
+3. **Write up (10 min).** Fill the template — top 3 violations, top 3 strengths, A11y result, TPM lenses.
+4. **Question for design (5 min).** Name the one question that only the design team can answer.
 
 ### The audit template
 
@@ -149,6 +172,15 @@ Apply the calibrated eye from Activity 1 + the floor from Activity 2 to the tria
 | 2 | Cosmetic; affects trust |
 | 1 | Edge case |
 
+### Deliverable
+
+A completed UX Audit per triad covering top 3 violations (severity-scored), top 3 strengths, A11y result, TPM lens findings, and one design-only question.
+
+### Facilitation cues
+
+- Force the strengths column. Most triads default to a kill list and lose designer trust before they've earned it.
+- Watch severity scoring drift. A "5" should be rare; if a triad scores three things at 5, push them to differentiate.
+
 ---
 
 ## Activity 4 — From Audit to Design Principles
@@ -157,6 +189,11 @@ Apply the calibrated eye from Activity 1 + the floor from Activity 2 to the tria
 
 ### Purpose
 Convert the audit findings into **3 design principles** the squad can hold the line on across PRDs. This is the day's keeper artifact.
+
+### Setup
+Each triad has its completed UX Audit from Activity 3 and a way to write the principle cards (paper or digital).
+
+### Steps
 
 ### What a design principle looks like
 
@@ -188,9 +225,14 @@ A good design principle is:
 > 2. "The 3 principles we'd hold the squad to are: [P1], [P2], [P3]."
 > 3. "The principle that would cause the most disagreement with our designers is [P_x] because [why]."
 
-### Facilitator: collect
+### Deliverable
 
-Pin the **3-Principle Cards** alongside the NS Defense Cards. Tomorrow's AI strategy work and Friday's journey map both reference them.
+A 3-Principle Card per triad: each principle as one line + one decision it would force.
+
+### Facilitation cues
+
+- Pin the **3-Principle Cards** alongside the NS Defense Cards. Tomorrow's AI strategy work and Friday's journey map both reference them.
+- Refuse "be consistent" or "be user-friendly" — they fail the decision test. The triad must rewrite before locking.
 
 ---
 

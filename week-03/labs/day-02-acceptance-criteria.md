@@ -89,6 +89,10 @@ Each triad receives the **AC Triage Pack**: 12 AC examples drawn from real (anon
 
 > "The most common failure in our pack was [X]. Our cleanest rewrite was [example]."
 
+### Deliverable
+
+12 triaged AC with failure-mode labels, plus rewrites for each failing AC and a one-sentence note on the most common failure.
+
 ### Facilitator coaching cues
 
 - The "Restating the goal" failure is the trickiest — surfaces only when you ask "could this be tested without running A/B against the metric?"
@@ -103,6 +107,9 @@ Each triad receives the **AC Triage Pack**: 12 AC examples drawn from real (anon
 ### Purpose
 Write the 3–5 happy-path AC for the triad's PRD. These are usually the easiest — get them out of the way first.
 
+### Setup
+Each triad needs their §5 solution sketch from Day 1, the AC template card, and the 5-failure-mode checklist. No AI.
+
 ### Triad protocol
 
 1. **Identify the happy path** (5 min). Re-read §5 from yesterday. The 4–8 step flow becomes the basis for AC.
@@ -115,6 +122,15 @@ Write the 3–5 happy-path AC for the triad's PRD. These are usually the easiest
 - Each AC is one Given/When/Then with no ANDs in the Then
 - Each AC names the exact system state, screen, or event
 - A junior engineer could read the AC and write a test against it
+
+### Deliverable
+
+3–5 happy-path AC in Given/When/Then form, each passing the 5-failure-mode check, appended to PRD §6.
+
+### Facilitation cues
+
+- If a triad pools drafts before doing solo work, push them back to solo. Solo first produces specificity.
+- AND-soup in the Then clause is the most common drift; coach toward splitting into multiple AC.
 
 ### Worked FieldPulse example (happy path)
 
@@ -136,6 +152,9 @@ Then the reconcile modal opens within 1 second
 
 ### Purpose
 Cover the failure modes — what goes wrong when the user, the network, or the data does something unexpected.
+
+### Setup
+Each triad needs the happy-path AC from Activity 2 and the sad/weird-path generator prompts. No AI.
 
 ### The sad-path generator
 
@@ -182,6 +201,15 @@ Then the modal opens with the first 25 tickets pre-selected
   and a tap on the banner appends the next 25 below
 ```
 
+### Deliverable
+
+2–4 sad-path AC and 2–4 weird-path AC appended to PRD §6, each passing the 5-failure-mode check.
+
+### Facilitation cues
+
+- Triads who can't generate weird-path AC haven't engaged with the system reality. Push with named scenarios — network drop, race, timeout.
+- Watch for sad-path AC that are happy-path in disguise (the "successful error" pattern); the recovery must be observable.
+
 ---
 
 ## Activity 4 — AC Cross-Review
@@ -190,6 +218,9 @@ Then the modal opens with the first 25 tickets pre-selected
 
 ### Purpose
 Apply the calibrated eye to *another triad's* AC. Cross-review surfaces failure modes the author triad has gone blind to.
+
+### Setup
+Instructor pre-assigns triad pairs. Each triad needs their own §§1–6 (incl. AC) and a printed review template. No AI.
 
 ### The protocol
 

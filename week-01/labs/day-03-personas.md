@@ -38,6 +38,18 @@ Each box has a column on the right for evidence tier tags.
 
 **Format:** Triad &bull; **30 min** &bull; Block 1
 
+### Purpose
+Calibrate the triad's eye for behavioral vs demographic vs adjectival persona claims before they build their own.
+
+### Setup
+Distribute the three provided personas as a single handout (one page each). Each triad needs colored pens or a digital equivalent for marking up claims.
+
+### Steps
+
+1. **Mark up (15 min).** For each persona, highlight every claim as behavioral, demographic, or adjectival; circle the ones that would change a product decision.
+2. **Rewrite (10 min).** Rewrite the weakest persona (Diana) using Rita's evidence-tagged form.
+3. **Debrief (5 min).** Full-room: which persona changes the most decisions, and why?
+
 ### The three provided personas
 
 > Distribute a single handout: three personas on one page each.
@@ -76,13 +88,28 @@ For each persona:
 - Where does Tom's mixed form do harm?
 - What's one element you'd add to any of them?
 
+### Deliverable
+
+A marked-up handout per triad plus a one-paragraph rewrite of Persona 1 ("Dispatcher Diana") in Rita's behavioral-evidence form.
+
+### Facilitation cues
+
+- Persona 2 (Rita) is intentionally good. If a triad doesn't notice, ask: "Which of these would you actually use to make a decision?"
+- Tom is the trap — half good, half adjective-salad. Push triads to name the mix specifically, not just call him "mixed."
+
 ---
 
 ## Activity 2 — Build Your Persona
 
 **Format:** Triad &bull; **45 min** &bull; Block 2
 
-### Instructions
+### Purpose
+Take the FieldPulse Research Packet and produce a canvas-format persona that is evidence-tagged box by box.
+
+### Setup
+Each triad has the FieldPulse Research Packet (interviews A/B/C + ride-along + analytics) and the Persona Validation Canvas template. AI assistant access required for Boxes 5 and 6 only.
+
+### Steps
 
 1. Review the FieldPulse Research Packet as a triad (10 min)
 2. Start with what you know (Boxes 1–4). Tag every claim.
@@ -130,11 +157,23 @@ Format: Persona Validation Canvas (6 sections).
 - …  *(tier — usually Inferred or AI-generated)*
 ```
 
+### Deliverable
+
+A completed Persona Validation Canvas per triad: all six boxes filled, evidence-tagged, with three validation targets circled.
+
+### Facilitation cues
+
+- Watch for triads using AI to fill Boxes 1–4. If they do, ask them to point at the source — the AI invented it.
+- The "3 claims to validate" circle is the bridge to Activity 3. If they skip it, they will struggle with the role-play.
+
 ---
 
 ## Activity 3 — Role-Play Interviews
 
 **Format:** Triad (rotating roles) &bull; **45 min** &bull; Block 3
+
+### Purpose
+Rehearse the validation-interview protocol on three character cards while a third triad member tallies bias traps.
 
 ### Setup — character cards
 
@@ -186,11 +225,28 @@ After all three rounds:
 - Which assumptions got **stronger** evidence?
 - What bias patterns appeared repeatedly? Name them for yourselves.
 
+### Deliverable
+
+A synthesized list per triad: assumptions confirmed, assumptions broken, and the bias patterns the observer caught most often.
+
+### Facilitation cues
+
+- Trey's "confidently wrong" card is the most useful — many interviewers will believe him. Coach for follow-up questions that test memory ("How often does that actually happen?").
+- The observer role is the most-skipped. Reinforce it as load-bearing — the tally is the artifact.
+
 ---
 
 ## Activity 4 — JTBD Cross-Examination
 
 **Format:** Paired triads &bull; **60 min** &bull; Block 4
+
+### Purpose
+Stress-test the persona by writing JTBDs for it and letting another triad attack them. This is the day's hardest exercise — and the most useful.
+
+### Setup
+Pair each triad with another. Both triads have a completed persona canvas from Activity 2 and need a way to capture the parking lot of open validation questions.
+
+### Steps
 
 ### Step 1 — Draft JTBDs (15 min, within triad)
 
@@ -219,9 +275,14 @@ Every "I don't know" goes on a **parking lot of open validation questions**.
 
 > "One claim we upgraded: …. One claim we had to drop: …"
 
-### Facilitator note
+### Deliverable
 
-Celebrate triads who drop a claim publicly. This is the hardest thing we ask all week and the most important signal of intellectual honesty.
+A revised persona canvas with at least one claim upgraded, one downgraded or dropped, and a captured parking lot of open validation questions.
+
+### Facilitation cues
+
+- Celebrate triads who drop a claim publicly. This is the hardest thing we ask all week and the most important signal of intellectual honesty.
+- If a triad changes nothing under cross-examination, the cross-examiner was too soft. Coach the cross-examiner before the next pairing.
 
 ---
 

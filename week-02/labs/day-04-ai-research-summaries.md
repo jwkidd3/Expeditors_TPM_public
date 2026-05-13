@@ -70,7 +70,7 @@ Practice the **summarize-with-evidence-tags** pattern at scale before applying i
 ### Setup
 Each triad gets a small "warm-up pack": **2 interview transcripts + 4 tickets** (from a different domain than FieldPulse — healthcare scheduling, to force generalization).
 
-### Triad protocol
+### Steps
 
 1. **Single-prompt attempt** (10 min). One member writes a single prompt that asks the AI to extract top 5 themes with evidence citations from the warm-up pack. Run it.
 2. **Inspect the output** (10 min). For each theme:
@@ -79,11 +79,11 @@ Each triad gets a small "warm-up pack": **2 interview transcripts + 4 tickets** 
     - Are any themes missing that you spotted yourself reading?
 3. **Iterate the prompt** (15 min). Add one constraint per failure mode. Re-run. Compare.
 
-### Output
+### Deliverable
 
-A **two-paragraph diagnosis** of the failure modes the triad observed, plus the iteration that worked.
+A **two-paragraph diagnosis** of the failure modes the triad observed, plus the iterated prompt that worked.
 
-### Facilitator coaching cues
+### Facilitation cues
 
 - The single most common failure is **theme inflation** — the AI lumps three different complaints under one bland theme ("usability"). Push triads to demand granularity.
 - Watch for invented citations. Make at least one triad surface a hallucinated ticket number to the room.
@@ -97,7 +97,10 @@ A **two-paragraph diagnosis** of the failure modes the triad observed, plus the 
 ### Purpose
 Apply the iterated prompt pattern to the **real FieldPulse Research Pack** and produce the first draft of the Pain Themes section.
 
-### Triad protocol
+### Setup
+Each triad has its iterated prompt from Activity 1, the FieldPulse Research Pack, and AI assistant access (with the ability to split large pastes into multiple calls).
+
+### Steps
 
 1. **Pre-flight** (5 min). Re-read your iterated prompt from Activity 1. Confirm it includes:
     - Role
@@ -115,6 +118,15 @@ Apply the iterated prompt pattern to the **real FieldPulse Research Pack** and p
 - No more than 1 theme is AI-only (no observed evidence) — and it's flagged as a hypothesis to validate
 - Themes are verbs, not categories ("Cannot reconcile mid-route" beats "Reconcile UX")
 
+### Deliverable
+
+5 pain themes with citations, confidence ratings, and AI-flag — ready to drop into the Strategy Brief's Pain Themes section.
+
+### Facilitation cues
+
+- Surface in the room: "How many themes did your triad cut?" Triads who cut nothing didn't actually verify.
+- If a triad has 8 themes, the AI lumped at the wrong axis. Push for one re-split, then a re-cull.
+
 ---
 
 ## Activity 3 — Competitive Snapshot
@@ -123,6 +135,11 @@ Apply the iterated prompt pattern to the **real FieldPulse Research Pack** and p
 
 ### Purpose
 Use AI to do the most defensible part of competitive research: **structuring** information you already have access to. This is also the failure mode the AI is most frequently used for *poorly* — generating fake market data.
+
+### Setup
+Each triad has the competitor materials from the Research Pack (2 product tour transcripts + public pricing pages) and AI assistant access.
+
+### Steps
 
 ### The bright line
 
@@ -159,9 +176,14 @@ TPM should look (analyst reports, customer interviews, public earnings calls).
 
 These will be confidently fabricated.
 
-### Output
+### Deliverable
 
 A clean **Competitive Snapshot** (matrix + open questions) added to the Strategy Brief.
+
+### Facilitation cues
+
+- Walk the room. If any triad asks AI "what is the market size" — pause and use it as a teaching moment for the whole cohort.
+- The "what's missing" prompt is the highest-leverage one of the day. Make sure every triad actually runs it.
 
 ---
 
@@ -171,6 +193,11 @@ A clean **Competitive Snapshot** (matrix + open questions) added to the Strategy
 
 ### Purpose
 Stitch the day's outputs into a single strategy brief, write the executive summary by hand, and complete the provenance log.
+
+### Setup
+Each triad has all the day's outputs visible: warm-up diagnosis, 5 pain themes, Competitive Snapshot. Brief template is open in the triad's preferred tool.
+
+### Steps
 
 ### Triad protocol
 
@@ -188,9 +215,14 @@ Stitch the day's outputs into a single strategy brief, write the executive summa
 > 2. "The strongest AI failure we caught was [Y]."
 > 3. "Tomorrow, we expect this brief to drive our journey map by [how]."
 
-### Facilitator: collect briefs
+### Deliverable
 
-Pin all briefs in the shared space. Tomorrow's journey-mapping references them directly.
+A 2–3 page Strategy Brief per triad with hand-written executive summary, AI-assembled pain themes (validated), hand-written strategy implications, and a complete Provenance log including at least one named AI failure.
+
+### Facilitation cues
+
+- Pin all briefs in the shared space. Tomorrow's journey-mapping references them directly.
+- If a brief has no "where AI was wrong" entries, the triad didn't validate. Push them to revisit at least one theme.
 
 ---
 

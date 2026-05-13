@@ -68,6 +68,12 @@ A score of **3.0+ ships as-is**. A score of **2.0–2.9 ships with named gaps** 
 
 **Format:** Two-triad reviewer team &bull; **90 min total** &bull; Block 1 + Block 2
 
+### Purpose
+Subject each PRD to two independent rubric-scored reviews. Findings must be specific and actionable — the morning's output is what authors revise from in the afternoon.
+
+### Setup
+Instructor posts pairings at 09:00. Each reviewing triad needs the rubric, the Review Document template, and a printed copy of the assigned PRD. Reviewing triads do not coordinate.
+
 ### The reviewer protocol
 
 Each reviewing triad is paired with one PRD. Two reviewing triads independently review the same PRD (no sharing during review).
@@ -143,6 +149,10 @@ For each: cite the section / line, name the problem, propose the fix.
 - **Suggest a fix.** A reviewer who only finds problems is half-doing the job.
 - **Three strengths is required.** Honest praise builds the trust that lets the harder feedback land.
 
+### Deliverable
+
+A completed Review Document per reviewing triad with rubric scores, 3 strengths, 5 specific findings, and open questions for the clarifying conversation.
+
 ### Facilitator coaching cues
 
 - Catch reviewers writing "this could be more specific" — push them to write the specific version themselves.
@@ -157,6 +167,9 @@ For each: cite the section / line, name the problem, propose the fix.
 
 ### Purpose
 The author triad meets both primary reviewer triads in person. The conversation is **not** about negotiating scores; it's about **clarifying findings** and surfacing implicit feedback that didn't make it into the written review.
+
+### Setup
+Three triads at one table: author + both AM reviewer triads. Author triad has their PRD plus both Review Documents in hand. Author triad runs the conversation.
 
 ### The conversation protocol
 
@@ -189,6 +202,10 @@ The author triad closes by **summarizing what they heard**:
 
 This becomes the input to the afternoon revision block.
 
+### Deliverable
+
+Author-triad-owned action list categorized as adopt / defer / push back, drawn from both AM Review Documents and the conversation.
+
 ### Facilitator role
 
 Sit in on at least one conversation. Watch for:
@@ -205,6 +222,9 @@ Sit in on at least one conversation. Watch for:
 
 ### Purpose
 Revise the PRD based on the morning's reviews and conversations. Update the **review-resolution log**.
+
+### Setup
+Each author triad needs both AM Review Documents, the adopt/defer/push-back list from the clarifying conversation, and the locked v0 PRD. No AI.
 
 ### The triad protocol
 
@@ -242,6 +262,15 @@ Revise the PRD based on the morning's reviews and conversations. Update the **re
 
 After the revision pass, flip the PRD's status from "In review" to "Revised — secondary pending."
 
+### Deliverable
+
+Revised PRD ("Revised — secondary pending") plus an updated review-resolution log naming every finding as adopted, deferred, or pushed back with reasoning.
+
+### Facilitation cues
+
+- Don't let triads spend 60 minutes polishing prose. Coherence fixes first; sentence-level fixes last.
+- Push-backs without reasoning are score-defense; force the rationale to land in the log.
+
 ---
 
 ## Activity 4 — Secondary Review
@@ -255,6 +284,9 @@ A **different** reviewer reads only the **revised** PRD (not the originals). The
 - Did the revisions introduce new problems?
 - Are the deferrals reasonable?
 - Final score using the rubric
+
+### Setup
+Instructor confirms the PM pairings. Each secondary reviewer needs the revised PRD, the resolution log, the AM Review Documents, the rubric, and the Secondary Review Note template.
 
 ### The secondary reviewer protocol
 
@@ -285,6 +317,15 @@ Score with the rubric. Compare to the AM scores in the log — has the PRD genui
 **50–60 min: deliver to authors + sign off**
 
 The secondary reviewer hands the note to the authors. The authors sign off (or escalate to facilitator).
+
+### Deliverable
+
+Secondary Review Note with final rubric score and verdict (ships as-is / ships with named gaps / needs further revision), delivered to authors and signed off.
+
+### Facilitation cues
+
+- Watch for secondary reviewers who skip the honesty check on the resolution log; that's the point of the round.
+- Verdicts below 2.0 require facilitator intervention before close — do not let them slip past wrap.
 
 ---
 

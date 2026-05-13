@@ -33,6 +33,11 @@ Every well-formed NS has been challenged against all three and survived.
 ### Purpose
 Recognize the three pitfalls in real-world examples before applying them to your own NS — pattern-recognition before self-diagnosis.
 
+### Setup
+Each triad has the example pack of 8 anonymized public-company NS candidates.
+
+### Steps
+
 ### The example pack (8 NS candidates from public companies, anonymized)
 
 1. "Monthly Active Riders" — ride-share co.
@@ -52,7 +57,11 @@ For each card, the triad assigns **0, 1, 2, or 3** pitfalls present and writes a
 
 > "We give [X] a clean bill of health because [reason]. We give [Y] all three pitfalls because [reason]."
 
-### Facilitator coaching cues
+### Deliverable
+
+A scored card pack per triad: each card tagged with 0–3 pitfalls and a one-line argument; one clean-bill-of-health pick and one all-three pick identified.
+
+### Facilitation cues
 
 - The "Songs Saved to Library" card is the trickiest — it sounds clean, but a user can save songs they never listen to. Probe.
 - "ARR" almost always gets all three — push triads to name *why* it's a financial result, not a customer outcome.
@@ -65,6 +74,11 @@ For each card, the triad assigns **0, 1, 2, or 3** pitfalls present and writes a
 
 ### Purpose
 Apply yesterday's placeholder + today's pitfalls to draft a defensible NS for the triad's Week-1 problem.
+
+### Setup
+Each triad has its Day-1 NS placeholder visible, plus the Day-2 three-pitfalls vocabulary fresh from Activity 1.
+
+### Steps
 
 ### Triad protocol
 
@@ -101,6 +115,15 @@ The **counter-metric** concept is new today. Examples:
 - NS = "Hours of returned dispatcher time" &rarr; Counter = "% of dispatchers calling support after the new flow"
 - NS = "Tickets resolved without escalation" &rarr; Counter = "Rate of repeated tickets from the same customer"
 
+### Deliverable
+
+A completed NS Defense Card per triad: NS statement, three pitfall rebuttals, and a named counter-metric.
+
+### Facilitation cues
+
+- Triads that converge too quickly often skipped the pitfall test. Re-anchor on disagreement.
+- The counter-metric is the new concept and the most under-practiced. Walk the room verifying each triad has a concrete one, not "we'd watch retention generally."
+
 ---
 
 ## Activity 3 — The "CEO and Dispatcher" Test
@@ -110,9 +133,13 @@ The **counter-metric** concept is new today. Examples:
 ### Purpose
 A defensible NS sounds right to two audiences at once. Today we rehearse.
 
-### The setup
+### Setup
 
-Triads pair off. Each triad takes turns being the **defender** and the **challenger**.
+Triads pair off. Each triad has its NS Defense Card from Activity 2 and the two persona scripts below.
+
+### Steps
+
+Each triad takes turns being the **defender** and the **challenger**.
 
 - Challenger plays **CEO** for 4 minutes: probe whether the NS will move the company forward, scale, and survive a board review.
 - Challenger plays **Dispatcher (target customer)** for 4 minutes: probe whether the NS reflects something they would actually feel.
@@ -135,6 +162,15 @@ Each triad updates its NS Defense Card with:
 
 If the NS doesn't survive both — that's the artifact for tomorrow's coaching, not a failure.
 
+### Deliverable
+
+An updated NS Defense Card with two new lines: the CEO's strongest challenge + response, and the dispatcher's strongest challenge + response.
+
+### Facilitation cues
+
+- Commit to the persona. Half-hearted role-play surfaces nothing.
+- If a challenger softens when they like the NS, swap challenger and defender mid-round to recalibrate.
+
 ---
 
 ## Activity 4 — NS Lock-in + Tier Sheet Refresh
@@ -143,6 +179,11 @@ If the NS doesn't survive both — that's the artifact for tomorrow's coaching, 
 
 ### Purpose
 Replace yesterday's placeholder, walk the new NS up and down the Tier Sheet to confirm coherence, and present.
+
+### Setup
+Each triad has its NS Defense Card (updated through Activity 3) and Day-1 Tier Sheet visible.
+
+### Steps
 
 ### Triad workflow
 
@@ -157,9 +198,14 @@ Replace yesterday's placeholder, walk the new NS up and down the Tier Sheet to c
 > 2. "The strongest challenge it survived was [Z]."
 > 3. "Our counter-metric is [counter] — if that moves wrong, we know we're cheating."
 
-### Facilitator: collect
+### Deliverable
 
-Pin the NS Defense Cards alongside the Tier Sheets. Both stay up all week.
+A locked NS + counter-metric, a refreshed Tier Sheet with the placeholder replaced, and a 90-second readout ready to deliver.
+
+### Facilitation cues
+
+- Pin the NS Defense Cards alongside the Tier Sheets. Both stay up all week.
+- Watch for triads that lock without walking down/up. If signals or KPIs don't ladder anymore, the NS swap broke the chain.
 
 ---
 

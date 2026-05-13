@@ -623,6 +623,9 @@ Arc: calibrate → Perf+Obs → Sec+A11y+Comp → review with trade-offs.
 <h2>Block 1 — What an NFR Is</h2>
 <h3>Why most NFR sections fail</h3>
 
+Note:
+Most NFR sections fail by being either generic ("the system shall be performant") or untestable. Block 1 calibrates the shape before triads write anything.
+
 ---
 
 <h2>📚 The NFR Shape</h2>
@@ -744,6 +747,9 @@ Triads will under-detect "no defense" — it sounds clean if the number is speci
 <h2>Block 2 — Performance + Observability</h2>
 <h3>"What should we expect" + "How would we know"</h3>
 
+Note:
+Performance and observability are paired because one is meaningless without the other. Push triads toward p95 targets and named events, not averages and vague "monitoring."
+
 ---
 
 <h2>⚡ Worked Performance NFR</h2>
@@ -808,6 +814,9 @@ If a triad's perf target is "average," push to p95. Average is the most common r
 
 <h2>Block 3 — Security + A11y + Compliance</h2>
 <h3>The "draft the first version" categories</h3>
+
+Note:
+These categories often get skipped or hand-waved. Today triads draft first versions — specific enough that security, a11y, and compliance reviewers can react.
 
 ---
 
@@ -888,6 +897,9 @@ Note:
 
 <h2>Block 4 — Trade-Offs & Cross-Review</h2>
 <h3>Mature NFR sections name the tensions</h3>
+
+Note:
+Senior engineers expect NFR sections to surface trade-offs, not pretend everything is achievable simultaneously. Block 4 forces that maturity before Friday review.
 
 ---
 
@@ -974,10 +986,13 @@ Round-robin close: each person says one trade-off they made explicit they wouldn
 
 ---
 
-<!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="section-divider" -->
+<!-- .slide: data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider" -->
 
 <h2>💬 Questions & Reflection</h2>
 <h3>Which of your NFRs would a senior engineer push back on hardest?</h3>
+
+Note:
+The push-back test sharpens self-assessment. Tomorrow assembles §§8–11 and integrates the full PRD for Friday review.
 
           </textarea>
         </section>

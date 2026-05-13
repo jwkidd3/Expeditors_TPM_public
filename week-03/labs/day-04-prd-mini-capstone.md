@@ -30,6 +30,9 @@ What's not: ChatGPT, Claude, Copilot, AI features built into your editor (turn t
 ### Purpose
 Connect the PRD to the **Tier Sheet from Week 2 Day 1** and the **NS from Week 2 Day 2**. This section is what Week 7's Agile Delivery work will measure against.
 
+### Setup
+Each triad needs the Week-2 Tier Sheet, the NS Defense Card, and the §8 template. No AI.
+
 ### What §8 contains
 
 ```markdown
@@ -74,6 +77,15 @@ We'll consider this feature successful if [primary metric] moves
 - Targets are **specific deltas**, not "improve."
 - Counter-metric is the same one from Week 2 Day 2 — consistency.
 
+### Deliverable
+
+§8 appended to the PRD: one primary metric, one counter-metric, up to three secondaries, and a four-checkpoint validation plan.
+
+### Facilitation cues
+
+- "We'll watch a few things" is the rookie tell — force the single primary metric.
+- If the counter-metric drifted from Week 2 Day 2, ask why. Inconsistency means one of the two is wrong.
+
 ---
 
 ## Activity 2 — Section 9: Risks & Open Questions
@@ -82,6 +94,9 @@ We'll consider this feature successful if [primary metric] moves
 
 ### Purpose
 Name the things that could go wrong, the things you don't yet know, and the things you'll find out only after launch. **A PRD with "no risks" is a fail.**
+
+### Setup
+Each triad needs §§1–8 and the three-list template (Risks, Open questions, Assumptions). No AI.
 
 ### Three lists in §9
 
@@ -121,6 +136,10 @@ Name the things that could go wrong, the things you don't yet know, and the thin
 3. **Assumptions** (10 min). Often the hardest section — what are we taking for granted?
 4. **Owner + by-when assignment** (5 min). Every open question and risk gets an owner and a deadline.
 
+### Deliverable
+
+§9 appended to the PRD: 3–4 risks with mitigations, 3–5 owned open questions with deadlines, and 2–4 named assumptions with basis.
+
 ### Facilitator coaching cues
 
 - "No risks" is a fail. Push.
@@ -135,6 +154,9 @@ Name the things that could go wrong, the things you don't yet know, and the thin
 
 ### Purpose
 Make the network of "things outside our PRD that this PRD depends on or hands off to" explicit. Most PRDs hand-wave this; mature ones tabulate.
+
+### Setup
+Each triad needs §3 (non-goals), §4 (scope), and any cross-team context surfaced during the week. No AI.
 
 ### §10 Dependencies
 
@@ -177,6 +199,15 @@ What this PRD acknowledges but won't ship:
 - "Status" is honest — most will be Pending. That's fine; pretending they're confirmed is the bug.
 - Out-of-scope items are **specific**, not "future work."
 
+### Deliverable
+
+§§10 and 11 appended to the PRD: dependency table with named owners and honest statuses, plus a specific out-of-scope follow-up list.
+
+### Facilitation cues
+
+- "TBD" as a dependency owner is the tell of an unowned dependency that will ship late. Force a name.
+- Out-of-scope items written as "future work" or "v2" are unactionable; push for specifics with ticket placeholders.
+
 ---
 
 ## Activity 4 — Integration Pass + Lock
@@ -185,6 +216,9 @@ What this PRD acknowledges but won't ship:
 
 ### Purpose
 Read the whole PRD top-to-bottom. Fix incoherences. Lock the version that goes into Friday's review.
+
+### Setup
+Each triad needs the full §§1–11 draft, the eight-item integration checklist, and the AI-prose tell list. No AI.
 
 ### The integration checklist
 
@@ -218,6 +252,15 @@ Specific tells of AI prose that should be eliminated:
 - Sentences that sound true but say nothing specific
 
 If a section sounds like it could appear in any PRD for any product, rewrite it for *your* product.
+
+### Deliverable
+
+Locked **Status: In review** PRD saved as "v0 — for Friday" with the integration checklist passed and no AI-generic prose.
+
+### Facilitation cues
+
+- Watch for triads who spend 60 minutes polishing prose. Coherence first; prose last.
+- Reluctance to mark a section "least sure" hides a confidence problem reviewers will surface tomorrow.
 
 ### Wrap (last 15 min)
 

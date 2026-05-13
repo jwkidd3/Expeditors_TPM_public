@@ -57,6 +57,11 @@ Below the swim lanes, two columns:
 ### Purpose
 Draw the **factual** journey before debating fixes. Most triads jump to features prematurely — today's discipline is to map first.
 
+### Setup
+Each triad has its Day-3 persona, Day-4 Strategy Brief, and the Journey Map Canvas (A2 paper or large whiteboard). Stickies for stages.
+
+### Steps
+
 ### Triad protocol
 
 1. **Pick one persona** (5 min). Almost certainly the dispatcher persona from Week 1 Day 3. Confirm.
@@ -67,11 +72,11 @@ Draw the **factual** journey before debating fixes. Most triads jump to features
 3. **Stage the journey** (15 min). Sticky notes on the Canvas. 5–8 stages.
 4. **Sanity-check against evidence** (5 min). Does each stage map to something in Week 1's interviews/tickets? If not, mark as inferred.
 
-### Output
+### Deliverable
 
 A staged journey skeleton — actions and stages only. Thoughts/emotions/friction come next.
 
-### Facilitator coaching cues
+### Facilitation cues
 
 - If a triad picks "all journeys" — push back. One persona, one scope, today.
 - If a triad's stages are feature names ("Login → Reconcile → Logout") — redirect to user-task names ("Arrive at office → Take the day's dispatch → Reconcile").
@@ -84,6 +89,11 @@ A staged journey skeleton — actions and stages only. Thoughts/emotions/frictio
 
 ### Purpose
 Populate Thoughts, Emotions, and Touchpoints lanes — and surface friction.
+
+### Setup
+Each triad has its staged journey from Activity 1 and the Week-1 interview transcripts within reach.
+
+### Steps
 
 ### Triad protocol
 
@@ -102,6 +112,15 @@ Populate Thoughts, Emotions, and Touchpoints lanes — and surface friction.
 
 The non-product touchpoints are the input to **Week 4's "system components" mapping**. Don't lose them.
 
+### Deliverable
+
+A populated Journey Map Canvas with stages, actions, thoughts (quotes), emotions curve, touchpoints (including non-product), and friction stars clustered at 2–3 stages.
+
+### Facilitation cues
+
+- A flat emotions curve means the triad sanitized. Re-anchor on real interview quotes.
+- If a triad has friction stars on every stage, push them to differentiate by severity. Everything-is-friction = nothing-is-friction.
+
 ---
 
 ## Activity 3 — From Friction to Features
@@ -110,6 +129,11 @@ The non-product touchpoints are the input to **Week 4's "system components" mapp
 
 ### Purpose
 Translate the highest-friction stages into **3 feature concepts** that pass the strategy test.
+
+### Setup
+Each triad has its populated Journey Map (with friction stars), Tier Sheet, and 3 design principles visible.
+
+### Steps
 
 ### The strategy test for a feature concept
 
@@ -138,7 +162,11 @@ A feature concept earns a place on your map if it passes all three:
 **Validation:** how would we know it actually moved the metric in 30 days?
 ```
 
-### Facilitator coaching cues
+### Deliverable
+
+3 feature cards per triad, each linking a journey stage + friction + metric + principle + trade-off + validation approach.
+
+### Facilitation cues
 
 - A feature with no metric link is the cohort's most common error. Force the link.
 - If a triad's 3 features all address the same stage, push them: "Is this stage really 80% of the friction?"
@@ -152,6 +180,11 @@ A feature concept earns a place on your map if it passes all three:
 
 ### Purpose
 Each triad delivers a **12-minute integrated strategy package** to the cohort. Peer + instructor scoring.
+
+### Setup
+Each triad has all six Week-2 artifacts: NS Defense Card, Tier Sheet, 3 design principles, Strategy Brief, Journey Map, 3 feature cards.
+
+### Steps
 
 ### What to present (in order)
 
@@ -184,6 +217,15 @@ Each triad delivers a **12-minute integrated strategy package** to the cohort. P
 - 12 min per triad
 - 3 min Q&A per triad
 - All scores tallied
+
+### Deliverable
+
+A 12-minute integrated readout per triad covering NS → Tier Sheet → one design principle → journey map → 3 feature concepts, with all three voices presenting.
+
+### Facilitation cues
+
+- Hold the clock. Triads that blow their time get scored down on coherence — it is a real signal.
+- If a triad has one designated "speaker," interrupt and reassign. All three voices is non-negotiable.
 
 ---
 

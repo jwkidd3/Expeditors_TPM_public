@@ -40,6 +40,9 @@ This week is the discipline of producing a defensible written artifact without a
 ### Purpose
 Force the triad to commit to **one** feature concept from Week 2 and articulate why that one. Many triads will want to keep all three — the discipline of choosing is the work.
 
+### Setup
+Each triad needs their three Week-2 feature cards, the four-dimension scoring sheet, and a blank memo template. No AI tools.
+
 ### Triad protocol
 
 1. **Re-read the 3 feature cards aloud** (5 min)
@@ -57,6 +60,11 @@ Force the triad to commit to **one** feature concept from Week 2 and articulate 
 
 A single feature locked in, with a "Why this one" memo. The memo seeds Section 1 (Context).
 
+### Facilitation cues
+
+- If a triad tries to merge two features, push back — the discipline of choosing is the work.
+- Memos that read like marketing copy signal generic framing; coach toward user-specific language.
+
 ---
 
 ## Activity 2 — Section 1 (Context) and Section 2 (Problem)
@@ -65,6 +73,9 @@ A single feature locked in, with a "Why this one" memo. The memo seeds Section 1
 
 ### Purpose
 Write the two sections that give the engineer who reads the PRD enough to **care** about the work before they read what to build.
+
+### Setup
+Each triad needs Week-1 interview notes and the Week-2 journey map within arm's reach. Print or pin the PRD template. No AI.
 
 ### Section 1: Context (½ page max)
 
@@ -103,6 +114,15 @@ Tie explicitly to the **Week-2 journey map**. Reference the friction stars.
 - Section 2 quotes a real customer (from Week-1 interviews) at least once.
 - The reader leaves §2 knowing whose Wednesday afternoon will improve.
 
+### Deliverable
+
+Drafted §1 (Context) and §2 (Problem) appended to the triad's PRD, with at least one verbatim customer quote in §2.
+
+### Facilitation cues
+
+- Watch for §1 drafts that restate company strategy from scratch; redirect to the customer signal.
+- If a triad skips solo drafting, the combined prose loses specificity — keep them on the protocol.
+
 ---
 
 ## Activity 3 — Section 3 (Goals & Non-goals) and Section 4 (Scope)
@@ -111,6 +131,9 @@ Tie explicitly to the **Week-2 journey map**. Reference the friction stars.
 
 ### Purpose
 Define what success means **in user terms** and bound what will and won't ship in this iteration. Non-goals and out-of-scope items are the most under-valued sections of any PRD.
+
+### Setup
+Each triad needs their Week-2 Tier Sheet (for metric ties) and the §§1–2 they just drafted. Whiteboard or worksheet for the scope table.
 
 ### Section 3: Goals & non-goals
 
@@ -143,6 +166,10 @@ Out-of-scope is the **negotiation tool** — it tells stakeholders "I see what y
 3. **Draft scope table** (15 min). Force the right column.
 4. **Sanity check** (5 min). Does each goal tie to a friction star or metric?
 
+### Deliverable
+
+§3 (Goals & non-goals) and §4 (Scope in/out table) appended to the PRD, each goal tied to a Tier Sheet metric.
+
 ### Facilitator coaching cues
 
 - If a triad's goals are feature names ("Ship X"), redirect to user outcomes.
@@ -157,6 +184,9 @@ Out-of-scope is the **negotiation tool** — it tells stakeholders "I see what y
 
 ### Purpose
 Describe the solution **just enough** for an engineer to imagine its shape — not so much that you've designed it for them. This is the most-mis-written section in real-world PRDs.
+
+### Setup
+Each triad needs blank paper for sketches, the §§1–4 they just drafted, and the §5 inclusion/exclusion checklist. No AI.
 
 ### What goes in §5
 
@@ -183,6 +213,15 @@ After writing §5, ask: what are the **first three questions** an engineer would
 2. **Write the happy-path paragraph** (10 min).
 3. **List the hard interactions** (10 min).
 4. **The three-questions test** (10 min). Each member proposes 3 engineer questions; flag any that signal over- or under-specification.
+
+### Deliverable
+
+§5 (Solution sketch) appended to the PRD: flow steps, hard-interactions list, happy-path paragraph, and the triad's three-questions diagnosis.
+
+### Facilitation cues
+
+- Most over-specifications come from PMs who used to be engineers. Coach them to leave room for engineering judgment.
+- If the three-questions test produces only implementation questions, the §5 has over-specified; pull back.
 
 ### Wrap (last 15 min)
 

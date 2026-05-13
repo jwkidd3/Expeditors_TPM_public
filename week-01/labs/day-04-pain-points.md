@@ -34,7 +34,10 @@ Provided as a printable 3×3 grid with color overlay. Severity (high/medium/low)
 ### Purpose
 Train the eye for real pain hiding in observed behavior, not just stated complaints.
 
-### Protocol
+### Setup
+Each triad receives a shuffled subset of the FieldPulse Pain Extraction Packet — tickets, ride-along notes, interview excerpts, and one analytics screenshot. No two triads should have the same full subset.
+
+### Steps
 
 1. **Silent pass (10 min):** Read the packet individually. Flag anything that hints at pain.
 2. **Extract (25 min):** As a triad, produce at least **15 candidate pains**. Each must:
@@ -56,11 +59,24 @@ Train the eye for real pain hiding in observed behavior, not just stated complai
 ### Deliverable
 A raw list of 15+ pain-point candidates, tagged with source.
 
+### Facilitation cues
+
+- Walk the room watching for noun-based pains ("UX", "training"). Push triads to rewrite as verb + circumstance + consequence on the spot.
+- Workaround mentions in the ride-along notes are gold. If triads skip them, point at the specific line.
+
 ---
 
 ## Activity 2 — Dig, Sort, Promote
 
 **Format:** Triad &bull; **50 min** &bull; Block 2
+
+### Purpose
+Take the raw pain list from Activity 1 and structure it: deepen with 5 Whys, then cluster via silent affinity mapping.
+
+### Setup
+Each triad has its 15+ raw pains from Activity 1. They need wall space (or a whiteboard tool) for the silent sort.
+
+### Steps
 
 ### Step 1 — 5 Whys on 3 pains (20 min)
 
@@ -95,8 +111,10 @@ Now speak. For each cluster:
 ### Deliverable
 5–8 named clusters, each with 1–2 promoted pains.
 
-### Facilitator note
-If a triad finishes silent-sort fast, they probably skipped disagreement. Walk over and ask: "Were there any placements someone else moved? Good ones to revisit."
+### Facilitation cues
+
+- If a triad finishes silent-sort fast, they probably skipped disagreement. Walk over and ask: "Were there any placements someone else moved? Good ones to revisit."
+- The 5 Whys often stop at L3 because the answer is "we don't know." That's a finding — note it as an interview target.
 
 ---
 
@@ -104,7 +122,13 @@ If a triad finishes silent-sort fast, they probably skipped disagreement. Walk o
 
 **Format:** Triad &bull; **45 min** &bull; Block 3
 
-### Instructions
+### Purpose
+Place each promoted pain on the Severity × Frequency matrix and color-code by Addressability — surfacing pains we must engineer for and pains we must communicate about.
+
+### Setup
+Each triad has 5–8 promoted pains and the printed 3×3 Severity × Frequency matrix.
+
+### Steps
 
 1. Place each promoted pain on the Severity × Frequency matrix (20 min)
 2. Color-code by Addressability: green (fully our product), amber (partial), red (out of scope) (10 min)
@@ -130,11 +154,24 @@ If a triad finishes silent-sort fast, they probably skipped disagreement. Walk o
 ### Deliverable
 A completed matrix with all promoted pains placed and color-coded. "Must live with" notes for red cells.
 
+### Facilitation cues
+
+- The discomfort around "must live with" is real. Honor it — don't paper over it with optimism.
+- A matrix with everything in the "Must fix" quadrant means severity and frequency were not discriminated. Push for honest scoring.
+
 ---
 
 ## Activity 4 — Cross-Triad Challenge
 
 **Format:** Paired triads &bull; **60 min** &bull; Block 4
+
+### Purpose
+Triads pick a Top 3, defend it under cross-triad challenge, and rank-order the final set for Friday's problem statement.
+
+### Setup
+Pair each triad with another. Both triads bring their scored matrices.
+
+### Steps
 
 ### Step 1 — Select Top 3 (within triad, 10 min)
 
@@ -168,6 +205,15 @@ Each triad: 60 seconds. Final Top 3, with one-sentence defense each.
 | Evidence strength | Unsourced | 1 source per | Multiple tiers, observed present |
 | Independence | Overlapping | Related | Three distinct root causes |
 | Honesty | Avoided the weakest | Named the weakest | Publicly dropped/downgraded one |
+
+### Deliverable
+
+A rank-ordered Top 3 pain set per triad, defended against cross-triad challenge, with one AI-leverage candidate identified.
+
+### Facilitation cues
+
+- Watch for triads that don't revise after critique — usually means they didn't hear it. Re-anchor: "What's one thing the other triad surfaced that you hadn't seen?"
+- The "if we solved this, everything else is easier" pain is often the second-ranked one. That's a useful surprise to call out in readouts.
 
 ---
 

@@ -109,6 +109,10 @@ Each triad receives the **NFR Triage Pack**: 10 NFR examples drawn from real PRD
 
 > "The hardest NFR to defend was [X] because [why]. Our cleanest rewrite was [example]."
 
+### Deliverable
+
+10 triaged NFRs with failure-mode labels, 5 rewrites using the four-part template, and one NFR flagged as hardest-to-defend.
+
 ### Facilitator coaching cues
 
 - Boilerplate NFRs are usually the result of "we copied the template" — surface this openly.
@@ -122,6 +126,9 @@ Each triad receives the **NFR Triage Pack**: 10 NFR examples drawn from real PRD
 
 ### Purpose
 Cover two related categories that TPMs most often own jointly. Performance NFRs are the "what should we expect" side; observability NFRs are the "how would we know" side.
+
+### Setup
+Each triad needs their Week-2 Tier Sheet operational signals and the NFR four-part template. No AI.
 
 ### Performance NFR examples (FieldPulse reconcile feature)
 
@@ -164,6 +171,15 @@ Cover two related categories that TPMs most often own jointly. Performance NFRs 
 - Every Tier Sheet operational signal has at least one observability NFR enabling it
 - Performance targets are at p95 or p99, not "average" (which lies)
 
+### Deliverable
+
+2–3 Performance NFRs and 2–3 Observability NFRs in PRD §7, each pair cross-checked so every performance target is observable in production.
+
+### Facilitation cues
+
+- "Average" latency targets get pushed to p95 — average lies in bimodal distributions.
+- If observability NFRs don't reference the Tier Sheet signals, the triad is observability-theater; redirect.
+
 ---
 
 ## Activity 3 — Security + Accessibility + Compliance
@@ -172,6 +188,9 @@ Cover two related categories that TPMs most often own jointly. Performance NFRs 
 
 ### Purpose
 Cover the three remaining categories. These are the categories most often delegated to "the security team will tell us" or "the legal team will tell us" — the TPM job is to **draft the first version** so those conversations have a starting point.
+
+### Setup
+Each triad needs the Week-2 Day-3 A11y Floor Checklist, knowledge of any compliance regime touching the feature, and the NFR template. No AI.
 
 ### Security NFRs — the standard set
 
@@ -218,6 +237,10 @@ Pull from the **A11y Floor Checklist** from Week 2 Day 3. State the conformance 
 3. **Compliance NFRs (1–2)** — 10 min — what regulatory regime is your feature touching?
 4. **Cross-check** (5 min) — defenses are real, not boilerplate
 
+### Deliverable
+
+3–5 Security NFRs, 1–2 Accessibility NFRs, and 1–2 Compliance NFRs appended to PRD §7, each with a concrete defense.
+
 ### Facilitator coaching cues
 
 - "Security: the system shall be secure" gets a hard "no" — push for specifics.
@@ -232,6 +255,9 @@ Pull from the **A11y Floor Checklist** from Week 2 Day 3. State the conformance 
 
 ### Purpose
 Cross-review the NFR sections (same pairing as Day 2 if possible — the reviewer is now familiar with the PRD). Surface trade-offs explicitly: NFRs interact, and several often pull in opposite directions.
+
+### Setup
+Instructor pre-assigns triad pairs (re-use Day 2 pairs when possible). Each triad needs the full §§1–7 draft and the four classic trade-off prompts. No AI.
 
 ### The four classic NFR trade-offs
 
@@ -267,6 +293,15 @@ A mature NFR section **names the trade-offs** and explains how they were resolve
   reconciles in their first week) blocks an onboarding scenario. Resolved:
   managers see read-only view in week 1; full view in week 2.
 ```
+
+### Deliverable
+
+Revised PRD §7 with a "Known trade-offs" subsection naming at least one explicit tension and its resolution.
+
+### Facilitation cues
+
+- Triads who claim "no trade-offs" haven't read their own NFRs hard enough; surface one for them.
+- The most useful trade-off is one resolved with a deferred plan, not a hand-wave; coach toward specificity.
 
 ### Wrap (last 15 min)
 

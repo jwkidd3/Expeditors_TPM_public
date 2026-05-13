@@ -29,6 +29,16 @@ Pick any one per triad. Triads may also propose their own subject to facilitator
 ### Purpose
 Before drafting, calibrate what the difference feels like in practice by analyzing 4 short vignettes.
 
+### Setup
+Distribute the four vignettes as a single handout (printed or shared digitally) to each triad. Each triad needs a way to take quick notes — paper or shared doc is fine.
+
+### Steps
+
+1. **Read (10 min).** Each triad member reads all four vignettes silently.
+2. **Sort (5 min).** Tag each vignette: forward, backward, or ambiguous.
+3. **Discuss (10 min).** For each: what's the one question that, if asked earlier, would have changed the outcome?
+4. **Full-room debrief (5 min).** Cohort-wide discussion of vignettes C and D.
+
 ### Vignettes
 
 > *(Hand out as a printed or shared document. Each vignette is 3–5 sentences.)*
@@ -47,9 +57,14 @@ Before drafting, calibrate what the difference feels like in practice by analyzi
 - C and D are designed to be ambiguous. Why does each matter?
 - For each, what's the **one question that, if asked earlier, would have changed the outcome**?
 
-### Facilitator note
+### Deliverable
 
-Protect Vignette D's discussion. The "fictional customer quote" is the most common PR/FAQ failure in practice — make sure the room names it.
+A one-sentence "earlier question" per vignette, recorded by the triad and surfaced in the cohort debrief.
+
+### Facilitation cues
+
+- Protect Vignette D's discussion. The "fictional customer quote" is the most common PR/FAQ failure in practice — make sure the room names it.
+- If a triad confidently classifies C as forward or backward, push back. The ambiguity is the lesson.
 
 ---
 
@@ -58,9 +73,12 @@ Protect Vignette D's discussion. The "fictional customer quote" is the most comm
 **Format:** Triad &bull; **45 min** &bull; Block 2
 
 ### Purpose
-Produce three candidate hedlines, then use AI to critique them on three axes. Pick one.
+Produce three candidate headlines, then use AI to critique them on three axes. Pick one.
 
-### Instructions
+### Setup
+Each triad has chosen (or will pick now) one product idea from the backlog above. Confirm AI assistant access.
+
+### Steps
 
 1. Pick a product idea from the backlog (or a triad's own)
 2. Draft **three** candidate PR heading + sub-headings (5 min per candidate)
@@ -85,6 +103,11 @@ Format: Markdown table. Be direct.
 
 The single chosen heading + sub-headline, pinned for use in Activity 3.
 
+### Facilitation cues
+
+- If a triad picks their favorite candidate without running the AI critique, push them back to step 3 — the critique is the muscle.
+- The "interchangeable with a competitor's marketing" question kills the favored draft often. That's the lesson; let it sting.
+
 ---
 
 ## Activity 3 — Answer the Five, Concretely
@@ -93,6 +116,15 @@ The single chosen heading + sub-headline, pinned for use in Activity 3.
 
 ### Purpose
 Complete a draft PR paragraph + customer quote + 6 FAQ entries.
+
+### Setup
+Each triad has its chosen heading/sub-headline from Activity 2. Distribute the PR template below.
+
+### Steps
+
+1. **Plan (10 min).** Map the heading/sub-heading to the rest of the template; identify the riskiest section.
+2. **Draft (25 min).** Fill the template — Summary, Problem, Solution, Customer quote, both FAQs.
+3. **Self-review (10 min).** Read aloud within the triad; tag every claim with an evidence tier.
 
 ### Template (provide to each triad)
 
@@ -132,11 +164,28 @@ Complete a draft PR paragraph + customer quote + 6 FAQ entries.
 - Customer quote must be believably in-character — no marketing speak, no adjective-salad.
 - Internal FAQ must include: riskiest assumption, build-estimate-and-evidence, 30%-adoption scenario.
 
+### Deliverable
+
+A complete one-page PR/FAQ per triad: heading, sub-headline, three paragraphs, customer quote, 3 customer FAQs, 3 internal FAQs, and an Evidence log.
+
+### Facilitation cues
+
+- Walk the room watching for generic customers and benefit bouquets — the two most common failure modes.
+- If a triad's customer quote uses marketing language, ask them to read it aloud in the dispatcher's voice. The mismatch becomes obvious.
+
 ---
 
 ## Activity 4 — Cross-Triad PR/FAQ Review
 
 **Format:** Paired triads &bull; **60 min** &bull; Block 4
+
+### Purpose
+Two triads exchange PR/FAQs and run the academy's first cross-triad critique. The critique protocol is what makes it productive instead of defensive.
+
+### Setup
+Pair each triad with another. Both triads have a completed PR/FAQ from Activity 3 and a stopwatch (phone is fine).
+
+### Steps
 
 ### The critique protocol (enforce)
 
@@ -165,6 +214,15 @@ Complete a draft PR paragraph + customer quote + 6 FAQ entries.
 | Benefit bouquet | Make them choose one; defend it |
 | Handwave evidence | Ask for the tier; push for the source |
 | Feature description | Ask them to describe the moment of use, not the tool |
+
+### Deliverable
+
+A revised PR/FAQ per triad with documented changes (what changed, what was left, and why) plus a 60-second readout.
+
+### Facilitation cues
+
+- Enforce "questions only" in the critique block. The first time someone breaks it, name it gently and reset.
+- Triads that change nothing after critique usually didn't hear it. Walk over and ask what surprised them — that opens the door.
 
 ---
 

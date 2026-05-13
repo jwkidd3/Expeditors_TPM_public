@@ -71,7 +71,13 @@ Each triad arrives with:
 
 **Format:** Triad &bull; **45 min** &bull; Block 1
 
-### Protocol
+### Purpose
+Convert the Week-1 artifact stack (persona + Top 3 pains) into a single six-line problem statement an engineer could scope from.
+
+### Setup
+Each triad has its Day 3 persona, Day 4 Top 3 pains, and the printed Problem Statement Template.
+
+### Steps
 
 1. **Pick your anchor pain (5 min).** Usually #1 from Day 4 Top 3. If you're torn between two, draft both in parallel.
 2. **Fill the template (20 min).** One line at a time. Do not skip "Success looks like."
@@ -89,11 +95,32 @@ Each triad arrives with:
 - **"Success looks like" is a feature** — it should be a measurable change in behavior or outcome
 - **Persona inflation** — "all dispatchers at all HVAC companies" when your evidence is 3 shops
 
+### Deliverable
+
+A six-line problem statement per triad, evidence-tagged, that survives the failure-mode audit.
+
+### Facilitation cues
+
+- The "Success looks like" line is the most-skipped. Walk the room and refuse to let it stay empty.
+- If a triad has two candidate statements after the parallel draft, ask which one the engineer would prefer to scope from. That usually picks the winner.
+
 ---
 
 ## Activity 2 — Pressure Test
 
 **Format:** Triad &bull; **45 min** &bull; Block 2
+
+### Purpose
+Use AI to surface the questions a skeptical engineer would ask — then answer them honestly, including by adding to the Open questions list.
+
+### Setup
+Each triad has its draft problem statement from Activity 1 and an AI assistant. Provide the pressure-test prompt below.
+
+### Steps
+
+1. **Run the prompt (10 min).** Paste in the problem statement and evidence log.
+2. **Answer what you can (25 min).** Tag each question green / yellow / red as described below.
+3. **Revise (10 min).** Update the problem statement and Evidence log based on answers.
 
 ### The prompt (from Day 1 library)
 
@@ -119,13 +146,28 @@ Format: Numbered list of questions, ranked.
 ### Guardrail
 **AI does not get to rewrite the statement.** Ownership stays with the triad. The prompt's job is to surface weakness, not to patch it.
 
+### Deliverable
+
+A revised problem statement plus an updated Evidence log and an expanded Open questions section, with each AI-surfaced question color-tagged.
+
+### Facilitation cues
+
+- If a triad has AI rewrite the statement, ask them to point at the line they wrote. Re-anchor ownership.
+- A long Open questions list is a feature, not a bug. Honor the triads that grew their list honestly.
+
 ---
 
 ## Activity 3 — Paired Dry-Run
 
 **Format:** Paired triads &bull; **45 min** &bull; Block 3
 
-### Protocol
+### Purpose
+Rehearse the 10-minute readout against another triad's stopwatch, and surface where intent and listener-summary diverge.
+
+### Setup
+Pair each triad with another. Each triad needs a stopwatch (phone is fine) and a note-taker on the partner side.
+
+### Steps
 
 1. Triads pair up.
 2. Triad A delivers a **full timed 10-minute readout** to Triad B. Partner uses a stopwatch.
@@ -145,6 +187,15 @@ If the listener's one-sentence summary doesn't match your intent, the readout ne
 - The evidence overwhelmed the narrative
 
 Revise accordingly before Block 4.
+
+### Deliverable
+
+A polished 10-minute readout plus a documented gap (intent vs. heard-summary) that the triad has addressed before Block 4.
+
+### Facilitation cues
+
+- The "what I heard" sentence is the single most diagnostic moment. Slow it down — don't let the listener gloss it.
+- If both directions run long, cut the joint debrief to 10 minutes rather than skipping the second readout.
 
 ---
 

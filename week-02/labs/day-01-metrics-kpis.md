@@ -32,7 +32,7 @@ A "well-formed" tier sheet has a believable **causal chain**: a change in an ope
 Ground the room in the difference between metrics that move because the customer's life got better, and metrics that move because the team got clever.
 
 ### Setup
-Each triad receives the **Vanity-Metric Card Pack** (12 metrics drawn from FieldPulse-adjacent SaaS products). Examples in the deck:
+Each triad receives the **Vanity-Metric Card Pack** (12 metrics drawn from FieldPulse-adjacent SaaS products). Examples in the pack:
 
 - Daily Active Users
 - Number of features shipped per quarter
@@ -43,7 +43,7 @@ Each triad receives the **Vanity-Metric Card Pack** (12 metrics drawn from Field
 - Reconcile-flow completion rate
 - New trial sign-ups per week
 
-### The triad's task
+### Steps
 
 For each card, the triad places it on a 2x2:
 
@@ -59,11 +59,15 @@ Lagging  -----------+----------- Leading
 
 Then they pick the **two cards** they would bet on for FieldPulse and the **two cards** they would never report up.
 
+### Deliverable
+
+A sorted 2x2 with bet-on and never-report-up cards labeled, plus a one-sentence rationale per pick.
+
 ### Readout (60 seconds per triad)
 
 > "We would bet on [X] and [Y] because [reason rooted in causal chain]. We would never report up [A] or [B] because [reason]."
 
-### Facilitator coaching cues
+### Facilitation cues
 
 - If a triad picks "session length" as a bet — ask whether longer sessions are good for a dispatcher who hates being on the app.
 - If a triad picks "tickets closed per agent" — ask what happens when an agent closes tickets without solving them.
@@ -78,7 +82,10 @@ Then they pick the **two cards** they would bet on for FieldPulse and the **two 
 ### Purpose
 Generate a credible bench of operational signals for the triad's Week-1 problem statement.
 
-### The protocol
+### Setup
+Each triad has its Week-1 problem statement pinned visibly. Each member needs sticky notes or a shared doc for solo brainstorm.
+
+### Steps
 
 1. Re-read the triad's problem statement aloud.
 2. Each triad member independently writes 4 candidate operational signals (12 total).
@@ -96,6 +103,15 @@ For at least 2 of the 6 finalists, the triad will discover the data **does not e
 
 The 6 operational signals populate the bottom row.
 
+### Deliverable
+
+6 operational signals with what they measure, source, cadence, and action-if-dropped. At least 2 marked as instrumentation gaps.
+
+### Facilitation cues
+
+- Most triads will under-mark instrumentation gaps. Push them: "Could you query this in production right now?"
+- Signals that say "satisfaction" or "engagement" without a specific measure are warning signs. Coach for concreteness.
+
 ---
 
 ## Activity 3 — KPI laddering
@@ -104,6 +120,11 @@ The 6 operational signals populate the bottom row.
 
 ### Purpose
 Bridge from operational signals (squad-level) to KPIs (org-level). This is where TPMs earn their seat in cross-functional rooms.
+
+### Setup
+Each triad has the 6 operational signals from Activity 2 visible.
+
+### Steps
 
 ### The laddering exercise
 
@@ -126,6 +147,15 @@ A well-formed KPI for FieldPulse passes all four:
 
 The 2–3 KPIs populate the middle row.
 
+### Deliverable
+
+2–3 candidate KPIs added to the Tier Sheet, each passing the four-question KPI quality bar, with the operational signals that ladder into each one explicitly named.
+
+### Facilitation cues
+
+- Signals that ladder to nothing are worth flagging as either novel or noisy. Help the triad decide which.
+- Push back on KPIs that are operational signals in disguise (anything that moves daily and a squad acts on).
+
 ---
 
 ## Activity 4 — Tier Sheet defense + North Star placeholder
@@ -134,6 +164,11 @@ The 2–3 KPIs populate the middle row.
 
 ### Purpose
 Complete the Tier Sheet, do a peer-defense round, and seed Day 2's North Star work.
+
+### Setup
+Pair each triad with another. Both triads have draft Tier Sheets (NS placeholder + KPIs + operational signals).
+
+### Steps
 
 ### Triad workflow
 
@@ -152,9 +187,14 @@ Complete the Tier Sheet, do a peer-defense round, and seed Day 2's North Star wo
 
 > "Our NS placeholder is [X]. Our hardest challenge was [Y]. Our biggest instrumentation gap is [Z]."
 
-### Facilitator: collect tier sheets
+### Deliverable
 
-Pin the Metrics Tier Sheets on a shared wall. They will be referenced every day this week.
+A complete Metrics Tier Sheet (NS placeholder + KPIs + 6 operational signals) plus a "known weaknesses" line capturing the strongest challenge from the defense round.
+
+### Facilitation cues
+
+- Pin the Metrics Tier Sheets on a shared wall. They will be referenced every day this week.
+- Watch for placeholder NSs that are basically restated KPIs — that's the muscle Day 2 will work, so don't fix it today, but flag the triad to coach Monday.
 
 ---
 

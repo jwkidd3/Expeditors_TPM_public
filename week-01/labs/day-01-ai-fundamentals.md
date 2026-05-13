@@ -55,6 +55,13 @@ Each triad picks **one** question from the list below. Each triad member runs it
 9. Who is Maria, a fictional HVAC dispatcher? (watch for hallucinated specifics)
 10. What academic research supports mobile-first field service tools?
 
+### Steps
+
+1. **Pick (5 min).** Triad selects one question from the bank above.
+2. **Run (10 min).** Each triad member runs the same question on a different tool.
+3. **Score (15 min).** Compare outputs across usefulness, verifiability, and risk-if-wrong using the rubric below.
+4. **Prepare readout (5 min).** Draft a one-line trust statement.
+
 ### Scoring rubric (each tool gets three 1–5 scores)
 
 | Dimension | 1 | 5 |
@@ -63,11 +70,11 @@ Each triad picks **one** question from the list below. Each triad member runs it
 | Verifiability | Claims can't be checked | Claims traceable, named sources |
 | Risk if wrong | Low (opinion, easy to fix) | High (would mislead scoping or strategy) |
 
-### Readout (60 seconds per triad)
+### Deliverable
 
-> "We would trust [Tool X] for [kind of question]. We would never trust any of them for [kind of question]."
+A scored comparison across three tools plus a one-line readout: "We would trust [Tool X] for [kind of question]. We would never trust any of them for [kind of question]."
 
-### Facilitator coaching cues
+### Facilitation cues
 
 - If all three tools agreed, ask "did they agree *correctly*? How do you know?" — surfaces the comfortable-but-wrong trap.
 - If a tool fabricated a citation, celebrate it as a finding. Take a screenshot for the week's reference.
@@ -81,13 +88,16 @@ Each triad picks **one** question from the list below. Each triad member runs it
 ### Purpose
 Convert the Day 1 teaching (RCCF) into reflexive behavior. Participants handle three weak prompts pulled from the FieldPulse backlog and rewrite them.
 
+### Setup
+Distribute the three weak prompts below to each triad. Confirm each triad has access to one AI assistant and the FieldPulse handouts from the morning.
+
 ### The three weak prompts
 
 1. *"Write me an epic for improving the reconcile workflow."*
 2. *"Summarize all the dispatcher interview feedback."*
 3. *"Give me a competitive comparison chart."*
 
-### Rewrite protocol
+### Steps
 
 1. Identify what's missing: Role, Context, Constraints, Format
 2. Add specifics from the FieldPulse handouts
@@ -115,6 +125,11 @@ Format: …
 
 Minimum four entries by end of Day 1. Entries earned in Activities 2, 3, and 4.
 
+### Facilitation cues
+
+- Walk the room while triads rewrite. The most common gap is under-specified Constraints — coach by asking, not telling.
+- If a triad's rewrite still gets a vague output, that's a teaching moment for the cohort: weak prompts can survive one improvement and still fail.
+
 ---
 
 ## Activity 3 — The Three Hats
@@ -124,19 +139,28 @@ Minimum four entries by end of Day 1. Entries earned in Activities 2, 3, and 4.
 ### Purpose
 Use AI as a rapid multi-perspective critic, and practice asking a single question from each perspective.
 
+### Setup
+Each triad has a working AI assistant and the FieldPulse one-paragraph problem brief below. The brief is the shared input for all three hats.
+
 ### The FieldPulse one-paragraph problem brief
 
 > Dispatchers at mid-sized HVAC shops spend roughly 45 minutes after their shift reconciling paper tickets, truck stock, and tech timecards. We believe a mobile-first guided reconcile flow could cut this to under 10 minutes. We are considering building this in Q3.
 
-### The three hats
+### Steps
 
-1. **Engineer hat:** "Read this as a skeptical engineer scoping the work. What three questions will you ask first?"
-2. **Blocker-stakeholder hat:** "Read this as the operations VP who most often blocks dispatcher-app launches here (she's worried about training load). What objection worries you most?"
-3. **Target-customer hat:** "Read this as Maria, a 12-year HVAC dispatcher at a 90-tech shop. Where does this not ring true?"
+1. **Engineer hat (10 min).** Prompt: "Read this as a skeptical engineer scoping the work. What three questions will you ask first?"
+2. **Blocker-stakeholder hat (10 min).** Prompt: "Read this as the operations VP who most often blocks dispatcher-app launches here (she's worried about training load). What objection worries you most?"
+3. **Target-customer hat (10 min).** Prompt: "Read this as Maria, a 12-year HVAC dispatcher at a 90-tech shop. Where does this not ring true?"
+4. **Synthesize (10 min).** Pick one question per hat that is most uncomfortable; pick one that becomes the Day 3 research target.
 
 ### Deliverable
 
 For each hat: the single most uncomfortable question surfaced. One of those three questions becomes your **Day 3 research target** (the one you cannot currently answer).
+
+### Facilitation cues
+
+- Watch for "the AI was nice to us" outputs — push the triad to re-prompt with sharper persona constraints.
+- The discomfort is the point. If all three hats produce comfortable questions, the prompting is too soft.
 
 ---
 
@@ -146,6 +170,16 @@ For each hat: the single most uncomfortable question surfaced. One of those thre
 
 ### Purpose
 Ship a durable artifact. The library is referenced every remaining day of Week 1 and beyond.
+
+### Setup
+Each triad has been collecting candidate prompts through Activities 2 and 3. They now formalize a shared document — any tool the triad will reliably use (markdown file, shared doc, wiki page).
+
+### Steps
+
+1. **Inventory (10 min).** Pull every candidate prompt the triad has used today.
+2. **Cull (15 min).** Keep the ones with a clear "when to use" and a known failure mode.
+3. **Format (15 min).** Convert each to the schema below. Minimum four entries.
+4. **Star (5 min).** Pick the prompt the triad would actually reuse on Monday morning.
 
 ### Required entries (minimum)
 
@@ -159,13 +193,18 @@ Ship a durable artifact. The library is referenced every remaining day of Week 1
 - [ ] One prompt for converting tickets → themed frustrations (will be needed on Day 4)
 - [ ] One prompt for generating candidate JTBDs from a persona (Day 3)
 
+### Deliverable
+
+A shared Prompt Pattern Library with at least four entries, each tagged with when-to-use, the template, why it works, and known caveats. One entry is starred as the triad's go-to.
+
 ### Readout structure (60 seconds per triad)
 
 > "Our starred prompt is <name>. We tested it on <situation>. The reason we'd reuse it is <why>. Its known failure mode is <caveat>."
 
-### Facilitator: collect and share
+### Facilitation cues
 
-Post all triad libraries to a shared space by end of Day 1. Every triad should be able to borrow another's prompts starting Day 2.
+- Post all triad libraries to a shared space by end of Day 1. Every triad should be able to borrow another's prompts starting Day 2.
+- Triads that finish early often have shallow entries. Push them: "What's the smallest change that would break this prompt?"
 
 ---
 
