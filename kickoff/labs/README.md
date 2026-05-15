@@ -6,7 +6,7 @@ The kickoff is a **half-day pre-Week-1 orientation** that produces three concret
 
 This session is **the only time** the full eight-week structure is surveyed before participants are deep in it. Treat the curriculum tour as orientation, not preview — the goal is location and direction, not content.
 
-**Run [`../../instructor/instructor.md`](../../instructor/instructor.md) before this deck** — it covers the instructor intro, ground rules, and notetaker policy. The kickoff deck assumes those slides have already been delivered.
+**Run [`../../instructor/markdown/instructor.md`](../../instructor/markdown/instructor.md) before this deck** — it covers the instructor intro, ground rules, and notetaker policy. The kickoff deck assumes those slides have already been delivered.
 
 ## Learning outcomes
 
@@ -42,8 +42,8 @@ By the end of the half-day, each participant can:
 ## Materials referenced
 
 - `kickoff-activities.md` — Activity briefs for all three activities (Two Truths and a TPM, Where Have You Seen a TPM Win or Lose, Triad Formation + First Commitment)
-- `../presentations/kickoff.md` — Deck source
-- `../../setup/TECH-SETUP.md` — Referenced from the deck for technical setup
+- `../markdown/kickoff.md` — Deck source
+- `../../setup/markdown/TECH-SETUP.md` — Referenced from the deck for technical setup
 - `../../README.md` — Course overview, week-by-week map
 
 ## What "done" looks like at 12:30
