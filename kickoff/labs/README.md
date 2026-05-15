@@ -6,6 +6,8 @@ The kickoff is a **half-day pre-Week-1 orientation** that produces three concret
 
 This session is **the only time** the full eight-week structure is surveyed before participants are deep in it. Treat the curriculum tour as orientation, not preview — the goal is location and direction, not content.
 
+**Run [`../../instructor/instructor.md`](../../instructor/instructor.md) before this deck** — it covers the instructor intro, ground rules, and notetaker policy. The kickoff deck assumes those slides have already been delivered.
+
 ## Learning outcomes
 
 By the end of the half-day, each participant can:
