@@ -43,7 +43,7 @@ By the end of the half-day, each participant can:
 
 - `kickoff-activities.md` — Activity briefs for all three activities (Two Truths and a TPM, Where Have You Seen a TPM Win or Lose, Triad Formation + First Commitment)
 - `../markdown/kickoff.md` — Deck source
-- `../../setup/markdown/presentations/TECH-SETUP.md` — Referenced from the deck for technical setup
+- `../../participant-setup/markdown/presentations/TECH-SETUP.md` — Referenced from the deck for technical setup
 - `../../README.md` — Course overview, week-by-week map
 
 ## What "done" looks like at 12:30
