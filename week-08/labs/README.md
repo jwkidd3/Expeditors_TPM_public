@@ -1,0 +1,121 @@
+# Week 8 — AI Spec Development & Capstone
+
+> *"Eight weeks of muscle. Five days of proof."*
+
+Week 8 is the capstone. Each triad takes a **real-world project** (declared end of Week 7) and produces a compressed-but-complete artifact set, anchored on the new technique introduced this week: **AI Spec Development** — using AI to draft the integrated technical spec that ties PRD / TCD / TMD outputs together, with full validation discipline.
+
+Friday is **final artifact presentations**. The cohort + instructors score on a rubric that touches every muscle from Weeks 1–7.
+
+## What's different about Week 8
+
+- **The subject is real.** Triads pick a project from their actual work, school, hobby, or a designated capstone scenario — not FieldPulse.
+- **Compression.** The 5-artifact set produced over Weeks 3–7 gets re-produced in **one week** for the new subject. This tests whether the muscles transfer.
+- **AI Spec Development is new.** Day 1 introduces the technique; Day 3 applies it.
+- **Friday is presentations.** Each triad has 15 minutes + 5 min Q&A.
+- **The tone is summative, not introductory.** This week shows whether the academy worked.
+
+## Learning outcomes
+
+By Friday afternoon, each participant can:
+
+1. Apply the **AI Spec Development pattern** — a structured prompt sequence that produces an engineering-ready integrated technical spec, with explicit validation against the PRD/TCD/TMD inputs.
+2. Re-produce the artifact set (PRD-light / TCD-light / TMD-light / SEP-light / DP-light) for a fresh real-world subject in **5 days**, demonstrating transferability of the muscles built across Weeks 1–7.
+3. Run **technical logic validation** — checking metric coherence, architectural consistency, data-API alignment, and trade-off honesty across the artifact set before shipping.
+4. Present the integrated artifact set in a **15-minute readout** that lands with both engineering and business audiences.
+5. Reflect on the **8-week arc** — what stuck, what to deepen, what habits to keep.
+
+## Daily map
+
+| Day | Topic | Key artifact produced |
+|-----|-------|----------------------|
+| 1 | AI Spec Development | AI Spec template + capstone subject confirmed |
+| 2 | Capstone discovery + compressed PRD | Capstone PRD-light |
+| 3 | Capstone architecture + AI Spec drafted | TCD-light + TMD-light + AI Spec v1 |
+| 4 | Technical logic validation + finalization | Validated, integrated capstone artifact set |
+| 5 | Final artifact presentations + course closure | Presented capstone; course complete |
+
+## Daily cadence (Mon–Thu — Friday differs)
+
+| Clock | Block | Mix |
+|-------|-------|-----|
+| 09:00 – 09:15 | Opening & objectives | Instructor |
+| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min triad work |
+| 10:30 – 10:45 | **Break** | |
+| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min triad work |
+| 12:00 – 13:00 | **Lunch** | |
+| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min triad work |
+| 14:15 – 14:30 | **Break** | |
+| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min triad / 20 min wrap |
+
+### Friday cadence (presentations)
+
+For 6 triads (typical cohort), Friday is structured as:
+
+| Clock | Block | What happens |
+|-------|-------|--------------|
+| 09:00 – 09:30 | Opening; presentation order; rubric; final tweaks | Instructor + triads |
+| 09:30 – 10:50 | **Triad 1 + Triad 2 presentations** (15 + 5 min Q&A each, plus 10 min flex) | Cohort scores |
+| 10:50 – 11:05 | Break | |
+| 11:05 – 12:25 | **Triad 3 + Triad 4 presentations** | |
+| 12:25 – 13:25 | Lunch | |
+| 13:25 – 14:45 | **Triad 5 + Triad 6 presentations** | |
+| 14:45 – 15:15 | Cohort retrospective | What worked; what to deepen |
+| 15:15 – 16:00 | Course closure: post-assessments, certificates, wrap | Instructor-led |
+
+If the cohort is smaller, Friday compresses; if larger, the morning extends and break shifts.
+
+## The capstone artifact set (compressed)
+
+Each triad ships a **compressed but complete** version of the 5-week artifact set:
+
+```
+capstone/
+├── PRD-light.md          (sections 1–5 + 6 AC + 7 NFR — shorter than the 11-section Week-3 version)
+├── TCD-light.md          (stance + integration + threat-model summary + SLOs + top trade-offs)
+├── TMD-light.md          (data + cloud + API + sequence + baselines)
+├── SEP-light.md          (stakeholder map + 1 trade-off brief + simulated negotiation outcome)
+├── DP-light.md           (outcome map + backlog skeleton + tracking + 1 experiment)
+└── AI-Spec.md            (NEW THIS WEEK — integrated engineering-ready spec)
+```
+
+Compression is the constraint. Every artifact must fit on **2 pages** or less. The discipline is **what to cut**, not what to add.
+
+## Triads
+
+Same triads from Weeks 1–7. The PRD authors → TCD authors → TMD authors → SEP authors → DP authors → AI-Spec authors → presenters.
+
+## Facilitator pre-flight checklist
+
+- [ ] Confirm every triad has a **declared capstone subject** by Monday morning.
+- [ ] Pre-print or share digitally: **AI Spec Template** (Day 1), **Capstone Compression Card** (template references), **Validation Checklist** (Day 4), **Presentation Rubric** (Day 5).
+- [ ] If any triad's subject is too thin (< a real feature) or too vague (no real customer signal), pre-coach Day 1 morning before they invest time.
+- [ ] Reserve presentation room + scoring sheets for Friday.
+- [ ] Coach yourself on the **most common Week 8 trap**: triads who try to redo all of Weeks 1–7 in compressed form. The discipline is **selective**: which muscles does this capstone need?
+
+## Friday presentation rubric
+
+Each triad's 15-min presentation is scored on:
+
+| Dimension | Weight | Exemplary |
+|-----------|--------|-----------|
+| **Customer + problem clarity** | 15% | Engineer or stakeholder could understand the customer's pain in 90 seconds |
+| **Integrated artifact set** | 15% | All 6 artifacts referenced; references are consistent |
+| **AI Spec quality** | 20% | Engineering-ready; integrates PRD/TCD/TMD outputs; provenance log included |
+| **Trade-off honesty** | 15% | At least 2 trade-offs named with cost + revisit trigger |
+| **Outcome thinking** | 10% | NS / Tier-Sheet / leading indicator vocabulary used naturally |
+| **Delivery readiness** | 10% | DP-light shows backlog, tracking, one bottleneck experiment |
+| **Presentation craft** | 15% | All triad voices speak; time-managed; questions answered with curiosity not defensiveness |
+
+## Bridge — what closes when the academy closes
+
+- Post-assessments (Product Management + Data Literacy) administered after presentations
+- Each participant declares **two muscles to keep deepening** in their next role
+- Each participant declares **one habit to retire**
+- Cohort retrospective captures patterns for the next academy cohort
+
+## Facilitator final reflection prompts (end of week)
+
+- Which triad's transferability was strongest? Document the pattern; share with future cohorts.
+- Which Week-1–7 muscle was the cohort weakest at when stressed by the capstone? That's the highest-leverage deepening for next academy.
+- Did the AI Spec Development discipline hold under pressure? Or did triads regress to "just generate it"?
+- Did the post-assessments reflect the felt growth?
