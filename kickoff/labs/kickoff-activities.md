@@ -156,3 +156,78 @@ Keep the cards through Week 3. At the Week 3 mini-capstone retrospective, hand e
 | 3. Triad Formation | 25 min | Triads |
 
 Total activity time: 75 minutes across the half-day. The remaining 135 minutes are teaching, transitions, break, and Q&A.
+
+---
+
+## Virtual delivery — running the kickoff remotely
+
+The activities above are written for an in-person room. The same three activities work virtually with a few translations. **All breakout-room assignments are random** (the video platform's auto-assign), not pre-mixed for diversity — this is the project's intentional choice.
+
+### Platform stack
+
+- **Video conferencing** with breakout rooms — Zoom / Teams / Meet
+- **One shared visual workspace** for the whole kickoff — Miro / FigJam / Mural (pre-build the boards described below). A shared Google Doc is a workable fallback if no whiteboard tool is available
+- **Visible countdown timer** shown via screen-share for every timed step (any browser timer; an OBS overlay if you have one)
+
+### Universal virtual ground rules (state at 09:00 verbally + in chat)
+
+- **Cameras on** for the whole kickoff. Set the expectation explicitly before Activity 1.
+- **No notetaker bots.** Auto-join apps (Read AI, Otter, Fireflies, etc.) are more common on virtual calls than in-person — repeat the policy in chat as well as verbally and decline join requests.
+- **Use chat as a parking lot** for questions that don't need to interrupt the flow.
+
+### Activity 1 — Two Truths and a TPM (virtual)
+
+**Format:** Pairs &bull; **20 min** &bull; Random breakout-room assignment
+
+- **Breakout setup.** Facilitator uses the platform's auto-assign to create 2-person rooms. Set a 16-minute timer on the rooms; main-room broadcasts the 2-minute setup and 2-minute surface.
+- **Index card substitute.** Each person types their three statements into the **breakout chat** (so both members can see them after the speaker has read them aloud). No Miro frame needed — chat is enough for two-person scope.
+- **Steps stay identical** to the in-person version (Setup 2 min → A→B 8 min → B→A 8 min → Surface 2 min). The surface step happens in main room with the same chat / unmuted shoutouts.
+
+**Virtual-specific cues:**
+- If the room count is odd, the platform leaves one person solo — facilitator joins that room as a "third" and plays the partner role.
+- Watch chat in main room for technical SOS during breakouts; one co-facilitator on chat watch is helpful but optional.
+
+### Activity 2 — Win or Lose (virtual)
+
+**Format:** Quartets &bull; **30 min** &bull; Random breakout-room assignment
+
+- **Breakout setup.** Auto-assign 4-person rooms. 25-minute timer; main-room broadcasts the final 5-minute readout block.
+- **Index card substitute.** Pre-build a **Miro board** before the kickoff with one frame per quartet (label them "Room 1 stories", "Room 2 stories", …). Each frame has 4 sticky-note placeholders + a "Diagnosis" sticky at the bottom. Share the board link in chat at the start of the activity.
+  - *Fallback if no whiteboard tool:* a single Google Doc with one section per quartet, 4 sub-headings per section for individual stories.
+- **Step adjustments:**
+  - **Write — 5 min.** Each person types their 60-second story into their assigned sticky / doc section. Cameras off OK to keep typing-attention.
+  - **Read silently — 5 min.** Quartet members all read each other's stickies (Miro's "follow me" mode helps; in Docs, everyone scrolls).
+  - **Pick + tag — 15 min.** Quartet discusses, picks one story, types the one-sentence diagnosis into the "Diagnosis" sticky.
+- **Readouts (back in main room) — 5 min.** One person from each quartet **screen-shares their quartet's frame**, reads the story + diagnosis, 90 seconds max.
+
+**Virtual-specific cues:**
+- A facilitator should hop between breakout rooms during the 15-min discussion block — catches stuck quartets faster than waiting for chat SOS.
+- If quartets struggle with the silent-read step, give them permission to use chat-reactions (👀 to acknowledge they've read each card).
+
+### Activity 3 — Triad Formation + First Commitment (virtual)
+
+**Format:** Triads &bull; **25 min** &bull; Random breakout-room assignment
+
+The in-person "stand and mingle to find a triad" step doesn't translate. Use the platform's **random auto-assign for 3-person rooms** — that's the project's chosen approach. Trade-off acknowledged: random assignment doesn't enforce the "at least one different dimension" composition rule. Facilitators should be ready to coach triads whose composition turns out cognitively narrow.
+
+- **Breakout setup.** Auto-assign 3-person rooms. 17-minute timer; main-room broadcasts a 5-min announce + 3-min stand-up readout window.
+- **Announce — 5 min.** Facilitator explains: "Your breakout room is your triad. The platform mixed you randomly. You're together through end of Week 3."
+- **In the breakout:**
+  - **Sit + name — 5 min.** Triad picks a memorable name. (Skip the "sit together" step — they're already in a room.)
+  - **Write the commitment — 8 min.** Each triad has a pre-built Miro **commitment card** (or Google Doc section) — one card per triad, labeled with a placeholder number that becomes the triad name. Triad collaboratively types its one-sentence commitment into the card.
+  - **(Optional)** One member is "card keeper" — they screenshot the finished card and save it to a shared Drive folder for the Week 3 retro.
+- **Share — 4 min.** Back in main room. Each triad reads name + commitment, 30 seconds each, unmuted. Same as in-person.
+
+**Virtual-specific cues:**
+- **Random assignment can produce friend-clusters by chance.** If a triad ends up obviously narrow (e.g., three engineers from the same team), the facilitator can either re-roll (move one person across triads) or coach them in-room to lean hard on the cognitive-diversity stretch. Decide which posture you want before kickoff.
+- The commitment card is **the artifact** — preserve a screenshot or link in a shared folder. Without the physical card, it's easy to lose track of for the Week 3 retro.
+- If a triad finishes early (~5 min), have them write a **stretch goal** on the same card: "we'll also \_\_\_" — gives extra triads something to do without disrupting the timer.
+
+### Virtual pre-flight checklist (in addition to the in-person checklist above)
+
+- [ ] Pick ONE whiteboard tool and pre-build the boards: Activity 2 quartet frames, Activity 3 commitment cards
+- [ ] Test the platform's breakout auto-assign for 2 / 4 / 3-person rooms before the cohort joins
+- [ ] Visible countdown timer ready to screen-share for every timed step
+- [ ] Have a co-facilitator (or yourself) on **chat watch** during breakouts for technical SOS
+- [ ] Pre-create a **shared Drive folder** for screenshots of the triad commitment cards
+- [ ] Test screen-share permissions in breakout rooms — some platforms require participants to be unmuted-and-promoted to share
