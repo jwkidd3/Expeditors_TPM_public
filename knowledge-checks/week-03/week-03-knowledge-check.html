@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Week 03 Knowledge Check — TPM Academy</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Week 03 Knowledge Check — TPM Academy</h1>
+</header>
+<h1
+id="week-3-knowledge-check-requirements-engineering-mini-capstone">Week
+3 Knowledge Check — Requirements Engineering &amp; Mini-Capstone</h1>
+<blockquote>
+<p>A short retention check covering the week’s core ideas: drafting
+technical PRDs, granular acceptance criteria, non-functional
+requirements, PRD assembly, and structured peer review. Answer each
+question, then check yourself against the key at the end. Aim for
+concepts, not trivia — every answer maps back to something we used in a
+lab.</p>
+</blockquote>
+<p><strong>Format:</strong> 12 questions (multiple choice + true/false).
+~15 minutes. Individual or triad.</p>
+<hr />
+<h2 id="questions">Questions</h2>
+<p><strong>1. (MC)</strong> What is the “TPM contract” — the test that
+distinguishes a Technical PRD from a generic PM PRD?</p>
+<ul>
+<li><ol type="A">
+<li>A PRD the executive sponsor approves without edits</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>A PRD an engineering lead would accept as scoping input <em>without
+a clarifying call</em></li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>A PRD that fits on a single page</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>A PRD marketing can turn into launch copy</li>
+</ol></li>
+</ul>
+<p><strong>2. (T/F)</strong> Week 3 encourages using AI to draft the PRD
+faster, so triads can spend more of their time on review.</p>
+<p><strong>3. (MC)</strong> Which of the following <em>belongs</em> in
+the §5 Solution Sketch, rather than being cut as over-specification?</p>
+<ul>
+<li><ol type="A">
+<li>Database schema decisions</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Specific API contracts</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>The user-visible flow (4–8 steps)</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Class names and library picks</li>
+</ol></li>
+</ul>
+<p><strong>4. (MC)</strong> An acceptance criterion reads: <em>“Then
+dispatchers reconcile faster.”</em> Which of the five AC failure modes
+is this?</p>
+<ul>
+<li><ol type="A">
+<li>Vague</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Untestable</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Restating the goal</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>AND-soup</li>
+</ol></li>
+</ul>
+<p><strong>5. (T/F)</strong> Weird-path AC coverage — network drops,
+race conditions, timeouts, boundary values — is described as the TPM
+differentiator that PMs and pure engineers each tend to miss.</p>
+<p><strong>6. (MC)</strong> In the Requirement / Defense / Verification
+NFR form, which field is singled out as the one that separates a real
+TPM NFR from boilerplate?</p>
+<ul>
+<li><ol type="A">
+<li>Requirement</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Defense</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Verification</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Category</li>
+</ol></li>
+</ul>
+<p><strong>7. (MC)</strong> How should a performance NFR express its
+latency target?</p>
+<ul>
+<li><ol type="A">
+<li>The average (mean) response time</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>A p95 target on a representative device and connection</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>A best-case time under ideal conditions</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>“Fast enough that users don’t complain”</li>
+</ol></li>
+</ul>
+<p><strong>8. (T/F)</strong> A mature NFR section includes a “Known
+Trade-offs” subsection that names the tensions — and their resolution or
+open status — rather than pretending everything is achievable at
+once.</p>
+<p><strong>9. (MC)</strong> In §10 Dependencies, what makes a dependency
+“owned”?</p>
+<ul>
+<li><ol type="A">
+<li>It’s assigned to the responsible team</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>It’s assigned to a named person</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Its status is marked “Confirmed”</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>It has a “by when” date</li>
+</ol></li>
+</ul>
+<p><strong>10. (T/F)</strong> In §9, listing “no risks” is acceptable as
+long as the feature is genuinely low-risk.</p>
+<p><strong>11. (MC)</strong> On the Friday review rubric, which
+dimension carries the highest weight?</p>
+<ul>
+<li><ol type="A">
+<li>Problem clarity (20%)</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>AC testability (25%)</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>NFR completeness (20%)</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Strategy linkage (15%)</li>
+</ol></li>
+</ul>
+<p><strong>12. (MC)</strong> Which reviewer rule is enforced during AC
+cross-review and again on Friday?</p>
+<ul>
+<li><ol type="A">
+<li>Always give three specific strengths before any criticism</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>If you say “this could be more specific,” you also write the
+specific version</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Never score below 2.0 without facilitator sign-off</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Reviewers must not coordinate with each other</li>
+</ol></li>
+</ul>
+<hr />
+<h1 id="answer-key">Answer Key</h1>
+<p><strong>1. B</strong> — The TPM contract: a PRD an engineering lead
+would accept as scoping input <em>without a clarifying call</em>. This
+is the single best evaluation criterion, and it’s the bar used again on
+Friday.</p>
+<p><strong>2. False</strong> — Week 3 is deliberately non-AI. AI fills
+vagueness with confident, generic prose — and vagueness is exactly the
+bug the week is built to eliminate.</p>
+<p><strong>3. C</strong> — The user-visible flow (4–8 steps). §5 gives
+an engineer the <em>shape</em>; schema, API contracts, and class names
+are engineering judgment and are explicitly excluded.</p>
+<p><strong>4. C</strong> — Restating the goal. It pins to a metric, not
+an in-system event. Fix by anchoring to an observable system state
+(“could you write a test without running an A/B?”).</p>
+<p><strong>5. True</strong> — Weird-path coverage is where TPMs earn
+their seat. PMs who don’t think technically miss it; engineers who don’t
+think about users miss it differently.</p>
+<p><strong>6. B</strong> — Defense. “p95 &lt; 400ms because dispatchers
+tap this 40 times per shift” beats “should be fast.” The Defense field
+is the most-skipped part of NFRs in the wild.</p>
+<p><strong>7. B</strong> — A p95 target on a representative
+device/connection. Averages lie: a bimodal 200ms/5s split averages to
+2.6s but describes no real user’s experience.</p>
+<p><strong>8. True</strong> — The “Known Trade-offs” subsection is the
+senior-author signal. “We accept this” is strong; “we will change it if
+X happens” is stronger.</p>
+<p><strong>9. B</strong> — A named person. “The auth team” is unowned;
+“Lin from auth” is owned. “TBD” as owner is the dependency that ships
+late.</p>
+<p><strong>10. False</strong> — “No risks” is a hard fail — it’s the
+tell of a PRD written to avoid scrutiny. Each risk gets likelihood,
+impact, and a mitigation.</p>
+<p><strong>11. B</strong> — AC testability, at 25%, is the
+highest-weighted dimension. Scores ≥3.0 ship as-is; 2.0–2.9 ship with
+named gaps; &lt;2.0 triggers facilitator intervention.</p>
+<p><strong>12. B</strong> — “If you say it could be more specific, you
+write the specific version.” The rule eliminates lazy review feedback.
+(Three strengths and no reviewer coordination are also real Friday rules
+— but <em>this</em> is “the reviewer rule.”)</p>
+</body>
+</html>
