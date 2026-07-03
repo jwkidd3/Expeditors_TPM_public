@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>FieldPulse Product Analytics Export | TPM Academy</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">FieldPulse Product Analytics Export | TPM Academy</h1>
+</header>
+<h1 id="product-analytics-export-fieldpulse-dispatcher-app">Product
+Analytics Export — FieldPulse Dispatcher App</h1>
+<blockquote>
+<p><strong>Ambient context introduced Day 1; the section-time chart is
+used Day 3, the reconcile funnel Day 4.</strong> Two aggregated views
+from the dispatcher web app. Analytics tell you <strong>what</strong>
+happens, not <strong>why</strong> — pair every number here with a quote
+or observation before you call it a pain. Aggregated across 90
+dispatchers over a 30-day window; no individual is identifiable.</p>
+</blockquote>
+<hr />
+<h2
+id="view-1-average-time-in-app-per-section-per-dispatcher-per-day">View
+1 — Average time-in-app per section (per dispatcher, per day)</h2>
+<p><em>Where dispatchers actually spend their time in the product.
+Minutes/day, averaged across 90 dispatchers.</em></p>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th style="text-align: right;">Avg min/day</th>
+<th>Relative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dispatch / schedule board</td>
+<td style="text-align: right;">47</td>
+<td><code>█████████████████████████</code></td>
+</tr>
+<tr>
+<td>End-of-day reconcile</td>
+<td style="text-align: right;">38</td>
+<td><code>████████████████████</code></td>
+</tr>
+<tr>
+<td>Job detail</td>
+<td style="text-align: right;">21</td>
+<td><code>███████████</code></td>
+</tr>
+<tr>
+<td>Reports</td>
+<td style="text-align: right;">9</td>
+<td><code>█████</code></td>
+</tr>
+<tr>
+<td>Inventory</td>
+<td style="text-align: right;">6</td>
+<td><code>███</code></td>
+</tr>
+<tr>
+<td>Messaging</td>
+<td style="text-align: right;">5</td>
+<td><code>███</code></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Reading note: the reconcile section consumes nearly as much time as
+the core dispatch board, and far more than inventory or messaging —
+despite reconcile being a once-a-day task and dispatch being all-day.
+What that <em>means</em> is for you to determine.</p>
+</blockquote>
+<hr />
+<h2 id="view-2-end-of-day-reconcile-funnel-7-steps">View 2 — End-of-Day
+Reconcile funnel (7 steps)</h2>
+<p><em>Share of started reconcile sessions that reach each step. Same
+30-day window, 90 dispatchers, ~2,400 reconcile sessions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Stage</th>
+<th style="text-align: right;">% of sessions reaching step</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Open reconcile</td>
+<td style="text-align: right;">100%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Review completed jobs</td>
+<td style="text-align: right;">96%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Match field tickets</td>
+<td style="text-align: right;">88%</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Confirm parts used</strong></td>
+<td style="text-align: right;"><strong>35%</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Adjust job times</td>
+<td style="text-align: right;">31%</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Sign-off</td>
+<td style="text-align: right;">29%</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Submit</td>
+<td style="text-align: right;">27%</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Headline:</strong> ~<strong>65% of reconcile sessions are
+abandoned at step 4 (“Confirm parts used”)</strong> — the single largest
+drop in the flow. Only about 1 in 4 sessions reach Submit inside the
+app. Where the other sessions go (paper? spreadsheet? next morning?) is
+not visible in this export — that’s a question for the interviews and
+tickets.</p>
+</blockquote>
+<hr />
+<h2 id="view-3-field-submit-success-rate-technician-mobile-app">View 3 —
+Field-submit success rate (technician mobile app)</h2>
+<p><em>Supporting cut, included for context. Share of field
+ticket-submit attempts that succeed on first try, by
+connectivity.</em></p>
+<table>
+<thead>
+<tr>
+<th>Connectivity</th>
+<th style="text-align: right;">First-try submit success</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Strong signal (Wi-Fi / LTE)</td>
+<td style="text-align: right;">94%</td>
+</tr>
+<tr>
+<td>Weak signal (1–2 bars)</td>
+<td style="text-align: right;">41%</td>
+</tr>
+<tr>
+<td>No signal (offline attempt)</td>
+<td style="text-align: right;">6%</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>Methodology: event data from the dispatcher web app and
+technician mobile app, 30-day window, aggregated across 90 dispatchers
+and their technicians. Percentages rounded. This export is descriptive
+only — it contains no conclusions and no prioritization.</em></p>
+</body>
+</html>
