@@ -1,7 +1,7 @@
 # TPM Academy
 
 **Customer:** Expeditors
-**Source outline:** [`course-tooling/tools/outline.pdf`](./course-tooling/tools/outline.pdf)
+**Source outline:** [`outline.pdf`](./outline.pdf)
 
 An 8-week immersive Technical Product Manager Academy preparing engineers, analysts, and associate PMs to operate as Technical Product Managers. Every week blends conceptual frameworks, hands-on AI-augmented practice, and heavily small-group collaboration that mirrors the real TPM job.
 
