@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>dispatcher-character-cards</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+    @page { size: letter; margin: 0.7in 0.75in; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: #1a202c; font-size: 11.5px; line-height: 1.5; max-width: none; margin: 0;
+    }
+    h1 {
+      font-size: 22px; color: #fff; margin: 0 0 18px;
+      background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+      padding: 18px 22px; border-radius: 9px;
+    }
+    h2 {
+      font-size: 16px; color: #1a365d; margin: 22px 0 8px;
+      border-bottom: 2px solid #2b6cb0; padding-bottom: 4px;
+    }
+    h3 { font-size: 13.5px; color: #2f855a; margin: 16px 0 5px; }
+    h4 { font-size: 12px; color: #2b6cb0; margin: 12px 0 4px; }
+    p { margin: 6px 0; }
+    ul, ol { margin: 6px 0 6px 4px; padding-left: 20px; }
+    li { margin: 2px 0; }
+    strong { color: #1a365d; }
+    a { color: #2b6cb0; text-decoration: none; }
+    code {
+      background: #f0f4f8; padding: 1px 5px; border-radius: 3px;
+      font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 10.5px; color: #2d3748;
+    }
+    pre {
+      background: #1a202c; color: #e2e8f0; padding: 12px 14px; border-radius: 7px;
+      overflow-x: auto; font-size: 10px; line-height: 1.45; break-inside: avoid;
+    }
+    pre code { background: none; color: inherit; padding: 0; }
+    table {
+      width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 10.5px;
+      break-inside: avoid;
+    }
+    th {
+      background: linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%); color: #fff;
+      text-align: left; padding: 7px 10px; font-size: 10px; text-transform: uppercase;
+      letter-spacing: .03em;
+    }
+    td { padding: 6px 10px; border-top: 1px solid #e2e8f0; vertical-align: top; }
+    tr:nth-child(even) td { background: #f7fafc; }
+    blockquote {
+      margin: 10px 0; padding: 8px 14px; background: #f0f4f8;
+      border-left: 4px solid #2b6cb0; color: #2d3748; border-radius: 0 4px 4px 0;
+    }
+    blockquote p { margin: 3px 0; }
+    h2, h3, h4 { break-after: avoid; }
+    hr { border: none; border-top: 1px solid #cbd5e0; margin: 18px 0; }
+  </style>
+</head>
+<body>
+<h1 id="dispatcher-character-cards--role-play-interviews">Dispatcher
+Character Cards — Role-Play Interviews</h1>
+<blockquote>
+<p><strong>Day 3 · Activity 3 handout.</strong> One set of three cards
+per triad (print A5, or run digital). Each round, <strong>only the
+"interviewee" reads the Hidden section of their card</strong> —
+interviewers must surface those details with good questions.
+Interviewers work from the five validation questions, in order.</p>
+<p><strong>Facilitator:</strong> don't let interviewers see Hidden
+details in advance; that's the whole exercise.</p>
+</blockquote>
+<hr />
+<h2 id="card-1--maria-r">Card 1 — Maria R.</h2>
+<p><strong>Public surface (everyone may read)</strong></p>
+<ul>
+<li>Lead Dispatcher, 90-technician HVAC shop</li>
+<li>12 years dispatching</li>
+<li>Reputation: unflappable, keeps the branch running</li>
+</ul>
+<p><strong>Hidden — interviewee only</strong></p>
+<ul>
+<li>Secretly keeps a <strong>paper notebook</strong> for truck stock
+because the app's inventory view is <strong>3 clicks deep</strong> and
+too slow when a tech is waiting on a roof.</li>
+<li>Genuinely dreads <strong>mid-day re-routes</strong> — that's her
+worst hour.</li>
+<li>Won't volunteer the notebook unless asked <em>how</em> she actually
+tracks stock. If the interviewer only asks about the app, she'll
+describe the app and never mention it.</li>
+</ul>
+<hr />
+<h2 id="card-2--trey-w-the-confidently-wrong-card">Card 2 — Trey W.
+<em>(the confidently-wrong card)</em></h2>
+<p><strong>Public surface (everyone may read)</strong></p>
+<ul>
+<li>Dispatcher, 3 years; former field technician</li>
+<li>60-technician shop</li>
+<li>Opinionated, talks fast, happy to generalize</li>
+</ul>
+<p><strong>Hidden — interviewee only</strong></p>
+<ul>
+<li>Will <strong>confidently state</strong> that re-routes "happen all
+day, maybe 10 times a shift." <strong>This is wrong</strong> — it's
+really 2–3 times; he misremembers because the bad days stick.</li>
+<li>If the interviewer asks a <strong>memory-testing follow-up</strong>
+("walk me through the last time," "how often <em>this week</em>?"), you
+should slow down and correct yourself to the real number.</li>
+<li>If they <em>don't</em> test your memory, stay confident and
+wrong.</li>
+</ul>
+<hr />
+<h2 id="card-3--susana-o">Card 3 — Susana O.</h2>
+<p><strong>Public surface (everyone may read)</strong></p>
+<ul>
+<li>Dispatcher, 18 years; the owner's daughter</li>
+<li>160-technician shop</li>
+<li>Carries weight in the shop; the owner listens to her</li>
+</ul>
+<p><strong>Hidden — interviewee only</strong></p>
+<ul>
+<li>The owner insists on <strong>same-day reconcile</strong> and you'll
+repeat that as "the requirement."</li>
+<li>But the <strong>real bottleneck is payroll's Wednesday
+deadline</strong>, not dispatch — same-day is a proxy the owner
+invented. You don't realize this yourself until an interviewer asks
+<em>why</em> same-day matters and <em>what actually breaks</em> if it
+slips a day.</li>
+<li>Reward good "why" questions by working this out loud.</li>
+</ul>
+<hr />
+<h3 id="interviewers-five-questions-use-in-order">Interviewer's five
+questions (use in order)</h3>
+<ol type="1">
+<li>Walk me through the last time you did X.</li>
+<li>What was hardest about that?</li>
+<li>What did you do to work around it?</li>
+<li>How often does that happen?</li>
+<li>If you could wave a wand, what would change?</li>
+</ol>
+<h3 id="observer-tally">Observer tally</h3>
+<table>
+<thead>
+<tr>
+<th>Bias</th>
+<th>Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Leading question ("Wouldn't it be great if…")</td>
+<td></td>
+</tr>
+<tr>
+<td>Confirmation (skipping disconfirming answers)</td>
+<td></td>
+</tr>
+<tr>
+<td>Enthusiasm conflation ("they loved it!")</td>
+<td></td>
+</tr>
+<tr>
+<td>Missed opportunity (hint dropped, no follow-up)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

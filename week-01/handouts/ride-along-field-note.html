@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ride-along-field-note</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+    @page { size: letter; margin: 0.7in 0.75in; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: #1a202c; font-size: 11.5px; line-height: 1.5; max-width: none; margin: 0;
+    }
+    h1 {
+      font-size: 22px; color: #fff; margin: 0 0 18px;
+      background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+      padding: 18px 22px; border-radius: 9px;
+    }
+    h2 {
+      font-size: 16px; color: #1a365d; margin: 22px 0 8px;
+      border-bottom: 2px solid #2b6cb0; padding-bottom: 4px;
+    }
+    h3 { font-size: 13.5px; color: #2f855a; margin: 16px 0 5px; }
+    h4 { font-size: 12px; color: #2b6cb0; margin: 12px 0 4px; }
+    p { margin: 6px 0; }
+    ul, ol { margin: 6px 0 6px 4px; padding-left: 20px; }
+    li { margin: 2px 0; }
+    strong { color: #1a365d; }
+    a { color: #2b6cb0; text-decoration: none; }
+    code {
+      background: #f0f4f8; padding: 1px 5px; border-radius: 3px;
+      font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 10.5px; color: #2d3748;
+    }
+    pre {
+      background: #1a202c; color: #e2e8f0; padding: 12px 14px; border-radius: 7px;
+      overflow-x: auto; font-size: 10px; line-height: 1.45; break-inside: avoid;
+    }
+    pre code { background: none; color: inherit; padding: 0; }
+    table {
+      width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 10.5px;
+      break-inside: avoid;
+    }
+    th {
+      background: linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%); color: #fff;
+      text-align: left; padding: 7px 10px; font-size: 10px; text-transform: uppercase;
+      letter-spacing: .03em;
+    }
+    td { padding: 6px 10px; border-top: 1px solid #e2e8f0; vertical-align: top; }
+    tr:nth-child(even) td { background: #f7fafc; }
+    blockquote {
+      margin: 10px 0; padding: 8px 14px; background: #f0f4f8;
+      border-left: 4px solid #2b6cb0; color: #2d3748; border-radius: 0 4px 4px 0;
+    }
+    blockquote p { margin: 3px 0; }
+    h2, h3, h4 { break-after: avoid; }
+    hr { border: none; border-top: 1px solid #cbd5e0; margin: 18px 0; }
+  </style>
+</head>
+<body>
+<h1 id="ride-along-field-note--maria-r-tuesday-shift">Ride-Along Field
+Note — Maria R., Tuesday Shift</h1>
+<blockquote>
+<p><strong>Day 3 · FieldPulse Research Packet.</strong> Raw observation
+notes from one shift shadowing <strong>Maria R., Lead Dispatcher,
+Reliable Climate Co. (90 technicians, 12 years dispatching).</strong>
+Observed behavior only — no interpretation. Use as Observed-tier
+evidence when building your persona canvas.</p>
+</blockquote>
+<p><strong>Observer:</strong> Product researcher, FieldPulse Dispatcher
+Workflow squad <strong>Setting:</strong> Branch dispatch desk, two
+monitors + desk phone + a personal paper notebook</p>
+<hr />
+<h2 id="timeline">Timeline</h2>
+<ul>
+<li><strong>06:40</strong> — Arrives 20 min before first dispatch. Opens
+FieldPulse dashboard <em>and</em> a spiral notebook. Copies today's
+truck-stock numbers from the app into the notebook by hand before doing
+anything else.</li>
+<li><strong>06:55</strong> — First re-route: a tech calls out sick.
+Maria reassigns 6 jobs in ~9 minutes, flipping between the map view and
+a <strong>paper map taped beside the monitor</strong>. Does not use the
+app's in-tool routing suggestion.</li>
+<li><strong>09:20</strong> — Mid-morning re-route (customer no-show).
+Visibly tenses; says under her breath "here we go." Reassigns from
+memory, then updates the app after the fact.</li>
+<li><strong>11:30</strong> — Asked (unprompted) why the notebook: "The
+inventory screen is <em>three clicks deep</em> and I need it in two
+seconds when a tech's standing on a roof. Faster to keep my own."
+Continues using the notebook as source of truth for truck stock all
+day.</li>
+<li><strong>12:15</strong> — Two techs message asking "does dispatch
+know where my truck is?" Maria answers both by phone, not in-app.</li>
+<li><strong>14:45</strong> — Second sick-call re-route of the day. Third
+re-route event overall.</li>
+<li><strong>17:05</strong> — Shift "ends." Maria stays at the desk.</li>
+<li><strong>17:05–17:52</strong> — <strong>Post-shift
+reconcile.</strong> Retypes the day's paper tickets into the system,
+cross-checks the notebook truck-stock against the app, resolves two
+mismatches by hand, submits the day. <strong>47 minutes.</strong></li>
+<li><strong>17:52</strong> — Leaves. Comments: "That's a normal
+night."</li>
+</ul>
+<hr />
+<h2 id="observed-behaviors-count-tagged">Observed behaviors
+(count-tagged)</h2>
+<ul>
+<li>Maintains a <strong>parallel paper record</strong> (notebook) for
+truck stock because the in-app inventory view is 3 clicks deep — used
+all shift.</li>
+<li>Keeps a <strong>paper map</strong> beside the monitor; ignores the
+app's routing suggestion during re-routes.</li>
+<li><strong>Three re-route events</strong> in one shift; each visibly
+raised stress; app updated <em>after</em> the decision, not during.</li>
+<li><strong>47-minute post-shift reconcile</strong> re-typing paper
+tickets and reconciling stock before she can leave.</li>
+<li>Answers "where's my truck" tech questions <strong>by phone</strong>,
+not through the app.</li>
+</ul>
+</body>
+</html>
