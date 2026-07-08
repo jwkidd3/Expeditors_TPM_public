@@ -21,7 +21,7 @@ Each triad receives:
 
 ### Persona Validation Canvas
 
-Provided as a printable sheet (one per triad, A3 recommended; digital template also in this folder as `canvas.md` — see below). The canvas has six boxes:
+Provided as a printable participant handout (one per triad, A3 recommended): `week-01/handouts/persona-validation-canvas.md` (also built to `.pdf`). The canvas has six boxes:
 
 1. Role & context
 2. Goals (in their words)
@@ -177,7 +177,7 @@ Rehearse the validation-interview protocol on three character cards while a thir
 
 ### Setup — character cards
 
-Each triad uses one set of three cards (provided in `character-cards.md` if running digital; print A5 otherwise). Each card has:
+Each triad uses one set of three cards (participant handout `week-01/handouts/dispatcher-character-cards.md`, also built to `.pdf`; print A5). Each card has:
 
 - Public surface: role, company size, tenure
 - Hidden details: specific workarounds, frustrations, and a *wrong assumption the interviewer will carry into the room*
