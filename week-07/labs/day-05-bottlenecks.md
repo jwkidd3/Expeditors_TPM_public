@@ -180,7 +180,7 @@ The triad declares the DP **Status: Approved** (or "Approved with gaps") — sam
 
 ### Bridge to Week 8 — what the capstone needs
 
-Week 8 is the capstone. Each triad picks a real-world project (typically not FieldPulse — a project from their actual work or a designated capstone scenario). They produce an integrated artifact set in shorter form, anchored on the Week-8 topic: **AI Spec Development**.
+Week 8 is the capstone. Each triad picks a capstone subject — **FieldPulse or a real project of their own** (work, school, or hobby). They produce an integrated artifact set in shorter form, anchored on the Week-8 topic: **AI Spec Development**.
 
 **What carries over to Week 8:**
 
@@ -192,15 +192,15 @@ Week 8 is the capstone. Each triad picks a real-world project (typically not Fie
 **What's new in Week 8:**
 
 - **AI Spec Development** — using AI to draft technical specs that integrate with the artifact set
-- A **real-world capstone project** (not FieldPulse)
+- A **capstone subject** (FieldPulse or a project of your own)
 - **Final artifact presentations** Friday
 
 ### Triad protocol — Week 8 readiness check (30 min)
 
-1. **Pick a capstone candidate** (15 min). Brainstorm 3–5 real-world projects that could be the Week-8 subject. Criteria:
+1. **Pick a capstone candidate** (15 min). Brainstorm 3–5 candidate subjects (FieldPulse or real projects of your own) for Week 8. Criteria:
     - Real product / feature you've encountered (work, school, hobby, public)
     - Substantive enough for a week of work
-    - Different enough from FieldPulse to test transferability
+    - A clear problem you can state in one sentence
     - Permission to discuss publicly (no NDA conflicts)
 2. **Pre-flight** (10 min). What inputs would you need? Who would you ask?
 3. **Declare a candidate** (5 min). Triad's preferred Week-8 capstone. Bring it Monday.
