@@ -8,6 +8,23 @@
 - The "Success looks like" line is the most-skipped. Walk the room and refuse to let it stay empty.
 - If a triad has two candidate statements after the parallel draft, ask which one the engineer would prefer to scope from. That usually picks the winner.
 
+**Reference exemplar (facilitator-only — do NOT hand out; share only *after* triads have drafted their own, so it doesn't anchor them):**
+
+A strong Day-5 problem statement, if a triad ran the FieldPulse case through the template:
+
+```markdown
+# Problem statement — End-of-day reconcile tax
+
+**Who** — Lead dispatcher at a 50–200-tech HVAC shop, running the board solo on weekdays.
+**Currently** — Stays ~45 min past shift end every night hand-reconciling paper tickets, truck stock, and timecards before submitting the day (6 of 8 ride-alongs).
+**Which causes** — The branch's most experienced person loses ~3.75 hrs/week, and mismatches that slip through become payroll errors and understocked trucks.
+**Because** — The three sources of truth don't reconcile automatically, and the inventory view is 3 clicks deep — so dispatchers keep parallel paper records.
+**We know this because** — ride-along notes [Observed]; "mid-day re-routes are my worst hour" 7/10 interviews [Reported]; reconcile funnel 65% abandonment at step 4 [Observed]; support tickets T-01/T-03 [Reported].
+**Success looks like** — median nightly close time drops from ~45 min to under 10 min within 30 days of rollout.
+```
+
+Why it clears the bar: named customer + context, a verb-based "Currently" with frequency, a *measurable* consequence, a root cause (not a solution), every claim evidence-tagged, and a quantified + time-bound success target. Use it to calibrate scoring, and as the shape to coach weak statements toward.
+
 ## Activity 2 — Pressure Test
 
 **Cues:**
