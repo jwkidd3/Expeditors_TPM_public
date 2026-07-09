@@ -186,7 +186,7 @@ Confirm the capstone subject. Some declared candidates won't survive contact wit
 2. **The 5 capstone-fit questions** (15 min):
     - Do we have a **real customer**? (interviews / observation / data — not just a guess)
     - Is the scope **substantive enough** that compressed PRD work has substance?
-    - Is it **different enough** from FieldPulse that we're testing transferability?
+    - **Clear problem?** Can you state the core problem in one sentence an engineer could scope from?
     - Can we **discuss it publicly** (no NDA / IP issues)?
     - Can we **ship the artifact set in 4 days** (Day 2-4 build + Day 5 present)?
 3. **Adjust or commit** (10 min). If 1+ question is "no", refine or pick a backup.

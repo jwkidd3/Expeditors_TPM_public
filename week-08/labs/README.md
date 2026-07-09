@@ -2,13 +2,13 @@
 
 > *"Eight weeks of muscle. Five days of proof."*
 
-Week 8 is the capstone. Each triad takes a **real-world project** (declared end of Week 7) and produces a compressed-but-complete artifact set, anchored on the new technique introduced this week: **AI Spec Development** — using AI to draft the integrated technical spec that ties PRD / TCD / TMD outputs together, with full validation discipline.
+Week 8 is the capstone. Each triad takes a **capstone subject** (declared end of Week 7 — FieldPulse or an internal project of their own) and produces a compressed-but-complete artifact set, anchored on the new technique introduced this week: **AI Spec Development** — using AI to draft the integrated technical spec that ties PRD / TCD / TMD outputs together, with full validation discipline.
 
 Friday is **final artifact presentations**. The cohort + instructors score on a rubric that touches every muscle from Weeks 1–7.
 
 ## What's different about Week 8
 
-- **The subject is real.** Triads pick a project from their actual work, school, hobby, or a designated capstone scenario — not FieldPulse.
+- **The subject is the triad's choice.** FieldPulse, or a project from their actual work, school, or hobby.
 - **Compression.** The 5-artifact set produced over Weeks 3–7 gets re-produced in **one week** for the new subject. This tests whether the muscles transfer.
 - **AI Spec Development is new.** Day 1 introduces the technique; Day 3 applies it.
 - **Friday is presentations.** Each triad has 15 minutes + 5 min Q&A.
@@ -19,7 +19,7 @@ Friday is **final artifact presentations**. The cohort + instructors score on a 
 By Friday afternoon, each participant can:
 
 1. Apply the **AI Spec Development pattern** — a structured prompt sequence that produces an engineering-ready integrated technical spec, with explicit validation against the PRD/TCD/TMD inputs.
-2. Re-produce the artifact set (PRD-light / TCD-light / TMD-light / SEP-light / DP-light) for a fresh real-world subject in **5 days**, demonstrating transferability of the muscles built across Weeks 1–7.
+2. Re-produce the artifact set (PRD-light / TCD-light / TMD-light / SEP-light / DP-light) for the capstone subject in **5 days**, applying the muscles built across Weeks 1–7 end-to-end.
 3. Run **technical logic validation** — checking metric coherence, architectural consistency, data-API alignment, and trade-off honesty across the artifact set before shipping.
 4. Present the integrated artifact set in a **15-minute readout** that lands with both engineering and business audiences.
 5. Reflect on the **8-week arc** — what stuck, what to deepen, what habits to keep.

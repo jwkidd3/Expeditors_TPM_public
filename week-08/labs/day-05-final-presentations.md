@@ -151,7 +151,7 @@ The final round-robin is the closure ritual. It's brief, public, and important.
 
 Each participant ends the academy with:
 
-- [x] **Capstone artifact set** (6 documents) for a real-world subject
+- [x] **Capstone artifact set** (6 documents) for your capstone subject
 - [x] **Final presentation score** (peer + instructor)
 - [x] **Reflection list**: 2 muscles to deepen + 1 habit to retire
 - [x] **Post-assessments** submitted

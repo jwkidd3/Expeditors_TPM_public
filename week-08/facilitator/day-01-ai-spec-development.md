@@ -8,7 +8,7 @@
 
 - A subject that fails the "substantive enough" test will produce a thin capstone. Coach to a richer subject if needed.
 - A subject lacking real customer signal often produces a fictional PRD. Push for at least one real interview (even a 15-min phone call).
-- A subject too close to FieldPulse (same domain, same persona) doesn't test transferability. Push for variety.
+- Capstone subject is the triad's choice — FieldPulse or an internal project. Either is fine; press instead on whether the problem is clearly stated and shippable in 4 days.
 
 ## Activity 3 — Run the 5-Prompt Sequence on FieldPulse
 

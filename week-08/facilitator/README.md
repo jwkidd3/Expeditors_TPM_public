@@ -12,7 +12,7 @@
 
 ## Facilitator final reflection prompts (end of week)
 
-- Which triad's transferability was strongest? Document the pattern; share with future cohorts.
+- Which triad's artifact set was strongest? Document the pattern; share with future cohorts.
 - Which Week-1–7 muscle was the cohort weakest at when stressed by the capstone? That's the highest-leverage deepening for next academy.
 - Did the AI Spec Development discipline hold under pressure? Or did triads regress to "just generate it"?
 - Did the post-assessments reflect the felt growth?
