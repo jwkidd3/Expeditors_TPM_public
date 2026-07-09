@@ -99,11 +99,6 @@ Each triad has its Day 3 persona, Day 4 Top 3 pains, and the printed Problem Sta
 
 A six-line problem statement per triad, evidence-tagged, that survives the failure-mode audit.
 
-### Facilitation cues
-
-- The "Success looks like" line is the most-skipped. Walk the room and refuse to let it stay empty.
-- If a triad has two candidate statements after the parallel draft, ask which one the engineer would prefer to scope from. That usually picks the winner.
-
 ---
 
 ## Activity 2 — Pressure Test
@@ -150,11 +145,6 @@ Format: Numbered list of questions, ranked.
 
 A revised problem statement plus an updated Evidence log and an expanded Open questions section, with each AI-surfaced question color-tagged.
 
-### Facilitation cues
-
-- If a triad has AI rewrite the statement, ask them to point at the line they wrote. Re-anchor ownership.
-- A long Open questions list is a feature, not a bug. Honor the triads that grew their list honestly.
-
 ---
 
 ## Activity 3 — Paired Dry-Run
@@ -191,11 +181,6 @@ Revise accordingly before Block 4.
 ### Deliverable
 
 A polished 10-minute readout plus a documented gap (intent vs. heard-summary) that the triad has addressed before Block 4.
-
-### Facilitation cues
-
-- The "what I heard" sentence is the single most diagnostic moment. Slow it down — don't let the listener gloss it.
-- If both directions run long, cut the joint debrief to 10 minutes rather than skipping the second readout.
 
 ---
 

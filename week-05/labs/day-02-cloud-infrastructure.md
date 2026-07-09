@@ -97,11 +97,6 @@ Each triad needs PRD §2 (customer base), TCD §3 (compliance), TCD §4 (SLOs), 
 
 A regional-stance section ready for TMD §2.
 
-### Facilitation cues
-
-- Multi-region active-active without an outage-cost defense is the expensive rookie call. Coach toward warm-DR as a starting point.
-- Single-AZ for production isn't a stance; it's a future incident. Push to at least multi-AZ.
-
 ---
 
 ## Activity 2 — Managed vs Self-Managed for Each Component
@@ -154,11 +149,6 @@ For most B2B features, the answer is **managed**. Don't reinvent.
 ### Deliverable
 
 Managed-vs-self table covering every TCD container, with a specific reason for each self-managed choice.
-
-### Facilitator coaching cues
-
-- "We want full control" is a smell. Push: "what specific decision do you need to make that the managed service forecloses?"
-- If a triad picks self-managed for everything, they're carrying a heavy ops bill. Surface it.
 
 ---
 
@@ -227,11 +217,6 @@ Most B2B SaaS at FieldPulse's stage uses **pooled with per-tenant rate limits** 
 
 Tenancy stance and network boundary documented with rationale, revisit triggers, and updated sign-off matrix entries for any new stakeholders.
 
-### Facilitation cues
-
-- Single-tenant without contractual customer evidence is the classic over-promise; push back.
-- Public-internet APIs without a TLS / WAF stance hidden somewhere are incomplete. Coach toward naming the security layer.
-
 ---
 
 ## Activity 4 — Cost Awareness + AI Sanity Check
@@ -286,11 +271,6 @@ Format: Numbered — Risk / Scenario / Likelihood / Mitigation.
 ### Deliverable
 
 Polished TMD §2 with ROM cost table, AI-surfaced topology risks adopted/deferred/rejected, and a provenance note.
-
-### Facilitation cues
-
-- Cost numbers more precise than ROM bands are a trap; the goal is surfacing 2x surprises, not finance modeling.
-- Egress costs are the surprise that hides; coach triads to name outbound bandwidth as a line item.
 
 ### Wrap (last 15 min)
 

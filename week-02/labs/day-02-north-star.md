@@ -61,11 +61,6 @@ For each card, the triad assigns **0, 1, 2, or 3** pitfalls present and writes a
 
 A scored card pack per triad: each card tagged with 0–3 pitfalls and a one-line argument; one clean-bill-of-health pick and one all-three pick identified.
 
-### Facilitation cues
-
-- The "Songs Saved to Library" card is the trickiest — it sounds clean, but a user can save songs they never listen to. Probe.
-- "ARR" almost always gets all three — push triads to name *why* it's a financial result, not a customer outcome.
-
 ---
 
 ## Activity 2 — Re-write Your NS
@@ -119,11 +114,6 @@ The **counter-metric** concept is new today. Examples:
 
 A completed NS Defense Card per triad: NS statement, three pitfall rebuttals, and a named counter-metric.
 
-### Facilitation cues
-
-- Triads that converge too quickly often skipped the pitfall test. Re-anchor on disagreement.
-- The counter-metric is the new concept and the most under-practiced. Walk the room verifying each triad has a concrete one, not "we'd watch retention generally."
-
 ---
 
 ## Activity 3 — The "CEO and Dispatcher" Test
@@ -166,11 +156,6 @@ If the NS doesn't survive both — that's the artifact for tomorrow's coaching, 
 
 An updated NS Defense Card with two new lines: the CEO's strongest challenge + response, and the dispatcher's strongest challenge + response.
 
-### Facilitation cues
-
-- Commit to the persona. Half-hearted role-play surfaces nothing.
-- If a challenger softens when they like the NS, swap challenger and defender mid-round to recalibrate.
-
 ---
 
 ## Activity 4 — NS Lock-in + Tier Sheet Refresh
@@ -201,11 +186,6 @@ Each triad has its NS Defense Card (updated through Activity 3) and Day-1 Tier S
 ### Deliverable
 
 A locked NS + counter-metric, a refreshed Tier Sheet with the placeholder replaced, and a 90-second readout ready to deliver.
-
-### Facilitation cues
-
-- Pin the NS Defense Cards alongside the Tier Sheets. Both stay up all week.
-- Watch for triads that lock without walking down/up. If signals or KPIs don't ladder anymore, the NS swap broke the chain.
 
 ---
 

@@ -124,12 +124,6 @@ Each triad needs whiteboard or large paper, markers, and the integration table f
 
 A Context (C4 Level 1) diagram for the feature with people, external systems, labeled arrows, and a legend — passing the 60-second outsider test.
 
-### Facilitator coaching cues
-
-- If a triad's diagram is just "User → System → Database", they've drawn a Container diagram badly. Push them to surface real external systems.
-- If a triad lists 25 boxes, they're drafting a Container diagram inside the Context. Cap them and lift detail to Activity 2.
-- The "indirect roles" check is a strong differentiator — Ops VP, compliance, customer success often appear on the Context diagram as readers of audit data.
-
 ---
 
 ## Activity 2 — Container Diagram
@@ -187,11 +181,6 @@ Each triad needs the Context diagram from Activity 1, the architecture stance fr
 
 A Container diagram that an architect can react to. Even (especially) a hand-drawn paper version works — clarity beats prettiness.
 
-### Facilitation cues
-
-- If modular monolith modules get promoted to standalone containers without justification, that contradicts the Day-1 stance. Push back.
-- Sync vs async should appear on every arrow. Unlabeled protocol arrows hide consistency and failure-mode bugs.
-
 ---
 
 ## Activity 3 — Stress-Test the Diagram
@@ -231,11 +220,6 @@ The reviewer triad reads the diagram with these three lenses:
 ### Deliverable
 
 Annotated diagrams with trust boundaries marked, a failure trace recorded, and 1–2 evolvability arrows noted.
-
-### Facilitation cues
-
-- A reviewer who just nods isn't engaging the failure lens. Force a named scenario and walk it.
-- Trust boundaries that follow team org charts rather than data flow are usually wrong — challenge.
 
 ---
 
@@ -290,11 +274,6 @@ Format: 5 numbered questions, each with the concern behind it.
 ### Deliverable
 
 Polished Context + Container diagrams with legend, trust boundaries, stakeholder-question list, and AI-prompt provenance note appended to TCD §2.
-
-### Facilitation cues
-
-- Generic AI suggestions ("consider scalability") signal weak prompts; coach toward the Role/Context/Constraints/Format pattern.
-- Absorbing every AI suggestion is the tell of unexamined use. Force at least one rejection with reasoning.
 
 ### Wrap (last 15 min)
 

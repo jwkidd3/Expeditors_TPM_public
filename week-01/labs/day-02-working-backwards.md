@@ -61,11 +61,6 @@ Distribute the four vignettes as a single handout (printed or shared digitally) 
 
 A one-sentence "earlier question" per vignette, recorded by the triad and surfaced in the cohort debrief.
 
-### Facilitation cues
-
-- Protect Vignette D's discussion. The "fictional customer quote" is the most common PR/FAQ failure in practice — make sure the room names it.
-- If a triad confidently classifies C as forward or backward, push back. The ambiguity is the lesson.
-
 ---
 
 ## Activity 2 — Headline + Sub-headline
@@ -102,11 +97,6 @@ Format: Markdown table. Be direct.
 ### Deliverable
 
 The single chosen heading + sub-headline, pinned for use in Activity 3.
-
-### Facilitation cues
-
-- If a triad picks their favorite candidate without running the AI critique, push them back to step 3 — the critique is the muscle.
-- The "interchangeable with a competitor's marketing" question kills the favored draft often. That's the lesson; let it sting.
 
 ---
 
@@ -168,11 +158,6 @@ Each triad has its chosen heading/sub-headline from Activity 2. Distribute the P
 
 A complete one-page PR/FAQ per triad: heading, sub-headline, three paragraphs, customer quote, 3 customer FAQs, 3 internal FAQs, and an Evidence log.
 
-### Facilitation cues
-
-- Walk the room watching for generic customers and benefit bouquets — the two most common failure modes.
-- If a triad's customer quote uses marketing language, ask them to read it aloud in the dispatcher's voice. The mismatch becomes obvious.
-
 ---
 
 ## Activity 4 — Cross-Triad PR/FAQ Review
@@ -218,11 +203,6 @@ Pair each triad with another. Both triads have a completed PR/FAQ from Activity 
 ### Deliverable
 
 A revised PR/FAQ per triad with documented changes (what changed, what was left, and why) plus a 60-second readout.
-
-### Facilitation cues
-
-- Enforce "questions only" in the critique block. The first time someone breaks it, name it gently and reset.
-- Triads that change nothing after critique usually didn't hear it. Walk over and ask what surprised them — that opens the door.
 
 ---
 

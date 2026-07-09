@@ -112,12 +112,6 @@ Each card describes a stakeholder from a hypothetical company. The triad picks: 
 
 > "The trickiest one was [X] because [why]. We chose [Y] but the disagreement was [Z]."
 
-### Facilitator coaching cues
-
-- The **at-risk Customer Success** case is the trickiest: high power (because the customer is at risk) but appears low power (a single CSM). Surface this dynamic.
-- The **VP of Operations** case calibrates to "high power + medium interest" — push for the *exact* engagement: monthly written brief + escalation when triggers hit.
-- The **junior PM** case calibrates to "you'll learn from them" — bidirectional asks matter.
-
 ---
 
 ## Activity 2 — Build Your Recurring Engagement Plan

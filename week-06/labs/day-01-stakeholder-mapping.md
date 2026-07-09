@@ -118,11 +118,6 @@ Build a **complete** stakeholder list before mapping. Most triads will start wit
 
 A **comprehensive stakeholder list** (typically 10–18 names) with role + concern.
 
-### Facilitator coaching cues
-
-- If a triad's list is < 8, push: "have you thought about [circle]?" Most lists under-include compliance and finance.
-- If a triad's list is > 20, ask which 5 they'd cut. Coverage isn't usefulness.
-
 ---
 
 ## Activity 2 — Power × Interest Mapping
@@ -211,12 +206,6 @@ For most features:
 2. **The "no two A's" check** (5 min). Walk the columns; verify exactly one A per decision.
 3. **The "is the A actually empowered?"** (10 min). For each A, check: do they have the authority (formal + informal) to make the call? If not, reassign.
 4. **The "anyone surprised by being I?"** (5 min). Often a stakeholder gets I when they think they're C. Surface that and decide.
-
-### Facilitator coaching cues
-
-- "We're all R" is a smell — it usually means responsibility is unclear. Push for specificity.
-- "I'll be A" from the TPM is the most common error — TPMs often think they're A on architecture. They're usually C, with the Architect as A.
-- The "is the A actually empowered" check is the most useful — many nominal A's are actually rubber stamps; the real A is upstream.
 
 ---
 

@@ -81,11 +81,6 @@ We'll consider this feature successful if [primary metric] moves
 
 §8 appended to the PRD: one primary metric, one counter-metric, up to three secondaries, and a four-checkpoint validation plan.
 
-### Facilitation cues
-
-- "We'll watch a few things" is the rookie tell — force the single primary metric.
-- If the counter-metric drifted from Week 2 Day 2, ask why. Inconsistency means one of the two is wrong.
-
 ---
 
 ## Activity 2 — Section 9: Risks & Open Questions
@@ -139,12 +134,6 @@ Each triad needs §§1–8 and the three-list template (Risks, Open questions, A
 ### Deliverable
 
 §9 appended to the PRD: 3–4 risks with mitigations, 3–5 owned open questions with deadlines, and 2–4 named assumptions with basis.
-
-### Facilitator coaching cues
-
-- "No risks" is a fail. Push.
-- Risks without mitigations are wishlist items. Force the mitigation column.
-- Watch for a triad assigning "TBD" as owner — that's the unowned risk that slips. Force a name.
 
 ---
 
@@ -203,11 +192,6 @@ What this PRD acknowledges but won't ship:
 
 §§10 and 11 appended to the PRD: dependency table with named owners and honest statuses, plus a specific out-of-scope follow-up list.
 
-### Facilitation cues
-
-- "TBD" as a dependency owner is the tell of an unowned dependency that will ship late. Force a name.
-- Out-of-scope items written as "future work" or "v2" are unactionable; push for specifics with ticket placeholders.
-
 ---
 
 ## Activity 4 — Integration Pass + Lock
@@ -256,11 +240,6 @@ If a section sounds like it could appear in any PRD for any product, rewrite it 
 ### Deliverable
 
 Locked **Status: In review** PRD saved as "v0 — for Friday" with the integration checklist passed and no AI-generic prose.
-
-### Facilitation cues
-
-- Watch for triads who spend 60 minutes polishing prose. Coherence first; prose last.
-- Reluctance to mark a section "least sure" hides a confidence problem reviewers will surface tomorrow.
 
 ### Wrap (last 15 min)
 

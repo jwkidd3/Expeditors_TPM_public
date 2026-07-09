@@ -102,12 +102,6 @@ For each, the triad labels: Output / Outcome / Both (a thing stated as both) / N
 
 > "The trickiest one was [#X] because [why]. The cleanest outcome was [#Y]."
 
-### Facilitator coaching cues
-
-- **#5 (downloads)** is the trap card. Downloads are an output that *looks like* an outcome. Push hard.
-- **#12 (active dispatchers)** is the cleanest outcome — it's grounded in user behavior with a clear definition.
-- **#11 (research sessions)** is a process output — done in service of outcomes but not itself one.
-
 ---
 
 ## Activity 2 — Build Your Outcome Map

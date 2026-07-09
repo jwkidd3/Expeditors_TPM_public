@@ -168,11 +168,6 @@ Each triad needs the TCD §4 SLOs, the Week-2 Tier Sheet, and the baseline templ
 
 A baselines table covering every TCD §4 SLO and 2–3 Tier Sheet operational signals, each with a value, source/assumption, and a verify-at date.
 
-### Facilitation cues
-
-- "We don't know" without a named assumption isn't a baseline; coach toward an estimate plus rationale.
-- Verify-at dates that read "TBD" never get audited; force a concrete day.
-
 ### Worked example — FieldPulse reconcile
 
 ```markdown
@@ -245,11 +240,6 @@ A shorter list:
 
 3–5 alerts answering the four-question template, plus operator and executive dashboard charts lists capped at 6 and 4 respectively.
 
-### Facilitation cues
-
-- Alerts without a runbook step are noise that gets muted. Force the on-call action.
-- Operator dashboards over 6 charts go unread. Coach toward ruthless prioritization.
-
 ---
 
 ## Activity 3 — AI-Summary Validation Log
@@ -294,11 +284,6 @@ Each triad needs the cumulative AI provenance notes from Weeks 2, 4, and 5, the 
 
 A cumulative AI-summary validation log covering Weeks 2–5, with honest status values and named deadlines for Pending entries.
 
-### Facilitation cues
-
-- Pending entries without dates become permanent. Force a deadline before close.
-- Triads that skip the inventory and only log what they remember missed something; push to enumerate from the Pattern Library.
-
 ---
 
 ## Activity 4 — TMD Integration + Cross-Review + Sign-Off
@@ -332,11 +317,6 @@ Instructor confirms pairings. Each triad needs the full TMD §§1–5 draft and 
 ### Deliverable
 
 Signed-off TMD (Approved or Approved with gaps) with adopted cross-review findings, final rubric score, and cumulative AI-validation log attached.
-
-### Facilitation cues
-
-- "Approved" without an honest gap list inflates confidence; coach the rubric as the floor.
-- Reviewers who score generously need a calibration check against the rubric mid-block.
 
 ### Wrap (last 15 min)
 

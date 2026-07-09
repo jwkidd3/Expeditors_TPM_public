@@ -116,12 +116,6 @@ For each, the triad writes the business-framing version targeting a specific sta
 
 > "The translation we're proudest of was [#X] for [stakeholder]. The hardest one was [#Y] because [why]."
 
-### Facilitator coaching cues
-
-- The "p99 → p95" translation for an eng director should still be technical. The audience matters; eng directors don't need re-framing into business terms — but they need the trade-off named clearly.
-- For the **CFO** (#3), watch for triads who don't actually compute the cost. "Additional region" without a dollar number is a non-answer.
-- For **Sales lead** (#5), watch for triads who don't anticipate the obvious next question: "what's the revenue at risk?"
-
 ---
 
 ## Activity 2 — Pick Your Trade-Off + Pick Your Stakeholder

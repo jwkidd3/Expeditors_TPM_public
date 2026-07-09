@@ -110,12 +110,6 @@ to-merge against the 8 sprints prior.
 - Not met: examine why; possibly try paired-review during dev
 ```
 
-### Facilitator coaching cues
-
-- If a triad's "test" is too vague (e.g., "we'll improve the process"), force them to name the specific change.
-- If the success criterion lacks a baseline, ask: "how will you know it improved?"
-- If the duration is < 2 sprints, push back — most experiments need 4–8 weeks of data.
-
 ---
 
 ## Activity 2 — DP Integration Pass

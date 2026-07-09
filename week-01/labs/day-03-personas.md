@@ -92,11 +92,6 @@ For each persona:
 
 A marked-up handout per triad plus a one-paragraph rewrite of Persona 1 ("Dispatcher Diana") in Rita's behavioral-evidence form.
 
-### Facilitation cues
-
-- Persona 2 (Rita) is intentionally good. If a triad doesn't notice, ask: "Which of these would you actually use to make a decision?"
-- Tom is the trap — half good, half adjective-salad. Push triads to name the mix specifically, not just call him "mixed."
-
 ---
 
 ## Activity 2 — Build Your Persona
@@ -161,11 +156,6 @@ Format: Persona Validation Canvas (6 sections).
 
 A completed Persona Validation Canvas per triad: all six boxes filled, evidence-tagged, with three validation targets circled.
 
-### Facilitation cues
-
-- Watch for triads using AI to fill Boxes 1–4. If they do, ask them to point at the source — the AI invented it.
-- The "3 claims to validate" circle is the bridge to Activity 3. If they skip it, they will struggle with the role-play.
-
 ---
 
 ## Activity 3 — Role-Play Interviews
@@ -229,11 +219,6 @@ After all three rounds:
 
 A synthesized list per triad: assumptions confirmed, assumptions broken, and the bias patterns the observer caught most often.
 
-### Facilitation cues
-
-- Trey's "confidently wrong" card is the most useful — many interviewers will believe him. Coach for follow-up questions that test memory ("How often does that actually happen?").
-- The observer role is the most-skipped. Reinforce it as load-bearing — the tally is the artifact.
-
 ---
 
 ## Activity 4 — JTBD Cross-Examination
@@ -278,11 +263,6 @@ Every "I don't know" goes on a **parking lot of open validation questions**.
 ### Deliverable
 
 A revised persona canvas with at least one claim upgraded, one downgraded or dropped, and a captured parking lot of open validation questions.
-
-### Facilitation cues
-
-- Celebrate triads who drop a claim publicly. This is the hardest thing we ask all week and the most important signal of intellectual honesty.
-- If a triad changes nothing under cross-examination, the cross-examiner was too soft. Coach the cross-examiner before the next pairing.
 
 ---
 

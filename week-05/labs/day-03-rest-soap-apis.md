@@ -97,11 +97,6 @@ The triad designs the resource model for a generic todo-list API. Specifically:
 
 Resource sketch for the todo-list API: URLs, methods, and a decision on the "share" representation (verb vs resource).
 
-### Facilitator coaching cues
-
-- The "share" question is the calibration point. **POST /lists/{id}/shares** (resource) beats **POST /lists/{id}/share** (verb). REST nudges toward nouns, even when actions are involved.
-- Another common error: putting query parameters where path parameters belong (or vice versa). Push: "filtering or identifying?"
-
 ---
 
 ## Activity 2 — Design Your Feature's API
@@ -174,11 +169,6 @@ responses:
 ### Deliverable
 
 Resource list with URL paths, methods, and status codes, plus one detailed OpenAPI-style endpoint definition for the central feature.
-
-### Facilitation cues
-
-- Verbs in URLs are the most common rookie error; redirect to noun resources.
-- Status codes lumped at 400/500 hide actionable distinctions; push for 409/422/429 where they apply.
 
 ---
 
@@ -258,11 +248,6 @@ Standardize the **error body shape** across the API:
 
 A documented idempotency approach per mutating endpoint, a chosen versioning strategy, and a standardized error body shape covering the 7 codes.
 
-### Facilitation cues
-
-- "We don't need versioning yet" defers a cost rather than removing one. Force the strategy choice now.
-- Idempotency without a window definition is half-decided; coach toward a stated 24-hour or 7-day key retention.
-
 ---
 
 ## Activity 4 — REST vs SOAP + AI Critique
@@ -316,11 +301,6 @@ Update §3. Add provenance note.
 ### Deliverable
 
 Polished TMD §3 incorporating adopted AI findings, any SOAP exceptions documented, and a provenance note for AI prompts.
-
-### Facilitation cues
-
-- "Just in case" SOAP support is gold-plating; force a named partner requirement.
-- AI critiques that miss the idempotency conversation suggest the prompt didn't load the contract details; tighten the context.
 
 ### Wrap (last 15 min)
 

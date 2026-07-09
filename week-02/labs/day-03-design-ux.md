@@ -67,11 +67,6 @@ Each triad uses the **same** product (we recommend a B2B SaaS the cohort doesn't
 
 A short list per triad: 3+ heuristic violations with the heuristic number named, plus one "most painful" and one "most subtle" call.
 
-### Facilitation cues
-
-- If two triads pick the same violation, ask the second one: "What did you see that the first triad missed?" — sharpens observation.
-- If a triad picks "the colors are ugly" — redirect to a heuristic. "Aesthetic" is in the list, but "I don't like the colors" is not the same.
-
 ---
 
 ## Activity 2 — A11y Floor Audit
@@ -108,11 +103,6 @@ Accessibility is a regulatory floor (ADA / Section 508 / EAA), an SEO floor, and
 ### Deliverable
 
 A one-page A11y Floor Audit per triad: each of the 8 checks rated pass/partial/fail with a heuristic cross-link for every fail.
-
-### Facilitation cues
-
-- Most cohorts under-rate a11y findings on first pass. If a triad reports "all pass," ask them to try the keyboard-only flow themselves.
-- Push the triad that finishes early to convert fails into severity scores — that's the bridge to Activity 3.
 
 ---
 
@@ -176,11 +166,6 @@ Each triad opens its chosen flow (FieldPulse mobile, web, or competitor). All th
 
 A completed UX Audit per triad covering top 3 violations (severity-scored), top 3 strengths, A11y result, TPM lens findings, and one design-only question.
 
-### Facilitation cues
-
-- Force the strengths column. Most triads default to a kill list and lose designer trust before they've earned it.
-- Watch severity scoring drift. A "5" should be rare; if a triad scores three things at 5, push them to differentiate.
-
 ---
 
 ## Activity 4 — From Audit to Design Principles
@@ -228,11 +213,6 @@ A good design principle is:
 ### Deliverable
 
 A 3-Principle Card per triad: each principle as one line + one decision it would force.
-
-### Facilitation cues
-
-- Pin the **3-Principle Cards** alongside the NS Defense Cards. Tomorrow's AI strategy work and Friday's journey map both reference them.
-- Refuse "be consistent" or "be user-friendly" — they fail the decision test. The triad must rewrite before locking.
 
 ---
 

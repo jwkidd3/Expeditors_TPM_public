@@ -112,11 +112,6 @@ Format: 3 gaps, each with: gap / scenario / suggested research.
 
 A validated prior-context summary + a gap list. Add to AI-validation log.
 
-### Facilitator coaching cues
-
-- The validation step is the muscle. Don't let triads skip it. If they say "looks fine" — push them: "did you actually open §3 of TCD and verify?"
-- The gap list is high-leverage — it's what you'll research before the meeting (or admit during it).
-
 ---
 
 ## Activity 2 — Objection Map

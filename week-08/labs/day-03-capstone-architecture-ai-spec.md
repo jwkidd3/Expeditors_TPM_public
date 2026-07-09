@@ -103,11 +103,6 @@ Compressed Week-4 work in 40 minutes. Architecture stance + integration + threat
 - SLOs have defenses tied to user behavior
 - Trade-offs have revisit triggers
 
-### Facilitator coaching cues
-
-- If a triad goes deeper than 1.5 pages, force a cut. Compression is the discipline.
-- If the architecture stance reads "we'll figure it out," push: "what's the starting position?"
-
 ---
 
 ## Activity 2 — TMD-light
@@ -132,11 +127,6 @@ Compressed Week-5 work in 40 minutes. Data + cloud + API + sequence + monitoring
 - API endpoints have status codes and idempotency
 - The weird path has a named invariant
 - The leading indicator is measurable within 7 days
-
-### Facilitator coaching cues
-
-- Watch for triads who skip the named invariant on the weird path. It's the senior signal.
-- If a triad puts implementation in §3 (e.g., "use Redis"), redirect to behavior, not implementation.
 
 ---
 
@@ -167,11 +157,6 @@ Same 5 prompts as Day 1, with capstone inputs this time:
 ### Output
 
 AI Spec v1 — assembled from the 5 outputs, plus the provenance log.
-
-### Facilitator coaching cues
-
-- Time pressure will tempt triads to skip validation. Hold the line. Catch this in the room.
-- If a triad's AI Spec contradicts a source artifact, the validation step failed. Walk it through to find where.
 
 ---
 

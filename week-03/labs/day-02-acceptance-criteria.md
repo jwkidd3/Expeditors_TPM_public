@@ -93,11 +93,6 @@ Each triad receives the **AC Triage Pack**: 12 AC examples drawn from real (anon
 
 12 triaged AC with failure-mode labels, plus rewrites for each failing AC and a one-sentence note on the most common failure.
 
-### Facilitator coaching cues
-
-- The "Restating the goal" failure is the trickiest — surfaces only when you ask "could this be tested without running A/B against the metric?"
-- Every triad will have at least one over-confident "this is clean" call. Use that for shared learning.
-
 ---
 
 ## Activity 2 — Happy-Path AC for Your PRD
@@ -126,11 +121,6 @@ Each triad needs their §5 solution sketch from Day 1, the AC template card, and
 ### Deliverable
 
 3–5 happy-path AC in Given/When/Then form, each passing the 5-failure-mode check, appended to PRD §6.
-
-### Facilitation cues
-
-- If a triad pools drafts before doing solo work, push them back to solo. Solo first produces specificity.
-- AND-soup in the Then clause is the most common drift; coach toward splitting into multiple AC.
 
 ### Worked FieldPulse example (happy path)
 
@@ -205,11 +195,6 @@ Then the modal opens with the first 25 tickets pre-selected
 
 2–4 sad-path AC and 2–4 weird-path AC appended to PRD §6, each passing the 5-failure-mode check.
 
-### Facilitation cues
-
-- Triads who can't generate weird-path AC haven't engaged with the system reality. Push with named scenarios — network drop, race, timeout.
-- Watch for sad-path AC that are happy-path in disguise (the "successful error" pattern); the recovery must be observable.
-
 ---
 
 ## Activity 4 — AC Cross-Review
@@ -237,12 +222,6 @@ Instructor pre-assigns triad pairs. Each triad needs their own §§1–6 (incl. 
 
 - A revised AC section (8–12 ACs)
 - A short **review-resolution note** at the bottom of §6 listing what was adopted, deferred, or rejected (and why)
-
-### Facilitator coaching cues
-
-- A reviewer who writes "this could be more specific" is unhelpful. Push them to write the rewritten AC themselves.
-- A reviewer who finds a missing weird-path AC is gold. Surface that pair publicly.
-- Watch for "we already considered that" pushback from authors — it should be in the resolution note, with a reason.
 
 ### Wrap (last 15 min)
 

@@ -83,11 +83,6 @@ Each triad gets a small "warm-up pack": **2 interview transcripts + 4 tickets** 
 
 A **two-paragraph diagnosis** of the failure modes the triad observed, plus the iterated prompt that worked.
 
-### Facilitation cues
-
-- The single most common failure is **theme inflation** — the AI lumps three different complaints under one bland theme ("usability"). Push triads to demand granularity.
-- Watch for invented citations. Make at least one triad surface a hallucinated ticket number to the room.
-
 ---
 
 ## Activity 2 — The Research Pack Pass
@@ -121,11 +116,6 @@ Each triad has its iterated prompt from Activity 1, the FieldPulse Research Pack
 ### Deliverable
 
 5 pain themes with citations, confidence ratings, and AI-flag — ready to drop into the Strategy Brief's Pain Themes section.
-
-### Facilitation cues
-
-- Surface in the room: "How many themes did your triad cut?" Triads who cut nothing didn't actually verify.
-- If a triad has 8 themes, the AI lumped at the wrong axis. Push for one re-split, then a re-cull.
 
 ---
 
@@ -180,11 +170,6 @@ These will be confidently fabricated.
 
 A clean **Competitive Snapshot** (matrix + open questions) added to the Strategy Brief.
 
-### Facilitation cues
-
-- Walk the room. If any triad asks AI "what is the market size" — pause and use it as a teaching moment for the whole cohort.
-- The "what's missing" prompt is the highest-leverage one of the day. Make sure every triad actually runs it.
-
 ---
 
 ## Activity 4 — Brief Assembly + Provenance Log
@@ -218,11 +203,6 @@ Each triad has all the day's outputs visible: warm-up diagnosis, 5 pain themes, 
 ### Deliverable
 
 A 2–3 page Strategy Brief per triad with hand-written executive summary, AI-assembled pain themes (validated), hand-written strategy implications, and a complete Provenance log including at least one named AI failure.
-
-### Facilitation cues
-
-- Pin all briefs in the shared space. Tomorrow's journey-mapping references them directly.
-- If a brief has no "where AI was wrong" entries, the triad didn't validate. Push them to revisit at least one theme.
 
 ---
 

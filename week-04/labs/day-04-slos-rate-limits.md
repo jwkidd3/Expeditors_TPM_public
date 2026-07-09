@@ -129,11 +129,6 @@ Each triad receives the **SLO Triage Pack**: 8 SLO statements drawn from real (a
 
 Triaged 8-pack with failure-mode labels and 5 rewrites passing the percentile + window + defense check.
 
-### Facilitator coaching cues
-
-- The "average" trap is the most under-detected. Push: "if half your users see 100ms and half see 5s, the average is 2.55s — but your experience is bimodal, not 'OK on average'."
-- The "99.99%" trap: ask "what's the team's on-call coverage?" 99.99% requires multi-region active-active and 24/7 on-call — usually not realistic for early features.
-
 ---
 
 ## Activity 2 — Set Your Three SLOs
@@ -195,11 +190,6 @@ Same template:
 ### Deliverable
 
 Three SLOs (latency, availability, throughput/rate-limit) using the NFR template, each with percentile/window/defense and an explicit rate-limit failure mode.
-
-### Facilitation cues
-
-- 99.99% availability without 24/7 on-call evidence is aspirational. Coach toward 99.5% or 99.9% as defensible defaults.
-- Rate-limit policies without a named 429 / backoff response are half-finished; force the failure-mode column.
 
 ---
 
@@ -263,12 +253,6 @@ Risk: Tickets module call dominates; if their latency degrades,
 
 Annotated Container diagram with per-hop latency estimates, total sum vs the SLO, and a named "what gives" decision if the math doesn't fit.
 
-### Facilitator coaching cues
-
-- Many triads will under-estimate the **synchronous external call**. Push them to look up real numbers if available.
-- The "Tickets module dominates" finding is the kind of insight that drives architecture conversations — celebrate it.
-- If the math doesn't fit, the **wider-percentile** option is the most-overlooked. Don't go to p99 if you have no instrumentation; p95 is usually fine for B2B SaaS.
-
 ---
 
 ## Activity 4 — Cross-Review + AI Sanity Check
@@ -312,11 +296,6 @@ Decide which AI findings + which peer findings to adopt. Update §4. Provenance 
 ### Deliverable
 
 Updated TCD §4 with adopted peer + AI findings, an error-budget consequence statement, and a provenance note for any AI use.
-
-### Facilitation cues
-
-- Error-budget consequences phrased as "we'll be careful" don't change behavior. Force a concrete action like a feature-freeze trigger.
-- Triads that adopt every AI suggestion didn't critique; force at least one rejection with reasoning.
 
 ### Wrap (last 15 min)
 

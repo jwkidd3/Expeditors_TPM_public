@@ -196,12 +196,6 @@ Confirm the capstone subject. Some declared candidates won't survive contact wit
 
 A confirmed capstone subject + a list of inputs to gather before tomorrow's discovery work.
 
-### Facilitator coaching cues
-
-- A subject that fails the "substantive enough" test will produce a thin capstone. Coach to a richer subject if needed.
-- A subject lacking real customer signal often produces a fictional PRD. Push for at least one real interview (even a 15-min phone call).
-- A subject too close to FieldPulse (same domain, same persona) doesn't test transferability. Push for variety.
-
 ---
 
 ## Activity 2 — Walk Through the AI Spec Template
@@ -247,12 +241,6 @@ Practice the sequence on the FieldPulse artifact set (where the inputs are compl
 ### Output
 
 A first AI Spec for FieldPulse — produced via the 5-prompt sequence — that the triad can use as a template for tomorrow's compressed work.
-
-### Facilitator coaching cues
-
-- Watch for triads who want to run all 5 prompts in parallel, separately. Force the sequence — each prompt builds on the prior validation.
-- The validation step gets skipped under time pressure. Hold the discipline.
-- The provenance log is mandatory. If a triad ships an AI Spec without it, they ship fiction.
 
 ---
 

@@ -101,12 +101,6 @@ For each step in the flow, the triad answers each of the 6 STRIDE questions. The
 
 A STRIDE walk on the password-reset flow with the top-5 threats culled, each named with letter, location, scenario, and a candidate mitigation.
 
-### Facilitator coaching cues
-
-- Nearly every triad will miss **Repudiation** in this exercise. It's the least intuitive letter. Surface it.
-- Some triads will conflate "security" with "authentication." STRIDE forces a wider lens.
-- The "magic link" mechanism has a Repudiation question that's worth surfacing: how do you prove a user clicked the link they later deny?
-
 ---
 
 ## Activity 2 — STRIDE Pass on Your PRD Feature
@@ -146,11 +140,6 @@ Each triad needs the yesterday's integration table, the PRD §5 sketch, and the 
 ### Deliverable
 
 Top-5 threats documented with letter, scenario, likelihood/impact, specific mitigation, and named owner — pinned to the feature's data flow.
-
-### Facilitation cues
-
-- Triads that find only Spoofing and Information Disclosure haven't worked the harder letters; push toward T and R.
-- "TLS" is not a mitigation; it's a hint. Force the specific control with version, scope, and verification.
 
 ---
 
@@ -210,11 +199,6 @@ The TCD §3 is a sibling to PRD §7 — it doesn't replace; it deepens.
 
 TCD §3 drafted with applicable compliance frames named and a revised Security/Compliance NFR set linking back to STRIDE findings.
 
-### Facilitation cues
-
-- "No compliance applies" is almost never true. Push toward SOC 2 by default for B2B SaaS.
-- Watch for revised NFRs that just renamed the original — every NFR should reference a specific threat or control.
-
 ---
 
 ## Activity 4 — Security Stakeholder Conversation Prep
@@ -256,11 +240,6 @@ Each triad needs the threat model, updated NFRs, TCD §3, and the security-brief
 ### Deliverable
 
 A 1-page security brief plus 5 named questions for the security team and 3 predicted pushbacks with planned responses.
-
-### Facilitation cues
-
-- "Tell us about security" is a question that surrenders the conversation. Push for specific scopes, controls, and precedents.
-- The AI cross-check is useful only if the prompt loads the actual brief; coach the Critique-hat pattern.
 
 ### Wrap (last 15 min)
 

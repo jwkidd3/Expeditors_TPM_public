@@ -74,11 +74,6 @@ Each triad picks **one** question from the list below. Each triad member runs it
 
 A scored comparison across three tools plus a one-line readout: "We would trust [Tool X] for [kind of question]. We would never trust any of them for [kind of question]."
 
-### Facilitation cues
-
-- If all three tools agreed, ask "did they agree *correctly*? How do you know?" — surfaces the comfortable-but-wrong trap.
-- If a tool fabricated a citation, celebrate it as a finding. Take a screenshot for the week's reference.
-
 ---
 
 ## Activity 2 — Rewrite This Prompt
@@ -125,11 +120,6 @@ Format: …
 
 Minimum four entries by end of Day 1. Entries earned in Activities 2, 3, and 4.
 
-### Facilitation cues
-
-- Walk the room while triads rewrite. The most common gap is under-specified Constraints — coach by asking, not telling.
-- If a triad's rewrite still gets a vague output, that's a teaching moment for the cohort: weak prompts can survive one improvement and still fail.
-
 ---
 
 ## Activity 3 — The Three Hats
@@ -156,11 +146,6 @@ Each triad has a working AI assistant and the FieldPulse one-paragraph problem b
 ### Deliverable
 
 For each hat: the single most uncomfortable question surfaced. One of those three questions becomes your **Day 3 research target** (the one you cannot currently answer).
-
-### Facilitation cues
-
-- Watch for "the AI was nice to us" outputs — push the triad to re-prompt with sharper persona constraints.
-- The discomfort is the point. If all three hats produce comfortable questions, the prompting is too soft.
 
 ---
 
@@ -200,11 +185,6 @@ A shared Prompt Pattern Library with at least four entries, each tagged with whe
 ### Readout structure (60 seconds per triad)
 
 > "Our starred prompt is <name>. We tested it on <situation>. The reason we'd reuse it is <why>. Its known failure mode is <caveat>."
-
-### Facilitation cues
-
-- Post all triad libraries to a shared space by end of Day 1. Every triad should be able to borrow another's prompts starting Day 2.
-- Triads that finish early often have shallow entries. Push them: "What's the smallest change that would break this prompt?"
 
 ---
 

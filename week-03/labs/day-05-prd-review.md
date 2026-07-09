@@ -153,12 +153,6 @@ For each: cite the section / line, name the problem, propose the fix.
 
 A completed Review Document per reviewing triad with rubric scores, 3 strengths, 5 specific findings, and open questions for the clarifying conversation.
 
-### Facilitator coaching cues
-
-- Catch reviewers writing "this could be more specific" — push them to write the specific version themselves.
-- Coach against scoring the *idea* instead of the *PRD*. Even a weak idea can have a strong PRD; even a strong idea can have a weak PRD.
-- Some reviewers will be too generous on first pass. Calibrate by sharing the rubric definition mid-block.
-
 ---
 
 ## Activity 2 — Author Response + Clarifying Conversation
@@ -266,11 +260,6 @@ After the revision pass, flip the PRD's status from "In review" to "Revised — 
 
 Revised PRD ("Revised — secondary pending") plus an updated review-resolution log naming every finding as adopted, deferred, or pushed back with reasoning.
 
-### Facilitation cues
-
-- Don't let triads spend 60 minutes polishing prose. Coherence fixes first; sentence-level fixes last.
-- Push-backs without reasoning are score-defense; force the rationale to land in the log.
-
 ---
 
 ## Activity 4 — Secondary Review
@@ -321,11 +310,6 @@ The secondary reviewer hands the note to the authors. The authors sign off (or e
 ### Deliverable
 
 Secondary Review Note with final rubric score and verdict (ships as-is / ships with named gaps / needs further revision), delivered to authors and signed off.
-
-### Facilitation cues
-
-- Watch for secondary reviewers who skip the honesty check on the resolution log; that's the point of the round.
-- Verdicts below 2.0 require facilitator intervention before close — do not let them slip past wrap.
 
 ---
 

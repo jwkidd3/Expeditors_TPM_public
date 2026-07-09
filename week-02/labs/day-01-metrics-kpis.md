@@ -67,12 +67,6 @@ A sorted 2x2 with bet-on and never-report-up cards labeled, plus a one-sentence 
 
 > "We would bet on [X] and [Y] because [reason rooted in causal chain]. We would never report up [A] or [B] because [reason]."
 
-### Facilitation cues
-
-- If a triad picks "session length" as a bet — ask whether longer sessions are good for a dispatcher who hates being on the app.
-- If a triad picks "tickets closed per agent" — ask what happens when an agent closes tickets without solving them.
-- These are the productive arguments. Hold space.
-
 ---
 
 ## Activity 2 — Operational signal sprint
@@ -106,11 +100,6 @@ The 6 operational signals populate the bottom row.
 ### Deliverable
 
 6 operational signals with what they measure, source, cadence, and action-if-dropped. At least 2 marked as instrumentation gaps.
-
-### Facilitation cues
-
-- Most triads will under-mark instrumentation gaps. Push them: "Could you query this in production right now?"
-- Signals that say "satisfaction" or "engagement" without a specific measure are warning signs. Coach for concreteness.
 
 ---
 
@@ -151,11 +140,6 @@ The 2–3 KPIs populate the middle row.
 
 2–3 candidate KPIs added to the Tier Sheet, each passing the four-question KPI quality bar, with the operational signals that ladder into each one explicitly named.
 
-### Facilitation cues
-
-- Signals that ladder to nothing are worth flagging as either novel or noisy. Help the triad decide which.
-- Push back on KPIs that are operational signals in disguise (anything that moves daily and a squad acts on).
-
 ---
 
 ## Activity 4 — Tier Sheet defense + North Star placeholder
@@ -190,11 +174,6 @@ Pair each triad with another. Both triads have draft Tier Sheets (NS placeholder
 ### Deliverable
 
 A complete Metrics Tier Sheet (NS placeholder + KPIs + 6 operational signals) plus a "known weaknesses" line capturing the strongest challenge from the defense round.
-
-### Facilitation cues
-
-- Pin the Metrics Tier Sheets on a shared wall. They will be referenced every day this week.
-- Watch for placeholder NSs that are basically restated KPIs — that's the muscle Day 2 will work, so don't fix it today, but flag the triad to coach Monday.
 
 ---
 

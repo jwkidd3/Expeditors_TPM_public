@@ -92,11 +92,6 @@ A two-column **Access Pattern Sheet**:
 | 3 | Audit-trail query for compliance | R | reconcile_events WHERE dispatcher_id = ? AND ts BETWEEN ? AND ? | rare | n/a |
 | 4 | Dispatcher's reconcile history (last 7d) | R | reconcile_events WHERE dispatcher_id = ? ORDER BY ts DESC LIMIT 30 | every reconcile screen | last-hour |
 
-### Facilitator coaching cues
-
-- "Freshness req. = real-time" is rare. Most B2B features tolerate last-minute. Force triads to defend "real-time" claims.
-- If a triad lists writes without invariants, push them: "what would you never want to allow?" That's the invariant.
-
 ---
 
 ## Activity 2 — Draft the Entity Model
@@ -178,11 +173,6 @@ For each entity, capture:
 
 Entity-model draft with PKs, indexes referencing access patterns by number, named cardinalities, and explicit invariants.
 
-### Facilitation cues
-
-- Indexes without an access-pattern reference are speculative. Force the link.
-- Watch for entity bloat — fields nobody queries. Ask "which pattern uses this column?" and drop fields that fail.
-
 ---
 
 ## Activity 3 — Storage Trade-Offs
@@ -245,11 +235,6 @@ Each triad needs the entity model from Activity 2, TCD §4 SLOs for cross-refere
 
 3 schema-level trade-offs using the Week-4 template, at least one cross-referencing a TCD §4 SLO.
 
-### Facilitation cues
-
-- Trade-offs that don't name an option B are descriptions, not trade-offs. Push for the alternative.
-- Vague accepted costs ("complexity") are not load-bearing; force a named query that's intentionally slower.
-
 ---
 
 ## Activity 4 — AI-Assisted Schema Critique + Polish
@@ -299,11 +284,6 @@ schema? List 3, ranked by likelihood of mattering within 6 months.
 ### Deliverable
 
 Polished TMD §1 (entity model + trade-offs) incorporating adopted AI findings, plus a provenance note logging prompts, adoptions, and rejections.
-
-### Facilitation cues
-
-- Generic AI suggestions ("add a created_at column") usually indicate weak prompts. Coach the Critique-hat pattern with access patterns loaded.
-- Adopt-everything signals oracle thinking. Force at least one rejection with reasoning.
 
 ### Wrap (last 15 min)
 

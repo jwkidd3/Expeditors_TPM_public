@@ -126,12 +126,6 @@ Dispatcher    Mobile      API GW    Reconcile    Tickets    Postgres   Kafka(aud
 
 A happy-path sequence diagram with labeled lifelines, protocols, per-arrow latency annotations, and a total that matches the TCD §4 SLO.
 
-### Facilitator coaching cues
-
-- If a triad's diagram has more than 12 lifelines, push them: "is anything here repeating? can two be merged?"
-- If a triad omits the audit publish, surface it — that's a typical compliance miss.
-- The total-latency annotation at the bottom is the consistency check with TCD §4.
-
 ---
 
 ## Activity 2 — Sad-Path Sequence
@@ -182,11 +176,6 @@ Dispatcher    Mobile      API GW    Reconcile    Tickets    Postgres
 ### Deliverable
 
 A sad-path sequence diagram with the divergence point marked, the user-visible error code/body, and a named recovery action.
-
-### Facilitation cues
-
-- Sad paths that end in a generic 500 hide error semantics. Push to the specific 4xx code from TMD §3.
-- Recovery paths that read "user gets frustrated" are dead-ends; force a recoverable action.
 
 ---
 
@@ -249,11 +238,6 @@ Invariant held: at most one ReconcileEvent per (Idempotency-Key) per 24h
 
 A weird-path sequence diagram with a named invariant, visible recovery, and the idempotency or retry mechanism it relies on.
 
-### Facilitation cues
-
-- Triads who cannot state the invariant haven't designed the weird path. Push for the explicit promise.
-- Diagrams that grow longer than the happy path usually re-state shared steps; coach toward the divergence.
-
 ---
 
 ## Activity 4 — Cross-Review + AI Sequence Critique
@@ -302,11 +286,6 @@ Adopt / defer / reject. Update the diagrams. Provenance note.
 ### Deliverable
 
 Updated TMD §4 with all three sequences, adopted cross-review and AI findings, and a provenance note for AI prompts.
-
-### Facilitation cues
-
-- Generic AI findings ("add error handling") signal weak prompts. Coach the Critique-hat pattern with diagram text loaded.
-- Reviews that pass everything are calibrated low. Force at least one named gap per pair.
 
 ### Wrap (last 15 min)
 

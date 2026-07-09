@@ -98,11 +98,6 @@ For each, the triad applies the three-question frame and stamps **Monolith fits 
 
 Stamped triage pack with reasoning for the two strongest "separate" cases, two strongest "stay together" cases, and one named disagreement.
 
-### Facilitator coaching cues
-
-- The "real-time dispatcher pricing engine" case is the trickiest: it serves many callers (suggests separation), but if it goes down, all dispatch fails (suggests resilience is a problem either way). Surface the trade-off.
-- If a triad reaches for "microservices because Netflix" or similar — push back: Netflix's reasoning was about deploy independence at scale, not the technology itself.
-
 ---
 
 ## Activity 2 — Apply the Frame to Your PRD Feature
@@ -147,11 +142,6 @@ in the existing service / new microservice / hybrid>** because:
 
 TCD §1 (Architecture stance) drafted: stance, three-question answers with evidence, named trade-off, and a concrete revisit trigger.
 
-### Facilitation cues
-
-- Framework hype ("microservices because Netflix") is the tell of an under-defended stance. Push to business terms.
-- Two or three "we don't know" answers means the stance hasn't been earned — coach toward modular monolith as a starting point.
-
 ---
 
 ## Activity 3 — Integration Map (first pass)
@@ -186,11 +176,6 @@ The **Failure handling** column forces a choice the team often defers — make i
 ### Deliverable
 
 TCD §2 first-pass integration table with sync/async, R/W, and named failure-handling stance per integration. Two-way contracts flagged.
-
-### Facilitator coaching cues
-
-- "Failure handling: TBD" is fine if it's an open question to discuss with the architect. "Failure handling: hopefully it works" is not.
-- Push triads to think about **read-then-write** dependencies — they're the most common source of consistency bugs.
 
 ---
 
@@ -245,11 +230,6 @@ Format: Numbered list, each item naming a category and a specific check.
 ### Deliverable
 
 Updated TCD §§1–2 incorporating adopted AI objections and added integrations, plus an AI-use note logging prompts, adoptions, and rejections.
-
-### Facilitation cues
-
-- Generic AI objections ("consider scalability") are the prompt's fault; coach toward Critique-hat prompts loaded with the triad's specific stance.
-- Adopted-everything is the tell of unexamined AI use. Force at least one rejection with reasoning.
 
 ### Wrap (last 15 min)
 

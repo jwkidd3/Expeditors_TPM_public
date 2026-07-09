@@ -113,11 +113,6 @@ Each triad receives the **NFR Triage Pack**: 10 NFR examples drawn from real PRD
 
 10 triaged NFRs with failure-mode labels, 5 rewrites using the four-part template, and one NFR flagged as hardest-to-defend.
 
-### Facilitator coaching cues
-
-- Boilerplate NFRs are usually the result of "we copied the template" — surface this openly.
-- The "wrong category" failure is sneaky — surfaces only when you ask "what would a Performance test for this look like?"
-
 ---
 
 ## Activity 2 — Performance + Observability NFRs
@@ -174,11 +169,6 @@ Each triad needs their Week-2 Tier Sheet operational signals and the NFR four-pa
 ### Deliverable
 
 2–3 Performance NFRs and 2–3 Observability NFRs in PRD §7, each pair cross-checked so every performance target is observable in production.
-
-### Facilitation cues
-
-- "Average" latency targets get pushed to p95 — average lies in bimodal distributions.
-- If observability NFRs don't reference the Tier Sheet signals, the triad is observability-theater; redirect.
 
 ---
 
@@ -241,12 +231,6 @@ Pull from the **A11y Floor Checklist** from Week 2 Day 3. State the conformance 
 
 3–5 Security NFRs, 1–2 Accessibility NFRs, and 1–2 Compliance NFRs appended to PRD §7, each with a concrete defense.
 
-### Facilitator coaching cues
-
-- "Security: the system shall be secure" gets a hard "no" — push for specifics.
-- If a triad has no compliance NFR — ask: "If a regulator audited this feature, what would they ask?" That answer is the NFR.
-- A11y is the most-skipped. If a triad omits it, redirect to Week 2 Day 3 work.
-
 ---
 
 ## Activity 4 — NFR Cross-Review + Trade-Off Discussion
@@ -297,11 +281,6 @@ A mature NFR section **names the trade-offs** and explains how they were resolve
 ### Deliverable
 
 Revised PRD §7 with a "Known trade-offs" subsection naming at least one explicit tension and its resolution.
-
-### Facilitation cues
-
-- Triads who claim "no trade-offs" haven't read their own NFRs hard enough; surface one for them.
-- The most useful trade-off is one resolved with a deferred plan, not a hand-wave; coach toward specificity.
 
 ### Wrap (last 15 min)
 

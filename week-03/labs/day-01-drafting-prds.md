@@ -60,11 +60,6 @@ Each triad needs their three Week-2 feature cards, the four-dimension scoring sh
 
 A single feature locked in, with a "Why this one" memo. The memo seeds Section 1 (Context).
 
-### Facilitation cues
-
-- If a triad tries to merge two features, push back — the discipline of choosing is the work.
-- Memos that read like marketing copy signal generic framing; coach toward user-specific language.
-
 ---
 
 ## Activity 2 — Section 1 (Context) and Section 2 (Problem)
@@ -118,11 +113,6 @@ Tie explicitly to the **Week-2 journey map**. Reference the friction stars.
 
 Drafted §1 (Context) and §2 (Problem) appended to the triad's PRD, with at least one verbatim customer quote in §2.
 
-### Facilitation cues
-
-- Watch for §1 drafts that restate company strategy from scratch; redirect to the customer signal.
-- If a triad skips solo drafting, the combined prose loses specificity — keep them on the protocol.
-
 ---
 
 ## Activity 3 — Section 3 (Goals & Non-goals) and Section 4 (Scope)
@@ -170,12 +160,6 @@ Out-of-scope is the **negotiation tool** — it tells stakeholders "I see what y
 
 §3 (Goals & non-goals) and §4 (Scope in/out table) appended to the PRD, each goal tied to a Tier Sheet metric.
 
-### Facilitator coaching cues
-
-- If a triad's goals are feature names ("Ship X"), redirect to user outcomes.
-- If non-goals is empty, ask: "What's the most ambitious thing a stakeholder might think this includes?" Put that in non-goals.
-- If scope's "Out" column is empty, ask: "What's the version-2 of this feature?" Put it in Out.
-
 ---
 
 ## Activity 4 — Section 5 (Solution Sketch)
@@ -217,11 +201,6 @@ After writing §5, ask: what are the **first three questions** an engineer would
 ### Deliverable
 
 §5 (Solution sketch) appended to the PRD: flow steps, hard-interactions list, happy-path paragraph, and the triad's three-questions diagnosis.
-
-### Facilitation cues
-
-- Most over-specifications come from PMs who used to be engineers. Coach them to leave room for engineering judgment.
-- If the three-questions test produces only implementation questions, the §5 has over-specified; pull back.
 
 ### Wrap (last 15 min)
 

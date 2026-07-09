@@ -76,11 +76,6 @@ Each triad has its Day-3 persona, Day-4 Strategy Brief, and the Journey Map Canv
 
 A staged journey skeleton — actions and stages only. Thoughts/emotions/friction come next.
 
-### Facilitation cues
-
-- If a triad picks "all journeys" — push back. One persona, one scope, today.
-- If a triad's stages are feature names ("Login → Reconcile → Logout") — redirect to user-task names ("Arrive at office → Take the day's dispatch → Reconcile").
-
 ---
 
 ## Activity 2 — Fill the Lanes
@@ -115,11 +110,6 @@ The non-product touchpoints are the input to **Week 4's "system components" mapp
 ### Deliverable
 
 A populated Journey Map Canvas with stages, actions, thoughts (quotes), emotions curve, touchpoints (including non-product), and friction stars clustered at 2–3 stages.
-
-### Facilitation cues
-
-- A flat emotions curve means the triad sanitized. Re-anchor on real interview quotes.
-- If a triad has friction stars on every stage, push them to differentiate by severity. Everything-is-friction = nothing-is-friction.
 
 ---
 
@@ -165,12 +155,6 @@ A feature concept earns a place on your map if it passes all three:
 ### Deliverable
 
 3 feature cards per triad, each linking a journey stage + friction + metric + principle + trade-off + validation approach.
-
-### Facilitation cues
-
-- A feature with no metric link is the cohort's most common error. Force the link.
-- If a triad's 3 features all address the same stage, push them: "Is this stage really 80% of the friction?"
-- The "Trade-off / risk" box is non-negotiable. Saying "no downside" is a failed answer.
 
 ---
 
@@ -221,11 +205,6 @@ Each triad has all six Week-2 artifacts: NS Defense Card, Tier Sheet, 3 design p
 ### Deliverable
 
 A 12-minute integrated readout per triad covering NS → Tier Sheet → one design principle → journey map → 3 feature concepts, with all three voices presenting.
-
-### Facilitation cues
-
-- Hold the clock. Triads that blow their time get scored down on coherence — it is a real signal.
-- If a triad has one designated "speaker," interrupt and reassign. All three voices is non-negotiable.
 
 ---
 

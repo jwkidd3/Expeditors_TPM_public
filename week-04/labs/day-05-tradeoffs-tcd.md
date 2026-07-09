@@ -88,11 +88,6 @@ A well-written §5 covers **multiple categories**. A §5 with 5 trade-offs all i
 
 5 trade-off finalists with sketch structure (Option A / Option B / Choice / Accepted cost / Revisit trigger), spanning at least 3 categories.
 
-### Facilitation cues
-
-- Strawman alternatives ("the other option was obviously worse") signal under-thinking. Push for a real Option B.
-- All-one-category lists usually missed real tensions; mix coupling, consistency, latency, speed, or generality.
-
 ---
 
 ## Activity 2 — Write the Top 5 Trade-Offs
@@ -160,12 +155,6 @@ Each triad needs the trade-off sketches from Activity 1 and the §5 template. AI
 
 TCD §5 with five fully written trade-offs using the template, plus a note on any internal contradictions surfaced during the consistency check.
 
-### Facilitator coaching cues
-
-- A trade-off that ends "we chose A because A is better" with no actual reasoning — push back. Force the cost and trigger.
-- Watch for "we accept complexity" — that's vague. What complexity? What does it cost in maintenance, debugging, on-call?
-- Trade-offs that align suspiciously well with personal preference are a smell. The reasoning should come from the system, not from "I like X better."
-
 ---
 
 ## Activity 3 — Stakeholder Sign-Off Matrix
@@ -217,11 +206,6 @@ Each triad needs TCD §§1–5 from this week, PRD §10 (Dependencies), and any 
 ### Deliverable
 
 TCD §6 sign-off matrix with at least 6 named entries, each with constraint link, real-person stakeholder, honest status, and a specific next step.
-
-### Facilitation cues
-
-- "TBD" stakeholders signal an unowned constraint that will slip. Force a real name even if it's the architect placeholder.
-- Matrices that overstate status ("Approved" without evidence) become Week 6 surprises; coach toward honesty.
 
 ---
 
@@ -276,11 +260,6 @@ The triad declares the TCD **Status: Approved** (or "Approved with gaps", as Wee
 ### Deliverable
 
 Signed-off TCD (Status: Approved or Approved with gaps) with adopted cross-review findings, rubric scores, and an AI provenance log covering all AI-assisted sections.
-
-### Facilitation cues
-
-- Watch for "Approved" without an honest gap list. The rubric should set the bar, not the triad's confidence.
-- Reviewers who score generously should be calibrated against the rubric mid-block.
 
 ### Wrap (last 15 min)
 

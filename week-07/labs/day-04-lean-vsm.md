@@ -148,11 +148,6 @@ Use real data where available (ADO data; team retros). Otherwise estimate honest
 - Flow efficiency is computed (a single-digit number is typical and informative)
 - The team's "feels like" is quantified
 
-### Facilitator coaching cues
-
-- Triads will often refuse to estimate if they don't have data. Push: "honest guess beats no number." Label as guess; calibrate over time.
-- The "Measure" step's "30 days for outcome" is inherent waiting — that's not a bug. Distinguish *systemic queue* from *necessary delay*.
-
 ---
 
 ## Activity 3 — Identify the Top 3 Queues

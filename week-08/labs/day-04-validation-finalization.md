@@ -82,11 +82,6 @@ The validation log:
 
 A validation log + updated artifacts.
 
-### Facilitator coaching cues
-
-- Watch for triads that mark every check as "Pass" without actually walking the references. Push: "show me the section reference."
-- Common fail: #4 (SLO ↔ sequence). Tightening the SLO is acceptable if the sequence is the truth.
-
 ---
 
 ## Activity 2 — SEP-Light + DP-Light
@@ -229,12 +224,6 @@ Plus 5 min Q&A.
 - The customer + problem section grounds the rest
 - The trade-off section is **defended in business terms**, not technical jargon
 - The "what we'd do differently" section is **honest**, not performative
-
-### Facilitator coaching cues
-
-- If one triad member dominates, redirect speaking time.
-- If the customer + problem section drags, force a tighter open.
-- The "what we'd do differently" section is often the strongest signal of the cohort's growth — coach for honesty.
 
 ### Wrap (last 15 min)
 
