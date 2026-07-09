@@ -2,7 +2,7 @@
 
 Participant-facing handouts for Week 8. Templates, checklists, and rubrics the daily activity packets reference — plus the Day-5 take-home wrap collateral. Distribute (print or share) before the day that uses each.
 
-> **Capstone note:** the Week-8 capstone lets triads use their **own** product idea or **FieldPulse**. The templates are subject-agnostic; the FieldPulse artifact set is the practice input on Day 1.
+> **Capstone note:** the Week-8 capstone subject is a **real project of the triad's own** (work, school, or hobby) — **not FieldPulse**. The templates are subject-agnostic; FieldPulse is only the Day-1 practice input for learning the AI-spec technique.
 
 | Handout | Introduced | What it is |
 |---|---|---|

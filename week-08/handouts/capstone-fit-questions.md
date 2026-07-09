@@ -1,6 +1,6 @@
 # Capstone-Fit Questions
 
-> **Day 1 handout.** Five questions to confirm your capstone subject survives contact with a 4-day build. Some declared candidates won't. If 1+ answer is "no," refine the subject or pick your backup — better now than Wednesday. Your Week-8 capstone may use your *own* product idea **or** FieldPulse.
+> **Day 1 handout.** Five questions to confirm your capstone subject survives contact with a 4-day build. Some declared candidates won't. If 1+ answer is "no," refine the subject or pick your backup — better now than Wednesday. Your Week-8 capstone subject is a **real project of your own** (work, school, or hobby) — **not FieldPulse**. FieldPulse is only the Day-1 practice input for learning the technique; the capstone tests whether the muscles transfer to something new.
 
 ---
 
