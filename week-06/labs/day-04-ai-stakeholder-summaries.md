@@ -1,6 +1,6 @@
 # Day 4 — AI-Augmented Stakeholder Requirement Summaries
 
-> **Activity packet** for facilitators and participant triads. Today's job: use AI as a **meeting-prep assistant** — to summarize prior context, predict objections, and draft openings — with the AI-validation discipline from Week 5 Day 5 firmly in place. By 16:00, every triad has SEP §4 — a meeting-prep packet for tomorrow's Friday simulation.
+> **Activity packet** for participant triads. Today's job: use AI as a **meeting-prep assistant** — to summarize prior context, predict objections, and draft openings — with the AI-validation discipline from Week 5 Day 5 firmly in place. By 16:00, every triad has SEP §4 — a meeting-prep packet for tomorrow's Friday simulation.
 
 ## Where we are in the week
 
@@ -288,10 +288,3 @@ Each triad ends Day 4 with:
 - [x] Mock-meeting feedback captured
 - [x] AI provenance log entry (continuing the cumulative log from Wk 5 D5)
 - [x] SEP §4 drafted
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's objection map is most realistic? Hold up Friday morning.
-- Which triad's opening was sharpest? Hold up.
-- Did anyone skip the validation step on AI outputs? Coach Friday morning before the simulation.
-- Did any triad list 6+ non-negotiables? Coach to cut to 3 — they'll fold tomorrow if they have too many.

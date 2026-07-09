@@ -1,6 +1,6 @@
 # Day 4 — Technical Logic Validation & Finalization
 
-> **Activity packet** for facilitators and participant triads. Today's job: catch every inconsistency across the artifact set, add the **SEP-light** and **DP-light**, integrate everything, and rehearse the presentation. Tomorrow you present.
+> **Activity packet** for participant triads. Today's job: catch every inconsistency across the artifact set, add the **SEP-light** and **DP-light**, integrate everything, and rehearse the presentation. Tomorrow you present.
 
 ## Where we are in the week
 
@@ -246,10 +246,3 @@ Each triad ends Day 4 with:
 - [x] **Final 6-document set**, integrated
 - [x] **Presentation rehearsed** at least twice with timer
 - [x] Final provenance log entry
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's validation log surfaced the most issues honestly? They've internalized the discipline.
-- Did anyone mark all 7 checks as "Pass" without walking references? Catch them.
-- Which triad's presentation is sharpest? Not necessarily the one with the most polished delivery — the one with the cleanest narrative arc.
-- Did the cohort retain the AI-validation discipline through compression? If yes, the academy worked.

@@ -1,6 +1,6 @@
 # Day 2 — Writing Granular Acceptance Criteria
 
-> **Activity packet** for facilitators and participant triads. Today's job: take the §§1–5 draft from Day 1 and write 8–12 testable Acceptance Criteria in Given/When/Then form. By 16:00, the AC section is shareable; tomorrow we add NFRs.
+> **Activity packet** for participant triads. Today's job: take your §§1–5 draft from Day 1 and write 8–12 testable Acceptance Criteria in Given/When/Then form. By 16:00, the AC section is shareable; tomorrow we add NFRs.
 
 ## Where we are in the week
 
@@ -41,7 +41,7 @@ Then <an observable, falsifiable result>
 | **4. Multi-condition (AND-soup)** | "Then X and Y and Z and W happen" | Split into multiple ACs |
 | **5. Implementation-prescriptive** | "Then a Redis cache hit returns…" | Describe behavior, not implementation |
 
-A good triad will produce AC that fail **all five** of these failure modes — i.e., none of these problems present.
+A good triad will produce AC that fail **none** of these five failure modes.
 
 ---
 
@@ -79,11 +79,11 @@ Each triad receives the **AC Triage Pack**: 12 AC examples drawn from real (anon
 
 ### Sample items in the triage pack
 
-- `Given the user is logged in, When they reach the dashboard, Then it loads quickly.` *(Vague: "quickly")*
-- `Given a dispatcher with 3+ open tickets, When they tap "Reconcile all", Then the modal opens with all 3 tickets pre-selected and shows the count "3 selected" in the header.` *(Clean — happy path)*
-- `Given any user, When they use the system, Then they should feel productive.` *(Untestable)*
-- `Given a network drop, When the user submits the form, Then the data is queued via WebSocket retry mechanism.` *(Implementation-prescriptive)*
-- `Given a duplicate ticket, When the API receives it, Then 409 Conflict is returned with the original ticket ID in the body.` *(Clean — weird path)*
+- `Given the user is logged in, When they reach the dashboard, Then it loads quickly.`
+- `Given a dispatcher with 3+ open tickets, When they tap "Reconcile all", Then the modal opens with all 3 tickets pre-selected and shows the count "3 selected" in the header.`
+- `Given any user, When they use the system, Then they should feel productive.`
+- `Given a network drop, When the user submits the form, Then the data is queued via WebSocket retry mechanism.`
+- `Given a duplicate ticket, When the API receives it, Then 409 Conflict is returned with the original ticket ID in the body.`
 
 ### Readout (60 seconds per triad)
 
@@ -237,9 +237,3 @@ Each triad leaves the day with their PRD updated to include:
 - [x] Coverage spans happy / sad / weird paths
 - [x] All AC pass the 5-failure-mode check
 - [x] A review-resolution note documenting changes from peer review
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad over-indexed on happy path? They need a weird-path push tomorrow.
-- Which triad's AC are most implementation-prescriptive? Coach them privately — old habits.
-- Did anyone use AI? Privately and directly intercept; restate the rule.

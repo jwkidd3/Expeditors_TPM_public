@@ -1,6 +1,6 @@
 # Day 4 — Using AI for Strategy & Research Summaries
 
-> **Activity packet** for facilitators and participant triads. Today's job: take the Week-1 prompt patterns and use them at **strategy scale** — multi-source synthesis with traceable evidence — to produce a strategy brief for the triad's FieldPulse problem.
+> **Activity packet for participant triads.** Today's job: take the Week-1 prompt patterns and use them at **strategy scale** — multi-source synthesis with traceable evidence — to produce a strategy brief for your FieldPulse problem.
 
 ## Where we are in the week
 
@@ -215,9 +215,3 @@ Each triad leaves the day with:
 - [x] A **Competitive Snapshot** built from materials they actually pasted in
 - [x] An **Executive summary + strategy implications** (hand-written)
 - [x] A complete **Provenance log** — including at least one named AI failure
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad over-trusted the AI? They'll need a stricter validation cue tomorrow.
-- Which triad under-used AI? Explore why — sometimes the cause is a tool-access gap, not a philosophical objection.
-- Did anyone fabricate a competitor stat unintentionally? That's the highest-cost mistake from Day 4 — surface it openly Friday morning to inoculate the cohort.

@@ -10,7 +10,7 @@ An 8-week immersive Technical Product Manager Academy preparing engineers, analy
 - **Length:** 8 weeks × 5 days × **7 instructional hours/day** (≈280 hours)
 - **Daily cadence:** 7 hrs instruction, 1 hr lunch, two 15-minute breaks
 - **Style:** Small-group oriented — breakouts, pair critiques, stakeholder simulations, and PRD review cycles
-- **Tooling:** Reveal.js decks authored as Markdown under `week-XX/markdown/presentations/day-XX-*.md`, built to standalone `.html` by `npm run build`. Activity briefs are Markdown under `week-XX/markdown/labs/day-XX-*.md`. Authoring details: [`course-tooling/tools/AUTHORING.md`](./course-tooling/tools/AUTHORING.md).
+- **Tooling:** Reveal.js decks authored as Markdown under `week-XX/markdown/presentations/day-XX-*.md`, built to standalone `.html` by `npm run build`. Student-facing activity briefs are Markdown under `week-XX/markdown/labs/day-XX-*.md`, with a facilitator-only companion per day under `week-XX/markdown/facilitator/day-XX-*.md`. Authoring details: [`course-tooling/tools/AUTHORING.md`](./course-tooling/tools/AUTHORING.md).
 - **Assessments:** Pre- and post-academy Product Management and Data Literacy assessments (administered on the Skills/SkillIQ platform)
 
 ## Daily template
@@ -83,9 +83,11 @@ TPM/
     ├── markdown/                                    ← all sources for this week
     │   ├── presentations/                           ← deck sources
     │   │   └── day-XX-*.md                          ← one deck per day
-    │   └── labs/                                    ← weekly activity briefs
-    │       ├── README.md                            ← week schedule + learning outcomes
-    │       └── day-XX-*.md                          ← activity briefs, roles, timeboxes, rubrics
+    │   ├── labs/                                    ← STUDENT-facing activity briefs (spoiler-free)
+    │   │   ├── README.md                            ← week schedule + learning outcomes
+    │   │   └── day-XX-*.md                          ← activities: purpose, setup, steps, deliverable
+    │   └── facilitator/                             ← FACILITATOR-only companion to labs/
+    │       └── day-XX-*.md                          ← cues, answer keys, timings, reflections
     └── assets/                                      ← per-week binaries (images, diagrams)
 ```
 
@@ -97,7 +99,8 @@ After build, the dist/ output (and public mirror) reorganizes for participant br
 │   ├── reveal/       (HTML)
 │   ├── pdf/          (PDF)
 │   └── ppts/         (PowerPoint)
-├── labs/             ← flattened out of source markdown/labs/
+├── labs/             ← flattened out of source markdown/labs/ (student activities)
+├── facilitator/      ← flattened out of source markdown/facilitator/ (facilitator guides)
 └── assets/
 ```
 

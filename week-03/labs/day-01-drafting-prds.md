@@ -1,6 +1,6 @@
 # Day 1 — Drafting Technical PRDs from Customer Requirements
 
-> **Activity packet** for facilitators and participant triads. Today's job: take the triad's top Week-2 feature concept and start the PRD that they'll ship Friday — context, problem, goals, scope, and a solution sketch crisp enough for an engineer to imagine the shape.
+> **Activity packet** for participant triads. Today's job: take your triad's top Week-2 feature concept and start the PRD you'll ship Friday — context, problem, goals, scope, and a solution sketch crisp enough for an engineer to imagine the shape.
 
 ## Where we are in the week
 
@@ -227,10 +227,3 @@ Each triad leaves the day with a draft PRD containing:
 - [x] Section 4 (Scope in / out)
 - [x] Section 5 (Solution sketch)
 - [x] "Why this one" memo (informal — feeds §1 if useful)
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad picked a feature with the weakest metric link? Coach them tomorrow before AC drafting.
-- Which §2 quotes the customer's actual words? Hold up as a positive example.
-- Did anyone over-specify §5 (e.g., propose a database)? That's the most common failure mode — surface tomorrow morning.
-- Anyone using AI? Course-correct directly and privately.

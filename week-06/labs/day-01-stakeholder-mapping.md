@@ -1,6 +1,6 @@
 # Day 1 — Identifying & Mapping Key Stakeholders
 
-> **Activity packet** for facilitators and participant triads. Today's job: take the TCD §6 sign-off matrix, expand it into a real stakeholder map (Power × Interest + RACI), and draft SEP §1.
+> **Activity packet** for participant triads. Today's job: take the TCD §6 sign-off matrix, expand it into a real stakeholder map (Power × Interest + RACI), and draft SEP §1.
 
 ## Where we are in the week
 
@@ -273,10 +273,3 @@ Each triad ends Day 1 with:
 - [x] **Watch list** of high-power-low-interest stakeholders + triggers
 - [x] AI provenance log entry
 - [x] SEP §1 drafted
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's grid was most rigorously argued? Hold up Friday.
-- Did any triad have multiple A's? Most common discipline failure.
-- Did any triad miss compliance / legal / finance? Common omissions.
-- The two surprises per triad — they're the most useful insight of the day. Document them publicly.

@@ -1,6 +1,6 @@
 # Day 2 — Defining the North Star Metric
 
-> **Activity packet** for facilitators and participant triads. Today's job: take yesterday's NS placeholder and stress-test it into a North Star a triad can defend in front of a CEO and a dispatcher in the same conversation.
+> **Activity packet for participant triads.** Today's job: take yesterday's NS placeholder and stress-test it into a North Star you can defend in front of a CEO and a dispatcher in the same conversation.
 
 ## Where we are in the week
 
@@ -197,9 +197,3 @@ Each triad leaves the day with:
 - [x] A **counter-metric** that guards against gameability
 - [x] A **revised Metrics Tier Sheet** (placeholder replaced)
 - [x] A Day 3 commitment: bring one product surface (FieldPulse mobile or web) you want to UX-audit tomorrow
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's NS still smells like ARR-in-disguise? They get coached first tomorrow.
-- Which triad's counter-metric is doing the most work? Surface it as a positive example next week.
-- Was anyone missing the "single number" requirement? That's the loosest check participants self-apply — tighten it tomorrow if needed.

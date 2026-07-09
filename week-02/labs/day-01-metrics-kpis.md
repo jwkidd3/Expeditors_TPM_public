@@ -1,6 +1,6 @@
 # Day 1 — Operational Signals & KPIs
 
-> **Activity packet** for facilitators and participant triads. This file is the single source of truth for the day's small-group work, examples, and deliverable templates.
+> **Activity packet for participant triads.** This file is the single source of truth for your small-group work, examples, and deliverable templates.
 
 ## Where we are in the week
 
@@ -185,9 +185,3 @@ Each triad leaves the day with:
 - [x] At least one named instrumentation gap
 - [x] One "known weakness" of the current Tier Sheet (from the defense round)
 - [x] A Day 2 commitment: bring a candidate alternative to your NS placeholder
-
-## Facilitator reflection prompts (end of day)
-
-- Did any triad lock in a vanity metric without surfacing it as one? What language would I introduce earlier tomorrow?
-- Which triad has the weakest causal chain? They are the one to coach in tomorrow's Activity 1.
-- Did anyone propose a metric that is easy to measure but irrelevant? That's the most common silent failure mode — name it openly tomorrow.

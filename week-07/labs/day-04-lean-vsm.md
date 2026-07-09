@@ -1,6 +1,6 @@
 # Day 4 — Lean Delivery & Value Stream Mapping
 
-> **Activity packet** for facilitators and participant triads. Today's job: map the **value stream** for delivering the feature — from idea to value-realized — naming each step's lead time, process time, and flow efficiency. Draft DP §4.
+> **Activity packet** for participant triads. Today's job: map the **value stream** for delivering the feature — from idea to value-realized — naming each step's lead time, process time, and flow efficiency. Draft DP §4.
 
 ## Where we are in the week
 
@@ -257,10 +257,3 @@ Each triad ends Day 4 with:
 - [x] Visual VSM drawn
 - [x] AI provenance entry
 - [x] DP §4 drafted
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's VSM is most rigorously measured? Hold up Friday.
-- Did anyone refuse to estimate? Coach back; honest guesses are required.
-- Did the cohort confront how low single-digit flow efficiency really is? It usually shocks people.
-- Did anyone confuse "necessary delay" (e.g., 30 days for outcome data) with "queue waste"? Surface tomorrow.

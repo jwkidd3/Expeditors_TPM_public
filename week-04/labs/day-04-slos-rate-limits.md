@@ -1,6 +1,6 @@
 # Day 4 — Targeting Latency, Availability, and Rate Limits
 
-> **Activity packet** for facilitators and participant triads. Today's job: set realistic **SLO targets** anchored to user behavior, calculate a **per-hop latency budget**, and design a **rate-limit policy** the team will actually defend.
+> **Activity packet** for your triad. Today's job: set realistic **SLO targets** anchored to user behavior, calculate a **per-hop latency budget**, and design a **rate-limit policy** the team will actually defend.
 
 ## Where we are in the week
 
@@ -104,16 +104,18 @@ The TPM job is to surface this math early — *before* the feature ships and fal
 Calibrate on real-world SLO examples — distinguishing realistic targets from cargo-culted ones.
 
 ### Setup
-Each triad receives the **SLO Triage Pack**: 8 SLO statements drawn from real (anonymized) systems. Some are clean. Most have one of the failures:
+Each triad receives the **SLO Triage Pack**: 8 SLO statements drawn from real (anonymized) systems. Some are clean. Most have a hidden failure.
 
-| Failure mode | Example |
-|--------------|---------|
-| **No measurement window** | "p95 < 400ms" (over what period? always? best case?) |
-| **No percentile (or "average")** | "Average response time < 500ms" — averages hide bimodal distributions |
-| **No defense** | "99.9% availability" with no rationale |
-| **Aspirational beyond capability** | "99.99% availability" for a 2-engineer feature on shared infra |
-| **Mismatched to user threshold** | "p95 < 5s" for a typing-feedback feature |
-| **Confusion with SLA** | "We commit to 99.99% availability" (this is a contractual claim) |
+### The failure modes to hunt for
+
+A well-formed SLO has **three parts**: a percentile, a measurement window, and a defense (rationale). Triage each statement against this checklist:
+
+- **No measurement window** — over what period? always? best case?
+- **No percentile (or an average)** — averages hide bimodal distributions.
+- **No defense** — a target with no rationale behind the number.
+- **Aspirational beyond capability** — a target the team's infra/on-call can't sustain.
+- **Mismatched to the user threshold** — a target that's far looser or tighter than the user actually experiences.
+- **Confusion with an SLA** — a contractual-sounding commitment where an internal objective belongs.
 
 ### Triad protocol
 
@@ -136,7 +138,7 @@ Triaged 8-pack with failure-mode labels and 5 rewrites passing the percentile + 
 **Format:** Triad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Set the three SLOs (latency, availability, throughput / rate limit) for the triad's feature.
+Set the three SLOs (latency, availability, throughput / rate limit) for your triad's feature.
 
 ### Setup
 Each triad needs the Week-2 Tier Sheet, the architecture-revised performance NFRs, and any platform precedent the cohort knows. AI optional.
@@ -319,10 +321,3 @@ Each triad ends Day 4 with:
 - [x] **Error-budget consequence** stated — what behavior changes when we breach
 - [x] AI provenance note for today
 - [x] TCD §4 drafted
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's latency-budget walk surfaced a real architectural risk? Surface as Friday positive.
-- Which triad set 99.99% without justification? Coach Friday morning before the TCD assembly.
-- Did anyone confuse SLO with SLA? Common; correct it explicitly.
-- Did the cohort use AI as critic or as oracle? Today is a strong signal.

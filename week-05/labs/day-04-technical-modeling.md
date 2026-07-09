@@ -1,6 +1,6 @@
 # Day 4 — High-Level Technical Modeling
 
-> **Activity packet** for facilitators and participant triads. Today's job: tie data, cloud, and API together into a **sequence diagram** that names every hop, protocol, and failure handler. Plus 1–2 sad/weird-path sequences. This is TMD §4.
+> **Activity packet** for participant triads. Today's job: tie data, cloud, and API together into a **sequence diagram** that names every hop, protocol, and failure handler. Plus 1–2 sad/weird-path sequences. This is TMD §4.
 
 ## Where we are in the week
 
@@ -307,10 +307,3 @@ Each triad ends Day 4 with:
 - [x] Cross-reviewed with another triad
 - [x] AI provenance log entry
 - [x] TMD §4 drafted (with all three sequence diagrams)
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's invariant was the most useful? Surface as Friday positive.
-- Did anyone forget the audit publish in the happy path? Common compliance miss.
-- Did anyone produce 25-lifeline mega-diagrams? Coach toward simplification.
-- Did the AI surface a weird path the cohort hadn't considered? That's the most useful kind of finding.

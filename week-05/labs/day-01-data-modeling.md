@@ -1,6 +1,6 @@
 # Day 1 — Database Structures & Data Logic
 
-> **Activity packet** for facilitators and participant triads. Today's job: model the **entities** the feature reads, writes, and indexes; defend the **storage choice**; and draft TMD §1.
+> **Activity packet** for participant triads. Today's job: model the **entities** the feature reads, writes, and indexes; defend the **storage choice**; and draft TMD §1.
 
 ## Where we are in the week
 
@@ -304,10 +304,3 @@ Each triad ends Day 1 with:
 - [x] At least 3 **explicit trade-offs** in the model
 - [x] **Provenance log** entry for AI prompts used today
 - [x] TMD §1 drafted
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's access patterns drove the model most cleanly? Surface as Friday positive example.
-- Did anyone design the schema before writing queries? Coach back.
-- Did anyone propose a "real-time" freshness requirement without defending it? Most rookie mistake.
-- Did the cohort use AI as critic, not oracle?

@@ -1,16 +1,10 @@
 # Day 2 — ADO Usage (Hands-On Workshop)
 
-> **Activity packet** for facilitators and participant triads. Today's job: load the feature into Azure DevOps with disciplined hierarchy, fields, and tags. Build the queries that surface state, blocked work, and flow. Draft DP §2.
+> **Activity packet** for participant triads. Today's job: load the feature into Azure DevOps with disciplined hierarchy, fields, and tags. Build the queries that surface state, blocked work, and flow. Draft DP §2.
 
 ## Where we are in the week
 
 The outcome map (DP §1) tells us **what we're trying to produce**. Today's ADO work tells us **how we're tracking the producing**. By 16:00, every triad's feature is loaded into ADO with a hierarchy that an engineering team could pick up Monday.
-
-## Pre-flight
-
-- [ ] Confirm every triad has access to a sandbox or live ADO project (instructor-provisioned ahead of class).
-- [ ] If ADO isn't available, run today as **"ADO concepts on paper"** — same template, captured in markdown. Coverage is similar; hands-on practice is the loss.
-- [ ] Triads need their PRD (especially §6 AC), TCD §5 trade-offs, TMD §3 API, and SEP §5 outcomes log. The backlog is built from these.
 
 ## Inputs
 
@@ -356,10 +350,3 @@ Each triad ends Day 2 with:
 - [x] **Sprint board** + **Kanban board** configured with WIP limits
 - [x] AI provenance entry (standup-prep)
 - [x] DP §2 drafted with links / screenshots
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's hierarchy is cleanest? Hold up Friday.
-- Did anyone skip NFR stories? Coach them; NFRs are work.
-- Did anyone go deeper than 4 levels? Most common discipline failure.
-- Was anyone tempted to skip story points ("we don't really estimate")? Push back; estimates are a learning tool even when imperfect.

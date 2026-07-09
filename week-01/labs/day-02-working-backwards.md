@@ -1,6 +1,6 @@
 # Day 2 — Working Backwards
 
-> **Activity packet** for facilitators and participant triads. Day 2 produces a one-page PR/FAQ per triad and runs the first cross-triad critique of the academy.
+> **Activity packet for participant triads.** Day 2 produces a one-page PR/FAQ per triad and runs the first cross-triad critique of the academy.
 
 ## Prerequisite artifacts (from Day 1)
 
@@ -30,7 +30,7 @@ Pick any one per triad. Triads may also propose their own subject to facilitator
 Before drafting, calibrate what the difference feels like in practice by analyzing 4 short vignettes.
 
 ### Setup
-Distribute the four vignettes as a single handout (printed or shared digitally) to each triad. Each triad needs a way to take quick notes — paper or shared doc is fine.
+Your triad has the four vignettes below (also available as the handout `week-01/handouts/working-backwards-vignettes.md`). Have a way to take quick notes — paper or shared doc is fine.
 
 ### Steps
 
@@ -41,15 +41,13 @@ Distribute the four vignettes as a single handout (printed or shared digitally) 
 
 ### Vignettes
 
-> *(Hand out as a printed or shared document. Each vignette is 3–5 sentences.)*
+1. **Vignette A** — A dispatch-tool founder, after hearing customers complain about mobile app speed, built a native iOS rewrite over two quarters. At launch, 40% of techs still used the web view because they'd switched Android mid-project.
 
-1. **Vignette A** — A dispatch-tool founder, after hearing customers complain about mobile app speed, built a native iOS rewrite over two quarters. At launch, 40% of techs still used the web view because they'd switched Android mid-project. *(Forward — tool-first.)*
+2. **Vignette B** — A PM wrote a one-page mock press release for "OfflineFirst Ticket Capture" and circulated it to five techs for reaction. Three said they'd already built paper workarounds; two said the app's login flow was the real blocker. The PR was re-scoped to login before offline.
 
-2. **Vignette B** — A PM wrote a one-page mock press release for "OfflineFirst Ticket Capture" and circulated it to five techs for reaction. Three said they'd already built paper workarounds; two said the app's login flow was the real blocker. The PR was re-scoped to login before offline. *(Backward — validated PR.)*
+3. **Vignette C** — Engineering discovered a faster map-tile rendering library and shipped it as a mid-sprint improvement. Dispatcher satisfaction bumped 12 points in next-survey.
 
-3. **Vignette C** — Engineering discovered a faster map-tile rendering library and shipped it as a mid-sprint improvement. Dispatcher satisfaction bumped 12 points in next-survey. *(Backward by accident — or forward but lucky? Force the debate.)*
-
-4. **Vignette D** — A PM drafted a PR/FAQ for "Tech-First Messaging" and had AI generate three customer quotes. The quotes all used marketing language no tech would say. The PM skipped persona research and shipped anyway. *(Forward disguised as backward — the PR was fiction, not grounded fiction.)*
+4. **Vignette D** — A PM drafted a PR/FAQ for "Tech-First Messaging" and had AI generate three customer quotes. The quotes all used marketing language no tech would say. The PM skipped persona research and shipped anyway.
 
 ### Debrief questions (full room, 15 min)
 
@@ -71,7 +69,7 @@ A one-sentence "earlier question" per vignette, recorded by the triad and surfac
 Produce three candidate headlines, then use AI to critique them on three axes. Pick one.
 
 ### Setup
-Each triad has chosen (or will pick now) one product idea from the backlog above. Confirm AI assistant access.
+Your triad has chosen (or will pick now) one product idea from the backlog above. Confirm AI assistant access.
 
 ### Steps
 
@@ -108,7 +106,7 @@ The single chosen heading + sub-headline, pinned for use in Activity 3.
 Complete a draft PR paragraph + customer quote + 6 FAQ entries.
 
 ### Setup
-Each triad has its chosen heading/sub-headline from Activity 2. Distribute the PR template below.
+Your triad has its chosen heading/sub-headline from Activity 2. Use the PR template below.
 
 ### Steps
 
@@ -116,7 +114,7 @@ Each triad has its chosen heading/sub-headline from Activity 2. Distribute the P
 2. **Draft (25 min).** Fill the template — Summary, Problem, Solution, Customer quote, both FAQs.
 3. **Self-review (10 min).** Read aloud within the triad; tag every claim with an evidence tier.
 
-### Template (provide to each triad)
+### Template
 
 ```markdown
 # [Heading from Activity 2]
@@ -168,9 +166,7 @@ A complete one-page PR/FAQ per triad: heading, sub-headline, three paragraphs, c
 Two triads exchange PR/FAQs and run the academy's first cross-triad critique. The critique protocol is what makes it productive instead of defensive.
 
 ### Setup
-Pair each triad with another. Both triads have a completed PR/FAQ from Activity 3 and a stopwatch (phone is fine).
-
-### Steps
+Pair with another triad. Both triads have a completed PR/FAQ from Activity 3 and a stopwatch (phone is fine).
 
 ### The critique protocol (enforce)
 

@@ -1,13 +1,13 @@
 # Day 1 — Monolith vs Microservices
 
-> **Activity packet** for facilitators and participant triads. Today's job: equip TPMs to frame the monolith-vs-microservices conversation in **business and operational terms** — not framework hype — and to write the architecture stance section of their TCD.
+> **Activity packet** for your triad. Today's job: frame the monolith-vs-microservices conversation in **business and operational terms** — not framework hype — and write the architecture stance section of your TCD.
 
 ## Where we are in the week
 
 Week 4 opens by asking: *given the PRD's NFRs, where does this feature belong in the system?* The answer is a **stance**, not a final architectural decision. The architect makes the call; the TPM names the constraints that should drive it.
 
 Inputs from prior weeks:
-- The triad's locked PRD (Week 3 deliverable)
+- Your triad's locked PRD (Week 3 deliverable)
 - The NFRs in PRD §7
 - The integration / dependency list in PRD §10
 
@@ -27,7 +27,7 @@ Output today: **Section 1 of the TCD — Architecture stance**, plus a draft of 
 | **Function-as-a-service** | Per-function deploys (e.g., Lambda) | Bursty workloads; not a default |
 | **Event-driven** | Components communicate via events / queues | Decouples timing; complicates debugging |
 
-The cohort needs the vocabulary to follow the architect's reasoning — not to win arguments by quoting taxonomy.
+You need the vocabulary to follow the architect's reasoning — not to win arguments by quoting taxonomy.
 
 ---
 
@@ -66,14 +66,14 @@ The TPM's job is to **surface the business cost** of premature service-orientati
 **Format:** Triad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-Calibrate the room on the three-question frame using public-company examples before applying it to the triad's PRD feature.
+Calibrate the room on the three-question frame using public-company examples before applying it to your PRD feature.
 
 ### Setup
 Each triad receives the 8-card triage pack and a stamp sheet for the four stances (Monolith / Microservice / Modular monolith / Need more info).
 
 ### The triage pack (8 examples, anonymized)
 
-For each, the triad applies the three-question frame and stamps **Monolith fits / Microservice fits / Modular monolith fits / Need more info**:
+For each, apply the three-question frame and stamp **Monolith fits / Microservice fits / Modular monolith fits / Need more info**:
 
 1. A startup's checkout flow at 50 customers, 1 backend team
 2. A streaming service's recommendation engine at scale, 3 teams contributing
@@ -105,7 +105,7 @@ Stamped triage pack with reasoning for the two strongest "separate" cases, two s
 **Format:** Triad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Run the three-question frame against the triad's locked PRD feature and draft Section 1 of the TCD.
+Run the three-question frame against your triad's locked PRD feature and draft Section 1 of the TCD.
 
 ### Setup
 Each triad needs their locked PRD (especially §10 Dependencies) and the TCD §1 template. AI optional but governed by Week-2 Day-4 provenance rules.
@@ -249,9 +249,3 @@ Each triad ends Day 1 with:
 - [x] Section 2 (first pass) — Integration table with failure-handling stances
 - [x] An AI-use note (provenance log) — what prompts were used, what was adopted/rejected
 - [x] One open question for the architect or security partner
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's stance was defended in framework hype rather than business terms? Coach tomorrow.
-- Which triad's "Failure handling" column was the most concrete? Hold up Friday as a positive example.
-- Did the AI-assisted exercises produce surprises, or just generic objections? If generic, the prompts need more context — tighten Week 4 Day 2.

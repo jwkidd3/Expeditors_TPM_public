@@ -1,6 +1,6 @@
 # Day 2 — Cloud Architecture & Infrastructure
 
-> **Activity packet** for facilitators and participant triads. Today's job: take the entities from Day 1 and the components from the TCD, decide where they **physically run**, and draft TMD §2 — Cloud topology.
+> **Activity packet** for participant triads. Today's job: take the entities from Day 1 and the components from the TCD, decide where they **physically run**, and draft TMD §2 — Cloud topology.
 
 ## Where we are in the week
 
@@ -293,10 +293,3 @@ Each triad ends Day 2 with:
 - [x] **ROM cost table**
 - [x] AI provenance log entry
 - [x] TMD §2 drafted
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's ROM cost was most realistic? Hold up Friday.
-- Did anyone pick multi-region active-active without justification? Most rookie expensive choice.
-- Did any triad pick self-managed for components that have clear managed equivalents? Coach toward defaults.
-- Did anyone treat tenancy as a tech decision rather than a customer-and-cost decision?

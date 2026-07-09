@@ -112,14 +112,6 @@ Things this PRD acknowledges but doesn't ship.
 
 Triads from Weeks 1–2 carry through. They authored together, they ship together. Friday's review pairings are different from authoring pairings (we cross-pollinate).
 
-## Facilitator pre-flight checklist
-
-- [ ] Confirm every triad's Week-2 artifacts are accessible Monday morning (NS, journey map, top 3 feature concepts).
-- [ ] Pre-print the **PRD template** (1 per triad) and the **review rubric** (Friday).
-- [ ] Set the **non-AI rule** explicitly Monday morning. Repeat Tuesday and Thursday.
-- [ ] Decide review pairings before Friday. Each PRD gets two primary reviewers, plus a different secondary reviewer in the afternoon.
-- [ ] Coach yourself on the **most common Week 3 trap**: triads writing AC that just restates goals in Given/When/Then syntax. Hold the line on testability.
-
 ## Friday review rubric
 
 Reviewers score each PRD on:

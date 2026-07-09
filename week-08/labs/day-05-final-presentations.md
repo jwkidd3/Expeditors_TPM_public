@@ -1,25 +1,10 @@
 # Day 5 — Final Artifact Presentations + Course Closure
 
-> **Activity packet** for facilitators and participant triads. Today every triad presents their capstone. The cohort scores. The course closes.
+> **Activity packet** for participant triads. Today every triad presents their capstone. The cohort scores. The course closes.
 
 ## Where we are in the week
 
 8 weeks of muscle. 5 days of capstone work. Today is the proof.
-
-## Today's cadence (different from prior days)
-
-| Clock | Block | What happens |
-|-------|-------|--------------|
-| 09:00 – 09:30 | Opening; presentation order; rubric review; final tweaks | Instructor + triads |
-| 09:30 – 10:50 | **Triad 1 + Triad 2 presentations** (15 min + 5 min Q&A each, plus 10 min flex) | Cohort scores |
-| 10:50 – 11:05 | Break | |
-| 11:05 – 12:25 | **Triad 3 + Triad 4 presentations** | |
-| 12:25 – 13:25 | Lunch | |
-| 13:25 – 14:45 | **Triad 5 + Triad 6 presentations** | |
-| 14:45 – 15:15 | Cohort retrospective | What worked; what to deepen |
-| 15:15 – 16:00 | Course closure: post-assessments, certificates, wrap | Instructor-led |
-
-If the cohort is smaller, the morning compresses; if larger, presentations extend and the retrospective tightens.
 
 ## Inputs you bring
 
@@ -69,9 +54,7 @@ Last-minute polish. Decide presentation order. Anticipate Q&A.
 2. **Predict the 3 most likely Q&A questions** (10 min). For each: who answers? What's the response?
 3. **Pin the 6 documents on the wall / share digitally** (5 min). Easier for cohort to skim during presentation.
 
-### Presentation order
-
-The instructor sets the order at 09:00. Suggested heuristic: alternate between triads with similar capstones and triads with different ones, to avoid the "everyone presents the same thing in a row" fatigue.
+The instructor sets the presentation order at 09:00.
 
 ---
 
@@ -90,13 +73,6 @@ The instructor sets the order at 09:00. Suggested heuristic: alternate between t
 - Specific notes per dimension help the post-presentation feedback
 - Use whole-number scores (no half-points)
 - Don't "grade on a curve" — score against the rubric, not against other triads
-
-### What instructors do during presentations
-
-- Time-keep (one instructor)
-- Score (other instructors)
-- Note specific lines / moments to call out in the wrap
-- Collect peer scores after each presentation
 
 ### Q&A discipline (for presenters)
 
@@ -125,7 +101,7 @@ Three rounds, each 7–10 minutes:
 
 #### Round 1 — What surprised you about the academy?
 
-Each participant shares one thing that surprised them — content, process, themselves. The instructor captures themes.
+Each participant shares one thing that surprised them — content, process, themselves.
 
 #### Round 2 — What muscles are you keeping?
 
@@ -160,7 +136,7 @@ Three artifact lists (surprises / keeping / retiring) the cohort takes with them
 3. **Closing words from instructors** (10 min): summative remarks.
 4. **Final round-robin** (15 min): each participant says **one sentence** about what the academy gave them.
 
-The final round-robin is the closure ritual. It's brief, public, and important. Instructors model it first.
+The final round-robin is the closure ritual. It's brief, public, and important.
 
 ### Materials handed out
 
@@ -181,12 +157,3 @@ Each participant ends the academy with:
 - [x] **Post-assessments** submitted
 - [x] **Pattern Library** + artifact templates for use in their next role
 - [x] **Cohort connections** for ongoing support
-
-## Facilitator final reflection prompts
-
-- Which triad's presentation was the strongest synthesis? Document for next cohort.
-- Which Week-1–7 muscle was the cohort weakest at when stressed by the capstone? That's the highest-leverage deepening for next academy.
-- Did the AI Spec discipline hold under capstone pressure? If yes, the academy worked.
-- Did the post-assessments reflect the felt growth?
-- What would you change about the Week-8 cadence in particular?
-- What signals tell you a cohort member is going to thrive in their next TPM role? (Note them — useful for hiring conversations.)

@@ -1,6 +1,6 @@
 # Day 4 — Mini-Capstone: PRD Assembly (Non-AI)
 
-> **Activity packet** for facilitators and participant triads. Today's job: complete the remaining PRD sections, integrate the whole document, and lock the version that goes into Friday's review. **No AI**, all day.
+> **Activity packet** for participant triads. Today's job: complete the remaining PRD sections, integrate the whole document, and lock the version that goes into Friday's review. **No AI**, all day.
 
 ## Where we are in the week
 
@@ -261,11 +261,3 @@ Each triad ships into Friday's review:
 - [x] §11 Out-of-scope follow-ups, specific
 - [x] Integration check passed; no AI-generic prose
 - [x] A copy saved as "v0 — for Friday"
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's PRD is the most coherent? They should be a positive Friday example.
-- Which triad has the most risks-without-mitigations? Coach Friday morning before reviews start.
-- Did anyone skip §11? Surface tomorrow — out-of-scope is the negotiation tool for Week 6.
-- AI use: any last detection? Address privately before Friday.
-- Friday review pairings: post on the wall by end of today.

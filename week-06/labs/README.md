@@ -97,14 +97,6 @@ For each simulated round: the ask, the response, the agreement
 
 Same triads from Weeks 1–5. Friday's simulations pair triads as **author** + **stakeholder** — triads play each other's stakeholders, swapping roles round to round.
 
-## Facilitator pre-flight checklist
-
-- [ ] Confirm every triad has accessible PRD + TCD + TMD Monday morning.
-- [ ] Pre-print or share digitally: **Power/Interest Grid** (Day 1), **RACI Worksheet** (Day 1), **Engagement Plan Template** (Day 2), **One-Page Brief Template** (Day 3), **Meeting Prep Template** (Day 4), **Negotiation Outcomes Log** (Day 5).
-- [ ] Build **stakeholder personas** for Friday's simulation. Suggested set: Operations VP, Architect, Security Lead, Eng Director, Customer Success Lead, CFO.
-- [ ] Review the **Friday simulation rubric**.
-- [ ] Coach yourself on the **most common Week 6 trap**: triads who treat the stakeholder map as an org-chart exercise rather than a negotiation tool. The map is **the input** to the conversations, not the deliverable.
-
 ## Friday simulation rubric
 
 For each negotiation round, both sides score on:

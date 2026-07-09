@@ -1,6 +1,6 @@
 # Day 3 — Communicating Technical Trade-Offs to Non-Technical Partners
 
-> **Activity packet** for facilitators and participant triads. Today's job: take **one trade-off** from your TCD §5 or TMD, translate it for a non-technical executive, and produce a 1-page brief that wins (or honestly loses) the call.
+> **Activity packet** for participant triads. Today's job: take **one trade-off** from your TCD §5 or TMD, translate it for a non-technical executive, and produce a 1-page brief that wins (or honestly loses) the call.
 
 ## Where we are in the week
 
@@ -269,10 +269,3 @@ Each triad ends Day 3 with:
 - [x] Cross-reviewed (in role) + AI-critiqued
 - [x] Provenance log entry
 - [x] SEP §3 drafted
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's "decision sentence" was sharpest? Hold up Friday.
-- Which triad over-loaded the brief beyond one page? Coach to cut.
-- Did anyone use the wrong stakeholder currency (cost language for a customer-impact stakeholder, etc.)? Common; surface.
-- Did the cohort engage with the "what would change our mind" prompt or skip it? Skipping = brittle brief.

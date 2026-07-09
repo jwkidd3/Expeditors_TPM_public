@@ -82,13 +82,6 @@ the trigger that would cause us to revisit.
 
 Same triads from Weeks 1–3. They authored the PRD; they author the TCD.
 
-## Facilitator pre-flight checklist
-
-- [ ] Confirm every triad's locked Week-3 PRD is accessible Monday morning.
-- [ ] Pre-print or share digitally: the **STRIDE Card**, the **C4 Container Skeleton**, the **SLO Worksheet**, the **TCD Template**.
-- [ ] **Re-establish AI norms.** Prompt patterns from Week 1 + the provenance-log discipline from Week 2 Day 4 both apply to all AI use this week.
-- [ ] Coach yourself on the **most common Week 4 trap**: triads making architecture decisions instead of surfacing trade-offs. Hold the line: the architect decides; the TPM clarifies.
-
 ## Friday review rubric (TCD)
 
 | Dimension | Weight | What "exemplary" looks like |

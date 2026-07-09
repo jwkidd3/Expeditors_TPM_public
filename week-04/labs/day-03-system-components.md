@@ -1,6 +1,6 @@
 # Day 3 — Mapping High-Level System Components
 
-> **Activity packet** for facilitators and participant triads. Today's job: draw a **C4-style component diagram** for the triad's feature — Context (the world around the system) and Container (the deployable units inside it). The diagram replaces hand-waving with a shared visual vocabulary.
+> **Activity packet** for your triad. Today's job: draw a **C4-style component diagram** for your feature — Context (the world around the system) and Container (the deployable units inside it). The diagram replaces hand-waving with a shared visual vocabulary.
 
 ## Where we are in the week
 
@@ -100,7 +100,7 @@ A diagram without a legend is a Rorschach test. Force the legend.
 **Format:** Triad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-Draw the Context diagram for the triad's PRD feature. It should be readable in 60 seconds by a stakeholder who has never seen the feature.
+Draw the Context diagram for your PRD feature. It should be readable in 60 seconds by a stakeholder who has never seen the feature.
 
 ### Setup
 Each triad needs whiteboard or large paper, markers, and the integration table from Day 1. AI optional; log provenance if used.
@@ -295,10 +295,3 @@ Each triad ends Day 3 with:
 - [x] **Failure-trace finding** integrated
 - [x] AI-prompt provenance note for today
 - [x] TCD §2 updated to reference the diagrams
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's diagram has the cleanest legend? Hold up Friday.
-- Which triad over-detailed the Context (sneaking Container concerns in)? Coach tomorrow.
-- Did anyone produce a "Database is part of our system" arrow when the database is actually shared platform infra? That's a trust-boundary error worth surfacing.
-- Did the cohort handle AI critique with discipline, or absorb every suggestion?

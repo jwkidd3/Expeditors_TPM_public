@@ -1,6 +1,6 @@
 # Day 3 — Product Design & UX Principles for TPMs
 
-> **Activity packet** for facilitators and participant triads. Today's job: equip TPMs to partner credibly with design — to spot UX failures, name them in the right vocabulary, and ship 3 design principles their squad can hold the line on.
+> **Activity packet for participant triads.** Today's job: equip you to partner credibly with design — to spot UX failures, name them in the right vocabulary, and ship 3 design principles your squad can hold the line on.
 
 ## Where we are in the week
 
@@ -225,9 +225,3 @@ Each triad leaves the day with:
 - [x] A UX Audit (top 3 violations + 3 strengths + TPM lenses)
 - [x] **Three design principles** the squad would hold the line on
 - [x] At least one open question for the design team
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad fell into the "I just don't like it" trap? They need help converting reaction to vocabulary tomorrow.
-- Which triad's principles are the sharpest? Pull one as a positive example for Friday.
-- Did anyone treat A11y as optional? That's a Week 4 risk to head off now.

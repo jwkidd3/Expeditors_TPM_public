@@ -1,6 +1,6 @@
 # Day 3 — Capstone Architecture + AI Spec Drafted
 
-> **Activity packet** for facilitators and participant triads. Today's job: produce **TCD-light + TMD-light**, then run the **AI Spec 5-prompt sequence** on the capstone to produce AI Spec v1. The most ambitious day of the week.
+> **Activity packet** for participant triads. Today's job: produce **TCD-light + TMD-light**, then run the **AI Spec 5-prompt sequence** on the capstone to produce AI Spec v1. The most ambitious day of the week.
 
 ## Where we are in the week
 
@@ -203,10 +203,3 @@ Each triad ends Day 3 with:
 - [x] Cross-triad validation findings captured
 - [x] Provenance log entry
 - [x] Day-4 plan
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's AI Spec is most engineering-ready? Hold up Friday.
-- Did anyone produce a 5-page TCD-light? Coach to cut.
-- Did the cross-triad validation catch real claims, or was it a rubber stamp?
-- Did the validation step survive time pressure? If not, intervene tomorrow.

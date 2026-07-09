@@ -1,6 +1,6 @@
 # Day 3 — REST & SOAP API Fundamentals
 
-> **Activity packet** for facilitators and participant triads. Today's job: design the **API contract** for the feature — resource modeling, methods, idempotency, versioning, error semantics — and draft TMD §3.
+> **Activity packet** for participant triads. Today's job: design the **API contract** for the feature — resource modeling, methods, idempotency, versioning, error semantics — and draft TMD §3.
 
 ## Where we are in the week
 
@@ -325,10 +325,3 @@ Each triad ends Day 3 with:
 - [x] SOAP exceptions documented (if any)
 - [x] AI provenance log entry
 - [x] TMD §3 drafted
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's resource design was cleanest? Hold up Friday.
-- Did anyone use verbs in URLs? Coach back.
-- Did anyone skip idempotency? Push — most rookie APIs are accidentally non-idempotent.
-- Did the cohort engage with REST principles or just memorize forms? The deeper engagement is the goal.

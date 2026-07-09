@@ -1,6 +1,6 @@
 # Day 3 — Building & Validating Personas
 
-> **Activity packet** for facilitators and participant triads. Day 3 produces a validated persona per triad and trains the core validation-interview muscle.
+> **Activity packet for participant triads.** Day 3 produces a validated persona per triad and trains the core validation-interview muscle.
 
 ## Prerequisite artifacts (from Day 2)
 
@@ -42,37 +42,35 @@ Each box has a column on the right for evidence tier tags.
 Calibrate the triad's eye for behavioral vs demographic vs adjectival persona claims before they build their own.
 
 ### Setup
-Distribute the three provided personas as a single handout (one page each). Each triad needs colored pens or a digital equivalent for marking up claims.
+Your triad has the three provided personas below (also available as the handout `week-01/handouts/sample-personas.md`, one page each). You'll need colored pens or a digital equivalent for marking up claims.
 
 ### Steps
 
 1. **Mark up (15 min).** For each persona, highlight every claim as behavioral, demographic, or adjectival; circle the ones that would change a product decision.
-2. **Rewrite (10 min).** Rewrite the weakest persona (Diana) using Rita's evidence-tagged form.
+2. **Rewrite (10 min).** Rewrite the weakest persona using the strongest one's evidence-tagged form.
 3. **Debrief (5 min).** Full-room: which persona changes the most decisions, and why?
 
 ### The three provided personas
 
-> Distribute a single handout: three personas on one page each.
-
-1. **Persona 1 — "Dispatcher Diana"** *(intentionally weak, demographic-heavy)*
+1. **Persona 1 — "Dispatcher Diana"**
    - 35 years old, married, two kids
    - Drives a Honda CR-V
    - Busy, tech-savvy, loves efficiency tools
    - Wants to feel appreciated at work
 
-2. **Persona 2 — "Reliable Rita"** *(intentionally decent, behavioral)*
+2. **Persona 2 — "Reliable Rita"**
    - Lead dispatcher, 50–120 tech HVAC
    - Observed: retypes paper tickets into system after shift (6/8 ride-alongs)
    - Reported: "mid-day re-routes are my worst hour" (7/10 interviews)
    - Workaround: keeps a paper map next to the monitor
    - Assumption: distrusts software that hides inventory (inferred from 3 observations)
 
-3. **Persona 3 — "Tech-lead Tom"** *(misleading — mixes real behaviors with stock adjectives)*
+3. **Persona 3 — "Tech-lead Tom"**
    - Junior technician, 2 years in trade
    - Observed: checks in at job sites via app 60% of the time
    - Reported: "my dispatcher doesn't know where my truck is half the time"
-   - "Young, digital native, eager to learn new tools" ← adjective-salad
-   - "Loves to be efficient" ← unfalsifiable
+   - "Young, digital native, eager to learn new tools"
+   - "Loves to be efficient"
 
 ### Triad task (20 min)
 
@@ -80,17 +78,17 @@ For each persona:
 
 1. Highlight every claim as **behavioral** / **demographic** / **adjectival**
 2. Mark which claims would change a product decision
-3. Rewrite the weakest persona (Diana) in 10 minutes using what you've seen of Rita's form
+3. Rewrite the weakest persona in 10 minutes using the strongest one's form
 
 ### Full-room debrief (10 min)
 
 - Which persona changes the most decisions?
-- Where does Tom's mixed form do harm?
+- Where does a mixed-form persona do harm?
 - What's one element you'd add to any of them?
 
 ### Deliverable
 
-A marked-up handout per triad plus a one-paragraph rewrite of Persona 1 ("Dispatcher Diana") in Rita's behavioral-evidence form.
+A marked-up handout per triad plus a one-paragraph rewrite of the weakest persona in the strongest one's behavioral-evidence form.
 
 ---
 
@@ -102,7 +100,7 @@ A marked-up handout per triad plus a one-paragraph rewrite of Persona 1 ("Dispat
 Take the FieldPulse Research Packet and produce a canvas-format persona that is evidence-tagged box by box.
 
 ### Setup
-Each triad has the FieldPulse Research Packet (interviews A/B/C + ride-along + analytics) and the Persona Validation Canvas template. AI assistant access required for Boxes 5 and 6 only.
+Your triad has the FieldPulse Research Packet (interviews A/B/C + ride-along + analytics) and the Persona Validation Canvas template. AI assistant access required for Boxes 5 and 6 only.
 
 ### Steps
 
@@ -169,16 +167,14 @@ Rehearse the validation-interview protocol on three character cards while a thir
 
 Each triad uses one set of three cards (participant handout `week-01/handouts/dispatcher-character-cards.md`, also built to `.pdf`; print A5). Each card has:
 
-- Public surface: role, company size, tenure
-- Hidden details: specific workarounds, frustrations, and a *wrong assumption the interviewer will carry into the room*
+- **Public surface:** role, company size, tenure — everyone may read
+- **Hidden details:** revealed **only to the "interviewee"** for that round. Interviewers must surface them with good questions — do not read the Hidden section of a card you're interviewing.
 
-> Hidden details are only revealed to the "interviewee" role. Interviewers must surface them with good questions.
+**Included characters (public surface):**
 
-**Included characters:**
-
-1. **Maria R.** — 12yr, 90-tech, hates mid-day re-routes, secretly uses a paper notebook for truck stock because the app's inventory view is 3 clicks deep
-2. **Trey W.** — 3yr, former tech, will volunteer opinions confidently; some are wrong (genuinely misremembers how often re-routes happen)
-3. **Susana O.** — 18yr, owner's daughter, constraint: shop owner insists on same-day reconcile but the real bottleneck is payroll's Wednesday deadline, not dispatch
+1. **Maria R.** — 12yr, 90-tech shop, reputation for keeping the branch running
+2. **Trey W.** — 3yr, former tech, 60-tech shop, opinionated and quick to generalize
+3. **Susana O.** — 18yr, owner's daughter, 160-tech shop, carries weight with the owner
 
 ### Rotation
 
@@ -229,9 +225,7 @@ A synthesized list per triad: assumptions confirmed, assumptions broken, and the
 Stress-test the persona by writing JTBDs for it and letting another triad attack them. This is the day's hardest exercise — and the most useful.
 
 ### Setup
-Pair each triad with another. Both triads have a completed persona canvas from Activity 2 and need a way to capture the parking lot of open validation questions.
-
-### Steps
+Pair with another triad. Both triads have a completed persona canvas from Activity 2 and need a way to capture the parking lot of open validation questions.
 
 ### Step 1 — Draft JTBDs (15 min, within triad)
 

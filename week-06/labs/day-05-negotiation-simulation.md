@@ -1,6 +1,6 @@
 # Day 5 — Negotiating Priorities & Roadmaps (Live Simulations)
 
-> **Activity packet** for facilitators and participant triads. Today's job: run **three rounds of simulated negotiation**, capture outcomes, and ship the SEP — the fourth and final sibling artifact alongside PRD / TCD / TMD.
+> **Activity packet** for participant triads. Today's job: run **three rounds of simulated negotiation**, capture outcomes, and ship the SEP — the fourth and final sibling artifact alongside PRD / TCD / TMD.
 
 ## Where we are in the week
 
@@ -101,23 +101,9 @@ to <person>">
 
 ### The setup
 
-Each author triad has the 1-page brief from Day 3 + the objection map from Day 4. The stakeholder triad has the brief, the objection map (so they know what's coming), and 1–2 surprise objections **the instructor adds** that aren't in the map.
+Each author triad has the 1-page brief from Day 3 + the objection map from Day 4. The stakeholder triad plays a high-power technical role (architect, security lead, or eng director) and has the brief and the objection map (so they know what's coming), plus a **surprise-objection card** from `week-06/handouts/surprise-objection-set.md` — objections **not** in the author's prep, to push past their rehearsed answers.
 
-### Surprise objection set (instructor handout)
-
-For each technical-stakeholder type, 2 unexpected objections. Examples:
-
-**Architect:**
-- "I just talked to the [other team] lead and they're rebuilding the audit pipeline next quarter. Why are we adding to it now?"
-- "Your latency budget assumes the Tickets module is at p95 100ms. I just got data showing p95 is now 250ms."
-
-**Security Lead:**
-- "I need to see your data-retention policy in writing before I can sign off; what you've described doesn't match what I'd file with a regulator."
-- "Your idempotency-key approach — what stops a malicious client from replaying old keys?"
-
-**Eng Director:**
-- "We have 3 other features competing for sprint slots. Why should yours win?"
-- "I want to see the engineering capacity model. What's our team's velocity assumption?"
+The **public surface** of each surprise-objection card (the stakeholder type and role) is visible to both triads. The card's roleplayer-only content is for the stakeholder triad; the author triad does not see it before the round — that's the point.
 
 ### Triad protocol (per round)
 
@@ -144,11 +130,13 @@ For each technical-stakeholder type, 2 unexpected objections. Examples:
 
 ### The setup
 
-The non-technical stakeholder triad arrives with a **scope-creep ask** the instructor pre-loaded. Examples:
+The non-technical stakeholder triad arrives with a **scope-creep ask** from the scope-creep ask cards (`week-06/handouts/scope-creep-ask-cards.md`). Examples of the kind of ask:
 
 - **PM Director:** "Marketing wants us to add a manager-view dashboard before launch. It's a small ask but they're committed to a campaign."
 - **Customer Success Lead:** "Our top-3 customer just asked for tablet support. They've made it a renewal condition."
 - **Sales VP:** "We have a deal in flight that requires this feature to support multi-shop manager view. Help us make the deal."
+
+The **public surface** (the stakeholder role and the ask) is visible to both triads. Any roleplayer-only content on the card is for the stakeholder triad only.
 
 ### The author triad's challenge
 
@@ -184,11 +172,13 @@ If nothing can move, you're not negotiating — you're saying yes or no. A skill
 
 ### The setup (the hard one)
 
-The executive arrives with one of these asks:
+The executive arrives with one of the demands from the executive-demand scenario cards (`week-06/handouts/executive-demand-scenario-cards.md`):
 
 1. **"Ship 30% sooner."** No scope cut offered. The author negotiates on the trade space.
 2. **"You've lost an engineer to a higher priority. Same scope, same date."** Same exercise from a different angle.
 3. **"We need [adjacent feature] added. Same date, same team."** Scope expansion against constraints.
+
+The **public surface** (the executive role and the demand) is visible to both triads. What's really driving the executive and where they'll settle is roleplayer-only content on the card — the author's job is to find it.
 
 ### What "good" looks like
 
@@ -228,16 +218,3 @@ Each triad ships:
 - [x] AI provenance log entries from Days 4–5
 
 The SEP joins the PRD / TCD / TMD as the fourth sibling artifact. Together they are the input to Week 7's delivery work.
-
-## Facilitator wrap (15 min, end of week)
-
-- Read aloud the **best line of negotiation** from each triad.
-- Surface the **most common fold pattern** — coach for next time.
-- Preview Week 7: the negotiated commitments become the **input to sprint planning**. Constraints that survived become the work; deferred items become the backlog; rejected asks get a documented "no" with reasoning.
-
-## Facilitator reflection prompts (end of week)
-
-- Which triad held the line most credibly? They are the Week-7 positive example.
-- Which triad **discovered** the trade space rather than improvising? Hold up Friday.
-- Did anyone have a moment of "I wish I'd said X" that they should rehearse for next time?
-- Which triad's outcomes log is most actionable — owners, dates, specifics? That's the senior signal.

@@ -1,6 +1,6 @@
 # Day 5 — Identifying & Removing Delivery Bottlenecks
 
-> **Activity packet** for facilitators and participant triads. Today's job: take the top queues from Day 4, design **bottleneck-removal experiments** with hypothesis / test / success criterion, integrate the full DP, peer-review, and ship.
+> **Activity packet** for participant triads. Today's job: take the top queues from Day 4, design **bottleneck-removal experiments** with hypothesis / test / success criterion, integrate the full DP, peer-review, and ship.
 
 ## Where we are in the week
 
@@ -230,16 +230,3 @@ Each triad ships:
 - [x] **Week 8 capstone candidate declared**
 
 The DP joins the PRD / TCD / TMD / SEP. Together they are the **complete sibling artifact set** built across Weeks 3–7 — the input to the Week-8 capstone.
-
-## Facilitator wrap (15 min, end of week)
-
-- Read aloud one experiment from each triad.
-- Surface the **most common bottleneck pattern** across the cohort — usually code review or sprint-planning queue.
-- Preview Week 8: capstone subjects + AI Spec Development.
-
-## Facilitator reflection prompts (end of week)
-
-- Which triad's experiments are most actionable? They are the Week-8 positive example.
-- Which triad has the strongest integrated artifact set? Hold up Friday Week 8.
-- Did anyone treat experiments as ceremony rather than tests? Coach in Week 8.
-- Did the cohort declare strong Week-8 capstone candidates? If not, prep alternative scenarios.

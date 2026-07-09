@@ -1,6 +1,6 @@
 # Day 5 — PRD Review (Morning Reviews, Afternoon Revisions + Secondary)
 
-> **Activity packet** for facilitators and participant triads. Today's job: subject every PRD to a structured peer review, revise it in response, and submit a final version with a complete review-resolution log. By 16:00 every triad has shipped a reviewed, revised PRD — the mini-capstone deliverable.
+> **Activity packet** for participant triads. Today's job: subject every PRD to a structured peer review, revise it in response, and submit a final version with a complete review-resolution log. By 16:00 every triad has shipped a reviewed, revised PRD — the mini-capstone deliverable.
 
 ## Where we are in the week
 
@@ -200,14 +200,6 @@ This becomes the input to the afternoon revision block.
 
 Author-triad-owned action list categorized as adopt / defer / push back, drawn from both AM Review Documents and the conversation.
 
-### Facilitator role
-
-Sit in on at least one conversation. Watch for:
-
-- Authors getting defensive — coach toward curiosity
-- Reviewers softening at the table — call out: "What did you write down? Stand by it or revise."
-- Conversations that drift to "the *idea*" instead of "the *PRD*" — redirect
-
 ---
 
 ## Activity 3 — Revisions
@@ -324,16 +316,3 @@ Each triad ships:
 - [x] At least 3 reviews received (2 primary + 1 secondary)
 
 This is the **mini-capstone deliverable**. The PRD itself is the artifact; the review trail is the evidence of the process.
-
-## Facilitator wrap (15 min, end of day)
-
-- Read aloud one strength of each triad's PRD (named publicly).
-- Surface the **most common review finding** across the cohort (this is the cohort's growth edge for Week 4).
-- Preview Week 4: the PRDs become input to the **technical architecture** conversation. NFRs become first-draft architectural constraints.
-
-## Facilitator reflection prompts (end of week)
-
-- Which triad's PRD shipped highest? They are the positive example for Week 4 PRDs.
-- Which triad's review *quality* (not their PRD) was strongest? Hold up — review skill is a TPM superpower.
-- Did any author triad respond defensively? Coach individually before Week 4.
-- Did the cohort find the non-AI discipline harder or easier than expected? Tap that next week — Week 4 reintroduces AI for technical-architecture work.

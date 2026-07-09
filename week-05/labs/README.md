@@ -89,13 +89,6 @@ sequences. Names every hop, protocol, and failure handler. (Day 4)
 
 Same triads from Weeks 1–4. PRD authors → TCD authors → TMD authors. By Week 6 these triads will negotiate this work with stakeholders.
 
-## Facilitator pre-flight checklist
-
-- [ ] Confirm every triad's locked Week-4 TCD is accessible Monday morning.
-- [ ] Pre-print or share digitally: the **Data Model Worksheet** (Day 1), **Cloud Topology Card** (Day 2), **API Contract Skeleton** (Day 3), **Sequence Diagram Template** (Day 4), **Monitoring Plan Skeleton + AI Validation Log** (Day 5).
-- [ ] AI norms reminder: Week-2 prompt patterns + Week-4 AI norms still apply. Day 5 introduces explicit AI-summary validation as a new discipline.
-- [ ] Coach yourself on the **most common Week 5 trap**: triads making engineering decisions instead of surfacing models and trade-offs. The job is to read and reason, not to decide.
-
 ## Friday review rubric (TMD)
 
 | Dimension | Weight | What "exemplary" looks like |

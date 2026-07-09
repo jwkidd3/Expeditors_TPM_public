@@ -1,6 +1,6 @@
 # Day 1 — AI Fundamentals & Prompting for TPMs
 
-> **Activity packet** for facilitators and participant triads. This file is the single source of truth for the day's small-group work, character cases, and deliverable templates.
+> **Activity packet for participant triads.** This file is your source of truth for the day's small-group work, character cases, and deliverable templates.
 
 ## Running case study — FieldPulse
 
@@ -8,15 +8,13 @@ Every day of Week 1 uses the same fictional product to keep momentum.
 
 **FieldPulse** is a mobile-first field-service dispatch SaaS sold to HVAC, plumbing, and electrical shops with 50–200 technicians. It competes with ServiceTitan, Housecall Pro, and in-house tooling. It is mid-sized (Series B), 400 customers, $40M ARR. The academy's "TPM role" sits in the Dispatcher Workflow squad, which owns the dispatcher's primary web app and the tech's mobile app.
 
-### What the cohort will be given as ambient context
+### Ambient context you'll be given
 
 - One-page product overview (handed out at start of Day 1)
 - Three anonymized dispatcher interview transcripts (used starting Day 3)
 - A pack of 14 support tickets (used on Day 4)
 - A screen-time analytics export (Day 4)
 - A composite customer quote from a prior PR (Day 2)
-
-> Pre-flight: print or digitally share these handouts before Day 1 morning break.
 
 ---
 
@@ -81,10 +79,10 @@ A scored comparison across three tools plus a one-line readout: "We would trust 
 **Format:** Triad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Convert the Day 1 teaching (RCCF) into reflexive behavior. Participants handle three weak prompts pulled from the FieldPulse backlog and rewrite them.
+Convert the Day 1 teaching (RCCF) into reflexive behavior. Handle three weak prompts pulled from the FieldPulse backlog and rewrite them.
 
 ### Setup
-Distribute the three weak prompts below to each triad. Confirm each triad has access to one AI assistant and the FieldPulse handouts from the morning.
+Your triad has the three weak prompts below, access to one AI assistant, and the FieldPulse handouts from the morning.
 
 ### The three weak prompts
 
@@ -130,7 +128,7 @@ Minimum four entries by end of Day 1. Entries earned in Activities 2, 3, and 4.
 Use AI as a rapid multi-perspective critic, and practice asking a single question from each perspective.
 
 ### Setup
-Each triad has a working AI assistant and the FieldPulse one-paragraph problem brief below. The brief is the shared input for all three hats.
+Your triad has a working AI assistant and the FieldPulse one-paragraph problem brief below. The brief is the shared input for all three hats.
 
 ### The FieldPulse one-paragraph problem brief
 
@@ -157,7 +155,7 @@ For each hat: the single most uncomfortable question surfaced. One of those thre
 Ship a durable artifact. The library is referenced every remaining day of Week 1 and beyond.
 
 ### Setup
-Each triad has been collecting candidate prompts through Activities 2 and 3. They now formalize a shared document — any tool the triad will reliably use (markdown file, shared doc, wiki page).
+Your triad has been collecting candidate prompts through Activities 2 and 3. You now formalize a shared document — any tool the triad will reliably use (markdown file, shared doc, wiki page).
 
 ### Steps
 
@@ -196,9 +194,3 @@ Each triad leaves the day with:
 - [x] At least one person per triad who owns the Pattern Library file
 - [x] A Day 3 research target question selected from Activity 3
 - [x] A pre-Day-2 commitment: one product idea they want to PR/FAQ tomorrow
-
-## Facilitator reflection prompts (end of day)
-
-- Did any triad over-rely on AI without critique? What would I model differently tomorrow?
-- Which failure mode (hallucination, starvation, sycophancy, anchoring) did the room most struggle to see?
-- Who in the room was quieter than I'd like? How can I engineer tomorrow's triad interactions to pull them in?

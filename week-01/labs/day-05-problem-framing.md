@@ -1,6 +1,6 @@
 # Day 5 — Data-Driven Problem Framing
 
-> **Activity packet** for facilitators and participant triads. Day 5 is the integration day: every prior artifact of Week 1 funnels into a problem statement + evidence brief + 10-minute cohort readout.
+> **Activity packet for participant triads.** Day 5 is the integration day: every prior artifact of Week 1 funnels into a problem statement + evidence brief + 10-minute cohort readout.
 
 ## Prerequisite artifacts (must be brought in)
 
@@ -75,7 +75,7 @@ Each triad arrives with:
 Convert the Week-1 artifact stack (persona + Top 3 pains) into a single six-line problem statement an engineer could scope from.
 
 ### Setup
-Each triad has its Day 3 persona, Day 4 Top 3 pains, and the printed Problem Statement Template.
+Your triad has its Day 3 persona, Day 4 Top 3 pains, and the printed Problem Statement Template.
 
 ### Steps
 
@@ -109,13 +109,7 @@ A six-line problem statement per triad, evidence-tagged, that survives the failu
 Use AI to surface the questions a skeptical engineer would ask — then answer them honestly, including by adding to the Open questions list.
 
 ### Setup
-Each triad has its draft problem statement from Activity 1 and an AI assistant. Provide the pressure-test prompt below.
-
-### Steps
-
-1. **Run the prompt (10 min).** Paste in the problem statement and evidence log.
-2. **Answer what you can (25 min).** Tag each question green / yellow / red as described below.
-3. **Revise (10 min).** Update the problem statement and Evidence log based on answers.
+Your triad has its draft problem statement from Activity 1 and an AI assistant. Use the pressure-test prompt below.
 
 ### The prompt (from Day 1 library)
 
@@ -131,7 +125,7 @@ Format: Numbered list of questions, ranked.
 
 ### Protocol
 
-1. **Run the prompt (10 min).**
+1. **Run the prompt (10 min).** Paste in the problem statement and evidence log.
 2. **Answer what you can (25 min).** Go question by question.
    - Green: answered from existing evidence (note the source)
    - Yellow: answerable if we do X (add to Open questions)
@@ -155,7 +149,7 @@ A revised problem statement plus an updated Evidence log and an expanded Open qu
 Rehearse the 10-minute readout against another triad's stopwatch, and surface where intent and listener-summary diverge.
 
 ### Setup
-Pair each triad with another. Each triad needs a stopwatch (phone is fine) and a note-taker on the partner side.
+Pair with another triad. Each triad needs a stopwatch (phone is fine) and a note-taker on the partner side.
 
 ### Steps
 
@@ -202,12 +196,6 @@ A polished 10-minute readout plus a documented gap (intent vs. heard-summary) th
 
 Silent. Every audience member fills out a score sheet: rubric scores + 1 strength + 1 suggestion.
 
-### Facilitator timing
-
-- 6 triads = ~80 min readouts + 18 min between = **~98 min**. Budget 90 min and stay disciplined.
-- Random draw order (pull triad names from a hat or randomizer)
-- If running short, compress Q&A to 2 minutes — never the readout itself
-
 ### Score sheet template
 
 ```markdown
@@ -237,15 +225,6 @@ Each triad leaves the week with:
 - [x] Readout deck/visuals reusable on demand
 - [x] A ranked list of Open questions (input to Week 2 research)
 - [x] A clear sense of which evidence tiers need upgrading before Week 3 mini-capstone
-
-## Facilitator debrief (end of Friday, instructor only)
-
-Before you log off:
-
-1. Which triads seem **PRD-ready** for Week 3? Which need extra coaching during Week 2?
-2. Who was over-relying on AI by the end of the week vs. using it judiciously?
-3. Which triad surprised you — in either direction — and why?
-4. Three adjustments for Week 2 pacing based on what you saw today.
 
 ## Bridge to Week 2
 

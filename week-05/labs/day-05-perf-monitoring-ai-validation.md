@@ -1,6 +1,6 @@
 # Day 5 — Performance Baselines, Monitoring & Validating AI-Generated Data Summaries
 
-> **Activity packet** for facilitators and participant triads. Today's job: write **§5** of the TMD — performance baselines, monitoring plan, and AI-summary validation log. Then **assemble the full TMD**, peer-review it, and ship it as the sibling artifact to TCD and PRD.
+> **Activity packet** for participant triads. Today's job: write **§5** of the TMD — performance baselines, monitoring plan, and AI-summary validation log. Then **assemble the full TMD**, peer-review it, and ship it as the sibling artifact to TCD and PRD.
 
 ## Where we are in the week
 
@@ -342,16 +342,3 @@ Each triad ships:
 - [x] Cumulative AI-validation log across Weeks 1–5
 
 The TMD goes into Week 6 alongside the PRD and TCD. Week 6 (Stakeholder Alignment & Negotiation) **negotiates** the constraints documented across all three artifacts.
-
-## Facilitator wrap (15 min, end of week)
-
-- Read aloud one section per triad that the cohort should learn from.
-- Surface the **most common AI-validation gap** — coach the cohort to notice it next time.
-- Preview Week 6: the **stakeholder sign-off matrix** from TCD §6 becomes the negotiation list. Each triad picks 1–2 constraints to actively negotiate.
-
-## Facilitator reflection prompts (end of week)
-
-- Which triad's TMD reads like an engineer could pick it up and start coding? They are the Week-6 positive example.
-- Which triad's AI-validation log is most rigorous? Hold up — this discipline is the differentiator.
-- Did anyone over-engineer the monitoring plan with 20 alerts? Coach back to <5.
-- Did the cohort use AI as critic or as oracle this week? Strong indicator for Week 6 negotiation prep.

@@ -1,6 +1,6 @@
 # Day 2 — Capstone Discovery + Compressed PRD
 
-> **Activity packet** for facilitators and participant triads. Today's job: do compressed discovery on the capstone subject (the Week-1 muscles in 1 day) and produce **PRD-light** — a 2-page version that captures sections 1–7 with the same discipline as Week 3 in a fraction of the time.
+> **Activity packet** for participant triads. Today's job: do compressed discovery on the capstone subject (the Week-1 muscles in 1 day) and produce **PRD-light** — a 2-page version that captures sections 1–7 with the same discipline as Week 3 in a fraction of the time.
 
 ## Where we are in the week
 
@@ -227,10 +227,3 @@ Each triad ends Day 2 with:
 - [x] AI validation pass run on PRD-light
 - [x] Provenance log entry
 - [x] **Day-3 plan**: 3 architecture questions, integration sketch, critical path
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's persona is sharpest? Hold up Friday.
-- Did anyone produce a compressed PRD that's actually 5 pages? Coach to cut.
-- Did anyone treat compression as "less rigor"? Catch it: rigor stays; selectivity changes.
-- Did the AI assistance accelerate drafting or replace thinking? The latter is a risk; intervene.

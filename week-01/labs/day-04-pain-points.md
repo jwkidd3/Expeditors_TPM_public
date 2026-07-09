@@ -1,6 +1,6 @@
 # Day 4 — Identifying Pain Points
 
-> **Activity packet** for facilitators and participant triads. Day 4 produces a scored pain-point matrix and a rank-ordered Top 3 per triad.
+> **Activity packet for participant triads.** Day 4 produces a scored pain-point matrix and a rank-ordered Top 3 per triad.
 
 ## Prerequisite artifacts (from Day 3)
 
@@ -35,7 +35,7 @@ Provided as a printable 3×3 grid with color overlay. Severity (high/medium/low)
 Train the eye for real pain hiding in observed behavior, not just stated complaints.
 
 ### Setup
-Each triad receives a shuffled subset of the FieldPulse Pain Extraction Packet — tickets, ride-along notes, interview excerpts, and one analytics screenshot. No two triads should have the same full subset.
+Your triad receives a shuffled subset of the FieldPulse Pain Extraction Packet — tickets, ride-along notes, interview excerpts, and one analytics screenshot.
 
 ### Steps
 
@@ -69,9 +69,7 @@ A raw list of 15+ pain-point candidates, tagged with source.
 Take the raw pain list from Activity 1 and structure it: deepen with 5 Whys, then cluster via silent affinity mapping.
 
 ### Setup
-Each triad has its 15+ raw pains from Activity 1. They need wall space (or a whiteboard tool) for the silent sort.
-
-### Steps
+Your triad has its 15+ raw pains from Activity 1. You need wall space (or a whiteboard tool) for the silent sort.
 
 ### Step 1 — 5 Whys on 3 pains (20 min)
 
@@ -89,7 +87,7 @@ L3: <new pain>
 
 ### Step 2 — Silent sort (20 min)
 
-> **Enforce silence.** The facilitator should call the room silent for this block.
+> **Work in silence for this block.**
 
 1. Write each pain on a sticky note (or equivalent in your tool)
 2. In silence, each triad member places pains on the wall, grouping by affinity
@@ -116,7 +114,7 @@ Now speak. For each cluster:
 Place each promoted pain on the Severity × Frequency matrix and color-code by Addressability — surfacing pains we must engineer for and pains we must communicate about.
 
 ### Setup
-Each triad has 5–8 promoted pains and the printed 3×3 Severity × Frequency matrix.
+Your triad has 5–8 promoted pains and the printed 3×3 Severity × Frequency matrix.
 
 ### Steps
 
@@ -154,9 +152,7 @@ A completed matrix with all promoted pains placed and color-coded. "Must live wi
 Triads pick a Top 3, defend it under cross-triad challenge, and rank-order the final set for Friday's problem statement.
 
 ### Setup
-Pair each triad with another. Both triads bring their scored matrices.
-
-### Steps
+Pair with another triad. Both triads bring their scored matrices.
 
 ### Step 1 — Select Top 3 (within triad, 10 min)
 

@@ -1,6 +1,6 @@
 # Day 1 — AI Spec Development
 
-> **Activity packet** for facilitators and participant triads. Today's job: install the **AI Spec Development pattern** — a structured prompt sequence that produces an engineering-ready integrated technical spec from PRD/TCD/TMD inputs — and confirm the capstone subject.
+> **Activity packet** for participant triads. Today's job: install the **AI Spec Development pattern** — a structured prompt sequence that produces an engineering-ready integrated technical spec from PRD/TCD/TMD inputs — and confirm the capstone subject.
 
 ## Where we are in the week
 
@@ -297,10 +297,3 @@ Each triad ends Day 1 with:
 - [x] **Discovery inputs list** + distributed assignments
 - [x] **Risks** acknowledged with mitigations
 - [x] AI provenance log entry
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's capstone subject is sharpest? Hold up Friday.
-- Did anyone refuse to validate prompt outputs? Coach immediately — AI Spec without validation is fiction.
-- Did anyone pick a subject that failed the 5-question fit test and not adjust? Pre-coach tomorrow morning.
-- Did the practice run on FieldPulse produce a usable AI Spec? Reading skill is the test.

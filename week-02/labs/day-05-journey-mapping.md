@@ -1,6 +1,6 @@
 # Day 5 — Mapping Customer Journeys to Product Features
 
-> **Activity packet** for facilitators and participant triads. Today's job: convert the week's strategy work into a **customer journey map** with three prioritized feature concepts that feed directly into Monday's Week-3 PRD drafting.
+> **Activity packet for participant triads.** Today's job: convert the week's strategy work into a **customer journey map** with three prioritized feature concepts that feed directly into Monday's Week-3 PRD drafting.
 
 ## Where we are in the week
 
@@ -220,10 +220,3 @@ Each triad leaves the week with:
 - [x] **Three feature concepts** that pass friction + metric + principle test
 
 Every artifact is an input to **Week 3's PRD drafting**. Triads should leave the room with all six in shareable form.
-
-## Facilitator reflection prompts (end of week)
-
-- Which triad's package would survive an actual stakeholder review unedited? They should be a Week-3 example.
-- Which triad's package has the weakest causal chain (NS &harr; signals &harr; features)? They get coached first Monday.
-- Did the cohort meaningfully improve at AI use between Day 4 and the readouts? If not, examine your validation push — it may need to be louder Week 3.
-- The journey map non-product touchpoints — did they make it into any triad's map? Surface this Monday as the bridge to Week 4.

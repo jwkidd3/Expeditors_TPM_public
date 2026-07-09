@@ -1,6 +1,6 @@
 # Day 3 — Documenting Non-Functional Requirements
 
-> **Activity packet** for facilitators and participant triads. Today's job: write the NFR section that an engineer treats as a **contract for what could otherwise be hand-waved** — performance, security, accessibility, observability, compliance.
+> **Activity packet** for participant triads. Today's job: write the NFR section that an engineer treats as a **contract for what could otherwise be hand-waved** — performance, security, accessibility, observability, compliance.
 
 ## Where we are in the week
 
@@ -297,10 +297,3 @@ Each triad's PRD now has §7 with:
 - [x] Each NFR uses the four-part template (requirement / defense / verification / category)
 - [x] A "Known trade-offs" subsection
 - [x] An updated review-resolution note covering the Day 3 review
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's defenses were strongest? Hold up Friday as positive example.
-- Which triad has the most boilerplate? Coach privately tomorrow morning.
-- Did anyone skip Compliance? Probably yes. Surface tomorrow.
-- Did anyone use AI? Last day to course-correct.

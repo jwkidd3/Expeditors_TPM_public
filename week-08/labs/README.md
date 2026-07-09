@@ -84,14 +84,6 @@ Compression is the constraint. Every artifact must fit on **2 pages** or less. T
 
 Same triads from Weeks 1–7. The PRD authors → TCD authors → TMD authors → SEP authors → DP authors → AI-Spec authors → presenters.
 
-## Facilitator pre-flight checklist
-
-- [ ] Confirm every triad has a **declared capstone subject** by Monday morning.
-- [ ] Pre-print or share digitally: **AI Spec Template** (Day 1), **Capstone Compression Card** (template references), **Validation Checklist** (Day 4), **Presentation Rubric** (Day 5).
-- [ ] If any triad's subject is too thin (< a real feature) or too vague (no real customer signal), pre-coach Day 1 morning before they invest time.
-- [ ] Reserve presentation room + scoring sheets for Friday.
-- [ ] Coach yourself on the **most common Week 8 trap**: triads who try to redo all of Weeks 1–7 in compressed form. The discipline is **selective**: which muscles does this capstone need?
-
 ## Friday presentation rubric
 
 Each triad's 15-min presentation is scored on:
@@ -112,10 +104,3 @@ Each triad's 15-min presentation is scored on:
 - Each participant declares **two muscles to keep deepening** in their next role
 - Each participant declares **one habit to retire**
 - Cohort retrospective captures patterns for the next academy cohort
-
-## Facilitator final reflection prompts (end of week)
-
-- Which triad's transferability was strongest? Document the pattern; share with future cohorts.
-- Which Week-1–7 muscle was the cohort weakest at when stressed by the capstone? That's the highest-leverage deepening for next academy.
-- Did the AI Spec Development discipline hold under pressure? Or did triads regress to "just generate it"?
-- Did the post-assessments reflect the felt growth?

@@ -1,6 +1,6 @@
 # Day 2 — System Security & Compliance
 
-> **Activity packet** for facilitators and participant triads. Today's job: run a **STRIDE threat-model pass** at the architecture level, translate the results into **revised security and compliance NFRs**, and add §3 of the TCD.
+> **Activity packet** for your triad. Today's job: run a **STRIDE threat-model pass** at the architecture level, translate the results into **revised security and compliance NFRs**, and add §3 of the TCD.
 
 ## Where we are in the week
 
@@ -73,7 +73,7 @@ A TPM doesn't write the compliance program. A TPM **flags which frame applies** 
 **Format:** Triad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-Practice the STRIDE walk on a feature outside FieldPulse before applying it to the triad's PRD. Calibration first, application second.
+Practice the STRIDE walk on a feature outside FieldPulse before applying it to your PRD. Calibration first, application second.
 
 ### Setup
 Each triad needs the STRIDE letter card and blank paper for the data-flow sketch. AI optional and provenance-logged if used.
@@ -85,7 +85,7 @@ A **password-reset feature** for a generic B2C app:
 
 ### The STRIDE pass
 
-For each step in the flow, the triad answers each of the 6 STRIDE questions. They will **not** find a threat for every letter at every step — that's expected. What matters is that the question was asked.
+For each step in the flow, the triad answers each of the 6 STRIDE questions. You will **not** find a threat for every letter at every step — that's expected. What matters is that the question was asked.
 
 ### Triad protocol
 
@@ -108,10 +108,10 @@ A STRIDE walk on the password-reset flow with the top-5 threats culled, each nam
 **Format:** Triad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Apply the calibrated STRIDE pass to the triad's PRD feature.
+Apply the calibrated STRIDE pass to your triad's PRD feature.
 
 ### Setup
-Each triad needs the yesterday's integration table, the PRD §5 sketch, and the threat template. AI optional and provenance-logged.
+Each triad needs yesterday's integration table, the PRD §5 sketch, and the threat template. AI optional and provenance-logged.
 
 ### Triad protocol
 
@@ -261,10 +261,3 @@ Each triad ends Day 2 with:
 - [x] A 1-page **security brief** ready for a security-team conversation
 - [x] AI provenance note for any prompts used today
 - [x] TCD §3 drafted
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad caught the most subtle threat? Surface as a positive example.
-- Which triad's mitigations are most boilerplate? Coach tomorrow morning.
-- Did anyone skip Repudiation in their pass? Most do — check.
-- Did the cohort handle the AI re-introduction with discipline, or did they over-rely?

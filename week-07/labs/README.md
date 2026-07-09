@@ -82,13 +82,6 @@ removal. Each experiment: hypothesis, test, success criterion.
 
 Same triads from Weeks 1–6. PRD authors → TCD authors → TMD authors → SEP authors → DP authors.
 
-## Facilitator pre-flight checklist
-
-- [ ] Confirm every triad's PRD + TCD + TMD + SEP are accessible Monday morning.
-- [ ] **ADO access:** confirm every triad has access to a sandbox or live ADO project before Day 2. If not available, use a structured fallback (Trello / GitHub Projects / ADO read-only screenshots) and label the lab "ADO concepts" rather than hands-on.
-- [ ] Pre-print or share digitally: **Agile Manifesto Card** (Day 1), **ADO Cheat Sheet** (Day 2), **Tracking Plan Template** (Day 3), **VSM Canvas** (Day 4), **Bottleneck Experiment Card** (Day 5).
-- [ ] Coach yourself on the **most common Week 7 trap**: triads who treat the backlog as the deliverable. The deliverable is **shipped outcomes**; the backlog is plumbing.
-
 ## Friday review rubric (DP)
 
 | Dimension | Weight | What "exemplary" looks like |

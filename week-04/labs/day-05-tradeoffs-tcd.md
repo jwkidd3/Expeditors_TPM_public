@@ -1,6 +1,6 @@
 # Day 5 — Technical Trade-Offs & Constraints (TCD Assembly + Review)
 
-> **Activity packet** for facilitators and participant triads. Today's job: name the **top 5 trade-offs** in your architecture (TCD §5), build the **stakeholder sign-off matrix** (TCD §6), assemble the integrated TCD, peer-review it, and ship it as the sibling artifact to your PRD.
+> **Activity packet** for your triad. Today's job: name the **top 5 trade-offs** in your architecture (TCD §5), build the **stakeholder sign-off matrix** (TCD §6), assemble the integrated TCD, peer-review it, and ship it as the sibling artifact to your PRD.
 
 ## Where we are in the week
 
@@ -281,16 +281,3 @@ Each triad ships:
 - [x] AI provenance log for all AI-assisted sections
 
 The TCD goes into Week 5 alongside the PRD. Week 5 (Technical Infrastructure & Modeling) uses the TCD's component map for data modeling, the SLOs for performance baselines, and the threat model for encryption / key-management decisions.
-
-## Facilitator wrap (15 min, end of day)
-
-- Read aloud one trade-off from each triad's TCD that the cohort should learn from.
-- Surface the **most common pattern of trade-off avoidance** the cohort exhibited (this is a Week 5 + 6 coaching theme).
-- Preview Week 5: TCD becomes the spine. Data modeling will reference §2; performance baselines will reference §4; APIs will reference §3 (auth) and §4 (rate limits).
-
-## Facilitator reflection prompts (end of week)
-
-- Which triad's TCD reads like an architect could pick it up? They are the Week-5 positive example.
-- Which triad's stakeholder matrix is the weakest? Coach individually before Week 5.
-- Did any triad over-specify and accidentally make architectural decisions? Coach toward "surface trade-offs, don't decide."
-- AI use this week: was the discipline maintained? If not, surface for the cohort.

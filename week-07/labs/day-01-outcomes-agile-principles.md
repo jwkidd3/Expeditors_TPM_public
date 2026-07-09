@@ -1,6 +1,6 @@
 # Day 1 — Product Delivery Outcomes + Agile Manifesto & Principles
 
-> **Activity packet** for facilitators and participant triads. Today's job: name the **outcomes** the feature is meant to produce (not the outputs), and use the **Agile Manifesto values** as a decision-making aid for real product trade-offs.
+> **Activity packet** for participant triads. Today's job: name the **outcomes** the feature is meant to produce (not the outputs), and use the **Agile Manifesto values** as a decision-making aid for real product trade-offs.
 
 ## Where we are in the week
 
@@ -64,7 +64,7 @@ The 12 Principles deepen the four values. We highlight 6 most relevant for TPM w
 5. **Continuous attention to technical excellence and good design** — speed without quality is cowardice.
 6. **Self-organizing teams produce the best results** — top-down task assignment is a smell.
 
-The 6 we de-emphasize aren't wrong; they're harder for a junior TPM to drive directly. (See Wrap.)
+The 6 we de-emphasize aren't wrong; they're harder for a junior TPM to drive directly.
 
 ---
 
@@ -258,10 +258,3 @@ Each triad ends Day 1 with:
 - [x] Cross-reviewed
 - [x] AI provenance entry
 - [x] DP §1 drafted
-
-## Facilitator reflection prompts (end of day)
-
-- Which triad's primary outcome was sharpest? Hold up Friday.
-- Did anyone list "ship the feature" as the primary outcome? Coach back.
-- Did the Manifesto discussions stay grounded or drift to ceremony talk? Steer toward decisions, not vocabulary.
-- Did anyone over-list supporting outcomes (8+)? Cull tomorrow before ADO loading.
