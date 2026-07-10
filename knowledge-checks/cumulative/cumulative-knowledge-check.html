@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>cumulative-knowledge-check</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+    @page { size: letter; margin: 0.7in 0.75in; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: #1a202c; font-size: 11.5px; line-height: 1.5; max-width: none; margin: 0;
+    }
+    h1 {
+      font-size: 22px; color: #fff; margin: 0 0 18px;
+      background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+      padding: 18px 22px; border-radius: 9px;
+    }
+    h2 {
+      font-size: 16px; color: #1a365d; margin: 22px 0 8px;
+      border-bottom: 2px solid #2b6cb0; padding-bottom: 4px;
+    }
+    h3 { font-size: 13.5px; color: #2f855a; margin: 16px 0 5px; }
+    h4 { font-size: 12px; color: #2b6cb0; margin: 12px 0 4px; }
+    p { margin: 6px 0; }
+    ul, ol { margin: 6px 0 6px 4px; padding-left: 20px; }
+    li { margin: 2px 0; }
+    strong { color: #1a365d; }
+    a { color: #2b6cb0; text-decoration: none; }
+    code {
+      background: #f0f4f8; padding: 1px 5px; border-radius: 3px;
+      font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 10.5px; color: #2d3748;
+    }
+    pre {
+      background: #1a202c; color: #e2e8f0; padding: 12px 14px; border-radius: 7px;
+      overflow-x: auto; font-size: 10px; line-height: 1.45; break-inside: avoid;
+    }
+    pre code { background: none; color: inherit; padding: 0; }
+    table {
+      width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 10.5px;
+      break-inside: avoid;
+    }
+    th {
+      background: linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%); color: #fff;
+      text-align: left; padding: 7px 10px; font-size: 10px; text-transform: uppercase;
+      letter-spacing: .03em;
+    }
+    td { padding: 6px 10px; border-top: 1px solid #e2e8f0; vertical-align: top; }
+    tr:nth-child(even) td { background: #f7fafc; }
+    blockquote {
+      margin: 10px 0; padding: 8px 14px; background: #f0f4f8;
+      border-left: 4px solid #2b6cb0; color: #2d3748; border-radius: 0 4px 4px 0;
+    }
+    blockquote p { margin: 3px 0; }
+    h2, h3, h4 { break-after: avoid; }
+    hr { border: none; border-top: 1px solid #cbd5e0; margin: 18px 0; }
+  </style>
+</head>
+<body>
+<h1
+id="cumulative-knowledge-check--the-artifact-chain-end-to-end">Cumulative
+Knowledge Check — The Artifact Chain (End-to-End)</h1>
+<blockquote>
+<p>A capstone-week check that tests the course as a <em>system</em>, not
+week by week. Every question is about how the artifacts connect — what
+feeds what, what must stay consistent across documents, and what each
+artifact is <em>for</em>. If you can answer these, you understand why
+the eight weeks are one arc, not eight topics.</p>
+</blockquote>
+<p><strong>Format:</strong> 16 questions (multiple choice + true/false).
+~25 minutes. Individual or triad. Aim for the <em>relationships
+between</em> artifacts, not trivia inside one.</p>
+<hr />
+<h2 id="the-chain-for-reference">The chain, for reference</h2>
+<p><strong>Discovery</strong> (persona → pain → problem statement, W1) +
+<strong>metrics</strong> (North Star, W2) → <strong>PRD</strong> (W3) →
+<strong>TCD</strong> (W4) → <strong>TMD</strong> (W5) →
+<strong>SEP</strong> (W6) → <strong>DP</strong> (W7) → <strong>AI
+Spec</strong> (W8, integrates them all).</p>
+<hr />
+<h2 id="questions">Questions</h2>
+<p><strong>1. (MC)</strong> Which sequence correctly orders the core
+artifacts by when they're built?</p>
+<ul>
+<li>A) PRD → TMD → TCD → DP → SEP → AI Spec</li>
+<li>B) PRD → TCD → TMD → SEP → DP → AI Spec</li>
+<li>C) TCD → PRD → TMD → DP → SEP → AI Spec</li>
+<li>D) PRD → TCD → SEP → TMD → DP → AI Spec</li>
+</ul>
+<p><strong>2. (MC)</strong> Each artifact answers a different question.
+Which pairing is <strong>wrong</strong>?</p>
+<ul>
+<li>A) PRD — "What are we building, and why?"</li>
+<li>B) TCD — "Is it technically sound, and what are the
+trade-offs?"</li>
+<li>C) TMD — "Who do we need to align, and how?"</li>
+<li>D) DP — "How do we deliver it, and how do we know it's
+working?"</li>
+</ul>
+<p><strong>3. (T/F)</strong> The Week-1 persona and problem statement
+are just warm-up exercises — once the PRD exists, they stop
+mattering.</p>
+<p><strong>4. (MC)</strong> The North Star metric (Week 2) reappears
+later in the chain as:</p>
+<ul>
+<li>A) An acceptance criterion in the PRD</li>
+<li>B) An SLO in the TCD</li>
+<li>C) The outcome the Delivery Plan is trying to move</li>
+<li>D) A sequence diagram in the TMD</li>
+</ul>
+<p><strong>5. (MC)</strong> A PRD <strong>acceptance criterion</strong>
+most directly drives the content of which later artifact?</p>
+<ul>
+<li>A) The SEP stakeholder map</li>
+<li>B) The TMD sequence diagrams (happy / sad / weird paths)</li>
+<li>C) The TCD compliance frame</li>
+<li>D) The DP value-stream map</li>
+</ul>
+<p><strong>6. (T/F)</strong> An SLO defined in the TCD but with no
+corresponding monitoring/alert plan in the TMD is an unverifiable target
+— you've promised something you can't observe.</p>
+<p><strong>7. (MC)</strong> In the Week-8 cross-artifact validation, a
+triad finds their TMD reconcile sequence sums to ~800 ms but the TCD SLO
+says p95 ≤ 500 ms. This is:</p>
+<ul>
+<li>A) Fine — the SLO and the sequence are different documents</li>
+<li>B) A real inconsistency: the design can't meet its own stated
+target, and one has to change</li>
+<li>C) Only a problem if a customer complains</li>
+<li>D) Expected; sequences are always slower than SLOs</li>
+</ul>
+<p><strong>8. (T/F)</strong> Evidence tiers (Observed / Reported /
+Inferred / AI-generated) are a Week-1 discovery tool only; by the time
+you're writing the TCD and TMD, everything is just "technical fact."</p>
+<p><strong>9. (MC)</strong> A claim in the AI Spec reads "see the TCD
+for the rate-limit design." Why does this fail the validation
+discipline?</p>
+<ul>
+<li>A) The AI Spec shouldn't reference other artifacts</li>
+<li>B) Cross-references must be <strong>specific</strong> (cite the §)
+and verified — a vague pointer means the writer didn't actually
+check</li>
+<li>C) Rate limits belong in the TMD, not the TCD</li>
+<li>D) It doesn't fail — that's a valid reference</li>
+</ul>
+<p><strong>10. (MC)</strong> What is the SEP's main job in protecting
+the artifact set?</p>
+<ul>
+<li>A) To make the architecture faster</li>
+<li>B) To keep a technically-sound spec from being blocked by unaligned
+stakeholders</li>
+<li>C) To replace the PRD's scope section</li>
+<li>D) To define the data model</li>
+</ul>
+<p><strong>11. (MC)</strong> "Outcome vs output" — which item is an
+<strong>outcome</strong> the DP would track (not an output)?</p>
+<ul>
+<li>A) Shipped the reconcile flow on July 15</li>
+<li>B) Closed all 23 stories in the sprint</li>
+<li>C) Median nightly close time dropped from 45 min to under 10</li>
+<li>D) Hired three engineers</li>
+</ul>
+<p><strong>12. (T/F)</strong> "Compression" in the Week-8
+<code>-light</code> artifacts means dropping whole sections to save
+time.</p>
+<p><strong>13. (MC)</strong> A TCD §5 trade-off reads "We chose Postgres
+because Postgres is better." Why is this not yet a real trade-off?</p>
+<ul>
+<li>A) Postgres is the wrong choice</li>
+<li>B) A trade-off needs the rejected option, the accepted cost, and a
+revisit trigger — not just a justified pick</li>
+<li>C) Trade-offs belong in the TMD</li>
+<li>D) It's fine as written</li>
+</ul>
+<p><strong>14. (T/F)</strong> The single evaluation bar for the PRD —
+"an engineering lead could scope from it without a clarifying call" — is
+the same standard, in spirit, that every downstream artifact is held to:
+self-sufficient and unambiguous.</p>
+<p><strong>15. (MC)</strong> What is the AI Spec's role in the chain
+(Week 8)?</p>
+<ul>
+<li>A) To replace the PRD/TCD/TMD with a single AI-written document</li>
+<li>B) To integrate the artifact set into one engineering-ready spec,
+drafted with AI and <strong>validated section by section</strong></li>
+<li>C) To let AI make the product decisions the triad couldn't</li>
+<li>D) To summarize the artifacts for executives</li>
+</ul>
+<p><strong>16. (T/F)</strong> The reason the eight weeks form one chain
+is traceability: a line in the AI Spec should trace back — through the
+TMD, TCD, and PRD — to a real customer problem tagged with real
+evidence.</p>
+<hr />
+<h1 id="answer-key">Answer Key</h1>
+<p><strong>1. B</strong> — PRD → TCD → TMD → SEP → DP → AI Spec.
+Requirements first, then how it's built soundly (TCD), then
+data/API/sequences (TMD), then who to align (SEP), then how to deliver
+(DP), then the integrated spec (AI Spec).</p>
+<p><strong>2. C</strong> — TMD is the <strong>Technical Modeling
+Document</strong> (data model, cloud, APIs, sequences, monitoring). "Who
+do we align, and how?" is the <strong>SEP</strong>. The other three
+pairings are correct.</p>
+<p><strong>3. False</strong> — The persona and problem statement are the
+<em>root</em> of the chain. Every downstream artifact traces back to
+them; if they're wrong, the whole spec is confidently building the wrong
+thing.</p>
+<p><strong>4. C</strong> — The North Star is the
+<strong>outcome</strong> the Delivery Plan tracks. Outputs (shipped,
+stories closed) are not the North Star; the DP watches whether the
+customer outcome actually moved.</p>
+<p><strong>5. B</strong> — Acceptance criteria define the behaviors the
+system must exhibit, which the <strong>TMD sequence diagrams</strong>
+(happy / sad / weird paths) model. The Week-8 validation explicitly
+checks that every AC has a corresponding sequence.</p>
+<p><strong>6. True</strong> — An SLO you can't measure isn't an
+objective, it's a wish. The TCD sets the target; the TMD's monitoring
+plan makes it observable. No monitoring = unverifiable.</p>
+<p><strong>7. B</strong> — This is exactly what the cross-artifact
+validation exists to catch: the design (TMD) can't meet the target it
+set for itself (TCD). One must change — tighten the sequence or
+relax/revise the SLO — before it ships.</p>
+<p><strong>8. False</strong> — Evidence tiers run through the
+<strong>whole</strong> chain. A TCD trade-off, a TMD cost estimate, an
+AI-Spec claim — each still carries a tier. "We think" vs "we measured"
+matters just as much in the technical artifacts.</p>
+<p><strong>9. B</strong> — Cross-references must cite the specific
+section and be verified. "See the TCD" without a § is the tell that the
+writer never actually checked the two documents agree — the opposite of
+integration.</p>
+<p><strong>10. B</strong> — A spec can be technically flawless and still
+die if the Ops VP, Compliance, or Eng lead block it. The SEP de-risks
+<em>alignment</em>, which is a different failure mode from
+<em>soundness</em>.</p>
+<p><strong>11. C</strong> — Close time dropping is a <strong>change for
+the user</strong> (outcome). Shipping, closing stories, and hiring are
+all things the team <em>did</em> (outputs). The DP tracks the former and
+guards against gaming it.</p>
+<p><strong>12. False</strong> — Compression is
+<strong>selective</strong>, not lossy: keep what's load-bearing, cut
+what's cosmetic. A <code>-light</code> artifact is shorter, not weaker —
+the discipline is knowing <em>what</em> to cut.</p>
+<p><strong>13. B</strong> — A justified pick isn't a trade-off. The
+mature form names the rejected option, the cost you're accepting, and
+the trigger that would make you revisit — otherwise there's no real
+tension being managed.</p>
+<p><strong>14. True</strong> — "Self-sufficient enough that the reader
+can act without a clarifying call" is the through-line standard: the PRD
+for an engineer, the SEP for a stakeholder, the AI Spec for the whole
+build.</p>
+<p><strong>15. B</strong> — The AI Spec <strong>integrates</strong> the
+set into one engineering-ready spec, drafted fast with AI but validated
+section by section. AI accelerates the typing; the triad's judgment (and
+the validation chain) keeps it honest.</p>
+<p><strong>16. True</strong> — Traceability is the point. If a line in
+the AI Spec can't be walked back to a real, evidence-tagged customer
+problem, it's ungrounded — the same failure the whole course is built to
+prevent, just at the end of the chain instead of the start.</p>
+</body>
+</html>
