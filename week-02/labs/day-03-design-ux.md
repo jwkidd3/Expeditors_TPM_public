@@ -55,7 +55,7 @@ Each triad uses the **same** product (we recommend a B2B SaaS the cohort doesn't
 ### The protocol
 
 1. Each triad member silently captures **3 heuristic violations** (5 min)
-2. Triad pools and de-dupes (10 min)
+2. Triad pools and de-dupes (15 min)
 3. Triad picks the **single most painful** violation and the **single most subtle** one (10 min)
 4. Prepare a 60-second readout (5 min)
 

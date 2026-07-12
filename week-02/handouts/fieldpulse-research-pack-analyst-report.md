@@ -8,13 +8,13 @@
 
 ### Field Service Management Software for the Skilled Trades — Market Note
 
-*Vertical: HVAC / Plumbing / Electrical · Segment focus: mid-market shops (50–250 technicians) · This note is excerpted and anonymized for training use. Fictional. Do not cite externally.*
+*Vertical: HVAC / Plumbing / Electrical · Segment focus: mid-market shops (50–200 technicians) · This note is excerpted and anonymized for training use. Fictional. Do not cite externally.*
 
 ---
 
 ### 1. Executive framing
 
-Field service management (FSM) software for the residential and light-commercial trades has moved from "digitize the paper schedule" to "run the whole revenue cycle from dispatch to invoice." Buyers in the 50–250-technician band are the most contested part of the market: large enough to feel the cost of manual reconciliation, small enough that a botched rollout can stall for a year.
+Field service management (FSM) software for the residential and light-commercial trades has moved from "digitize the paper schedule" to "run the whole revenue cycle from dispatch to invoice." Buyers in the 50–200-technician band are the most contested part of the market: large enough to feel the cost of manual reconciliation, small enough that a botched rollout can stall for a year.
 
 Meridian's conversations with operators this cycle surface one recurring theme: **the office-to-field-and-back handoff is where mid-market shops lose money**, and most tools still treat close-out as an afterthought bolted onto scheduling. Vendors that win the next cycle will be the ones that make end-of-day close-out fast, trustworthy, and hard to abandon.
 
@@ -66,7 +66,7 @@ Operators in this band typically re-evaluate their FSM tool when one of the foll
 - What is the true dollar cost of reconciliation lag, measured rather than modeled, in a specific shop?
 - How much of the "field revolt" is signal coverage vs. app UX vs. habit?
 - Do close-out-speed claims from vendors hold up in an independent test?
-- What share of the 50–250-tech band any single vendor actually holds?
+- What share of the 50–200-tech band any single vendor actually holds?
 
 ---
 

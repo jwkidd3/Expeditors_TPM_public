@@ -17,7 +17,7 @@ Triads end the day with an **AI-Assembled Strategy Brief** that integrates every
     - 14 support tickets (already used Day 4 of Week 1)
     - 1 industry analyst report (5 pages)
     - 2 competitor product tour transcripts
-    - 1 internal "voice of customer" Slack export (50 messages)
+    - 1 internal "voice of customer" Slack export (33 messages)
 
 The Research Pack is realistic: noisy, redundant, partly contradictory. That's the point.
 

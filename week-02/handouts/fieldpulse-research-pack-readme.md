@@ -1,6 +1,6 @@
 # FieldPulse Research Pack
 
-> **Day 4 · Activities 2–3 handout (index).** The real, noisy secondary-research corpus your triad synthesizes into the Strategy Brief. Six documents, deliberately redundant, partly contradictory, and un-scored. That noise is the point — your job is to extract signal and cite it.
+> **Day 4 · Activities 2–3 handout (index).** The real, noisy secondary-research corpus your triad synthesizes into the Strategy Brief. Six files — five content documents plus this index — deliberately redundant, partly contradictory, and un-scored. That noise is the point — your job is to extract signal and cite it.
 
 ## What's in the pack
 

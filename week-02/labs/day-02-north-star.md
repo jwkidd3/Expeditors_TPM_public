@@ -137,7 +137,7 @@ Each triad takes turns being the **defender** and the **challenger**.
 
 ### The two persona scripts (challengers can extend or paraphrase)
 
-**CEO Maria (FieldPulse):**
+**CEO Dana (FieldPulse):**
 > "I have eight squads competing for engineering budget. Sell me on why your NS is the one I should care about for the next 12 months. What if it goes up 20%? What does that earn the company?"
 
 **Dispatcher Maria (FieldPulse):**

@@ -1,6 +1,6 @@
 # FieldPulse Research Pack — Voice-of-Customer Slack Export
 
-> **Day 4 · Research Pack (5 of 6).** An export of ~50 messages from FieldPulse's internal `#voice-of-customer` channel, where CS, sales, and support relay what they hear from customers. This is second-hand, unstructured, and contradictory — a mix of **Reported** (a customer said) and **Inferred** (an employee's read). Cite by channel + date. Do not treat a colleague's opinion as a customer fact.
+> **Day 4 · Research Pack (5 of 6).** An export of ~33 messages from FieldPulse's internal `#voice-of-customer` channel, where CS, sales, and support relay what they hear from customers. This is second-hand, unstructured, and contradictory — a mix of **Reported** (a customer said) and **Inferred** (an employee's read). Cite by channel + date. Do not treat a colleague's opinion as a customer fact.
 
 *Anonymized: employee names replaced with roles; customer/shop identifiers removed. Threading flattened to a running log. Fictional, for training.*
 

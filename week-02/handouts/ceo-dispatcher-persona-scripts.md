@@ -6,7 +6,7 @@ The challenger plays each role for about 4 minutes. The defender records the str
 
 ---
 
-## CEO Maria (FieldPulse)
+## CEO Dana (FieldPulse)
 
 Probe whether the NS will move the company forward, scale, and survive a board review.
 
