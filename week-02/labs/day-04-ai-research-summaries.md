@@ -37,7 +37,7 @@ Each triad ends the day with a 2–3 page **AI-Assembled Strategy Brief**. The t
 ## Top 5 user pain themes (AI-summarized, evidence-tagged)
 For each theme:
 - **Theme:** <verb-based statement>
-- **Evidence:** <source citations, e.g., "Interviews 1, 3; Tickets #4 #11; Slack thread 2025-09-12">
+- **Evidence:** <source citations, e.g., "Interview A3, C2; Tickets T-04, T-11; #voice-of-customer 2025-09-12">
 - **Confidence:** H / M / L
 - **AI-generated?** Y/N (if Y: which prompt + what we did to validate)
 
@@ -129,8 +129,6 @@ Use AI to do the most defensible part of competitive research: **structuring** i
 ### Setup
 Each triad has the competitor materials from the Research Pack (2 product tour transcripts + public pricing pages) and AI assistant access.
 
-### Steps
-
 ### The bright line
 
 > AI can summarize and structure source material you provide. AI cannot tell you what your competitors actually do.
@@ -181,8 +179,6 @@ Stitch the day's outputs into a single strategy brief, write the executive summa
 
 ### Setup
 Each triad has all the day's outputs visible: warm-up diagnosis, 5 pain themes, Competitive Snapshot. Brief template is open in the triad's preferred tool.
-
-### Steps
 
 ### Triad protocol
 

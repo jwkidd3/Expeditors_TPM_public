@@ -12,7 +12,7 @@
 ## Top 5 user pain themes (AI-summarized, evidence-tagged)
 For each theme:
 - **Theme:** <verb-based statement>
-- **Evidence:** <source citations, e.g., "Interviews 1, 3; Tickets #4 #11; Slack thread 2025-09-12">
+- **Evidence:** <source citations, e.g., "Interview A3, C2; Tickets T-04, T-11; #voice-of-customer 2025-09-12">
 - **Confidence:** H / M / L
 - **AI-generated?** Y/N (if Y: which prompt + what we did to validate)
 

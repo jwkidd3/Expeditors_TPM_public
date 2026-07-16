@@ -16,7 +16,7 @@
 
 When you tag evidence in the Strategy Brief, name the document and the locator so any citation can be checked against source:
 
-- Interviews → interviewee + quote number (e.g., "Interview — Maria R., Q3")
+- Interviews → interviewee + quote ID (e.g., "Interview — Maria R., A3")
 - Tickets → ticket ID (e.g., "Ticket T-03")
 - Analyst report → section heading
 - Competitor tours → competitor + timestamp
