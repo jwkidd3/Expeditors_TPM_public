@@ -710,7 +710,9 @@ The discipline: every field must trace back to a query that uses it. Surprise co
 ---
 
 <h2>📝 The Entity Template</h2>
-<pre><code class="language-text">## Entity: <Name>
+
+```text
+## Entity: <Name>
 
 | Field | Type | Notes |
 |-------|------|-------|
@@ -726,7 +728,9 @@ The discipline: every field must trace back to a query that uses it. Surprise co
 
 **Notes / invariants:**
 - A reconcile_event is immutable once created.
-- ticket.status ∈ {open, reconciled, voided}.</code></pre>
+- ticket.status ∈ {open, reconciled, voided}.
+```
+
 <div class="key-point">
 <strong>Indexes reference access patterns by number.</strong> "Index for query #4" beats "useful index."
 </div>
@@ -737,7 +741,9 @@ If a triad lists indexes without referencing patterns, they're guessing.
 ---
 
 <h2>📝 Worked Entity (FieldPulse)</h2>
-<pre><code class="language-text">## Entity: ReconcileEvent
+
+```text
+## Entity: ReconcileEvent
 
 | Field | Type | Notes |
 |-------|------|-------|
@@ -758,7 +764,8 @@ If a triad lists indexes without referencing patterns, they're guessing.
 
 **Invariants:**
 - Immutable: never UPDATE'd after INSERT
-- ticket_ids is denormalized (see trade-off #2)</code></pre>
+- ticket_ids is denormalized (see trade-off #2)
+```
 
 Note:
 Note signature_hash + R-threat reference — TCD §3 (Day 2 of Week 4) STRIDE work pays off.

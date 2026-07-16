@@ -735,7 +735,9 @@ The error-budget consequence is what makes SLOs real. Without it, they're just n
 ---
 
 <h2>📝 Worked SLOs (FieldPulse reconcile)</h2>
-<pre><code class="language-text">### SLO — Latency
+
+```text
+### SLO — Latency
 **Measurement:** Reconcile modal open time, mobile client.
 **Target:** p95 ≤ 1000ms, 99% over 30 days.
 **Defense:** Dispatchers tap reconcile 30+ times/shift; > 1s
@@ -760,7 +762,8 @@ we freeze new feature merges and prioritize reliability.
 implements exponential backoff with jitter.
 **Defense:** Protects against runaway script bug seen in the
 2024 dispatcher-tool incident.
-**Verification:** Load test before launch; rate-limit cap dashboard.</code></pre>
+**Verification:** Load test before launch; rate-limit cap dashboard.
+```
 
 Note:
 Note the budget consequence — "we freeze feature merges" — that's what makes it real.
