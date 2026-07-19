@@ -633,19 +633,19 @@ Today: tie data + cloud + API together. Sequence diagrams for happy / sad / weir
 <li class="fragment fade-up">Draw a <strong>happy-path sequence</strong> with lifelines, protocols, latencies</li>
 <li class="fragment fade-up">Draw a <strong>sad-path sequence</strong> showing user-visible recovery</li>
 <li class="fragment fade-up">Draw a <strong>weird-path sequence</strong> with named invariant</li>
-<li class="fragment fade-up">Verify total latency annotation matches <strong>TCD §4 SLO budget</strong></li>
+<li class="fragment fade-up">Verify total latency annotation matches <strong>TCD Section 4 SLO budget</strong></li>
 <li class="fragment fade-up">Cross-review with another triad and use AI to surface gaps</li>
 </ul>
 
 Note:
-By 16:00, every triad has TMD §4 with three sequence diagrams.
+By 16:00, every triad has TMD Section 4 with three sequence diagrams.
 
 ---
 
 <h2>🕑 Today's Shape</h2>
 <table>
 <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
-<tr><td>09:00 – 09:15</td><td>Opening</td><td>Pin TMD §§1–3; whiteboards out</td></tr>
+<tr><td>09:00 – 09:15</td><td>Opening</td><td>Pin TMD Sections 1–3; whiteboards out</td></tr>
 <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>Happy-path sequence</td></tr>
 <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>Sad-path sequence</td></tr>
 <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>Weird-path sequence</td></tr>
@@ -711,7 +711,7 @@ Triads who try to draw "the whole system" in one sequence diagram drown. Coach t
 
 ---
 
-<h2>📚 Three Sequences in TMD §4</h2>
+<h2>📚 Three Sequences in TMD Section 4</h2>
 <ol>
 <li class="fragment fade-up"><strong>Happy path</strong> — central success case (full detail)</li>
 <li class="fragment fade-up"><strong>Sad path</strong> — most common user/system error (abbreviated)</li>
@@ -750,15 +750,15 @@ If audit publish is missing, surface — common compliance miss.
 <h3>Where the user goes wrong; how we recover gracefully</h3>
 
 Note:
-Sad paths come from PRD §6 — validation, permission, state conflict are the usual three. Mark the divergence point clearly; that's where review attention belongs.
+Sad paths come from PRD Section 6 — validation, permission, state conflict are the usual three. Mark the divergence point clearly; that's where review attention belongs.
 
 ---
 
 <h2>📝 Sad Path Discipline</h2>
 <ul>
-<li class="fragment fade-up">Pick from PRD §6 sad-path AC</li>
+<li class="fragment fade-up">Pick from PRD Section 6 sad-path AC</li>
 <li class="fragment fade-up">Show the <strong>divergence point</strong> — the arrow where it goes differently</li>
-<li class="fragment fade-up">Show the <strong>status code + error body</strong> from §3</li>
+<li class="fragment fade-up">Show the <strong>status code + error body</strong> from Section 3</li>
 <li class="fragment fade-up">Show the <strong>user's recovery action</strong></li>
 </ul>
 <div class="highlight-box success">
@@ -800,7 +800,7 @@ A weird path without a named invariant isn't designed — it's hoped. Push triad
 
 <h2>📝 Weird Path Discipline</h2>
 <ul>
-<li class="fragment fade-up">Pick from PRD §6 weird-path AC</li>
+<li class="fragment fade-up">Pick from PRD Section 6 weird-path AC</li>
 <li class="fragment fade-up">Show <strong>retry / idempotency / fallback</strong> mechanics</li>
 <li class="fragment fade-up"><strong>Name the invariant</strong> — the promise we keep even here</li>
 </ul>
@@ -870,7 +870,7 @@ Cross-review surfaces protocol inconsistencies and missing arrows. AI critique w
 
 <h2>🔎 Cross-Review Questions</h2>
 <ol>
-<li class="fragment fade-up"><strong>Happy path:</strong> does latency add up? Protocols consistent with §3?</li>
+<li class="fragment fade-up"><strong>Happy path:</strong> does latency add up? Protocols consistent with Section 3?</li>
 <li class="fragment fade-up"><strong>Sad path:</strong> does the user have a clear recovery action?</li>
 <li class="fragment fade-up"><strong>Weird path:</strong> is an invariant named? Is the recovery actually safe?</li>
 </ol>
@@ -880,7 +880,7 @@ Three questions, three diagrams. The reviewer doesn't need to know every detail;
 
 ---
 
-<h2>🧿 AI Critique Prompt</h2>
+<h2>🤖 AI Critique Prompt</h2>
 <pre><code class="language-text">Role: Engineering reviewer with strong sequence-diagram instincts.
 Context: <plain-text descriptions of the three sequence diagrams,
 including all lifelines, arrows, protocols, latencies,
@@ -907,7 +907,7 @@ Add to Pattern Library. The "ranked by importance" frame is reusable.
 <li>20 min: cross-review with 3 questions</li>
 <li>10 min: AI critique</li>
 <li>10 min: adopt / defer / reject</li>
-<li>5 min: update §4 + provenance</li>
+<li>5 min: update Section 4 + provenance</li>
 </ul>
 <div class="timebox">⏱ 20 + 10 + 10 + 5 · 15-min wrap</div>
 
@@ -925,7 +925,7 @@ Wrap-share: 1 invariant proudest, 1 AI-surfaced arrow, 1 question diagrams could
 <li>Sad-path sequence (with recovery)</li>
 <li>Weird-path sequence (with invariant)</li>
 <li>Cross-reviewed + AI-critiqued</li>
-<li>TMD §4 drafted</li>
+<li>TMD Section 4 drafted</li>
 </ul>
 </div>
 <div class="card">
@@ -938,7 +938,7 @@ Wrap-share: 1 invariant proudest, 1 AI-surfaced arrow, 1 question diagrams could
 </div>
 </div>
 <div class="highlight-box success">
-<strong>Bring to Day 5:</strong> TMD §§1–4. Friday adds §5 and assembles the full TMD.
+<strong>Bring to Day 5:</strong> TMD Sections 1–4. Friday adds Section 5 and assembles the full TMD.
 </div>
 
 Note:

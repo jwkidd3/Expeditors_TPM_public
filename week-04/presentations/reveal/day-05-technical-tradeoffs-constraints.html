@@ -624,7 +624,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </div>
 
 Note:
-Friday. The TCD ships today, sibling to the PRD. Today produces §§5–6 + the integration pass.
+Friday. The TCD ships today, sibling to the PRD. Today produces Sections 5–6 + the integration pass.
 
 ---
 
@@ -633,7 +633,7 @@ Friday. The TCD ships today, sibling to the PRD. Today produces §§5–6 + the 
 <li class="fragment fade-up">Identify and write the <strong>top 5 trade-offs</strong> — Option A vs B, choice, cost, revisit trigger</li>
 <li class="fragment fade-up">Cover at least <strong>3 categories</strong>: coupling vs independence, consistency vs availability, latency vs durability, speed vs robustness, generality vs simplicity</li>
 <li class="fragment fade-up">Build the <strong>stakeholder sign-off matrix</strong> with real names</li>
-<li class="fragment fade-up">Run an <strong>integration pass</strong> across §§1–6</li>
+<li class="fragment fade-up">Run an <strong>integration pass</strong> across Sections 1–6</li>
 <li class="fragment fade-up">Cross-review with another triad and ship the TCD as a sibling to the PRD</li>
 </ul>
 
@@ -645,7 +645,7 @@ By 16:00, the TCD is approved (or approved with gaps) and ready for Week 5.
 <h2>🕑 Today's Shape</h2>
 <table>
 <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
-<tr><td>09:00 – 09:15</td><td>Opening</td><td>Pin TCD §§1–4 on the wall</td></tr>
+<tr><td>09:00 – 09:15</td><td>Opening</td><td>Pin TCD Sections 1–4 on the wall</td></tr>
 <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>Surface the trade-offs (8–10 candidates)</td></tr>
 <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>Write the top 5 trade-offs</td></tr>
 <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>Stakeholder sign-off matrix</td></tr>
@@ -710,7 +710,7 @@ The category check is a quick filter for whether the triad surfaced real tension
 
 <h2>👥 Activity 1 — Surface Trade-Offs</h2>
 <h3>Triads • 35 minutes</h3>
-<p>Brainstorm 8–10 candidates from §§1–4. Categorize. Cull to 5 finalists. Rough out structure.</p>
+<p>Brainstorm 8–10 candidates from Sections 1–4. Categorize. Cull to 5 finalists. Rough out structure.</p>
 <ul>
 <li>15 min: brainstorm 8–10</li>
 <li>5 min: categorize</li>
@@ -727,7 +727,7 @@ If brainstorm yields fewer than 8, push: "what alternative did you reject?" for 
 <!-- .slide: data-background="linear-gradient(135deg, #2f855a 0%, #2b6cb0 100%)" class="section-divider" -->
 
 <h2>Block 2 — Write the Top 5</h2>
-<h3>Final TCD §5 prose</h3>
+<h3>Final TCD Section 5 prose</h3>
 
 Note:
 The trade-off template forces tension, choice, and consequence in three lines each. Watch for choices that align suspiciously with the writer's preference rather than the system.
@@ -772,7 +772,7 @@ stale state.
 synchronous audit visibility within < 1 second.</code></pre>
 
 Note:
-Note how this links §3 (audit), §4 (latency SLO), and §5 (the trade-off) — internal consistency.
+Note how this links Section 3 (audit), Section 4 (latency SLO), and Section 5 (the trade-off) — internal consistency.
 
 ---
 
@@ -805,12 +805,12 @@ Real names, real next steps. Aim for 6+ entries — most architectural features 
 <h2>📋 The Sign-Off Matrix</h2>
 <table>
 <tr><th>#</th><th>Constraint (link)</th><th>Stakeholder</th><th>Status</th><th>Next step</th></tr>
-<tr><td>1</td><td>§1 Architecture stance</td><td>Lin (Architect)</td><td>Proposed</td><td>30-min walkthrough</td></tr>
-<tr><td>2</td><td>§3 Threat model</td><td>Pat (Security lead)</td><td>Proposed</td><td>Send brief + 30-min walk</td></tr>
-<tr><td>3</td><td>§3 SOC 2 retention</td><td>Sam (Compliance)</td><td>Proposed</td><td>Email + 15-min sync</td></tr>
-<tr><td>4</td><td>§4 Latency SLO</td><td>Kim (Eng lead)</td><td>Discussed</td><td>Confirm sprint review</td></tr>
-<tr><td>5</td><td>§4 Rate-limit policy</td><td>Jamie (Platform)</td><td>Proposed</td><td>Slack + review</td></tr>
-<tr><td>6</td><td>§5 Trade-off 1</td><td>Lin (Architect)</td><td>Proposed</td><td>Same as #1</td></tr>
+<tr><td>1</td><td>Section 1 Architecture stance</td><td>Lin (Architect)</td><td>Proposed</td><td>30-min walkthrough</td></tr>
+<tr><td>2</td><td>Section 3 Threat model</td><td>Pat (Security lead)</td><td>Proposed</td><td>Send brief + 30-min walk</td></tr>
+<tr><td>3</td><td>Section 3 SOC 2 retention</td><td>Sam (Compliance)</td><td>Proposed</td><td>Email + 15-min sync</td></tr>
+<tr><td>4</td><td>Section 4 Latency SLO</td><td>Kim (Eng lead)</td><td>Discussed</td><td>Confirm sprint review</td></tr>
+<tr><td>5</td><td>Section 4 Rate-limit policy</td><td>Jamie (Platform)</td><td>Proposed</td><td>Slack + review</td></tr>
+<tr><td>6</td><td>Section 5 Trade-off 1</td><td>Lin (Architect)</td><td>Proposed</td><td>Same as #1</td></tr>
 <tr><td>7</td><td>SSO scope addition</td><td>Casey (Identity)</td><td>Confirmed</td><td>None</td></tr>
 </table>
 
@@ -866,11 +866,11 @@ Integration catches drift between sections written across the week. Pair-review 
 <h2>✅ The Integration Checklist</h2>
 <table>
 <tr><th>Check</th><th>Pass criterion</th></tr>
-<tr><td>§1 stance ↔ §2 diagrams</td><td>Stance shows as expected container layout</td></tr>
-<tr><td>§2 integrations ↔ §3 threats</td><td>Every boundary covered or explicitly out-of-scope</td></tr>
-<tr><td>§3 NFRs ↔ §4 SLOs</td><td>Conflicts surface as §5 trade-offs</td></tr>
-<tr><td>§4 SLOs ↔ §5 trade-offs</td><td>Latency cost appears in §5 if accepted</td></tr>
-<tr><td>§§1–5 ↔ §6 stakeholders</td><td>Every load-bearing decision has an owner</td></tr>
+<tr><td>Section 1 stance ↔ Section 2 diagrams</td><td>Stance shows as expected container layout</td></tr>
+<tr><td>Section 2 integrations ↔ Section 3 threats</td><td>Every boundary covered or explicitly out-of-scope</td></tr>
+<tr><td>Section 3 NFRs ↔ Section 4 SLOs</td><td>Conflicts surface as Section 5 trade-offs</td></tr>
+<tr><td>Section 4 SLOs ↔ Section 5 trade-offs</td><td>Latency cost appears in Section 5 if accepted</td></tr>
+<tr><td>Sections 1–5 ↔ Section 6 stakeholders</td><td>Every load-bearing decision has an owner</td></tr>
 <tr><td>No fortune-cookie prose</td><td>Specific to this feature</td></tr>
 </table>
 

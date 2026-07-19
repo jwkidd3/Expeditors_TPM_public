@@ -624,7 +624,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </div>
 
 Note:
-Welcome to Week 5. The TCD becomes the spine. Today: data model your feature into TMD §1, defending choices by access pattern.
+Welcome to Week 5. The TCD becomes the spine. Today: data model your feature into TMD Section 1, defending choices by access pattern.
 
 ---
 
@@ -634,18 +634,18 @@ Welcome to Week 5. The TCD becomes the spine. Today: data model your feature int
 <li class="fragment fade-up">Apply the <strong>"access pattern first"</strong> discipline — queries before schema</li>
 <li class="fragment fade-up">Make the <strong>storage choice</strong> argument in customer terms</li>
 <li class="fragment fade-up">Surface <strong>schema-level trade-offs</strong> using the Week-4 template</li>
-<li class="fragment fade-up">Draft <strong>TMD §1 — Data model</strong></li>
+<li class="fragment fade-up">Draft <strong>TMD Section 1 — Data model</strong></li>
 </ul>
 
 Note:
-By 16:00, every triad has TMD §1 — entities, indexes, trade-offs.
+By 16:00, every triad has TMD Section 1 — entities, indexes, trade-offs.
 
 ---
 
 <h2>🕑 Today's Shape</h2>
 <table>
 <tr><th>Clock</th><th>Block</th><th>Outcome</th></tr>
-<tr><td>09:00 – 09:15</td><td>Opening</td><td>Pin TCD §§1–6 on the wall</td></tr>
+<tr><td>09:00 – 09:15</td><td>Opening</td><td>Pin TCD Sections 1–6 on the wall</td></tr>
 <tr><td>09:15 – 10:30</td><td>Block 1 + Activity 1</td><td>Read & write access patterns</td></tr>
 <tr><td>10:45 – 12:00</td><td>Block 2 + Activity 2</td><td>Draft the entity model</td></tr>
 <tr><td>13:00 – 14:15</td><td>Block 3 + Activity 3</td><td>Storage trade-offs</td></tr>
@@ -723,7 +723,7 @@ The most common rookie mistake is reverse: design the schema, then realize queri
 <h3>Triads • 35 minutes</h3>
 <p>List every read and write the feature needs. Capture data, frequency, freshness requirement.</p>
 <ul>
-<li>5 min: re-read PRD §5</li>
+<li>5 min: re-read PRD Section 5</li>
 <li>15 min: list reads (data, filter, freshness)</li>
 <li>10 min: list writes (entity, invariants, concurrency)</li>
 <li>5 min: highlight 1–2 highest-volume reads</li>
@@ -804,7 +804,7 @@ If a triad lists indexes without referencing patterns, they're guessing.
 ```
 
 Note:
-Note signature_hash + R-threat reference — TCD §3 (Day 2 of Week 4) STRIDE work pays off.
+Note signature_hash + R-threat reference — TCD Section 3 (Day 2 of Week 4) STRIDE work pays off.
 
 ---
 
@@ -881,7 +881,7 @@ Note the "what we deliberately can't do efficiently" framing — that's the seni
 <ul>
 <li>15 min: identify 3 trade-off points in your model</li>
 <li>15 min: write each (Option A/B/Choice/Why/Cost/Trigger)</li>
-<li>10 min: cross-check against TCD §4 SLOs</li>
+<li>10 min: cross-check against TCD Section 4 SLOs</li>
 </ul>
 <div class="timebox">⏱ 15 + 15 + 10</div>
 
@@ -900,7 +900,7 @@ AI critique works best as a stand-in senior engineer reading the schema. Provena
 
 ---
 
-<h2>🧿 Today's Two Prompts</h2>
+<h2>🤖 Today's Two Prompts</h2>
 <pre><code class="language-text">A. Critique this schema
 Role: Senior backend engineer reviewing a feature's data model.
 Context: <entity definitions + indexes + relationships +
@@ -930,7 +930,7 @@ Both prompts go in the Pattern Library.
 <li>10 min: Prompt A → 3 issues</li>
 <li>10 min: adopt / defer / reject</li>
 <li>10 min: Prompt B → forgotten queries</li>
-<li>15 min: update §1 + provenance + AI-prose check</li>
+<li>15 min: update Section 1 + provenance + AI-prose check</li>
 </ul>
 <div class="timebox">⏱ 10 + 10 + 10 + 15 · 15-min wrap</div>
 
@@ -947,7 +947,7 @@ Wrap-share: each triad names 1 trade-off, 1 AI-surfaced query, 1 question for th
 <li>Access Pattern Sheet</li>
 <li>Entity model (PKs, indexes, relationships)</li>
 <li>3+ explicit storage trade-offs</li>
-<li>TMD §1 drafted</li>
+<li>TMD Section 1 drafted</li>
 </ul>
 </div>
 <div class="card">
@@ -960,7 +960,7 @@ Wrap-share: each triad names 1 trade-off, 1 AI-surfaced query, 1 question for th
 </div>
 </div>
 <div class="highlight-box success">
-<strong>Bring to Day 2:</strong> Your TMD §1 + the TCD's Container diagram. Tomorrow we put the boxes in regions.
+<strong>Bring to Day 2:</strong> Your TMD Section 1 + the TCD's Container diagram. Tomorrow we put the boxes in regions.
 </div>
 
 Note:
