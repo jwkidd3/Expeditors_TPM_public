@@ -158,4 +158,3 @@ Each week produces one document; together they're the TPM's integrated spec. Wee
 | **MC** | Multiple Choice (knowledge-check question) |
 | **T/F** | True / False (knowledge-check question) |
 | **TBD** | To Be Determined |
-| **§** | "Section" (e.g., PRD §5 = Product Requirements Document, Section 5) |

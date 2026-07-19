@@ -2,7 +2,7 @@
 
 > **Day 1 · Activity 4 handout.** Reviewer triad: read the other triad's outcome map and press on these four questions. The goal is to surface outputs masquerading as outcomes.
 
-You are reviewing another triad's DP §1 outcome map. Read it, then ask each question out loud and make them defend the answer.
+You are reviewing another triad's DP Section 1 outcome map. Read it, then ask each question out loud and make them defend the answer.
 
 ## The four questions
 

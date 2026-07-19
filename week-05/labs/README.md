@@ -34,11 +34,11 @@ By Friday afternoon, each participant can:
 
 | Day | Topic | Key artifact produced |
 |-----|-------|----------------------|
-| 1 | Database structures & data logic | TMD §1 — Data model |
-| 2 | Cloud architecture & infrastructure | TMD §2 — Cloud topology |
-| 3 | REST & SOAP API fundamentals | TMD §3 — API contract |
-| 4 | High-level technical modeling | TMD §4 — System sequence + integration model |
-| 5 | Performance baselines, monitoring, AI-summary validation | TMD §5 + final TMD assembly |
+| 1 | Database structures & data logic | TMD Section 1 — Data model |
+| 2 | Cloud architecture & infrastructure | TMD Section 2 — Cloud topology |
+| 3 | REST & SOAP API fundamentals | TMD Section 3 — API contract |
+| 4 | High-level technical modeling | TMD Section 4 — System sequence + integration model |
+| 5 | Performance baselines, monitoring, AI-summary validation | TMD Section 5 + final TMD assembly |
 
 Each day adds a section. Friday assembles the whole document and runs an integration pass — same discipline as the Week-3 PRD assembly and Week-4 TCD assembly.
 
@@ -79,7 +79,7 @@ sequences. Names every hop, protocol, and failure handler. (Day 4)
 
 ## 5. Performance baselines & monitoring
 - Baselines: what we measure today (or expect at launch)
-- Targets: from TCD §4 SLOs
+- Targets: from TCD Section 4 SLOs
 - Monitoring plan: dashboards, alerts, on-call signal
 - AI-summary validation log (this week's AI-assisted summaries
   with their validation status) (Day 5)
@@ -102,4 +102,4 @@ Same triads from Weeks 1–4. PRD authors → TCD authors → TMD authors. By We
 
 ## Bridge to Week 6
 
-Week 6 (Stakeholder Alignment & Negotiation) takes the TCD's Stakeholder Sign-Off Matrix (§6) and the TMD's technical decisions and **negotiates** them. Each triad picks one or two constraints to actively negotiate with simulated stakeholders. The TMD's specificity is what makes those negotiations productive — vague briefs produce vague conversations.
+Week 6 (Stakeholder Alignment & Negotiation) takes the TCD's Stakeholder Sign-Off Matrix (Section 6) and the TMD's technical decisions and **negotiates** them. Each triad picks one or two constraints to actively negotiate with simulated stakeholders. The TMD's specificity is what makes those negotiations productive — vague briefs produce vague conversations.

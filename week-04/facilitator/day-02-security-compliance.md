@@ -4,7 +4,7 @@
 
 ## Framing note
 
-Today's job is to run a **STRIDE threat-model pass** at the architecture level, translate the results into revised security and compliance NFRs, and add §3 of the TCD. The discipline: the TPM is not the security expert — they drive the right conversation and produce a starting threat model security can validate.
+Today's job is to run a **STRIDE threat-model pass** at the architecture level, translate the results into revised security and compliance NFRs, and add Section 3 of the TCD. The discipline: the TPM is not the security expert — they drive the right conversation and produce a starting threat model security can validate.
 
 ## Activity 1 — STRIDE Calibration on a Public Example
 

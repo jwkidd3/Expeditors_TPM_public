@@ -18,6 +18,6 @@ Participant-facing handouts for Week 6. Each is a standalone grid, template, car
 | `executive-demand-scenario-cards` | Day 5 · Round 3 | 3 executive demands with hidden settle points |
 | `negotiation-rubric` | Day 5 | 6-dimension scoring rubric + round structure + trade-space concept |
 | `negotiation-score-sheet` | Day 5 | Printable weighted score sheet + quick-tally version |
-| `outcomes-log-template` | Day 5 | SEP §5 per-round outcomes-log block + three-round overview |
+| `outcomes-log-template` | Day 5 | SEP Section 5 per-round outcomes-log block + three-round overview |
 
 **Design principle:** these are working surfaces, not narration. Role-play cards keep their real driver / settle point in the Hidden section — the author has to surface it through good questions.

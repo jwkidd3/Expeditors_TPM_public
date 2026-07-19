@@ -1,4 +1,4 @@
-# Monthly Outcome Review Template (DP §3)
+# Monthly Outcome Review Template (DP Section 3)
 
 > **Day 3 · Activity 3 handout.** The monthly review answers one question: **is the feature winning?** Customize this structure for your feature — and keep the "Decisions" section non-skippable.
 

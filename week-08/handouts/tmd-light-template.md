@@ -25,7 +25,7 @@ Happy path; 1 sad path; 1 weird path with named invariant.
 
 ---
 
-### API contract — row shape (§3)
+### API contract — row shape (Section 3)
 
 | Method | Path | Status codes | Idempotency approach |
 |---|---|---|---|
@@ -38,5 +38,5 @@ Happy path; 1 sad path; 1 weird path with named invariant.
 - Cloud topology has a **ROM cost number**, even if rough.
 - API endpoints have status codes and an idempotency approach.
 - The weird path has a **named invariant** (don't skip it).
-- §3 describes **behavior, not implementation** (no "use Redis" — say what the behavior guarantees).
+- Section 3 describes **behavior, not implementation** (no "use Redis" — say what the behavior guarantees).
 - The leading indicator is **measurable within 7 days**.

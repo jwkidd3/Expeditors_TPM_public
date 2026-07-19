@@ -1,27 +1,27 @@
 # Day 5 — Technical Trade-Offs & Constraints (TCD Assembly + Review)
 
-> **Activity packet** for your triad. Today's job: name the **top 5 trade-offs** in your architecture (TCD §5), build the **stakeholder sign-off matrix** (TCD §6), assemble the integrated TCD, peer-review it, and ship it as the sibling artifact to your PRD.
+> **Activity packet** for your triad. Today's job: name the **top 5 trade-offs** in your architecture (TCD Section 5), build the **stakeholder sign-off matrix** (TCD Section 6), assemble the integrated TCD, peer-review it, and ship it as the sibling artifact to your PRD.
 
 ## Where we are in the week
 
-Days 1–4 produced TCD §§1–4 (stance, integrations + diagrams, security, SLOs). Today produces:
+Days 1–4 produced TCD Sections 1–4 (stance, integrations + diagrams, security, SLOs). Today produces:
 
-- **§5 — Top 5 trade-offs** (the section that distinguishes mature architecture documents)
-- **§6 — Stakeholder + sign-off matrix** (who owns each constraint, what's the status)
+- **Section 5 — Top 5 trade-offs** (the section that distinguishes mature architecture documents)
+- **Section 6 — Stakeholder + sign-off matrix** (who owns each constraint, what's the status)
 - **The integrated TCD** — read top-to-bottom, polished, peer-reviewed, signed off
 
 ## Inputs
 
-- TCD §§1–4 (Days 1–4)
+- TCD Sections 1–4 (Days 1–4)
 - The PRD it pairs with
 - The "Known Trade-offs" subsection from Week 3 Day 3 — Today's trade-offs build on it
-- The owner names from PRD §10 — they go on the sign-off matrix
+- The owner names from PRD Section 10 — they go on the sign-off matrix
 
 ---
 
 ## What a trade-off looks like (mature vs immature)
 
-The TCD §5 is the section that **separates senior architectural thinking from feature-list thinking**. A trade-off is not a list of risks; it's a structured statement of: *we considered A and B, we chose A, we accept this cost, this is what would change our minds*.
+The TCD Section 5 is the section that **separates senior architectural thinking from feature-list thinking**. A trade-off is not a list of risks; it's a structured statement of: *we considered A and B, we chose A, we accept this cost, this is what would change our minds*.
 
 | Immature | Mature |
 |----------|--------|
@@ -33,7 +33,7 @@ The pattern is always: **Option A vs Option B → choice → accepted cost → r
 
 ---
 
-## The stakeholder sign-off matrix (TCD §6)
+## The stakeholder sign-off matrix (TCD Section 6)
 
 A constraint without an owner is a constraint nobody implements. The sign-off matrix lists every load-bearing constraint with:
 
@@ -54,7 +54,7 @@ This section is the **action list** for Week 6 (stakeholder negotiation). Today 
 Identify the actual trade-offs your architecture made. Most teams under-report — they describe the choice and skip the alternative.
 
 ### Setup
-Each triad needs TCD §§1–4 from this week. AI optional; use the Critique-hat prompt if you do.
+Each triad needs TCD Sections 1–4 from this week. AI optional; use the Critique-hat prompt if you do.
 
 ### The five categories of architectural trade-off
 
@@ -68,11 +68,11 @@ For most features, trade-offs fall into one of these:
 | **Speed vs robustness** | Ship the happy path now, harden later |
 | **Generality vs simplicity** | Build the generic capability or just this case |
 
-A well-written §5 covers **multiple categories**. A §5 with 5 trade-offs all in the same category usually missed real tensions.
+A well-written Section 5 covers **multiple categories**. A Section 5 with 5 trade-offs all in the same category usually missed real tensions.
 
 ### Triad protocol
 
-1. **Brainstorm 8–10 candidate trade-offs** (15 min). Pull from §§1–4. Look for places where your TCD said "we chose X" — for each, what was the alternative?
+1. **Brainstorm 8–10 candidate trade-offs** (15 min). Pull from Sections 1–4. Look for places where your TCD said "we chose X" — for each, what was the alternative?
 2. **Categorize each** (5 min). Which of the 5 categories?
 3. **Cull to 5 finalists** (10 min). Pick the trade-offs that are most consequential — the ones a senior architect would interrogate.
 4. **Rough out the structure** (5 min). For each, jot Option A / Option B / Choice / Accepted cost / Revisit trigger.
@@ -95,10 +95,10 @@ A well-written §5 covers **multiple categories**. A §5 with 5 trade-offs all i
 **Format:** Triad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Convert the structure from Activity 1 into the final §5 prose.
+Convert the structure from Activity 1 into the final Section 5 prose.
 
 ### Setup
-Each triad needs the trade-off sketches from Activity 1 and the §5 template. AI optional.
+Each triad needs the trade-off sketches from Activity 1 and the Section 5 template. AI optional.
 
 ### The trade-off template
 
@@ -153,7 +153,7 @@ Each triad needs the trade-off sketches from Activity 1 and the §5 template. AI
 
 ### Deliverable
 
-TCD §5 with five fully written trade-offs using the template, plus a note on any internal contradictions surfaced during the consistency check.
+TCD Section 5 with five fully written trade-offs using the template, plus a note on any internal contradictions surfaced during the consistency check.
 
 ---
 
@@ -162,10 +162,10 @@ TCD §5 with five fully written trade-offs using the template, plus a note on an
 **Format:** Triad &bull; **40 min** &bull; Block 3
 
 ### Purpose
-Build §6. Every constraint that requires another team's buy-in goes on the matrix with an owner and a status.
+Build Section 6. Every constraint that requires another team's buy-in goes on the matrix with an owner and a status.
 
 ### Setup
-Each triad needs TCD §§1–5 from this week, PRD §10 (Dependencies), and any owner names surfaced earlier. AI optional.
+Each triad needs TCD Sections 1–5 from this week, PRD Section 10 (Dependencies), and any owner names surfaced earlier. AI optional.
 
 ### The matrix template
 
@@ -174,13 +174,13 @@ Each triad needs TCD §§1–5 from this week, PRD §10 (Dependencies), and any 
 
 | # | Constraint (link) | Stakeholder | Status | Next step |
 |---|-------------------|-------------|--------|-----------|
-| 1 | §1 Architecture stance | <Architect name> | Proposed | Schedule 30-min walkthrough |
-| 2 | §3 Threat model | <Security lead name> | Proposed | Send security brief, 30-min walk-through |
-| 3 | §3 Compliance NFRs (SOC 2 audit retention) | <Compliance lead name> | Proposed | Email + 15-min sync |
-| 4 | §4 Latency SLO | <Eng lead name> | Discussed | Confirm in next sprint review |
-| 5 | §4 Rate-limit policy | <Platform lead name> | Proposed | Slack thread + review |
-| 6 | §5 Trade-off 1 (module vs service) | <Architect name> | Proposed | Same walkthrough as #1 |
-| 7 | §10 PRD: SSO scope addition | <Identity team lead> | Confirmed (Slack 2026-04-15) | None |
+| 1 | Section 1 Architecture stance | <Architect name> | Proposed | Schedule 30-min walkthrough |
+| 2 | Section 3 Threat model | <Security lead name> | Proposed | Send security brief, 30-min walk-through |
+| 3 | Section 3 Compliance NFRs (SOC 2 audit retention) | <Compliance lead name> | Proposed | Email + 15-min sync |
+| 4 | Section 4 Latency SLO | <Eng lead name> | Discussed | Confirm in next sprint review |
+| 5 | Section 4 Rate-limit policy | <Platform lead name> | Proposed | Slack thread + review |
+| 6 | Section 5 Trade-off 1 (module vs service) | <Architect name> | Proposed | Same walkthrough as #1 |
+| 7 | Section 10 PRD: SSO scope addition | <Identity team lead> | Confirmed (Slack 2026-04-15) | None |
 ```
 
 **Status** values:
@@ -191,8 +191,8 @@ Each triad needs TCD §§1–5 from this week, PRD §10 (Dependencies), and any 
 
 ### Triad protocol
 
-1. **List every constraint that needs sign-off** (15 min). Walk through TCD §§1–5; for each load-bearing decision, who has to agree?
-2. **Assign a real person** (10 min). Use names from PRD §10 + anyone new. "TBD" is not allowed.
+1. **List every constraint that needs sign-off** (15 min). Walk through TCD Sections 1–5; for each load-bearing decision, who has to agree?
+2. **Assign a real person** (10 min). Use names from PRD Section 10 + anyone new. "TBD" is not allowed.
 3. **Set the next step** (10 min). For each Proposed: how will the conversation happen?
 4. **Status sanity check** (5 min). Honest status — most should be Proposed.
 
@@ -205,7 +205,7 @@ Each triad needs TCD §§1–5 from this week, PRD §10 (Dependencies), and any 
 
 ### Deliverable
 
-TCD §6 sign-off matrix with at least 6 named entries, each with constraint link, real-person stakeholder, honest status, and a specific next step.
+TCD Section 6 sign-off matrix with at least 6 named entries, each with constraint link, real-person stakeholder, honest status, and a specific next step.
 
 ---
 
@@ -217,17 +217,17 @@ TCD §6 sign-off matrix with at least 6 named entries, each with constraint link
 Final TCD assembly. Cross-review by another triad. Internal sign-off. The TCD ships alongside the PRD.
 
 ### Setup
-Instructor confirms pairings. Each triad needs the full TCD §§1–6 draft, the integration checklist, and the Friday TCD rubric.
+Instructor confirms pairings. Each triad needs the full TCD Sections 1–6 draft, the integration checklist, and the Friday TCD rubric.
 
 ### The integration checklist
 
 | Check | Pass criterion |
 |-------|----------------|
-| **§1 stance ↔ §2 diagrams** | Modular monolith stance shows as one container with internal modules |
-| **§2 integrations ↔ §3 threats** | Every integration boundary appears in the threat model or has an explicit "no threat" rationale |
-| **§3 NFRs ↔ §4 SLOs** | Security NFRs don't conflict with latency SLOs; if they do, that's §5 trade-off 2 |
-| **§4 SLOs ↔ §5 trade-offs** | If you accepted a latency cost, it should appear in §5 |
-| **§6 stakeholders ↔ §§1–5 constraints** | Every load-bearing decision has an owner |
+| **Section 1 stance ↔ Section 2 diagrams** | Modular monolith stance shows as one container with internal modules |
+| **Section 2 integrations ↔ Section 3 threats** | Every integration boundary appears in the threat model or has an explicit "no threat" rationale |
+| **Section 3 NFRs ↔ Section 4 SLOs** | Security NFRs don't conflict with latency SLOs; if they do, that's Section 5 trade-off 2 |
+| **Section 4 SLOs ↔ Section 5 trade-offs** | If you accepted a latency cost, it should appear in Section 5 |
+| **Section 6 stakeholders ↔ Sections 1–5 constraints** | Every load-bearing decision has an owner |
 | **No fortune-cookie prose** | Every paragraph is specific to *this* feature |
 
 ### Cross-review (20 min)
@@ -271,13 +271,13 @@ Each triad shares **one of their five trade-offs**, including the revisit trigge
 
 Each triad ships:
 
-- [x] **TCD** with §§1–6 complete and integrated
-- [x] **Architecture stance** with trade-off + revisit trigger (§1)
-- [x] **Integration map + C4 diagrams** (§2)
-- [x] **STRIDE threat model + revised security/compliance NFRs** (§3)
-- [x] **Three SLOs + latency budget + rate-limit policy + error-budget consequence** (§4)
-- [x] **Top 5 trade-offs** with full structure (§5)
-- [x] **Stakeholder sign-off matrix** with named owners (§6)
+- [x] **TCD** with Sections 1–6 complete and integrated
+- [x] **Architecture stance** with trade-off + revisit trigger (Section 1)
+- [x] **Integration map + C4 diagrams** (Section 2)
+- [x] **STRIDE threat model + revised security/compliance NFRs** (Section 3)
+- [x] **Three SLOs + latency budget + rate-limit policy + error-budget consequence** (Section 4)
+- [x] **Top 5 trade-offs** with full structure (Section 5)
+- [x] **Stakeholder sign-off matrix** with named owners (Section 6)
 - [x] AI provenance log for all AI-assisted sections
 
 The TCD goes into Week 5 alongside the PRD. Week 5 (Technical Infrastructure & Modeling) uses the TCD's component map for data modeling, the SLOs for performance baselines, and the threat model for encryption / key-management decisions.

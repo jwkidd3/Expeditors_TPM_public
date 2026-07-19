@@ -1,4 +1,4 @@
-# Value Stream Map Canvas (DP §4)
+# Value Stream Map Canvas (DP Section 4)
 
 > **Day 4 · Activities 1–4 handout.** The one-page canvas for mapping your feature's delivery stream: steps, process time, lead time, queues, and total flow efficiency.
 

@@ -4,21 +4,21 @@
 
 ## Where we are in the week
 
-§§1–4 of the SEP are ready. Today is the live exercise: three rounds of simulated negotiation, with triads playing each other's stakeholders. By 16:00, every triad has logged outcomes, written the §5 outcomes log, and shipped the SEP.
+Sections 1–4 of the SEP are ready. Today is the live exercise: three rounds of simulated negotiation, with triads playing each other's stakeholders. By 16:00, every triad has logged outcomes, written the Section 5 outcomes log, and shipped the SEP.
 
 ## Today's cadence
 
 | Clock | Block | What happens |
 |-------|-------|--------------|
 | 09:00 – 09:15 | Opening; sim pairings posted; rubric reminder | Pair triad A with triad B (and so on); each triad plays "stakeholder" for one of their counterpart's negotiations |
-| 09:15 – 10:45 | **Round 1 — Architecture / SLO negotiation** | First triad negotiates one TCD §4 SLO or §5 trade-off |
+| 09:15 – 10:45 | **Round 1 — Architecture / SLO negotiation** | First triad negotiates one TCD Section 4 SLO or Section 5 trade-off |
 | 10:45 – 11:00 | Break | |
 | 11:00 – 12:00 | Round 1 debrief + Round 2 prep | Capture outcomes; swap setups |
 | 12:00 – 13:00 | Lunch | |
 | 13:00 – 14:30 | **Round 2 — Scope negotiation** | Negotiate a non-goal challenge or scope-creep ask |
 | 14:30 – 14:45 | Break | |
 | 14:45 – 15:45 | **Round 3 — Resource / timeline negotiation** | Cross-team dependency or roadmap ask |
-| 15:45 – 16:00 | Wrap + sign-off | SEP §5 outcomes log finalized |
+| 15:45 – 16:00 | Wrap + sign-off | SEP Section 5 outcomes log finalized |
 
 ## The three rounds — what each is for
 
@@ -60,7 +60,7 @@ Each round runs ~30 minutes:
 
 ---
 
-## The outcomes log template (SEP §5)
+## The outcomes log template (SEP Section 5)
 
 For each round, capture:
 
@@ -140,7 +140,7 @@ The **public surface** (the stakeholder role and the ask) is visible to both tri
 
 ### The author triad's challenge
 
-Defend the **non-goals** in PRD §3 and the **out-of-scope follow-ups** in PRD §11. Honestly evaluate whether to:
+Defend the **non-goals** in PRD Section 3 and the **out-of-scope follow-ups** in PRD Section 11. Honestly evaluate whether to:
 
 - Hold the line (and capture the no with reasoning)
 - Cut existing scope to add the new ask
@@ -194,9 +194,9 @@ The stakeholder triad pushes hard but **agrees somewhere**, even if it's "deferr
 
 ---
 
-## SEP §5 — The Outcomes Log
+## SEP Section 5 — The Outcomes Log
 
-By 15:45, every triad has §5 with three round entries. The polish:
+By 15:45, every triad has Section 5 with three round entries. The polish:
 
 - All three rounds documented in the template
 - Owner + next step for each (no "TBD")
@@ -209,12 +209,12 @@ By 15:45, every triad has §5 with three round entries. The polish:
 
 Each triad ships:
 
-- [x] **Full SEP** with §§1–5
-- [x] §1 Stakeholder map (Power × Interest + RACI + watch list)
-- [x] §2 Engagement plan
-- [x] §3 1-page trade-off brief
-- [x] §4 Meeting prep + objection map
-- [x] §5 **Three negotiation outcome logs**, with owners and next steps
+- [x] **Full SEP** with Sections 1–5
+- [x] Section 1 Stakeholder map (Power × Interest + RACI + watch list)
+- [x] Section 2 Engagement plan
+- [x] Section 3 1-page trade-off brief
+- [x] Section 4 Meeting prep + objection map
+- [x] Section 5 **Three negotiation outcome logs**, with owners and next steps
 - [x] AI provenance log entries from Days 4–5
 
 The SEP joins the PRD / TCD / TMD as the fourth sibling artifact. Together they are the input to Week 7's delivery work.

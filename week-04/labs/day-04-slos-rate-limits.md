@@ -4,12 +4,12 @@
 
 ## Where we are in the week
 
-Days 1–3 produced TCD §§1–3 (stance, integrations + diagrams, security). Today produces **TCD §4 — SLO + rate-limit policy**. The Container diagram from Day 3 is the input: each arrow gets a latency budget; each ingress gets a rate-limit policy; the system as a whole gets an availability target with an error budget.
+Days 1–3 produced TCD Sections 1–3 (stance, integrations + diagrams, security). Today produces **TCD Section 4 — SLO + rate-limit policy**. The Container diagram from Day 3 is the input: each arrow gets a latency budget; each ingress gets a rate-limit policy; the system as a whole gets an availability target with an error budget.
 
 ## Inputs
 
-- TCD §§1–3 (stance, integration map + diagrams, security/compliance)
-- The performance NFRs from PRD §7 + their architecture-revised versions
+- TCD Sections 1–3 (stance, integration map + diagrams, security/compliance)
+- The performance NFRs from PRD Section 7 + their architecture-revised versions
 - The Tier Sheet from Week 2 — what user-visible signals will move when we breach an SLO?
 
 ---
@@ -282,7 +282,7 @@ The author triad listens, captures, and decides what to address.
 ```
 Role: Senior reliability engineer reviewing a feature's SLO sheet.
 Context: <paste the SLO sheet + latency-budget walk + rate-limit policy>
-Architecture stance: <paste TCD §1>
+Architecture stance: <paste TCD Section 1>
 Task: Identify the top 3 reasons the SLOs as written might not be sustainable.
 Constraints:
   - Use only the information provided; do not invent platform details
@@ -293,11 +293,11 @@ Format: Numbered list, each with: Issue / Scenario / Suggested target.
 
 ### Triad action (10 min)
 
-Decide which AI findings + which peer findings to adopt. Update §4. Provenance note.
+Decide which AI findings + which peer findings to adopt. Update Section 4. Provenance note.
 
 ### Deliverable
 
-Updated TCD §4 with adopted peer + AI findings, an error-budget consequence statement, and a provenance note for any AI use.
+Updated TCD Section 4 with adopted peer + AI findings, an error-budget consequence statement, and a provenance note for any AI use.
 
 ### Wrap (last 15 min)
 
@@ -320,4 +320,4 @@ Each triad ends Day 4 with:
 - [x] **Rate-limit policy** with failure-mode behavior named
 - [x] **Error-budget consequence** stated — what behavior changes when we breach
 - [x] AI provenance note for today
-- [x] TCD §4 drafted
+- [x] TCD Section 4 drafted

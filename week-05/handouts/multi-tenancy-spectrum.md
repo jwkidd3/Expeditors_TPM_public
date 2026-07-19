@@ -17,7 +17,7 @@ Most B2B SaaS at FieldPulse's stage uses **pooled with per-tenant rate limits**.
 
 ## How to choose
 
-1. **What did your PRD §1 customer actually say?** Are any large customers *contractually* expecting dedicated infra?
+1. **What did your PRD Section 1 customer actually say?** Are any large customers *contractually* expecting dedicated infra?
 2. **Pick a stance.** Pooled is the default. Choosing dedicated requires contractual customer evidence.
 3. **Capture the revisit trigger** — e.g., "a customer larger than 5x our current largest signs, OR a regulated-industry customer requires dedicated."
 

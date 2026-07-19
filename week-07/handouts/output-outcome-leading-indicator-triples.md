@@ -1,4 +1,4 @@
-# Output / Outcome / Leading-Indicator Triples (DP §3)
+# Output / Outcome / Leading-Indicator Triples (DP Section 3)
 
 > **Day 3 · Activity 1 handout.** The central tracking table: every meaningful output paired with the outcome it should produce and the earliest signal you'd watch.
 

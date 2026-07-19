@@ -1,6 +1,6 @@
 # Objection Map Template
 
-> **Day 4 · Activity 2 handout.** For each predicted objection from your stakeholder, capture the honest response, the pivot, and the smallest ground you'd give. This is the spine of SEP §4 meeting prep.
+> **Day 4 · Activity 2 handout.** For each predicted objection from your stakeholder, capture the honest response, the pivot, and the smallest ground you'd give. This is the spine of SEP Section 4 meeting prep.
 
 ---
 

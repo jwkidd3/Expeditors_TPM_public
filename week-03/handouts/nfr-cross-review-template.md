@@ -1,6 +1,6 @@
 # NFR Cross-Review Template
 
-> **Day 3 · Activity 4 handout.** Cross-review another triad's §7, then surface the trade-offs. NFRs interact — several usually pull in opposite directions. A mature NFR section *names* its trade-offs and says how each was resolved. Two halves: the **reviewer worksheet** and the **"Known trade-offs" subsection** the author triad appends.
+> **Day 3 · Activity 4 handout.** Cross-review another triad's Section 7, then surface the trade-offs. NFRs interact — several usually pull in opposite directions. A mature NFR section *names* its trade-offs and says how each was resolved. Two halves: the **reviewer worksheet** and the **"Known trade-offs" subsection** the author triad appends.
 
 ---
 
@@ -15,7 +15,7 @@
 
 ---
 
-## Part 1 — Reviewer worksheet (you review THEIR §7)
+## Part 1 — Reviewer worksheet (you review THEIR Section 7)
 
 For each NFR, judge:
 
@@ -34,7 +34,7 @@ the tension is ____________________________________
 
 ---
 
-## Part 2 — "Known trade-offs" subsection (AUTHOR triad appends to §7)
+## Part 2 — "Known trade-offs" subsection (AUTHOR triad appends to Section 7)
 
 Name at least one explicit tension and how you resolved it — a deferred plan beats a hand-wave.
 
@@ -53,4 +53,4 @@ Name at least one explicit tension and how you resolved it — a deferred plan b
 
 ### Also update the review-resolution note
 
-Extend §7's resolution note (adopt / defer / push back) to cover this Day-3 review, same format as the Day-2 note.
+Extend Section 7's resolution note (adopt / defer / push back) to cover this Day-3 review, same format as the Day-2 note.

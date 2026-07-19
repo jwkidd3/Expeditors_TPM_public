@@ -1,6 +1,6 @@
 # Cloud Vocabulary Card
 
-> **Day 2 handout.** The eight cloud-topology terms you'll use to draft TMD §2 — with the TPM-relevant signal each one carries.
+> **Day 2 handout.** The eight cloud-topology terms you'll use to draft TMD Section 2 — with the TPM-relevant signal each one carries.
 
 | Term | What it means | TPM-relevant signal |
 |------|---------------|---------------------|
@@ -15,7 +15,7 @@
 
 ---
 
-## The five cloud-topology decisions TMD §2 documents
+## The five cloud-topology decisions TMD Section 2 documents
 
 1. **Region choice** — which region(s)?
 2. **Multi-AZ stance** — single AZ, multi-AZ, multi-region?

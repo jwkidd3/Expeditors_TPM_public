@@ -15,7 +15,7 @@
 
 ## How to use it
 
-1. **Solo read-through** — each member reads §§1–5 and marks coherence issues.
+1. **Solo read-through** — each member reads Sections 1–5 and marks coherence issues.
 2. **Pool issues** — de-dupe as a triad.
 3. **Cross-review** — pair with another triad; the reviewer scores each dimension against the "exemplary" column.
 4. **Adopt / defer / reject** the findings.

@@ -39,4 +39,4 @@ Copy this block once per trade-off point in your design.
 - A trade-off **names an Option B**. If there's no alternative, it's a description, not a trade-off.
 - "Accepted cost" is a **named query or scenario** you deliberately can't run efficiently — not a vague word like "complexity."
 - "Revisit trigger" is a **concrete, observable change** — usually a query-frequency shift or a new class of customer.
-- At least one of your trade-offs should reference a **TCD §4 SLO**.
+- At least one of your trade-offs should reference a **TCD Section 4 SLO**.

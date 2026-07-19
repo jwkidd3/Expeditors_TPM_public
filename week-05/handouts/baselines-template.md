@@ -25,7 +25,7 @@ For **greenfield**, state the **assumption** rather than skip the baseline. Exam
 
 ## What to baseline
 
-For each TCD §4 SLO, capture the corresponding baseline — **latency**, **availability**, **throughput**, **error rate** — plus any **operational signal** from the Week-2 Tier Sheet that doesn't appear in the SLOs.
+For each TCD Section 4 SLO, capture the corresponding baseline — **latency**, **availability**, **throughput**, **error rate** — plus any **operational signal** from the Week-2 Tier Sheet that doesn't appear in the SLOs.
 
 ## What "good" looks like
 

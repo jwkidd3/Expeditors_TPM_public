@@ -6,7 +6,7 @@
 
 **Cues:**
 
-- The validation step is the muscle. Don't let triads skip it. If they say "looks fine" — push them: "did you actually open §3 of TCD and verify?"
+- The validation step is the muscle. Don't let triads skip it. If they say "looks fine" — push them: "did you actually open Section 3 of TCD and verify?"
 - The gap list is high-leverage — it's what you'll research before the meeting (or admit during it).
 
 ## Facilitator reflection prompts (end of day)

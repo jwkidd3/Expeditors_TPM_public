@@ -10,7 +10,7 @@ By 16:00, every triad has the **complete sibling artifact set**: PRD / TCD / TMD
 
 ## Inputs
 
-- DP §§1–4
+- DP Sections 1–4
 - The top 3 queues from Day 4
 - The full sibling set (PRD / TCD / TMD / SEP)
 
@@ -69,7 +69,7 @@ Convert the top 3 queues from Day 4 into 3 specific experiments.
 
 ### Triad protocol
 
-1. **Re-read your top 3 queues** (5 min) from DP §4.
+1. **Re-read your top 3 queues** (5 min) from DP Section 4.
 2. **For each, draft an experiment** (25 min) using the template above. Commit to:
     - A specific change (not "improve code review" — "auto-assign reviewers based on path")
     - A duration (typically 2–4 sprints)
@@ -123,16 +123,16 @@ Read the full DP top to bottom. Fix incoherences. Lock the version that goes int
 
 | Check | Pass criterion |
 |-------|----------------|
-| **§1 outcomes ↔ §2 backlog** | Every output in §2 maps to an outcome in §1 |
-| **§2 backlog ↔ §3 tracking** | Every leading indicator in §3 corresponds to backlog items |
-| **§3 tracking ↔ §4 VSM** | Cycle-time leading indicators are consistent with VSM measurements |
-| **§4 queues ↔ §5 experiments** | Every top queue has at least one experiment |
+| **Section 1 outcomes ↔ Section 2 backlog** | Every output in Section 2 maps to an outcome in Section 1 |
+| **Section 2 backlog ↔ Section 3 tracking** | Every leading indicator in Section 3 corresponds to backlog items |
+| **Section 3 tracking ↔ Section 4 VSM** | Cycle-time leading indicators are consistent with VSM measurements |
+| **Section 4 queues ↔ Section 5 experiments** | Every top queue has at least one experiment |
 | **References to PRD/TCD/TMD/SEP** | DP cites prior artifacts by section |
 | **No fortune-cookie prose** | Specific to this feature |
 
 ### Triad protocol
 
-1. **Solo read-through** (15 min). Each member reads §§1–5; marks issues in margins.
+1. **Solo read-through** (15 min). Each member reads Sections 1–5; marks issues in margins.
 2. **Pool issues** (10 min). De-dupe.
 3. **Fix in priority order** (15 min). Coherence first, then prose.
 
@@ -219,12 +219,12 @@ Each triad shares:
 
 Each triad ships:
 
-- [x] **Full DP** with §§1–5
-- [x] §1 Outcome map
-- [x] §2 Loaded ADO backlog (or paper equivalent) with field discipline
-- [x] §3 Tracking plan (output / outcome / leading indicator triples + cadences)
-- [x] §4 Value stream map with PT / LT / flow efficiency
-- [x] §5 Bottleneck removal experiments (hypothesis / test / success criterion)
+- [x] **Full DP** with Sections 1–5
+- [x] Section 1 Outcome map
+- [x] Section 2 Loaded ADO backlog (or paper equivalent) with field discipline
+- [x] Section 3 Tracking plan (output / outcome / leading indicator triples + cadences)
+- [x] Section 4 Value stream map with PT / LT / flow efficiency
+- [x] Section 5 Bottleneck removal experiments (hypothesis / test / success criterion)
 - [x] AI provenance log entries
 - [x] Cross-reviewed + signed off
 - [x] **Week 8 capstone candidate declared**

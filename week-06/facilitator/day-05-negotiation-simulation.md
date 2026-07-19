@@ -39,7 +39,7 @@
 
 ## Round 2 — Scope Negotiation
 
-**How to run it:** the non-technical stakeholder triad arrives with a pre-loaded **scope-creep ask** from `week-06/handouts/scope-creep-ask-cards.md` (PM Director / Customer Success Lead / Sales VP). Only the public ask is shared with the author; any roleplayer-only pressure notes stay with the stakeholder side. The author defends PRD §3 non-goals and PRD §11 out-of-scope follow-ups.
+**How to run it:** the non-technical stakeholder triad arrives with a pre-loaded **scope-creep ask** from `week-06/handouts/scope-creep-ask-cards.md` (PM Director / Customer Success Lead / Sales VP). Only the public ask is shared with the author; any roleplayer-only pressure notes stay with the stakeholder side. The author defends PRD Section 3 non-goals and PRD Section 11 out-of-scope follow-ups.
 
 **Watch-for:** which trade-space axis (scope / time / quality / resources) the stakeholder pushes vs which the author offers. A skilled author identifies the axis the stakeholder cares most about and offers movement on a *different* one. If nothing can move, it's a yes/no, not a negotiation.
 

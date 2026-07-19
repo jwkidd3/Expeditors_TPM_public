@@ -1,20 +1,20 @@
 # Day 4 — High-Level Technical Modeling
 
-> **Activity packet** for participant triads. Today's job: tie data, cloud, and API together into a **sequence diagram** that names every hop, protocol, and failure handler. Plus 1–2 sad/weird-path sequences. This is TMD §4.
+> **Activity packet** for participant triads. Today's job: tie data, cloud, and API together into a **sequence diagram** that names every hop, protocol, and failure handler. Plus 1–2 sad/weird-path sequences. This is TMD Section 4.
 
 ## Where we are in the week
 
-Days 1–3 produced TMD §1 (data), §2 (cloud), §3 (API). Today integrates them: we draw the **system in motion**. A sequence diagram for the happy path; abbreviated sequences for the most important sad and weird paths.
+Days 1–3 produced TMD Section 1 (data), Section 2 (cloud), Section 3 (API). Today integrates them: we draw the **system in motion**. A sequence diagram for the happy path; abbreviated sequences for the most important sad and weird paths.
 
 Tomorrow's performance baselines and monitoring plan reference today's diagrams.
 
 ## Inputs
 
-- TMD §1 (entities)
-- TMD §2 (cloud topology)
-- TMD §3 (API contract)
-- TCD §2 (Container diagram)
-- TCD §4 (SLOs — drives latency annotations on the diagram)
+- TMD Section 1 (entities)
+- TMD Section 2 (cloud topology)
+- TMD Section 3 (API contract)
+- TCD Section 2 (Container diagram)
+- TCD Section 4 (SLOs — drives latency annotations on the diagram)
 
 ---
 
@@ -32,7 +32,7 @@ It is the wrong diagram for:
 
 - Showing all possible interactions (use a Container or Component diagram)
 - Showing data structure (use an entity-relationship diagram)
-- Showing deployment topology (use the cloud topology from §2)
+- Showing deployment topology (use the cloud topology from Section 2)
 
 ---
 
@@ -52,7 +52,7 @@ A good sequence diagram has **5–12 lifelines** (more becomes unreadable) and 1
 
 ---
 
-## The three sequences every TMD §4 needs
+## The three sequences every TMD Section 4 needs
 
 1. **Happy path** — the central success case
 2. **One sad path** — the most common user error or system error you have to handle gracefully
@@ -70,11 +70,11 @@ Sad and weird paths can be sketched more abbreviated than the happy path — the
 Draw the central happy-path sequence diagram. Every lifeline, every arrow, every protocol.
 
 ### Setup
-Each triad needs TCD §2 (Container diagram), TMD §§1–3, the TCD §4 latency-budget walk, and whiteboard or paper. AI optional.
+Each triad needs TCD Section 2 (Container diagram), TMD Sections 1–3, the TCD Section 4 latency-budget walk, and whiteboard or paper. AI optional.
 
 ### Triad protocol
 
-1. **Identify the actors** (5 min). Pull from TCD §2 + TMD §2 + §3. Examples for FieldPulse reconcile:
+1. **Identify the actors** (5 min). Pull from TCD Section 2 + TMD Section 2 + Section 3. Examples for FieldPulse reconcile:
     - Dispatcher (user)
     - Mobile app
     - API Gateway
@@ -84,7 +84,7 @@ Each triad needs TCD §2 (Container diagram), TMD §§1–3, the TCD §4 latency
     - Audit topic (Kafka)
 2. **Order the lifelines** (5 min). Caller on the left; called on the right.
 3. **Draw the messages** (15 min). Solid for sync, dashed for async. Label with method + path.
-4. **Annotate latency budget per arrow** (5 min). Pull from yesterday's TCD §4 latency-budget walk.
+4. **Annotate latency budget per arrow** (5 min). Pull from yesterday's TCD Section 4 latency-budget walk.
 5. **The 60-second test** (5 min). Walk the diagram aloud to another triad in 60 seconds.
 
 ### Worked example — FieldPulse reconcile happy path
@@ -124,7 +124,7 @@ Dispatcher    Mobile      API GW    Reconcile    Tickets    Postgres   Kafka(aud
 
 ### Deliverable
 
-A happy-path sequence diagram with labeled lifelines, protocols, per-arrow latency annotations, and a total that matches the TCD §4 SLO.
+A happy-path sequence diagram with labeled lifelines, protocols, per-arrow latency annotations, and a total that matches the TCD Section 4 SLO.
 
 ---
 
@@ -136,11 +136,11 @@ A happy-path sequence diagram with labeled lifelines, protocols, per-arrow laten
 Pick the most consequential sad path from your AC — usually a user-error scenario — and draw the sequence.
 
 ### Setup
-Each triad needs PRD §6 sad-path AC, TMD §3 (API error codes), and the happy-path sequence from Activity 1.
+Each triad needs PRD Section 6 sad-path AC, TMD Section 3 (API error codes), and the happy-path sequence from Activity 1.
 
 ### Triad protocol
 
-1. **Pick the sad path** (5 min). From PRD §6 sad-path AC. Examples: "user submits with no tickets selected"; "user lacks permission"; "ticket already reconciled by someone else".
+1. **Pick the sad path** (5 min). From PRD Section 6 sad-path AC. Examples: "user submits with no tickets selected"; "user lacks permission"; "ticket already reconciled by someone else".
 2. **Draw the divergence** (20 min). The sad path usually shares the first 1–2 arrows with the happy path, then branches. Draw from the divergence point.
 3. **Show the user-visible result** (5 min). What does the user see? What status code? What error body?
 4. **Annotate** (5 min). What's the user's recovery action?
@@ -170,7 +170,7 @@ Dispatcher    Mobile      API GW    Reconcile    Tickets    Postgres
 ### What "good" looks like
 
 - The divergence point is clear (one arrow that goes differently)
-- The status code matches the API contract from §3
+- The status code matches the API contract from Section 3
 - The user has a **recovery path** — not a dead-end
 
 ### Deliverable
@@ -187,11 +187,11 @@ A sad-path sequence diagram with the divergence point marked, the user-visible e
 Draw a weird-path sequence — network drop, race, timeout, or boundary case.
 
 ### Setup
-Each triad needs PRD §6 weird-path AC, TMD §3 (idempotency approach), and the happy-path diagram for reference.
+Each triad needs PRD Section 6 weird-path AC, TMD Section 3 (idempotency approach), and the happy-path diagram for reference.
 
 ### Triad protocol
 
-1. **Pick the weird path** (5 min). From PRD §6 weird-path AC.
+1. **Pick the weird path** (5 min). From PRD Section 6 weird-path AC.
     - Network drop mid-submit
     - Race: two dispatchers reconcile the same ticket simultaneously
     - Timeout: Tickets module slow
@@ -254,7 +254,7 @@ Instructor pairs triads. Each pair needs all three sequence diagrams in text for
 
 The reviewer triad reads the three sequences with these questions:
 
-1. **Happy path:** does the latency add up? Are protocols consistent with §3?
+1. **Happy path:** does the latency add up? Are protocols consistent with Section 3?
 2. **Sad path:** does the user have a clear recovery action?
 3. **Weird path:** is an invariant named? Is the recovery actually safe?
 
@@ -285,7 +285,7 @@ Adopt / defer / reject. Update the diagrams. Provenance note.
 
 ### Deliverable
 
-Updated TMD §4 with all three sequences, adopted cross-review and AI findings, and a provenance note for AI prompts.
+Updated TMD Section 4 with all three sequences, adopted cross-review and AI findings, and a provenance note for AI prompts.
 
 ### Wrap (last 15 min)
 
@@ -306,4 +306,4 @@ Each triad ends Day 4 with:
 - [x] **Weird-path sequence** with invariant + recovery
 - [x] Cross-reviewed with another triad
 - [x] AI provenance log entry
-- [x] TMD §4 drafted (with all three sequence diagrams)
+- [x] TMD Section 4 drafted (with all three sequence diagrams)

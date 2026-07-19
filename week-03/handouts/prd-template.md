@@ -57,8 +57,8 @@ Specific items with ticket placeholders — not "future work".
 
 ## How the sections relate (the integration you'll be checked on Day 4)
 
-- §1 → §2 should motivate the reader before they learn what to build.
-- Every §3 goal ties to a §8 metric; every §8 metric traces to a §3 goal.
-- Every §5 happy-path step has a matching §6 happy-path AC.
-- §7 NFRs cover the system *properties* that §6 AC (system *behaviors*) don't.
-- §4 scope-out items reappear in §11 follow-ups.
+- Section 1 → Section 2 should motivate the reader before they learn what to build.
+- Every Section 3 goal ties to a Section 8 metric; every Section 8 metric traces to a Section 3 goal.
+- Every Section 5 happy-path step has a matching Section 6 happy-path AC.
+- Section 7 NFRs cover the system *properties* that Section 6 AC (system *behaviors*) don't.
+- Section 4 scope-out items reappear in Section 11 follow-ups.

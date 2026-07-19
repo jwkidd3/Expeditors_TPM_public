@@ -1,10 +1,10 @@
 # Day 5 — Performance Baselines, Monitoring & Validating AI-Generated Data Summaries
 
-> **Activity packet** for participant triads. Today's job: write **§5** of the TMD — performance baselines, monitoring plan, and AI-summary validation log. Then **assemble the full TMD**, peer-review it, and ship it as the sibling artifact to TCD and PRD.
+> **Activity packet** for participant triads. Today's job: write **Section 5** of the TMD — performance baselines, monitoring plan, and AI-summary validation log. Then **assemble the full TMD**, peer-review it, and ship it as the sibling artifact to TCD and PRD.
 
 ## Where we are in the week
 
-The TMD has §§1–4 (data, cloud, API, sequences). Today produces §5 — **performance baselines + monitoring plan + AI-summary validation log** — and the integrated TMD ships.
+The TMD has Sections 1–4 (data, cloud, API, sequences). Today produces Section 5 — **performance baselines + monitoring plan + AI-summary validation log** — and the integrated TMD ships.
 
 The AI-summary validation log is the **new discipline this week**. AI is increasingly used to summarize dashboards, query results, and metric reports. The TPM job: validate those summaries against the source data and document the result.
 
@@ -14,14 +14,14 @@ Same as Mon–Thu (no special split like Week 3 Day 5 had). Block 4 is the cross
 
 ## Inputs
 
-- TMD §§1–4 (Days 1–4)
-- TCD §4 SLOs (anchor for baselines + targets)
+- TMD Sections 1–4 (Days 1–4)
+- TCD Section 4 SLOs (anchor for baselines + targets)
 - The Tier Sheet from Week 2 — operational signals point at what to monitor
 - The PRD — context for what dashboards stakeholders need
 
 ---
 
-## What §5 contains
+## What Section 5 contains
 
 ```markdown
 ## 5. Performance baselines & monitoring
@@ -31,7 +31,7 @@ Same as Mon–Thu (no special split like Week 3 Day 5 had). Block 4 is the cross
 - Historical context where applicable
 
 ### Targets
-- From TCD §4 SLOs (do not redefine — reference)
+- From TCD Section 4 SLOs (do not redefine — reference)
 
 ### Monitoring plan
 - Dashboards (operator-level, executive-level)
@@ -60,7 +60,7 @@ For greenfield, the discipline is to **state the assumption** rather than skip t
 
 ### What to baseline
 
-For each TCD §4 SLO, capture the corresponding baseline:
+For each TCD Section 4 SLO, capture the corresponding baseline:
 
 - **Latency:** what the system does today (or expects to)
 - **Availability:** what the system has done historically
@@ -123,9 +123,9 @@ For each AI-assisted summary used in any week's artifact:
 | # | Summary purpose | Prompt (link) | Source data | Validation |
 |---|-----------------|---------------|-------------|------------|
 | 1 | Strategy brief pain themes (Wk 2 D4) | Pattern Lib #3 | 14 tickets + 3 interviews | Cross-checked all citations; 1 hallucinated; cut |
-| 2 | Architecture critique (Wk 4 D1) | Pattern Lib #5 | TCD §1 stance | Adopted 2/3 objections; rejected 1 (irrelevant scenario) |
-| 3 | API contract critique (Wk 5 D3) | Pattern Lib #8 | TMD §3 | Adopted 4/5 issues; deferred 1 to v2 |
-| 4 | Cloud topology risk scan (Wk 5 D2) | Pattern Lib #7 | TMD §2 | All 3 valid; 1 added as TCD risk; 2 already known |
+| 2 | Architecture critique (Wk 4 D1) | Pattern Lib #5 | TCD Section 1 stance | Adopted 2/3 objections; rejected 1 (irrelevant scenario) |
+| 3 | API contract critique (Wk 5 D3) | Pattern Lib #8 | TMD Section 3 | Adopted 4/5 issues; deferred 1 to v2 |
+| 4 | Cloud topology risk scan (Wk 5 D2) | Pattern Lib #7 | TMD Section 2 | All 3 valid; 1 added as TCD risk; 2 already known |
 ```
 
 The log is **cumulative across weeks** — the team should know which AI outputs have been validated and which are pending.
@@ -148,7 +148,7 @@ The log is **cumulative across weeks** — the team should know which AI outputs
 Set baselines for each SLO + key operational signal.
 
 ### Setup
-Each triad needs the TCD §4 SLOs, the Week-2 Tier Sheet, and the baseline template. AI optional.
+Each triad needs the TCD Section 4 SLOs, the Week-2 Tier Sheet, and the baseline template. AI optional.
 
 ### Triad protocol
 
@@ -166,7 +166,7 @@ Each triad needs the TCD §4 SLOs, the Week-2 Tier Sheet, and the baseline templ
 
 ### Deliverable
 
-A baselines table covering every TCD §4 SLO and 2–3 Tier Sheet operational signals, each with a value, source/assumption, and a verify-at date.
+A baselines table covering every TCD Section 4 SLO and 2–3 Tier Sheet operational signals, each with a value, source/assumption, and a verify-at date.
 
 ### Worked example — FieldPulse reconcile
 
@@ -174,7 +174,7 @@ A baselines table covering every TCD §4 SLO and 2–3 Tier Sheet operational si
 | Metric | Baseline | Source / assumption | Verify at |
 |--------|----------|----------------------|-----------|
 | Reconcile-flow p95 latency | Expected ~700ms | Sequence diagram totals + 30% buffer | Launch + 7d |
-| Reconcile-flow availability | Expected 99.5% (= TCD §4 target) | Inherits monolith availability | Launch + 30d |
+| Reconcile-flow availability | Expected 99.5% (= TCD Section 4 target) | Inherits monolith availability | Launch + 30d |
 | Reconcile-submits/day | Expected 200 | Dispatcher count × 1 reconcile per shift | Launch + 7d |
 | Submission error rate | Expected < 2% | Comparable features in this app run < 2% | Launch + 14d |
 | 5xx rate | Expected < 0.5% | Inherits monolith baseline | Launch + 7d |
@@ -268,9 +268,9 @@ Each triad needs the cumulative AI provenance notes from Weeks 2, 4, and 5, the 
 ```markdown
 | # | Summary purpose | Prompt | Source | Validation |
 |---|-----------------|--------|--------|------------|
-| 5 | Sequence diagram critique (Wk 5 D4) | Pattern Lib #11 | TMD §4 | Adopted 2/3 issues; AI flagged missing audit-publish on weird path — added |
-| 6 | API critique (Wk 5 D3) | Pattern Lib #8 | TMD §3 | Spot-checked: AI pointed to inconsistent error format; verified vs §3; fixed |
-| 7 | Cloud risk scan (Wk 5 D2) | Pattern Lib #7 | TMD §2 | All 3 valid; 1 added to TCD §5 trade-offs; 2 already in stakeholder matrix |
+| 5 | Sequence diagram critique (Wk 5 D4) | Pattern Lib #11 | TMD Section 4 | Adopted 2/3 issues; AI flagged missing audit-publish on weird path — added |
+| 6 | API critique (Wk 5 D3) | Pattern Lib #8 | TMD Section 3 | Spot-checked: AI pointed to inconsistent error format; verified vs Section 3; fixed |
+| 7 | Cloud risk scan (Wk 5 D2) | Pattern Lib #7 | TMD Section 2 | All 3 valid; 1 added to TCD Section 5 trade-offs; 2 already in stakeholder matrix |
 ```
 
 ### What "good" looks like
@@ -294,11 +294,11 @@ A cumulative AI-summary validation log covering Weeks 2–5, with honest status 
 Assemble the full TMD, cross-review with another triad, and sign off. Same Week-3 / Week-4 review pattern.
 
 ### Setup
-Instructor confirms pairings. Each triad needs the full TMD §§1–5 draft and the Friday TMD rubric.
+Instructor confirms pairings. Each triad needs the full TMD Sections 1–5 draft and the Friday TMD rubric.
 
 ### Triad protocol
 
-1. **Solo read-through** (10 min). Each member reads §§1–5 and marks coherence issues.
+1. **Solo read-through** (10 min). Each member reads Sections 1–5 and marks coherence issues.
 2. **Pool issues** (5 min). De-dupe.
 3. **Cross-review** (20 min). Pair with another triad. Reviewer scores with the **Friday TMD rubric**:
 
@@ -332,12 +332,12 @@ Each triad shares:
 
 Each triad ships:
 
-- [x] **Full TMD** with §§1–5 integrated
-- [x] §1 Data model
-- [x] §2 Cloud topology + ROM cost
-- [x] §3 API contract with idempotency / versioning / errors
-- [x] §4 Three sequence diagrams (happy / sad / weird)
-- [x] §5 Performance baselines + monitoring plan + AI-validation log
+- [x] **Full TMD** with Sections 1–5 integrated
+- [x] Section 1 Data model
+- [x] Section 2 Cloud topology + ROM cost
+- [x] Section 3 API contract with idempotency / versioning / errors
+- [x] Section 4 Three sequence diagrams (happy / sad / weird)
+- [x] Section 5 Performance baselines + monitoring plan + AI-validation log
 - [x] Cross-reviewed + signed off
 - [x] Cumulative AI-validation log across Weeks 1–5
 

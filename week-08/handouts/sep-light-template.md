@@ -11,7 +11,7 @@
 3 high-power stakeholders. Power × Interest placement + RACI for 1 decision (the most consequential).
 
 ## 2. 1 Trade-off brief
-1 page. Pick one TCD-light §5 trade-off; brief for the relevant stakeholder.
+1 page. Pick one TCD-light Section 5 trade-off; brief for the relevant stakeholder.
 
 ## 3. 1 Simulated negotiation outcome
 For one of the 5-most-consequential asks, document:
@@ -24,7 +24,7 @@ For one of the 5-most-consequential asks, document:
 
 ### Build order (20 min)
 1. **5 min** — 3 stakeholders + RACI for the most consequential decision.
-2. **10 min** — 1 trade-off brief (pull from TCD-light §5).
+2. **10 min** — 1 trade-off brief (pull from TCD-light Section 5).
 3. **5 min** — 1 simulated negotiation outcome.
 
 ### What "good" looks like

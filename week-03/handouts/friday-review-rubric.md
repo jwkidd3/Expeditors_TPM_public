@@ -49,4 +49,4 @@
 ## Two reviewing principles
 
 - **Score the *PRD*, not the *idea*.** A weak idea can have a strong PRD; a strong idea can have a weak PRD.
-- **Specific beats general.** "§2 is unclear" is unhelpful; "§2 doesn't say *which* dispatchers — small-shop or large-shop — and that changes scope" is a real finding.
+- **Specific beats general.** "Section 2 is unclear" is unhelpful; "Section 2 doesn't say *which* dispatchers — small-shop or large-shop — and that changes scope" is a real finding.

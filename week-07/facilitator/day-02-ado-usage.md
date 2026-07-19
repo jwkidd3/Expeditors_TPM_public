@@ -6,7 +6,7 @@
 
 - [ ] Confirm every triad has access to a sandbox or live ADO project (instructor-provisioned ahead of class).
 - [ ] If ADO isn't available, run today as **"ADO concepts on paper"** — same template, captured in markdown. Coverage is similar; hands-on practice is the loss.
-- [ ] Triads need their PRD (especially §6 AC), TCD §5 trade-offs, TMD §3 API, and SEP §5 outcomes log. The backlog is built from these.
+- [ ] Triads need their PRD (especially Section 6 AC), TCD Section 5 trade-offs, TMD Section 3 API, and SEP Section 5 outcomes log. The backlog is built from these.
 
 ## End-of-day reflection prompts
 

@@ -5,7 +5,7 @@ Participant-facing handouts extracted from the Week 7 activity packets (Delivery
 | Handout | Day · Activity | What it is |
 |---|---|---|
 | `output-outcome-sort-pack` | Day 1 · A1 | 12 statements to sort as Output / Outcome / Both / Neither — no answer key |
-| `outcome-map-template` | Day 1 · A2 | Fill-in DP §1 outcome map (primary / supporting / counter / not-claims) |
+| `outcome-map-template` | Day 1 · A2 | Fill-in DP Section 1 outcome map (primary / supporting / counter / not-claims) |
 | `agile-values-tradeoff-scenarios` | Day 1 · A3 | Four trade-offs to run through the Agile Manifesto values |
 | `outcome-map-cross-review-questions` | Day 1 · A4 | Four reviewer questions + optional AI sanity-check prompt |
 | `ado-vocabulary-card` | Day 2 | 12 Azure DevOps terms with the TPM-relevant signal for each |

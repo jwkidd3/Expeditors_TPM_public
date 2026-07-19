@@ -56,4 +56,4 @@ Each card is one candidate. None is "the right answer" — the discipline of cho
 
 ### After you score these
 
-Total each card across the four dimensions on the **Four-Dimension Scoring Sheet**, pick one, and write the **"Why this one" memo**. The memo seeds §1 (Context) of your PRD.
+Total each card across the four dimensions on the **Four-Dimension Scoring Sheet**, pick one, and write the **"Why this one" memo**. The memo seeds Section 1 (Context) of your PRD.

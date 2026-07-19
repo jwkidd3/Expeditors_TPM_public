@@ -1,6 +1,6 @@
 # Database Vocabulary Card
 
-> **Day 1 handout.** The nine data-modeling terms to keep straight while you draft TMD §1 — with the TPM-relevant signal each one carries.
+> **Day 1 handout.** The nine data-modeling terms to keep straight while you draft TMD Section 1 — with the TPM-relevant signal each one carries.
 
 Use this as your reference while you model entities, keys, and indexes. You don't have to *implement* any of these — you have to name them clearly enough that an engineer can.
 

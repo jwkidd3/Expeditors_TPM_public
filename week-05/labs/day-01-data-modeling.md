@@ -1,17 +1,17 @@
 # Day 1 — Database Structures & Data Logic
 
-> **Activity packet** for participant triads. Today's job: model the **entities** the feature reads, writes, and indexes; defend the **storage choice**; and draft TMD §1.
+> **Activity packet** for participant triads. Today's job: model the **entities** the feature reads, writes, and indexes; defend the **storage choice**; and draft TMD Section 1.
 
 ## Where we are in the week
 
-The TCD's component diagram showed *that* there's a datastore. This week's work names *what's in it* and *how it's shaped*. By 16:00, every triad has TMD §1 — a data model an engineer could begin coding against.
+The TCD's component diagram showed *that* there's a datastore. This week's work names *what's in it* and *how it's shaped*. By 16:00, every triad has TMD Section 1 — a data model an engineer could begin coding against.
 
 ## Inputs
 
-- TCD §2 (component diagram + integrations)
-- TCD §3 (security/compliance — informs encryption + key handling at rest)
-- TCD §4 (SLOs — latency targets affect index choices and read-vs-write split)
-- PRD §6 AC and §7 NFRs (data-shape implications)
+- TCD Section 2 (component diagram + integrations)
+- TCD Section 3 (security/compliance — informs encryption + key handling at rest)
+- TCD Section 4 (SLOs — latency targets affect index choices and read-vs-write split)
+- PRD Section 6 AC and Section 7 NFRs (data-shape implications)
 
 ---
 
@@ -66,11 +66,11 @@ If your data model can't be defended *by the queries that drive it*, it's wrong.
 Surface every read and write the feature needs *before* drawing the schema.
 
 ### Setup
-Each triad needs the PRD §5 sketch, PRD §6 AC list, and the Access Pattern Sheet template. AI optional.
+Each triad needs the PRD Section 5 sketch, PRD Section 6 AC list, and the Access Pattern Sheet template. AI optional.
 
 ### Triad protocol
 
-1. **Re-read the PRD §5 sketch** (5 min). What does the user do? What screens load? What submits send?
+1. **Re-read the PRD Section 5 sketch** (5 min). What does the user do? What screens load? What submits send?
 2. **List read patterns** (15 min). For each screen / API call:
     - What data is shown?
     - What filters / sorts / pagination apply?
@@ -183,7 +183,7 @@ Entity-model draft with PKs, indexes referencing access patterns by number, name
 For each non-trivial design choice, surface the trade-off explicitly. Today's choices are local — schema-level — but the discipline is the same as Week 4's architectural trade-offs.
 
 ### Setup
-Each triad needs the entity model from Activity 2, TCD §4 SLOs for cross-reference, and the Week-4 trade-off template.
+Each triad needs the entity model from Activity 2, TCD Section 4 SLOs for cross-reference, and the Week-4 trade-off template.
 
 ### Three trade-offs every model encounters
 
@@ -223,7 +223,7 @@ Each triad needs the entity model from Activity 2, TCD §4 SLOs for cross-refere
 
 1. **Identify 3 trade-off points** in your model (15 min). For each: what was the choice, what was the alternative?
 2. **Use the Week-4 trade-off template** (15 min). Same Option A/B/Choice/Why/Cost/Trigger.
-3. **Cross-check against TCD §4 SLOs** (10 min). Does any choice push against a latency target? If yes, name it.
+3. **Cross-check against TCD Section 4 SLOs** (10 min). Does any choice push against a latency target? If yes, name it.
 
 ### What "good" looks like
 
@@ -233,7 +233,7 @@ Each triad needs the entity model from Activity 2, TCD §4 SLOs for cross-refere
 
 ### Deliverable
 
-3 schema-level trade-offs using the Week-4 template, at least one cross-referencing a TCD §4 SLO.
+3 schema-level trade-offs using the Week-4 template, at least one cross-referencing a TCD Section 4 SLO.
 
 ---
 
@@ -242,7 +242,7 @@ Each triad needs the entity model from Activity 2, TCD §4 SLOs for cross-refere
 **Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Use AI as a critic. Update §1. Add the provenance log entry.
+Use AI as a critic. Update Section 1. Add the provenance log entry.
 
 ### Setup
 Each triad needs the entity model, the Access Pattern Sheet, and the trade-off list. AI required; log provenance.
@@ -276,14 +276,14 @@ schema? List 3, ranked by likelihood of mattering within 6 months.
 ### Triad protocol
 
 1. **Run Prompt A** (10 min). Adopt / defer / reject each issue.
-2. **Run Prompt B** (10 min). Decide which deferred queries to capture in §11 (out-of-scope follow-ups).
-3. **Update §1** (15 min). Final entity model + indexes + trade-offs.
+2. **Run Prompt B** (10 min). Decide which deferred queries to capture in Section 11 (out-of-scope follow-ups).
+3. **Update Section 1** (15 min). Final entity model + indexes + trade-offs.
 4. **Provenance note** (5 min). What prompts, what was adopted/rejected.
 5. **AI-prose check** (5 min). Rewrite anything generic in your own voice.
 
 ### Deliverable
 
-Polished TMD §1 (entity model + trade-offs) incorporating adopted AI findings, plus a provenance note logging prompts, adoptions, and rejections.
+Polished TMD Section 1 (entity model + trade-offs) incorporating adopted AI findings, plus a provenance note logging prompts, adoptions, and rejections.
 
 ### Wrap (last 15 min)
 
@@ -303,4 +303,4 @@ Each triad ends Day 1 with:
 - [x] **Entity model** with PKs, indexes, relationships, invariants
 - [x] At least 3 **explicit trade-offs** in the model
 - [x] **Provenance log** entry for AI prompts used today
-- [x] TMD §1 drafted
+- [x] TMD Section 1 drafted

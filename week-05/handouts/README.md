@@ -2,9 +2,9 @@
 
 Participant-facing reference cards and fillable templates for Week 5. Each is extracted from a daily lab so triads have the card in hand rather than buried in the activity packet. Distribute the day's set before that day.
 
-Week 5 produces the **TMD** (Technical Modeling Document), §§1–5, one section per day, integrated and signed off on Friday.
+Week 5 produces the **TMD** (Technical Modeling Document), Sections 1–5, one section per day, integrated and signed off on Friday.
 
-## Day 1 — Database Structures & Data Logic (TMD §1)
+## Day 1 — Database Structures & Data Logic (TMD Section 1)
 
 | Handout | What it is |
 |---|---|
@@ -14,7 +14,7 @@ Week 5 produces the **TMD** (Technical Modeling Document), §§1–5, one sectio
 | `entity-model-template` | Per-entity block: fields, keys, indexes, relationships, invariants (template) |
 | `trade-off-template` | Option A/B / Choice / Why / Cost / Trigger — carried from Week 4 (template) |
 
-## Day 2 — Cloud Architecture & Infrastructure (TMD §2)
+## Day 2 — Cloud Architecture & Infrastructure (TMD Section 2)
 
 | Handout | What it is |
 |---|---|
@@ -23,7 +23,7 @@ Week 5 produces the **TMD** (Technical Modeling Document), §§1–5, one sectio
 | `multi-tenancy-spectrum` | The four tenancy stances and how to choose (reference) |
 | `rom-cost-table` | Rough-order-of-magnitude cost table + reference bands (template) |
 
-## Day 3 — REST & SOAP API Fundamentals (TMD §3)
+## Day 3 — REST & SOAP API Fundamentals (TMD Section 3)
 
 | Handout | What it is |
 |---|---|
@@ -34,13 +34,13 @@ Week 5 produces the **TMD** (Technical Modeling Document), §§1–5, one sectio
 | `versioning-strategies` | Three strategies, the default, and a choose-and-document block (reference) |
 | `standard-error-codes` | The seven most-needed codes + standard error-body shape (reference) |
 
-## Day 4 — High-Level Technical Modeling (TMD §4)
+## Day 4 — High-Level Technical Modeling (TMD Section 4)
 
 | Handout | What it is |
 |---|---|
 | `sequence-diagram-elements-card` | Diagram elements, right-tool guidance, the three sequences needed (reference) |
 
-## Day 5 — Performance, Monitoring & AI Validation (TMD §5)
+## Day 5 — Performance, Monitoring & AI Validation (TMD Section 5)
 
 | Handout | What it is |
 |---|---|

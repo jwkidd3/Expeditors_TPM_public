@@ -1,6 +1,6 @@
 # Integration Table Template
 
-> **Day 1 · Activity 3 handout.** Begin TCD §2 by listing every system your feature depends on or extends. The **Failure handling** column forces a choice teams usually defer — make it explicit now.
+> **Day 1 · Activity 3 handout.** Begin TCD Section 2 by listing every system your feature depends on or extends. The **Failure handling** column forces a choice teams usually defer — make it explicit now.
 
 ---
 
@@ -32,7 +32,7 @@ For each integration, capture:
 
 ### Your protocol
 
-1. **List integrations** (15 min). Draw from PRD §10 plus anything you forgot.
+1. **List integrations** (15 min). Draw from PRD Section 10 plus anything you forgot.
 2. **Characterize each** (15 min). Sync/async, read/write, failure mode.
 3. **Identify the "two-way contracts"** (10 min). Which integrations require coordination with another team? Mark these — they go on the dependency owner list.
 

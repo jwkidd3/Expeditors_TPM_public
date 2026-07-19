@@ -81,7 +81,7 @@ The instructor sets the presentation order at 09:00.
 | A specific question you can answer | Answer crisply (< 90 sec) |
 | A specific question you can't answer | "Honestly, I don't know — here's what we'd do to find out" |
 | A challenge to a decision | Restate the decision; restate the trade-off; offer the revisit trigger |
-| A question about something that wasn't in scope | Acknowledge; reference §11 / DP-light "explicitly NOT" |
+| A question about something that wasn't in scope | Acknowledge; reference Section 11 / DP-light "explicitly NOT" |
 | A hostile question | Curiosity, not defense. "What concern would that addresses?" |
 
 The Q&A is part of the rubric (presentation craft). Triads who handle Q&A with curiosity, not defensiveness, score high.

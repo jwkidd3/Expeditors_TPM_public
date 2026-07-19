@@ -57,4 +57,4 @@ Then the modal opens with the first 25 tickets pre-selected
 | | | |
 | | | |
 
-> Run every generated AC through the **5-failure-mode check** before appending to §6.
+> Run every generated AC through the **5-failure-mode check** before appending to Section 6.

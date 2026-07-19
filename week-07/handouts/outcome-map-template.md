@@ -1,11 +1,11 @@
-# Outcome Map Template (DP §1)
+# Outcome Map Template (DP Section 1)
 
 > **Day 1 · Activity 2 handout.** Fill this in for your triad's feature: the outcomes it is meant to produce — not the outputs it will ship.
 
 Pull the primary outcome directly from your NS / Tier Sheet / journey map. Every outcome should have a Tier Sheet metric attached. If your primary outcome is "the feature is shipped," you have named an output — try again.
 
 ```markdown
-## DP §1 — Outcome Map
+## DP Section 1 — Outcome Map
 
 ### Primary outcome (the one we're staking the feature on)
 > <user-visible outcome statement>
@@ -24,7 +24,7 @@ For each:
 > for the wrong reasons>
 
 ### What this feature explicitly does NOT outcome on
-> <claims we are NOT making — usually pulled from PRD §3 non-goals>
+> <claims we are NOT making — usually pulled from PRD Section 3 non-goals>
 ```
 
 ---

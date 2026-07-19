@@ -1,6 +1,6 @@
 # ADO Vocabulary Card
 
-> **Day 2 handout.** The Azure DevOps terms to keep straight while you load the feature and draft DP §2 — with the TPM-relevant signal each one carries.
+> **Day 2 handout.** The Azure DevOps terms to keep straight while you load the feature and draft DP Section 2 — with the TPM-relevant signal each one carries.
 
 Use this as your reference while you build the hierarchy, populate fields, and write queries. You don't have to *administer* ADO — you have to name these clearly enough that an engineering team could pick up your backlog Monday.
 
@@ -13,7 +13,7 @@ Use this as your reference while you build the hierarchy, populate fields, and w
 | **State** | New / Active / Resolved / Closed (varies by template) | Workflow status |
 | **Tags** | Free-form labels | Cross-cutting filters (`security-review`, `customer-XYZ`) |
 | **Story points** | Effort estimate (typically Fibonacci: 1, 2, 3, 5, 8, 13) | Velocity input |
-| **Acceptance Criteria** | The criteria from PRD §6, attached to the work item | Definition of done |
+| **Acceptance Criteria** | The criteria from PRD Section 6, attached to the work item | Definition of done |
 | **Query (WIQL)** | A saved filter | "Show me everything in this state / iteration / tag" |
 | **Board** | Kanban view of work items | Visual flow |
 | **Backlog** | Prioritized list view | Planning view |

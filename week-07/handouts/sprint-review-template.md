@@ -1,4 +1,4 @@
-# Sprint-Review Template (DP §3)
+# Sprint-Review Template (DP Section 3)
 
 > **Day 3 · Activity 2 handout.** Design the 2-week sprint review where outputs *and* outcomes are inspected together — not just velocity.
 

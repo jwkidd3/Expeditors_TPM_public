@@ -1,6 +1,6 @@
 # Scope-Creep Ask Cards — Round 2 (Scope Negotiation)
 
-> **Day 5 · Round 2 handout.** For the triad **playing the non-technical stakeholder**. You arrive with a scope-creep ask the author triad must handle without breaking their PRD. The author defends PRD §3 non-goals and §11 out-of-scope follow-ups — deciding whether to hold the line, cut existing scope, offer a phased plan, or escalate.
+> **Day 5 · Round 2 handout.** For the triad **playing the non-technical stakeholder**. You arrive with a scope-creep ask the author triad must handle without breaking their PRD. The author defends PRD Section 3 non-goals and Section 11 out-of-scope follow-ups — deciding whether to hold the line, cut existing scope, offer a phased plan, or escalate.
 
 **Public surface (both triads may read):** the role and the headline ask.
 **Hidden (roleplayer only):** the real driver, your fallback, and how immovable you are. Don't reveal the Hidden section — make the author *discover* which trade-space axis you actually care about.
@@ -29,7 +29,7 @@ All asks are grounded in the FieldPulse "End-of-Day Reconcile" world.
 - Headline ask: *"Our **top-3 customer** just asked for **tablet support** in Reconcile. They've made it a **renewal condition**."*
 
 **Hidden — roleplayer only**
-- Tablet support is already a PRD §11 out-of-scope follow-up (deferred to v2). The account knows this is a stretch — the "renewal condition" is real but **negotiable**.
+- Tablet support is already a PRD Section 11 out-of-scope follow-up (deferred to v2). The account knows this is a stretch — the "renewal condition" is real but **negotiable**.
 - What you actually need is something to bring back to the customer that isn't "no." A committed v2 date, or a written phased commitment, defuses it.
 - Push the author on **time** (can v2 come sooner?) before you accept a hold-the-line "no." If they hold, they must give you the *reasoning and the date* to relay — a bare no fails.
 
@@ -61,7 +61,7 @@ All asks are grounded in the FieldPulse "End-of-Day Reconcile" world.
 
 When the ask lands, you have four honest moves:
 
-1. **Hold the line** — and capture the *no with reasoning* (defend the §3 non-goal).
+1. **Hold the line** — and capture the *no with reasoning* (defend the Section 3 non-goal).
 2. **Cut existing scope** to add the new ask (name what you'd drop).
 3. **Offer a phased plan** — thin version now, full version on a committed date.
 4. **Escalate** — because the stakeholder has authority you'd defer to (but escalate *with* a trade-space framing, not as a surrender).

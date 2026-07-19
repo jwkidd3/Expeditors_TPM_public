@@ -34,7 +34,7 @@
 
 - Read aloud one section per triad that the cohort should learn from.
 - Surface the **most common AI-validation gap** — coach the cohort to notice it next time.
-- Preview Week 6: the **stakeholder sign-off matrix** from TCD §6 becomes the negotiation list. Each triad picks 1–2 constraints to actively negotiate.
+- Preview Week 6: the **stakeholder sign-off matrix** from TCD Section 6 becomes the negotiation list. Each triad picks 1–2 constraints to actively negotiate.
 
 ## End-of-week reflection prompts
 

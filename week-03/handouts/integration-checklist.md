@@ -8,13 +8,13 @@
 
 | Check | Pass criterion | ✓ |
 |-------|----------------|:-:|
-| **§1 → §2 flow** | Reader is motivated to keep reading | |
-| **§3 goals tied to §8 metrics** | Each goal references a metric; each metric references a goal | |
-| **§5 sketch consistent with §6 AC** | Each happy-path AC corresponds to a step in the sketch | |
-| **§6 AC vs §7 NFRs** | NFRs cover what AC don't (system *properties* vs system *behavior*) | |
-| **§7 NFRs reference §8 observability** | An observability NFR enables every Tier Sheet metric | |
-| **§4 scope-out feeds §11 follow-ups** | Items deliberately left out appear in the follow-ups list | |
-| **§9 risks named, owned, mitigated** | No "no risks" | |
+| **Section 1 → Section 2 flow** | Reader is motivated to keep reading | |
+| **Section 3 goals tied to Section 8 metrics** | Each goal references a metric; each metric references a goal | |
+| **Section 5 sketch consistent with Section 6 AC** | Each happy-path AC corresponds to a step in the sketch | |
+| **Section 6 AC vs Section 7 NFRs** | NFRs cover what AC don't (system *properties* vs system *behavior*) | |
+| **Section 7 NFRs reference Section 8 observability** | An observability NFR enables every Tier Sheet metric | |
+| **Section 4 scope-out feeds Section 11 follow-ups** | Items deliberately left out appear in the follow-ups list | |
+| **Section 9 risks named, owned, mitigated** | No "no risks" | |
 | **No AI-generic prose** | Consistent triad voice; no fortune-cookie sentences | |
 
 ---

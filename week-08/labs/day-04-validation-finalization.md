@@ -33,13 +33,13 @@ Technical logic validation = **walk every cross-artifact reference** and verify 
 
 | # | Check | Where to look |
 |---|-------|---------------|
-| 1 | Outcome map → metrics → SLOs aligned | DP-light §1, PRD-light §7, TCD-light §4 |
-| 2 | Data model supports the API contract | TMD-light §1 ↔ §3 |
-| 3 | API contract supports the AC | TMD-light §3 ↔ PRD-light §6 |
-| 4 | SLO budget fits the sequence diagram | TCD-light §4 ↔ TMD-light §4 |
-| 5 | NFRs don't contradict the architecture stance | PRD-light §7 ↔ TCD-light §1 |
-| 6 | Trade-offs don't contradict each other | TCD-light §5 |
-| 7 | Stakeholder sign-off captures all constraints | TCD-light §6 |
+| 1 | Outcome map → metrics → SLOs aligned | DP-light Section 1, PRD-light Section 7, TCD-light Section 4 |
+| 2 | Data model supports the API contract | TMD-light Section 1 ↔ Section 3 |
+| 3 | API contract supports the AC | TMD-light Section 3 ↔ PRD-light Section 6 |
+| 4 | SLO budget fits the sequence diagram | TCD-light Section 4 ↔ TMD-light Section 4 |
+| 5 | NFRs don't contradict the architecture stance | PRD-light Section 7 ↔ TCD-light Section 1 |
+| 6 | Trade-offs don't contradict each other | TCD-light Section 5 |
+| 7 | Stakeholder sign-off captures all constraints | TCD-light Section 6 |
 
 A triad that passes all 7 has a coherent artifact set. Most fail 2–3 on first pass — that's expected; that's why this day exists.
 
@@ -100,7 +100,7 @@ Compressed Weeks 6 + 7 in 40 minutes. SEP-light captures stakeholder + 1 trade-o
 3 high-power stakeholders. Power × Interest placement + RACI for 1 decision (the most consequential).
 
 ## 2. 1 Trade-off brief
-1 page. Pick one TCD-light §5 trade-off; brief for the relevant stakeholder.
+1 page. Pick one TCD-light Section 5 trade-off; brief for the relevant stakeholder.
 
 ## 3. 1 Simulated negotiation outcome
 For one of the 5-most-consequential asks, document:
@@ -118,7 +118,7 @@ For one of the 5-most-consequential asks, document:
 Primary outcome + 2 supporting outcomes + 1 counter-outcome.
 
 ## 2. Backlog skeleton
-1 Epic + 1 Feature + 5 User Stories (top-priority subset of PRD-light §6).
+1 Epic + 1 Feature + 5 User Stories (top-priority subset of PRD-light Section 6).
 
 ## 3. Tracking plan (compressed)
 3 leading indicators. 1 monthly review cadence.
@@ -134,7 +134,7 @@ Hypothesis / test / success criterion for one queue.
 
 1. **SEP-light** (20 min):
     - 5 min: 3 stakeholders + RACI for the most consequential decision
-    - 10 min: 1 trade-off brief (pull from TCD-light §5)
+    - 10 min: 1 trade-off brief (pull from TCD-light Section 5)
     - 5 min: 1 simulated negotiation outcome
 2. **DP-light** (20 min):
     - 5 min: outcome map (primary + 2 supporting + counter)
@@ -171,7 +171,7 @@ Read all 6 documents top-to-bottom. Catch any remaining contradictions. Add forw
 
 For every cross-artifact reference, confirm:
 
-- The reference is **specific** (cite §, not "see the TCD")
+- The reference is **specific** (cite Section, not "see the TCD")
 - The referenced section **exists** and **says what's claimed**
 - The reference **adds value** (linking provides context the reader needs)
 

@@ -4,12 +4,12 @@
 
 ## Where we are in the week
 
-§§1–7 are drafted. Today adds:
+Sections 1–7 are drafted. Today adds:
 
-- **§8 Metrics & validation** — how we'll know it worked in 30 days
-- **§9 Risks & open questions** — named honestly
-- **§10 Dependencies** — other teams, systems, decisions, data
-- **§11 Out-of-scope follow-ups** — what this PRD acknowledges but won't ship
+- **Section 8 Metrics & validation** — how we'll know it worked in 30 days
+- **Section 9 Risks & open questions** — named honestly
+- **Section 10 Dependencies** — other teams, systems, decisions, data
+- **Section 11 Out-of-scope follow-ups** — what this PRD acknowledges but won't ship
 
 And then the **integration pass**: read the whole PRD top-to-bottom, fix incoherences, lock a version for tomorrow's review.
 
@@ -31,9 +31,9 @@ What's not: ChatGPT, Claude, Copilot, AI features built into your editor (turn t
 Connect the PRD to the **Tier Sheet from Week 2 Day 1** and the **NS from Week 2 Day 2**. This section is what Week 7's Agile Delivery work will measure against.
 
 ### Setup
-Each triad needs the Week-2 Tier Sheet, the NS Defense Card, and the §8 template. No AI.
+Each triad needs the Week-2 Tier Sheet, the NS Defense Card, and the Section 8 template. No AI.
 
-### What §8 contains
+### What Section 8 contains
 
 ```markdown
 ## 8. Metrics & validation
@@ -79,7 +79,7 @@ We'll consider this feature successful if [primary metric] moves
 
 ### Deliverable
 
-§8 appended to the PRD: one primary metric, one counter-metric, up to three secondaries, and a four-checkpoint validation plan.
+Section 8 appended to the PRD: one primary metric, one counter-metric, up to three secondaries, and a four-checkpoint validation plan.
 
 ---
 
@@ -91,9 +91,9 @@ We'll consider this feature successful if [primary metric] moves
 Name the things that could go wrong, the things you don't yet know, and the things you'll find out only after launch. **A PRD with "no risks" is a fail.**
 
 ### Setup
-Each triad needs §§1–8 and the three-list template (Risks, Open questions, Assumptions). No AI.
+Each triad needs Sections 1–8 and the three-list template (Risks, Open questions, Assumptions). No AI.
 
-### Three lists in §9
+### Three lists in Section 9
 
 **Risks** (named, with mitigation):
 
@@ -133,7 +133,7 @@ Each triad needs §§1–8 and the three-list template (Risks, Open questions, A
 
 ### Deliverable
 
-§9 appended to the PRD: 3–4 risks with mitigations, 3–5 owned open questions with deadlines, and 2–4 named assumptions with basis.
+Section 9 appended to the PRD: 3–4 risks with mitigations, 3–5 owned open questions with deadlines, and 2–4 named assumptions with basis.
 
 ---
 
@@ -145,9 +145,9 @@ Each triad needs §§1–8 and the three-list template (Risks, Open questions, A
 Make the network of "things outside our PRD that this PRD depends on or hands off to" explicit. Most PRDs hand-wave this; mature ones tabulate.
 
 ### Setup
-Each triad needs §3 (non-goals), §4 (scope), and any cross-team context surfaced during the week. No AI.
+Each triad needs Section 3 (non-goals), Section 4 (scope), and any cross-team context surfaced during the week. No AI.
 
-### §10 Dependencies
+### Section 10 Dependencies
 
 A simple table:
 
@@ -162,7 +162,7 @@ A simple table:
 | Customer success — release messaging | <name> | Customer comms 1 week pre-launch | T-7 days | Pending |
 ```
 
-### §11 Out-of-scope follow-ups
+### Section 11 Out-of-scope follow-ups
 
 What this PRD acknowledges but won't ship:
 
@@ -179,7 +179,7 @@ What this PRD acknowledges but won't ship:
 ### Triad protocol
 
 1. **Dependencies** (20 min). Brainstorm the dependency network. For each: owner, what, when, status.
-2. **Out-of-scope follow-ups** (15 min). Pull from §3 non-goals + §4 scope-out + anything that came up this week.
+2. **Out-of-scope follow-ups** (15 min). Pull from Section 3 non-goals + Section 4 scope-out + anything that came up this week.
 3. **Status sanity check** (5 min). Have you confirmed any of these? If not, "Pending" is honest.
 
 ### What "good" looks like
@@ -190,7 +190,7 @@ What this PRD acknowledges but won't ship:
 
 ### Deliverable
 
-§§10 and 11 appended to the PRD: dependency table with named owners and honest statuses, plus a specific out-of-scope follow-up list.
+Sections 10 and 11 appended to the PRD: dependency table with named owners and honest statuses, plus a specific out-of-scope follow-up list.
 
 ---
 
@@ -202,19 +202,19 @@ What this PRD acknowledges but won't ship:
 Read the whole PRD top-to-bottom. Fix incoherences. Lock the version that goes into Friday's review.
 
 ### Setup
-Each triad needs the full §§1–11 draft, the eight-item integration checklist, and the AI-prose tell list. No AI.
+Each triad needs the full Sections 1–11 draft, the eight-item integration checklist, and the AI-prose tell list. No AI.
 
 ### The integration checklist
 
 | Check | Pass criterion |
 |-------|----------------|
-| **§1 → §2 flow** | Reader is motivated to keep reading |
-| **§3 goals tied to §8 metrics** | Each goal references a metric; each metric references a goal |
-| **§5 sketch consistent with §6 AC** | Each happy-path AC corresponds to a step in the sketch |
-| **§6 AC vs §7 NFRs** | NFRs cover what AC don't (system properties vs system behavior) |
-| **§7 NFRs reference §8 observability** | Observability NFR enables every Tier Sheet metric |
-| **§4 scope-out feeds §11 follow-ups** | Items deliberately left out appear in the follow-ups list |
-| **§9 risks named, owned, mitigated** | No "no risks" |
+| **Section 1 → Section 2 flow** | Reader is motivated to keep reading |
+| **Section 3 goals tied to Section 8 metrics** | Each goal references a metric; each metric references a goal |
+| **Section 5 sketch consistent with Section 6 AC** | Each happy-path AC corresponds to a step in the sketch |
+| **Section 6 AC vs Section 7 NFRs** | NFRs cover what AC don't (system properties vs system behavior) |
+| **Section 7 NFRs reference Section 8 observability** | Observability NFR enables every Tier Sheet metric |
+| **Section 4 scope-out feeds Section 11 follow-ups** | Items deliberately left out appear in the follow-ups list |
+| **Section 9 risks named, owned, mitigated** | No "no risks" |
 | **No AI-generic prose** | Voice is consistent triad voice; no fortune-cookie sentences |
 
 ### Triad protocol
@@ -254,10 +254,10 @@ Each triad shares:
 
 Each triad ships into Friday's review:
 
-- [x] **Status: In review** PRD with §§1–11 complete
-- [x] §8 Metrics with primary, counter, secondary, validation plan
-- [x] §9 Risks (with mitigations) + Open Questions (with owners) + Assumptions
-- [x] §10 Dependencies table with owners
-- [x] §11 Out-of-scope follow-ups, specific
+- [x] **Status: In review** PRD with Sections 1–11 complete
+- [x] Section 8 Metrics with primary, counter, secondary, validation plan
+- [x] Section 9 Risks (with mitigations) + Open Questions (with owners) + Assumptions
+- [x] Section 10 Dependencies table with owners
+- [x] Section 11 Out-of-scope follow-ups, specific
 - [x] Integration check passed; no AI-generic prose
 - [x] A copy saved as "v0 — for Friday"

@@ -4,13 +4,13 @@
 
 ## Where we are in the week
 
-The week opens by separating the muscle of **delivery** from the muscle of **outputs**. Most teams ship work; few teams clearly ship outcomes. Today builds the outcome map (DP §1), and uses the Agile Manifesto as the decision-frame underneath it.
+The week opens by separating the muscle of **delivery** from the muscle of **outputs**. Most teams ship work; few teams clearly ship outcomes. Today builds the outcome map (DP Section 1), and uses the Agile Manifesto as the decision-frame underneath it.
 
 ## Inputs
 
 - The full sibling artifact set: PRD / TCD / TMD / SEP
 - The triad's NS Defense Card and Tier Sheet (Week 2)
-- The negotiated outcomes log from SEP §5 (Week 6 Day 5)
+- The negotiated outcomes log from SEP Section 5 (Week 6 Day 5)
 
 ---
 
@@ -114,7 +114,7 @@ For the triad's feature, name the outcomes it's meant to produce. Each gets pull
 ### The outcome map template
 
 ```markdown
-## DP §1 — Outcome Map
+## DP Section 1 — Outcome Map
 
 ### Primary outcome (the one we're staking the feature on)
 > <user-visible outcome statement>
@@ -133,7 +133,7 @@ For each:
 > for the wrong reasons>
 
 ### What this feature explicitly does NOT outcome on
-> <claims we are NOT making — usually pulled from PRD §3 non-goals>
+> <claims we are NOT making — usually pulled from PRD Section 3 non-goals>
 ```
 
 ### Triad protocol
@@ -257,4 +257,4 @@ Each triad ends Day 1 with:
 - [x] Trade-off thinking grounded in Manifesto values
 - [x] Cross-reviewed
 - [x] AI provenance entry
-- [x] DP §1 drafted
+- [x] DP Section 1 drafted

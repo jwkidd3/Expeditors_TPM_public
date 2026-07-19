@@ -14,7 +14,7 @@
 **Cues:**
 
 - Watch for triads who skip the named invariant on the weird path. It's the senior signal.
-- If a triad puts implementation in §3 (e.g., "use Redis"), redirect to behavior, not implementation.
+- If a triad puts implementation in Section 3 (e.g., "use Redis"), redirect to behavior, not implementation.
 
 ## Activity 3 — Run the 5-Prompt AI Spec Sequence
 

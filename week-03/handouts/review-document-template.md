@@ -30,27 +30,27 @@
 
 For each: cite the section / line, name the problem, propose the fix.
 
-1. **§ ___ — <short label>**
+1. **Section ___ — <short label>**
    - What we observed:
    - Why it matters:
    - Suggested fix:
 
-2. **§ ___ — <short label>**
+2. **Section ___ — <short label>**
    - What we observed:
    - Why it matters:
    - Suggested fix:
 
-3. **§ ___ — <short label>**
+3. **Section ___ — <short label>**
    - What we observed:
    - Why it matters:
    - Suggested fix:
 
-4. **§ ___ — <short label>**
+4. **Section ___ — <short label>**
    - What we observed:
    - Why it matters:
    - Suggested fix:
 
-5. **§ ___ — <short label>**
+5. **Section ___ — <short label>**
    - What we observed:
    - Why it matters:
    - Suggested fix:
@@ -63,7 +63,7 @@ For each: cite the section / line, name the problem, propose the fix.
 
 ## What good reviewing looks like
 
-- **Specific beats general.** Cite the section. "§2 is unclear" is bad; "§2 doesn't say *which* dispatchers" is good.
+- **Specific beats general.** Cite the section. "Section 2 is unclear" is bad; "Section 2 doesn't say *which* dispatchers" is good.
 - **Suggest a fix.** A reviewer who only finds problems is half-doing the job. If you'd "make it more specific," write the specific version yourself.
 - **Three strengths is required** — honest praise builds the trust that lets the harder feedback land.
-- **Read order:** §§1–5 first (Problem clarity, Strategy linkage), then §§6–7 (AC testability, NFR completeness), then §§8–11 (Risk honesty, metric/goal consistency, dependency owners).
+- **Read order:** Sections 1–5 first (Problem clarity, Strategy linkage), then Sections 6–7 (AC testability, NFR completeness), then Sections 8–11 (Risk honesty, metric/goal consistency, dependency owners).

@@ -17,13 +17,13 @@
 
 | # | Check | Where to look |
 |---|-------|---------------|
-| 1 | Outcome map → metrics → SLOs aligned | DP-light §1, PRD-light §7, TCD-light §4 |
-| 2 | Data model supports the API contract | TMD-light §1 ↔ §3 |
-| 3 | API contract supports the AC | TMD-light §3 ↔ PRD-light §6 |
-| 4 | SLO budget fits the sequence diagram | TCD-light §4 ↔ TMD-light §4 |
-| 5 | NFRs don't contradict the architecture stance | PRD-light §7 ↔ TCD-light §1 |
-| 6 | Trade-offs don't contradict each other | TCD-light §5 |
-| 7 | Stakeholder sign-off captures all constraints | TCD-light §6 |
+| 1 | Outcome map → metrics → SLOs aligned | DP-light Section 1, PRD-light Section 7, TCD-light Section 4 |
+| 2 | Data model supports the API contract | TMD-light Section 1 ↔ Section 3 |
+| 3 | API contract supports the AC | TMD-light Section 3 ↔ PRD-light Section 6 |
+| 4 | SLO budget fits the sequence diagram | TCD-light Section 4 ↔ TMD-light Section 4 |
+| 5 | NFRs don't contradict the architecture stance | PRD-light Section 7 ↔ TCD-light Section 1 |
+| 6 | Trade-offs don't contradict each other | TCD-light Section 5 |
+| 7 | Stakeholder sign-off captures all constraints | TCD-light Section 6 |
 
 For each check: pull **both sides**, compare, and if they disagree — decide to tighten the artifact (usually the answer), adjust the SLO/NFR only if evidence demands, or mark it a known gap to call out in the presentation.
 

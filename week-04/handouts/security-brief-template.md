@@ -12,7 +12,7 @@
 - …
 - …
 
-## Data flow (link to TCD §2)
+## Data flow (link to TCD Section 2)
 [Reference the Context/Container diagrams and the data-flow sketch]
 
 ## Top 5 threats (from STRIDE pass)

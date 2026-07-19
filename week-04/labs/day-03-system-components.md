@@ -4,16 +4,16 @@
 
 ## Where we are in the week
 
-Day 1 produced the architecture stance + integration table. Day 2 produced the threat model + revised security NFRs. Today produces **TCD §2** (now upgraded with a real diagram) and supports §3 by clarifying the security boundaries.
+Day 1 produced the architecture stance + integration table. Day 2 produced the threat model + revised security NFRs. Today produces **TCD Section 2** (now upgraded with a real diagram) and supports Section 3 by clarifying the security boundaries.
 
 By 16:00, every triad has two C4 diagrams ready to walk through with an architect.
 
 ## Inputs
 
-- TCD §§1–3
+- TCD Sections 1–3
 - The integration table (Day 1)
 - The data-flow sketch (Day 2 STRIDE pass)
-- The PRD's §5 solution sketch and §10 dependencies
+- The PRD's Section 5 solution sketch and Section 10 dependencies
 
 ---
 
@@ -228,10 +228,10 @@ Annotated diagrams with trust boundaries marked, a failure trace recorded, and 1
 **Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Use AI as a critic to surface what a senior architect would push back on. Update the diagram and TCD §2.
+Use AI as a critic to surface what a senior architect would push back on. Update the diagram and TCD Section 2.
 
 ### Setup
-Each triad needs both diagrams in text form (for prompt input), the TCD §1 stance, and the two prompts. AI required; log provenance.
+Each triad needs both diagrams in text form (for prompt input), the TCD Section 1 stance, and the two prompts. AI required; log provenance.
 
 ### The two prompts
 
@@ -241,7 +241,7 @@ Each triad needs both diagrams in text form (for prompt input), the TCD §1 stan
 Role: Principal architect reviewing a feature's C4 Container diagram.
 Context: <description of the diagram in plain text:
   containers + their tech + arrows + protocols + who owns each>
-Stance: <copy from TCD §1>
+Stance: <copy from TCD Section 1>
 Task: Identify the top 3 issues in the diagram or the architectural stance
       it implies. For each, name the specific scenario where the issue would matter.
 Constraints:
@@ -273,7 +273,7 @@ Format: 5 numbered questions, each with the concern behind it.
 
 ### Deliverable
 
-Polished Context + Container diagrams with legend, trust boundaries, stakeholder-question list, and AI-prompt provenance note appended to TCD §2.
+Polished Context + Container diagrams with legend, trust boundaries, stakeholder-question list, and AI-prompt provenance note appended to TCD Section 2.
 
 ### Wrap (last 15 min)
 
@@ -294,4 +294,4 @@ Each triad ends Day 3 with:
 - [x] **Trust boundary** marked
 - [x] **Failure-trace finding** integrated
 - [x] AI-prompt provenance note for today
-- [x] TCD §2 updated to reference the diagrams
+- [x] TCD Section 2 updated to reference the diagrams

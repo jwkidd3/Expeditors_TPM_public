@@ -45,7 +45,7 @@ Plus **5 min Q&A.** All three triad voices speak; hold the 15-min limit within 3
 | A specific question you can answer | Answer crisply (< 90 sec) |
 | A specific question you can't answer | "Honestly, I don't know — here's what we'd do to find out" |
 | A challenge to a decision | Restate the decision; restate the trade-off; offer the revisit trigger |
-| A question about something out of scope | Acknowledge; reference §11 / DP-light "explicitly NOT" |
+| A question about something out of scope | Acknowledge; reference Section 11 / DP-light "explicitly NOT" |
 | A hostile question | Curiosity, not defense: "What concern would that address?" |
 
 Q&A is part of the rubric (presentation craft). Triads who handle Q&A with **curiosity, not defensiveness**, score high.

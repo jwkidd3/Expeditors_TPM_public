@@ -1,18 +1,18 @@
 # Day 3 — Communicating Technical Trade-Offs to Non-Technical Partners
 
-> **Activity packet** for participant triads. Today's job: take **one trade-off** from your TCD §5 or TMD, translate it for a non-technical executive, and produce a 1-page brief that wins (or honestly loses) the call.
+> **Activity packet** for participant triads. Today's job: take **one trade-off** from your TCD Section 5 or TMD, translate it for a non-technical executive, and produce a 1-page brief that wins (or honestly loses) the call.
 
 ## Where we are in the week
 
-The TCD §5 has top-5 trade-offs documented. Each is named in technical terms — the right framing for an architect or eng lead. Today we **translate one** into a brief that lands with a CFO, a Customer Success lead, or an executive sponsor.
+The TCD Section 5 has top-5 trade-offs documented. Each is named in technical terms — the right framing for an architect or eng lead. Today we **translate one** into a brief that lands with a CFO, a Customer Success lead, or an executive sponsor.
 
-By 16:00, every triad has SEP §3 — a one-page trade-off brief.
+By 16:00, every triad has SEP Section 3 — a one-page trade-off brief.
 
 ## Inputs
 
-- TCD §5 (top-5 trade-offs)
-- TMD §1–§5 (data, cloud, API, sequence, baselines — sources of additional trade-offs)
-- SEP §1–§2 (stakeholder map and engagement plan — informs *which* stakeholder)
+- TCD Section 5 (top-5 trade-offs)
+- TMD Section 1–Section 5 (data, cloud, API, sequence, baselines — sources of additional trade-offs)
+- SEP Section 1–Section 2 (stakeholder map and engagement plan — informs *which* stakeholder)
 
 ---
 
@@ -77,7 +77,7 @@ We are choosing [X] over [Y] for the <feature> work, accepting [cost].
 ☐ Information we don't have
 
 ## Appendix (linked, not pasted)
-- Technical detail in TCD §5 / TMD §X
+- Technical detail in TCD Section 5 / TMD SectionX
 - Sequence diagram
 - SLO budget
 ```
@@ -123,16 +123,16 @@ For each, the triad writes the business-framing version targeting a specific sta
 **Format:** Triad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Pick one of your TCD §5 trade-offs (or a TMD trade-off) AND one stakeholder, then design the brief together.
+Pick one of your TCD Section 5 trade-offs (or a TMD trade-off) AND one stakeholder, then design the brief together.
 
 ### Triad protocol
 
-1. **Review your top-5 trade-offs** (5 min). Pull from TCD §5 + any from TMD §§1–4.
+1. **Review your top-5 trade-offs** (5 min). Pull from TCD Section 5 + any from TMD Sections 1–4.
 2. **Pick the trade-off** (10 min). Criteria:
     - It's **decision-shaped** — there's a real call to make
     - The stakeholder you'd brief has **power to approve or block**
     - Trade-off has a **non-obvious cost** that needs explaining
-3. **Pick the stakeholder** (10 min). Pull from SEP §1. Ideally a **high-power** stakeholder (HI or LI quadrant).
+3. **Pick the stakeholder** (10 min). Pull from SEP Section 1. Ideally a **high-power** stakeholder (HI or LI quadrant).
 4. **Predict 5 questions they'll ask** (15 min). Their first 5 questions; rank by likelihood.
 
 ### What "good" looks like
@@ -148,7 +148,7 @@ Pick one of your TCD §5 trade-offs (or a TMD trade-off) AND one stakeholder, th
 | Async audit write (TCD trade-off 2) | Compliance Lead | Decides if 10-sec lag is acceptable |
 | Modular monolith vs new service (TCD trade-off 1) | Architect | Decides architectural posture |
 | ticket_ids denormalization (TMD trade-off) | Eng Director | Decides if "future query may be hard" is acceptable |
-| Region/AZ active-passive vs active-active (TMD §2) | CFO + Architect | Cost + architecture together |
+| Region/AZ active-passive vs active-active (TMD Section 2) | CFO + Architect | Cost + architecture together |
 
 ---
 
@@ -208,8 +208,8 @@ visibility within < 1 second.
 ☐ Note of any contract requiring sync audit (we know of none)
 
 ## Appendix
-- Technical detail: TCD §5 trade-off 2, TMD §4 sequence diagrams
-- Latency budget: TCD §4
+- Technical detail: TCD Section 5 trade-off 2, TMD Section 4 sequence diagrams
+- Latency budget: TCD Section 4
 ```
 
 ---
@@ -247,7 +247,7 @@ Format: Numbered list — Question / Concern / Word that loses you.
 
 ### Triad action (10 min)
 
-Adopt / defer / reject. Update §3.
+Adopt / defer / reject. Update Section 3.
 
 ### Wrap (last 15 min)
 
@@ -265,7 +265,7 @@ Each triad ends Day 3 with:
 
 - [x] **One TCD/TMD trade-off** picked + stakeholder paired
 - [x] **5 predicted questions** ranked
-- [x] **One-page brief** in the SEP §3 template
+- [x] **One-page brief** in the SEP Section 3 template
 - [x] Cross-reviewed (in role) + AI-critiqued
 - [x] Provenance log entry
-- [x] SEP §3 drafted
+- [x] SEP Section 3 drafted

@@ -8,8 +8,8 @@ Week 4 opens by asking: *given the PRD's NFRs, where does this feature belong in
 
 Inputs from prior weeks:
 - Your triad's locked PRD (Week 3 deliverable)
-- The NFRs in PRD §7
-- The integration / dependency list in PRD §10
+- The NFRs in PRD Section 7
+- The integration / dependency list in PRD Section 10
 
 Output today: **Section 1 of the TCD — Architecture stance**, plus a draft of **Section 2 — Integration map** (filled in tomorrow with the threat model and Wednesday with the C4 diagram).
 
@@ -108,13 +108,13 @@ Stamped triage pack with reasoning for the two strongest "separate" cases, two s
 Run the three-question frame against your triad's locked PRD feature and draft Section 1 of the TCD.
 
 ### Setup
-Each triad needs their locked PRD (especially §10 Dependencies) and the TCD §1 template. AI optional but governed by Week-2 Day-4 provenance rules.
+Each triad needs their locked PRD (especially Section 10 Dependencies) and the TCD Section 1 template. AI optional but governed by Week-2 Day-4 provenance rules.
 
 ### Triad protocol
 
-1. **Re-read PRD §10 (Dependencies)** (5 min). Which systems does the feature touch?
+1. **Re-read PRD Section 10 (Dependencies)** (5 min). Which systems does the feature touch?
 2. **Three-question pass** (15 min). For each of the three questions, write a 2-sentence honest answer with evidence. "We don't know" is allowed and informative.
-3. **Draft the stance** (15 min). One paragraph in the TCD §1 form:
+3. **Draft the stance** (15 min). One paragraph in the TCD Section 1 form:
 
 ```markdown
 ## 1. Architecture stance
@@ -140,7 +140,7 @@ in the existing service / new microservice / hybrid>** because:
 
 ### Deliverable
 
-TCD §1 (Architecture stance) drafted: stance, three-question answers with evidence, named trade-off, and a concrete revisit trigger.
+TCD Section 1 (Architecture stance) drafted: stance, three-question answers with evidence, named trade-off, and a concrete revisit trigger.
 
 ---
 
@@ -149,10 +149,10 @@ TCD §1 (Architecture stance) drafted: stance, three-question answers with evide
 **Format:** Triad &bull; **40 min** &bull; Block 3
 
 ### Purpose
-Begin §2 of the TCD by listing the systems your feature depends on or extends. Wednesday will draw the diagram; today we list and characterize.
+Begin Section 2 of the TCD by listing the systems your feature depends on or extends. Wednesday will draw the diagram; today we list and characterize.
 
 ### Setup
-Each triad needs PRD §10 (Dependencies) and the integration table template with the five columns (System, Owner, Sync/async, R/W, Failure handling).
+Each triad needs PRD Section 10 (Dependencies) and the integration table template with the five columns (System, Owner, Sync/async, R/W, Failure handling).
 
 ### The integration table
 
@@ -169,13 +169,13 @@ The **Failure handling** column forces a choice the team often defers — make i
 
 ### Triad protocol
 
-1. **List integrations** (15 min). Draw from PRD §10 plus anything you forgot.
+1. **List integrations** (15 min). Draw from PRD Section 10 plus anything you forgot.
 2. **Characterize each** (15 min). Sync/async, read/write, failure mode.
 3. **Identify the "two-way contracts"** (10 min). Which integrations require coordination with another team? Mark these — they go on the dependency owner list.
 
 ### Deliverable
 
-TCD §2 first-pass integration table with sync/async, R/W, and named failure-handling stance per integration. Two-way contracts flagged.
+TCD Section 2 first-pass integration table with sync/async, R/W, and named failure-handling stance per integration. Two-way contracts flagged.
 
 ---
 
@@ -187,7 +187,7 @@ TCD §2 first-pass integration table with sync/async, R/W, and named failure-han
 Reintroduce AI as a research and structuring assistant — without surrendering judgment. The Week 1 prompt patterns and Week 2 Day 4 provenance discipline both apply.
 
 ### Setup
-Each triad needs the TCD §1 draft + integration table, the two Pattern Library prompts, and a fresh provenance log entry. AI is allowed and required.
+Each triad needs the TCD Section 1 draft + integration table, the two Pattern Library prompts, and a fresh provenance log entry. AI is allowed and required.
 
 ### The two AI-assisted exercises
 
@@ -197,7 +197,7 @@ Use the **Critique-hat prompt** from your Pattern Library:
 
 ```
 Role: Senior staff engineer reviewing an architecture stance.
-Context: <paste TCD §1 + integration table>
+Context: <paste TCD Section 1 + integration table>
 Task: Identify the 3 strongest objections to the stance.
 Constraints:
   - Treat the proposed approach as a starting point, not a verdict
@@ -224,12 +224,12 @@ Format: Numbered list, each item naming a category and a specific check.
 1. **Run Prompt A** (10 min). Capture the 3 objections.
 2. **Decide which objections to adopt** (10 min). For each: adopt / defer / reject — same discipline as Week 3.
 3. **Run Prompt B** (10 min). Use the answers to add 1–2 missing integrations to the table.
-4. **Update §1 + §2 with provenance** (10 min). Add a small "AI use" note: which prompts, what was adopted, what was rejected.
+4. **Update Section 1 + Section 2 with provenance** (10 min). Add a small "AI use" note: which prompts, what was adopted, what was rejected.
 5. **Sanity check** (5 min). Does any of this sound like AI-generic prose? Rewrite in your own voice.
 
 ### Deliverable
 
-Updated TCD §§1–2 incorporating adopted AI objections and added integrations, plus an AI-use note logging prompts, adoptions, and rejections.
+Updated TCD Sections 1–2 incorporating adopted AI objections and added integrations, plus an AI-use note logging prompts, adoptions, and rejections.
 
 ### Wrap (last 15 min)
 

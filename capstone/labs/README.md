@@ -45,7 +45,7 @@ The first capstone is **focused and narrow**: produce one Technical PRD against 
 
 | Day | Topic | PRD section produced |
 |---|---|---|
-| Mon | Drafting Technical PRDs | §§1–3 (context, problem, goals, scope) |
+| Mon | Drafting Technical PRDs | Sections 1–3 (context, problem, goals, scope) |
 | Tue | Granular Acceptance Criteria | 8–12 testable ACs |
 | Wed | Non-Functional Requirements | NFR across performance / security / accessibility / observability / compliance |
 | Thu | Mini-capstone PRD assembly | **Complete PRD** ready for review |

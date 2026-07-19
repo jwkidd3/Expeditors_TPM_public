@@ -1,18 +1,18 @@
 # Day 2 — System Security & Compliance
 
-> **Activity packet** for your triad. Today's job: run a **STRIDE threat-model pass** at the architecture level, translate the results into **revised security and compliance NFRs**, and add §3 of the TCD.
+> **Activity packet** for your triad. Today's job: run a **STRIDE threat-model pass** at the architecture level, translate the results into **revised security and compliance NFRs**, and add Section 3 of the TCD.
 
 ## Where we are in the week
 
-Day 1 produced TCD §§1–2 (architecture stance, integration map). Today produces §3 — the security & compliance constraints. The output supersedes the **first-draft** security NFRs in the PRD's §7.
+Day 1 produced TCD Sections 1–2 (architecture stance, integration map). Today produces Section 3 — the security & compliance constraints. The output supersedes the **first-draft** security NFRs in the PRD's Section 7.
 
 The discipline: a TPM is not the security expert. The job is to drive the right conversation with security and produce a starting threat model that the security team can validate, not start from scratch.
 
 ## Inputs
 
-- TCD §§1–2 from yesterday
-- The PRD's §7 (NFRs) — the first draft to be replaced
-- The PRD's §10 (Dependencies) — informs the data-flow boundaries
+- TCD Sections 1–2 from yesterday
+- The PRD's Section 7 (NFRs) — the first draft to be replaced
+- The PRD's Section 10 (Dependencies) — informs the data-flow boundaries
 - The triad's NS, journey map, and any compliance hints from the customer brief
 
 ---
@@ -30,7 +30,7 @@ STRIDE is a memorable taxonomy of threats:
 | **D** | **Denial of service** | Blocking legitimate use |
 | **E** | **Elevation of privilege** | Doing more than your role allows |
 
-For each integration boundary in TCD §2, the triad asks each of the 6 questions and records the threat + a mitigation.
+For each integration boundary in TCD Section 2, the triad asks each of the 6 questions and records the threat + a mitigation.
 
 ---
 
@@ -111,11 +111,11 @@ A STRIDE walk on the password-reset flow with the top-5 threats culled, each nam
 Apply the calibrated STRIDE pass to your triad's PRD feature.
 
 ### Setup
-Each triad needs yesterday's integration table, the PRD §5 sketch, and the threat template. AI optional and provenance-logged.
+Each triad needs yesterday's integration table, the PRD Section 5 sketch, and the threat template. AI optional and provenance-logged.
 
 ### Triad protocol
 
-1. **Re-draw the data flow** (10 min). Use the integration table from yesterday plus the PRD §5 sketch.
+1. **Re-draw the data flow** (10 min). Use the integration table from yesterday plus the PRD Section 5 sketch.
 2. **STRIDE walk** (20 min). Same drill: 6 questions per box and arrow.
 3. **Top-5 threats** (10 min). Document each as:
 
@@ -151,7 +151,7 @@ Top-5 threats documented with letter, scenario, likelihood/impact, specific miti
 Identify which compliance frames apply, write the constraints, and use the threat model + compliance to **rewrite the PRD's first-draft Security NFRs**.
 
 ### Setup
-Each triad needs the threat model output, the three compliance-frame cards (SOC 2 / privacy / industry), and the original PRD §7 Security & Compliance NFRs.
+Each triad needs the threat model output, the three compliance-frame cards (SOC 2 / privacy / industry), and the original PRD Section 7 Security & Compliance NFRs.
 
 ### Triad protocol — Step 1: compliance frame check
 
@@ -173,7 +173,7 @@ Example for FieldPulse reconcile:
 
 ### Triad protocol — Step 2: rewrite the security & compliance NFRs
 
-Take the threat model + compliance frame results and **revise** the PRD's §7 Security and Compliance NFRs. The original NFRs were a first draft; today's are the architecture-level version.
+Take the threat model + compliance frame results and **revise** the PRD's Section 7 Security and Compliance NFRs. The original NFRs were a first draft; today's are the architecture-level version.
 
 Each updated NFR uses the same template as Week 3 Day 3:
 
@@ -193,11 +193,11 @@ Each updated NFR uses the same template as Week 3 Day 3:
 | "Audit logging" | Specific event list (S/T/R STRIDE coverage) | SOC 2 + Repudiation threats |
 | "Encryption" | Specifies in-transit (TLS 1.2+) + at-rest (managed keys) + log redaction | Information Disclosure threats |
 
-The TCD §3 is a sibling to PRD §7 — it doesn't replace; it deepens.
+The TCD Section 3 is a sibling to PRD Section 7 — it doesn't replace; it deepens.
 
 ### Deliverable
 
-TCD §3 drafted with applicable compliance frames named and a revised Security/Compliance NFR set linking back to STRIDE findings.
+TCD Section 3 drafted with applicable compliance frames named and a revised Security/Compliance NFR set linking back to STRIDE findings.
 
 ---
 
@@ -206,10 +206,10 @@ TCD §3 drafted with applicable compliance frames named and a revised Security/C
 **Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-The TCD §3 will eventually be reviewed by the actual security team. Today the triad rehearses that conversation — what to bring, what to ask, what the security team will most likely push back on.
+The TCD Section 3 will eventually be reviewed by the actual security team. Today the triad rehearses that conversation — what to bring, what to ask, what the security team will most likely push back on.
 
 ### Setup
-Each triad needs the threat model, updated NFRs, TCD §3, and the security-brief template. AI permitted for the cross-check; log it.
+Each triad needs the threat model, updated NFRs, TCD Section 3, and the security-brief template. AI permitted for the cross-check; log it.
 
 ### Triad protocol
 
@@ -223,7 +223,7 @@ Each triad needs the threat model, updated NFRs, TCD §3, and the security-brief
 ```markdown
 # Security brief — <feature>
 ## Summary (3 bullets)
-## Data flow (link to TCD §2)
+## Data flow (link to TCD Section 2)
 ## Top 5 threats (from STRIDE pass)
 ## Open questions for security team
 ## Decisions we've already made (and their justification)
@@ -257,7 +257,7 @@ Each triad ends Day 2 with:
 
 - [x] A STRIDE walk through their feature's data flow
 - [x] **Top-5 threats** documented with mitigations and owners
-- [x] **Updated security and compliance NFRs** (replacing the PRD §7 first draft)
+- [x] **Updated security and compliance NFRs** (replacing the PRD Section 7 first draft)
 - [x] A 1-page **security brief** ready for a security-team conversation
 - [x] AI provenance note for any prompts used today
-- [x] TCD §3 drafted
+- [x] TCD Section 3 drafted

@@ -31,6 +31,6 @@
 
 - Which triad's PRD is the most coherent? They should be a positive Friday example.
 - Which triad has the most risks-without-mitigations? Coach Friday morning before reviews start.
-- Did anyone skip §11? Surface tomorrow — out-of-scope is the negotiation tool for Week 6.
+- Did anyone skip Section 11? Surface tomorrow — out-of-scope is the negotiation tool for Week 6.
 - AI use: any last detection? Address privately before Friday.
 - Friday review pairings: post on the wall by end of today.

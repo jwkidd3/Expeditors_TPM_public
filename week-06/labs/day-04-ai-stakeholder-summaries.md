@@ -1,6 +1,6 @@
 # Day 4 — AI-Augmented Stakeholder Requirement Summaries
 
-> **Activity packet** for participant triads. Today's job: use AI as a **meeting-prep assistant** — to summarize prior context, predict objections, and draft openings — with the AI-validation discipline from Week 5 Day 5 firmly in place. By 16:00, every triad has SEP §4 — a meeting-prep packet for tomorrow's Friday simulation.
+> **Activity packet** for participant triads. Today's job: use AI as a **meeting-prep assistant** — to summarize prior context, predict objections, and draft openings — with the AI-validation discipline from Week 5 Day 5 firmly in place. By 16:00, every triad has SEP Section 4 — a meeting-prep packet for tomorrow's Friday simulation.
 
 ## Where we are in the week
 
@@ -8,10 +8,10 @@ The map exists (Day 1). The plan exists (Day 2). One brief exists (Day 3). Today
 
 ## Inputs
 
-- SEP §1 (stakeholder map)
-- SEP §2 (engagement plan + 5 most consequential asks)
-- SEP §3 (the 1-page brief from yesterday)
-- TCD §6 (sign-off matrix with statuses)
+- SEP Section 1 (stakeholder map)
+- SEP Section 2 (engagement plan + 5 most consequential asks)
+- SEP Section 3 (the 1-page brief from yesterday)
+- TCD Section 6 (sign-off matrix with statuses)
 - All prior artifacts (PRD, TCD, TMD)
 
 ---
@@ -245,7 +245,7 @@ Pair triads. Each triad runs a 5-minute mock meeting opening with the other tria
 
 ### After both rounds (25 min)
 
-Each triad updates their §4 with:
+Each triad updates their Section 4 with:
 
 - The opening tweak that came from rehearsal
 - The objection that was harder than expected
@@ -255,7 +255,7 @@ Each triad updates their §4 with:
 
 ```
 Role: Negotiation coach reviewing a meeting-prep packet.
-Context: <paste the §4 packet — opening, objection map,
+Context: <paste the Section 4 packet — opening, objection map,
         non-negotiables>
 Task: Identify 3 gaps in the prep:
   1. An objection probably under-prepared
@@ -287,4 +287,4 @@ Each triad ends Day 4 with:
 - [x] **1–3 non-negotiables** with fallbacks
 - [x] Mock-meeting feedback captured
 - [x] AI provenance log entry (continuing the cumulative log from Wk 5 D5)
-- [x] SEP §4 drafted
+- [x] SEP Section 4 drafted

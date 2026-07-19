@@ -8,13 +8,13 @@
 
 - If a triad's diagram has more than 12 lifelines, push them: "is anything here repeating? can two be merged?"
 - If a triad omits the audit publish, surface it — that's a typical compliance miss.
-- The total-latency annotation at the bottom is the consistency check with TCD §4.
+- The total-latency annotation at the bottom is the consistency check with TCD Section 4.
 
 ## Activity 2 — Sad-Path Sequence
 
 **Cues:**
 
-- Sad paths that end in a generic 500 hide error semantics. Push to the specific 4xx code from TMD §3.
+- Sad paths that end in a generic 500 hide error semantics. Push to the specific 4xx code from TMD Section 3.
 - Recovery paths that read "user gets frustrated" are dead-ends; force a recoverable action.
 
 ## Activity 3 — Weird-Path Sequence

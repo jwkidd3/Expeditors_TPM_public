@@ -4,7 +4,7 @@
 
 ## Framing note
 
-Today's job is to set realistic **SLO targets** anchored to user behavior, calculate a **per-hop latency budget**, and design a **rate-limit policy** the team will actually defend. TCD §4 is the output.
+Today's job is to set realistic **SLO targets** anchored to user behavior, calculate a **per-hop latency budget**, and design a **rate-limit policy** the team will actually defend. TCD Section 4 is the output.
 
 ## Activity 1 — SLO Triage
 

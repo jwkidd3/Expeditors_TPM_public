@@ -28,13 +28,13 @@ Each: Option A / B / Choice / Cost / Revisit trigger.
 
 ---
 
-### Integration map — row shape (§2)
+### Integration map — row shape (Section 2)
 
 | System | Owner | Sync / Async | R / W | Failure handling |
 |---|---|---|---|---|
 |   |   |   |   |   |
 
-### Trade-off — row shape (§5)
+### Trade-off — row shape (Section 5)
 
 | Option A | Option B | Choice | Accepted cost | Revisit trigger |
 |---|---|---|---|---|

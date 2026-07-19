@@ -1,4 +1,4 @@
-# Queue-Ranking Worksheet (DP §4)
+# Queue-Ranking Worksheet (DP Section 4)
 
 > **Day 4 · Activity 3 handout.** Find where the time hides. List your top 3 queues, name the cause of each, name a candidate intervention — then rank by impact, effort, and risk.
 

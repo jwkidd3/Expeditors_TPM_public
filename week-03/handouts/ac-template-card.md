@@ -1,6 +1,6 @@
 # AC Template Card
 
-> **Day 2 · Activity 2 handout.** The pocket card for drafting one Acceptance Criterion. One Given/When/Then per AC, no ANDs in the Then that represent separate behaviors. Copy the block per AC into PRD §6.
+> **Day 2 · Activity 2 handout.** The pocket card for drafting one Acceptance Criterion. One Given/When/Then per AC, no ANDs in the Then that represent separate behaviors. Copy the block per AC into PRD Section 6.
 
 ---
 
@@ -55,4 +55,4 @@ When
 Then
 ```
 
-> Run each finished AC through the **5-failure-mode check** (Vague / Untestable / Restating the goal / AND-soup / Implementation-prescriptive) before appending to §6.
+> Run each finished AC through the **5-failure-mode check** (Vague / Untestable / Restating the goal / AND-soup / Implementation-prescriptive) before appending to Section 6.

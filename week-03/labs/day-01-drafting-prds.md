@@ -98,20 +98,20 @@ Tie explicitly to the **Week-2 journey map**. Reference the friction stars.
 
 ### Triad protocol
 
-1. **Each member drafts §1 alone** (10 min). Three drafts.
+1. **Each member drafts Section 1 alone** (10 min). Three drafts.
 2. **Pick the strongest** (10 min). Combine if needed.
-3. **Each member drafts §2 alone** (10 min).
+3. **Each member drafts Section 2 alone** (10 min).
 4. **Pick the strongest, combine, edit** (10 min).
 
 ### What "good" looks like
 
 - Section 1 fits on half a page.
 - Section 2 quotes a real customer (from Week-1 interviews) at least once.
-- The reader leaves §2 knowing whose Wednesday afternoon will improve.
+- The reader leaves Section 2 knowing whose Wednesday afternoon will improve.
 
 ### Deliverable
 
-Drafted §1 (Context) and §2 (Problem) appended to the triad's PRD, with at least one verbatim customer quote in §2.
+Drafted Section 1 (Context) and Section 2 (Problem) appended to the triad's PRD, with at least one verbatim customer quote in Section 2.
 
 ---
 
@@ -123,7 +123,7 @@ Drafted §1 (Context) and §2 (Problem) appended to the triad's PRD, with at lea
 Define what success means **in user terms** and bound what will and won't ship in this iteration. Non-goals and out-of-scope items are the most under-valued sections of any PRD.
 
 ### Setup
-Each triad needs their Week-2 Tier Sheet (for metric ties) and the §§1–2 they just drafted. Whiteboard or worksheet for the scope table.
+Each triad needs their Week-2 Tier Sheet (for metric ties) and the Sections 1–2 they just drafted. Whiteboard or worksheet for the scope table.
 
 ### Section 3: Goals & non-goals
 
@@ -158,7 +158,7 @@ Out-of-scope is the **negotiation tool** — it tells stakeholders "I see what y
 
 ### Deliverable
 
-§3 (Goals & non-goals) and §4 (Scope in/out table) appended to the PRD, each goal tied to a Tier Sheet metric.
+Section 3 (Goals & non-goals) and Section 4 (Scope in/out table) appended to the PRD, each goal tied to a Tier Sheet metric.
 
 ---
 
@@ -170,9 +170,9 @@ Out-of-scope is the **negotiation tool** — it tells stakeholders "I see what y
 Describe the solution **just enough** for an engineer to imagine its shape — not so much that you've designed it for them. This is the most-mis-written section in real-world PRDs.
 
 ### Setup
-Each triad needs blank paper for sketches, the §§1–4 they just drafted, and the §5 inclusion/exclusion checklist. No AI.
+Each triad needs blank paper for sketches, the Sections 1–4 they just drafted, and the Section 5 inclusion/exclusion checklist. No AI.
 
-### What goes in §5
+### What goes in Section 5
 
 - The **user-visible flow**: 4–8 steps from the user's perspective
 - The **key surfaces** affected (which screens, which surfaces)
@@ -180,7 +180,7 @@ Each triad needs blank paper for sketches, the §§1–4 they just drafted, and 
 - A **happy path** narrative (one paragraph; what a successful run looks like)
 - Optional: 1–2 simple sketches or wireframes (allowed; encouraged for clarity)
 
-### What does NOT go in §5
+### What does NOT go in Section 5
 
 - Database schema decisions
 - Specific API contracts
@@ -189,7 +189,7 @@ Each triad needs blank paper for sketches, the §§1–4 they just drafted, and 
 
 ### The "engineer's first three questions" test
 
-After writing §5, ask: what are the **first three questions** an engineer would ask after reading this? If those questions are about implementation choice, you've over-specified. If they're about user behavior or scope, you've under-specified.
+After writing Section 5, ask: what are the **first three questions** an engineer would ask after reading this? If those questions are about implementation choice, you've over-specified. If they're about user behavior or scope, you've under-specified.
 
 ### Triad protocol
 
@@ -200,7 +200,7 @@ After writing §5, ask: what are the **first three questions** an engineer would
 
 ### Deliverable
 
-§5 (Solution sketch) appended to the PRD: flow steps, hard-interactions list, happy-path paragraph, and the triad's three-questions diagnosis.
+Section 5 (Solution sketch) appended to the PRD: flow steps, hard-interactions list, happy-path paragraph, and the triad's three-questions diagnosis.
 
 ### Wrap (last 15 min)
 
@@ -226,4 +226,4 @@ Each triad leaves the day with a draft PRD containing:
 - [x] Section 3 (Goals & non-goals)
 - [x] Section 4 (Scope in / out)
 - [x] Section 5 (Solution sketch)
-- [x] "Why this one" memo (informal — feeds §1 if useful)
+- [x] "Why this one" memo (informal — feeds Section 1 if useful)

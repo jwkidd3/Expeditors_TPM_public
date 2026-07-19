@@ -1,4 +1,4 @@
-# Bottleneck Experiment Template (DP §5)
+# Bottleneck Experiment Template (DP Section 5)
 
 > **Day 5 · Activity 1 handout.** Convert each top queue from your VSM into a specific experiment: hypothesis, test, and a *measurable* success criterion. "We'll see if it feels better" is not an experiment — it's a vibe.
 

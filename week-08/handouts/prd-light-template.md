@@ -1,12 +1,12 @@
 # PRD-Light Template (2 pages)
 
-> **Day 2 handout.** The compressed PRD — Week-3 rigor in a fraction of the space. Compression is **selective, not lower-quality**: keep what's load-bearing, cut what's cosmetic. Every word earns its place. Target: 2 pages total, §§1–7.
+> **Day 2 handout.** The compressed PRD — Week-3 rigor in a fraction of the space. Compression is **selective, not lower-quality**: keep what's load-bearing, cut what's cosmetic. Every word earns its place. Target: 2 pages total, Sections 1–7.
 
 ---
 
 ## The compressed PRD covers
 
-| § | Section | Budget |
+| Section | Section | Budget |
 |---|---|---|
 | 1 | Context | ½ page |
 | 2 | Problem | ½ page |
@@ -18,7 +18,7 @@
 
 ---
 
-## Compressed persona (feeds §§1–2)
+## Compressed persona (feeds Sections 1–2)
 
 Name the persona before you draft. A compressed persona has 3 fields:
 
@@ -77,10 +77,10 @@ Each uses the Wk-3 template: requirement / defense / verification.
 ---
 
 ### What "good" looks like
-- §1 fits ½ page and references at least one real customer quote or data point.
+- Section 1 fits ½ page and references at least one real customer quote or data point.
 - Goals are **outcomes**, not features.
 - Non-goals catch the most-likely scope creep.
-- §5 does not specify implementation.
-- §6 has happy / sad / weird coverage.
-- §7 has all 5 categories represented.
+- Section 5 does not specify implementation.
+- Section 6 has happy / sad / weird coverage.
+- Section 7 has all 5 categories represented.
 - The whole document fits **2 pages**.

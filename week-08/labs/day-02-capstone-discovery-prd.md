@@ -12,13 +12,13 @@ By 16:00, every triad has a 2-page PRD-light ready to hand off as input to tomor
 
 Compressed work is not lower-quality work. It's **selective**: keep what's load-bearing, cut what's cosmetic. A compressed PRD covers:
 
-- §1 Context (½ page)
-- §2 Problem (½ page)
-- §3 Goals + non-goals (½ page)
-- §4 Scope (in/out table)
-- §5 Solution sketch (½ page)
-- §6 Top 6–8 Acceptance Criteria
-- §7 Top 5 NFRs (one per category from Wk 3 D3)
+- Section 1 Context (½ page)
+- Section 2 Problem (½ page)
+- Section 3 Goals + non-goals (½ page)
+- Section 4 Scope (in/out table)
+- Section 5 Solution sketch (½ page)
+- Section 6 Top 6–8 Acceptance Criteria
+- Section 7 Top 5 NFRs (one per category from Wk 3 D3)
 
 That's 2 pages. Every word earns its place.
 
@@ -75,7 +75,7 @@ The triad reads what they have aloud. Does it sound like a real customer's life,
 
 ### Output
 
-A 1-page **discovery summary** that becomes the input to PRD-light §§1–2.
+A 1-page **discovery summary** that becomes the input to PRD-light Sections 1–2.
 
 ---
 
@@ -92,20 +92,20 @@ The Week-3 discipline holds. AI accelerates drafting but does not replace judgme
 
 #### Step 1 — Context + Problem (15 min)
 
-Each triad member solo-drafts §1 and §2 first. Then triad picks the strongest.
+Each triad member solo-drafts Section 1 and Section 2 first. Then triad picks the strongest.
 
 AI assistance pattern (after the solo drafts):
 
 ```
 Role: Editor for a TPM's PRD context section.
-Context: <triad's draft §1 + the discovery summary>
+Context: <triad's draft Section 1 + the discovery summary>
 Task: Tighten this section to ½ page max. Preserve the customer
 quote. Preserve the strategic anchor. Cut anything that sounds
 like marketing language.
 Constraints:
   - Do not invent customer signal
   - Flag any claim that needs source backing
-Format: Tightened §1 + a "what I cut" note.
+Format: Tightened Section 1 + a "what I cut" note.
 ```
 
 #### Step 2 — Goals + Non-goals (15 min)
@@ -118,8 +118,8 @@ A 2-column table. Default: cut aggressively to fit the 4-day capstone window.
 
 ### What "good" looks like
 
-- §1 fits ½ page; references at least one customer quote or data point
-- §2 names the persona's specific friction
+- Section 1 fits ½ page; references at least one customer quote or data point
+- Section 2 names the persona's specific friction
 - Goals are outcomes, not features
 - Non-goals catch the most-likely scope creep
 - Scope-out is rich (capstone work is naturally narrowed)
@@ -131,17 +131,17 @@ A 2-column table. Default: cut aggressively to fit the 4-day capstone window.
 **Format:** Triad &bull; **40 min** &bull; Block 3
 
 ### Purpose
-Draft §5 solution sketch + §6 Acceptance Criteria + §7 NFRs.
+Draft Section 5 solution sketch + Section 6 Acceptance Criteria + Section 7 NFRs.
 
 ### Triad protocol
 
-#### Step 1 — §5 Solution Sketch (10 min)
+#### Step 1 — Section 5 Solution Sketch (10 min)
 
 ½ page. The user-visible flow + key surfaces + hard interactions. Does **not** specify implementation.
 
 The "engineer's first three questions" test from Week 3 still applies.
 
-#### Step 2 — §6 Acceptance Criteria (15 min)
+#### Step 2 — Section 6 Acceptance Criteria (15 min)
 
 6–8 ACs total. Coverage:
 
@@ -151,7 +151,7 @@ The "engineer's first three questions" test from Week 3 still applies.
 
 Use the Given/When/Then form. Compressed = fewer ACs, not weaker ACs.
 
-#### Step 3 — §7 NFRs (15 min)
+#### Step 3 — Section 7 NFRs (15 min)
 
 Top 5 NFRs — one per category:
 
@@ -165,9 +165,9 @@ Each NFR uses the Wk 3 template: requirement / defense / verification.
 
 ### What "good" looks like
 
-- §5 doesn't specify implementation
-- §6 has happy/sad/weird coverage
-- §7 has all 5 categories represented
+- Section 5 doesn't specify implementation
+- Section 6 has happy/sad/weird coverage
+- Section 7 has all 5 categories represented
 - The whole document fits 2 pages
 
 ---
@@ -185,7 +185,7 @@ Use the Week 5 Day 5 discipline. For PRD-light:
 
 ```
 Role: Senior PM reviewing a compressed PRD.
-Context: <paste PRD-light §§1–7>
+Context: <paste PRD-light Sections 1–7>
 Task: Identify 5 issues:
   1. A claim that lacks evidence
   2. A goal that's actually an output
@@ -204,7 +204,7 @@ Adopt / defer / reject. Update PRD-light. Provenance log.
 
 Tomorrow you'll produce TCD-light + TMD-light + AI Spec v1. Plan ahead:
 
-1. **What architectural questions do you need an answer to?** List the 3 questions a senior architect would ask reading PRD-light. These become tomorrow's TCD-light §1 input.
+1. **What architectural questions do you need an answer to?** List the 3 questions a senior architect would ask reading PRD-light. These become tomorrow's TCD-light Section 1 input.
 2. **What systems / data / APIs are in scope?** Sketch the integration map you'll formalize tomorrow.
 3. **What's the critical path?** Which of TCD-light / TMD-light / AI Spec must ship by EOD tomorrow vs Thursday?
 
@@ -223,7 +223,7 @@ Each triad shares:
 Each triad ends Day 2 with:
 
 - [x] **Discovery summary** (1 page)
-- [x] **PRD-light §§1–7** (2 pages total)
+- [x] **PRD-light Sections 1–7** (2 pages total)
 - [x] AI validation pass run on PRD-light
 - [x] Provenance log entry
 - [x] **Day-3 plan**: 3 architecture questions, integration sketch, critical path

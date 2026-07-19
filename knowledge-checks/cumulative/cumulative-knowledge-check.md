@@ -58,7 +58,7 @@
 **9. (MC)** A claim in the AI Spec reads "see the TCD for the rate-limit design." Why does this fail the validation discipline?
 
 - A) The AI Spec shouldn't reference other artifacts
-- B) Cross-references must be **specific** (cite the §) and verified — a vague pointer means the writer didn't actually check
+- B) Cross-references must be **specific** (cite the Section) and verified — a vague pointer means the writer didn't actually check
 - C) Rate limits belong in the TMD, not the TCD
 - D) It doesn't fail — that's a valid reference
 
@@ -78,7 +78,7 @@
 
 **12. (T/F)** "Compression" in the Week-8 `-light` artifacts means dropping whole sections to save time.
 
-**13. (MC)** A TCD §5 trade-off reads "We chose Postgres because Postgres is better." Why is this not yet a real trade-off?
+**13. (MC)** A TCD Section 5 trade-off reads "We chose Postgres because Postgres is better." Why is this not yet a real trade-off?
 
 - A) Postgres is the wrong choice
 - B) A trade-off needs the rejected option, the accepted cost, and a revisit trigger — not just a justified pick
@@ -116,7 +116,7 @@
 
 **8. False** — Evidence tiers run through the **whole** chain. A TCD trade-off, a TMD cost estimate, an AI-Spec claim — each still carries a tier. "We think" vs "we measured" matters just as much in the technical artifacts.
 
-**9. B** — Cross-references must cite the specific section and be verified. "See the TCD" without a § is the tell that the writer never actually checked the two documents agree — the opposite of integration.
+**9. B** — Cross-references must cite the specific section and be verified. "See the TCD" without a Section is the tell that the writer never actually checked the two documents agree — the opposite of integration.
 
 **10. B** — A spec can be technically flawless and still die if the Ops VP, Compliance, or Eng lead block it. The SEP de-risks *alignment*, which is a different failure mode from *soundness*.
 

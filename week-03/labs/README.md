@@ -20,7 +20,7 @@ By Friday afternoon, each participant can:
 
 | Day | Topic | Key artifact produced |
 |-----|-------|----------------------|
-| 1 | Drafting Technical PRDs | PRD §§1–3 (context, problem, goals, scope) |
+| 1 | Drafting Technical PRDs | PRD Sections 1–3 (context, problem, goals, scope) |
 | 2 | Writing granular Acceptance Criteria | 8–12 testable ACs |
 | 3 | Documenting Non-Functional Requirements | NFR section across 5 categories |
 | 4 | Mini-capstone — PRD assembly (non-AI) | **Complete PRD** ready for review |

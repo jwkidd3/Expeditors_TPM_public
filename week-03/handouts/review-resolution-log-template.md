@@ -13,13 +13,13 @@
 **Total scores:** B = 3.1 / C = 2.8 → addressed below
 
 ### Adopted (changes made)
-- B/Finding 2: §6 AC #4 was untestable. Rewrote with explicit observable.
-- C/Finding 1: §7 missing Compliance NFR. Added retention + audit-trail NFRs.
-- B/Finding 5: §9 risk "tech adoption" had no mitigation. Added optional toggle.
+- B/Finding 2: Section 6 AC #4 was untestable. Rewrote with explicit observable.
+- C/Finding 1: Section 7 missing Compliance NFR. Added retention + audit-trail NFRs.
+- B/Finding 5: Section 9 risk "tech adoption" had no mitigation. Added optional toggle.
 - (etc.)
 
 ### Deferred
-- C/Finding 3: Multi-shop manager view scope. DEFERRED to §11 follow-up + ticket.
+- C/Finding 3: Multi-shop manager view scope. DEFERRED to Section 11 follow-up + ticket.
 
 ### Pushed back
 - B/Finding 4: Reviewer suggested splitting AC #2; we declined because the
@@ -34,7 +34,7 @@
 2. **Revise in priority order** — coherence fixes first, specificity second, prose last.
 3. **Update this log** — every finding lands in one of the three buckets, with reasoning.
 
-> A push-back without reasoning is score-defense. Force the rationale into the log. Deferred items must be tracked *somewhere* (ticket / §11 follow-up / Week-4 backlog).
+> A push-back without reasoning is score-defense. Force the rationale into the log. Deferred items must be tracked *somewhere* (ticket / Section 11 follow-up / Week-4 backlog).
 
 ---
 

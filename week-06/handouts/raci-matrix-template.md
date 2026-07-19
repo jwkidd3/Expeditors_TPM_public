@@ -20,8 +20,8 @@
 For most features, RACI these five:
 
 1. **Scope** — what's in vs out
-2. **Architecture** — TCD §1 stance + key trade-offs
-3. **SLO targets** — TCD §4
+2. **Architecture** — TCD Section 1 stance + key trade-offs
+3. **SLO targets** — TCD Section 4
 4. **Launch date** — when it ships
 5. **Out-of-scope follow-up backlog** — deferred items + owners
 

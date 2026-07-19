@@ -1,6 +1,6 @@
 # One-Page Trade-Off Brief Template
 
-> **Day 3 · Activity 3 handout.** Translate one technical trade-off into a brief a non-technical stakeholder can act on. The discipline: the **whole brief fits on one page**; the appendix is references, not body. This becomes SEP §3.
+> **Day 3 · Activity 3 handout.** Translate one technical trade-off into a brief a non-technical stakeholder can act on. The discipline: the **whole brief fits on one page**; the appendix is references, not body. This becomes SEP Section 3.
 
 ---
 
@@ -51,7 +51,7 @@ We are choosing [X] over [Y] for the <feature> work, accepting [cost].
 ☐ Information we don't have
 
 ## Appendix (linked, not pasted)
-- Technical detail in TCD §5 / TMD §X
+- Technical detail in TCD Section 5 / TMD SectionX
 - Sequence diagram
 - SLO budget
 ```
@@ -89,8 +89,8 @@ visibility within < 1 second.
 ☐ Note of any contract requiring sync audit (we know of none)
 
 ## Appendix
-- Technical detail: TCD §5 trade-off 2, TMD §4 sequence diagrams
-- Latency budget: TCD §4
+- Technical detail: TCD Section 5 trade-off 2, TMD Section 4 sequence diagrams
+- Latency budget: TCD Section 4
 ```
 
 ## The bar for "good"

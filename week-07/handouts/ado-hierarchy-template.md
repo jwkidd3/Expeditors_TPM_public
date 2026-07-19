@@ -1,4 +1,4 @@
-# ADO Hierarchy Template (DP §2)
+# ADO Hierarchy Template (DP Section 2)
 
 > **Day 2 · Activity 1 handout.** The four-level spine for loading your feature into Azure DevOps, plus the per-level field stubs to fill in.
 
@@ -38,7 +38,7 @@ Tags: <area, OKR identifier>
 ### Feature
 ```
 Title: <the PRD's feature name>
-Description: <1-paragraph from PRD §1>
+Description: <1-paragraph from PRD Section 1>
 Parent: <link to the Epic>
 Tags: <release tag, persona tag>
 ```
@@ -47,8 +47,8 @@ Tags: <release tag, persona tag>
 ### User Story (5–10 per Feature)
 ```
 Title: As a <persona>, I want <capability> so that <outcome>
-Description: <1-paragraph from PRD §5 sketch>
-Acceptance Criteria: <copy from PRD §6, possibly grouped>
+Description: <1-paragraph from PRD Section 5 sketch>
+Acceptance Criteria: <copy from PRD Section 6, possibly grouped>
 Story Points: <Fibonacci estimate>
 Parent: <link to the Feature>
 Tags: <happy-path / sad-path / weird-path / non-functional>
@@ -68,7 +68,7 @@ Assignee: <if known, otherwise empty>
 
 ## NFRs are work
 
-NFRs from PRD §7 / TCD §3 / §4 don't fit cleanly as user stories. Common treatments:
+NFRs from PRD Section 7 / TCD Section 3 / Section 4 don't fit cleanly as user stories. Common treatments:
 
 - **Performance NFR** → its own User Story tagged `non-functional` ("As a dispatcher, I want the modal to open in <1s…").
 - **Security NFR** → a Task on the relevant User Story OR its own `security` story.

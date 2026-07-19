@@ -2,7 +2,7 @@
 
 > *"Every artifact you've produced — PRD, TCD, TMD — is a starting position. This week you negotiate it into a shipping position."*
 
-Week 6 takes the documents from Weeks 3–5 and uses them as **inputs to real conversations**. The TCD §6 stakeholder sign-off matrix becomes the negotiation list. The TMD's trade-offs become the things you have to explain. The PRD's scope becomes the thing you have to defend.
+Week 6 takes the documents from Weeks 3–5 and uses them as **inputs to real conversations**. The TCD Section 6 stakeholder sign-off matrix becomes the negotiation list. The TMD's trade-offs become the things you have to explain. The PRD's scope becomes the thing you have to defend.
 
 By Friday afternoon, every triad has run **three simulated negotiations** with cohort members playing stakeholders, has logged outcomes, and ships a **Stakeholder Engagement Plan (SEP)** — the fourth and final sibling artifact alongside PRD / TCD / TMD.
 
@@ -27,11 +27,11 @@ By Friday afternoon, each participant can:
 
 | Day | Topic | Key artifact produced |
 |-----|-------|----------------------|
-| 1 | Identifying & mapping stakeholders | SEP §1 — Stakeholder map (Power × Interest, RACI) |
-| 2 | Managing engagement for outcomes | SEP §2 — Engagement plan |
-| 3 | Communicating technical trade-offs | SEP §3 — One-page trade-off brief |
-| 4 | AI-augmented requirement summaries | SEP §4 — Meeting prep + objection map |
-| 5 | Negotiating priorities & roadmaps | SEP §5 — Negotiation outcomes log (3 simulated rounds) |
+| 1 | Identifying & mapping stakeholders | SEP Section 1 — Stakeholder map (Power × Interest, RACI) |
+| 2 | Managing engagement for outcomes | SEP Section 2 — Engagement plan |
+| 3 | Communicating technical trade-offs | SEP Section 3 — One-page trade-off brief |
+| 4 | AI-augmented requirement summaries | SEP Section 4 — Meeting prep + objection map |
+| 5 | Negotiating priorities & roadmaps | SEP Section 5 — Negotiation outcomes log (3 simulated rounds) |
 
 The SEP ships Friday alongside the PRD, TCD, and TMD.
 
@@ -55,14 +55,14 @@ Friday's blocks are simulation-heavy:
 | Clock | Block | What happens |
 |-------|-------|--------------|
 | 09:00 – 09:15 | Opening; sim pairings posted | Triads + their counterpart triads (playing stakeholders) named |
-| 09:15 – 10:45 | **Round 1: Architecture / SLO negotiation** | Triad negotiates one TCD §4 SLO or §5 trade-off |
+| 09:15 – 10:45 | **Round 1: Architecture / SLO negotiation** | Triad negotiates one TCD Section 4 SLO or Section 5 trade-off |
 | 10:45 – 11:00 | Break | |
 | 11:00 – 12:00 | Round 1 debrief + Round 2 prep | Role-swap; capture outcomes |
 | 12:00 – 13:00 | Lunch | |
 | 13:00 – 14:30 | **Round 2: Scope negotiation** | Triad negotiates a non-goal challenge or scope-creep ask |
 | 14:30 – 14:45 | Break | |
 | 14:45 – 15:45 | **Round 3: Resource / timeline negotiation** | Cross-team dependency or roadmap ask |
-| 15:45 – 16:00 | Wrap + sign-off | SEP §5 outcomes log finalized |
+| 15:45 – 16:00 | Wrap + sign-off | SEP Section 5 outcomes log finalized |
 
 ## The SEP template
 
@@ -72,7 +72,7 @@ Friday's blocks are simulation-heavy:
 **Authors:** <triad>  |  **Status:** Draft / Reviewed
 
 ## 1. Stakeholder map
-Power × Interest grid + RACI for the feature. Pulls from TCD §6
+Power × Interest grid + RACI for the feature. Pulls from TCD Section 6
 sign-off matrix.
 
 ## 2. Engagement plan
@@ -112,4 +112,4 @@ For each negotiation round, both sides score on:
 
 ## Bridge to Week 7
 
-Week 7 (Agile Delivery & ADO Mastery) takes the negotiated commitments into delivery. The SEP §5 outcomes log becomes the **input to sprint planning**. Constraints that survived negotiation become the work; deferred items become the backlog; rejected asks get a documented "no" with reasoning.
+Week 7 (Agile Delivery & ADO Mastery) takes the negotiated commitments into delivery. The SEP Section 5 outcomes log becomes the **input to sprint planning**. Constraints that survived negotiation become the work; deferred items become the backlog; rejected asks get a documented "no" with reasoning.

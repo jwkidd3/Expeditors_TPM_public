@@ -1,6 +1,6 @@
 # Day 3 — REST & SOAP API Fundamentals
 
-> **Activity packet** for participant triads. Today's job: design the **API contract** for the feature — resource modeling, methods, idempotency, versioning, error semantics — and draft TMD §3.
+> **Activity packet** for participant triads. Today's job: design the **API contract** for the feature — resource modeling, methods, idempotency, versioning, error semantics — and draft TMD Section 3.
 
 ## Where we are in the week
 
@@ -8,11 +8,11 @@ The data model exists (Day 1). The cloud topology exists (Day 2). Today the **AP
 
 ## Inputs
 
-- TMD §1 (entities; the API exposes these)
-- TMD §2 (cloud topology; informs the network/auth boundary)
-- TCD §3 (security/compliance; informs auth + rate limit + audit)
-- TCD §4 (SLOs; APIs that meet latency targets shape design)
-- PRD §6 AC (the user-visible behaviors the API enables)
+- TMD Section 1 (entities; the API exposes these)
+- TMD Section 2 (cloud topology; informs the network/auth boundary)
+- TCD Section 3 (security/compliance; informs auth + rate limit + audit)
+- TCD Section 4 (SLOs; APIs that meet latency targets shape design)
+- PRD Section 6 AC (the user-visible behaviors the API enables)
 
 ---
 
@@ -42,7 +42,7 @@ SOAP is XML over HTTP (or other transports), with a defined envelope, headers, a
 - WS-Security or WS-ReliableMessaging is contractually required
 - Partner has invested heavily in SOAP tooling; rewriting them is impractical
 
-For **most** new features in B2B SaaS today, REST (often with JSON) is the right default. SOAP appears at integration boundaries with legacy partners. Today's TMD §3 should default to REST and explicitly justify any SOAP touchpoint.
+For **most** new features in B2B SaaS today, REST (often with JSON) is the right default. SOAP appears at integration boundaries with legacy partners. Today's TMD Section 3 should default to REST and explicitly justify any SOAP touchpoint.
 
 ---
 
@@ -107,7 +107,7 @@ Resource sketch for the todo-list API: URLs, methods, and a decision on the "sha
 Apply the resource modeling to your triad's PRD feature.
 
 ### Setup
-Each triad needs TMD §1 (entities), the TCD §4 SLOs, and an OpenAPI-style template. AI optional.
+Each triad needs TMD Section 1 (entities), the TCD Section 4 SLOs, and an OpenAPI-style template. AI optional.
 
 ### Triad protocol
 
@@ -241,7 +241,7 @@ Standardize the **error body shape** across the API:
 ### Triad protocol
 
 1. **Idempotency** (15 min). For each mutating endpoint, decide approach + window.
-2. **Versioning** (10 min). Pick strategy; document in §3.
+2. **Versioning** (10 min). Pick strategy; document in Section 3.
 3. **Error semantics** (15 min). Define error body shape; list the 7 most-needed codes for your endpoints.
 
 ### Deliverable
@@ -258,11 +258,11 @@ A documented idempotency approach per mutating endpoint, a chosen versioning str
 Decide whether any part of the API surface needs SOAP. Use AI to critique the contract.
 
 ### Setup
-Each triad needs TCD §2 (integration map), the API contract from Activities 2–3, and the AI critique prompt. AI required.
+Each triad needs TCD Section 2 (integration map), the API contract from Activities 2–3, and the AI critique prompt. AI required.
 
 ### When to consider SOAP
 
-For each external integration in your TCD §2, ask:
+For each external integration in your TCD Section 2, ask:
 
 - Is the partner SOAP-only?
 - Is WS-Security required (rare; banks, government)?
@@ -272,7 +272,7 @@ For most FieldPulse-shaped features, the answer is **no**. SOAP appears occasion
 
 ### Triad protocol — SOAP question (10 min)
 
-Walk the integration map. For each, default to REST. If SOAP is required for one, document it as an exception in §3.
+Walk the integration map. For each, default to REST. If SOAP is required for one, document it as an exception in Section 3.
 
 ### AI critique prompt
 
@@ -296,11 +296,11 @@ Format: Numbered — Issue / What's wrong / Fix.
 
 ### Final polish (10 min)
 
-Update §3. Add provenance note.
+Update Section 3. Add provenance note.
 
 ### Deliverable
 
-Polished TMD §3 incorporating adopted AI findings, any SOAP exceptions documented, and a provenance note for AI prompts.
+Polished TMD Section 3 incorporating adopted AI findings, any SOAP exceptions documented, and a provenance note for AI prompts.
 
 ### Wrap (last 15 min)
 
@@ -324,4 +324,4 @@ Each triad ends Day 3 with:
 - [x] Error body shape + the 7 most-needed codes
 - [x] SOAP exceptions documented (if any)
 - [x] AI provenance log entry
-- [x] TMD §3 drafted
+- [x] TMD Section 3 drafted

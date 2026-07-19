@@ -17,7 +17,7 @@
 
 **2. (T/F)** Week 3 encourages using AI to draft the PRD faster, so triads can spend more of their time on review.
 
-**3. (MC)** Which of the following *belongs* in the §5 Solution Sketch, rather than being cut as over-specification?
+**3. (MC)** Which of the following *belongs* in the Section 5 Solution Sketch, rather than being cut as over-specification?
 
 - A) Database schema decisions
 - B) Specific API contracts
@@ -49,14 +49,14 @@
 
 **8. (T/F)** A mature NFR section includes a "Known Trade-offs" subsection that names the tensions — and their resolution or open status — rather than pretending everything is achievable at once.
 
-**9. (MC)** In §10 Dependencies, what makes a dependency "owned"?
+**9. (MC)** In Section 10 Dependencies, what makes a dependency "owned"?
 
 - A) It's assigned to the responsible team
 - B) It's assigned to a named person
 - C) Its status is marked "Confirmed"
 - D) It has a "by when" date
 
-**10. (T/F)** In §9, listing "no risks" is acceptable as long as the feature is genuinely low-risk.
+**10. (T/F)** In Section 9, listing "no risks" is acceptable as long as the feature is genuinely low-risk.
 
 **11. (MC)** On the Friday review rubric, which dimension carries the highest weight?
 
@@ -80,7 +80,7 @@
 
 **2. False** — Week 3 is deliberately non-AI. AI fills vagueness with confident, generic prose — and vagueness is exactly the bug the week is built to eliminate.
 
-**3. C** — The user-visible flow (4–8 steps). §5 gives an engineer the *shape*; schema, API contracts, and class names are engineering judgment and are explicitly excluded.
+**3. C** — The user-visible flow (4–8 steps). Section 5 gives an engineer the *shape*; schema, API contracts, and class names are engineering judgment and are explicitly excluded.
 
 **4. C** — Restating the goal. It pins to a metric, not an in-system event. Fix by anchoring to an observable system state ("could you write a test without running an A/B?").
 

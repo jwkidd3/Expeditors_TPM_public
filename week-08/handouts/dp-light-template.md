@@ -11,7 +11,7 @@
 Primary outcome + 2 supporting outcomes + 1 counter-outcome.
 
 ## 2. Backlog skeleton
-1 Epic + 1 Feature + 5 User Stories (top-priority subset of PRD-light §6).
+1 Epic + 1 Feature + 5 User Stories (top-priority subset of PRD-light Section 6).
 
 ## 3. Tracking plan (compressed)
 3 leading indicators. 1 monthly review cadence.
@@ -33,6 +33,6 @@ Hypothesis / test / success criterion for one queue.
 
 ### What "good" looks like
 - The primary outcome is **user-visible**, not an internal output.
-- The 5 user stories are the **top-priority subset** of PRD-light §6, not a re-listing.
+- The 5 user stories are the **top-priority subset** of PRD-light Section 6, not a re-listing.
 - Leading indicators are **measurable within 7 days**.
 - The bottleneck experiment has a **measurable success criterion** — hypothesis, test, and what "worked" looks like.

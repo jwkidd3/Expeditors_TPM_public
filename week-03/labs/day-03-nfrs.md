@@ -4,7 +4,7 @@
 
 ## Where we are in the week
 
-PRD has §§1–6 (context, problem, goals, scope, sketch, AC). Today adds §7 — Non-Functional Requirements. NFRs are the requirements that determine whether the feature **survives contact with reality**: real load, real users, real attackers, real compliance regimes.
+PRD has Sections 1–6 (context, problem, goals, scope, sketch, AC). Today adds Section 7 — Non-Functional Requirements. NFRs are the requirements that determine whether the feature **survives contact with reality**: real load, real users, real attackers, real compliance regimes.
 
 Tomorrow assembles the full PRD. Friday reviews ship it.
 
@@ -168,7 +168,7 @@ Each triad needs their Week-2 Tier Sheet operational signals and the NFR four-pa
 
 ### Deliverable
 
-2–3 Performance NFRs and 2–3 Observability NFRs in PRD §7, each pair cross-checked so every performance target is observable in production.
+2–3 Performance NFRs and 2–3 Observability NFRs in PRD Section 7, each pair cross-checked so every performance target is observable in production.
 
 ---
 
@@ -229,7 +229,7 @@ Pull from the **A11y Floor Checklist** from Week 2 Day 3. State the conformance 
 
 ### Deliverable
 
-3–5 Security NFRs, 1–2 Accessibility NFRs, and 1–2 Compliance NFRs appended to PRD §7, each with a concrete defense.
+3–5 Security NFRs, 1–2 Accessibility NFRs, and 1–2 Compliance NFRs appended to PRD Section 7, each with a concrete defense.
 
 ---
 
@@ -241,7 +241,7 @@ Pull from the **A11y Floor Checklist** from Week 2 Day 3. State the conformance 
 Cross-review the NFR sections (same pairing as Day 2 if possible — the reviewer is now familiar with the PRD). Surface trade-offs explicitly: NFRs interact, and several often pull in opposite directions.
 
 ### Setup
-Instructor pre-assigns triad pairs (re-use Day 2 pairs when possible). Each triad needs the full §§1–7 draft and the four classic trade-off prompts. No AI.
+Instructor pre-assigns triad pairs (re-use Day 2 pairs when possible). Each triad needs the full Sections 1–7 draft and the four classic trade-off prompts. No AI.
 
 ### The four classic NFR trade-offs
 
@@ -263,7 +263,7 @@ A mature NFR section **names the trade-offs** and explains how they were resolve
     - Does this NFR **trade off** with another in the section?
 3. **Reviewer surfaces trade-offs** (10 min). Identify at least one place where two NFRs in the section pull in opposite directions.
 4. **Author triad responds** (10 min). Adopt / defer / push back.
-5. **Authors revise + add a "Known trade-offs" subsection** (15 min) at the end of §7.
+5. **Authors revise + add a "Known trade-offs" subsection** (15 min) at the end of Section 7.
 
 ### The Known Trade-offs subsection
 
@@ -280,7 +280,7 @@ A mature NFR section **names the trade-offs** and explains how they were resolve
 
 ### Deliverable
 
-Revised PRD §7 with a "Known trade-offs" subsection naming at least one explicit tension and its resolution.
+Revised PRD Section 7 with a "Known trade-offs" subsection naming at least one explicit tension and its resolution.
 
 ### Wrap (last 15 min)
 
@@ -290,7 +290,7 @@ Each triad shares **one trade-off they made explicit** in their NFR section. The
 
 ## End-of-day checkpoint
 
-Each triad's PRD now has §7 with:
+Each triad's PRD now has Section 7 with:
 
 - [x] At least one NFR per category (Performance / Security / Accessibility / Observability / Compliance)
 - [x] 6–10 NFRs total

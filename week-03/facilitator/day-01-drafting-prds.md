@@ -11,7 +11,7 @@
 ## Activity 2 — Section 1 (Context) and Section 2 (Problem)
 
 **Cues:**
-- Watch for §1 drafts that restate company strategy from scratch; redirect to the customer signal.
+- Watch for Section 1 drafts that restate company strategy from scratch; redirect to the customer signal.
 - If a triad skips solo drafting, the combined prose loses specificity — keep them on the protocol.
 
 ## Activity 3 — Section 3 (Goals & Non-goals) and Section 4 (Scope)
@@ -25,11 +25,11 @@
 
 **Cues:**
 - Most over-specifications come from PMs who used to be engineers. Coach them to leave room for engineering judgment.
-- If the three-questions test produces only implementation questions, the §5 has over-specified; pull back.
+- If the three-questions test produces only implementation questions, the Section 5 has over-specified; pull back.
 
 ## Facilitator reflection prompts (end of day)
 
 - Which triad picked a feature with the weakest metric link? Coach them tomorrow before AC drafting.
-- Which §2 quotes the customer's actual words? Hold up as a positive example.
-- Did anyone over-specify §5 (e.g., propose a database)? That's the most common failure mode — surface tomorrow morning.
+- Which Section 2 quotes the customer's actual words? Hold up as a positive example.
+- Did anyone over-specify Section 5 (e.g., propose a database)? That's the most common failure mode — surface tomorrow morning.
 - Anyone using AI? Course-correct directly and privately.

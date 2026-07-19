@@ -1,6 +1,6 @@
 # Sequence-Diagram Elements Card
 
-> **Day 4 handout.** What each element of a sequence diagram represents, and when a sequence diagram is the right (and wrong) tool. Keep it beside you while you draw the happy / sad / weird paths for TMD §4.
+> **Day 4 handout.** What each element of a sequence diagram represents, and when a sequence diagram is the right (and wrong) tool. Keep it beside you while you draw the happy / sad / weird paths for TMD Section 4.
 
 A sequence diagram shows **time flowing top to bottom** and **actors as vertical lifelines**. Messages between lifelines are arrows, ordered by time.
 
@@ -30,9 +30,9 @@ A good sequence diagram has **5–12 lifelines** (more becomes unreadable) and 1
 **Use a different diagram for:**
 - All possible interactions → Container or Component diagram
 - Data structure → entity-relationship diagram
-- Deployment topology → the cloud topology from §2
+- Deployment topology → the cloud topology from Section 2
 
-## The three sequences every TMD §4 needs
+## The three sequences every TMD Section 4 needs
 
 1. **Happy path** — the central success case
 2. **One sad path** — the most common user or system error you must handle gracefully

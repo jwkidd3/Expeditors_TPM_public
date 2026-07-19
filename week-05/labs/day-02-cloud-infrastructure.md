@@ -1,19 +1,19 @@
 # Day 2 — Cloud Architecture & Infrastructure
 
-> **Activity packet** for participant triads. Today's job: take the entities from Day 1 and the components from the TCD, decide where they **physically run**, and draft TMD §2 — Cloud topology.
+> **Activity packet** for participant triads. Today's job: take the entities from Day 1 and the components from the TCD, decide where they **physically run**, and draft TMD Section 2 — Cloud topology.
 
 ## Where we are in the week
 
 Day 1 produced the entity model. Today decides **where each entity and each component runs in the cloud** — region, availability zone, managed service vs custom, multi-tenancy stance, and the cost / latency trade-offs that fall out.
 
-By 16:00, every triad has TMD §2 with a topology that an SRE / platform engineer would accept.
+By 16:00, every triad has TMD Section 2 with a topology that an SRE / platform engineer would accept.
 
 ## Inputs
 
-- TMD §1 (data model)
-- TCD §2 (Container diagram)
-- TCD §4 (SLOs — region/AZ choices affect availability and latency budgets)
-- TCD §3 (compliance — data residency drives region choice)
+- TMD Section 1 (data model)
+- TCD Section 2 (Container diagram)
+- TCD Section 4 (SLOs — region/AZ choices affect availability and latency budgets)
+- TCD Section 3 (compliance — data residency drives region choice)
 
 ---
 
@@ -34,7 +34,7 @@ By 16:00, every triad has TMD §2 with a topology that an SRE / platform enginee
 
 ## The five cloud-topology decisions
 
-For most features, the topology decision reduces to five choices. Today's TMD §2 documents each:
+For most features, the topology decision reduces to five choices. Today's TMD Section 2 documents each:
 
 1. **Region choice** — which region(s)?
 2. **Multi-AZ stance** — single AZ, multi-AZ, multi-region?
@@ -54,12 +54,12 @@ Each decision has a **cost dimension** and a **risk dimension**. The TPM job: su
 Decide which region(s) the feature deploys to and which multi-AZ stance it takes. Defend in customer + compliance + cost terms.
 
 ### Setup
-Each triad needs PRD §2 (customer base), TCD §3 (compliance), TCD §4 (SLOs), and the Week-4 trade-off template. AI optional.
+Each triad needs PRD Section 2 (customer base), TCD Section 3 (compliance), TCD Section 4 (SLOs), and the Week-4 trade-off template. AI optional.
 
 ### Triad protocol
 
-1. **Pull customer-location facts from PRD §2** (5 min). Where do users live? Where is the bulk of traffic?
-2. **Pull compliance facts from TCD §3** (5 min). Any data-residency requirements?
+1. **Pull customer-location facts from PRD Section 2** (5 min). Where do users live? Where is the bulk of traffic?
+2. **Pull compliance facts from TCD Section 3** (5 min). Any data-residency requirements?
 3. **Decide on region(s)** (10 min). Single region? Multi-region active-passive? Multi-region active-active?
 4. **Decide on multi-AZ** (10 min). At minimum, 2-AZ for any production workload. 3-AZ for stateful workloads with quorum requirements.
 5. **Capture the trade-off** (5 min). Use the Week-4 template.
@@ -95,7 +95,7 @@ Each triad needs PRD §2 (customer base), TCD §3 (compliance), TCD §4 (SLOs), 
 
 ### Output
 
-A regional-stance section ready for TMD §2.
+A regional-stance section ready for TMD Section 2.
 
 ---
 
@@ -122,7 +122,7 @@ For most B2B features, the answer is **managed**. Don't reinvent.
 
 ### Triad protocol
 
-1. **List each container** (5 min). Pull from TCD §2.
+1. **List each container** (5 min). Pull from TCD Section 2.
 2. **For each, identify the managed-service option** (10 min). e.g., RDS for Postgres, MSK for Kafka, ElastiCache for Redis, ALB for the load balancer.
 3. **For each, decide managed or self** (15 min). Use the four-question test:
     - Do failure modes match our needs?
@@ -160,7 +160,7 @@ Managed-vs-self table covering every TCD container, with a specific reason for e
 Decide the multi-tenancy stance and the network boundary. Both are stakeholder-touching decisions.
 
 ### Setup
-Each triad needs PRD §1 (customer context), the tenancy spectrum card, and the TCD §6 sign-off matrix. AI optional.
+Each triad needs PRD Section 1 (customer context), the tenancy spectrum card, and the TCD Section 6 sign-off matrix. AI optional.
 
 ### Multi-tenancy spectrum
 
@@ -175,13 +175,13 @@ Most B2B SaaS at FieldPulse's stage uses **pooled with per-tenant rate limits** 
 
 ### Triad protocol
 
-1. **Identify your customers' tenancy expectations** (10 min). What did your PRD §1 customer say? Are any large customers contractually expecting dedicated infra?
+1. **Identify your customers' tenancy expectations** (10 min). What did your PRD Section 1 customer say? Are any large customers contractually expecting dedicated infra?
 2. **Pick a stance** (10 min). Pooled is the default; defend if you choose dedicated.
 3. **Network boundary** (15 min). Decide:
     - Public internet (default for SaaS APIs)
     - Customer-VPN-only (some enterprise contracts)
     - Direct Connect / Private Link (large enterprise, regulated industries)
-4. **Stakeholder implications** (5 min). Who needs to sign off? Add to TCD §6 if not already there.
+4. **Stakeholder implications** (5 min). Who needs to sign off? Add to TCD Section 6 if not already there.
 
 ### Worked example
 
@@ -192,11 +192,11 @@ Most B2B SaaS at FieldPulse's stage uses **pooled with per-tenant rate limits** 
 
 **Why:** All current and prospective customers fit the small-mid
         shop profile. None have contractually expected dedicated
-        infra. Pooled with per-tenant rate limits (NFR from TCD §4)
+        infra. Pooled with per-tenant rate limits (NFR from TCD Section 4)
         provides isolation against runaway scripts.
 
 **Accepted cost:** A noisy-neighbor incident from one tenant could
-        affect others. Mitigated by rate limits (TCD §4).
+        affect others. Mitigated by rate limits (TCD Section 4).
 
 **Revisit trigger:** A customer larger than 5x our current largest
         signs, OR a regulated-industry customer requires dedicated.
@@ -224,7 +224,7 @@ Tenancy stance and network boundary documented with rationale, revisit triggers,
 **Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-A TMD §2 without a cost dimension reads as wishful thinking. Today's last block: rough out the cost shape and use AI to surface gaps.
+A TMD Section 2 without a cost dimension reads as wishful thinking. Today's last block: rough out the cost shape and use AI to surface gaps.
 
 ### Setup
 Each triad needs the topology decisions from Activities 1–3, rough pricing references (RDS / MSK / S3 / ALB), and the AI sanity-check prompt. AI required.
@@ -250,7 +250,7 @@ The numbers are illustrative — engineering will refine. The TPM job: catch the
 
 ```
 Role: SRE reviewing a feature's cloud topology.
-Context: <paste TMD §2 sections — region, AZ, managed services,
+Context: <paste TMD Section 2 sections — region, AZ, managed services,
          tenancy, network boundary, ROM cost>
 Task: Identify the top 3 risks in this topology that could
       surprise the team within 6 months.
@@ -266,11 +266,11 @@ Format: Numbered — Risk / Scenario / Likelihood / Mitigation.
 1. **ROM cost table** (15 min). Rough numbers for each component.
 2. **AI sanity check** (10 min). Run the prompt; capture the 3 risks.
 3. **Adopt / defer / reject** (10 min).
-4. **Update §2** (10 min). Polish for sharing.
+4. **Update Section 2** (10 min). Polish for sharing.
 
 ### Deliverable
 
-Polished TMD §2 with ROM cost table, AI-surfaced topology risks adopted/deferred/rejected, and a provenance note.
+Polished TMD Section 2 with ROM cost table, AI-surfaced topology risks adopted/deferred/rejected, and a provenance note.
 
 ### Wrap (last 15 min)
 
@@ -292,4 +292,4 @@ Each triad ends Day 2 with:
 - [x] Network boundary stance
 - [x] **ROM cost table**
 - [x] AI provenance log entry
-- [x] TMD §2 drafted
+- [x] TMD Section 2 drafted

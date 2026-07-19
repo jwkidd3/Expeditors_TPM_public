@@ -1,17 +1,17 @@
 # Day 1 — Identifying & Mapping Key Stakeholders
 
-> **Activity packet** for participant triads. Today's job: take the TCD §6 sign-off matrix, expand it into a real stakeholder map (Power × Interest + RACI), and draft SEP §1.
+> **Activity packet** for participant triads. Today's job: take the TCD Section 6 sign-off matrix, expand it into a real stakeholder map (Power × Interest + RACI), and draft SEP Section 1.
 
 ## Where we are in the week
 
-The TCD already has §6 — a sign-off matrix listing constraints and owners. That matrix is the **starting input** to today's work. Today expands it into a usable map: who has what kind of power, who cares how much, who is Responsible, Accountable, Consulted, or Informed.
+The TCD already has Section 6 — a sign-off matrix listing constraints and owners. That matrix is the **starting input** to today's work. Today expands it into a usable map: who has what kind of power, who cares how much, who is Responsible, Accountable, Consulted, or Informed.
 
-By 16:00, every triad has SEP §1 — a stakeholder map ready to drive engagement planning tomorrow.
+By 16:00, every triad has SEP Section 1 — a stakeholder map ready to drive engagement planning tomorrow.
 
 ## Inputs
 
-- TCD §6 (stakeholder sign-off matrix from Week 4 Day 5)
-- PRD §10 (named dependencies + owners)
+- TCD Section 6 (stakeholder sign-off matrix from Week 4 Day 5)
+- PRD Section 10 (named dependencies + owners)
 - The triad's customer interviews (Week 1) for stakeholder context
 
 ---
@@ -86,7 +86,7 @@ The discipline: **one A per decision**. If two people are A, neither is. If no o
 For a single feature, several decisions need RACI:
 
 - The **scope** of the feature
-- The **architecture** (TCD §1 stance)
+- The **architecture** (TCD Section 1 stance)
 - The **SLO targets**
 - The **launch date**
 - Each **out-of-scope follow-up** (deferred to a backlog with an owner)
@@ -102,7 +102,7 @@ Build a **complete** stakeholder list before mapping. Most triads will start wit
 
 ### Triad protocol
 
-1. **Start with TCD §6** (5 min). Copy every stakeholder name from the sign-off matrix into a list.
+1. **Start with TCD Section 6** (5 min). Copy every stakeholder name from the sign-off matrix into a list.
 2. **Augment with the "five circles"** (15 min). For each circle, add anyone who isn't already on the list:
     - **Customer-facing:** customer success, sales, support
     - **Engineering-adjacent:** architecture, security, platform, infra, data, QA
@@ -183,8 +183,8 @@ Assign RACI to the five most consequential decisions for the feature.
 For most features:
 
 1. **Scope** — what's in vs out
-2. **Architecture** — TCD §1 stance + key trade-offs
-3. **SLO targets** — TCD §4
+2. **Architecture** — TCD Section 1 stance + key trade-offs
+3. **SLO targets** — TCD Section 4
 4. **Launch date** — when it ships
 5. **Out-of-scope follow-up backlog** — deferred items + owners
 
@@ -209,12 +209,12 @@ For most features:
 
 ---
 
-## Activity 4 — SEP §1 Polish + Stakeholder Watch List
+## Activity 4 — SEP Section 1 Polish + Stakeholder Watch List
 
 **Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Polish §1 of the SEP, plus identify a **watch list** of stakeholders whose status could change in the next month.
+Polish Section 1 of the SEP, plus identify a **watch list** of stakeholders whose status could change in the next month.
 
 ### The watch list
 
@@ -233,9 +233,9 @@ A watch list is the early-warning system. It's the section that distinguishes a 
 
 ### Triad protocol
 
-1. **Polish §1** (15 min). Combine list + Power×Interest grid + RACI into one section. Add the "two surprises" callouts.
+1. **Polish Section 1** (15 min). Combine list + Power×Interest grid + RACI into one section. Add the "two surprises" callouts.
 2. **Build the watch list** (20 min). 3–5 stakeholders with their triggers.
-3. **Cross-check against the TCD §6 sign-off matrix** (5 min). Anyone in §1 not on §6? Add to §6. Anyone on §6 not in §1? Add to §1.
+3. **Cross-check against the TCD Section 6 sign-off matrix** (5 min). Anyone in Section 1 not on Section 6? Add to Section 6. Anyone on Section 6 not in Section 1? Add to Section 1.
 4. **AI cross-check** (5 min). Run the prompt below.
 
 ### AI prompt
@@ -272,4 +272,4 @@ Each triad ends Day 1 with:
 - [x] **RACI matrix** for 5 decisions, with one A per decision
 - [x] **Watch list** of high-power-low-interest stakeholders + triggers
 - [x] AI provenance log entry
-- [x] SEP §1 drafted
+- [x] SEP Section 1 drafted

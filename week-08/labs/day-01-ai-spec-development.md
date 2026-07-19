@@ -48,24 +48,24 @@ One sentence: what is this feature, who is it for, what outcome does it produce?
 
 ## 2. Engineering-ready summary
 3–5 paragraphs that an engineer could scope from without a clarifying call.
-Synthesizes: PRD §§1–5, TCD §1, TMD §3.
+Synthesizes: PRD Sections 1–5, TCD Section 1, TMD Section 3.
 
 ## 3. Data + API contract
 The shape an engineer needs to start coding. Synthesizes:
-TMD §1 (data) + TMD §3 (API).
+TMD Section 1 (data) + TMD Section 3 (API).
 
 ## 4. Sequence + failure handling
-Happy / sad / weird path summary. Synthesizes: TMD §4.
+Happy / sad / weird path summary. Synthesizes: TMD Section 4.
 
 ## 5. Constraints
 Performance / availability / security / compliance / accessibility.
-Synthesizes: TCD §3 + TCD §4 + PRD §7.
+Synthesizes: TCD Section 3 + TCD Section 4 + PRD Section 7.
 
 ## 6. Decisions made (and not made)
-Top trade-offs (TCD §5) + open questions still requiring decision.
+Top trade-offs (TCD Section 5) + open questions still requiring decision.
 
 ## 7. Stakeholders + sign-off
-Who must sign off on what. From SEP §1 + TCD §6.
+Who must sign off on what. From SEP Section 1 + TCD Section 6.
 
 ## 8. Provenance log
 Every AI prompt + validation status.
@@ -83,7 +83,7 @@ The AI Spec is generated from a **5-prompt sequence**, not a single prompt. Each
 
 ```
 Role: Senior TPM drafting an engineering-ready spec.
-Context: Below are excerpts from PRD §§1–5, TCD §1, TMD §3.
+Context: Below are excerpts from PRD Sections 1–5, TCD Section 1, TMD Section 3.
 <paste excerpts>
 Task: Produce:
   1. A one-sentence headline (what / who / outcome)
@@ -101,7 +101,7 @@ Format: Headline + numbered paragraphs + footnotes section.
 ### Prompt 2: Data + API contract synthesis
 
 ```
-Continuing. Below are TMD §1 (data) and TMD §3 (API).
+Continuing. Below are TMD Section 1 (data) and TMD Section 3 (API).
 <paste>
 Task: Produce a 1-page synthesis that an engineer could
 implement against. Include:
@@ -120,7 +120,7 @@ Format: Markdown with sub-sections.
 
 ```
 Continuing. Below are the 3 sequence diagrams (happy/sad/weird)
-from TMD §4.
+from TMD Section 4.
 <paste descriptions>
 Task: Produce:
   1. Happy-path narrative (1 paragraph)
@@ -132,13 +132,13 @@ Constraints:
 Format: Markdown with sub-headings.
 ```
 
-**Validation:** the named invariant from TMD §4 is preserved verbatim.
+**Validation:** the named invariant from TMD Section 4 is preserved verbatim.
 
 ### Prompt 4: Constraints synthesis
 
 ```
-Continuing. Below are TCD §3 (security/compliance), TCD §4 (SLOs),
-PRD §7 (NFRs).
+Continuing. Below are TCD Section 3 (security/compliance), TCD Section 4 (SLOs),
+PRD Section 7 (NFRs).
 <paste>
 Task: Produce a 1-page constraints summary covering:
   - Performance + availability targets (SLOs)
@@ -156,8 +156,8 @@ Format: Markdown table; include "trade-off" column for any conflicts.
 ### Prompt 5: Decisions + stakeholders
 
 ```
-Continuing. Below are TCD §5 (top trade-offs), TCD §6 (sign-off
-matrix), SEP §1 (stakeholder map).
+Continuing. Below are TCD Section 5 (top trade-offs), TCD Section 6 (sign-off
+matrix), SEP Section 1 (stakeholder map).
 <paste>
 Task: Produce:
   1. The top 5 trade-offs (Option A / B / Choice / Cost / Revisit)
@@ -217,7 +217,7 @@ Internalize the AI Spec template by walking through it section-by-section using 
 ### What "good" looks like
 
 - Every section is mapped back to **specific input artifacts**
-- The "missing-if-thin" awareness is **specific** ("if the data model has no relationships diagrammed, §3 will be hard to draft")
+- The "missing-if-thin" awareness is **specific** ("if the data model has no relationships diagrammed, Section 3 will be hard to draft")
 - The "section we'll struggle with" is **named** with a counter-measure
 
 ---
@@ -235,7 +235,7 @@ Practice the sequence on the FieldPulse artifact set (where the inputs are compl
     - Paste the relevant input
     - Capture the output
     - Validate (cross-check / spot-check / mark)
-2. **Assemble the AI Spec** (10 min). Combine the 5 outputs into the §1–§7 structure. Add the provenance log.
+2. **Assemble the AI Spec** (10 min). Combine the 5 outputs into the Section 1–Section 7 structure. Add the provenance log.
 3. **Cross-check the result against the original artifacts** (no extra time block — done as you go). Anything in the AI Spec that contradicts a source: flag and fix.
 
 ### Output

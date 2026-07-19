@@ -9,7 +9,7 @@ Participant-facing handouts for Week 8. Templates, checklists, and rubrics the d
 | `ai-spec-template` | Day 1 | The 8-section engineering-ready AI Spec, with the section-to-source map |
 | `ai-spec-5-prompt-sequence` | Day 1 | The 5 validated prompts (+ validation step each) that draft the AI Spec |
 | `capstone-fit-questions` | Day 1 | 5 questions to confirm a capstone subject survives a 4-day build |
-| `prd-light-template` | Day 2 | 2-page compressed PRD (§§1–7) + compressed persona |
+| `prd-light-template` | Day 2 | 2-page compressed PRD (Sections 1–7) + compressed persona |
 | `tcd-light-template` | Day 3 | 1.5-page compressed Technical Concept Document |
 | `tmd-light-template` | Day 3 | 1.5-page compressed Technical Modeling Document |
 | `technical-logic-validation-checklist` | Day 4 | 7-point cross-artifact consistency check + validation log |

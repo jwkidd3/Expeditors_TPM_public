@@ -8,7 +8,7 @@
 
 ```
 Role: Senior TPM drafting an engineering-ready spec.
-Context: Below are excerpts from PRD §§1–5, TCD §1, TMD §3.
+Context: Below are excerpts from PRD Sections 1–5, TCD Section 1, TMD Section 3.
 <paste excerpts>
 Task: Produce:
   1. A one-sentence headline (what / who / outcome)
@@ -28,7 +28,7 @@ Format: Headline + numbered paragraphs + footnotes section.
 ## Prompt 2 — Data + API contract synthesis
 
 ```
-Continuing. Below are TMD §1 (data) and TMD §3 (API).
+Continuing. Below are TMD Section 1 (data) and TMD Section 3 (API).
 <paste>
 Task: Produce a 1-page synthesis that an engineer could
 implement against. Include:
@@ -49,7 +49,7 @@ Format: Markdown with sub-sections.
 
 ```
 Continuing. Below are the 3 sequence diagrams (happy/sad/weird)
-from TMD §4.
+from TMD Section 4.
 <paste descriptions>
 Task: Produce:
   1. Happy-path narrative (1 paragraph)
@@ -61,15 +61,15 @@ Constraints:
 Format: Markdown with sub-headings.
 ```
 
-**Validation:** the named invariant from TMD §4 is preserved verbatim.
+**Validation:** the named invariant from TMD Section 4 is preserved verbatim.
 
 ---
 
 ## Prompt 4 — Constraints synthesis
 
 ```
-Continuing. Below are TCD §3 (security/compliance), TCD §4 (SLOs),
-PRD §7 (NFRs).
+Continuing. Below are TCD Section 3 (security/compliance), TCD Section 4 (SLOs),
+PRD Section 7 (NFRs).
 <paste>
 Task: Produce a 1-page constraints summary covering:
   - Performance + availability targets (SLOs)
@@ -89,8 +89,8 @@ Format: Markdown table; include "trade-off" column for any conflicts.
 ## Prompt 5 — Decisions + stakeholders
 
 ```
-Continuing. Below are TCD §5 (top trade-offs), TCD §6 (sign-off
-matrix), SEP §1 (stakeholder map).
+Continuing. Below are TCD Section 5 (top trade-offs), TCD Section 6 (sign-off
+matrix), SEP Section 1 (stakeholder map).
 <paste>
 Task: Produce:
   1. The top 5 trade-offs (Option A / B / Choice / Cost / Revisit)
@@ -113,4 +113,4 @@ Format: 3 sub-sections.
 - Cut hallucinated claims.
 - Preserve **verbatim**: trade-off costs, revisit triggers, named invariants, customer quotes.
 
-Then assemble the 5 validated outputs into the AI Spec §1–§7 structure and add the §8 provenance log.
+Then assemble the 5 validated outputs into the AI Spec Section 1–Section 7 structure and add the Section 8 provenance log.

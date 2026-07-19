@@ -1,6 +1,6 @@
 # Engagement Plan Template
 
-> **Day 2 · Activity 2 handout.** One block per stakeholder. Capture the recurring engagement (stable month-to-month) and the "right now" asks (what changes this period). This becomes SEP §2.
+> **Day 2 · Activity 2 handout.** One block per stakeholder. Capture the recurring engagement (stable month-to-month) and the "right now" asks (what changes this period). This becomes SEP Section 2.
 
 ---
 

@@ -1,6 +1,6 @@
 # VSM Vocabulary Card
 
-> **Day 4 handout.** The value-stream-mapping terms to keep straight while you map the feature's delivery flow and draft DP §4 — with an example for each.
+> **Day 4 handout.** The value-stream-mapping terms to keep straight while you map the feature's delivery flow and draft DP Section 4 — with an example for each.
 
 Use this as your reference while you walk the stream, measure each step, and compute flow efficiency. The most-startling number is usually **flow efficiency** — single-digit percentages are typical.
 

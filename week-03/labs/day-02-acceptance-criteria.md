@@ -1,6 +1,6 @@
 # Day 2 — Writing Granular Acceptance Criteria
 
-> **Activity packet** for participant triads. Today's job: take your §§1–5 draft from Day 1 and write 8–12 testable Acceptance Criteria in Given/When/Then form. By 16:00, the AC section is shareable; tomorrow we add NFRs.
+> **Activity packet** for participant triads. Today's job: take your Sections 1–5 draft from Day 1 and write 8–12 testable Acceptance Criteria in Given/When/Then form. By 16:00, the AC section is shareable; tomorrow we add NFRs.
 
 ## Where we are in the week
 
@@ -103,11 +103,11 @@ Each triad receives the **AC Triage Pack**: 12 AC examples drawn from real (anon
 Write the 3–5 happy-path AC for the triad's PRD. These are usually the easiest — get them out of the way first.
 
 ### Setup
-Each triad needs their §5 solution sketch from Day 1, the AC template card, and the 5-failure-mode checklist. No AI.
+Each triad needs their Section 5 solution sketch from Day 1, the AC template card, and the 5-failure-mode checklist. No AI.
 
 ### Triad protocol
 
-1. **Identify the happy path** (5 min). Re-read §5 from yesterday. The 4–8 step flow becomes the basis for AC.
+1. **Identify the happy path** (5 min). Re-read Section 5 from yesterday. The 4–8 step flow becomes the basis for AC.
 2. **Solo drafts** (15 min). Each member writes 3 happy-path AC alone.
 3. **Pool, de-dupe, refine** (15 min). The triad converges on 3–5 final happy-path AC.
 4. **Failure-mode check** (5 min). Run each AC through the 5-failure list.
@@ -120,7 +120,7 @@ Each triad needs their §5 solution sketch from Day 1, the AC template card, and
 
 ### Deliverable
 
-3–5 happy-path AC in Given/When/Then form, each passing the 5-failure-mode check, appended to PRD §6.
+3–5 happy-path AC in Given/When/Then form, each passing the 5-failure-mode check, appended to PRD Section 6.
 
 ### Worked FieldPulse example (happy path)
 
@@ -193,7 +193,7 @@ Then the modal opens with the first 25 tickets pre-selected
 
 ### Deliverable
 
-2–4 sad-path AC and 2–4 weird-path AC appended to PRD §6, each passing the 5-failure-mode check.
+2–4 sad-path AC and 2–4 weird-path AC appended to PRD Section 6, each passing the 5-failure-mode check.
 
 ---
 
@@ -205,12 +205,12 @@ Then the modal opens with the first 25 tickets pre-selected
 Apply the calibrated eye to *another triad's* AC. Cross-review surfaces failure modes the author triad has gone blind to.
 
 ### Setup
-Instructor pre-assigns triad pairs. Each triad needs their own §§1–6 (incl. AC) and a printed review template. No AI.
+Instructor pre-assigns triad pairs. Each triad needs their own Sections 1–6 (incl. AC) and a printed review template. No AI.
 
 ### The protocol
 
 1. **Pair triads** (instructor assigns).
-2. **Swap AC sections** (5 min). Read the other's PRD §§1–5 first for context, then their AC.
+2. **Swap AC sections** (5 min). Read the other's PRD Sections 1–5 first for context, then their AC.
 3. **Review pass — identify failures** (15 min). For each AC:
     - Which failure mode (if any)?
     - Which path (happy / sad / weird) is *missing*?
@@ -221,7 +221,7 @@ Instructor pre-assigns triad pairs. Each triad needs their own §§1–6 (incl. 
 ### Output
 
 - A revised AC section (8–12 ACs)
-- A short **review-resolution note** at the bottom of §6 listing what was adopted, deferred, or rejected (and why)
+- A short **review-resolution note** at the bottom of Section 6 listing what was adopted, deferred, or rejected (and why)
 
 ### Wrap (last 15 min)
 

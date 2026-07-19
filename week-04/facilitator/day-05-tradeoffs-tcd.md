@@ -4,7 +4,7 @@
 
 ## Framing note
 
-Today's job is to name the **top 5 trade-offs** (TCD §5), build the **stakeholder sign-off matrix** (§6), assemble the integrated TCD, peer-review it, and ship it as the sibling artifact to the PRD.
+Today's job is to name the **top 5 trade-offs** (TCD Section 5), build the **stakeholder sign-off matrix** (Section 6), assemble the integrated TCD, peer-review it, and ship it as the sibling artifact to the PRD.
 
 ## Activity 1 — Surface the Trade-Offs
 
@@ -35,7 +35,7 @@ Today's job is to name the **top 5 trade-offs** (TCD §5), build the **stakehold
 
 - Read aloud one trade-off from each triad's TCD that the cohort should learn from.
 - Surface the **most common pattern of trade-off avoidance** the cohort exhibited (this is a Week 5 + 6 coaching theme).
-- Preview Week 5: TCD becomes the spine. Data modeling will reference §2; performance baselines will reference §4; APIs will reference §3 (auth) and §4 (rate limits).
+- Preview Week 5: TCD becomes the spine. Data modeling will reference Section 2; performance baselines will reference Section 4; APIs will reference Section 3 (auth) and Section 4 (rate limits).
 
 ## Facilitator reflection prompts (end of week)
 

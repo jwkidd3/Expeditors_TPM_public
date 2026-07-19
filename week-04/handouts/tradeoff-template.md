@@ -1,6 +1,6 @@
-# Trade-Off Template (TCD §5)
+# Trade-Off Template (TCD Section 5)
 
-> **Day 5 · Activity 2 handout.** TCD §5 is the section that separates senior architectural thinking from feature-list thinking. A trade-off is not a list of risks — it's a structured statement: *we considered A and B, we chose A, we accept this cost, this is what would change our minds.*
+> **Day 5 · Activity 2 handout.** TCD Section 5 is the section that separates senior architectural thinking from feature-list thinking. A trade-off is not a list of risks — it's a structured statement: *we considered A and B, we chose A, we accept this cost, this is what would change our minds.*
 
 ---
 
@@ -17,7 +17,7 @@
 
 ### The five categories
 
-A well-written §5 spans **at least 3** of these. Five trade-offs all in one category usually means real tensions were missed.
+A well-written Section 5 spans **at least 3** of these. Five trade-offs all in one category usually means real tensions were missed.
 
 | Category | Example tension |
 |----------|-----------------|

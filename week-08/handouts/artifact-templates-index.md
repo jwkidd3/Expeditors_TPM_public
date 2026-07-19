@@ -28,7 +28,7 @@
 | PRD | Full product requirements: context, problem, goals, scope, solution, ACs, NFRs | Week 3 |
 | Acceptance Criteria (Given/When/Then) | Testable happy / sad / weird-path criteria | Week 3 |
 | NFR template (requirement / defense / verification) | One non-functional requirement per category, each defended and verifiable | Week 3 |
-| **PRD-light** | 2-page compressed PRD, §§1–7 | **Week 8** |
+| **PRD-light** | 2-page compressed PRD, Sections 1–7 | **Week 8** |
 
 ## Architecture (TCD)
 

@@ -1,17 +1,17 @@
 # Day 2 — Managing Engagement for Product Outcomes
 
-> **Activity packet** for participant triads. Today's job: design a **per-stakeholder engagement plan** — cadence, format, what they need, what we need — and draft SEP §2.
+> **Activity packet** for participant triads. Today's job: design a **per-stakeholder engagement plan** — cadence, format, what they need, what we need — and draft SEP Section 2.
 
 ## Where we are in the week
 
 The map exists (Day 1). Today turns the map into a **plan**. Each stakeholder gets a deliberate engagement style: how often you talk, in what format, what each side gives and gets.
 
-By 16:00, every triad has SEP §2 — the engagement plan that will guide the next quarter of stakeholder interactions.
+By 16:00, every triad has SEP Section 2 — the engagement plan that will guide the next quarter of stakeholder interactions.
 
 ## Inputs
 
-- SEP §1 (stakeholder map + RACI + watch list)
-- TCD §6 (sign-off matrix with statuses)
+- SEP Section 1 (stakeholder map + RACI + watch list)
+- TCD Section 6 (sign-off matrix with statuses)
 - Whatever upcoming meetings or decisions are on the calendar
 
 ---
@@ -177,7 +177,7 @@ For each stakeholder, list 1–3 asks per category that you'll need over the nex
 **Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Identify the engagement anti-patterns the triad is most prone to, and design counter-measures into the SEP §2.
+Identify the engagement anti-patterns the triad is most prone to, and design counter-measures into the SEP Section 2.
 
 ### The 6 most common engagement anti-patterns
 
@@ -194,14 +194,14 @@ Identify the engagement anti-patterns the triad is most prone to, and design cou
 
 1. **Score the triad's natural tendencies** (10 min). For each anti-pattern, rate yourselves H / M / L on susceptibility. Be honest.
 2. **Design counter-measures** (15 min). For your top 2–3 anti-patterns, what's the specific counter-measure baked into your plan?
-3. **Document in §2** (15 min).
+3. **Document in Section 2** (15 min).
 4. **AI sanity check** (5 min). Run the prompt below.
 
 ### AI prompt
 
 ```
 Role: Senior PM reviewing a junior TPM's engagement plan.
-Context: <SEP §1 + §2 stakeholder list and engagement plans>
+Context: <SEP Section 1 + Section 2 stakeholder list and engagement plans>
 Task: Identify the top 3 engagement risks:
   1. A stakeholder likely under-served by the plan
   2. A stakeholder likely over-served (TPM is wasting attention)
@@ -232,4 +232,4 @@ Each triad ends Day 2 with:
 - [x] **5 most consequential asks** identified
 - [x] Anti-pattern diagnostic + counter-measures
 - [x] AI provenance log entry
-- [x] SEP §2 drafted
+- [x] SEP Section 2 drafted

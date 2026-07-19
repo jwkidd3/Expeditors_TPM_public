@@ -1,6 +1,6 @@
 # Negotiation Outcomes Log Template
 
-> **Day 5 handout.** One block per round. Three blocks by 15:45 becomes SEP §5 — the outcomes log. Every round needs an owner + next step (no "TBD").
+> **Day 5 handout.** One block per round. Three blocks by 15:45 becomes SEP Section 5 — the outcomes log. Every round needs an owner + next step (no "TBD").
 
 ---
 
@@ -39,11 +39,11 @@ to <person>">
 
 | Round | Author defends | Stakeholder plays | Pressure |
 |-------|----------------|-------------------|----------|
-| **1 — Architecture / SLO** | A TCD §4 SLO or §5 trade-off | High-power technical (architect / security / eng director) | Surprise objections |
-| **2 — Scope** | PRD §3 non-goals + §11 out-of-scope | Non-technical (PM director / CS lead / sales VP) | Scope-creep ask |
+| **1 — Architecture / SLO** | A TCD Section 4 SLO or Section 5 trade-off | High-power technical (architect / security / eng director) | Surprise objections |
+| **2 — Scope** | PRD Section 3 non-goals + Section 11 out-of-scope | Non-technical (PM director / CS lead / sales VP) | Scope-creep ask |
 | **3 — Resource / timeline** | The plan against an impossible ask | Executive (CFO / GM) | Ship sooner / lost engineer / scope added |
 
-## The polish bar (before you ship §5)
+## The polish bar (before you ship Section 5)
 
 - All three rounds documented in the template.
 - **Owner + next step** for each — no "TBD."

@@ -1,18 +1,18 @@
 # Day 2 — ADO Usage (Hands-On Workshop)
 
-> **Activity packet** for participant triads. Today's job: load the feature into Azure DevOps with disciplined hierarchy, fields, and tags. Build the queries that surface state, blocked work, and flow. Draft DP §2.
+> **Activity packet** for participant triads. Today's job: load the feature into Azure DevOps with disciplined hierarchy, fields, and tags. Build the queries that surface state, blocked work, and flow. Draft DP Section 2.
 
 ## Where we are in the week
 
-The outcome map (DP §1) tells us **what we're trying to produce**. Today's ADO work tells us **how we're tracking the producing**. By 16:00, every triad's feature is loaded into ADO with a hierarchy that an engineering team could pick up Monday.
+The outcome map (DP Section 1) tells us **what we're trying to produce**. Today's ADO work tells us **how we're tracking the producing**. By 16:00, every triad's feature is loaded into ADO with a hierarchy that an engineering team could pick up Monday.
 
 ## Inputs
 
-- DP §1 (outcome map)
-- PRD §6 AC
-- TCD §5, §6 (trade-offs + sign-off matrix)
-- TMD §§1–5 (data, cloud, API, sequences, baselines)
-- SEP §5 (negotiated outcomes — what survived)
+- DP Section 1 (outcome map)
+- PRD Section 6 AC
+- TCD Section 5, Section 6 (trade-offs + sign-off matrix)
+- TMD Sections 1–5 (data, cloud, API, sequences, baselines)
+- SEP Section 5 (negotiated outcomes — what survived)
 
 ---
 
@@ -27,7 +27,7 @@ The outcome map (DP §1) tells us **what we're trying to produce**. Today's ADO 
 | **State** | New / Active / Resolved / Closed (varies by template) | Workflow status |
 | **Tags** | Free-form labels | Cross-cutting filters (`security-review`, `customer-XYZ`) |
 | **Story points** | Effort estimate (typically Fibonacci: 1, 2, 3, 5, 8, 13) | Velocity input |
-| **Acceptance Criteria** | The criteria from PRD §6, attached to the work item | Definition of done |
+| **Acceptance Criteria** | The criteria from PRD Section 6, attached to the work item | Definition of done |
 | **Query (WIQL)** | A saved filter | "Show me everything in this state / iteration / tag" |
 | **Board** | Kanban view of work items | Visual flow |
 | **Backlog** | Prioritized list view | Planning view |
@@ -66,7 +66,7 @@ Each work item has fields. Most teams populate the title and skip the rest. Matu
 |-------|----------------|
 | **Title** | Clear, action-oriented |
 | **Description** | One paragraph context |
-| **Acceptance Criteria** | Pulled from PRD §6; testable |
+| **Acceptance Criteria** | Pulled from PRD Section 6; testable |
 | **Story Points** | Effort estimate (User Stories only) |
 | **State** | Workflow visibility |
 | **Area path** | Reporting hierarchy |
@@ -102,7 +102,7 @@ For FieldPulse: "Reduce dispatcher after-shift admin load" — the umbrella for 
 
 ```
 Title: <the PRD's feature name>
-Description: <1-paragraph from PRD §1>
+Description: <1-paragraph from PRD Section 1>
 Parent: <link to the Epic>
 Tags: <release tag, persona tag>
 ```
@@ -111,12 +111,12 @@ For FieldPulse: "Reconcile flow (mobile)".
 
 #### Step 3 — Generate User Stories (15 min)
 
-For each PRD §6 Acceptance Criterion (or related cluster), draft a User Story:
+For each PRD Section 6 Acceptance Criterion (or related cluster), draft a User Story:
 
 ```
 Title: As a <persona>, I want <capability> so that <outcome>
-Description: <1-paragraph from PRD §5 sketch>
-Acceptance Criteria: <copy from PRD §6, possibly grouped>
+Description: <1-paragraph from PRD Section 5 sketch>
+Acceptance Criteria: <copy from PRD Section 6, possibly grouped>
 Story Points: <Fibonacci estimate>
 Parent: <link to the Feature>
 Tags: <happy-path / sad-path / weird-path / non-functional>
@@ -126,7 +126,7 @@ Aim for **5–10 User Stories** per Feature.
 
 #### Step 4 — Tag NFRs as separate stories (10 min)
 
-NFRs from PRD §7 / TCD §3 / §4 don't fit cleanly as user stories. Common treatments:
+NFRs from PRD Section 7 / TCD Section 3 / Section 4 don't fit cleanly as user stories. Common treatments:
 
 - Performance NFR → its own User Story tagged `non-functional` ("As a dispatcher, I want the modal to open in <1s...")
 - Security NFR → a Task on the relevant User Story OR its own `security` story
@@ -327,7 +327,7 @@ Validation discipline: same as Week 5 Day 5. Cross-check the AI's claims against
 1. **Walk the three charts** (15 min). For each, identify what your team would look for.
 2. **Run the AI standup-prep prompt** (10 min). Use yesterday's ADO state (or a synthetic example).
 3. **Validate the output** (10 min). What's wrong? What's right? What's missing?
-4. **Document in DP §2** (10 min). The 5 queries, the board configuration, the AI-aid pattern — all referenced.
+4. **Document in DP Section 2** (10 min). The 5 queries, the board configuration, the AI-aid pattern — all referenced.
 
 ### Wrap (last 15 min)
 
@@ -349,4 +349,4 @@ Each triad ends Day 2 with:
 - [x] **5 saved queries** for state, blocked, done, stale, NFR
 - [x] **Sprint board** + **Kanban board** configured with WIP limits
 - [x] AI provenance entry (standup-prep)
-- [x] DP §2 drafted with links / screenshots
+- [x] DP Section 2 drafted with links / screenshots

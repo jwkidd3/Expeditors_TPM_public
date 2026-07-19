@@ -1,10 +1,10 @@
 # PRD Sections 8–11 — Templates
 
-> **Day 4 handout.** Fillable templates for the four sections that complete the PRD: §8 Metrics & validation, §9 Risks & open questions, §10 Dependencies, §11 Out-of-scope follow-ups. Pull consistently from your Week-2 Tier Sheet and NS Defense Card.
+> **Day 4 handout.** Fillable templates for the four sections that complete the PRD: Section 8 Metrics & validation, Section 9 Risks & open questions, Section 10 Dependencies, Section 11 Out-of-scope follow-ups. Pull consistently from your Week-2 Tier Sheet and NS Defense Card.
 
 ---
 
-## §8 — Metrics & validation
+## Section 8 — Metrics & validation
 
 ```markdown
 ## 8. Metrics & validation
@@ -40,7 +40,7 @@ We'll consider this feature successful if [primary metric] moves
 
 ---
 
-## §9 — Risks & open questions
+## Section 9 — Risks & open questions
 
 **Risks** (named, with mitigation):
 
@@ -75,7 +75,7 @@ We'll consider this feature successful if [primary metric] moves
 
 ---
 
-## §10 — Dependencies
+## Section 10 — Dependencies
 
 ```markdown
 ## 10. Dependencies
@@ -92,7 +92,7 @@ We'll consider this feature successful if [primary metric] moves
 
 ---
 
-## §11 — Out-of-scope follow-ups
+## Section 11 — Out-of-scope follow-ups
 
 ```markdown
 ## 11. Out-of-scope follow-ups (for the backlog)
@@ -104,4 +104,4 @@ We'll consider this feature successful if [primary metric] moves
   full offline-first deferred. Tracked: TICKET-1237.
 ```
 
-> Pull these from §3 non-goals + §4 scope-out + anything that surfaced this week. Items written as "future work" or "v2" are unactionable — be specific and add a ticket placeholder.
+> Pull these from Section 3 non-goals + Section 4 scope-out + anything that surfaced this week. Items written as "future work" or "v2" are unactionable — be specific and add a ticket placeholder.

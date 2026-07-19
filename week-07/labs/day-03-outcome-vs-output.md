@@ -1,6 +1,6 @@
 # Day 3 — Outcome-Based Planning vs Output-Based Tracking
 
-> **Activity packet** for participant triads. Today's job: wire **tracking** on top of yesterday's ADO backlog so the team sees both outputs (work shipped) and outcomes (impact produced) — and surfaces failure early. Draft DP §3.
+> **Activity packet** for participant triads. Today's job: wire **tracking** on top of yesterday's ADO backlog so the team sees both outputs (work shipped) and outcomes (impact produced) — and surfaces failure early. Draft DP Section 3.
 
 ## Where we are in the week
 
@@ -8,11 +8,11 @@ The outcome map exists (Day 1). The backlog is loaded (Day 2). Today builds the 
 
 ## Inputs
 
-- DP §1 (outcome map)
-- DP §2 (loaded ADO)
+- DP Section 1 (outcome map)
+- DP Section 2 (loaded ADO)
 - Tier Sheet from Week 2
-- TCD §4 (SLOs and error budgets)
-- TMD §5 (baselines + monitoring plan)
+- TCD Section 4 (SLOs and error budgets)
+- TMD Section 5 (baselines + monitoring plan)
 
 ---
 
@@ -73,8 +73,8 @@ Build the central tracking table — every meaningful output paired with an outc
 
 ### Triad protocol
 
-1. **List the outputs** (10 min). Pull from DP §2 — the User Stories that produce user-visible behavior. Aim for 5–8 outputs (not all stories produce distinct outcomes).
-2. **For each output, name the outcome** (10 min). Use DP §1's outcome map. Several outputs may share an outcome — that's fine.
+1. **List the outputs** (10 min). Pull from DP Section 2 — the User Stories that produce user-visible behavior. Aim for 5–8 outputs (not all stories produce distinct outcomes).
+2. **For each output, name the outcome** (10 min). Use DP Section 1's outcome map. Several outputs may share an outcome — that's fine.
 3. **For each outcome, name the leading indicator** (10 min). The earliest signal you'd watch.
 4. **Sanity-check** (5 min). Is each leading indicator measurable within 7 days of launch?
 
@@ -201,7 +201,7 @@ The quarterly review answers: **did the feature contribute to the NS?**
 ### Purpose
 Combine Activities 1–3 into a single tracking plan section of the DP. Add the AI-pattern-detection prompt that helps spot anomalies.
 
-### DP §3 structure
+### DP Section 3 structure
 
 ```markdown
 ## 3. Tracking plan
@@ -254,7 +254,7 @@ Format: 3 numbered patterns; each with: pattern / evidence / suggested investiga
 
 ### Triad protocol
 
-1. **Combine into §3** (15 min). All four sections.
+1. **Combine into Section 3** (15 min). All four sections.
 2. **Run the AI prompt** on a synthetic sprint (10 min).
 3. **Validate** (10 min). Cross-check claims.
 4. **Cross-review with another triad** (10 min). The reviewer asks: is each leading indicator measurable within 7 days?
@@ -278,4 +278,4 @@ Each triad ends Day 3 with:
 - [x] **Monthly outcome review template** with named author + audience
 - [x] **Quarterly NS roll-up template**
 - [x] AI pattern-detection prompt + provenance
-- [x] DP §3 drafted
+- [x] DP Section 3 drafted

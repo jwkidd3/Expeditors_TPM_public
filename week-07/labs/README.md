@@ -28,11 +28,11 @@ By Friday afternoon, each participant can:
 
 | Day | Topic | Key artifact produced |
 |-----|-------|----------------------|
-| 1 | Delivery outcomes + Agile principles | DP §1 — Outcome map |
-| 2 | ADO Usage (hands-on workshop) | DP §2 — Loaded ADO backlog |
-| 3 | Outcome-based vs output-based tracking | DP §3 — Tracking plan |
-| 4 | Lean delivery + value stream mapping | DP §4 — Value stream map |
-| 5 | Identifying & removing bottlenecks | DP §5 — Bottleneck removal experiments + DP integration |
+| 1 | Delivery outcomes + Agile principles | DP Section 1 — Outcome map |
+| 2 | ADO Usage (hands-on workshop) | DP Section 2 — Loaded ADO backlog |
+| 3 | Outcome-based vs output-based tracking | DP Section 3 — Tracking plan |
+| 4 | Lean delivery + value stream mapping | DP Section 4 — Value stream map |
+| 5 | Identifying & removing bottlenecks | DP Section 5 — Bottleneck removal experiments + DP integration |
 
 ## Daily cadence (applies all five days)
 

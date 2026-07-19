@@ -78,21 +78,21 @@ Instructor posts pairings at 09:00. Each reviewing triad needs the rubric, the R
 
 Each reviewing triad is paired with one PRD. Two reviewing triads independently review the same PRD (no sharing during review).
 
-**0–10 min: read §§1–5** (Context, Problem, Goals, Scope, Sketch)
+**0–10 min: read Sections 1–5** (Context, Problem, Goals, Scope, Sketch)
 
 - Score Problem clarity and Strategy linkage as you read.
 - Mark any **specific** confusion (not "this is unclear" — "I don't understand why dispatchers care about X").
 
-**10–35 min: read §§6–7** (AC, NFRs)
+**10–35 min: read Sections 6–7** (AC, NFRs)
 
 - Score AC testability — does each AC pass the 5-failure-mode check?
 - Score NFR completeness — all 5 categories? Defenses real?
 - Mark **specific gaps**: missing weird-path AC, boilerplate NFR, etc.
 
-**35–55 min: read §§8–11** (Metrics, Risks, Dependencies, Out-of-scope)
+**35–55 min: read Sections 8–11** (Metrics, Risks, Dependencies, Out-of-scope)
 
 - Score Risk honesty.
-- Cross-check §8 metrics against §3 goals (consistency).
+- Cross-check Section 8 metrics against Section 3 goals (consistency).
 - Mark dependencies that don't have named owners.
 
 **55–75 min: write the review document**
@@ -131,7 +131,7 @@ The two reviewing triads do *not* coordinate — the author triad receives **two
 
 For each: cite the section / line, name the problem, propose the fix.
 
-1. **§ ___ — <short label>**
+1. **Section ___ — <short label>**
    - What we observed:
    - Why it matters:
    - Suggested fix:
@@ -144,7 +144,7 @@ For each: cite the section / line, name the problem, propose the fix.
 
 ### What "good" reviewing looks like
 
-- **Specific** beats general. "§2 is unclear" is bad; "§2 doesn't say *which* dispatchers — small-shop or large-shop — and that changes scope" is good.
+- **Specific** beats general. "Section 2 is unclear" is bad; "Section 2 doesn't say *which* dispatchers — small-shop or large-shop — and that changes scope" is good.
 - **Cite the section.** Reviewer must point to where in the document the issue lives.
 - **Suggest a fix.** A reviewer who only finds problems is half-doing the job.
 - **Three strengths is required.** Honest praise builds the trust that lets the harder feedback land.
@@ -231,13 +231,13 @@ Each author triad needs both AM Review Documents, the adopt/defer/push-back list
 **Total scores:** B = 3.1 / C = 2.8 → addressed below
 
 ### Adopted (changes made)
-- B/Finding 2: §6 AC #4 was untestable. Rewrote with explicit observable.
-- C/Finding 1: §7 missing Compliance NFR. Added retention + audit-trail NFRs.
-- B/Finding 5: §9 risk "tech adoption" had no mitigation. Added optional toggle.
+- B/Finding 2: Section 6 AC #4 was untestable. Rewrote with explicit observable.
+- C/Finding 1: Section 7 missing Compliance NFR. Added retention + audit-trail NFRs.
+- B/Finding 5: Section 9 risk "tech adoption" had no mitigation. Added optional toggle.
 - (etc.)
 
 ### Deferred
-- C/Finding 3: Multi-shop manager view scope. DEFERRED to §11 follow-up + ticket.
+- C/Finding 3: Multi-shop manager view scope. DEFERRED to Section 11 follow-up + ticket.
 
 ### Pushed back
 - B/Finding 4: Reviewer suggested splitting AC #2; we declined because the
