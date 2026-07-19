@@ -634,7 +634,7 @@ Welcome to Week 5. The TCD becomes the spine. Today: data model your feature int
 <li class="fragment fade-up">Apply the <strong>"access pattern first"</strong> discipline — queries before schema</li>
 <li class="fragment fade-up">Make the <strong>storage choice</strong> argument in customer terms</li>
 <li class="fragment fade-up">Surface <strong>schema-level trade-offs</strong> using the Week-4 template</li>
-<li class="fragment fade-up">Draft <strong>TMD Section 1 — Data model</strong></li>
+<li class="fragment fade-up">Draft <strong>Technical Modeling Document (TMD) Section 1 — Data model</strong></li>
 </ul>
 
 Note:
@@ -723,7 +723,7 @@ The most common rookie mistake is reverse: design the schema, then realize queri
 <h3>Triads • 35 minutes</h3>
 <p>List every read and write the feature needs. Capture data, frequency, freshness requirement.</p>
 <ul>
-<li>5 min: re-read PRD Section 5</li>
+<li>5 min: re-read Product Requirements Document (PRD) Section 5</li>
 <li>15 min: list reads (data, filter, freshness)</li>
 <li>10 min: list writes (entity, invariants, concurrency)</li>
 <li>5 min: highlight 1–2 highest-volume reads</li>
@@ -803,6 +803,8 @@ If a triad lists indexes without referencing patterns, they're guessing.
 - ticket_ids is denormalized (see trade-off #2)
 ```
 
+<p>The signature_hash addresses the Repudiation threat in the STRIDE model (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege).</p>
+
 Note:
 Note signature_hash + R-threat reference — TCD Section 3 (Day 2 of Week 4) STRIDE work pays off.
 
@@ -881,7 +883,7 @@ Note the "what we deliberately can't do efficiently" framing — that's the seni
 <ul>
 <li>15 min: identify 3 trade-off points in your model</li>
 <li>15 min: write each (Option A/B/Choice/Why/Cost/Trigger)</li>
-<li>10 min: cross-check against TCD Section 4 SLOs</li>
+<li>10 min: cross-check against Technical Concept Document (TCD) Section 4 Service Level Objectives (SLOs)</li>
 </ul>
 <div class="timebox">⏱ 15 + 15 + 10</div>
 

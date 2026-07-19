@@ -633,7 +633,7 @@ Today: tie data + cloud + API together. Sequence diagrams for happy / sad / weir
 <li class="fragment fade-up">Draw a <strong>happy-path sequence</strong> with lifelines, protocols, latencies</li>
 <li class="fragment fade-up">Draw a <strong>sad-path sequence</strong> showing user-visible recovery</li>
 <li class="fragment fade-up">Draw a <strong>weird-path sequence</strong> with named invariant</li>
-<li class="fragment fade-up">Verify total latency annotation matches <strong>TCD Section 4 SLO budget</strong></li>
+<li class="fragment fade-up">Verify total latency annotation matches <strong>Technical Concept Document (TCD) Section 4 Service Level Objective (SLO) budget</strong></li>
 <li class="fragment fade-up">Cross-review with another triad and use AI to surface gaps</li>
 </ul>
 
@@ -715,7 +715,7 @@ Triads who try to draw "the whole system" in one sequence diagram drown. Coach t
 <ol>
 <li class="fragment fade-up"><strong>Happy path</strong> — central success case (full detail)</li>
 <li class="fragment fade-up"><strong>Sad path</strong> — most common user/system error (abbreviated)</li>
-<li class="fragment fade-up"><strong>Weird path</strong> — edge case from your AC's "weird" coverage (abbreviated)</li>
+<li class="fragment fade-up"><strong>Weird path</strong> — edge case from your acceptance criteria (AC) "weird" coverage (abbreviated)</li>
 </ol>
 <div class="key-point">
 Sad and weird paths usually <strong>diverge from the happy path at one arrow</strong>. Draw from the divergence.
@@ -756,7 +756,7 @@ Sad paths come from PRD Section 6 — validation, permission, state conflict are
 
 <h2>📝 Sad Path Discipline</h2>
 <ul>
-<li class="fragment fade-up">Pick from PRD Section 6 sad-path AC</li>
+<li class="fragment fade-up">Pick from Product Requirements Document (PRD) Section 6 sad-path AC</li>
 <li class="fragment fade-up">Show the <strong>divergence point</strong> — the arrow where it goes differently</li>
 <li class="fragment fade-up">Show the <strong>status code + error body</strong> from Section 3</li>
 <li class="fragment fade-up">Show the <strong>user's recovery action</strong></li>
@@ -925,7 +925,7 @@ Wrap-share: 1 invariant proudest, 1 AI-surfaced arrow, 1 question diagrams could
 <li>Sad-path sequence (with recovery)</li>
 <li>Weird-path sequence (with invariant)</li>
 <li>Cross-reviewed + AI-critiqued</li>
-<li>TMD Section 4 drafted</li>
+<li>Technical Modeling Document (TMD) Section 4 drafted</li>
 </ul>
 </div>
 <div class="card">

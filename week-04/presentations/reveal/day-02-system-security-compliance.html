@@ -630,10 +630,10 @@ A TPM is not the security expert. The job is to drive the right conversation wit
 
 <h2>🎯 Day 2 Objectives</h2>
 <ul>
-<li class="fragment fade-up">Apply the <strong>STRIDE threat-model</strong> to a feature's data flow</li>
+<li class="fragment fade-up">Apply the <strong>STRIDE threat model</strong> (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege) to a feature's data flow</li>
 <li class="fragment fade-up">Walk a <strong>data-flow diagram</strong>: arrows (in motion) + boxes (at rest)</li>
 <li class="fragment fade-up">Recognize the <strong>three compliance frames</strong>: SOC 2, privacy, industry-specific</li>
-<li class="fragment fade-up"><strong>Rewrite</strong> the Week-3 first-draft security NFRs at architecture level</li>
+<li class="fragment fade-up"><strong>Rewrite</strong> the Week-3 first-draft security non-functional requirements (NFRs) at architecture level</li>
 <li class="fragment fade-up">Produce a <strong>security brief</strong> ready for a security-team conversation</li>
 </ul>
 
@@ -745,7 +745,7 @@ Triads now STRIDE their actual feature. Push past S and I — T and R are usuall
 **Mitigation:** [specific control; "TLS" is not a complete answer]
 **Owner:** [security team, you, the architect]</code></pre>
 <div class="key-point">
-<strong>"Use security best practices"</strong> is not a mitigation. <strong>"Validate JWT signature against IdP-published key, with 5-minute clock skew"</strong> is.
+<strong>"Use security best practices"</strong> — or a bare "Transport Layer Security (TLS)" — is not a mitigation. <strong>"Validate JWT signature against IdP-published key, with 5-minute clock skew"</strong> is.
 </div>
 
 Note:
@@ -775,7 +775,7 @@ The pattern: a threat is one sentence, mitigation is concrete + tied to an NFR. 
 
 <h2>👥 Activity 2 — STRIDE Your PRD</h2>
 <h3>Triads • 40 minutes</h3>
-<p>Re-draw the data flow from yesterday's integration table + PRD Section 5. Run the STRIDE walk. Document top 5 threats.</p>
+<p>Re-draw the data flow from yesterday's integration table + Product Requirements Document (PRD) Section 5. Run the STRIDE walk. Document top 5 threats.</p>
 <ul>
 <li>10 min: re-draw data flow</li>
 <li>20 min: STRIDE walk</li>
@@ -806,7 +806,7 @@ Block 3 converts threat findings into rewritten NFRs. Compliance frames (PII, au
 </div>
 <div class="card">
 <h4>Privacy regimes</h4>
-<p>GDPR, CCPA, US state privacy laws. Personal data handling, consent, deletion.</p>
+<p>GDPR, California Consumer Privacy Act (CCPA), US state privacy laws. Personally identifiable information (PII) handling, consent, deletion.</p>
 </div>
 <div class="card">
 <h4>Industry-specific</h4>
@@ -831,7 +831,7 @@ Most TPMs will encounter SOC 2 + a privacy regime. The third varies. Surface thi
 <tr><td>(none)</td><td>Data residency: same region as Tickets</td><td>Latency + privacy regime</td></tr>
 </table>
 <div class="highlight-box success">
-<strong>The TCD Section 3 doesn't replace PRD Section 7.</strong> It deepens it. Both ship.
+<strong>The Technical Concept Document (TCD) Section 3 doesn't replace PRD Section 7.</strong> It deepens it — e.g., a loose "single sign-on (SSO)" line becomes a concrete scope. Both ship.
 </div>
 
 Note:

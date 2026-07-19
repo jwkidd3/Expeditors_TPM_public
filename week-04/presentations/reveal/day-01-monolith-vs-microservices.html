@@ -633,7 +633,7 @@ Welcome to Week 4. AI is restored this week — Week 1 prompt patterns + Week 2 
 <li class="fragment fade-up">Frame mono-vs-micro decisions in <strong>business + operational terms</strong>, not framework hype</li>
 <li class="fragment fade-up">Apply the <strong>three-question frame</strong>: deploy cadence, failure domain, scaling axis</li>
 <li class="fragment fade-up">Recognize the <strong>"majestic monolith"</strong> as the often-correct default</li>
-<li class="fragment fade-up">Draft <strong>Section 1 of the TCD</strong> — your architecture stance with trade-off and revisit trigger</li>
+<li class="fragment fade-up">Draft <strong>Section 1 of the Technical Concept Document (TCD)</strong> — your architecture stance with trade-off and revisit trigger</li>
 <li class="fragment fade-up">Begin <strong>Section 2 — Integration map</strong> with failure-handling stances</li>
 </ul>
 
@@ -809,7 +809,7 @@ Note "depends on Tickets API and Auth, if either is down, can't function" — th
 
 <h2>👥 Activity 2 — Apply the Frame</h2>
 <h3>Triads • 40 minutes</h3>
-<p>Run the three-question frame against your locked PRD feature. Draft TCD Section 1.</p>
+<p>Run the three-question frame against your locked Product Requirements Document (PRD) feature. Draft TCD Section 1.</p>
 <ul>
 <li>5 min: re-read PRD Section 10 (Dependencies)</li>
 <li>15 min: 3-question pass; honest answers with evidence</li>
@@ -841,6 +841,7 @@ The integration map is the bridge from "architecture stance" to "what touches wh
 <tr><td>Tickets API</td><td>Dispatch</td><td>Sync</td><td>RW</td><td>Retry x3, then fail</td></tr>
 <tr><td>Notification svc</td><td>Comms</td><td>Async</td><td>W</td><td>Best-effort, drop</td></tr>
 </table>
+<p>Each integration carries a failure stance — e.g., single sign-on (SSO) for auth, a dead-letter queue (DLQ) for audit writes — which later hardens into acceptance criteria (AC).</p>
 <div class="highlight-box warning">
 <strong>"Failure handling: TBD"</strong> is fine if it's an open question. <strong>"Hopefully it works"</strong> is not.
 </div>
@@ -852,7 +853,7 @@ The Failure Handling column forces a choice. Push for a stance, even if the stan
 
 <h2>🔗 Two-Way Contracts</h2>
 <div class="concept-box">
-<p>Some integrations require <strong>coordination with another team</strong> — they have to change something for you. Mark these explicitly.</p>
+<p>Some integrations require <strong>coordination with another team</strong> — they have to change something for you, sometimes touching personally identifiable information (PII) handling. Mark these explicitly.</p>
 </div>
 <table>
 <tr><th>Contract</th><th>What we need</th><th>What they need</th></tr>
@@ -972,8 +973,8 @@ Catch any output that sounds like fortune-cookie generic prose — rewrite in th
 <h4>What opens tomorrow</h4>
 <ul>
 <li><strong>System security & compliance</strong></li>
-<li>STRIDE threat-model pass</li>
-<li>Revising PRD's Security NFRs at architectural level</li>
+<li>Threat-model pass using the STRIDE model (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege)</li>
+<li>Revising PRD's Security non-functional requirements (NFRs) at architectural level</li>
 </ul>
 </div>
 </div>

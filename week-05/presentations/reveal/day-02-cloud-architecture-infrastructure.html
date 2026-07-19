@@ -634,7 +634,7 @@ Today: where the boxes physically run. Region/AZ, managed vs self, tenancy, netw
 <li class="fragment fade-up">Default to <strong>managed services</strong>; defend any self-managed exception</li>
 <li class="fragment fade-up">Take a <strong>multi-tenancy stance</strong> tied to customer evidence</li>
 <li class="fragment fade-up">Choose a <strong>network boundary</strong> with revisit triggers</li>
-<li class="fragment fade-up">Add a <strong>ROM cost table</strong> — catch 2x surprises before they ship</li>
+<li class="fragment fade-up">Add a <strong>rough order of magnitude (ROM) cost table</strong> — catch 2x surprises before they ship</li>
 </ul>
 
 Note:
@@ -719,6 +719,8 @@ satisfies our 99.5% availability SLO.
 **Revisit trigger:** Second multi-hour us-east-1 outage in
 12 months, OR availability SLO tightens to 99.9%+.</code></pre>
 
+<p>The warm-DR choice is judged against our availability Service Level Objective (SLO).</p>
+
 Note:
 Note the explicit cost and revisit trigger — same Week-4 trade-off discipline.
 
@@ -729,8 +731,8 @@ Note the explicit cost and revisit trigger — same Week-4 trade-off discipline.
 <h2>👥 Activity 1 — Region + AZ</h2>
 <h3>Triads • 35 minutes</h3>
 <ul>
-<li>5 min: pull customer location facts (PRD Section 2)</li>
-<li>5 min: pull compliance facts (TCD Section 3)</li>
+<li>5 min: pull customer location facts from Product Requirements Document (PRD) Section 2</li>
+<li>5 min: pull compliance facts from Technical Concept Document (TCD) Section 3</li>
 <li>10 min: decide region(s)</li>
 <li>10 min: decide multi-AZ stance</li>
 <li>5 min: capture trade-off (Week-4 template)</li>
@@ -832,7 +834,7 @@ Tenancy is a customer + cost decision, not just a tech decision.
 <div class="three-columns">
 <div class="card">
 <h4>Public HTTPS</h4>
-<p>Default for B2B SaaS APIs. Standard TLS; nothing else.</p>
+<p>Default for B2B SaaS APIs. Standard Transport Layer Security (TLS); nothing else.</p>
 </div>
 <div class="card">
 <h4>Customer-VPN-only</h4>
@@ -941,7 +943,7 @@ Wrap-share: each triad names region/AZ stance, 1 trade-off, 1 cost surprise.
 <li>Managed/self table</li>
 <li>Multi-tenancy + network boundary</li>
 <li>ROM cost table</li>
-<li>TMD Section 2 drafted</li>
+<li>Technical Modeling Document (TMD) Section 2 drafted</li>
 </ul>
 </div>
 <div class="card">

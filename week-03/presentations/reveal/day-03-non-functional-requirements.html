@@ -633,7 +633,7 @@ Mid-week. AC done yesterday. Today is NFRs — the requirements that decide whet
 <li class="fragment fade-up">Write NFRs in <strong>Requirement / Defense / Verification</strong> form — specific, defended, testable</li>
 <li class="fragment fade-up">Cover all five categories: <strong>Performance, Security, Accessibility, Observability, Compliance</strong></li>
 <li class="fragment fade-up">Tie observability NFRs to the <strong>Tier Sheet operational signals</strong> from Week 2</li>
-<li class="fragment fade-up">Surface <strong>NFR trade-offs</strong> explicitly — mature PRDs name the tensions</li>
+<li class="fragment fade-up">Surface <strong>NFR trade-offs</strong> explicitly — mature Product Requirements Documents (PRDs) name the tensions</li>
 <li class="fragment fade-up">Deliver Section 7 with <strong>6–10 NFRs</strong> + a Known Trade-offs subsection</li>
 </ul>
 
@@ -701,6 +701,7 @@ Note:
 ---
 
 <h2>📚 The Five Categories</h2>
+<p style="font-size:0.78em; margin:2px 0 10px;">Accessibility follows the <strong>Web Content Accessibility Guidelines (WCAG)</strong> 2.1 AA standard.</p>
 <div class="three-columns">
 <div class="card">
 <h4>Performance</h4>
@@ -863,8 +864,8 @@ These categories often get skipped or hand-waved. Today triads draft first versi
 <ol>
 <li class="fragment fade-up"><strong>AuthN:</strong> How do we know who the user is?</li>
 <li class="fragment fade-up"><strong>AuthZ:</strong> What can this user do? (Explicit not-allowed list)</li>
-<li class="fragment fade-up"><strong>Data classification:</strong> PII / PCI / internal / public — what touches what?</li>
-<li class="fragment fade-up"><strong>Encryption:</strong> In transit (TLS 1.2+); at rest (managed keys?)</li>
+<li class="fragment fade-up"><strong>Data classification:</strong> personally identifiable information (PII) / PCI / internal / public — what touches what?</li>
+<li class="fragment fade-up"><strong>Encryption:</strong> In transit via Transport Layer Security (TLS 1.2+); at rest (managed keys?)</li>
 <li class="fragment fade-up"><strong>Audit:</strong> What user actions are logged? Where? Retained how long?</li>
 </ol>
 <div class="highlight-box warning">
@@ -1009,7 +1010,7 @@ Wrap share: each triad reads aloud one explicit trade-off they made.
 <div class="card">
 <h4>What opens tomorrow</h4>
 <ul>
-<li><strong>Mini-capstone PRD assembly</strong></li>
+<li><strong>Mini-capstone Product Requirements Document (PRD) assembly</strong></li>
 <li>Add Section 8 Metrics, Section 9 Risks, Section 10 Deps, Section 11 Out-of-scope</li>
 <li>Final pass + integration check</li>
 <li>Still non-AI</li>

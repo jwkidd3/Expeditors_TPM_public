@@ -634,7 +634,7 @@ Friday. The TCD ships today, sibling to the PRD. Today produces Sections 5–6 +
 <li class="fragment fade-up">Cover at least <strong>3 categories</strong>: coupling vs independence, consistency vs availability, latency vs durability, speed vs robustness, generality vs simplicity</li>
 <li class="fragment fade-up">Build the <strong>stakeholder sign-off matrix</strong> with real names</li>
 <li class="fragment fade-up">Run an <strong>integration pass</strong> across Sections 1–6</li>
-<li class="fragment fade-up">Cross-review with another triad and ship the TCD as a sibling to the PRD</li>
+<li class="fragment fade-up">Cross-review with another triad and ship the Technical Concept Document (TCD) as a sibling to the Product Requirements Document (PRD)</li>
 </ul>
 
 Note:
@@ -770,6 +770,7 @@ action; a regulator querying within seconds may see
 stale state.
 **Revisit trigger:** A regulator or customer requires
 synchronous audit visibility within < 1 second.</code></pre>
+<p>Option B leans on a dead-letter queue (DLQ) to catch rare write failures.</p>
 
 Note:
 Note how this links Section 3 (audit), Section 4 (latency SLO), and Section 5 (the trade-off) — internal consistency.
@@ -803,6 +804,7 @@ Real names, real next steps. Aim for 6+ entries — most architectural features 
 ---
 
 <h2>📋 The Sign-Off Matrix</h2>
+<p>Each row pairs a constraint with an owner — down to the single sign-on (SSO) scope addition.</p>
 <table>
 <tr><th>#</th><th>Constraint (link)</th><th>Stakeholder</th><th>Status</th><th>Next step</th></tr>
 <tr><td>1</td><td>Section 1 Architecture stance</td><td>Lin (Architect)</td><td>Proposed</td><td>30-min walkthrough</td></tr>
@@ -883,7 +885,7 @@ Same discipline as Week 3 Day 4. Run it solo, then cross-review.
 <ol>
 <li class="fragment fade-up"><strong>Is each trade-off really a trade-off</strong>, or just a description?</li>
 <li class="fragment fade-up"><strong>Does the stakeholder matrix have obvious gaps?</strong></li>
-<li class="fragment fade-up"><strong>Are SLOs and trade-offs internally consistent?</strong></li>
+<li class="fragment fade-up"><strong>Are Service Level Objectives (SLOs) and trade-offs internally consistent?</strong></li>
 </ol>
 <div class="highlight-box success">
 <strong>Reviewer rubric (for scoring):</strong>
@@ -926,7 +928,7 @@ Wrap-share: each triad shares one of their five trade-offs aloud, including the 
 <ul>
 <li>Architecture stance with revisit trigger</li>
 <li>Integration map + C4 diagrams</li>
-<li>STRIDE threat model + security NFRs</li>
+<li>STRIDE threat model (six threat categories) + security non-functional requirements (NFRs)</li>
 <li>Three SLOs + latency budget</li>
 <li>Top 5 trade-offs</li>
 <li>Stakeholder sign-off matrix</li>
