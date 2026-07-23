@@ -1,6 +1,6 @@
 # Day 1 — AI Spec Development
 
-> **Activity packet** for participant triads. Today's job: install the **AI Spec Development pattern** — a structured prompt sequence that produces an engineering-ready integrated technical spec from PRD/TCD/TMD inputs — and confirm the capstone subject.
+> **Activity packet** for participant triads. Today's job: install the **AI Spec Development pattern** — a structured prompt sequence that produces an engineering-ready integrated technical spec from PRD/TCD/TMD inputs — and lock the **Holocron scope slice** you will specify all week.
 
 ## Where we are in the week
 
@@ -9,13 +9,13 @@ Week 8 opens with a new technique. AI Spec Development is the synthesis of every
 By 16:00, every triad has:
 
 - A **working AI Spec template** with the prompt sequence
-- A **confirmed capstone subject** with initial inputs gathered
+- A **locked Holocron scope slice** with initial inputs gathered
 - **Tomorrow's plan** — what discovery they need to do for compressed PRD work
 
 ## Inputs
 
 - The full sibling artifact set from Weeks 3–7 (the templates carry forward)
-- The triad's declared Week-8 capstone candidate
+- The **Holocron problem brief** (issued end of Week 7)
 - The Pattern Library accumulated across Weeks 2, 4, 5, 6, 7
 
 ---
@@ -173,28 +173,28 @@ Format: 3 sub-sections.
 
 ---
 
-## Activity 1 — Capstone Subject Confirmation
+## Activity 1 — Holocron Scoping
 
 **Format:** Triad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-Confirm the capstone subject. Some declared candidates won't survive contact with the constraint of doing it in 4 days.
+Lock a defensible slice of the Holocron problem. The subject is fixed; what varies is how much you take on — and an over-broad slice won't survive contact with a 4-day build.
 
 ### Triad protocol
 
-1. **Re-read your declared candidate** (5 min). What did you say end of Week 7?
-2. **The 5 capstone-fit questions** (15 min):
-    - Do we have a **real customer**? (interviews / observation / data — not just a guess)
-    - Is the scope **substantive enough** that compressed PRD work has substance?
-    - **Clear problem?** Can you state the core problem in one sentence an engineer could scope from?
-    - Can we **discuss it publicly** (no NDA / IP issues)?
+1. **Re-read the problem brief** (5 min). Compare it against the one-sentence problem you captured Friday.
+2. **The 5 scoping questions** (15 min):
+    - **One-sentence problem?** Can you state it so an engineer could scope from it — not a restatement of the mandate?
+    - **Who is it for first?** Have you named the primary user, and can you defend choosing them over the others in the brief?
+    - **Substantive but bounded?** Rich enough to carry a real spec, small enough to finish in 4 days?
+    - **Evidence, not invention?** Can every claim point to a fact in the brief — or be flagged as an assumption with an owner?
     - Can we **ship the artifact set in 4 days** (Day 2-4 build + Day 5 present)?
-3. **Adjust or commit** (10 min). If 1+ question is "no", refine or pick a backup.
-4. **List inputs you'll need** (5 min). Customer interviews / data / docs / system access.
+3. **Draw the scope line** (10 min). Name what is in release one and what you are deliberately deferring. If 1+ question is "no", narrow the slice.
+4. **List inputs you'll need** (5 min). Which stakeholders you'd interview, which brief facts you'll build on, which open questions you must resolve or route.
 
 ### Output
 
-A confirmed capstone subject + a list of inputs to gather before tomorrow's discovery work.
+A one-sentence problem statement, a named primary user, an explicit in/out scope line, and a list of inputs to gather before tomorrow's discovery work.
 
 ---
 
@@ -265,7 +265,7 @@ Plan the discovery work needed for tomorrow's compressed PRD. Distribute the wor
 
 ```
 Role: Capstone advisor for a TPM cohort.
-Context: <capstone subject + 5-question fit assessment +
+Context: <Holocron scope slice + 5-question scoping assessment +
          declared inputs needed>
 Task: Identify 3 risks in the capstone plan:
   1. A customer signal source likely insufficient
@@ -281,7 +281,7 @@ Format: 3 numbered findings.
 
 Each triad shares:
 
-- Their **confirmed capstone subject** in one sentence
+- Their **Holocron problem statement + scope line** in one sentence
 - The **section of the AI Spec they think they'll struggle with most**
 - One **risk** the AI surfaced about their plan
 

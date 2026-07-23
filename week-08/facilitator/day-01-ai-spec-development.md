@@ -8,7 +8,7 @@
 
 - A subject that fails the "substantive enough" test will produce a thin capstone. Coach to a richer subject if needed.
 - A subject lacking real customer signal often produces a fictional PRD. Push for at least one real interview (even a 15-min phone call).
-- Capstone subject is the triad's choice — FieldPulse or an internal project. Either is fine; press instead on whether the problem is clearly stated and shippable in 4 days.
+- The subject is fixed (Holocron), so Day 1 is about **scope**, not selection. Press on whether the slice is defensible and shippable in 4 days — and whether they found the governance/compliance driver, not just "editing is slow." The fully-specified reference PRD is in `holocron-reference-prd.md` (facilitator-only).
 
 ## Activity 3 — Run the 5-Prompt Sequence on FieldPulse
 
@@ -20,7 +20,7 @@
 
 ## Facilitator reflection prompts (end of day)
 
-- Which triad's capstone subject is sharpest? Hold up Friday.
+- Which triad's scope line is sharpest? Hold it up Friday — especially a triad that deferred well.
 - Did anyone refuse to validate prompt outputs? Coach immediately — AI Spec without validation is fiction.
-- Did anyone pick a subject that failed the 5-question fit test and not adjust? Pre-coach tomorrow morning.
+- Did any triad leave Day 1 with a slice too broad to finish by Friday? Pre-coach tomorrow morning — narrowing on Tuesday is far cheaper than on Thursday.
 - Did the practice run on FieldPulse produce a usable AI Spec? Reading skill is the test.

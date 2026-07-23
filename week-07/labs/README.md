@@ -95,4 +95,4 @@ Same triads from Weeks 1–6. PRD authors → TCD authors → TMD authors → SE
 
 ## Bridge to Week 8
 
-Week 8 (AI Spec Development & Capstone) is the capstone. Each triad picks a capstone subject (FieldPulse or a real project of their own) and produces an integrated artifact set. The DP from Week 7 is the **delivery template** the capstone instance will follow. Week 8's "AI Spec Development" topic gets explicit treatment — using AI to draft technical specs that integrate with the PRD/TCD/TMD/SEP/DP artifact set built across Weeks 3–7.
+Week 8 (AI Spec Development & Capstone) is the capstone. Every triad works the same subject — the **Holocron** enterprise string-management problem, supplied as a problem brief — and produces an integrated artifact set. The DP from Week 7 is the **delivery template** the capstone instance will follow. Week 8's "AI Spec Development" topic gets explicit treatment — using AI to draft technical specs that integrate with the PRD/TCD/TMD/SEP/DP artifact set built across Weeks 3–7.

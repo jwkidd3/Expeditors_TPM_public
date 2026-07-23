@@ -2,13 +2,13 @@
 
 > *"Eight weeks of muscle. Five days of proof."*
 
-Week 8 is the capstone. Each triad takes a **capstone subject** (declared end of Week 7 — FieldPulse or an internal project of their own) and produces a compressed-but-complete artifact set, anchored on the new technique introduced this week: **AI Spec Development** — using AI to draft the integrated technical spec that ties PRD / TCD / TMD outputs together, with full validation discipline.
+Week 8 is the capstone. Every triad works the same **capstone subject** — the **Holocron** enterprise string-management problem, supplied as a problem brief at the end of Week 7 — and produces a compressed-but-complete artifact set, anchored on the new technique introduced this week: **AI Spec Development** — using AI to draft the integrated technical spec that ties PRD / TCD / TMD outputs together, with full validation discipline.
 
 Friday is **final artifact presentations**. The cohort + instructors score on a rubric that touches every muscle from Weeks 1–7.
 
 ## What's different about Week 8
 
-- **The subject is the triad's choice.** FieldPulse, or a project from their actual work, school, or hobby.
+- **The subject is fixed: Holocron.** Every triad gets the same problem brief and writes its own requirements from it — nothing is pre-specified.
 - **Compression.** The 5-artifact set produced over Weeks 3–7 gets re-produced in **one week** for the new subject. This tests whether the muscles transfer.
 - **AI Spec Development is new.** Day 1 introduces the technique; Day 3 applies it.
 - **Friday is presentations.** Each triad has 15 minutes + 5 min Q&A.
@@ -28,7 +28,7 @@ By Friday afternoon, each participant can:
 
 | Day | Topic | Key artifact produced |
 |-----|-------|----------------------|
-| 1 | AI Spec Development | AI Spec template + capstone subject confirmed |
+| 1 | AI Spec Development | AI Spec template + Holocron scope slice locked |
 | 2 | Capstone discovery + compressed PRD | Capstone PRD-light |
 | 3 | Capstone architecture + AI Spec drafted | TCD-light + TMD-light + AI Spec v1 |
 | 4 | Technical logic validation + finalization | Validated, integrated capstone artifact set |

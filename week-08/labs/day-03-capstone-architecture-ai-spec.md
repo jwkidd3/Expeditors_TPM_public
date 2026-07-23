@@ -135,7 +135,7 @@ Compressed Week-5 work in 40 minutes. Data + cloud + API + sequence + monitoring
 **Format:** Triad &bull; **40 min** &bull; Block 3
 
 ### Purpose
-Apply the Day-1-rehearsed sequence to the capstone subject.
+Apply the Day-1-rehearsed sequence to the Holocron capstone.
 
 ### Triad protocol
 

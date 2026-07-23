@@ -1,10 +1,10 @@
 # Day 2 — Capstone Discovery + Compressed PRD
 
-> **Activity packet** for participant triads. Today's job: do compressed discovery on the capstone subject (the Week-1 muscles in 1 day) and produce **PRD-light** — a 2-page version that captures sections 1–7 with the same discipline as Week 3 in a fraction of the time.
+> **Activity packet** for participant triads. Today's job: do compressed discovery on the Holocron problem (the Week-1 muscles in 1 day) and produce **PRD-light** — a 2-page version that captures sections 1–7 with the same discipline as Week 3 in a fraction of the time.
 
 ## Where we are in the week
 
-Day 1 confirmed the capstone subject and installed the AI Spec pattern. Today is **Discovery + PRD-light**. The Week-1 customer-centric work is compressed into one day; Week-3's PRD work is compressed into the afternoon.
+Day 1 locked the Holocron scope slice and installed the AI Spec pattern. Today is **Discovery + PRD-light**. The Week-1 customer-centric work is compressed into one day; Week-3's PRD work is compressed into the afternoon.
 
 By 16:00, every triad has a 2-page PRD-light ready to hand off as input to tomorrow's compressed architecture work.
 

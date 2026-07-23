@@ -5,14 +5,14 @@ The academy has **two capstone moments**: a mid-arc PRD discipline check in Week
 | | **Week 3 — Mini-Capstone** | **Week 8 — Final Capstone** |
 |---|---|---|
 | Position | End of the requirements arc | End of the academy |
-| Subject | **FieldPulse** (the shared HVAC dispatch SaaS case) | **Triad's choice** — FieldPulse or a project from their actual work / school / hobby |
+| Subject | **FieldPulse** (the shared HVAC dispatch SaaS case) | **Holocron** — an enterprise string-management problem, supplied as a problem brief |
 | Duration | 1 week (Mon–Fri) | 1 week (Mon–Thu build, Fri present) |
 | AI tools | **Off** — honor system | **On** with validation discipline; new AI Spec Development pattern introduced Day 1 |
 | Deliverable | One Technical PRD + review-resolution log | 6-artifact set (PRD/TCD/TMD/SEP/DP + AI Spec) |
 | Compression rule | None — full 11-section PRD | **2 pages per artifact** — discipline is what to cut |
 | Triads | Same triads since Week 1 | Same triads since Week 1 |
 | Friday | Cross-triad peer review (2 primary reviewers + 1 secondary, then revise) | 15-min triad presentations + 5 min Q&A; cohort + instructors score |
-| Output proves | Cohort can write a defensible PRD without AI | Muscles from Weeks 1–7 applied end-to-end on the capstone subject |
+| Output proves | Cohort can write a defensible PRD without AI | Muscles from Weeks 1–7 applied end-to-end on an unfamiliar enterprise problem |
 
 ---
 
@@ -72,7 +72,7 @@ Allowed: spell-check, dictionary, customer-interview transcripts, Week 1–2 art
 
 ## Week 8 — Final Capstone: Integrated Artifact Set
 
-The final capstone is **wide and integrative**. Triads pick a capstone subject (declared end of Week 7 — FieldPulse or a project of their own) and produce a compressed-but-complete version of the 5-week artifact set, plus a new AI-generated integrated technical spec.
+The final capstone is **wide and integrative**. Every triad works the **Holocron** problem (brief issued end of Week 7) and produces a compressed-but-complete version of the 5-week artifact set, plus a new AI-generated integrated technical spec. Nothing is pre-specified — the brief gives business context and facts; the requirements are the triad's work.
 
 ### What ships Friday
 
@@ -92,7 +92,7 @@ capstone/
 
 | Day | Topic | Artifact produced |
 |---|---|---|
-| Mon | AI Spec Development technique introduced | AI Spec template + capstone subject confirmed |
+| Mon | AI Spec Development technique introduced | AI Spec template + Holocron scope slice locked |
 | Tue | Capstone discovery + compressed PRD | PRD-light |
 | Wed | Capstone architecture + AI Spec drafted | TCD-light + TMD-light + AI Spec v1 |
 | Thu | Technical logic validation + finalization | Validated, integrated capstone set |
@@ -124,6 +124,6 @@ Day 1 introduces a structured prompt sequence that produces an engineering-ready
 
 ## How the two capstones relate
 
-Week 3 proves the cohort can write **one well-formed PRD without AI**. Week 8 proves the cohort can produce the **full artifact set on their capstone subject in five days, with AI used as a force multiplier instead of a crutch**. The Week 3 PRD muscle is the load-bearing input for the Week 8 PRD-light; every other compressed artifact rests on it.
+Week 3 proves the cohort can write **one well-formed PRD without AI**. Week 8 proves the cohort can produce the **full artifact set on an unfamiliar enterprise problem in five days, with AI used as a force multiplier instead of a crutch**. The Week 3 PRD muscle is the load-bearing input for the Week 8 PRD-light; every other compressed artifact rests on it.
 
 Failing Week 3 makes Week 8 fragile. Passing Week 3 makes Week 8 an integration test rather than a relearning exercise.

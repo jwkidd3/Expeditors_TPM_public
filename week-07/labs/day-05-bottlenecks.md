@@ -180,7 +180,7 @@ The triad declares the DP **Status: Approved** (or "Approved with gaps") — sam
 
 ### Bridge to Week 8 — what the capstone needs
 
-Week 8 is the capstone. Each triad picks a capstone subject — **FieldPulse or a real project of their own** (work, school, or hobby). They produce an integrated artifact set in shorter form, anchored on the Week-8 topic: **AI Spec Development**.
+Week 8 is the capstone. Every triad works the same subject: **Holocron**, an enterprise string-management problem. You receive a **problem brief** — the business situation, the facts, the stakeholders, the constraints — and build the artifact set from it. The requirements are yours to write; nothing is pre-specified. The week is anchored on the Week-8 topic: **AI Spec Development**.
 
 **What carries over to Week 8:**
 
@@ -192,18 +192,18 @@ Week 8 is the capstone. Each triad picks a capstone subject — **FieldPulse or 
 **What's new in Week 8:**
 
 - **AI Spec Development** — using AI to draft technical specs that integrate with the artifact set
-- A **capstone subject** (FieldPulse or a project of your own)
+- The **Holocron problem brief** — a real enterprise problem, handed to you cold
 - **Final artifact presentations** Friday
 
 ### Triad protocol — Week 8 readiness check (30 min)
 
-1. **Pick a capstone candidate** (15 min). Brainstorm 3–5 candidate subjects (FieldPulse or real projects of your own) for Week 8. Criteria:
-    - Real product / feature you've encountered (work, school, hobby, public)
-    - Substantive enough for a week of work
-    - A clear problem you can state in one sentence
-    - Permission to discuss publicly (no NDA conflicts)
-2. **Pre-flight** (10 min). What inputs would you need? Who would you ask?
-3. **Declare a candidate** (5 min). Triad's preferred Week-8 capstone. Bring it Monday.
+1. **Read the Holocron problem brief** (15 min). Take `holocron-problem-brief.md` and read it end to end as a triad. Do not start solving. Instead capture:
+    - The problem in one sentence, in your own words
+    - Who you think the primary user is — and who else the brief names
+    - The three facts you find most consequential
+    - The first three questions you would ask the business
+2. **Pre-flight** (10 min). Which stakeholders would you interview first? Which open questions in the brief must be resolved before you can scope?
+3. **First-pass scope instinct** (5 min). Without committing: what feels like release one? Bring it Monday — Day 1 tests it.
 
 ### Final wrap (last 15 min)
 
@@ -211,7 +211,7 @@ Each triad shares:
 
 - The **bottleneck experiment** they're most excited to run
 - The **single sharpest insight** the DP added beyond the rest of the artifact set
-- Their **declared Week-8 capstone candidate**
+- Their **one-sentence read of the Holocron problem** + the first question they'd ask the business
 
 ---
 
@@ -227,6 +227,6 @@ Each triad ships:
 - [x] Section 5 Bottleneck removal experiments (hypothesis / test / success criterion)
 - [x] AI provenance log entries
 - [x] Cross-reviewed + signed off
-- [x] **Week 8 capstone candidate declared**
+- [x] **Holocron problem brief read**; one-sentence problem + opening questions captured
 
 The DP joins the PRD / TCD / TMD / SEP. Together they are the **complete sibling artifact set** built across Weeks 3–7 — the input to the Week-8 capstone.
