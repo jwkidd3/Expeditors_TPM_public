@@ -4,7 +4,7 @@
 
 ## Facilitator pre-flight checklist
 
-- [ ] The fully-specified reference PRD is `holocron-reference-prd.md` — facilitator-only, do not distribute.
+- [ ] The fully-specified Holocron reference PRD (the capstone answer key) is **not published to any mirror** — it lives in the private course repo only. Request it from the course owner if you do not have it.
 - [ ] Confirm every triad has **read the Holocron problem brief** and can state the problem in one sentence by Monday morning.
 - [ ] Pre-print or share digitally: **AI Spec Template** (Day 1), **Capstone Compression Card** (template references), **Validation Checklist** (Day 4), **Presentation Rubric** (Day 5).
 - [ ] If any triad's subject is too thin (< a real feature) or too vague (no real customer signal), pre-coach Day 1 morning before they invest time.

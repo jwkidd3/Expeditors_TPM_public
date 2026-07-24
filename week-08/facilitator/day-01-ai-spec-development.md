@@ -8,7 +8,7 @@
 
 - A subject that fails the "substantive enough" test will produce a thin capstone. Coach to a richer subject if needed.
 - A subject lacking real customer signal often produces a fictional PRD. Push for at least one real interview (even a 15-min phone call).
-- The subject is fixed (Holocron), so Day 1 is about **scope**, not selection. Press on whether the slice is defensible and shippable in 4 days — and whether they found the governance/compliance driver, not just "editing is slow." The fully-specified reference PRD is in `holocron-reference-prd.md` (facilitator-only).
+- The subject is fixed (Holocron), so Day 1 is about **scope**, not selection. Press on whether the slice is defensible and shippable in 4 days — and whether they found the governance/compliance driver, not just "editing is slow." The fully-specified reference PRD is the capstone answer key and is held in the private course repo only — it is not published to any mirror.
 
 ## Activity 3 — Run the 5-Prompt Sequence on FieldPulse
 
