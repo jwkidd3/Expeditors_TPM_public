@@ -868,9 +868,10 @@ Postgres read:                30ms
 Tickets module call (sync):  100ms ← dominates
 Postgres write:               40ms
 Audit publish (async):        10ms
+Reconcile → API GW response:  20ms
 Response back:                80ms
 ─────
-~360ms median
+~380ms median
 p95 likely ~700–900ms ✓
 </code></pre>
 <div class="key-point">

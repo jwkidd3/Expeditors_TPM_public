@@ -11,7 +11,7 @@ Inputs from prior weeks:
 - The NFRs in PRD Section 7
 - The integration / dependency list in PRD Section 10
 
-Output today: **Section 1 of the TCD — Architecture stance**, plus a draft of **Section 2 — Integration map** (filled in tomorrow with the threat model and Wednesday with the C4 diagram).
+Output today: **Section 1 of the TCD — Architecture stance**, plus a draft of **Section 2 — Integration map** (refined Wednesday with the C4 diagram). Tomorrow's threat model becomes **Section 3**.
 
 ---
 

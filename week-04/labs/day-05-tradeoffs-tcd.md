@@ -180,7 +180,7 @@ Each triad needs TCD Sections 1–5 from this week, PRD Section 10 (Dependencies
 | 4 | Section 4 Latency SLO | <Eng lead name> | Discussed | Confirm in next sprint review |
 | 5 | Section 4 Rate-limit policy | <Platform lead name> | Proposed | Slack thread + review |
 | 6 | Section 5 Trade-off 1 (module vs service) | <Architect name> | Proposed | Same walkthrough as #1 |
-| 7 | Section 10 PRD: SSO scope addition | <Identity team lead> | Confirmed (Slack 2026-04-15) | None |
+| 7 | Section 10 PRD: SSO scope addition | <Identity team lead> | Approved (Slack 2026-04-15) | None |
 ```
 
 **Status** values:
@@ -201,7 +201,7 @@ Each triad needs TCD Sections 1–5 from this week, PRD Section 10 (Dependencies
 - **At least 6 entries** — most architectural features touch this many stakeholders
 - Every entry has a **real person**, not a team
 - "Next step" is **specific** — "schedule a 30-min walkthrough" beats "talk to security"
-- One entry probably says "Confirmed" because Week-3 Day-1 dependency work caught it; rest are Proposed
+- One entry probably says "Approved" because Week-3 Day-1 dependency work caught it; rest are Proposed
 
 ### Deliverable
 
@@ -219,7 +219,9 @@ Final TCD assembly. Cross-review by another triad. Internal sign-off. The TCD sh
 ### Setup
 Instructor confirms pairings. Each triad needs the full TCD Sections 1–6 draft, the integration checklist, and the Friday TCD rubric.
 
-### The integration checklist
+### Integration pass (10 min)
+
+As a triad, work the checklist below and fix any inconsistency before the cross-review.
 
 | Check | Pass criterion |
 |-------|----------------|
@@ -249,11 +251,11 @@ The reviewer also reads with the **Friday TCD rubric** in mind:
 | Trade-off honesty | 15% | Both sides named; trigger to revisit specified |
 | Stakeholder map | 10% | Owners are people; sign-off status honest |
 
-### Triad action (15 min)
+### Triad action (10 min)
 
 Adopt / defer / reject reviewer findings. Same Week-3 discipline. Update sections.
 
-### Internal sign-off (10 min)
+### Internal sign-off (5 min)
 
 The triad declares the TCD **Status: Approved** (or "Approved with gaps", as Week 3). The TCD is now a sibling artifact to the PRD.
 

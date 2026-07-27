@@ -2,7 +2,7 @@
 
 > *"The TCD says what the system must respect. The TMD shows what the system actually looks like at a level an engineer can build from."*
 
-Week 5 takes the **Technical Constraints Document (TCD)** from Week 4 and goes one level deeper. Each triad produces a **Technical Modeling Document (TMD)** — a sibling artifact that documents:
+Week 5 takes the **Technical Concept Document (TCD)** from Week 4 and goes one level deeper. Each triad produces a **Technical Modeling Document (TMD)** — a sibling artifact that documents:
 
 - The **data model** the feature reads, writes, and indexes
 - The **cloud topology** it deploys to

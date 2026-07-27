@@ -1,6 +1,6 @@
 # C4 Diagram Legend Card
 
-> **Day 3 · Activity 1 handout.** Every C4 diagram needs a legend so non-architects can read it. A diagram without a legend is a Rorschach test — force the legend.
+> **Day 3 · Activities 1–2 handout.** Every C4 diagram needs a legend so non-architects can read it. A diagram without a legend is a Rorschach test — force the legend.
 
 ---
 

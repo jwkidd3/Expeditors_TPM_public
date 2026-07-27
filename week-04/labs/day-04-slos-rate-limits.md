@@ -80,9 +80,9 @@ If a feature has a top-level SLO of **p95 ≤ 400ms**, that 400ms must be **divi
                                                ↓
                                           (40ms) [Audit publish]
                                                ↓
-                                       Total: ~260ms server-side
-                                       + 80ms net (round trip x2)
-                                       ≈ 420ms
+                                       Server-side: 20+60+20+40+40 = 180ms
+                                       Network: 80ms each way x2 = 160ms
+                                       Total ≈ 340ms  (under 400ms p95)
 ```
 
 If the math doesn't fit the SLO, **something has to give**:

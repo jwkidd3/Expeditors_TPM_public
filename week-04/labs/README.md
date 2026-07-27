@@ -4,7 +4,7 @@
 
 Week 4 is the technical-thinking week. Each triad takes the **PRD they shipped Friday of Week 3** and treats it as the input to an architectural conversation: monolith vs microservices, security & compliance, system components, latency / availability / rate limits, and the trade-offs that fall out of those decisions.
 
-By Friday, every triad produces a **Technical Constraints Document (TCD)** — a one- to two-page artifact that an architect or engineering lead would accept as scoping input. The TCD is a sibling to the PRD; together they go into Week 5.
+By Friday, every triad produces a **Technical Concept Document (TCD)** — a one- to two-page artifact that an architect or engineering lead would accept as scoping input. The TCD is a sibling to the PRD; together they go into Week 5.
 
 ## What's different about Week 4
 
@@ -20,7 +20,7 @@ By Friday afternoon, each participant can:
 2. Conduct an architecture-level **STRIDE threat-model pass** and translate the results into PRD security NFRs an engineer can scope against.
 3. Draw a **C4-style component diagram** (Context + Container) for a feature, naming external dependencies and integration points.
 4. Set realistic **SLO targets** (latency, availability, rate limits) anchored to user behavior and business cost, with an **error budget** the team will actually respect.
-5. Author a **Technical Constraints Document** that surfaces the top five constraints, names trade-offs explicitly, and ties each to a stakeholder who must approve.
+5. Author a **Technical Concept Document** that surfaces the top five constraints, names trade-offs explicitly, and ties each to a stakeholder who must approve.
 
 ## Daily map
 
@@ -30,7 +30,7 @@ By Friday afternoon, each participant can:
 | 2 | System security & compliance | STRIDE threat model + revised security NFRs |
 | 3 | Mapping high-level system components | C4 Context + Container diagram |
 | 4 | Latency, availability, rate limits | SLO sheet + latency budget + rate-limit policy |
-| 5 | Technical trade-offs and constraints | **Technical Constraints Document (TCD)** |
+| 5 | Technical trade-offs and constraints | **Technical Concept Document (TCD)** |
 
 Each day's output is a section of the TCD. Friday assembles, peer-reviews, and ships the TCD alongside the PRD.
 
@@ -50,7 +50,7 @@ Each day's output is a section of the TCD. Friday assembles, peer-reviews, and s
 ## The TCD template (Friday's deliverable)
 
 ```markdown
-# Technical Constraints Document — <feature name>
+# Technical Concept Document — <feature name>
 **Sibling to:** PRD <link>  |  **Authors:** <triad>  |  **Status:** Draft / Reviewed
 
 ## 1. Architecture stance
