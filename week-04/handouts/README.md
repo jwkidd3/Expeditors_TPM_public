@@ -4,6 +4,7 @@ Participant-facing handouts for Week 4. Each is a standalone card, pack, or temp
 
 | Handout | Day · Activity | What it is |
 |---|---|---|
+| `tcd-template` | Day 1 | The 6-section Technical Concept Document skeleton with `[Day X]` tags, section-relationship notes + Friday rubric |
 | `architecture-vocabulary-card` | Day 1 | 7-term monolith/microservice vocabulary + the three-question frame |
 | `mono-micro-triage-pack` | Day 1 · A1 | 8 anonymized scenario cards to stance-stamp — no answers |
 | `stance-stamp-sheet` | Day 1 · A1 | The 4 stances + fillable grid for the 8 cards |
