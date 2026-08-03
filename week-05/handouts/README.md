@@ -8,6 +8,7 @@ Week 5 produces the **TMD** (Technical Modeling Document), Sections 1–5, one s
 
 | Handout | What it is |
 |---|---|
+| `tmd-template` | The full 5-section TMD skeleton with `[Day X]` tags, section-relationship notes + Friday rubric (build it all week) |
 | `db-vocabulary-card` | The nine data-modeling terms + TPM signal for each (reference) |
 | `storage-choice-buckets` | The four storage families and when to reach for each (reference) |
 | `access-pattern-sheet` | Fill-in sheet for every read/write, with frequency + freshness (template) |
