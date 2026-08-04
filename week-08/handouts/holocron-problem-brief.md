@@ -58,6 +58,8 @@ Your discovery and stakeholder work should account for these roles. Titles are r
 | **Legal / Compliance reviewer** | Must approve compliance-sensitive text; needs durable audit evidence |
 | **Enterprise Infrastructure** | Owns identity integration and environment provisioning |
 | **Engineering Architecture** | Owns key/namespace governance and the delivery-mechanism decision |
+| **Reviewer / Review Administrator** | Approves content in a legal, compliance, or translation domain; admins appoint reviewers within their domain |
+| **Holocron Administrator** | Grants review-admin privileges and assigns content ownership |
 | **Product** | Owns scope, priority, and the source-of-truth policy |
 
 ## Known dependencies
@@ -72,6 +74,8 @@ Real, already-identified, with owners. These belong in your delivery and stakeho
 | Delivery mechanism architecture decision | Engineering Architecture | Consumer integration blocked |
 | Kubernetes namespace + database provisioning | Infrastructure | Environment readiness slips |
 | Audit retention policy confirmation | Legal / Compliance | Governance non-compliance |
+| Right-to-left (RTL) language scope decision | Architecture + Product | Localization gaps for RTL locales |
+| Master-data / reference-data (MDM/RDM) coordination | Product + MDM/RDM team | Shared-terminology governance unresolved |
 
 ## Already ruled out for this version
 
@@ -84,17 +88,18 @@ The business has explicitly deferred these. They are useful raw material for you
 - A/B testing and regional content variants
 - Storing binary assets (images, screenshots) in the system
 - Any public or unauthenticated access to text delivery
+- Emailed-link review UX for approvers (a planned future capability)
+- Ownership of the master-data / reference-data operating model (a program-level decision)
 
 ## Open questions the business has not answered
 
 These are genuinely undecided. A strong capstone does not paper over them — it names them, states an assumption, or routes them to the right owner.
 
-- What the lifecycle states for source text and translations should finally be
-- How quickly a published change must reach consuming applications
-- What should happen to a previously approved string when someone rolls back
+- How quickly a published change must reach consuming applications (propagation target)
 - What peak demand the delivery mechanism must sustain
-- Whether review is optional or required in the publish workflow
-- How shared/reused terminology across products should be governed
+- Whether — and how — right-to-left languages are in scope for this version
+- How shared/reused terminology is governed across products (the MDM/RDM operating model)
+- How success and value will be measured for the governance and rollback capabilities
 
 ---
 
