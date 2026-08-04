@@ -758,7 +758,9 @@ Triads now translate Week-3 PRDs into a stance. The "we don't know" line is allo
 ---
 
 <h2>✏️ The Stance Template</h2>
-<pre><code class="language-text">## 1. Architecture stance
+
+```text
+## 1. Architecture stance
 
 We propose this feature ship as **<modular monolith / new module
 in the existing service / new microservice / hybrid>** because:
@@ -768,7 +770,9 @@ in the existing service / new microservice / hybrid>** because:
 - **Scaling axis:** [what curve do we expect]
 
 **Trade-off accepted:** [the cost of this choice — be honest]
-**Revisit if:** [the trigger that would change the answer]</code></pre>
+**Revisit if:** [the trigger that would change the answer]
+```
+
 <div class="key-point">
 <strong>"Revisit if"</strong> is the senior-author signal. A concrete trigger ("if our deploy frequency drops below daily" or "if traffic to this feature grows 10x") beats "later."
 </div>
@@ -779,7 +783,9 @@ If a triad's "revisit if" is "later" or "when needed", it's not a real trigger. 
 ---
 
 <h2>📝 Worked Stance (FieldPulse reconcile)</h2>
-<pre><code class="language-text">## 1. Architecture stance
+
+```text
+## 1. Architecture stance
 
 We propose this feature ship as a **new module in the existing
 mobile-app monolith** because:
@@ -798,7 +804,8 @@ workflows" service) becomes harder once this code lives next to
 existing modules.
 
 **Revisit if:** Reconcile traffic exceeds 5x rest-of-app, OR a
-second team starts contributing reconcile features.</code></pre>
+second team starts contributing reconcile features.
+```
 
 Note:
 Note "depends on Tickets API and Auth, if either is down, can't function" — that single sentence kills the resilience argument cleanly.
@@ -924,14 +931,17 @@ The week's pattern: AI as critic + structurer; humans as decider + validator.
 <p>Paste integration table. Ask: "what categories of dependency are commonly forgotten for a feature with this footprint?"</p>
 </div>
 </div>
-<pre><code class="language-text">Role: Senior staff engineer reviewing an architecture stance.
+
+```text
+Role: Senior staff engineer reviewing an architecture stance.
 Context: <paste TCD Section 1 + integration table>
 Task: Identify the 3 strongest objections to the stance.
 Constraints:
 - Treat the proposed approach as a starting point, not a verdict
 - For each objection, name the specific scenario where it would matter
 - Flag any place the rationale relies on assumptions not stated above
-Format: Numbered list of objections, each with a scenario.</code></pre>
+Format: Numbered list of objections, each with a scenario.
+```
 
 Note:
 Triads should add both prompts to their Pattern Library after today.

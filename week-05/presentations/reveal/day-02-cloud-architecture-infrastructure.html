@@ -670,10 +670,10 @@ Region and AZ choices intersect with residency, latency, and cost. Coach triads 
 <h2>📚 The Cloud Vocabulary Card</h2>
 <table>
 <tr><th>Term</th><th>What it means</th></tr>
-<tr><td><strong>Region</strong></td><td>A geographic cloud location (us-east-1)</td></tr>
+<tr><td><strong>Region</strong></td><td>A geographic cloud location (East US)</td></tr>
 <tr><td><strong>AZ</strong></td><td>Failure-isolated facility within a region</td></tr>
 <tr><td><strong>Multi-region</strong></td><td>Across regions; survives whole-region failure</td></tr>
-<tr><td><strong>Managed service</strong></td><td>Cloud provider runs it (RDS, S3, SQS)</td></tr>
+<tr><td><strong>Managed service</strong></td><td>Cloud provider runs it (Azure Database for PostgreSQL, Blob Storage, Service Bus)</td></tr>
 <tr><td><strong>Self-managed</strong></td><td>You run it on raw compute</td></tr>
 <tr><td><strong>Multi-tenant</strong></td><td>One deployment serves all customers</td></tr>
 <tr><td><strong>Single-tenant</strong></td><td>Each customer gets their own</td></tr>
@@ -691,7 +691,7 @@ Regions and AZs are the most-confused terms. Walk through them carefully.
 <li class="fragment fade-up"><strong>Multi-AZ</strong> — single, multi-AZ, or multi-region?</li>
 <li class="fragment fade-up"><strong>Managed vs self-managed</strong> — for each component</li>
 <li class="fragment fade-up"><strong>Multi-tenancy</strong> — shared / pooled / dedicated / hybrid</li>
-<li class="fragment fade-up"><strong>Network boundary</strong> — public, VPN, Direct Connect</li>
+<li class="fragment fade-up"><strong>Network boundary</strong> — public, VPN, ExpressRoute</li>
 </ol>
 <div class="key-point">
 Each has a <strong>cost dimension</strong> and a <strong>risk dimension</strong>. Surface both.
@@ -703,7 +703,9 @@ Today's TMD Section 2 captures all five.
 ---
 
 <h2>📝 Worked Region + AZ Stance</h2>
-<pre><code class="language-text">**Region:** us-east-1 (primary), us-west-2 (warm-DR).
+
+```text
+**Region:** East US (primary), West US 2 (warm-DR).
 - Customer base: 92% US; 8% Canada (cross-region OK; +80ms)
 - Compliance: SOC 2 audit retention requires named region
 
@@ -713,11 +715,12 @@ Today's TMD Section 2 captures all five.
 **Trade-off — multi-region active-active vs warm-DR:**
 **Choice:** Warm-DR (Option A).
 **Why:** Active-active doubles cost and adds cross-region
-consistency complexity; multi-AZ within us-east-1
+consistency complexity; multi-AZ within East US
 satisfies our 99.5% availability SLO.
-**Accepted cost:** Full us-east-1 outage breaches SLO ~30 min.
-**Revisit trigger:** Second multi-hour us-east-1 outage in
-12 months, OR availability SLO tightens to 99.9%+.</code></pre>
+**Accepted cost:** Full East US outage breaches SLO ~30 min.
+**Revisit trigger:** Second multi-hour East US outage in
+12 months, OR availability SLO tightens to 99.9%+.
+```
 
 <p>The warm disaster-recovery (DR) choice is judged against our availability Service Level Objective (SLO).</p>
 
@@ -774,11 +777,11 @@ Most B2B features should be 80%+ managed. Self-managed is the exception.
 <h2>📝 The Managed/Self Table</h2>
 <table>
 <tr><th>Component</th><th>Managed option</th><th>Choice</th><th>Why</th></tr>
-<tr><td>Postgres</td><td>AWS RDS</td><td>Managed</td><td>Default; team ops capacity finite</td></tr>
-<tr><td>Kafka</td><td>AWS MSK</td><td>Managed</td><td>Same</td></tr>
-<tr><td>Object storage</td><td>S3</td><td>Managed</td><td>Industry-standard durability</td></tr>
+<tr><td>Postgres</td><td>Azure Database for PostgreSQL</td><td>Managed</td><td>Default; team ops capacity finite</td></tr>
+<tr><td>Event Hubs</td><td>Azure Event Hubs</td><td>Managed</td><td>Same</td></tr>
+<tr><td>Object storage</td><td>Blob Storage</td><td>Managed</td><td>Industry-standard durability</td></tr>
 <tr><td>Custom AI service</td><td>None</td><td>Self-managed</td><td>No managed equivalent</td></tr>
-<tr><td>Load balancer</td><td>ALB</td><td>Managed</td><td>Trivial to use; standard</td></tr>
+<tr><td>Load balancer</td><td>Application Gateway</td><td>Managed</td><td>Trivial to use; standard</td></tr>
 </table>
 
 Note:
@@ -841,7 +844,7 @@ Tenancy is a customer + cost decision, not just a tech decision.
 <p>Some enterprise contracts; customer comes through their VPN tunnel.</p>
 </div>
 <div class="card">
-<h4>Direct Connect / PrivateLink</h4>
+<h4>ExpressRoute / Private Link</h4>
 <p>Large enterprise; regulated industries; dedicated network paths.</p>
 </div>
 </div>
@@ -884,11 +887,11 @@ ROM costs are how finance partners stay surprised — or don't. AI sanity check 
 <h2>💰 ROM Cost Table</h2>
 <table>
 <tr><th>Component</th><th>Stance</th><th>Cost / month</th><th>Driver</th></tr>
-<tr><td>Postgres (RDS)</td><td>Multi-AZ db.m5.large</td><td>$400–$700</td><td>Hours; storage; IOPS</td></tr>
+<tr><td>Azure Database for PostgreSQL</td><td>Multi-AZ, 2 vCore GP</td><td>$400–$700</td><td>Hours; storage; IOPS</td></tr>
 <tr><td>Read replica</td><td>Single-AZ</td><td>$200–$350</td><td>Hours</td></tr>
-<tr><td>Kafka (MSK)</td><td>3-broker m5.large</td><td>$700–$1100</td><td>Brokers; storage; egress</td></tr>
-<tr><td>S3 (audit)</td><td>Standard tier</td><td>$50/TB-month</td><td>Storage; PUT/GET</td></tr>
-<tr><td>ALB</td><td>Standard</td><td>$25 + traffic</td><td>Hours + LCUs</td></tr>
+<tr><td>Event Hubs</td><td>Standard, 5 TUs</td><td>$700–$1100</td><td>Throughput units; storage; egress</td></tr>
+<tr><td>Blob Storage (audit)</td><td>Standard tier</td><td>$50/TB-month</td><td>Storage; read/write ops</td></tr>
+<tr><td>Application Gateway</td><td>Standard</td><td>$25 + traffic</td><td>Hours + CUs</td></tr>
 <tr><td>Egress bandwidth</td><td></td><td>$50–$150</td><td>$/GB out</td></tr>
 </table>
 <div class="highlight-box success">
@@ -901,7 +904,9 @@ Egress is the most-forgotten cost. Surface it.
 ---
 
 <h2>🤖 AI Sanity Check</h2>
-<pre><code class="language-text">Role: SRE reviewing a feature's cloud topology.
+
+```text
+Role: SRE reviewing a feature's cloud topology.
 Context: <paste TMD Section 2 sections — region, AZ, managed services,
 tenancy, network boundary, ROM cost>
 Task: Identify the top 3 risks in this topology that could
@@ -910,7 +915,8 @@ Constraints:
 - Be specific to the configurations described
 - For each: scenario, likelihood (L/M/H), suggested mitigation
 - Do not invent platform features
-Format: Numbered — Risk / Scenario / Likelihood / Mitigation.</code></pre>
+Format: Numbered — Risk / Scenario / Likelihood / Mitigation.
+```
 
 Note:
 Add to Pattern Library. The "could surprise within 6 months" frame is reusable.

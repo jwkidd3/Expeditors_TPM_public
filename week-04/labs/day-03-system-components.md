@@ -68,8 +68,8 @@ For FieldPulse reconcile inside a modular monolith:
 - **Mobile app** (containers: native Android, native iOS — both deployables)
 - **Backend monolith** (one Spring Boot service, with reconcile module inside)
 - **Database** (Postgres primary + read replica)
-- **Audit event bus** (Kafka topic shared with platform)
-- **Object store** (S3 for the rare reconcile-attachment case)
+- **Audit event bus** (Event Hubs stream shared with platform)
+- **Object store** (Blob Storage for the rare reconcile-attachment case)
 
 Arrows show the protocol and direction, with brief intent labels.
 
@@ -172,7 +172,7 @@ Each triad needs the Context diagram from Activity 1, the architecture stance fr
                                                     [Read replica]
 
                                                           ⇢ async
-                                                    [Kafka audit topic]
+                                                    [Event Hubs audit stream]
                                                           ⇢
                                                     [Audit event store]
 ```
@@ -199,7 +199,7 @@ The reviewer triad reads the diagram with these three lenses:
 
 | Lens | Question |
 |------|----------|
-| **Failure** | Trace a failure: "What happens when the audit topic is full?" Walk the diagram. |
+| **Failure** | Trace a failure: "What happens when the audit stream is full?" Walk the diagram. |
 | **Trust boundary** | Where does data cross from our control to someone else's? Mark with a thick line. |
 | **Evolvability** | If the architecture stance changes (modular monolith → microservice), which arrows would have to change? |
 

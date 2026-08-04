@@ -81,7 +81,7 @@ Each triad needs TCD Section 2 (Container diagram), TMD Sections 1–3, the TCD 
     - Reconcile module
     - Tickets module
     - Postgres
-    - Audit topic (Kafka)
+    - Audit stream (Event Hubs)
 2. **Order the lifelines** (5 min). Caller on the left; called on the right.
 3. **Draw the messages** (15 min). Solid for sync, dashed for async. Label with method + path.
 4. **Annotate latency budget per arrow** (5 min). Pull from yesterday's TCD Section 4 latency-budget walk.
@@ -90,7 +90,7 @@ Each triad needs TCD Section 2 (Container diagram), TMD Sections 1–3, the TCD 
 ### Worked example — FieldPulse reconcile happy path
 
 ```
-Dispatcher    Mobile      API GW    Reconcile    Tickets    Postgres   Kafka(audit)
+Dispatcher    Mobile      API GW    Reconcile    Tickets    Postgres   EventHubs(audit)
    │            │           │          │           │           │           │
    │ tap submit │           │          │           │           │           │
    │──────────▶ │           │          │           │           │           │

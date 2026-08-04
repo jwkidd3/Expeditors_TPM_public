@@ -24,7 +24,7 @@ Output today: **Section 1 of the TCD — Architecture stance**, plus a draft of 
 | **Microservice** | Independently deployable, owned by one team | Independent scaling and failure domains; high ops cost |
 | **Service-oriented (SOA)** | Coarse-grained services; often shared infra | Often what "microservices" actually means in practice |
 | **Distributed monolith** | Multiple deployables that *must* deploy together | Worst of both — anti-pattern |
-| **Function-as-a-service** | Per-function deploys (e.g., Lambda) | Bursty workloads; not a default |
+| **Function-as-a-service** | Per-function deploys (e.g., Azure Functions) | Bursty workloads; not a default |
 | **Event-driven** | Components communicate via events / queues | Decouples timing; complicates debugging |
 
 You need the vocabulary to follow the architect's reasoning — not to win arguments by quoting taxonomy.

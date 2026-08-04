@@ -19,7 +19,7 @@
 
 - A) Relational (Postgres, MySQL)
 - B) Document (MongoDB, Firestore)
-- C) Key-value (Redis, DynamoDB)
+- C) Key-value (Redis, Cosmos DB)
 - D) Search (Elasticsearch, OpenSearch)
 
 **3. (T/F)** In this course, the TPM's job is to pick the database engine — for example, deciding Postgres vs MongoDB.
@@ -35,10 +35,10 @@
 
 **6. (MC)** In the ROM cost table, which cost is called out as the most-forgotten?
 
-- A) Postgres (RDS) hours
+- A) Postgres (Azure Database for PostgreSQL) hours
 - B) Egress bandwidth
-- C) S3 storage
-- D) Load balancer LCUs
+- C) Blob Storage
+- D) Application Gateway capacity units
 
 **7. (MC)** Which HTTP status code signals an idempotency or state collision?
 
@@ -78,7 +78,7 @@
 
 **1. B** — List the queries first, then design the schema so those queries are cheap. If a data model can't be defended by the queries that drive it, it's wrong.
 
-**2. C** — Key-value (Redis, DynamoDB) is the bucket for high throughput, simple lookups, caches, and sessions. Relational is the B2B default; document is for flexible/hierarchical shapes; search is for full-text.
+**2. C** — Key-value (Redis, Cosmos DB) is the bucket for high throughput, simple lookups, caches, and sessions. Relational is the B2B default; document is for flexible/hierarchical shapes; search is for full-text.
 
 **3. False** — The TPM doesn't pick the engine. The TPM describes the access pattern clearly enough that the architect can.
 

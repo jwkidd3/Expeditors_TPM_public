@@ -12,7 +12,7 @@
 | **Database read** (indexed) | 5–30 ms |
 | **Database write** (single-row) | 10–50 ms |
 | **External API call** (synchronous) | 50–500 ms — wildly varies; look up real numbers |
-| **Async publish** (Kafka / SQS, local) | 1–10 ms |
+| **Async publish** (Event Hubs / Service Bus, local) | 1–10 ms |
 
 > Async publishes are cheap on the hot path — but they don't count against user-visible latency the way a synchronous external call does. The **synchronous external call** is the hop teams most often under-estimate.
 

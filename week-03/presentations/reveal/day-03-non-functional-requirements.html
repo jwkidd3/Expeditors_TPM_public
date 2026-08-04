@@ -671,11 +671,15 @@ Most NFR sections fail by being either generic ("the system shall be performant"
 <div class="concept-box">
 <p>An NFR is a <strong>constraint</strong> the system must hold under specified conditions, with a <strong>measurable target</strong>, a <strong>defended rationale</strong>, and a <strong>verification method</strong>.</p>
 </div>
-<pre><code class="language-text">### NFR — <short name>
+
+```text
+### NFR — <short name>
 **Category:** Performance / Security / Accessibility / Observability / Compliance
 **Requirement:** <specific, measurable target>
 **Defense:** <why this number; what scenario justifies it>
-**Verification:** <how we test/observe in production></code></pre>
+**Verification:** <how we test/observe in production>
+```
+
 <div class="key-point">
 <strong>Defense is the section that distinguishes TPM from boilerplate.</strong> "p95 < 400ms because dispatchers tap this 40 times per shift" beats "should be fast."
 </div>
@@ -792,7 +796,9 @@ Performance and observability are paired because one is meaningless without the 
 ---
 
 <h2>⚡ Worked Performance NFR</h2>
-<pre><code class="language-text">### NFR — Reconcile flow latency
+
+```text
+### NFR — Reconcile flow latency
 **Category:** Performance
 **Requirement:** Modal opens within 1 second (p95) on the median
 dispatcher device (mid-tier Android, 2-yr-old hardware)
@@ -803,7 +809,8 @@ wait = 90s/shift, crossing the threshold dispatchers
 reported as "I'd rather use paper."
 **Verification:** Synthetic transaction in Datadog from a fleet of
 mid-tier devices. p95 reported daily; alert if 7-day
-trailing p95 > 1.2s.</code></pre>
+trailing p95 > 1.2s.
+```
 
 Note:
 Note p95, not average. Average lies — if 50% of users hit 200ms and 50% hit 5s, the average is 2.6s but the experience is bimodal.
@@ -811,7 +818,9 @@ Note p95, not average. Average lies — if 50% of users hit 200ms and 50% hit 5s
 ---
 
 <h2>🔎 Worked Observability NFR</h2>
-<pre><code class="language-text">### NFR — Reconcile flow event coverage
+
+```text
+### NFR — Reconcile flow event coverage
 **Category:** Observability
 **Requirement:** The reconcile flow emits structured events for:
 open_modal, ticket_select, ticket_deselect,
@@ -822,7 +831,9 @@ submit-failure reasons, time-to-submit) require these
 events. Without them, we cannot measure success.
 **Verification:** Smoke test in staging asserts each event fires;
 production dashboard tracks event counts per dispatcher
-per shift.</code></pre>
+per shift.
+```
+
 <div class="key-point">
 <strong>The cross-check:</strong> every Tier Sheet operational signal needs an observability NFR enabling it. If you can't measure it, you can't move it.
 </div>
@@ -878,7 +889,9 @@ Frame this honestly — TPMs don't need to be security architects. They need to 
 
 <h2>♿️ Accessibility NFRs (pull from Week 2 Day 3)</h2>
 <p>The floor is the <strong>Web Content Accessibility Guidelines (WCAG)</strong> 2.1 AA standard.</p>
-<pre><code class="language-text">### NFR — Accessibility floor
+
+```text
+### NFR — Accessibility floor
 **Category:** Accessibility
 **Requirement:** The reconcile flow conforms to WCAG 2.1 AA. All
 interactive elements keyboard-focusable; visible focus
@@ -888,7 +901,8 @@ labeled; error messages identify the field.
 technology (Interview 3: screen-reader user). ADA
 exposure is non-trivial in our segment.
 **Verification:** axe-core scan on every PR; manual screen-reader
-pass before launch.</code></pre>
+pass before launch.
+```
 
 Note:
 If a triad omits A11y, redirect to Week 2 Day 3's A11y Floor work. The 8 checks become the requirement.
@@ -896,7 +910,9 @@ If a triad omits A11y, redirect to Week 2 Day 3's A11y Floor work. The 8 checks 
 ---
 
 <h2>📝 Compliance NFRs — FieldPulse-flavored</h2>
-<pre><code class="language-text">### NFR — Audit trail retention
+
+```text
+### NFR — Audit trail retention
 **Category:** Compliance
 **Requirement:** Reconcile-flow events are retained for 24 months
 in the audit event store, queryable by dispatcher_id
@@ -905,7 +921,9 @@ and date range.
 dispatch decisions are subject to wage-and-hour audit
 by some state authorities.
 **Verification:** Quarterly audit-trail test: random user-event
-from 18 months ago must be retrievable in <10 minutes.</code></pre>
+from 18 months ago must be retrievable in <10 minutes.
+```
+
 <div class="key-point">
 <strong>If you have no compliance NFR, ask:</strong> "If a regulator audited this feature, what would they ask?" That answer is your NFR.
 </div>
@@ -961,7 +979,9 @@ The "Known Trade-offs" subsection is the senior-author signal. Triads who includ
 ---
 
 <h2>📝 Worked Known-Trade-offs Subsection</h2>
-<pre><code class="language-text">### Known trade-offs (in this section)
+
+```text
+### Known trade-offs (in this section)
 
 - **Audit logging vs latency:** NFR-7 (full event logging) adds
 ~30ms to the hot path tested in NFR-1. We accept this; if
@@ -971,7 +991,8 @@ to async dispatch.
 - **Strict RBAC vs onboarding:** NFR-10 (managers cannot view
 dispatcher reconciles in their first week) blocks an onboarding
 scenario. Resolved: managers see read-only view in week 1; full
-view in week 2.</code></pre>
+view in week 2.
+```
 
 Note:
 "We accept this" is a strong, mature stance. "We will if X happens" is even stronger.

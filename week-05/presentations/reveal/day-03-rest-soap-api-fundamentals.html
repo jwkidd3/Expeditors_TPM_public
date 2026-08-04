@@ -736,7 +736,9 @@ Triads convert yesterday's entity model into endpoints. The shape must trace to 
 ---
 
 <h2>📝 Worked Endpoint (FieldPulse)</h2>
-<pre><code class="language-text">POST /v1/dispatchers/{dispatcher_id}/reconcile-events
+
+```text
+POST /v1/dispatchers/{dispatcher_id}/reconcile-events
 
 Headers:
 Authorization: Bearer <SSO JWT, scope: reconcile.write>
@@ -754,7 +756,8 @@ Responses:
 403 Token lacks reconcile.write scope
 409 Idempotency-Key conflict
 422 Tickets ineligible
-429 Rate limited — Retry-After: <seconds></code></pre>
+429 Rate limited — Retry-After: <seconds>
+```
 
 <p>The Authorization header carries a single sign-on (SSO) token.</p>
 
@@ -831,7 +834,9 @@ URL path is the right default. Don't over-engineer — pick a strategy and docum
 ---
 
 <h2>⚠️ Error Body Shape</h2>
-<pre><code class="language-text">{
+
+```text
+{
 "error": {
 "code": "ticket_not_eligible",
 "message": "Ticket cannot be reconciled in current state",
@@ -841,7 +846,9 @@ URL path is the right default. Don't over-engineer — pick a strategy and docum
 },
 "request_id": "req_01H...",
 "documentation_url": "https://docs.../errors/ticket_not_eligible"
-}</code></pre>
+}
+```
+
 <ul>
 <li class="fragment fade-up"><strong>code</strong> — programmatic; clients switch on this</li>
 <li class="fragment fade-up"><strong>message</strong> — human-readable</li>
@@ -896,7 +903,9 @@ SOAP is not dead — it lives at integration boundaries with legacy systems. Don
 ---
 
 <h2>🤖 AI Critique Prompt</h2>
-<pre><code class="language-text">Role: API design reviewer with strong REST opinions.
+
+```text
+Role: API design reviewer with strong REST opinions.
 Context: <paste URL paths, methods, status codes, error body
 shape, idempotency approach, versioning strategy>
 Task: Identify the top 5 issues in this API contract.
@@ -905,7 +914,8 @@ Constraints:
 - For each, suggest the correction
 - Avoid pedantic preferences (singular/plural is fine
 if consistent)
-Format: Numbered — Issue / What's wrong / Fix.</code></pre>
+Format: Numbered — Issue / What's wrong / Fix.
+```
 
 Note:
 Add to Pattern Library. Reusable for any future API design.

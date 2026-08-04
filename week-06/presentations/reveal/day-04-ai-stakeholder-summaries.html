@@ -695,13 +695,16 @@ Note:
 <p>What's likely to come up that the documented context does NOT cover? 3 gaps + suggested research.</p>
 </div>
 </div>
-<pre><code class="language-text">A. Role: Project archivist for a TPM.
+
+```text
+A. Role: Project archivist for a TPM.
 Context: <relevant PRD/TCD/TMD/SEP excerpts>
 Task: Prior-context summary —
 1. Prior decisions made (with section reference)
 2. Open questions remaining
 3. Tension surfaced (if any) with reference
-Constraints: only provided content; cite sections; "none documented" if N/A.</code></pre>
+Constraints: only provided content; cite sections; "none documented" if N/A.
+```
 
 Note:
 Validation step is mandatory. Don't let triads skip it.
@@ -736,13 +739,17 @@ Frame the block: 5 predicted objections; honest response; pivot; line we hold. S
 ---
 
 <h2>📝 Objection Response Template</h2>
-<pre><code class="language-text">### Objection N: <short name>
+
+```text
+### Objection N: <short name>
 **The stakeholder says:** <quoted, in their voice>
 **The honest response:** <what's actually true; do not over-promise>
 **The pivot (if pushback continues):** <where to redirect — usually
 to a deeper "why" or to a documented trade-off>
 **The line we hold:** <if this objection wins, what's the smallest
-ground we give up?></code></pre>
+ground we give up?>
+```
+
 <div class="key-point">
 <strong>"The line we hold"</strong> is the senior-author signal. It's specific. Not "we'd compromise."
 </div>
@@ -753,7 +760,9 @@ Force specificity in "the line we hold." Vague answers = pushed-around TPM tomor
 ---
 
 <h2>🤖 Objection-Map Prompt</h2>
-<pre><code class="language-text">Role: <stakeholder type — e.g., Compliance Lead, Architect>
+
+```text
+Role: <stakeholder type — e.g., Compliance Lead, Architect>
 Context: <Day 3 brief + relevant TCD/TMD excerpts>
 Task: Read as the named stakeholder. List your top 5 objections,
 ranked by intensity.
@@ -761,7 +770,8 @@ Constraints:
 - Specific to the brief, not generic
 - Voice the stakeholder honestly — not a strawman
 - At least 1 objection should be hostile (the one you'd push hardest)
-Format: 5 numbered objections in the stakeholder's likely tone.</code></pre>
+Format: 5 numbered objections in the stakeholder's likely tone.
+```
 
 Note:
 Add to Pattern Library. The "in role" prompt is reusable across stakeholders.
@@ -872,7 +882,9 @@ Note:
 ---
 
 <h2>🤖 AI Cross-Check on the Whole Packet</h2>
-<pre><code class="language-text">Role: Negotiation coach reviewing a meeting-prep packet.
+
+```text
+Role: Negotiation coach reviewing a meeting-prep packet.
 Context: <paste the Section 4 packet — opening, objection map,
 non-negotiables>
 Task: Identify 3 gaps in the prep:
@@ -882,7 +894,8 @@ Task: Identify 3 gaps in the prep:
 Constraints:
 - Be specific
 - Suggest a concrete fix
-Format: 3 numbered findings.</code></pre>
+Format: 3 numbered findings.
+```
 
 Note:
 Add to Pattern Library. This is the "second-pair-of-eyes" prompt.

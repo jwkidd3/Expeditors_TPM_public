@@ -4,10 +4,10 @@
 
 | Term | What it means | TPM-relevant signal |
 |------|---------------|---------------------|
-| **Region** | A geographic cloud location (us-east-1, eu-west-2) | Drives data residency + base latency to users |
+| **Region** | A geographic cloud location (East US, West Europe) | Drives data residency + base latency to users |
 | **Availability Zone (AZ)** | A failure-isolated facility within a region | Multi-AZ = survives single facility failure |
 | **Multi-region** | Deployment across regions | Survives whole region failure; expensive |
-| **Managed service** | Cloud provider runs it (RDS, S3, SQS) | Less ops cost; less control |
+| **Managed service** | Cloud provider runs it (Azure Database for PostgreSQL, Azure Blob Storage, Azure Service Bus queue) | Less ops cost; less control |
 | **Self-managed** | You run it on raw compute | More control; more ops cost |
 | **Multi-tenant** | One deployment serves all customers | Lower cost; harder isolation |
 | **Single-tenant** | Each customer gets their own deployment | Stronger isolation; higher cost |

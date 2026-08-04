@@ -187,11 +187,11 @@ to keep dispatcher reconcile screens fast.
 
 ## Why this matters to you
 This affects the audit-trail timing your SOC 2 process depends on. Audit
-events are still durable (Kafka topic + DLQ) — they just appear in the
+events are still durable (Event Hubs stream + DLQ) — they just appear in the
 audit store 1–10 seconds after the user action.
 
 ## The choice
-- **What we're doing:** Publish audit events to a durable Kafka topic at
+- **What we're doing:** Publish audit events to a durable Event Hubs stream at
   user-action time; consumer writes to audit store within 1–10 seconds.
 - **What we're explicitly not doing:** Synchronous write to audit store
   on the user's hot path (would add 30–80ms; breaks our p95 SLO).

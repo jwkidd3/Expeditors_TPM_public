@@ -15,15 +15,15 @@ For each component, capture a **rough monthly cost band** and the driver. We're 
 
 ---
 
-## Reference bands (illustrative, AWS)
+## Reference bands (illustrative, Azure)
 
 | Component | Example stance | ROM band | Driver |
 |-----------|----------------|----------|--------|
-| Postgres (RDS) | Multi-AZ, db.m5.large | $400–$700 | Instance hours; storage; IOPS |
-| Read replica | Single-AZ | $200–$350 | Instance hours |
-| Kafka (MSK) | 3-broker, m5.large | $700–$1100 | Brokers; storage; egress |
-| S3 (audit) | Standard tier | $50 / TB-month | Storage; PUT/GET requests |
-| ALB | Standard | $25 + traffic | Hours + LCUs |
+| Postgres (Azure Database for PostgreSQL) | Multi-AZ, D2ds_v5 | $400–$700 | Compute hours; storage; IOPS |
+| Read replica | Single-AZ | $200–$350 | Compute hours |
+| Event stream (Azure Event Hubs) | Standard tier, 10 throughput units | $700–$1100 | Throughput units; capture storage; egress |
+| Blob Storage (audit) | Hot tier | $50 / TB-month | Storage; read/write operations |
+| Application Gateway | Standard | $25 + traffic | Hours + capacity units |
 | Outbound bandwidth | Estimated | $50–$150 | $/GB egress to internet |
 
 ## Two things to remember

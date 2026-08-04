@@ -92,10 +92,14 @@ Each week produces one document; together they're the TPM's integrated spec. Wee
 | **UUID** | Universally Unique Identifier | |
 | **URL** | Uniform Resource Locator | |
 | **AZ** | Availability Zone | Cloud isolation boundary within a region |
-| **RDS** | (Amazon) Relational Database Service | Managed SQL database |
-| **S3** | (Amazon) Simple Storage Service | Object storage |
-| **MSK** | (Amazon) Managed Streaming for Apache Kafka | Managed event streaming |
-| **ALB / GW** | Application Load Balancer / (API) Gateway | Traffic entry points |
+| **Azure DB for PostgreSQL** | Azure Database for PostgreSQL | Managed SQL database |
+| **Blob** | Azure Blob Storage | Object storage |
+| **Event Hubs** | Azure Event Hubs | Managed event streaming |
+| **Cosmos DB** | Azure Cosmos DB | Managed NoSQL (key-value / document) store |
+| **App GW / GW** | Azure Application Gateway / (API) Gateway | Traffic entry points |
+| **Service Bus** | Azure Service Bus | Managed queues (queue) and topics (pub/sub) |
+| **Azure Monitor** | Azure Monitor | Metrics, logs, and alerting |
+| **AKS** | Azure Kubernetes Service | Managed Kubernetes |
 | **DLQ** | Dead-Letter Queue | Where failed messages land |
 | **ROM** | Rough Order of Magnitude | Ballpark cost estimate |
 | **VPN** | Virtual Private Network | |

@@ -826,11 +826,11 @@ dispatcher reconcile screens fast.
 
 ## Why this matters to you
 Affects audit-trail timing your SOC 2 process depends on.
-Audit events are still durable (Kafka topic + DLQ) — they
+Audit events are still durable (Event Hubs stream + DLQ) — they
 just appear in audit store 1–10 seconds after the action.
 
 ## The choice
-- Doing: Publish to Kafka topic at user-action; consumer
+- Doing: Publish to Event Hubs stream at user-action; consumer
 writes to audit store within 1–10s.
 - NOT doing: Sync write on user's hot path (would add
 30–80ms; breaks p95 SLO).
@@ -900,7 +900,9 @@ In-role reading is the most useful review style for briefs.
 ---
 
 <h2>🤖 AI in Role</h2>
-<pre><code class="language-text">Role: <stakeholder type — CFO, Compliance Lead, Sales VP>
+
+```text
+Role: <stakeholder type — CFO, Compliance Lead, Sales VP>
 Context: <paste the brief>
 Task: Read this as the named stakeholder.
 - First question you'd ask?
@@ -909,7 +911,8 @@ Task: Read this as the named stakeholder.
 Constraints:
 - Specific to the brief, not generic
 - Voice the stakeholder honestly
-Format: Numbered — Question / Concern / Word.</code></pre>
+Format: Numbered — Question / Concern / Word.
+```
 
 Note:
 Add to Pattern Library. The "in-role" frame is reusable.

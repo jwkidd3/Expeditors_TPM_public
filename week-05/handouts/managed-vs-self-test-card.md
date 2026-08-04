@@ -35,10 +35,10 @@ Cover **every** container from your TCD Container diagram.
 | | | | |
 | | | | |
 
-Common managed options: RDS (Postgres), MSK (Kafka), ElastiCache (Redis), S3 (object storage), ALB (load balancer).
+Common managed options: Azure Database for PostgreSQL (Postgres), Azure Event Hubs (event streaming), Azure Cache for Redis (Redis), Azure Blob Storage (object storage), Azure Application Gateway (load balancer).
 
 ## What "good" looks like
 
 - Most components are **managed**.
 - Self-managed choices have a **specific** justification — not "we want control." (If you catch yourself writing "we want full control," ask: *what specific decision do I need to make that the managed service forecloses?*)
-- The cost dimension is named, even roughly ("comparable to RDS at our size").
+- The cost dimension is named, even roughly ("comparable to Azure Database for PostgreSQL at our size").

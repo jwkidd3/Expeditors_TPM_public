@@ -735,14 +735,18 @@ The trade-off template forces tension, choice, and consequence in three lines ea
 ---
 
 <h2>📝 The Trade-Off Template</h2>
-<pre><code class="language-text">### Trade-off N — <short name>
+
+```text
+### Trade-off N — <short name>
 **Tension:** <category> — <framing in one sentence>
 **Option A:** <1–2 sentences>
 **Option B:** <1–2 sentences>
 **Choice:** Option A.
 **Why:** <2–3 sentences — defended in business + operational terms>
 **Accepted cost:** <what we give up, concretely>
-**Revisit trigger:** <metric or organizational change></code></pre>
+**Revisit trigger:** <metric or organizational change>
+```
+
 <div class="key-point">
 <strong>"Accepted cost: complexity"</strong> is vague. Force concreteness: <em>maintenance burden, debugging difficulty, on-call exposure</em>.
 </div>
@@ -753,23 +757,27 @@ A trade-off without a concrete accepted cost is half-finished.
 ---
 
 <h2>📝 Worked Trade-Off</h2>
-<pre><code class="language-text">### Trade-off 2 — Sync vs async write to audit
+
+```text
+### Trade-off 2 — Sync vs async write to audit
 **Tension:** Latency vs durability.
 **Option A:** Synchronous write to audit event store
 before responding to user.
-**Option B:** Async publish to Kafka audit topic;
+**Option B:** Async publish to Event Hubs audit stream;
 consumer writes to store.
 **Choice:** Option B.
 **Why:** Synchronous would add 30–80ms to the reconcile
 latency budget, breaking the p95 ≤ 1000ms SLO. Async
-with Kafka durability is sufficient for SOC 2 audit
+with Event Hubs durability is sufficient for SOC 2 audit
 requirements. The DLQ on the consumer handles rare
 write failures.
 **Accepted cost:** Audit events may lag 1–10s behind user
 action; a regulator querying within seconds may see
 stale state.
 **Revisit trigger:** A regulator or customer requires
-synchronous audit visibility within < 1 second.</code></pre>
+synchronous audit visibility within < 1 second.
+```
+
 <p>Option B leans on a dead-letter queue (DLQ) to catch rare write failures.</p>
 
 Note:

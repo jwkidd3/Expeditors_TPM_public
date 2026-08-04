@@ -32,7 +32,7 @@ ground we give up?>
 **The stakeholder says:** "If an auditor pulls the log mid-incident,
 they'll see stale state. That's on me to explain."
 
-**The honest response:** Events are durable at action-time (Kafka + DLQ);
+**The honest response:** Events are durable at action-time (Event Hubs + DLQ);
 the store lags 1–10s, not the record itself. Nothing is lost — only
 delayed in the read model.
 

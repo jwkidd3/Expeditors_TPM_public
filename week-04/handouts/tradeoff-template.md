@@ -64,10 +64,10 @@ A well-written Section 5 spans **at least 3** of these. Five trade-offs all in o
 ### Trade-off 2 — Sync vs async write to audit
 **Tension:** Latency vs durability.
 **Option A:** Synchronous write to audit event store before responding to user.
-**Option B:** Async publish to Kafka audit topic; consumer writes to store.
+**Option B:** Async publish to Event Hubs audit stream; consumer writes to store.
 **Choice:** Option B.
 **Why:** Synchronous would add 30–80ms to the reconcile latency budget,
-        breaking the p95 ≤ 1000ms SLO. Async with Kafka durability is sufficient
+        breaking the p95 ≤ 1000ms SLO. Async with Event Hubs durability is sufficient
         for SOC 2 audit requirements. The DLQ on the consumer handles rare failures.
 **Accepted cost:** Audit events may lag 1–10 seconds behind user action; a
         regulator querying within seconds of an event may see stale state.

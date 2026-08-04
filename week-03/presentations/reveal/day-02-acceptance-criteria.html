@@ -668,9 +668,13 @@ Block 1 calibrates the eye. Walk triads through the five failure modes before th
 ---
 
 <h2>📚 The Given/When/Then Form</h2>
-<pre><code class="language-text">Given <a precondition / starting state>
+
+```text
+Given <a precondition / starting state>
 When <an action or event happens>
-Then <an observable, falsifiable result></code></pre>
+Then <an observable, falsifiable result>
+```
+
 <table>
 <tr><th>Is</th><th>Is not</th></tr>
 <tr><td>Testable (you can write a test that passes/fails)</td><td>"The system should be intuitive"</td></tr>
@@ -743,11 +747,15 @@ Aim for 8–12 AC total with this distribution. Triads who write only happy-path
 ---
 
 <h2>✅ Worked Happy-Path Example</h2>
-<pre><code class="language-text">Given a dispatcher viewing the end-of-shift summary
+
+```text
+Given a dispatcher viewing the end-of-shift summary
 When they tap "Reconcile all"
 Then the reconcile modal opens within 1 second
 and shows all open tickets pre-selected
-and the header shows the count of tickets selected</code></pre>
+and the header shows the count of tickets selected
+```
+
 <div class="highlight-box">
 <strong>Note:</strong> the multiple "and"s here describe one observable state, not separate behaviors. Judgment call — if the "ands" represent different system actions, split.
 </div>
@@ -793,10 +801,13 @@ Sad and weird paths are where most PRDs break down in engineering review. Push t
 <li class="fragment fade-up">What if the <strong>user cancels mid-flow</strong>?</li>
 <li class="fragment fade-up">What if the <strong>data is missing or stale</strong>?</li>
 </ul>
-<pre><code class="language-text">Given a dispatcher with 0 open tickets
+
+```text
+Given a dispatcher with 0 open tickets
 When they tap "Reconcile all"
 Then a non-modal toast appears with text "No tickets to reconcile"
-and the dispatcher remains on the summary screen</code></pre>
+and the dispatcher remains on the summary screen
+```
 
 Note:
 Sad paths are usually under-covered because they're emotionally unrewarding to write. Force them.
@@ -812,11 +823,14 @@ Sad paths are usually under-covered because they're emotionally unrewarding to w
 <li class="fragment fade-up">What if the <strong>upstream system is down</strong>?</li>
 <li class="fragment fade-up">What if the user is at the <strong>boundary</strong> (max, min, empty)?</li>
 </ul>
-<pre><code class="language-text">Given a dispatcher with 47 open tickets (more than modal can list)
+
+```text
+Given a dispatcher with 47 open tickets (more than modal can list)
 When they tap "Reconcile all"
 Then the modal opens with the first 25 tickets pre-selected
 and a banner reads "22 more tickets — load more"
-and a tap on the banner appends the next 25 below</code></pre>
+and a tap on the banner appends the next 25 below
+```
 
 Note:
 Weird paths are where TPMs add the most value. Keep the cohort here even when they want to wrap up.
@@ -887,7 +901,9 @@ The "you write it" rule eliminates lazy review feedback. Enforce.
 
 <h2>📋 The Review-Resolution Note</h2>
 <p>At the bottom of Section 6, document what changed and why:</p>
-<pre><code class="language-text">## Review-resolution note (Day 2)
+
+```text
+## Review-resolution note (Day 2)
 
 **Reviewers:** Triad B
 **Findings:**
@@ -901,7 +917,8 @@ discussion Day 3 (more about state preservation than acceptance)
 
 **Pushed back:**
 - Reviewer suggested splitting AC #2 — DECLINED. Original "and"
-describes one observable state, not multiple behaviors.</code></pre>
+describes one observable state, not multiple behaviors.
+```
 
 Note:
 The "pushed back" entries are the trust signal. They show the author triad thought, not just complied.

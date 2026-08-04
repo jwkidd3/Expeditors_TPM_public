@@ -704,13 +704,17 @@ Note:
 ---
 
 <h2>📋 The Legend (Don't Skip)</h2>
-<pre><code class="language-text">Legend
+
+```text
+Legend
 - ◻ Box with no fill   = system / module owned by us
 - ◼ Box with fill      = external system (out of our control)
 - 👤 Stick figure       = person (role)
 - → Solid arrow        = synchronous call
 - ⇢ Dashed arrow       = async / event
-- (label on arrow)     = intent in plain English</code></pre>
+- (label on arrow)     = intent in plain English
+```
+
 <div class="highlight-box danger">
 <strong>A diagram without a legend is a Rorschach test.</strong> Force the legend.
 </div>
@@ -769,7 +773,9 @@ Architecture stance from Day 1 becomes visible here. A modular monolith is one b
 ---
 
 <h2>📝 Worked Container Diagram (FieldPulse)</h2>
-<pre><code class="language-text">[Mobile (Android)]──→  ╔══════════════════════════════╗
+
+```text
+[Mobile (Android)]──→  ╔══════════════════════════════╗
 [Mobile (iOS)]    ──→  ║      Backend Monolith         ║
 ║                               ║
 ║  ┌──────────────────────┐     ║
@@ -788,10 +794,11 @@ Architecture stance from Day 1 becomes visible here. A modular monolith is one b
 ↓ sync
 [Postgres primary] → [Read replica]
 ⇢ async
-[Kafka audit topic] ⇢ [Audit store]</code></pre>
+[Event Hubs audit stream] ⇢ [Audit store]
+```
 
 Note:
-Note the dashed arrow for async to Kafka. Sync vs async is the most-skipped distinction.
+Note the dashed arrow for async to Event Hubs. Sync vs async is the most-skipped distinction.
 
 ---
 
@@ -826,7 +833,7 @@ A pretty diagram tells you nothing. The three lenses force engagement — failur
 <h2>🔎 The Three Lenses</h2>
 <table>
 <tr><th>Lens</th><th>Question</th></tr>
-<tr><td><strong>Failure</strong></td><td>Trace a failure: "What happens when the audit topic is full?" Walk the diagram.</td></tr>
+<tr><td><strong>Failure</strong></td><td>Trace a failure: "What happens when the audit stream is full?" Walk the diagram.</td></tr>
 <tr><td><strong>Trust boundary</strong></td><td>Where does data cross from our control to someone else's? Mark with a thick line.</td></tr>
 <tr><td><strong>Evolvability</strong></td><td>If the architecture stance changes (modular monolith → microservice), which arrows change?</td></tr>
 </table>
@@ -879,7 +886,9 @@ AI gives triads a stand-in architect read. Keep prompts structured — Role / Co
 <p>"Operations VP — what 5 questions would you ask after seeing this?" Non-engineer questions.</p>
 </div>
 </div>
-<pre><code class="language-text">Role: Principal architect reviewing a feature's C4 Container diagram.
+
+```text
+Role: Principal architect reviewing a feature's C4 Container diagram.
 Context: <plain-text description: containers + tech + arrows + owners>
 Stance: <copy from TCD Section 1>
 Task: Identify the top 3 issues. For each, name the specific scenario.
@@ -887,7 +896,8 @@ Constraints:
 - Treat ownership and tech as given, not as targets
 - Flag any unstated assumption
 - Do not suggest generic 'modernization'
-Format: Numbered list — Issue / Scenario / Suggested clarification.</code></pre>
+Format: Numbered list — Issue / Scenario / Suggested clarification.
+```
 
 Note:
 Both prompts go in the Pattern Library. Both are reusable for future features.

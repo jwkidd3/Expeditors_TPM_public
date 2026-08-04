@@ -699,7 +699,9 @@ All four failure modes appeared in the prior cohort's first attempt. Surface the
 ---
 
 <h2>📝 The Validated Synthesis Prompt</h2>
-<pre><code class="language-text">Role: Research analyst supporting a TPM.
+
+```text
+Role: Research analyst supporting a TPM.
 Context: Below are [N] interview transcripts and [M] support tickets
 from [user segment]. I am investigating [problem statement].
 Task: Extract the top 5 recurring pain themes.
@@ -710,7 +712,8 @@ Constraints:
 - At the bottom, list 3 questions the sources do NOT answer
 Format: Markdown list; each entry: Theme / Evidence / Confidence (H/M/L) /
 Inferred? (Y/N). End with "What's missing" section.
-</code></pre>
+
+```
 
 Note:
 This is the single most-reused prompt of Week 2. Triads should add it to their Pattern Library after today.
@@ -837,7 +840,9 @@ The "unsafe" prompts will all return confident, plausible, fabricated answers. T
 
 <h2>🔗 The Two-Prompt Pattern</h2>
 <p><strong>Prompt 1 — Structure what we know:</strong></p>
-<pre><code class="language-text">Role: Competitive analyst.
+
+```text
+Role: Competitive analyst.
 Context: Pasting in 2 competitor product tour transcripts plus
 their public pricing pages.
 Task: Build a comparison matrix.
@@ -845,12 +850,17 @@ Constraints:
 - Use only facts from the materials I pasted
 - Do NOT pull from your training data
 - Flag any cell where the source is silent
-Format: Markdown table, with citation column.</code></pre>
+Format: Markdown table, with citation column.
+```
+
 <p><strong>Prompt 2 — Tell us what's missing:</strong></p>
-<pre><code class="language-text">From the matrix above, what 3 questions about these competitors
+
+```text
+From the matrix above, what 3 questions about these competitors
 do the source materials NOT answer? For each, suggest where a
 TPM should look (analyst reports, customer interviews, public
-earnings calls).</code></pre>
+earnings calls).
+```
 
 Note:
 Prompt 2 is the highest-leverage prompt of the day. It converts AI from a "knowledge generator" to a "research planner."

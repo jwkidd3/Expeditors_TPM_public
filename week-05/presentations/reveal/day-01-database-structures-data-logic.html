@@ -690,7 +690,7 @@ The vocabulary lets TPMs follow the architect's reasoning. Not to win arguments 
 <tr><th>Bucket</th><th>When to reach for it</th></tr>
 <tr><td><strong>Relational</strong> (Postgres, MySQL)</td><td>Strong relationships, transactions, complex queries — default for B2B</td></tr>
 <tr><td><strong>Document</strong> (MongoDB, Firestore)</td><td>Flexible schema, hierarchical data; shape varies per record</td></tr>
-<tr><td><strong>Key-value</strong> (Redis, DynamoDB)</td><td>High throughput, simple lookups, caches, sessions</td></tr>
+<tr><td><strong>Key-value</strong> (Redis, Cosmos DB)</td><td>High throughput, simple lookups, caches, sessions</td></tr>
 <tr><td><strong>Search</strong> (Elasticsearch, OpenSearch)</td><td>Full-text search, analytics on text</td></tr>
 </table>
 <div class="key-point">
@@ -855,7 +855,9 @@ The discipline is the same; the scale is finer.
 ---
 
 <h2>📝 Worked Schema Trade-Off</h2>
-<pre><code class="language-text">### Trade-off — ticket_ids storage
+
+```text
+### Trade-off — ticket_ids storage
 **Tension:** Normalization vs denormalization.
 **Option A:** ReconcileEvent.ticket_ids: UUID[] (denormalized).
 **Option B:** Separate ReconcileEventTicket join table.
@@ -869,7 +871,8 @@ normalization.
 "find every reconcile that touched ticket X" query
 without a denormalization).
 **Revisit trigger:** If "find reconciles touching ticket X"
-becomes a high-volume query.</code></pre>
+becomes a high-volume query.
+```
 
 Note:
 Note the "what we deliberately can't do efficiently" framing — that's the senior signal.
@@ -903,7 +906,9 @@ AI critique works best as a stand-in senior engineer reading the schema. Provena
 ---
 
 <h2>🤖 Today's Two Prompts</h2>
-<pre><code class="language-text">A. Critique this schema
+
+```text
+A. Critique this schema
 Role: Senior backend engineer reviewing a feature's data model.
 Context: <entity definitions + indexes + relationships +
 access pattern sheet>
@@ -917,7 +922,8 @@ Format: Numbered — Issue / What breaks / Fix.
 B. What did we forget?
 Continuing from above. Given these access patterns, what queries
 the user will eventually want are NOT yet supported by this
-schema? List 3, ranked by likelihood within 6 months.</code></pre>
+schema? List 3, ranked by likelihood within 6 months.
+```
 
 Note:
 Both prompts go in the Pattern Library.

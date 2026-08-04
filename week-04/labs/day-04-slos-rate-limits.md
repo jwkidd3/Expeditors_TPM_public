@@ -212,7 +212,7 @@ Each triad needs the Container diagram from Day 3, the latency-budget reference 
     - **Database read** (indexed): 5–30ms
     - **Database write** (single-row): 10–50ms
     - **External API call** (synchronous): 50–500ms wildly varies
-    - **Async publish** (Kafka/SQS): 1–10ms locally
+    - **Async publish** (Event Hubs/Service Bus): 1–10ms locally
 2. **Sum the path** (10 min). Does the sum fit within the SLO target?
 3. **If not, decide what gives** (10 min):
     - Tighter SLO?

@@ -38,7 +38,7 @@
 
 **5 questions to ask the security team** (be specific):
 
-- "Does our SSO scope model fit the existing IAM patterns?"
+- "Does our SSO scope model fit the existing Microsoft Entra ID / Azure RBAC patterns?"
 - "Where is the line between 'we mitigate' and 'platform mitigates'?"
 - "What's the precedent for this data classification?"
 - ______________________________________________

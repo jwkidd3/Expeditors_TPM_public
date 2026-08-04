@@ -39,7 +39,7 @@ For most B2B features, the storage decision is one of:
 |--------|----------------------|
 | **Relational (Postgres, MySQL)** | Strong relationships, transactions, complex queries; default for most B2B |
 | **Document (MongoDB, Firestore)** | Flexible schema, hierarchical data; good when shape varies per record |
-| **Key-value (Redis, DynamoDB)** | High throughput, simple lookups, caches, session state |
+| **Key-value (Redis, Cosmos DB)** | High throughput, simple lookups, caches, session state |
 | **Search (Elasticsearch, OpenSearch)** | Full-text search, analytics on text |
 
 A TPM doesn't pick the engine. The TPM **describes the access pattern** clearly enough that the architect can pick.

@@ -214,7 +214,7 @@ Each triad needs the threat model, updated NFRs, TCD Section 3, and the security
 ### Triad protocol
 
 1. **List 5 questions you'd ask the security team** (15 min). Examples:
-    - "Does our SSO scope model fit the existing IAM patterns?"
+    - "Does our SSO scope model fit the existing Microsoft Entra ID / Azure RBAC patterns?"
     - "Where is the line between 'we mitigate' and 'platform mitigates'?"
     - "What's the precedent for this data classification?"
 2. **Predict 3 likely pushbacks from security** (10 min). For each, plan a response.

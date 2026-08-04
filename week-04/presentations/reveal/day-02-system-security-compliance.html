@@ -690,13 +690,17 @@ If a triad's threat list has 0 R's, push them.
 <div class="concept-box">
 <p>A threat model is a walk along the data flow. Where does data come from, where does it move to, where does it stop, who can read or change it at each step?</p>
 </div>
-<pre><code class="language-text">[User] →(auth)→ [Frontend] →(API)→ [Backend service]
+
+```text
+[User] →(auth)→ [Frontend] →(API)→ [Backend service]
 ↓
 [Datastore]
 ↓
 [Audit / events]
 ↓
-[Downstream consumer]</code></pre>
+[Downstream consumer]
+```
+
 <ul>
 <li class="fragment fade-up">Threats live at <strong>arrows</strong> (data in motion)</li>
 <li class="fragment fade-up">Threats live at <strong>boxes</strong> (data at rest)</li>
@@ -736,14 +740,18 @@ Triads now STRIDE their actual feature. Push past S and I — T and R are usuall
 ---
 
 <h2>📝 Threat Template</h2>
-<pre><code class="language-text">### Threat — <short name>
+
+```text
+### Threat — <short name>
 **STRIDE letter:** S / T / R / I / D / E
 **Where:** [box or arrow in your data flow]
 **Scenario:** [one sentence]
 **Likelihood:** L / M / H
 **Impact:** L / M / H
 **Mitigation:** [specific control; "TLS" is not a complete answer]
-**Owner:** [security team, you, the architect]</code></pre>
+**Owner:** [security team, you, the architect]
+```
+
 <div class="key-point">
 <strong>"Use security best practices"</strong> — or a bare "Transport Layer Security (TLS)" — is not a mitigation. <strong>"Validate JWT signature against IdP-published key, with 5-minute clock skew"</strong> is.
 </div>
@@ -754,7 +762,9 @@ Force specificity. Boilerplate mitigations don't survive a security review.
 ---
 
 <h2>📝 Worked Threat (FieldPulse reconcile)</h2>
-<pre><code class="language-text">### Threat — Repudiation of reconcile submission
+
+```text
+### Threat — Repudiation of reconcile submission
 **STRIDE letter:** R
 **Where:** [Mobile app] →(submit)→ [Reconcile API]
 **Scenario:** A dispatcher denies submitting a reconcile that
@@ -764,7 +774,8 @@ triggered an incorrect timecard charge.
 **Mitigation:** Server-side audit event with: dispatcher_id, ticket_ids,
 timestamp, signed JWT used, user-agent. 24-month retention.
 Tied to NFR-Audit-Trail.
-**Owner:** Security architect (validates retention; we own implementation).</code></pre>
+**Owner:** Security architect (validates retention; we own implementation).
+```
 
 Note:
 The pattern: a threat is one sentence, mitigation is concrete + tied to an NFR. The combination is the artifact.
@@ -895,7 +906,9 @@ A brief that says "we don't know anything; please tell us" is unhelpful to the s
 ---
 
 <h2>🤖 AI Cross-Check</h2>
-<pre><code class="language-text">Role: Senior security architect.
+
+```text
+Role: Senior security architect.
 Context: <paste the security brief>
 Task: What's the strongest objection a senior security architect
 would raise after reading this brief?
@@ -903,7 +916,9 @@ Constraints:
 - Be specific to the data and integrations described
 - Do not suggest generic best practices
 - Flag any place rationale relies on un-stated assumptions
-Format: Top 3 objections, each with a scenario.</code></pre>
+Format: Top 3 objections, each with a scenario.
+```
+
 <div class="highlight-box warning">
 <strong>Cross-validation rule:</strong> AI surfaces possibilities; you decide what's real. Treat output as a list of leads to investigate, not findings to adopt.
 </div>

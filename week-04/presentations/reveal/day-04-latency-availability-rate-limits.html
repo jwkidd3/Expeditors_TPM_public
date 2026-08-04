@@ -688,17 +688,17 @@ Correct this terminology error openly when you hear it.
 <div class="three-columns">
 <div class="card">
 <h4>Latency</h4>
-<p>"p<N> ≤ <X>ms <PCT>% of the time over <window>"</p>
+<p>"p&lt;N&gt; ≤ &lt;X&gt;ms &lt;PCT&gt;% of the time over &lt;window&gt;"</p>
 <p>Anchor: when does the user give up?</p>
 </div>
 <div class="card">
 <h4>Availability</h4>
-<p>"<N>% of requests succeed over <window>"</p>
+<p>"&lt;N&gt;% of requests succeed over &lt;window&gt;"</p>
 <p>Anchor: cost of a minute of downtime?</p>
 </div>
 <div class="card">
 <h4>Throughput / rate limit</h4>
-<p>"system handles <X> rps per <scope>"</p>
+<p>"system handles &lt;X&gt; rps per &lt;scope&gt;"</p>
 <p>Anchor: what abuse / accident are we protecting against?</p>
 </div>
 </div>
@@ -839,7 +839,7 @@ The hop-by-hop walk is where aspirational SLOs get caught. If a triad's per-hop 
 <tr><td>Database read (indexed)</td><td>5–30ms</td></tr>
 <tr><td>Database write (single-row)</td><td>10–50ms</td></tr>
 <tr><td>External API call (sync)</td><td>50–500ms (varies)</td></tr>
-<tr><td>Async publish (Kafka/SQS local)</td><td>1–10ms</td></tr>
+<tr><td>Async publish (Event Hubs/Service Bus local)</td><td>1–10ms</td></tr>
 <tr><td>JWT validation</td><td>1–5ms</td></tr>
 <tr><td>TLS handshake (cold)</td><td>50–200ms</td></tr>
 </table>
@@ -853,7 +853,9 @@ Replace with actual platform numbers if known. The exercise is the budgeting, no
 ---
 
 <h2>📊 The Latency Math</h2>
-<pre><code class="language-text">SLO target: p95 ≤ 1000ms
+
+```text
+SLO target: p95 ≤ 1000ms
 
 Path: Mobile → API GW → Reconcile → Postgres read
 → Tickets module
@@ -873,7 +875,9 @@ Response back:                80ms
 ─────
 ~380ms median
 p95 likely ~700–900ms ✓
-</code></pre>
+
+```
+
 <div class="key-point">
 <strong>If math doesn't fit:</strong> tighter SLO / fewer hops / faster hops / wider percentile.
 </div>
@@ -927,7 +931,9 @@ If reviewer can't answer "what real scenario does this rate limit protect agains
 ---
 
 <h2>🤖 AI Sanity Check</h2>
-<pre><code class="language-text">Role: Senior reliability engineer reviewing a feature's SLO sheet.
+
+```text
+Role: Senior reliability engineer reviewing a feature's SLO sheet.
 Context: <paste SLO sheet + latency walk + rate-limit policy>
 Architecture stance: <paste TCD Section 1>
 Task: Identify the top 3 reasons the SLOs as written might
@@ -936,7 +942,8 @@ Constraints:
 - Use only the information provided; do not invent platform details
 - Be specific: which SLO, which scenario, which condition
 - Suggest a more realistic alternative for each
-Format: Numbered list — Issue / Scenario / Suggested target.</code></pre>
+Format: Numbered list — Issue / Scenario / Suggested target.
+```
 
 Note:
 Add to Pattern Library. This prompt is reusable for future SLO conversations.

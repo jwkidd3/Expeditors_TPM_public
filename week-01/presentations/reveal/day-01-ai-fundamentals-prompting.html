@@ -779,12 +779,18 @@ RCCF is the kernel. Many heavier frameworks (CRISPE, CO-STAR, etc.) are elaborat
 <div class="two-columns">
 <div class="card">
 <h4 style="color: var(--danger-color)">❌ Weak prompt</h4>
-<pre><code class="language-text">Write me a user persona for a dispatch app.</code></pre>
+
+```text
+Write me a user persona for a dispatch app.
+```
+
 <p><em>Output is generic, confident, un-grounded, un-actionable.</em></p>
 </div>
 <div class="card">
 <h4 style="color: var(--teal)">✅ Scaffolded prompt</h4>
-<pre><code class="language-text">Role: Senior TPM for a field-service SaaS.
+
+```text
+Role: Senior TPM for a field-service SaaS.
 Context: Target user = dispatcher at an HVAC
 company, 50–200 techs, 10+ yrs industry, low
 tolerance for screens. Pain: re-routing mid-day
@@ -793,7 +799,9 @@ Constraints: Persona must be grounded in the
 behaviors above; flag any field that is an
 assumption I'd need to validate.
 Format: Markdown persona sheet with a final
-"Assumptions to validate" section.</code></pre>
+"Assumptions to validate" section.
+```
+
 </div>
 </div>
 
@@ -877,14 +885,17 @@ The rule: use AI to generate the questions you should ask a human or a primary s
 <div class="concept-box">
 <p>When you feed a model a transcript, survey, or support-ticket batch, ask it to <strong>tag each claim with where in the source it came from</strong>. Unsourced claims are the ones to interrogate.</p>
 </div>
-<pre><code class="language-text">Role: Research analyst.
+
+```text
+Role: Research analyst.
 Context: Below are 14 support tickets from FieldPulse dispatchers.
 Task: Extract the top 5 recurring frustrations.
 Constraints:
 - Each frustration must cite 2+ ticket numbers as evidence
 - Flag any frustration you inferred without direct evidence
 Format: Markdown list; each entry: Frustration / Evidence tickets / Confidence (H/M/L).
-</code></pre>
+
+```
 
 Note:
 This pattern is the foundation for the Week 2 "AI for research summaries" block. We plant it here so it's rehearsed.

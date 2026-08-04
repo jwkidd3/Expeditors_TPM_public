@@ -21,10 +21,10 @@ By 16:00, every triad has TMD Section 2 with a topology that an SRE / platform e
 
 | Term | What it means | TPM-relevant signal |
 |------|---------------|---------------------|
-| **Region** | A geographic cloud location (us-east-1, eu-west-2) | Drives data residency + base latency to users |
+| **Region** | A geographic cloud location (East US, West Europe) | Drives data residency + base latency to users |
 | **Availability Zone (AZ)** | A failure-isolated facility within a region | Multi-AZ = survives single facility failure |
 | **Multi-region** | Deployment across regions | Survives whole region failure; expensive |
-| **Managed service** | Cloud provider runs it (RDS, S3, SQS) | Less ops cost; less control |
+| **Managed service** | Cloud provider runs it (Azure Database for PostgreSQL, Azure Blob Storage, Azure Service Bus queue) | Less ops cost; less control |
 | **Self-managed** | You run it on raw compute | More control; more ops cost |
 | **Multi-tenant** | One deployment serves all customers | Lower cost; harder isolation |
 | **Single-tenant** | Each customer gets their own deployment | Stronger isolation; higher cost |
@@ -40,7 +40,7 @@ For most features, the topology decision reduces to five choices. Today's TMD Se
 2. **Multi-AZ stance** — single AZ, multi-AZ, multi-region?
 3. **Managed vs self-managed** — for each component, who runs it?
 4. **Multi-tenancy stance** — shared / dedicated / hybrid?
-5. **Network boundary** — public, private, VPN, direct connect?
+5. **Network boundary** — public, private, VPN, ExpressRoute?
 
 Each decision has a **cost dimension** and a **risk dimension**. The TPM job: surface both, name the trade-off, and frame the choice in customer terms.
 
@@ -69,7 +69,7 @@ Each triad needs PRD Section 2 (customer base), TCD Section 3 (compliance), TCD 
 ```markdown
 ### Region + AZ stance
 
-**Region:** us-east-1 (primary), us-west-2 (warm-DR).
+**Region:** East US (primary), West US 2 (warm-DR).
 - Customer base: 92% US-based; 8% Canada (cross-region acceptable
   for Canadian users; latency ~80ms additional).
 - Compliance: SOC 2 audit retention requires named region; no
@@ -78,18 +78,19 @@ Each triad needs PRD Section 2 (customer base), TCD Section 3 (compliance), TCD 
 **AZ stance:** Multi-AZ active-active for all stateful tiers
         (Postgres primary + 2 read replicas across 3 AZs).
 
+
 **Trade-off — multi-region active-active vs warm-DR:**
-**Option A:** us-east-1 primary, us-west-2 warm-DR (RPO 5 min,
+**Option A:** East US primary, West US 2 warm-DR (RPO 5 min,
             RTO 30 min).
 **Option B:** Both regions live, traffic split via DNS.
 **Choice:** Option A.
 **Why:** Active-active doubles cost and adds cross-region
         consistency complexity; we don't have evidence of single-
         region outages costing more than the doubled cost. Multi-AZ
-        within us-east-1 satisfies our 99.5% availability SLO.
-**Accepted cost:** A full us-east-1 outage would breach SLO
+        within East US satisfies our 99.5% availability SLO.
+**Accepted cost:** A full East US outage would breach SLO
         for ~30 minutes.
-**Revisit trigger:** A second us-east-1 multi-hour outage in 12
+**Revisit trigger:** A second East US multi-hour outage in 12
         months, OR availability SLO tightens to 99.9%+.
 ```
 
@@ -123,7 +124,7 @@ For most B2B features, the answer is **managed**. Don't reinvent.
 ### Triad protocol
 
 1. **List each container** (5 min). Pull from TCD Section 2.
-2. **For each, identify the managed-service option** (10 min). e.g., RDS for Postgres, MSK for Kafka, ElastiCache for Redis, ALB for the load balancer.
+2. **For each, identify the managed-service option** (10 min). e.g., Azure Database for PostgreSQL for Postgres, Azure Event Hubs for Kafka-protocol streams, Azure Cache for Redis, Azure Application Gateway for the load balancer.
 3. **For each, decide managed or self** (15 min). Use the four-question test:
     - Do failure modes match our needs?
     - Is cost reasonable at expected scale?
@@ -134,9 +135,9 @@ For most B2B features, the answer is **managed**. Don't reinvent.
 ```markdown
 | Component | Managed option | Choice | Why |
 |-----------|----------------|--------|-----|
-| Postgres | AWS RDS | Managed (RDS) | Default; team ops capacity is finite |
-| Kafka | AWS MSK | Managed (MSK) | Same |
-| Object storage | S3 | Managed (S3) | Industry-standard durability |
+| Postgres | Azure Database for PostgreSQL | Managed (Azure Database for PostgreSQL) | Default; team ops capacity is finite |
+| Event Hubs | Azure Event Hubs | Managed (Azure Event Hubs) | Same |
+| Object storage | Azure Blob Storage | Managed (Azure Blob Storage) | Industry-standard durability |
 | Custom AI service (if any) | None | Self-managed | No managed equivalent |
 ```
 
@@ -144,7 +145,7 @@ For most B2B features, the answer is **managed**. Don't reinvent.
 
 - Most components are **managed**
 - Self-managed choices have a **specific** justification — not "we want control"
-- The cost dimension is named (rough — "comparable to RDS at our size")
+- The cost dimension is named (rough — "comparable to Azure Database for PostgreSQL at our size")
 
 ### Deliverable
 
@@ -180,7 +181,7 @@ Most B2B SaaS at FieldPulse's stage uses **pooled with per-tenant rate limits** 
 3. **Network boundary** (15 min). Decide:
     - Public internet (default for SaaS APIs)
     - Customer-VPN-only (some enterprise contracts)
-    - Direct Connect / Private Link (large enterprise, regulated industries)
+    - ExpressRoute / Private Link (large enterprise, regulated industries)
 4. **Stakeholder implications** (5 min). Who needs to sign off? Add to TCD Section 6 if not already there.
 
 ### Worked example
@@ -204,7 +205,7 @@ Most B2B SaaS at FieldPulse's stage uses **pooled with per-tenant rate limits** 
 ### Network boundary
 
 **Choice:** Public HTTPS for the API + mobile app traffic.
-            Internal services in a private VPC.
+            Internal services in a private VNet.
 
 **Why:** Standard for B2B SaaS at our segment. No customer has
         requested VPN-only.
@@ -227,7 +228,7 @@ Tenancy stance and network boundary documented with rationale, revisit triggers,
 A TMD Section 2 without a cost dimension reads as wishful thinking. Today's last block: rough out the cost shape and use AI to surface gaps.
 
 ### Setup
-Each triad needs the topology decisions from Activities 1–3, rough pricing references (RDS / MSK / S3 / ALB), and the AI sanity-check prompt. AI required.
+Each triad needs the topology decisions from Activities 1–3, rough pricing references (Azure Database for PostgreSQL / Azure Event Hubs / Azure Blob Storage / Azure Application Gateway), and the AI sanity-check prompt. AI required.
 
 ### Cost awareness — the rough-order-of-magnitude pass
 
@@ -236,11 +237,11 @@ For each component, capture a rough monthly cost band. We're not pricing exactly
 ```markdown
 | Component | Stance | ROM cost / month | Cost driver |
 |-----------|--------|-------------------|-------------|
-| Postgres (RDS) | Multi-AZ, db.m5.large | $400–$700 | Instance hours; storage; IOPS |
+| Postgres (Azure Database for PostgreSQL) | Multi-AZ, Standard_D2s_v3 | $400–$700 | Instance hours; storage; IOPS |
 | Read replica | Single-AZ | $200–$350 | Instance hours |
-| Kafka (MSK) | 3-broker, m5.large | $700–$1100 | Brokers; storage; egress |
-| S3 (audit) | Standard tier | $50 / TB-month | Storage; PUT/GET requests |
-| ALB | Standard | $25 + traffic | Hours + LCUs |
+| Event Hubs (Azure Event Hubs) | Standard, 3 throughput units | $700–$1100 | Throughput units; storage; egress |
+| Blob Storage (audit) | Standard tier | $50 / TB-month | Storage; PUT/GET requests |
+| Application Gateway | Standard | $25 + traffic | Hours + capacity units |
 | Outbound bandwidth (estimated) | | $50–$150 | $/GB egress to internet |
 ```
 

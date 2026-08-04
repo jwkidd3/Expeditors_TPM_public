@@ -814,7 +814,9 @@ If a triad can't name the invariant, the weird-path design isn't done.
 ---
 
 <h2>📝 Worked Weird Path: Network Drop</h2>
-<pre><code class="language-text">Dispatcher    Mobile      API GW    Reconcile    Postgres
+
+```text
+Dispatcher    Mobile      API GW    Reconcile    Postgres
 │            │           │          │           │
 │ tap submit │           │          │           │
 │──────────▶│ POST ...  │          │           │
@@ -834,7 +836,8 @@ If a triad can't name the invariant, the weird-path design isn't done.
 │            │ ◀── 201                            │
 │ ◀──────────  modal closes; no duplicate        │
 
-Invariant: at most one ReconcileEvent per (Idempotency-Key) per 24h</code></pre>
+Invariant: at most one ReconcileEvent per (Idempotency-Key) per 24h
+```
 
 Note:
 The invariant line at the bottom is what makes this diagram a contract, not a sketch.
@@ -881,7 +884,9 @@ Three questions, three diagrams. The reviewer doesn't need to know every detail;
 ---
 
 <h2>🤖 AI Critique Prompt</h2>
-<pre><code class="language-text">Role: Engineering reviewer with strong sequence-diagram instincts.
+
+```text
+Role: Engineering reviewer with strong sequence-diagram instincts.
 Context: <plain-text descriptions of the three sequence diagrams,
 including all lifelines, arrows, protocols, latencies,
 and annotations>
@@ -892,7 +897,8 @@ Task: Identify what's missing, ranked by importance:
 Constraints:
 - Do not invent technologies
 - Be specific
-Format: Three sections; ranked items in each.</code></pre>
+Format: Three sections; ranked items in each.
+```
 
 Note:
 Add to Pattern Library. The "ranked by importance" frame is reusable.

@@ -8,7 +8,7 @@
 
 | Lens | Question |
 |------|----------|
-| **Failure** | Trace a failure: "What happens when the audit topic is full?" Walk the diagram aloud, arrow by arrow. |
+| **Failure** | Trace a failure: "What happens when the audit stream is full?" Walk the diagram aloud, arrow by arrow. |
 | **Trust boundary** | Where does data cross from our control to someone else's? Mark it with a thick line. |
 | **Evolvability** | If the architecture stance changes (modular monolith → microservice), which arrows would have to change? |
 
