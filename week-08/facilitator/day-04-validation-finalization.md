@@ -6,7 +6,7 @@
 
 **Cues:**
 
-- Watch for triads that mark every check as "Pass" without actually walking the references. Push: "show me the section reference."
+- Watch for quads that mark every check as "Pass" without actually walking the references. Push: "show me the section reference."
 
 **Answer key / watch-for:**
 
@@ -16,13 +16,13 @@
 
 **Cues:**
 
-- If one triad member dominates, redirect speaking time.
+- If one quad member dominates, redirect speaking time.
 - If the customer + problem section drags, force a tighter open.
 - The "what we'd do differently" section is often the strongest signal of the cohort's growth — coach for honesty.
 
 ## Facilitator reflection prompts (end of day)
 
-- Which triad's validation log surfaced the most issues honestly? They've internalized the discipline.
+- Which quad's validation log surfaced the most issues honestly? They've internalized the discipline.
 - Did anyone mark all 7 checks as "Pass" without walking references? Catch them.
-- Which triad's presentation is sharpest? Not necessarily the one with the most polished delivery — the one with the cleanest narrative arc.
+- Which quad's presentation is sharpest? Not necessarily the one with the most polished delivery — the one with the cleanest narrative arc.
 - Did the cohort retain the AI-validation discipline through compression? If yes, the academy worked.

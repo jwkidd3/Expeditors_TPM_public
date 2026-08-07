@@ -2,9 +2,9 @@
 
 > *"A PRD is a contract between the customer's problem and the engineering work that solves it. If either side cannot read it, the contract is void."*
 
-Week 3 is the **first capstone week** of the academy. Triads convert their Week-2 strategy package — North Star, design principles, journey map, top feature concepts — into a single **Technical PRD** that an engineering lead would accept as input to scoping. The PRD ships Friday after a structured peer-review cycle.
+Week 3 is the **first capstone week** of the academy. Quads convert their Week-2 strategy package — North Star, design principles, journey map, top feature concepts — into a single **Technical PRD** that an engineering lead would accept as input to scoping. The PRD ships Friday after a structured peer-review cycle.
 
-This week is **explicitly non-AI**. The discipline of writing a PRD by hand, with your triad, is the muscle being built. AI returns in Week 4.
+This week is **explicitly non-AI**. The discipline of writing a PRD by hand, with your quad, is the muscle being built. AI returns in Week 4.
 
 ## Learning outcomes
 
@@ -33,22 +33,22 @@ The artifact is cumulative: each day's output is added to the PRD until Friday's
 | Clock | Block | Mix |
 |-------|-------|-----|
 | 09:00 – 09:15 | Opening & objectives | Instructor |
-| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min triad work |
+| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min quad work |
 | 10:30 – 10:45 | **Break** | |
-| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min triad work |
+| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min quad work |
 | 12:00 – 13:00 | **Lunch** | |
-| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min triad work |
+| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min quad work |
 | 14:15 – 14:30 | **Break** | |
-| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min triad / 20 min wrap |
+| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min quad / 20 min wrap |
 
 ### Friday cadence (PRD review day)
 
 | Clock | Block | Mix |
 |-------|-------|-----|
 | 09:00 – 09:15 | Opening; review pairings posted | Instructor |
-| 09:15 – 10:45 | **Primary review round 1** | Two reviewing triads on each PRD |
+| 09:15 – 10:45 | **Primary review round 1** | Two reviewing quads on each PRD |
 | 10:45 – 11:00 | **Break** | |
-| 11:00 – 12:00 | Author response + clarifying conversations | Author triads receive feedback |
+| 11:00 – 12:00 | Author response + clarifying conversations | Author quads receive feedback |
 | 12:00 – 13:00 | **Lunch** | |
 | 13:00 – 14:30 | **Revisions** | Authors revise based on review |
 | 14:30 – 14:45 | **Break** | |
@@ -71,7 +71,7 @@ The honor system holds. Friday's reviews surface generic prose quickly.
 
 ```markdown
 # PRD — <Feature name>
-**Author triad:** <names>  |  **Date:** <date>  |  **Status:** Draft / In review / Approved
+**Author quad:** <names>  |  **Date:** <date>  |  **Status:** Draft / In review / Approved
 
 ## 1. Context
 Why this work, why now. Customer signal. Strategy fit.
@@ -108,9 +108,9 @@ Other teams, systems, decisions, data we need.
 Things this PRD acknowledges but doesn't ship.
 ```
 
-## Triads
+## Quads
 
-Triads from Weeks 1–2 carry through. They authored together, they ship together. Friday's review pairings are different from authoring pairings (we cross-pollinate).
+Quads from Weeks 1–2 carry through. They authored together, they ship together. Friday's review pairings are different from authoring pairings (we cross-pollinate).
 
 ## Friday review rubric
 
@@ -127,4 +127,4 @@ Reviewers score each PRD on:
 
 ## Bridge to Week 4
 
-Week 4 turns from "what do we want" to "what's technically possible / constrained": monolith vs microservices, security & compliance, system mapping, latency/availability/rate-limit targets. Each triad's PRD becomes the input to the **technical architecture** conversation. The NFRs written this week are the **first draft** of the architectural constraints discussed Week 4.
+Week 4 turns from "what do we want" to "what's technically possible / constrained": monolith vs microservices, security & compliance, system mapping, latency/availability/rate-limit targets. Each quad's PRD becomes the input to the **technical architecture** conversation. The NFRs written this week are the **first draft** of the architectural constraints discussed Week 4.

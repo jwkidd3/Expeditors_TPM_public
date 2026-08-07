@@ -1,10 +1,10 @@
 # Day 2 — ADO Usage (Hands-On Workshop)
 
-> **Activity packet** for participant triads. Today's job: load the feature into Azure DevOps with disciplined hierarchy, fields, and tags. Build the queries that surface state, blocked work, and flow. Draft DP Section 2.
+> **Activity packet** for participant quads. Today's job: load the feature into Azure DevOps with disciplined hierarchy, fields, and tags. Build the queries that surface state, blocked work, and flow. Draft DP Section 2.
 
 ## Where we are in the week
 
-The outcome map (DP Section 1) tells us **what we're trying to produce**. Today's ADO work tells us **how we're tracking the producing**. By 16:00, every triad's feature is loaded into ADO with a hierarchy that an engineering team could pick up Monday.
+The outcome map (DP Section 1) tells us **what we're trying to produce**. Today's ADO work tells us **how we're tracking the producing**. By 16:00, every quad's feature is loaded into ADO with a hierarchy that an engineering team could pick up Monday.
 
 ## Inputs
 
@@ -81,12 +81,12 @@ The cost of skipping fields shows up at sprint review when nobody can find anyth
 
 ## Activity 1 — Build the Hierarchy
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Map the feature into the Epic → Feature → User Story → Task hierarchy.
 
-### Triad protocol
+### Quad protocol
 
 #### Step 1 — Define the Epic (5 min)
 
@@ -142,12 +142,12 @@ A skeleton: 1 Epic + 1 Feature + 5–10 User Stories with parent links.
 
 ## Activity 2 — Field Discipline + Tasks
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Populate fields on every work item. Add Tasks under each User Story.
 
-### Triad protocol
+### Quad protocol
 
 #### Step 1 — Field pass on every work item (15 min)
 
@@ -163,7 +163,7 @@ For each Epic / Feature / User Story:
 
 #### Step 2 — Story-point estimation (10 min)
 
-For each User Story, assign Fibonacci points (1, 2, 3, 5, 8, 13). Use **planning poker** if possible — each triad member estimates silently, then reveals. Discuss disparities. Don't average.
+For each User Story, assign Fibonacci points (1, 2, 3, 5, 8, 13). Use **planning poker** if possible — each quad member estimates silently, then reveals. Discuss disparities. Don't average.
 
 If a story is **>13 points**, break it into 2+ smaller stories. >13 means it's too vague to estimate.
 
@@ -197,7 +197,7 @@ Tasks for a typical user story:
 
 ## Activity 3 — Queries (WIQL) + Boards
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Build the queries that surface what's happening. Set up the boards for sprint visibility.
@@ -256,7 +256,7 @@ State: Not Closed
 
 Used: monthly; ensures NFRs aren't being deferred indefinitely.
 
-### Triad protocol
+### Quad protocol
 
 1. **Build all 5 queries** in ADO (15 min). Save them in a shared folder.
 2. **Set up the sprint board** (10 min). Configure columns: To Do / In Progress / In Review / Done. Add WIP limits where appropriate (e.g., max 3 In Progress per developer).
@@ -273,7 +273,7 @@ Used: monthly; ensures NFRs aren't being deferred indefinitely.
 
 ## Activity 4 — Reading the Charts + AI as Standup Aid
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Read the standard ADO charts (cumulative flow, burn-down, velocity) and learn to use AI as a standup aid (without replacing the team).
@@ -322,7 +322,7 @@ Format: 5 numbered bullets. Each bullet under 15 words.
 
 Validation discipline: same as Week 5 Day 5. Cross-check the AI's claims against the actual ADO data.
 
-### Triad protocol
+### Quad protocol
 
 1. **Walk the three charts** (15 min). For each, identify what your team would look for.
 2. **Run the AI standup-prep prompt** (10 min). Use yesterday's ADO state (or a synthetic example).
@@ -331,7 +331,7 @@ Validation discipline: same as Week 5 Day 5. Cross-check the AI's claims against
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - The **one query** they'd run every morning
 - The **WIP limit** they set and why
@@ -341,7 +341,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 2 with:
+Each quad ends Day 2 with:
 
 - [x] **Loaded ADO** (or paper backlog): 1 Epic + 1 Feature + 5–10 User Stories + 2–4 Tasks each
 - [x] All work items have **Title / Description / AC / Area / Iteration / State / Tags**

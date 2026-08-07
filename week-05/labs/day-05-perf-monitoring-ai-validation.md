@@ -1,6 +1,6 @@
 # Day 5 — Performance Baselines, Monitoring & Validating AI-Generated Data Summaries
 
-> **Activity packet** for participant triads. Today's job: write **Section 5** of the TMD — performance baselines, monitoring plan, and AI-summary validation log. Then **assemble the full TMD**, peer-review it, and ship it as the sibling artifact to TCD and PRD.
+> **Activity packet** for participant quads. Today's job: write **Section 5** of the TMD — performance baselines, monitoring plan, and AI-summary validation log. Then **assemble the full TMD**, peer-review it, and ship it as the sibling artifact to TCD and PRD.
 
 ## Where we are in the week
 
@@ -142,15 +142,15 @@ The log is **cumulative across weeks** — the team should know which AI outputs
 
 ## Activity 1 — Performance Baselines
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Set baselines for each SLO + key operational signal.
 
 ### Setup
-Each triad needs the TCD Section 4 SLOs, the Week-2 Tier Sheet, and the baseline template. AI optional.
+Each quad needs the TCD Section 4 SLOs, the Week-2 Tier Sheet, and the baseline template. AI optional.
 
-### Triad protocol
+### Quad protocol
 
 1. **List the metrics that need baselines** (5 min). One per SLO + 2–3 op-signals from Tier Sheet.
 2. **For each, classify** (5 min). Existing-system baseline or expected-launch?
@@ -184,15 +184,15 @@ A baselines table covering every TCD Section 4 SLO and 2–3 Tier Sheet operatio
 
 ## Activity 2 — The Monitoring Plan
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Design dashboards + alerts across the three layers.
 
 ### Setup
-Each triad needs the baselines from Activity 1, the four-question alert template, and the three-layer dashboard prompts. AI optional.
+Each quad needs the baselines from Activity 1, the four-question alert template, and the three-layer dashboard prompts. AI optional.
 
-### Triad protocol
+### Quad protocol
 
 #### Step 1 — On-call alerts (15 min)
 
@@ -244,15 +244,15 @@ A shorter list:
 
 ## Activity 3 — AI-Summary Validation Log
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Walk back through every AI-assisted summary used across Weeks 1–5 and document its validation status.
 
 ### Setup
-Each triad needs the cumulative AI provenance notes from Weeks 2, 4, and 5, the Pattern Library reference, and the validation log template.
+Each quad needs the cumulative AI provenance notes from Weeks 2, 4, and 5, the Pattern Library reference, and the validation log template.
 
-### Triad protocol
+### Quad protocol
 
 1. **Inventory the AI uses** (15 min). List every AI-assisted output you used in any artifact: prompts from Weeks 2, 4, 5.
 2. **For each, capture the validation row** (15 min):
@@ -288,19 +288,19 @@ A cumulative AI-summary validation log covering Weeks 2–5, with honest status 
 
 ## Activity 4 — TMD Integration + Cross-Review + Sign-Off
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Assemble the full TMD, cross-review with another triad, and sign off. Same Week-3 / Week-4 review pattern.
+Assemble the full TMD, cross-review with another quad, and sign off. Same Week-3 / Week-4 review pattern.
 
 ### Setup
-Instructor confirms pairings. Each triad needs the full TMD Sections 1–5 draft and the Friday TMD rubric.
+Instructor confirms pairings. Each quad needs the full TMD Sections 1–5 draft and the Friday TMD rubric.
 
-### Triad protocol
+### Quad protocol
 
 1. **Solo read-through** (10 min). Each member reads Sections 1–5 and marks coherence issues.
 2. **Pool issues** (5 min). De-dupe.
-3. **Cross-review** (20 min). Pair with another triad. Reviewer scores with the **Friday TMD rubric**:
+3. **Cross-review** (20 min). Pair with another quad. Reviewer scores with the **Friday TMD rubric**:
 
 | Dimension | Weight | What "exemplary" looks like |
 |-----------|--------|------------------------------|
@@ -320,7 +320,7 @@ Signed-off TMD (Approved or Approved with gaps) with adopted cross-review findin
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - The **single sharpest insight** the TMD added beyond the TCD
 - The **one open question** for Week 6 stakeholder negotiation
@@ -330,7 +330,7 @@ Each triad shares:
 
 ## End-of-week (Week 5) checkpoint
 
-Each triad ships:
+Each quad ships:
 
 - [x] **Full TMD** with Sections 1–5 integrated
 - [x] Section 1 Data model

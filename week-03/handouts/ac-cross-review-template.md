@@ -1,6 +1,6 @@
 # AC Cross-Review Template
 
-> **Day 2 · Activity 4 handout.** Two halves: the **reviewer worksheet** (you fill this in on another triad's AC section) and the **review-resolution note** (the author triad appends this to the bottom of Section 6). Read the other triad's Sections 1–5 for context first, then their AC.
+> **Day 2 · Activity 4 handout.** Two halves: the **reviewer worksheet** (you fill this in on another quad's AC section) and the **review-resolution note** (the author quad appends this to the bottom of Section 6). Read the other quad's Sections 1–5 for context first, then their AC.
 
 ---
 
@@ -24,14 +24,14 @@ Rules of good reviewing:
 
 ---
 
-## Part 2 — Review-resolution note (AUTHOR triad appends to Section 6)
+## Part 2 — Review-resolution note (AUTHOR quad appends to Section 6)
 
 For every finding the reviewers raised, mark it **adopt / defer / push back** with a reason. "We already considered that" is not a resolution — write *why*.
 
 ```markdown
 ### Section 6 review-resolution note
 
-**Reviewing triad:** <name>   **Date:** <today>
+**Reviewing quad:** <name>   **Date:** <today>
 
 #### Adopted (changes made)
 - <reviewer finding> → <what we changed>

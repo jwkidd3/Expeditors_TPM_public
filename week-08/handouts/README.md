@@ -2,7 +2,7 @@
 
 Participant-facing handouts for Week 8. Templates, checklists, and rubrics the daily activity packets reference — plus the Day-5 take-home wrap collateral. Distribute (print or share) before the day that uses each.
 
-> **Capstone note:** the Week-8 capstone subject is **Holocron** for every triad — an enterprise string-management problem supplied as a problem brief (`holocron-problem-brief.md`). Triads receive the business context and derive all requirements themselves; the fully-specified reference PRD is facilitator-only.
+> **Capstone note:** the Week-8 capstone subject is **Holocron** for every quad — an enterprise string-management problem supplied as a problem brief (`holocron-problem-brief.md`). Quads receive the business context and derive all requirements themselves; the fully-specified reference PRD is facilitator-only.
 
 | Handout | Introduced | What it is |
 |---|---|---|
@@ -20,6 +20,6 @@ Participant-facing handouts for Week 8. Templates, checklists, and rubrics the d
 | `artifact-templates-index` | Day 5 | Master index of every course template — purpose + originating week |
 | `next-90-days-reading-list` | Day 5 | Curated books / podcasts / talks to keep the muscles warm |
 | `cohort-contact-sheet` | Day 5 | Blank opt-in contact table for staying in touch |
-| `pattern-library-scaffold` | Day 5 | Structure + protocol for triads to assemble their cumulative Pattern Library |
+| `pattern-library-scaffold` | Day 5 | Structure + protocol for quads to assemble their cumulative Pattern Library |
 
 **Design principle:** these handouts provide the *structures and disciplines* — templates, checklists, rubrics. The capstone artifacts themselves (PRD-light, TCD-light, AI Spec, etc.) are the participants' work to produce; answer keys and facilitator coaching cues stay in the activity packets, not here.

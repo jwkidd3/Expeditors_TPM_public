@@ -1,6 +1,6 @@
 # Dispatcher Character Cards — Role-Play Interviews
 
-> **Day 3 · Activity 3 handout.** One set of three cards per triad (print A5, or run digital). Each round, **only the "interviewee" reads the Hidden section of their card** — interviewers must surface those details with good questions. Interviewers work from the five validation questions, in order.
+> **Day 3 · Activity 3 handout.** One set of three cards per quad (print A5, or run digital). Each round, **only the "interviewee" reads the Hidden section of their card** — interviewers must surface those details with good questions. Interviewers work from the five validation questions, in order.
 >
 > **Facilitator:** don't let interviewers see Hidden details in advance; that's the whole exercise.
 

@@ -1,12 +1,12 @@
 # Day 5 — Identifying & Removing Delivery Bottlenecks
 
-> **Activity packet** for participant triads. Today's job: take the top queues from Day 4, design **bottleneck-removal experiments** with hypothesis / test / success criterion, integrate the full DP, peer-review, and ship.
+> **Activity packet** for participant quads. Today's job: take the top queues from Day 4, design **bottleneck-removal experiments** with hypothesis / test / success criterion, integrate the full DP, peer-review, and ship.
 
 ## Where we are in the week
 
 The VSM exists (Day 4). Today turns its top queues into **experiments**: specific tests with specific success criteria, run on a real cadence. Then the full DP integrates and ships as the fifth and final sibling artifact.
 
-By 16:00, every triad has the **complete sibling artifact set**: PRD / TCD / TMD / SEP / DP.
+By 16:00, every quad has the **complete sibling artifact set**: PRD / TCD / TMD / SEP / DP.
 
 ## Inputs
 
@@ -62,12 +62,12 @@ The experiment **must** have a success criterion that's measurable. "We'll see i
 
 ## Activity 1 — Design 3 Experiments
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Convert the top 3 queues from Day 4 into 3 specific experiments.
 
-### Triad protocol
+### Quad protocol
 
 1. **Re-read your top 3 queues** (5 min) from DP Section 4.
 2. **For each, draft an experiment** (25 min) using the template above. Commit to:
@@ -114,7 +114,7 @@ to-merge against the 8 sprints prior.
 
 ## Activity 2 — DP Integration Pass
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Read the full DP top to bottom. Fix incoherences. Lock the version that goes into Friday's review.
@@ -130,7 +130,7 @@ Read the full DP top to bottom. Fix incoherences. Lock the version that goes int
 | **References to PRD/TCD/TMD/SEP** | DP cites prior artifacts by section |
 | **No fortune-cookie prose** | Specific to this feature |
 
-### Triad protocol
+### Quad protocol
 
 1. **Solo read-through** (15 min). Each member reads Sections 1–5; marks issues in margins.
 2. **Pool issues** (10 min). De-dupe.
@@ -140,10 +140,10 @@ Read the full DP top to bottom. Fix incoherences. Lock the version that goes int
 
 ## Activity 3 — Cross-Review with Friday Rubric
 
-**Format:** Triad-pair &bull; **40 min** &bull; Block 3
+**Format:** Quad-pair &bull; **40 min** &bull; Block 3
 
 ### Purpose
-Cross-review the full DP with another triad using the Friday rubric.
+Cross-review the full DP with another quad using the Friday rubric.
 
 ### The Friday rubric (DP)
 
@@ -160,27 +160,27 @@ Score 0–4 per dimension. Apply weights for total /4.0. Same convention as prio
 
 ### Cross-review protocol (40 min)
 
-1. **Pair triads** (5 min). Same pair as prior weeks if possible.
+1. **Pair quads** (5 min). Same pair as prior weeks if possible.
 2. **20 min cross-read** with the rubric.
-3. **10 min author-triad responds** to feedback.
+3. **10 min author-quad responds** to feedback.
 4. **5 min final score** captured.
 
 ---
 
 ## Activity 4 — Sign-Off + Bridge to Week 8
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Sign off the DP. Bridge to Week 8's capstone work.
 
 ### Sign-off
 
-The triad declares the DP **Status: Approved** (or "Approved with gaps") — same convention as prior weeks. The DP joins PRD / TCD / TMD / SEP as the fifth sibling artifact.
+The quad declares the DP **Status: Approved** (or "Approved with gaps") — same convention as prior weeks. The DP joins PRD / TCD / TMD / SEP as the fifth sibling artifact.
 
 ### Bridge to Week 8 — what the capstone needs
 
-Week 8 is the capstone. Every triad works the same subject: **Holocron**, an enterprise string-management problem. You receive a **problem brief** — the business situation, the facts, the stakeholders, the constraints — and build the artifact set from it. The requirements are yours to write; nothing is pre-specified. The week is anchored on the Week-8 topic: **AI Spec Development**.
+Week 8 is the capstone. Every quad works the same subject: **Holocron**, an enterprise string-management problem. You receive a **problem brief** — the business situation, the facts, the stakeholders, the constraints — and build the artifact set from it. The requirements are yours to write; nothing is pre-specified. The week is anchored on the Week-8 topic: **AI Spec Development**.
 
 **What carries over to Week 8:**
 
@@ -195,9 +195,9 @@ Week 8 is the capstone. Every triad works the same subject: **Holocron**, an ent
 - The **Holocron problem brief** — a real enterprise problem, handed to you cold
 - **Final artifact presentations** Friday
 
-### Triad protocol — Week 8 readiness check (30 min)
+### Quad protocol — Week 8 readiness check (30 min)
 
-1. **Read the Holocron problem brief** (15 min). Take `holocron-problem-brief.md` and read it end to end as a triad. Do not start solving. Instead capture:
+1. **Read the Holocron problem brief** (15 min). Take `holocron-problem-brief.md` and read it end to end as a quad. Do not start solving. Instead capture:
     - The problem in one sentence, in your own words
     - Who you think the primary user is — and who else the brief names
     - The three facts you find most consequential
@@ -207,7 +207,7 @@ Week 8 is the capstone. Every triad works the same subject: **Holocron**, an ent
 
 ### Final wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - The **bottleneck experiment** they're most excited to run
 - The **single sharpest insight** the DP added beyond the rest of the artifact set
@@ -217,7 +217,7 @@ Each triad shares:
 
 ## End-of-week (Week 7) checkpoint
 
-Each triad ships:
+Each quad ships:
 
 - [x] **Full DP** with Sections 1–5
 - [x] Section 1 Outcome map

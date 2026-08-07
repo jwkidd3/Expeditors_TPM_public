@@ -1,6 +1,6 @@
 # Day 5 — Final Artifact Presentations + Course Closure
 
-> **Activity packet** for participant triads. Today every triad presents their capstone. The cohort scores. The course closes.
+> **Activity packet** for participant quads. Today every quad presents their capstone. The cohort scores. The course closes.
 
 ## Where we are in the week
 
@@ -10,7 +10,7 @@
 
 - The full 6-document artifact set (PRD-light / TCD-light / TMD-light / SEP-light / DP-light / AI Spec v2)
 - A presentation deck (slides or live walkthrough)
-- All three triad voices ready to speak
+- All three quad voices ready to speak
 
 ## What you'll produce today
 
@@ -23,7 +23,7 @@
 
 ## The Friday rubric (review before presenting)
 
-Each triad's 15-min presentation is scored on:
+Each quad's 15-min presentation is scored on:
 
 | Dimension | Weight | Exemplary |
 |-----------|--------|-----------|
@@ -33,22 +33,22 @@ Each triad's 15-min presentation is scored on:
 | **Trade-off honesty** | 15% | At least 2 trade-offs named with cost + revisit trigger |
 | **Outcome thinking** | 10% | NS / Tier-Sheet / leading indicator vocabulary used naturally |
 | **Delivery readiness** | 10% | DP-light shows backlog, tracking, one bottleneck experiment |
-| **Presentation craft** | 15% | All triad voices speak; time-managed; questions answered with curiosity not defensiveness |
+| **Presentation craft** | 15% | All quad voices speak; time-managed; questions answered with curiosity not defensiveness |
 
 Score 0–4 per dimension. Apply weights for total /4.0. Same convention as prior weeks.
 
-Each cohort member scores every triad (peer scores). Instructor scores separately. Final score = (peer mean + instructor) / 2.
+Each cohort member scores every quad (peer scores). Instructor scores separately. Final score = (peer mean + instructor) / 2.
 
 ---
 
 ## Activity 1 — Final Tweaks + Presentation Order
 
-**Format:** Triad &bull; **30 min** &bull; Block 1 (truncated)
+**Format:** Quad &bull; **30 min** &bull; Block 1 (truncated)
 
 ### Purpose
 Last-minute polish. Decide presentation order. Anticipate Q&A.
 
-### Triad protocol
+### Quad protocol
 
 1. **One last run-through** (15 min). With timer.
 2. **Predict the 3 most likely Q&A questions** (10 min). For each: who answers? What's the response?
@@ -60,7 +60,7 @@ The instructor sets the presentation order at 09:00.
 
 ## Activity 2 — Presentations (block 2 + 3 + early block 4)
 
-**Format:** Cohort + instructors &bull; **20 min per triad**
+**Format:** Cohort + instructors &bull; **20 min per quad**
 
 ### The 15 + 5 split
 
@@ -72,7 +72,7 @@ The instructor sets the presentation order at 09:00.
 - Score on the rubric while listening — not afterwards (memory degrades)
 - Specific notes per dimension help the post-presentation feedback
 - Use whole-number scores (no half-points)
-- Don't "grade on a curve" — score against the rubric, not against other triads
+- Don't "grade on a curve" — score against the rubric, not against other quads
 
 ### Q&A discipline (for presenters)
 
@@ -84,7 +84,7 @@ The instructor sets the presentation order at 09:00.
 | A question about something that wasn't in scope | Acknowledge; reference Section 11 / DP-light "explicitly NOT" |
 | A hostile question | Curiosity, not defense. "What concern would that addresses?" |
 
-The Q&A is part of the rubric (presentation craft). Triads who handle Q&A with curiosity, not defensiveness, score high.
+The Q&A is part of the rubric (presentation craft). Quads who handle Q&A with curiosity, not defensiveness, score high.
 
 ---
 
@@ -132,7 +132,7 @@ Three artifact lists (surprises / keeping / retiring) the cohort takes with them
 ### Components
 
 1. **Post-assessments** (15 min): Product Management + Data Literacy. Same instruments as the pre-assessments at the start of Week 1.
-2. **Certificate distribution** (5 min): triad photo if appropriate.
+2. **Certificate distribution** (5 min): quad photo if appropriate.
 3. **Closing words from instructors** (10 min): summative remarks.
 4. **Final round-robin** (15 min): each participant says **one sentence** about what the academy gave them.
 

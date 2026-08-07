@@ -1,8 +1,8 @@
 # Engagement Triage Pack — 8 Stakeholder Profile Cards
 
-> **Day 2 · Activity 1 handout.** One set of eight cards per triad (print A5, or run digital). For each card, your triad places the stakeholder on the Power × Interest grid, then picks a **cadence, format, and length**. Two of these are traps — the "obvious" quadrant is wrong. Argue before you converge.
+> **Day 2 · Activity 1 handout.** One set of eight cards per quad (print A5, or run digital). For each card, your quad places the stakeholder on the Power × Interest grid, then picks a **cadence, format, and length**. Two of these are traps — the "obvious" quadrant is wrong. Argue before you converge.
 
-Each card has a **Public surface** (everyone reads) and a **Hidden context** (the wrinkle that changes the answer — reveal it only when your triad has committed to a first placement, or let the facilitator turn it over). Grounded in the FieldPulse world where noted.
+Each card has a **Public surface** (everyone reads) and a **Hidden context** (the wrinkle that changes the answer — reveal it only when your quad has committed to a first placement, or let the facilitator turn it over). Grounded in the FieldPulse world where noted.
 
 ---
 
@@ -45,7 +45,7 @@ _Triage:_ cadence ____ · format ____ · length ____
 
 **Hidden context**
 - Looks low-power (a single CSM) but is **high-power by proxy** — the account is a renewal risk, and her escalation reaches the Ops VP and GM the same day.
-- The trap: triads park her in "low power / high interest" and under-serve her. The renewal makes her a manage-closely stakeholder.
+- The trap: quads park her in "low power / high interest" and under-serve her. The renewal makes her a manage-closely stakeholder.
 
 _Triage:_ cadence ____ · format ____ · length ____
 
@@ -75,7 +75,7 @@ _Triage:_ cadence ____ · format ____ · length ____
 
 **Hidden context**
 - The value here is **bidirectional**: he'll surface edge cases from his own users you haven't seen, if you keep him in the loop.
-- The trap: triads treat him as pure "keep informed" broadcast and miss that he's a two-way source. A group thread plus an occasional 1:1 beats a one-way digest.
+- The trap: quads treat him as pure "keep informed" broadcast and miss that he's a two-way source. A group thread plus an occasional 1:1 beats a one-way digest.
 
 _Triage:_ cadence ____ · format ____ · length ____
 
@@ -105,7 +105,7 @@ _Triage:_ cadence ____ · format ____ · length ____
 
 **Hidden context**
 - The engagement question isn't cadence (that's set by standup + 1:1) — it's **format and depth**. He wants the trade-off *rationale*, not just the decision.
-- The trap: triads over-formalize internal engagement. He doesn't need a 1-page brief; he needs a Slack thread and a whiteboard.
+- The trap: quads over-formalize internal engagement. He doesn't need a 1-page brief; he needs a Slack thread and a whiteboard.
 
 _Triage:_ cadence ____ · format ____ · length ____
 
@@ -126,7 +126,7 @@ _Triage:_ cadence ____ · format ____ · length ____
 
 ---
 
-### Triad worksheet
+### Quad worksheet
 
 | # | Stakeholder | Quadrant | Cadence | Format | Length |
 |---|-------------|----------|---------|--------|--------|

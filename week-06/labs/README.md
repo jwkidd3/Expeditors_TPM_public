@@ -4,7 +4,7 @@
 
 Week 6 takes the documents from Weeks 3–5 and uses them as **inputs to real conversations**. The TCD Section 6 stakeholder sign-off matrix becomes the negotiation list. The TMD's trade-offs become the things you have to explain. The PRD's scope becomes the thing you have to defend.
 
-By Friday afternoon, every triad has run **three simulated negotiations** with cohort members playing stakeholders, has logged outcomes, and ships a **Stakeholder Engagement Plan (SEP)** — the fourth and final sibling artifact alongside PRD / TCD / TMD.
+By Friday afternoon, every quad has run **three simulated negotiations** with cohort members playing stakeholders, has logged outcomes, and ships a **Stakeholder Engagement Plan (SEP)** — the fourth and final sibling artifact alongside PRD / TCD / TMD.
 
 ## What's different about Week 6
 
@@ -40,13 +40,13 @@ The SEP ships Friday alongside the PRD, TCD, and TMD.
 | Clock | Block | Mix |
 |-------|-------|-----|
 | 09:00 – 09:15 | Opening & objectives | Instructor |
-| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min triad work |
+| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min quad work |
 | 10:30 – 10:45 | **Break** | |
-| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min triad work |
+| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min quad work |
 | 12:00 – 13:00 | **Lunch** | |
-| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min triad work |
+| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min quad work |
 | 14:15 – 14:30 | **Break** | |
-| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min triad / 20 min wrap |
+| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min quad / 20 min wrap |
 
 ### Friday cadence (negotiation simulation)
 
@@ -54,12 +54,12 @@ Friday's blocks are simulation-heavy:
 
 | Clock | Block | What happens |
 |-------|-------|--------------|
-| 09:00 – 09:15 | Opening; sim pairings posted | Triads + their counterpart triads (playing stakeholders) named |
-| 09:15 – 10:45 | **Round 1: Architecture / SLO negotiation** | Triad negotiates one TCD Section 4 SLO or Section 5 trade-off |
+| 09:00 – 09:15 | Opening; sim pairings posted | Quads + their counterpart quads (playing stakeholders) named |
+| 09:15 – 10:45 | **Round 1: Architecture / SLO negotiation** | Quad negotiates one TCD Section 4 SLO or Section 5 trade-off |
 | 10:45 – 11:00 | Break | |
 | 11:00 – 12:00 | Round 1 debrief + Round 2 prep | Role-swap; capture outcomes |
 | 12:00 – 13:00 | Lunch | |
-| 13:00 – 14:30 | **Round 2: Scope negotiation** | Triad negotiates a non-goal challenge or scope-creep ask |
+| 13:00 – 14:30 | **Round 2: Scope negotiation** | Quad negotiates a non-goal challenge or scope-creep ask |
 | 14:30 – 14:45 | Break | |
 | 14:45 – 15:45 | **Round 3: Resource / timeline negotiation** | Cross-team dependency or roadmap ask |
 | 15:45 – 16:00 | Wrap + sign-off | SEP Section 5 outcomes log finalized |
@@ -69,7 +69,7 @@ Friday's blocks are simulation-heavy:
 ```markdown
 # Stakeholder Engagement Plan — <feature>
 **Sibling to:** PRD <link>, TCD <link>, TMD <link>
-**Authors:** <triad>  |  **Status:** Draft / Reviewed
+**Authors:** <quad>  |  **Status:** Draft / Reviewed
 
 ## 1. Stakeholder map
 Power × Interest grid + RACI for the feature. Pulls from TCD Section 6
@@ -93,9 +93,9 @@ For each simulated round: the ask, the response, the agreement
 (or disagreement), the next step.
 ```
 
-## Triads
+## Quads
 
-Same triads from Weeks 1–5. Friday's simulations pair triads as **author** + **stakeholder** — triads play each other's stakeholders, swapping roles round to round.
+Same quads from Weeks 1–5. Friday's simulations pair quads as **author** + **stakeholder** — quads play each other's stakeholders, swapping roles round to round.
 
 ## Friday simulation rubric
 

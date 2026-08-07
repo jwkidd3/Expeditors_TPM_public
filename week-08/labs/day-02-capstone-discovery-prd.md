@@ -1,12 +1,12 @@
 # Day 2 — Capstone Discovery + Compressed PRD
 
-> **Activity packet** for participant triads. Today's job: do compressed discovery on the Holocron problem (the Week-1 muscles in 1 day) and produce **PRD-light** — a 2-page version that captures sections 1–7 with the same discipline as Week 3 in a fraction of the time.
+> **Activity packet** for participant quads. Today's job: do compressed discovery on the Holocron problem (the Week-1 muscles in 1 day) and produce **PRD-light** — a 2-page version that captures sections 1–7 with the same discipline as Week 3 in a fraction of the time.
 
 ## Where we are in the week
 
 Day 1 locked the Holocron scope slice and installed the AI Spec pattern. Today is **Discovery + PRD-light**. The Week-1 customer-centric work is compressed into one day; Week-3's PRD work is compressed into the afternoon.
 
-By 16:00, every triad has a 2-page PRD-light ready to hand off as input to tomorrow's compressed architecture work.
+By 16:00, every quad has a 2-page PRD-light ready to hand off as input to tomorrow's compressed architecture work.
 
 ## The compression discipline
 
@@ -32,16 +32,16 @@ That's 2 pages. Every word earns its place.
 
 ## Activity 1 — Compressed Customer Discovery
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Compressed Week-1 work: ground in customer signal, name the persona, name the pain, name the journey friction.
 
-### Triad protocol
+### Quad protocol
 
 #### Step 1 — Synthesize what you know (10 min)
 
-Each triad member shares the inputs they gathered. Pool into:
+Each quad member shares the inputs they gathered. Pool into:
 
 - **Direct customer signal** — interviews, support tickets, observation, data
 - **Indirect signal** — public reviews, competitor analysis, internal Slack
@@ -71,7 +71,7 @@ The pain that survives all three goes in the PRD.
 
 #### Step 4 — Sanity check (5 min)
 
-The triad reads what they have aloud. Does it sound like a real customer's life, or a generic SaaS persona?
+The quad reads what they have aloud. Does it sound like a real customer's life, or a generic SaaS persona?
 
 ### Output
 
@@ -81,24 +81,24 @@ A 1-page **discovery summary** that becomes the input to PRD-light Sections 1–
 
 ## Activity 2 — PRD-Light Sections 1–4
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Draft sections 1–4 of the compressed PRD: context, problem, goals/non-goals, scope.
 
-### Triad protocol — applied with AI assistance
+### Quad protocol — applied with AI assistance
 
 The Week-3 discipline holds. AI accelerates drafting but does not replace judgment.
 
 #### Step 1 — Context + Problem (15 min)
 
-Each triad member solo-drafts Section 1 and Section 2 first. Then triad picks the strongest.
+Each quad member solo-drafts Section 1 and Section 2 first. Then quad picks the strongest.
 
 AI assistance pattern (after the solo drafts):
 
 ```
 Role: Editor for a TPM's PRD context section.
-Context: <triad's draft Section 1 + the discovery summary>
+Context: <quad's draft Section 1 + the discovery summary>
 Task: Tighten this section to ½ page max. Preserve the customer
 quote. Preserve the strategic anchor. Cut anything that sounds
 like marketing language.
@@ -128,12 +128,12 @@ A 2-column table. Default: cut aggressively to fit the 4-day capstone window.
 
 ## Activity 3 — PRD-Light Sections 5–7
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Draft Section 5 solution sketch + Section 6 Acceptance Criteria + Section 7 NFRs.
 
-### Triad protocol
+### Quad protocol
 
 #### Step 1 — Section 5 Solution Sketch (10 min)
 
@@ -174,7 +174,7 @@ Each NFR uses the Wk 3 template: requirement / defense / verification.
 
 ## Activity 4 — AI Validation Pass + Day-3 Setup
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Run the validation pass on PRD-light. Set up Day 3's compressed architecture work.
@@ -210,7 +210,7 @@ Tomorrow you'll produce TCD-light + TMD-light + AI Spec v1. Plan ahead:
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - Their **persona's job-to-be-done** in one sentence
 - The **AC** they're proudest of
@@ -220,7 +220,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 2 with:
+Each quad ends Day 2 with:
 
 - [x] **Discovery summary** (1 page)
 - [x] **PRD-light Sections 1–7** (2 pages total)

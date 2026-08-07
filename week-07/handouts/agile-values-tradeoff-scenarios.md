@@ -1,6 +1,6 @@
 # Agile Values Trade-off Scenarios
 
-> **Day 1 · Activity 3 handout.** Four real trade-offs. For each, name the Agile Manifesto value at play, what it implies, what it does *not* imply — then decide what your triad would do.
+> **Day 1 · Activity 3 handout.** Four real trade-offs. For each, name the Agile Manifesto value at play, what it implies, what it does *not* imply — then decide what your quad would do.
 
 ## The Manifesto (your decision frame)
 
@@ -44,14 +44,14 @@ That is, while there is value in the items on the right, we value the items on t
 
 ---
 
-## Triad protocol
+## Quad protocol
 
 1. **For each scenario** (8 min each):
    - State the Manifesto value at play.
    - State what the value implies.
    - State what the value does *not* imply.
-   - Decide: what would your triad do?
-2. **Final synthesis** (8 min): which Manifesto value did your triad invoke most? Least? Why?
+   - Decide: what would your quad do?
+2. **Final synthesis** (8 min): which Manifesto value did your quad invoke most? Least? Why?
 
 ## What "good" looks like
 

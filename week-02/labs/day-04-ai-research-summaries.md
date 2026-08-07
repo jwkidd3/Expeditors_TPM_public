@@ -1,17 +1,17 @@
 # Day 4 — Using AI for Strategy & Research Summaries
 
-> **Activity packet for participant triads.** Today's job: take the Week-1 prompt patterns and use them at **strategy scale** — multi-source synthesis with traceable evidence — to produce a strategy brief for your FieldPulse problem.
+> **Activity packet for participant quads.** Today's job: take the Week-1 prompt patterns and use them at **strategy scale** — multi-source synthesis with traceable evidence — to produce a strategy brief for your FieldPulse problem.
 
 ## Where we are in the week
 
-Week 1 taught prompting. Days 1–3 of Week 2 produced metrics, a North Star, and design principles. Today the triads use AI to **compile, summarize, and stress-test secondary research** — the kind of work that, done by hand, eats a TPM's full week.
+Week 1 taught prompting. Days 1–3 of Week 2 produced metrics, a North Star, and design principles. Today the quads use AI to **compile, summarize, and stress-test secondary research** — the kind of work that, done by hand, eats a TPM's full week.
 
-Triads end the day with an **AI-Assembled Strategy Brief** that integrates everything from Week 1 forward. It's the input to Friday's journey-mapping work.
+Quads end the day with an **AI-Assembled Strategy Brief** that integrates everything from Week 1 forward. It's the input to Friday's journey-mapping work.
 
 ## Inputs
 
-- The triad's NS Defense Card, Tier Sheet, and 3 design principles (Days 1–3)
-- The triad's Week-1 problem statement and Prompt Pattern Library
+- The quad's NS Defense Card, Tier Sheet, and 3 design principles (Days 1–3)
+- The quad's Week-1 problem statement and Prompt Pattern Library
 - The **FieldPulse Research Pack** (handouts):
     - 3 anonymized dispatcher interview transcripts (~5 pages each)
     - 14 support tickets (already used Day 4 of Week 1)
@@ -25,11 +25,11 @@ The Research Pack is realistic: noisy, redundant, partly contradictory. That's t
 
 ## The day's keeper artifact: the Strategy Brief
 
-Each triad ends the day with a 2–3 page **AI-Assembled Strategy Brief**. The template:
+Each quad ends the day with a 2–3 page **AI-Assembled Strategy Brief**. The template:
 
 ```markdown
 # Strategy Brief — <Problem area>
-**Triad:** <names>  |  **NS:** <one line>
+**Quad:** <names>  |  **NS:** <one line>
 
 ## Executive summary (5 bullets max, hand-written)
 …
@@ -51,7 +51,7 @@ For each theme:
 - One open question we still need humans for
 
 ## Provenance log
-- Prompts used: link to triad's Pattern Library entries
+- Prompts used: link to quad's Pattern Library entries
 - Manual validation steps taken
 - Where the AI was wrong (named openly)
 ```
@@ -62,13 +62,13 @@ The **Provenance log** is mandatory. A strategy brief without it is fiction.
 
 ## Activity 1 — Multi-source Synthesis Drill
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Practice the **summarize-with-evidence-tags** pattern at scale before applying it to the real research pack.
 
 ### Setup
-Each triad gets a small "warm-up pack": **2 interview transcripts + 4 tickets** (from a different domain than FieldPulse — healthcare scheduling, to force generalization).
+Each quad gets a small "warm-up pack": **2 interview transcripts + 4 tickets** (from a different domain than FieldPulse — healthcare scheduling, to force generalization).
 
 ### Steps
 
@@ -81,19 +81,19 @@ Each triad gets a small "warm-up pack": **2 interview transcripts + 4 tickets** 
 
 ### Deliverable
 
-A **two-paragraph diagnosis** of the failure modes the triad observed, plus the iterated prompt that worked.
+A **two-paragraph diagnosis** of the failure modes the quad observed, plus the iterated prompt that worked.
 
 ---
 
 ## Activity 2 — The Research Pack Pass
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Apply the iterated prompt pattern to the **real FieldPulse Research Pack** and produce the first draft of the Pain Themes section.
 
 ### Setup
-Each triad has its iterated prompt from Activity 1, the FieldPulse Research Pack, and AI assistant access (with the ability to split large pastes into multiple calls).
+Each quad has its iterated prompt from Activity 1, the FieldPulse Research Pack, and AI assistant access (with the ability to split large pastes into multiple calls).
 
 ### Steps
 
@@ -121,19 +121,19 @@ Each triad has its iterated prompt from Activity 1, the FieldPulse Research Pack
 
 ## Activity 3 — Competitive Snapshot
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Use AI to do the most defensible part of competitive research: **structuring** information you already have access to. This is also the failure mode the AI is most frequently used for *poorly* — generating fake market data.
 
 ### Setup
-Each triad has the competitor materials from the Research Pack (2 product tour transcripts + public pricing pages) and AI assistant access.
+Each quad has the competitor materials from the Research Pack (2 product tour transcripts + public pricing pages) and AI assistant access.
 
 ### The bright line
 
 > AI can summarize and structure source material you provide. AI cannot tell you what your competitors actually do.
 
-### The triad's two prompts
+### The quad's two prompts
 
 **Prompt 1 — "Structure what we know" (safe):**
 
@@ -172,15 +172,15 @@ A clean **Competitive Snapshot** (matrix + open questions) added to the Strategy
 
 ## Activity 4 — Brief Assembly + Provenance Log
 
-**Format:** Triad &bull; **45 min** + Readouts &bull; Block 4
+**Format:** Quad &bull; **45 min** + Readouts &bull; Block 4
 
 ### Purpose
 Stitch the day's outputs into a single strategy brief, write the executive summary by hand, and complete the provenance log.
 
 ### Setup
-Each triad has all the day's outputs visible: warm-up diagnosis, 5 pain themes, Competitive Snapshot. Brief template is open in the triad's preferred tool.
+Each quad has all the day's outputs visible: warm-up diagnosis, 5 pain themes, Competitive Snapshot. Brief template is open in the quad's preferred tool.
 
-### Triad protocol
+### Quad protocol
 
 1. **Hand-write the executive summary** (15 min). 5 bullets max. The AI cannot do this — it doesn't know what your audience cares about.
 2. **Hand-write the strategy implications** (10 min). What does the NS imply for these themes? Which design principle most directly addresses each?
@@ -190,7 +190,7 @@ Each triad has all the day's outputs visible: warm-up diagnosis, 5 pain themes, 
     - Where the AI was wrong (named openly — this is the trust-building section)
 4. **Polish** (10 min). Brief is shareable: cohort, design partner, engineer would all be able to read it.
 
-### Readout structure (90 seconds per triad)
+### Readout structure (90 seconds per quad)
 
 > 1. "Our top pain theme is [X], cited from [N sources]."
 > 2. "The strongest AI failure we caught was [Y]."
@@ -198,13 +198,13 @@ Each triad has all the day's outputs visible: warm-up diagnosis, 5 pain themes, 
 
 ### Deliverable
 
-A 2–3 page Strategy Brief per triad with hand-written executive summary, AI-assembled pain themes (validated), hand-written strategy implications, and a complete Provenance log including at least one named AI failure.
+A 2–3 page Strategy Brief per quad with hand-written executive summary, AI-assembled pain themes (validated), hand-written strategy implications, and a complete Provenance log including at least one named AI failure.
 
 ---
 
 ## End-of-day checkpoint
 
-Each triad leaves the day with:
+Each quad leaves the day with:
 
 - [x] An iterated prompt pattern for **multi-source synthesis with evidence**
 - [x] **5 pain themes** with citations and confidence levels

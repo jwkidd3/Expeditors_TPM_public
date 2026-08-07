@@ -1,12 +1,12 @@
 # Day 1 — AI Spec Development
 
-> **Activity packet** for participant triads. Today's job: install the **AI Spec Development pattern** — a structured prompt sequence that produces an engineering-ready integrated technical spec from PRD/TCD/TMD inputs — and lock the **Holocron scope slice** you will specify all week.
+> **Activity packet** for participant quads. Today's job: install the **AI Spec Development pattern** — a structured prompt sequence that produces an engineering-ready integrated technical spec from PRD/TCD/TMD inputs — and lock the **Holocron scope slice** you will specify all week.
 
 ## Where we are in the week
 
 Week 8 opens with a new technique. AI Spec Development is the synthesis of everything learned across Weeks 2 (prompting), 4–5 (architecture and modeling), and Week 5 Day 5 (validation discipline). The pattern is what an experienced TPM uses to compress a week of spec work into hours — without losing the rigor.
 
-By 16:00, every triad has:
+By 16:00, every quad has:
 
 - A **working AI Spec template** with the prompt sequence
 - A **locked Holocron scope slice** with initial inputs gathered
@@ -40,7 +40,7 @@ A senior TPM uses this pattern to **draft** the spec; their judgment shapes ever
 ```markdown
 # AI Spec — <feature>
 **Sibling to:** PRD <link>, TCD <link>, TMD <link>, SEP <link>, DP <link>
-**Authors:** <triad>  |  **Status:** Draft / Reviewed
+**Authors:** <quad>  |  **Status:** Draft / Reviewed
 **AI Provenance:** see end-of-doc log
 
 ## 1. Headline
@@ -175,12 +175,12 @@ Format: 3 sub-sections.
 
 ## Activity 1 — Holocron Scoping
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Lock a defensible slice of the Holocron problem. The subject is fixed; what varies is how much you take on — and an over-broad slice won't survive contact with a 4-day build.
 
-### Triad protocol
+### Quad protocol
 
 1. **Re-read the problem brief** (5 min). Compare it against the one-sentence problem you captured Friday.
 2. **The 5 scoping questions** (15 min):
@@ -200,12 +200,12 @@ A one-sentence problem statement, a named primary user, an explicit in/out scope
 
 ## Activity 2 — Walk Through the AI Spec Template
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Internalize the AI Spec template by walking through it section-by-section using a **previously-completed FieldPulse artifact set** as the source.
 
-### Triad protocol
+### Quad protocol
 
 1. **Read the AI Spec template** (5 min).
 2. **Walk each section** (30 min). For each of the 8 sections, identify:
@@ -224,12 +224,12 @@ Internalize the AI Spec template by walking through it section-by-section using 
 
 ## Activity 3 — Run the 5-Prompt Sequence on FieldPulse
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Practice the sequence on the FieldPulse artifact set (where the inputs are complete and validated) before applying it to the capstone tomorrow.
 
-### Triad protocol
+### Quad protocol
 
 1. **Run Prompts 1–5 in sequence** (30 min). For each:
     - Paste the relevant input
@@ -240,25 +240,25 @@ Practice the sequence on the FieldPulse artifact set (where the inputs are compl
 
 ### Output
 
-A first AI Spec for FieldPulse — produced via the 5-prompt sequence — that the triad can use as a template for tomorrow's compressed work.
+A first AI Spec for FieldPulse — produced via the 5-prompt sequence — that the quad can use as a template for tomorrow's compressed work.
 
 ---
 
 ## Activity 4 — Capstone Discovery Plan
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Plan the discovery work needed for tomorrow's compressed PRD. Distribute the work across triad members.
+Plan the discovery work needed for tomorrow's compressed PRD. Distribute the work across quad members.
 
-### Triad protocol
+### Quad protocol
 
 1. **List discovery inputs needed** (10 min). For your capstone:
     - Customer signal — interviews, support data, public reviews
     - Strategic context — why this matters, what's been tried
     - System inputs — existing docs, codebase access, related artifacts
     - Stakeholder signal — who has opinions; what are they
-2. **Distribute work** (10 min). Each triad member takes 1–2 categories.
+2. **Distribute work** (10 min). Each quad member takes 1–2 categories.
 3. **Set the deadline for inputs gathered** (5 min). Typically: 8 PM tonight or first hour tomorrow morning.
 4. **Identify the "we don't have this and can't get it"** (10 min). Be honest. Document what you're proceeding without; mark it for AI-augmented hypothesis tomorrow (with extra validation).
 5. **Run the AI prompt** (10 min):
@@ -279,7 +279,7 @@ Format: 3 numbered findings.
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - Their **Holocron problem statement + scope line** in one sentence
 - The **section of the AI Spec they think they'll struggle with most**
@@ -289,7 +289,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 1 with:
+Each quad ends Day 1 with:
 
 - [x] **Capstone subject confirmed** through 5-question fit assessment
 - [x] **AI Spec template** internalized; FieldPulse practice run completed

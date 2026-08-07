@@ -2,7 +2,7 @@
 
 > A short retention check covering the week's core ideas: monolith vs microservices and the three-question frame, STRIDE threat modeling and compliance, the C4 model, SLI/SLO/SLA and error budgets, and mature architectural trade-offs. Answer each question, then check yourself against the key at the end. Aim for concepts, not trivia — every answer maps back to something we used to build the TCD.
 
-**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or triad.
+**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or quad.
 
 ---
 

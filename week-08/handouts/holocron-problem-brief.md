@@ -1,6 +1,6 @@
 # Holocron — Capstone Problem Brief
 
-> **Week 8 capstone handout.** This is the problem your triad builds the capstone artifact set from. It gives you the business situation, the people involved, and the facts you need — it does **not** give you requirements. Deriving the personas, scope, acceptance criteria, and non-functional requirements is the capstone.
+> **Week 8 capstone handout.** This is the problem your quad builds the capstone artifact set from. It gives you the business situation, the people involved, and the facts you need — it does **not** give you requirements. Deriving the personas, scope, acceptance criteria, and non-functional requirements is the capstone.
 
 ---
 

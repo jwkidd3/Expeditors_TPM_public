@@ -14,13 +14,13 @@
 
 **Cues:**
 
-- Watch for triads who want to run all 5 prompts in parallel, separately. Force the sequence — each prompt builds on the prior validation.
+- Watch for quads who want to run all 5 prompts in parallel, separately. Force the sequence — each prompt builds on the prior validation.
 - The validation step gets skipped under time pressure. Hold the discipline.
-- The provenance log is mandatory. If a triad ships an AI Spec without it, they ship fiction.
+- The provenance log is mandatory. If a quad ships an AI Spec without it, they ship fiction.
 
 ## Facilitator reflection prompts (end of day)
 
-- Which triad's scope line is sharpest? Hold it up Friday — especially a triad that deferred well.
+- Which quad's scope line is sharpest? Hold it up Friday — especially a quad that deferred well.
 - Did anyone refuse to validate prompt outputs? Coach immediately — AI Spec without validation is fiction.
-- Did any triad leave Day 1 with a slice too broad to finish by Friday? Pre-coach tomorrow morning — narrowing on Tuesday is far cheaper than on Thursday.
+- Did any quad leave Day 1 with a slice too broad to finish by Friday? Pre-coach tomorrow morning — narrowing on Tuesday is far cheaper than on Thursday.
 - Did the practice run on FieldPulse produce a usable AI Spec? Reading skill is the test.

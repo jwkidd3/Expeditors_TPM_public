@@ -1,6 +1,6 @@
 # Day 4 — Mini-Capstone: PRD Assembly (Non-AI)
 
-> **Activity packet** for participant triads. Today's job: complete the remaining PRD sections, integrate the whole document, and lock the version that goes into Friday's review. **No AI**, all day.
+> **Activity packet** for participant quads. Today's job: complete the remaining PRD sections, integrate the whole document, and lock the version that goes into Friday's review. **No AI**, all day.
 
 ## Where we are in the week
 
@@ -17,7 +17,7 @@ And then the **integration pass**: read the whole PRD top-to-bottom, fix incoher
 
 This is the keystone day. Tomorrow is reviews; AI is restored Monday. Today the discipline holds.
 
-What's allowed today: spell-check, your prior-week artifacts, your draft sections, dictionary, calculator, conversations across triads.
+What's allowed today: spell-check, your prior-week artifacts, your draft sections, dictionary, calculator, conversations across quads.
 
 What's not: ChatGPT, Claude, Copilot, AI features built into your editor (turn them off), or asking another team's AI for "just a structure."
 
@@ -25,13 +25,13 @@ What's not: ChatGPT, Claude, Copilot, AI features built into your editor (turn t
 
 ## Activity 1 — Section 8: Metrics & Validation
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Connect the PRD to the **Tier Sheet from Week 2 Day 1** and the **NS from Week 2 Day 2**. This section is what Week 7's Agile Delivery work will measure against.
 
 ### Setup
-Each triad needs the Week-2 Tier Sheet, the NS Defense Card, and the Section 8 template. No AI.
+Each quad needs the Week-2 Tier Sheet, the NS Defense Card, and the Section 8 template. No AI.
 
 ### What Section 8 contains
 
@@ -65,7 +65,7 @@ We'll consider this feature successful if [primary metric] moves
 [acceptable band].
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Pull from Tier Sheet** (10 min). Pick the primary metric, the counter, and 3 secondaries.
 2. **Set targets** (15 min). Concrete numbers, with a sentence of defense.
@@ -85,13 +85,13 @@ Section 8 appended to the PRD: one primary metric, one counter-metric, up to thr
 
 ## Activity 2 — Section 9: Risks & Open Questions
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Name the things that could go wrong, the things you don't yet know, and the things you'll find out only after launch. **A PRD with "no risks" is a fail.**
 
 ### Setup
-Each triad needs Sections 1–8 and the three-list template (Risks, Open questions, Assumptions). No AI.
+Each quad needs Sections 1–8 and the three-list template (Risks, Open questions, Assumptions). No AI.
 
 ### Three lists in Section 9
 
@@ -124,7 +124,7 @@ Each triad needs Sections 1–8 and the three-list template (Risks, Open questio
   (basis: prior reconcile rollout; revisit if behavior is non-stationary)
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Risks brainstorm** (15 min). Aim for 5 candidates. Cull to 3–4 with non-trivial impact.
 2. **Open questions** (10 min). Each member contributes; pool. 3–5 questions.
@@ -139,13 +139,13 @@ Section 9 appended to the PRD: 3–4 risks with mitigations, 3–5 owned open qu
 
 ## Activity 3 — Sections 10 & 11: Dependencies + Out-of-Scope Follow-ups
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Make the network of "things outside our PRD that this PRD depends on or hands off to" explicit. Most PRDs hand-wave this; mature ones tabulate.
 
 ### Setup
-Each triad needs Section 3 (non-goals), Section 4 (scope), and any cross-team context surfaced during the week. No AI.
+Each quad needs Section 3 (non-goals), Section 4 (scope), and any cross-team context surfaced during the week. No AI.
 
 ### Section 10 Dependencies
 
@@ -176,7 +176,7 @@ What this PRD acknowledges but won't ship:
   offline-first deferred. Tracked: TICKET-1237.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Dependencies** (20 min). Brainstorm the dependency network. For each: owner, what, when, status.
 2. **Out-of-scope follow-ups** (15 min). Pull from Section 3 non-goals + Section 4 scope-out + anything that came up this week.
@@ -196,13 +196,13 @@ Sections 10 and 11 appended to the PRD: dependency table with named owners and h
 
 ## Activity 4 — Integration Pass + Lock
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Read the whole PRD top-to-bottom. Fix incoherences. Lock the version that goes into Friday's review.
 
 ### Setup
-Each triad needs the full Sections 1–11 draft, the eight-item integration checklist, and the AI-prose tell list. No AI.
+Each quad needs the full Sections 1–11 draft, the eight-item integration checklist, and the AI-prose tell list. No AI.
 
 ### The integration checklist
 
@@ -215,9 +215,9 @@ Each triad needs the full Sections 1–11 draft, the eight-item integration chec
 | **Section 7 NFRs reference Section 8 observability** | Observability NFR enables every Tier Sheet metric |
 | **Section 4 scope-out feeds Section 11 follow-ups** | Items deliberately left out appear in the follow-ups list |
 | **Section 9 risks named, owned, mitigated** | No "no risks" |
-| **No AI-generic prose** | Voice is consistent triad voice; no fortune-cookie sentences |
+| **No AI-generic prose** | Voice is consistent quad voice; no fortune-cookie sentences |
 
-### Triad protocol
+### Quad protocol
 
 1. **Solo read-through** (15 min). Each member reads the whole PRD top-to-bottom and marks issues in the margins.
 2. **Pool issues** (10 min). What did each member catch? De-dupe.
@@ -243,7 +243,7 @@ Locked **Status: In review** PRD saved as "v0 — for Friday" with the integrati
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - The **section they're proudest of** (1 sentence why)
 - The **section they're least sure about** (1 sentence why) — this is the section reviewers should hammer tomorrow
@@ -252,7 +252,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ships into Friday's review:
+Each quad ships into Friday's review:
 
 - [x] **Status: In review** PRD with Sections 1–11 complete
 - [x] Section 8 Metrics with primary, counter, secondary, validation plan

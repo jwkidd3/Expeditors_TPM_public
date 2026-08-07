@@ -2,7 +2,7 @@
 
 > **Day 1 handout.** Fill this in *before* you draw any schema. List every read and every write the feature needs, with frequency and freshness — the schema exists to serve these rows.
 
-**Triad:** ______________________  **Feature:** ______________________
+**Quad:** ______________________  **Feature:** ______________________
 
 Surface every read and write first. The high-frequency reads (mark them) drive your index choices.
 

@@ -5,19 +5,19 @@
 ## Activity 1 — Pick the One Feature
 
 **Cues:**
-- If a triad tries to merge two features, push back — the discipline of choosing is the work.
+- If a quad tries to merge two features, push back — the discipline of choosing is the work.
 - Memos that read like marketing copy signal generic framing; coach toward user-specific language.
 
 ## Activity 2 — Section 1 (Context) and Section 2 (Problem)
 
 **Cues:**
 - Watch for Section 1 drafts that restate company strategy from scratch; redirect to the customer signal.
-- If a triad skips solo drafting, the combined prose loses specificity — keep them on the protocol.
+- If a quad skips solo drafting, the combined prose loses specificity — keep them on the protocol.
 
 ## Activity 3 — Section 3 (Goals & Non-goals) and Section 4 (Scope)
 
 **Cues:**
-- If a triad's goals are feature names ("Ship X"), redirect to user outcomes.
+- If a quad's goals are feature names ("Ship X"), redirect to user outcomes.
 - If non-goals is empty, ask: "What's the most ambitious thing a stakeholder might think this includes?" Put that in non-goals.
 - If scope's "Out" column is empty, ask: "What's the version-2 of this feature?" Put it in Out.
 
@@ -29,7 +29,7 @@
 
 ## Facilitator reflection prompts (end of day)
 
-- Which triad picked a feature with the weakest metric link? Coach them tomorrow before AC drafting.
+- Which quad picked a feature with the weakest metric link? Coach them tomorrow before AC drafting.
 - Which Section 2 quotes the customer's actual words? Hold up as a positive example.
 - Did anyone over-specify Section 5 (e.g., propose a database)? That's the most common failure mode — surface tomorrow morning.
 - Anyone using AI? Course-correct directly and privately.

@@ -1,6 +1,6 @@
 # Day 4 — AI-Augmented Stakeholder Requirement Summaries
 
-> **Activity packet** for participant triads. Today's job: use AI as a **meeting-prep assistant** — to summarize prior context, predict objections, and draft openings — with the AI-validation discipline from Week 5 Day 5 firmly in place. By 16:00, every triad has SEP Section 4 — a meeting-prep packet for tomorrow's Friday simulation.
+> **Activity packet** for participant quads. Today's job: use AI as a **meeting-prep assistant** — to summarize prior context, predict objections, and draft openings — with the AI-validation discipline from Week 5 Day 5 firmly in place. By 16:00, every quad has SEP Section 4 — a meeting-prep packet for tomorrow's Friday simulation.
 
 ## Where we are in the week
 
@@ -33,7 +33,7 @@ Better pattern: AI does **specific, structured tasks** under explicit constraint
 
 ## The 4 meeting-prep deliverables (today's structure)
 
-For tomorrow's negotiation simulation, each triad produces:
+For tomorrow's negotiation simulation, each quad produces:
 
 ### 1. Prior-context summary
 A short summary of what's already been said about this trade-off / ask:
@@ -64,7 +64,7 @@ The 1–3 things you cannot give up. Knowing these in advance is the defense aga
 
 ## Activity 1 — Prior-Context Summary (with Validation)
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Use AI to assemble a prior-context summary, then validate it.
@@ -101,7 +101,7 @@ Constraints:
 Format: 3 gaps, each with: gap / scenario / suggested research.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Identify the topic** (5 min). What's the negotiation about? (Pull from "5 most consequential asks" — Day 2.)
 2. **Run Prompt A** (10 min). Generate the prior-context summary.
@@ -116,7 +116,7 @@ A validated prior-context summary + a gap list. Add to AI-validation log.
 
 ## Activity 2 — Objection Map
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Predict the top 5 objections the stakeholder will raise, with honest response + pivot.
@@ -136,7 +136,7 @@ Format: 5 numbered objections; each one short, in the stakeholder's
 likely tone.
 ```
 
-### The triad's response template
+### The quad's response template
 
 For each predicted objection:
 
@@ -153,7 +153,7 @@ to a deeper "why" or to a documented trade-off>
 ground we give up?>
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Run the AI prompt** (10 min). Capture 5 objections.
 2. **Validate** (10 min). Are these realistic for this stakeholder? Edit; some AI predictions will be wrong tonally or factually.
@@ -171,7 +171,7 @@ ground we give up?>
 
 ## Activity 3 — The Opening + Non-Negotiables
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Write the 60-second opening for tomorrow's negotiation. Identify the 1–3 non-negotiables.
@@ -196,7 +196,7 @@ Write the 60-second opening for tomorrow's negotiation. Identify the 1–3 non-n
    to be sure we don't repeat that here."
 ```
 
-A good opening is **practiced**, not improvised. Triads literally rehearse the opening aloud — twice — before tomorrow.
+A good opening is **practiced**, not improvised. Quads literally rehearse the opening aloud — twice — before tomorrow.
 
 ### Non-negotiables
 
@@ -212,10 +212,10 @@ The discipline:
 - Each has a **fallback** if pushed — what we'd cut to preserve it
 - The list is **short**: 3 non-negotiables max
 
-### Triad protocol
+### Quad protocol
 
 1. **Draft the opening** (15 min). Use the 4-part template.
-2. **Rehearse** (10 min). Read it aloud in the triad twice. Time it. If > 75 seconds, cut.
+2. **Rehearse** (10 min). Read it aloud in the quad twice. Time it. If > 75 seconds, cut.
 3. **Identify non-negotiables** (10 min). 1–3 specific items.
 4. **Pick fallback for each** (5 min). What scope / time / approach would you give up to protect each non-negotiable?
 
@@ -230,22 +230,22 @@ The discipline:
 
 ## Activity 4 — Cross-Review + Mock Meeting
 
-**Format:** Triad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Pair triads. Each triad runs a 5-minute mock meeting opening with the other triad in role. Surface what works and what doesn't before tomorrow.
+Pair quads. Each quad runs a 5-minute mock meeting opening with the other quad in role. Surface what works and what doesn't before tomorrow.
 
 ### The mock-meeting protocol
 
-1. **Pair triads** (instructor assigns; same pair as Day 3).
-2. **First triad opens** (5 min). They give their 60-second opening; the reviewer triad asks 1–2 of their predicted objections.
-3. **Pause + capture** (5 min). What worked? What threw the author triad?
+1. **Pair quads** (instructor assigns; same pair as Day 3).
+2. **First quad opens** (5 min). They give their 60-second opening; the reviewer quad asks 1–2 of their predicted objections.
+3. **Pause + capture** (5 min). What worked? What threw the author quad?
 4. **Switch roles** (5 min for opening).
 5. **Pause + capture** (5 min).
 
 ### After both rounds (25 min)
 
-Each triad updates their Section 4 with:
+Each quad updates their Section 4 with:
 
 - The opening tweak that came from rehearsal
 - The objection that was harder than expected
@@ -269,7 +269,7 @@ Format: 3 numbered findings.
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - Their **non-negotiable** that they're most worried about defending
 - The **opening sentence** they're proudest of
@@ -279,7 +279,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 4 with:
+Each quad ends Day 4 with:
 
 - [x] Prior-context summary (validated)
 - [x] **5-objection map** with response + pivot + line-we-hold

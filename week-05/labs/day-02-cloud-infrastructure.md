@@ -1,12 +1,12 @@
 # Day 2 — Cloud Architecture & Infrastructure
 
-> **Activity packet** for participant triads. Today's job: take the entities from Day 1 and the components from the TCD, decide where they **physically run**, and draft TMD Section 2 — Cloud topology.
+> **Activity packet** for participant quads. Today's job: take the entities from Day 1 and the components from the TCD, decide where they **physically run**, and draft TMD Section 2 — Cloud topology.
 
 ## Where we are in the week
 
 Day 1 produced the entity model. Today decides **where each entity and each component runs in the cloud** — region, availability zone, managed service vs custom, multi-tenancy stance, and the cost / latency trade-offs that fall out.
 
-By 16:00, every triad has TMD Section 2 with a topology that an SRE / platform engineer would accept.
+By 16:00, every quad has TMD Section 2 with a topology that an SRE / platform engineer would accept.
 
 ## Inputs
 
@@ -48,15 +48,15 @@ Each decision has a **cost dimension** and a **risk dimension**. The TPM job: su
 
 ## Activity 1 — Region & Availability Zone Choice
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Decide which region(s) the feature deploys to and which multi-AZ stance it takes. Defend in customer + compliance + cost terms.
 
 ### Setup
-Each triad needs PRD Section 2 (customer base), TCD Section 3 (compliance), TCD Section 4 (SLOs), and the Week-4 trade-off template. AI optional.
+Each quad needs PRD Section 2 (customer base), TCD Section 3 (compliance), TCD Section 4 (SLOs), and the Week-4 trade-off template. AI optional.
 
-### Triad protocol
+### Quad protocol
 
 1. **Pull customer-location facts from PRD Section 2** (5 min). Where do users live? Where is the bulk of traffic?
 2. **Pull compliance facts from TCD Section 3** (5 min). Any data-residency requirements?
@@ -102,13 +102,13 @@ A regional-stance section ready for TMD Section 2.
 
 ## Activity 2 — Managed vs Self-Managed for Each Component
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 For each container in the TCD's Container diagram, decide whether to use a managed service or self-manage. Defend each.
 
 ### Setup
-Each triad needs the TCD Container diagram and the four-question test card. AI optional.
+Each quad needs the TCD Container diagram and the four-question test card. AI optional.
 
 ### The "managed service first" default
 
@@ -121,7 +121,7 @@ Default: **use the managed service unless you have a specific reason not to**. R
 
 For most B2B features, the answer is **managed**. Don't reinvent.
 
-### Triad protocol
+### Quad protocol
 
 1. **List each container** (5 min). Pull from TCD Section 2.
 2. **For each, identify the managed-service option** (10 min). e.g., Azure Database for PostgreSQL for Postgres, Azure Event Hubs for Kafka-protocol streams, Azure Cache for Redis, Azure Application Gateway for the load balancer.
@@ -155,13 +155,13 @@ Managed-vs-self table covering every TCD container, with a specific reason for e
 
 ## Activity 3 — Multi-Tenancy + Network Boundary
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Decide the multi-tenancy stance and the network boundary. Both are stakeholder-touching decisions.
 
 ### Setup
-Each triad needs PRD Section 1 (customer context), the tenancy spectrum card, and the TCD Section 6 sign-off matrix. AI optional.
+Each quad needs PRD Section 1 (customer context), the tenancy spectrum card, and the TCD Section 6 sign-off matrix. AI optional.
 
 ### Multi-tenancy spectrum
 
@@ -174,7 +174,7 @@ Each triad needs PRD Section 1 (customer context), the tenancy spectrum card, an
 
 Most B2B SaaS at FieldPulse's stage uses **pooled with per-tenant rate limits** (revisited from Week 4 Day 4).
 
-### Triad protocol
+### Quad protocol
 
 1. **Identify your customers' tenancy expectations** (10 min). What did your PRD Section 1 customer say? Are any large customers contractually expecting dedicated infra?
 2. **Pick a stance** (10 min). Pooled is the default; defend if you choose dedicated.
@@ -222,13 +222,13 @@ Tenancy stance and network boundary documented with rationale, revisit triggers,
 
 ## Activity 4 — Cost Awareness + AI Sanity Check
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 A TMD Section 2 without a cost dimension reads as wishful thinking. Today's last block: rough out the cost shape and use AI to surface gaps.
 
 ### Setup
-Each triad needs the topology decisions from Activities 1–3, rough pricing references (Azure Database for PostgreSQL / Azure Event Hubs / Azure Blob Storage / Azure Application Gateway), and the AI sanity-check prompt. AI required.
+Each quad needs the topology decisions from Activities 1–3, rough pricing references (Azure Database for PostgreSQL / Azure Event Hubs / Azure Blob Storage / Azure Application Gateway), and the AI sanity-check prompt. AI required.
 
 ### Cost awareness — the rough-order-of-magnitude pass
 
@@ -262,7 +262,7 @@ Constraints:
 Format: Numbered — Risk / Scenario / Likelihood / Mitigation.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **ROM cost table** (15 min). Rough numbers for each component.
 2. **AI sanity check** (10 min). Run the prompt; capture the 3 risks.
@@ -275,7 +275,7 @@ Polished TMD Section 2 with ROM cost table, AI-surfaced topology risks adopted/d
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - Their region + AZ stance, in one sentence
 - One trade-off they made (with revisit trigger)
@@ -285,7 +285,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 2 with:
+Each quad ends Day 2 with:
 
 - [x] Region + AZ stance with trade-off
 - [x] Managed-vs-self table for every component

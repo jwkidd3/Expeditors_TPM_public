@@ -1,6 +1,6 @@
 # Day 3 — Documenting Non-Functional Requirements
 
-> **Activity packet** for participant triads. Today's job: write the NFR section that an engineer treats as a **contract for what could otherwise be hand-waved** — performance, security, accessibility, observability, compliance.
+> **Activity packet** for participant quads. Today's job: write the NFR section that an engineer treats as a **contract for what could otherwise be hand-waved** — performance, security, accessibility, observability, compliance.
 
 ## Where we are in the week
 
@@ -83,13 +83,13 @@ The **Defense** is the section that distinguishes a TPM-quality NFR from boilerp
 
 ## Activity 1 — NFR Triage
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Calibrate the eye on real-world NFR examples — most PRD templates ship with terrible boilerplate NFRs. The cohort needs to see what bad looks like before writing their own.
 
 ### Setup
-Each triad receives the **NFR Triage Pack**: 10 NFR examples drawn from real PRDs. Some clean. Most have at least one of these failures:
+Each quad receives the **NFR Triage Pack**: 10 NFR examples drawn from real PRDs. Some clean. Most have at least one of these failures:
 
 | NFR failure mode | Example |
 |------------------|---------|
@@ -99,13 +99,13 @@ Each triad receives the **NFR Triage Pack**: 10 NFR examples drawn from real PRD
 | **No verification** | "The system shall be secure" (how would we know?) |
 | **Wrong category** | A "Performance" NFR that's actually a feature requirement |
 
-### Triad protocol
+### Quad protocol
 
 1. Triage all 10 NFRs (15 min). Identify failures. Mark "clean" if applicable.
 2. Rewrite the 5 worst (15 min). Use the NFR template.
 3. Pick the one that is hardest to defend even after rewriting (5 min) — discuss in the readout.
 
-### Readout (60 sec per triad)
+### Readout (60 sec per quad)
 
 > "The hardest NFR to defend was [X] because [why]. Our cleanest rewrite was [example]."
 
@@ -117,13 +117,13 @@ Each triad receives the **NFR Triage Pack**: 10 NFR examples drawn from real PRD
 
 ## Activity 2 — Performance + Observability NFRs
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Cover two related categories that TPMs most often own jointly. Performance NFRs are the "what should we expect" side; observability NFRs are the "how would we know" side.
 
 ### Setup
-Each triad needs their Week-2 Tier Sheet operational signals and the NFR four-part template. No AI.
+Each quad needs their Week-2 Tier Sheet operational signals and the NFR four-part template. No AI.
 
 ### Performance NFR examples (FieldPulse reconcile feature)
 
@@ -154,9 +154,9 @@ Each triad needs their Week-2 Tier Sheet operational signals and the NFR four-pa
             dashboard tracks event counts per dispatcher per shift.
 ```
 
-### Triad protocol
+### Quad protocol
 
-1. **Performance first** (15 min). Each member proposes 1 performance NFR. Triad picks 2–3 to keep. Write defenses.
+1. **Performance first** (15 min). Each member proposes 1 performance NFR. Quad picks 2–3 to keep. Write defenses.
 2. **Observability next** (15 min). Same drill. The observability NFRs should explicitly reference the Tier Sheet operational signals from Week 2.
 3. **Cross-check** (10 min). Does each performance NFR have an observability NFR that allows us to **see whether we hit the target**?
 
@@ -174,13 +174,13 @@ Each triad needs their Week-2 Tier Sheet operational signals and the NFR four-pa
 
 ## Activity 3 — Security + Accessibility + Compliance
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Cover the three remaining categories. These are the categories most often delegated to "the security team will tell us" or "the legal team will tell us" — the TPM job is to **draft the first version** so those conversations have a starting point.
 
 ### Setup
-Each triad needs the Week-2 Day-3 A11y Floor Checklist, knowledge of any compliance regime touching the feature, and the NFR template. No AI.
+Each quad needs the Week-2 Day-3 A11y Floor Checklist, knowledge of any compliance regime touching the feature, and the NFR template. No AI.
 
 ### Security NFRs — the standard set
 
@@ -220,7 +220,7 @@ Pull from the **A11y Floor Checklist** from Week 2 Day 3. State the conformance 
             ago must be retrievable in <10 minutes.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Security NFRs (3–5)** — 15 min
 2. **Accessibility NFRs (1–2)** — 10 min (pull from A11y Floor)
@@ -235,13 +235,13 @@ Pull from the **A11y Floor Checklist** from Week 2 Day 3. State the conformance 
 
 ## Activity 4 — NFR Cross-Review + Trade-Off Discussion
 
-**Format:** Triad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Cross-review the NFR sections (same pairing as Day 2 if possible — the reviewer is now familiar with the PRD). Surface trade-offs explicitly: NFRs interact, and several often pull in opposite directions.
 
 ### Setup
-Instructor pre-assigns triad pairs (re-use Day 2 pairs when possible). Each triad needs the full Sections 1–7 draft and the four classic trade-off prompts. No AI.
+Instructor pre-assigns quad pairs (re-use Day 2 pairs when possible). Each quad needs the full Sections 1–7 draft and the four classic trade-off prompts. No AI.
 
 ### The four classic NFR trade-offs
 
@@ -256,13 +256,13 @@ A mature NFR section **names the trade-offs** and explains how they were resolve
 
 ### Cross-review protocol
 
-1. **Pair triads** (same pair as Day 2 ideally)
+1. **Pair quads** (same pair as Day 2 ideally)
 2. **Read the NFR section** (10 min). For each NFR, ask:
     - Is the **defense** specific or boilerplate?
     - Is the **verification** real or aspirational?
     - Does this NFR **trade off** with another in the section?
 3. **Reviewer surfaces trade-offs** (10 min). Identify at least one place where two NFRs in the section pull in opposite directions.
-4. **Author triad responds** (10 min). Adopt / defer / push back.
+4. **Author quad responds** (10 min). Adopt / defer / push back.
 5. **Authors revise + add a "Known trade-offs" subsection** (15 min) at the end of Section 7.
 
 ### The Known Trade-offs subsection
@@ -284,13 +284,13 @@ Revised PRD Section 7 with a "Known trade-offs" subsection naming at least one e
 
 ### Wrap (last 15 min)
 
-Each triad shares **one trade-off they made explicit** in their NFR section. The cohort gets to hear how others resolved tensions.
+Each quad shares **one trade-off they made explicit** in their NFR section. The cohort gets to hear how others resolved tensions.
 
 ---
 
 ## End-of-day checkpoint
 
-Each triad's PRD now has Section 7 with:
+Each quad's PRD now has Section 7 with:
 
 - [x] At least one NFR per category (Performance / Security / Accessibility / Observability / Compliance)
 - [x] 6–10 NFRs total

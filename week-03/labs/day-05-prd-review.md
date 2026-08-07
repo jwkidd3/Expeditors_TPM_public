@@ -1,19 +1,19 @@
 # Day 5 — PRD Review (Morning Reviews, Afternoon Revisions + Secondary)
 
-> **Activity packet** for participant triads. Today's job: subject every PRD to a structured peer review, revise it in response, and submit a final version with a complete review-resolution log. By 16:00 every triad has shipped a reviewed, revised PRD — the mini-capstone deliverable.
+> **Activity packet** for participant quads. Today's job: subject every PRD to a structured peer review, revise it in response, and submit a final version with a complete review-resolution log. By 16:00 every quad has shipped a reviewed, revised PRD — the mini-capstone deliverable.
 
 ## Where we are in the week
 
-Days 1–4 produced one **locked v0 PRD per triad** (sections 1–11, status "In review"). Today is the **structured review cycle**. The cadence is intentionally split per the outline: **morning in reviews, afternoon in revisions and secondary reviews**.
+Days 1–4 produced one **locked v0 PRD per quad** (sections 1–11, status "In review"). Today is the **structured review cycle**. The cadence is intentionally split per the outline: **morning in reviews, afternoon in revisions and secondary reviews**.
 
 ## Today's cadence (different from Mon–Thu)
 
 | Clock | Block | What happens |
 |-------|-------|--------------|
 | 09:00 – 09:15 | Opening; review pairings posted | Instructor explains rubric; pairings revealed |
-| 09:15 – 10:45 | **Primary review round 1** | Two reviewing triads on each PRD |
+| 09:15 – 10:45 | **Primary review round 1** | Two reviewing quads on each PRD |
 | 10:45 – 11:00 | **Break** | |
-| 11:00 – 12:00 | Author response + clarifying conversations | Author triads receive feedback in person |
+| 11:00 – 12:00 | Author response + clarifying conversations | Author quads receive feedback in person |
 | 12:00 – 13:00 | **Lunch** | |
 | 13:00 – 14:30 | **Revisions** | Authors revise based on review |
 | 14:30 – 14:45 | **Break** | |
@@ -28,9 +28,9 @@ Today is still non-AI. Reviews are by hand; revisions are by hand. AI restored M
 
 ## The review pairing structure
 
-Each triad's PRD is read by **two different primary-reviewing triads** (for the morning round) and one **different secondary-reviewing triad** (for the afternoon round). The instructor posts pairings at 09:00.
+Each quad's PRD is read by **two different primary-reviewing quads** (for the morning round) and one **different secondary-reviewing quad** (for the afternoon round). The instructor posts pairings at 09:00.
 
-Example for 6 triads (A–F):
+Example for 6 quads (A–F):
 
 | PRD author | Primary reviewers (AM) | Secondary reviewer (PM) |
 |------------|------------------------|--------------------------|
@@ -41,7 +41,7 @@ Example for 6 triads (A–F):
 | E | F, A | B |
 | F | A, B | C |
 
-Each triad has **3 reading roles** during the day: primary (×2 PRDs in AM), then secondary (×1 PRD in PM). Plus they own their own PRD throughout. Time it carefully.
+Each quad has **3 reading roles** during the day: primary (×2 PRDs in AM), then secondary (×1 PRD in PM). Plus they own their own PRD throughout. Time it carefully.
 
 ---
 
@@ -66,17 +66,17 @@ A score of **3.0+ ships as-is**. A score of **2.0–2.9 ships with named gaps** 
 
 ## Activity 1 — Primary Review (Morning)
 
-**Format:** Two-triad reviewer team &bull; **90 min total** &bull; Block 1 + Block 2
+**Format:** Two-quad reviewer team &bull; **90 min total** &bull; Block 1 + Block 2
 
 ### Purpose
 Subject each PRD to two independent rubric-scored reviews. Findings must be specific and actionable — the morning's output is what authors revise from in the afternoon.
 
 ### Setup
-Instructor posts pairings at 09:00. Each reviewing triad needs the rubric, the Review Document template, and a printed copy of the assigned PRD. Reviewing triads do not coordinate.
+Instructor posts pairings at 09:00. Each reviewing quad needs the rubric, the Review Document template, and a printed copy of the assigned PRD. Reviewing quads do not coordinate.
 
 ### The reviewer protocol
 
-Each reviewing triad is paired with one PRD. Two reviewing triads independently review the same PRD (no sharing during review).
+Each reviewing quad is paired with one PRD. Two reviewing quads independently review the same PRD (no sharing during review).
 
 **0–10 min: read Sections 1–5** (Context, Problem, Goals, Scope, Sketch)
 
@@ -99,15 +99,15 @@ Each reviewing triad is paired with one PRD. Two reviewing triads independently 
 
 Use the **Review Document template** (below).
 
-**75–90 min: refine + submit to author triad**
+**75–90 min: refine + submit to author quad**
 
-The two reviewing triads do *not* coordinate — the author triad receives **two independent reviews**.
+The two reviewing quads do *not* coordinate — the author quad receives **two independent reviews**.
 
 ### The Review Document template
 
 ```markdown
 # Review of PRD: <feature name>
-**Reviewers:** <reviewer triad>  |  **PRD authors:** <author triad>  |  **Date:** <today>
+**Reviewers:** <reviewer quad>  |  **PRD authors:** <author quad>  |  **Date:** <today>
 
 ## Scores (0–4 per dimension)
 
@@ -138,7 +138,7 @@ For each: cite the section / line, name the problem, propose the fix.
 
 (Repeat 5 times)
 
-## Open questions for the author triad
+## Open questions for the author quad
 > Things we'd ask in the in-person clarifying conversation (Block 2).
 ```
 
@@ -151,29 +151,29 @@ For each: cite the section / line, name the problem, propose the fix.
 
 ### Deliverable
 
-A completed Review Document per reviewing triad with rubric scores, 3 strengths, 5 specific findings, and open questions for the clarifying conversation.
+A completed Review Document per reviewing quad with rubric scores, 3 strengths, 5 specific findings, and open questions for the clarifying conversation.
 
 ---
 
 ## Activity 2 — Author Response + Clarifying Conversation
 
-**Format:** Triad-of-three (author + 2 primary reviewers) &bull; **60 min** &bull; Block 3 morning
+**Format:** Three quads (author + 2 primary reviewers) &bull; **60 min** &bull; Block 3 morning
 
 ### Purpose
-The author triad meets both primary reviewer triads in person. The conversation is **not** about negotiating scores; it's about **clarifying findings** and surfacing implicit feedback that didn't make it into the written review.
+The author quad meets both primary reviewer quads in person. The conversation is **not** about negotiating scores; it's about **clarifying findings** and surfacing implicit feedback that didn't make it into the written review.
 
 ### Setup
-Three triads at one table: author + both AM reviewer triads. Author triad has their PRD plus both Review Documents in hand. Author triad runs the conversation.
+Three quads at one table: author + both AM reviewer quads. Author quad has their PRD plus both Review Documents in hand. Author quad runs the conversation.
 
 ### The conversation protocol
 
-**0–5 min: review summary (each reviewing triad)**
+**0–5 min: review summary (each reviewing quad)**
 
-Each reviewer triad gives a 2-minute spoken summary of their main findings.
+Each reviewer quad gives a 2-minute spoken summary of their main findings.
 
-**5–25 min: the author triad asks**
+**5–25 min: the author quad asks**
 
-The author triad runs the conversation. They ask:
+The author quad runs the conversation. They ask:
 
 - "Finding #3 — can you walk us through what specifically tripped you?"
 - "You scored AC testability at 2 — which AC was the worst, and what would you have written instead?"
@@ -188,7 +188,7 @@ Reviewers may surface things they didn't write:
 
 **50–60 min: capture**
 
-The author triad closes by **summarizing what they heard**:
+The author quad closes by **summarizing what they heard**:
 
 - Findings they will adopt → action item per finding
 - Findings they will defer → with reasoning (and where it gets tracked)
@@ -198,21 +198,21 @@ This becomes the input to the afternoon revision block.
 
 ### Deliverable
 
-Author-triad-owned action list categorized as adopt / defer / push back, drawn from both AM Review Documents and the conversation.
+Author-quad-owned action list categorized as adopt / defer / push back, drawn from both AM Review Documents and the conversation.
 
 ---
 
 ## Activity 3 — Revisions
 
-**Format:** Triad &bull; **90 min** &bull; Block afternoon 1
+**Format:** Quad &bull; **90 min** &bull; Block afternoon 1
 
 ### Purpose
 Revise the PRD based on the morning's reviews and conversations. Update the **review-resolution log**.
 
 ### Setup
-Each author triad needs both AM Review Documents, the adopt/defer/push-back list from the clarifying conversation, and the locked v0 PRD. No AI.
+Each author quad needs both AM Review Documents, the adopt/defer/push-back list from the clarifying conversation, and the locked v0 PRD. No AI.
 
-### The triad protocol
+### The quad protocol
 
 1. **Sort findings by category** (15 min):
     - Adopt — change the PRD
@@ -227,7 +227,7 @@ Each author triad needs both AM Review Documents, the adopt/defer/push-back list
 ```markdown
 ## Friday review-resolution log
 
-**Reviewers (AM):** Triad B, Triad C
+**Reviewers (AM):** Quad B, Quad C
 **Total scores:** B = 3.1 / C = 2.8 → addressed below
 
 ### Adopted (changes made)
@@ -256,7 +256,7 @@ Revised PRD ("Revised — secondary pending") plus an updated review-resolution 
 
 ## Activity 4 — Secondary Review
 
-**Format:** Single-triad reviewer &bull; **60 min** &bull; Block afternoon 2
+**Format:** Single-quad reviewer &bull; **60 min** &bull; Block afternoon 2
 
 ### Purpose
 A **different** reviewer reads only the **revised** PRD (not the originals). They look at:
@@ -279,7 +279,7 @@ Score with the rubric. Compare to the AM scores in the log — has the PRD genui
 
 ```markdown
 # Secondary Review of PRD: <feature name>
-**Reviewer:** <triad>  |  **Authors:** <triad>
+**Reviewer:** <quad>  |  **Authors:** <quad>
 
 ## Final score: [weighted total]
 
@@ -307,7 +307,7 @@ Secondary Review Note with final rubric score and verdict (ships as-is / ships w
 
 ## End-of-day (and end-of-week) checkpoint
 
-Each triad ships:
+Each quad ships:
 
 - [x] **Final PRD** — Status: "Approved" (or "Approved with gaps")
 - [x] **Resolution log** showing all morning findings handled

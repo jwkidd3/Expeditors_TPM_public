@@ -1,12 +1,12 @@
 # Day 2 — Managing Engagement for Product Outcomes
 
-> **Activity packet** for participant triads. Today's job: design a **per-stakeholder engagement plan** — cadence, format, what they need, what we need — and draft SEP Section 2.
+> **Activity packet** for participant quads. Today's job: design a **per-stakeholder engagement plan** — cadence, format, what they need, what we need — and draft SEP Section 2.
 
 ## Where we are in the week
 
 The map exists (Day 1). Today turns the map into a **plan**. Each stakeholder gets a deliberate engagement style: how often you talk, in what format, what each side gives and gets.
 
-By 16:00, every triad has SEP Section 2 — the engagement plan that will guide the next quarter of stakeholder interactions.
+By 16:00, every quad has SEP Section 2 — the engagement plan that will guide the next quarter of stakeholder interactions.
 
 ## Inputs
 
@@ -84,14 +84,14 @@ The "right now" rows are what change month-to-month; the "recurring" rows are st
 
 ## Activity 1 — Engagement Style Calibration
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-Practice picking the right engagement style on real-world examples, before applying it to the triad's stakeholders.
+Practice picking the right engagement style on real-world examples, before applying it to the quad's stakeholders.
 
 ### The engagement triage pack (8 stakeholder profiles)
 
-Each card describes a stakeholder from a hypothetical company. The triad picks: cadence, format, length.
+Each card describes a stakeholder from a hypothetical company. The quad picks: cadence, format, length.
 
 1. **CFO at a Series C company** — cares about cost forecasts, not implementation. Asks for ROI.
 2. **Lead engineer on a partner team** — owns an API you depend on. Slack-first.
@@ -102,13 +102,13 @@ Each card describes a stakeholder from a hypothetical company. The triad picks: 
 7. **A staff engineer in your own squad** — daily standup; weekly 1:1; needs detail.
 8. **A regulator's outside counsel** — quarterly request for compliance evidence; expects formal documentation.
 
-### Triad protocol
+### Quad protocol
 
 1. **Place each on the Power × Interest grid** (10 min).
 2. **Pick cadence + format + length** (15 min).
-3. **Disagree productively** (10 min). For 1–2 cards your triad disagreed on, document why.
+3. **Disagree productively** (10 min). For 1–2 cards your quad disagreed on, document why.
 
-### Readout (60 sec per triad)
+### Readout (60 sec per quad)
 
 > "The trickiest one was [X] because [why]. We chose [Y] but the disagreement was [Z]."
 
@@ -116,12 +116,12 @@ Each card describes a stakeholder from a hypothetical company. The triad picks: 
 
 ## Activity 2 — Build Your Recurring Engagement Plan
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 For each stakeholder on your map, fill in the **recurring** part of the engagement plan.
 
-### Triad protocol
+### Quad protocol
 
 1. **Sort stakeholders by quadrant** (5 min).
 2. **For high-power × high-interest (typically 3–5):** detailed plan (10 min). These are your closest partners.
@@ -141,7 +141,7 @@ For each stakeholder on your map, fill in the **recurring** part of the engageme
 
 ## Activity 3 — Build Your "Right Now" Asks
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 For each stakeholder, name what you need from them in the **next 2–4 weeks** and what they're likely to need from you.
@@ -156,7 +156,7 @@ For each stakeholder, name what you need from them in the **next 2–4 weeks** a
 
 For each stakeholder, list 1–3 asks per category that you'll need over the next month. Then identify the asks **they'll have for you**.
 
-### Triad protocol
+### Quad protocol
 
 1. **Walk each stakeholder** (20 min). For each, list 3–5 "right now" asks (mix of decisions, information, action).
 2. **List reciprocal asks** (10 min). What will *they* ask of *you*? Predict the top 1–2 per stakeholder.
@@ -174,10 +174,10 @@ For each stakeholder, list 1–3 asks per category that you'll need over the nex
 
 ## Activity 4 — The "Engagement Anti-Patterns" Diagnostic
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Identify the engagement anti-patterns the triad is most prone to, and design counter-measures into the SEP Section 2.
+Identify the engagement anti-patterns the quad is most prone to, and design counter-measures into the SEP Section 2.
 
 ### The 6 most common engagement anti-patterns
 
@@ -190,9 +190,9 @@ Identify the engagement anti-patterns the triad is most prone to, and design cou
 | **Veto avoidance** | TPM avoids the high-power-low-interest stakeholder | Trigger-based engagement from watch list |
 | **Email avalanche** | TPM sends 20-page deck to a 250-word audience | Match length to audience |
 
-### Triad protocol
+### Quad protocol
 
-1. **Score the triad's natural tendencies** (10 min). For each anti-pattern, rate yourselves H / M / L on susceptibility. Be honest.
+1. **Score the quad's natural tendencies** (10 min). For each anti-pattern, rate yourselves H / M / L on susceptibility. Be honest.
 2. **Design counter-measures** (15 min). For your top 2–3 anti-patterns, what's the specific counter-measure baked into your plan?
 3. **Document in Section 2** (15 min).
 4. **AI sanity check** (5 min). Run the prompt below.
@@ -214,7 +214,7 @@ Format: 3 findings, each with: Risk / Why / Adjustment.
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - The **engagement style** for one of their high-power × low-interest stakeholders
 - The **most consequential ask** for the next month
@@ -224,7 +224,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 2 with:
+Each quad ends Day 2 with:
 
 - [x] Recurring engagement plan per stakeholder
 - [x] "Right now" asks per stakeholder (decisions / information / action)

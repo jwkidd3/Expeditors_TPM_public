@@ -638,7 +638,7 @@ Welcome to Week 5. The TCD becomes the spine. Today: data model your feature int
 </ul>
 
 Note:
-By 16:00, every triad has TMD Section 1 — entities, indexes, trade-offs.
+By 16:00, every quad has TMD Section 1 — entities, indexes, trade-offs.
 
 ---
 
@@ -663,7 +663,7 @@ Arc: patterns → entities → trade-offs → critique.
 <h3>Queries before schema</h3>
 
 Note:
-Data modeling starts with queries, not entities. Force triads to enumerate reads and writes — and freshness claims — before any table gets drawn.
+Data modeling starts with queries, not entities. Force quads to enumerate reads and writes — and freshness claims — before any table gets drawn.
 
 ---
 
@@ -698,7 +698,7 @@ The vocabulary lets TPMs follow the architect's reasoning. Not to win arguments 
 </div>
 
 Note:
-If a triad volunteers "let's use Postgres" without describing access patterns, they've skipped the work.
+If a quad volunteers "let's use Postgres" without describing access patterns, they've skipped the work.
 
 ---
 
@@ -720,7 +720,7 @@ The most common rookie mistake is reverse: design the schema, then realize queri
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 1 — Read & Write Patterns</h2>
-<h3>Triads • 35 minutes</h3>
+<h3>Quads • 35 minutes</h3>
 <p>List every read and write the feature needs. Capture data, frequency, freshness requirement.</p>
 <ul>
 <li>5 min: re-read Product Requirements Document (PRD) Section 5</li>
@@ -731,7 +731,7 @@ The most common rookie mistake is reverse: design the schema, then realize queri
 <div class="timebox">⏱ 5 + 15 + 10 + 5</div>
 
 Note:
-"Real-time" freshness is rare in B2B. Force triads to defend "real-time" claims.
+"Real-time" freshness is rare in B2B. Force quads to defend "real-time" claims.
 
 ---
 
@@ -741,7 +741,7 @@ Note:
 <h3>Tables, keys, indexes, relationships</h3>
 
 Note:
-The discipline: every field must trace back to a query that uses it. Surprise columns are the tell that triads are designing from the schema side rather than the access side.
+The discipline: every field must trace back to a query that uses it. Surprise columns are the tell that quads are designing from the schema side rather than the access side.
 
 ---
 
@@ -772,7 +772,7 @@ The discipline: every field must trace back to a query that uses it. Surprise co
 </div>
 
 Note:
-If a triad lists indexes without referencing patterns, they're guessing.
+If a quad lists indexes without referencing patterns, they're guessing.
 
 ---
 
@@ -813,7 +813,7 @@ Note signature_hash + R-threat reference — TCD Section 3 (Day 2 of Week 4) STR
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 2 — Entity Model</h2>
-<h3>Triads • 40 minutes</h3>
+<h3>Quads • 40 minutes</h3>
 <p>List entities. For each, draft fields, indexes, relationships, invariants.</p>
 <ul>
 <li>10 min: list entities (new + existing)</li>
@@ -882,7 +882,7 @@ Note the "what we deliberately can't do efficiently" framing — that's the seni
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 3 — Storage Trade-Offs</h2>
-<h3>Triads • 40 minutes</h3>
+<h3>Quads • 40 minutes</h3>
 <ul>
 <li>15 min: identify 3 trade-off points in your model</li>
 <li>15 min: write each (Option A/B/Choice/Why/Cost/Trigger)</li>
@@ -933,7 +933,7 @@ Both prompts go in the Pattern Library.
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 4 — AI Critique</h2>
-<h3>Triads • 45 minutes • Wrap</h3>
+<h3>Quads • 45 minutes • Wrap</h3>
 <ul>
 <li>10 min: Prompt A → 3 issues</li>
 <li>10 min: adopt / defer / reject</li>
@@ -943,7 +943,7 @@ Both prompts go in the Pattern Library.
 <div class="timebox">⏱ 10 + 10 + 10 + 15 · 15-min wrap</div>
 
 Note:
-Wrap-share: each triad names 1 trade-off, 1 AI-surfaced query, 1 question for the architect.
+Wrap-share: each quad names 1 trade-off, 1 AI-surfaced query, 1 question for the architect.
 
 ---
 

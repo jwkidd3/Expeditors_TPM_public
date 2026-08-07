@@ -2,14 +2,14 @@
 
 > **Day 1 · Activity 1 handout.** Twelve statements drawn from FieldPulse-adjacent product work. Sort each one, argue where you disagree, then clean up the messy ones.
 
-Cut these into cards, or work them as a list. For each statement, your triad labels it:
+Cut these into cards, or work them as a list. For each statement, your quad labels it:
 
 - **Output** — what was built or shipped
 - **Outcome** — what changed for the user or the business
 - **Both** — stated as if it were both (needs a rewrite)
 - **Neither** — neither an output nor an outcome as written
 
-There is no answer key on this sheet. The disagreement is the point — at least two of these should produce a genuine argument in your triad.
+There is no answer key on this sheet. The disagreement is the point — at least two of these should produce a genuine argument in your quad.
 
 ## The statements
 
@@ -30,12 +30,12 @@ There is no answer key on this sheet. The disagreement is the point — at least
 
 ---
 
-## Triad protocol
+## Quad protocol
 
 1. **Label all 12** (15 min). One label per statement.
 2. **Argue when you disagree** (15 min). At least two should produce useful disagreement — chase it down rather than settling fast.
 3. **For each "Both"-labeled statement**, rewrite it to be cleanly one or the other (5 min).
 
-## Readout (60 sec per triad)
+## Readout (60 sec per quad)
 
 > "The trickiest one was **[#X]** because [why]. The cleanest outcome was **[#Y]**."

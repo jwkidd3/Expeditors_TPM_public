@@ -10,7 +10,7 @@ Today's job is to equip TPMs to frame the monolith-vs-microservices conversation
 
 **Cues:**
 - The "real-time dispatcher pricing engine" (card 6) is the trickiest: it serves many callers (suggests separation), but if it goes down, all dispatch fails (suggests resilience is a problem either way). Surface the trade-off.
-- If a triad reaches for "microservices because Netflix" or similar — push back: Netflix's reasoning was about deploy independence at scale, not the technology itself.
+- If a quad reaches for "microservices because Netflix" or similar — push back: Netflix's reasoning was about deploy independence at scale, not the technology itself.
 
 **Answer key / watch-for (triage pack stances):**
 - Card 1 (startup checkout, 50 customers, 1 team): **Monolith** — no deploy-cadence contention, no scale pressure yet.
@@ -32,16 +32,16 @@ Today's job is to equip TPMs to frame the monolith-vs-microservices conversation
 
 **Cues:**
 - "Failure handling: TBD" is fine if it's an open question to discuss with the architect. "Failure handling: hopefully it works" is not.
-- Push triads to think about **read-then-write** dependencies — they're the most common source of consistency bugs.
+- Push quads to think about **read-then-write** dependencies — they're the most common source of consistency bugs.
 
 ## Activity 4 — AI-Assisted Architecture Q&A
 
 **Cues:**
-- Generic AI objections ("consider scalability") are the prompt's fault; coach toward Critique-hat prompts loaded with the triad's specific stance.
+- Generic AI objections ("consider scalability") are the prompt's fault; coach toward Critique-hat prompts loaded with the quad's specific stance.
 - Adopted-everything is the tell of unexamined AI use. Force at least one rejection with reasoning.
 
 ## Facilitator reflection prompts (end of day)
 
-- Which triad's stance was defended in framework hype rather than business terms? Coach tomorrow.
-- Which triad's "Failure handling" column was the most concrete? Hold up Friday as a positive example.
+- Which quad's stance was defended in framework hype rather than business terms? Coach tomorrow.
+- Which quad's "Failure handling" column was the most concrete? Hold up Friday as a positive example.
 - Did the AI-assisted exercises produce surprises, or just generic objections? If generic, the prompts need more context — tighten Week 4 Day 2.

@@ -1,12 +1,12 @@
 # "Why This One" Memo Template
 
-> **Day 1 · Activity 1 handout.** A two-paragraph memo justifying the single feature your triad locked in. Paragraph 1 argues in user terms; paragraph 2 argues in business/strategy terms. This memo seeds Section 1 (Context) of your PRD.
+> **Day 1 · Activity 1 handout.** A two-paragraph memo justifying the single feature your quad locked in. Paragraph 1 argues in user terms; paragraph 2 argues in business/strategy terms. This memo seeds Section 1 (Context) of your PRD.
 
 ---
 
 **Feature:** _________________________________________
 
-**Author triad:** ____________________  **Date:** ____________
+**Author quad:** ____________________  **Date:** ____________
 
 ---
 

@@ -2,7 +2,7 @@
 
 > A short retention check covering the week's core ideas: AI fundamentals & prompting, working backwards, personas, pain points, and problem framing. Answer each question, then check yourself against the key at the end. Aim for concepts, not trivia — every answer maps back to something we used in a lab.
 
-**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or triad.
+**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or quad.
 
 ---
 

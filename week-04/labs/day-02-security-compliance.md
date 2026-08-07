@@ -1,6 +1,6 @@
 # Day 2 — System Security & Compliance
 
-> **Activity packet** for your triad. Today's job: run a **STRIDE threat-model pass** at the architecture level, translate the results into **revised security and compliance NFRs**, and add Section 3 of the TCD.
+> **Activity packet** for your quad. Today's job: run a **STRIDE threat-model pass** at the architecture level, translate the results into **revised security and compliance NFRs**, and add Section 3 of the TCD.
 
 ## Where we are in the week
 
@@ -13,7 +13,7 @@ The discipline: a TPM is not the security expert. The job is to drive the right 
 - TCD Sections 1–2 from yesterday
 - The PRD's Section 7 (NFRs) — the first draft to be replaced
 - The PRD's Section 10 (Dependencies) — informs the data-flow boundaries
-- The triad's NS, journey map, and any compliance hints from the customer brief
+- The quad's NS, journey map, and any compliance hints from the customer brief
 
 ---
 
@@ -30,7 +30,7 @@ STRIDE is a memorable taxonomy of threats:
 | **D** | **Denial of service** | Blocking legitimate use |
 | **E** | **Elevation of privilege** | Doing more than your role allows |
 
-For each integration boundary in TCD Section 2, the triad asks each of the 6 questions and records the threat + a mitigation.
+For each integration boundary in TCD Section 2, the quad asks each of the 6 questions and records the threat + a mitigation.
 
 ---
 
@@ -70,13 +70,13 @@ A TPM doesn't write the compliance program. A TPM **flags which frame applies** 
 
 ## Activity 1 — STRIDE Calibration on a Public Example
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Practice the STRIDE walk on a feature outside FieldPulse before applying it to your PRD. Calibration first, application second.
 
 ### Setup
-Each triad needs the STRIDE letter card and blank paper for the data-flow sketch. AI optional and provenance-logged if used.
+Each quad needs the STRIDE letter card and blank paper for the data-flow sketch. AI optional and provenance-logged if used.
 
 ### The example
 A **password-reset feature** for a generic B2C app:
@@ -85,15 +85,15 @@ A **password-reset feature** for a generic B2C app:
 
 ### The STRIDE pass
 
-For each step in the flow, the triad answers each of the 6 STRIDE questions. You will **not** find a threat for every letter at every step — that's expected. What matters is that the question was asked.
+For each step in the flow, the quad answers each of the 6 STRIDE questions. You will **not** find a threat for every letter at every step — that's expected. What matters is that the question was asked.
 
-### Triad protocol
+### Quad protocol
 
 1. **Sketch the flow** on paper (5 min).
 2. **STRIDE walk** (20 min). Per step, per letter: threat? if yes, what? Mitigation?
 3. **Cull to top 5** (10 min). Which 5 threats would a security reviewer most likely call out as the biggest risk?
 
-### Readout (60 sec per triad)
+### Readout (60 sec per quad)
 
 > "The most surprising threat we found was [X]. The most predictable was [Y]. The one our cohort would disagree on is [Z]."
 
@@ -105,15 +105,15 @@ A STRIDE walk on the password-reset flow with the top-5 threats culled, each nam
 
 ## Activity 2 — STRIDE Pass on Your PRD Feature
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Apply the calibrated STRIDE pass to your triad's PRD feature.
+Apply the calibrated STRIDE pass to your quad's PRD feature.
 
 ### Setup
-Each triad needs yesterday's integration table, the PRD Section 5 sketch, and the threat template. AI optional and provenance-logged.
+Each quad needs yesterday's integration table, the PRD Section 5 sketch, and the threat template. AI optional and provenance-logged.
 
-### Triad protocol
+### Quad protocol
 
 1. **Re-draw the data flow** (10 min). Use the integration table from yesterday plus the PRD Section 5 sketch.
 2. **STRIDE walk** (20 min). Same drill: 6 questions per box and arrow.
@@ -145,17 +145,17 @@ Top-5 threats documented with letter, scenario, likelihood/impact, specific miti
 
 ## Activity 3 — Compliance Frame + Updated NFRs
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Identify which compliance frames apply, write the constraints, and use the threat model + compliance to **rewrite the PRD's first-draft Security NFRs**.
 
 ### Setup
-Each triad needs the threat model output, the three compliance-frame cards (SOC 2 / privacy / industry), and the original PRD Section 7 Security & Compliance NFRs.
+Each quad needs the threat model output, the three compliance-frame cards (SOC 2 / privacy / industry), and the original PRD Section 7 Security & Compliance NFRs.
 
-### Triad protocol — Step 1: compliance frame check
+### Quad protocol — Step 1: compliance frame check
 
-For your triad's feature, answer:
+For your quad's feature, answer:
 
 - **SOC 2:** Are we handling customer data, audit-relevant actions, or availability commitments? (For most B2B features: yes.)
 - **Privacy regime:** Does this touch personal data of EU / California / other regulated residents? Which?
@@ -171,7 +171,7 @@ Example for FieldPulse reconcile:
 - Industry-specific: None directly; some shops are CCPA-equivalent state coverage.
 ```
 
-### Triad protocol — Step 2: rewrite the security & compliance NFRs
+### Quad protocol — Step 2: rewrite the security & compliance NFRs
 
 Take the threat model + compliance frame results and **revise** the PRD's Section 7 Security and Compliance NFRs. The original NFRs were a first draft; today's are the architecture-level version.
 
@@ -203,15 +203,15 @@ TCD Section 3 drafted with applicable compliance frames named and a revised Secu
 
 ## Activity 4 — Security Stakeholder Conversation Prep
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-The TCD Section 3 will eventually be reviewed by the actual security team. Today the triad rehearses that conversation — what to bring, what to ask, what the security team will most likely push back on.
+The TCD Section 3 will eventually be reviewed by the actual security team. Today the quad rehearses that conversation — what to bring, what to ask, what the security team will most likely push back on.
 
 ### Setup
-Each triad needs the threat model, updated NFRs, TCD Section 3, and the security-brief template. AI permitted for the cross-check; log it.
+Each quad needs the threat model, updated NFRs, TCD Section 3, and the security-brief template. AI permitted for the cross-check; log it.
 
-### Triad protocol
+### Quad protocol
 
 1. **List 5 questions you'd ask the security team** (15 min). Examples:
     - "Does our SSO scope model fit the existing Microsoft Entra ID / Azure RBAC patterns?"
@@ -235,7 +235,7 @@ Each triad needs the threat model, updated NFRs, TCD Section 3, and the security
 
 - The brief is **short**: a security partner can read it in 5 minutes.
 - The "open questions" list is **specific** — not "tell us about security."
-- The "decisions already made" section shows the triad isn't outsourcing thinking; they made a starting point and want validation.
+- The "decisions already made" section shows the quad isn't outsourcing thinking; they made a starting point and want validation.
 
 ### Deliverable
 
@@ -243,7 +243,7 @@ A 1-page security brief plus 5 named questions for the security team and 3 predi
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - The 1 STRIDE threat that surprised them most
 - The 1 NFR that changed materially from the Week 3 first draft
@@ -253,7 +253,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 2 with:
+Each quad ends Day 2 with:
 
 - [x] A STRIDE walk through their feature's data flow
 - [x] **Top-5 threats** documented with mitigations and owners

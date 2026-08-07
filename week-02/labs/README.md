@@ -2,9 +2,9 @@
 
 > *"If you cannot measure what 'better' looks like, you are not doing strategy. You are doing wishful feature delivery."*
 
-Week 2 converts the customer understanding built in Week 1 into something **measurable, designable, and prioritized**. Every triad arrives Monday with a problem statement; they leave Friday with a strategy & metrics package they can defend in front of an engineering lead.
+Week 2 converts the customer understanding built in Week 1 into something **measurable, designable, and prioritized**. Every quad arrives Monday with a problem statement; they leave Friday with a strategy & metrics package they can defend in front of an engineering lead.
 
-Triads from Week 1 persist (they carry the mini-capstone in Week 3). The shared **FieldPulse** case continues — by Friday, each triad's package is grounded in FieldPulse evidence.
+Quads from Week 1 persist (they carry the mini-capstone in Week 3). The shared **FieldPulse** case continues — by Friday, each quad's package is grounded in FieldPulse evidence.
 
 ## Learning outcomes
 
@@ -20,13 +20,13 @@ By Friday afternoon, each participant can:
 
 | Day | Topic | Key artifact produced |
 |-----|-------|----------------------|
-| 1 | Operational signals & KPIs | Metrics tier sheet (triad) |
-| 2 | Defining the North Star metric | North Star proposal + supporting metrics (triad) |
-| 3 | Product design & UX principles | UX audit + 3 design principles (triad) |
-| 4 | Using AI for strategy & research summaries | AI-assembled strategy brief (triad) |
-| 5 | Customer journey mapping | Journey map + prioritized feature concepts (triad, presented) |
+| 1 | Operational signals & KPIs | Metrics tier sheet (quad) |
+| 2 | Defining the North Star metric | North Star proposal + supporting metrics (quad) |
+| 3 | Product design & UX principles | UX audit + 3 design principles (quad) |
+| 4 | Using AI for strategy & research summaries | AI-assembled strategy brief (quad) |
+| 5 | Customer journey mapping | Journey map + prioritized feature concepts (quad, presented) |
 
-Each day's artifact feeds the next. Friday readouts are the seed of every triad's Week 3 PRD.
+Each day's artifact feeds the next. Friday readouts are the seed of every quad's Week 3 PRD.
 
 ## Daily cadence (applies every day)
 
@@ -41,7 +41,7 @@ Each day's artifact feeds the next. Friday readouts are the seed of every triad'
 | 14:15 – 14:30 | **Break** | |
 | 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Readouts + Wrap | ~25 min teach / 45 min group / 20 min readout |
 
-**Group composition:** triads carry over from Week 1. If a participant joined late, place them in the smallest existing triad rather than forming new groups.
+**Group composition:** quads carry over from Week 1. If a participant joined late, place them in the smallest existing quad rather than forming new groups.
 
 ## Materials referenced across the week
 
@@ -53,12 +53,12 @@ Each day's artifact feeds the next. Friday readouts are the seed of every triad'
 
 ## Week 2 readout rubric (Friday afternoon)
 
-Each triad presents a **12-minute integrated strategy package**: North Star → supporting metrics → 1 design principle → journey map → top 3 feature concepts. Peer and instructor score on:
+Each quad presents a **12-minute integrated strategy package**: North Star → supporting metrics → 1 design principle → journey map → top 3 feature concepts. Peer and instructor score on:
 
 | Dimension | Weight | What "exemplary" looks like |
 |-----------|--------|------------------------------|
 | Metric coherence | 25% | NS, KPIs, and operational signals form a believable causal chain — change in operational signal plausibly ripples up |
-| North Star defense | 20% | Triad can name and rebut three pitfalls applied to their own NS |
+| North Star defense | 20% | Quad can name and rebut three pitfalls applied to their own NS |
 | Journey realism | 20% | Journey map references observed Week-1 pain points; not generic |
 | Feature linkage | 15% | Each top feature ties to a specific journey friction point AND a metric it would move |
 | AI-use transparency | 10% | Where AI summarized research, prompts and validation steps are disclosed |
@@ -66,4 +66,4 @@ Each triad presents a **12-minute integrated strategy package**: North Star → 
 
 ## Bridge to Week 3
 
-Week 3 turns each triad's strategy package into a **Technical PRD** — Acceptance Criteria, Non-Functional Requirements, and a non-AI mini-capstone. The journey map and prioritized feature concepts produced Friday of Week 2 are the **direct input** to Monday's PRD drafting in Week 3. Do not let triads leave Friday without those two artifacts in shareable form.
+Week 3 turns each quad's strategy package into a **Technical PRD** — Acceptance Criteria, Non-Functional Requirements, and a non-AI mini-capstone. The journey map and prioritized feature concepts produced Friday of Week 2 are the **direct input** to Monday's PRD drafting in Week 3. Do not let quads leave Friday without those two artifacts in shareable form.

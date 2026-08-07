@@ -1,6 +1,6 @@
 # Stance Stamp Sheet — Four Stances
 
-> **Day 1 · Activity 1 handout.** Record your triad's stance for each of the 8 triage cards. One stamp per card, plus a one-line reason grounded in the three-question frame.
+> **Day 1 · Activity 1 handout.** Record your quad's stance for each of the 8 triage cards. One stamp per card, plus a one-line reason grounded in the three-question frame.
 
 ---
 

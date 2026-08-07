@@ -29,7 +29,7 @@ Note: the "6 principles we de-emphasize" callout was moved out of the student re
 
 ## End-of-day reflection prompts
 
-- Which triad's primary outcome was sharpest? Hold up Friday.
+- Which quad's primary outcome was sharpest? Hold up Friday.
 - Did anyone list "ship the feature" as the primary outcome? Coach back.
 - Did the Manifesto discussions stay grounded or drift to ceremony talk? Steer toward decisions, not vocabulary.
 - Did anyone over-list supporting outcomes (8+)? Cull tomorrow before ADO loading.

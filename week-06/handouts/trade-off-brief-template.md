@@ -29,7 +29,7 @@ Strip everything else. Detail goes in the appendix or "available on request."
 
 ```markdown
 # Trade-off brief: <short feature name>
-**For:** <stakeholder name>  |  **From:** <triad>  |  **Date:** <today>
+**For:** <stakeholder name>  |  **From:** <quad>  |  **Date:** <today>
 
 ## The decision (1 sentence)
 We are choosing [X] over [Y] for the <feature> work, accepting [cost].
@@ -60,7 +60,7 @@ We are choosing [X] over [Y] for the <feature> work, accepting [cost].
 
 ```markdown
 # Trade-off brief: Reconcile audit write timing
-**For:** Pat Lee, Compliance Owner  |  **From:** Reconcile triad  |  **Date:** 2026-04-29
+**For:** Pat Lee, Compliance Owner  |  **From:** Reconcile quad  |  **Date:** 2026-04-29
 
 ## The decision
 We are choosing async audit write (1–10s lag) over synchronous (instant)

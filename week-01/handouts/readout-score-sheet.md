@@ -1,6 +1,6 @@
 # Readout Score Sheet
 
-> **Day 5 handout.** Used by the cohort to score each triad's 10-minute Friday readout. Score each dimension 1–5 using the rubric, then note one strength and one thing to sharpen.
+> **Day 5 handout.** Used by the cohort to score each quad's 10-minute Friday readout. Score each dimension 1–5 using the rubric, then note one strength and one thing to sharpen.
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## Score sheet
 
-**Triad: ____________________**
+**Quad: ____________________**
 
 ### Scores (1–5)
 - Customer authenticity: __

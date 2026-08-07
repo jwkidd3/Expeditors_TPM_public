@@ -1,6 +1,6 @@
 # Week 6 Handouts — Stakeholder Alignment & Negotiation
 
-Participant-facing handouts for Week 6. Each is a standalone grid, template, card pack, or rubric — distribute (print or share) before the day and activity that uses it. Role-play cards have a **Public surface** everyone may read and a **Hidden** section only the roleplayer sees; keep the Hidden sections out of the other triad's hands.
+Participant-facing handouts for Week 6. Each is a standalone grid, template, card pack, or rubric — distribute (print or share) before the day and activity that uses it. Role-play cards have a **Public surface** everyone may read and a **Hidden** section only the roleplayer sees; keep the Hidden sections out of the other quad's hands.
 
 | Handout | Day · Activity | What it is |
 |---|---|---|

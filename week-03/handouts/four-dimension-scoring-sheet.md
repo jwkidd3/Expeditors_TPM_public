@@ -1,6 +1,6 @@
 # Four-Dimension Scoring Sheet
 
-> **Day 1 · Activity 1 handout.** Score each of your three Week-2 feature cards on four dimensions (1–5 each). Highest total is the default pick; if scores tie, your triad must argue it out. Fillable — one row per feature.
+> **Day 1 · Activity 1 handout.** Score each of your three Week-2 feature cards on four dimensions (1–5 each). Highest total is the default pick; if scores tie, your quad must argue it out. Fillable — one row per feature.
 
 ---
 

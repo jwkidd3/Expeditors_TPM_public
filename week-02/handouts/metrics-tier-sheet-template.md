@@ -1,6 +1,6 @@
 # Metrics Tier Sheet
 
-> **Day 1 · Activity 4 handout.** Your triad's living map of the three metric tiers for its FieldPulse problem — a North Star placeholder on top, KPIs in the middle, operational signals on the bottom, connected by a believable causal chain.
+> **Day 1 · Activity 4 handout.** Your quad's living map of the three metric tiers for its FieldPulse problem — a North Star placeholder on top, KPIs in the middle, operational signals on the bottom, connected by a believable causal chain.
 
 Fill one row per tier. A well-formed sheet reads bottom-up: a change in an operational signal plausibly ripples up to a KPI, which ripples up to the North Star.
 
@@ -14,7 +14,7 @@ Fill one row per tier. A well-formed sheet reads bottom-up: a change in an opera
 
 ## Your Tier Sheet
 
-**Triad:** ______________________  **Problem area:** ______________________
+**Quad:** ______________________  **Problem area:** ______________________
 
 ### North Star (placeholder)
 

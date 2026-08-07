@@ -1,12 +1,12 @@
 # Day 3 — Communicating Technical Trade-Offs to Non-Technical Partners
 
-> **Activity packet** for participant triads. Today's job: take **one trade-off** from your TCD Section 5 or TMD, translate it for a non-technical executive, and produce a 1-page brief that wins (or honestly loses) the call.
+> **Activity packet** for participant quads. Today's job: take **one trade-off** from your TCD Section 5 or TMD, translate it for a non-technical executive, and produce a 1-page brief that wins (or honestly loses) the call.
 
 ## Where we are in the week
 
 The TCD Section 5 has top-5 trade-offs documented. Each is named in technical terms — the right framing for an architect or eng lead. Today we **translate one** into a brief that lands with a CFO, a Customer Success lead, or an executive sponsor.
 
-By 16:00, every triad has SEP Section 3 — a one-page trade-off brief.
+By 16:00, every quad has SEP Section 3 — a one-page trade-off brief.
 
 ## Inputs
 
@@ -55,7 +55,7 @@ Strip everything else. Detail goes in the appendix or "available on request."
 
 ```markdown
 # Trade-off brief: <short feature name>
-**For:** <stakeholder name>  |  **From:** <triad>  |  **Date:** <today>
+**For:** <stakeholder name>  |  **From:** <quad>  |  **Date:** <today>
 
 ## The decision (1 sentence)
 We are choosing [X] over [Y] for the <feature> work, accepting [cost].
@@ -88,14 +88,14 @@ The discipline: the **whole brief** fits on one page. The appendix is references
 
 ## Activity 1 — Translation Drill
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-Calibrate the translation muscle on examples before applying it to the triad's own trade-off.
+Calibrate the translation muscle on examples before applying it to the quad's own trade-off.
 
 ### The translation pack — 6 technical statements
 
-For each, the triad writes the business-framing version targeting a specific stakeholder.
+For each, the quad writes the business-framing version targeting a specific stakeholder.
 
 | # | Technical statement | Stakeholder | Their currency |
 |---|---------------------|-------------|----------------|
@@ -106,13 +106,13 @@ For each, the triad writes the business-framing version targeting a specific sta
 | 5 | "We're deferring tablet support to v2" | Sales lead | Revenue / deal velocity |
 | 6 | "Audit-log retention requires 24 months of cold storage" | Compliance lead | Regulatory exposure |
 
-### Triad protocol
+### Quad protocol
 
 1. **Pick 3 of the 6** (5 min). Mix of stakeholders.
 2. **Translate each** (20 min) using the audience's currency.
 3. **Critique the translations** (10 min). For each: would the stakeholder act on this brief? Would they have follow-up questions? What's missing?
 
-### Readout (60 sec per triad)
+### Readout (60 sec per quad)
 
 > "The translation we're proudest of was [#X] for [stakeholder]. The hardest one was [#Y] because [why]."
 
@@ -120,12 +120,12 @@ For each, the triad writes the business-framing version targeting a specific sta
 
 ## Activity 2 — Pick Your Trade-Off + Pick Your Stakeholder
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Pick one of your TCD Section 5 trade-offs (or a TMD trade-off) AND one stakeholder, then design the brief together.
 
-### Triad protocol
+### Quad protocol
 
 1. **Review your top-5 trade-offs** (5 min). Pull from TCD Section 5 + any from TMD Sections 1–4.
 2. **Pick the trade-off** (10 min). Criteria:
@@ -154,12 +154,12 @@ Pick one of your TCD Section 5 trade-offs (or a TMD trade-off) AND one stakehold
 
 ## Activity 3 — Draft the 1-Page Brief
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Draft the brief. The 1-page constraint is hard.
 
-### Triad protocol
+### Quad protocol
 
 1. **Write "the decision" sentence** (5 min). One sentence. If it requires two, the trade-off isn't sharp enough.
 2. **Write "why this matters to you"** (10 min). 1–2 sentences in their currency. Run through the predicted 5 questions to make sure this answers their #1.
@@ -179,7 +179,7 @@ Draft the brief. The 1-page constraint is hard.
 
 ```markdown
 # Trade-off brief: Reconcile audit write timing
-**For:** Pat Lee, Compliance Lead  |  **From:** Reconcile triad  |  **Date:** 2026-04-29
+**For:** Pat Lee, Compliance Lead  |  **From:** Reconcile quad  |  **Date:** 2026-04-29
 
 ## The decision
 We are choosing async audit write (1–10s lag) over synchronous (instant)
@@ -216,19 +216,19 @@ visibility within < 1 second.
 
 ## Activity 4 — Cross-Review + AI Critique
 
-**Format:** Triad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Cross-review with another triad **playing the stakeholder role**. Use AI to predict objections.
+Cross-review with another quad **playing the stakeholder role**. Use AI to predict objections.
 
 ### Cross-review protocol (20 min)
 
-1. **Pair up triads** — instructor assigns.
-2. **Reviewer triad reads the brief in role** (10 min). They read as if they were the named stakeholder. They underline:
+1. **Pair up quads** — instructor assigns.
+2. **Reviewer quad reads the brief in role** (10 min). They read as if they were the named stakeholder. They underline:
     - Sentences that lose them (jargon, irrelevant, unclear)
     - Sentences they'd push back on
     - The first question they'd ask
-3. **Author triad listens to feedback** (10 min). Capture; do not defend. Same Week-3 review discipline.
+3. **Author quad listens to feedback** (10 min). Capture; do not defend. Same Week-3 review discipline.
 
 ### AI critique (15 min)
 
@@ -245,13 +245,13 @@ Constraints:
 Format: Numbered list — Question / Concern / Word that loses you.
 ```
 
-### Triad action (10 min)
+### Quad action (10 min)
 
 Adopt / defer / reject. Update Section 3.
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - Their **decision sentence** read aloud (the test of clarity)
 - The **stakeholder question** they're least sure how to answer
@@ -261,7 +261,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 3 with:
+Each quad ends Day 3 with:
 
 - [x] **One TCD/TMD trade-off** picked + stakeholder paired
 - [x] **5 predicted questions** ranked

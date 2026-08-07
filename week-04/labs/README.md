@@ -2,9 +2,9 @@
 
 > *"A TPM doesn't choose the architecture. A TPM names the constraints — clearly, in business terms — that the architecture must respect."*
 
-Week 4 is the technical-thinking week. Each triad takes the **PRD they shipped Friday of Week 3** and treats it as the input to an architectural conversation: monolith vs microservices, security & compliance, system components, latency / availability / rate limits, and the trade-offs that fall out of those decisions.
+Week 4 is the technical-thinking week. Each quad takes the **PRD they shipped Friday of Week 3** and treats it as the input to an architectural conversation: monolith vs microservices, security & compliance, system components, latency / availability / rate limits, and the trade-offs that fall out of those decisions.
 
-By Friday, every triad produces a **Technical Concept Document (TCD)** — a one- to two-page artifact that an architect or engineering lead would accept as scoping input. The TCD is a sibling to the PRD; together they go into Week 5.
+By Friday, every quad produces a **Technical Concept Document (TCD)** — a one- to two-page artifact that an architect or engineering lead would accept as scoping input. The TCD is a sibling to the PRD; together they go into Week 5.
 
 ## What's different about Week 4
 
@@ -39,19 +39,19 @@ Each day's output is a section of the TCD. Friday assembles, peer-reviews, and s
 | Clock | Block | Mix |
 |-------|-------|-----|
 | 09:00 – 09:15 | Opening & objectives | Instructor |
-| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min triad work |
+| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min quad work |
 | 10:30 – 10:45 | **Break** | |
-| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min triad work |
+| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min quad work |
 | 12:00 – 13:00 | **Lunch** | |
-| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min triad work |
+| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min quad work |
 | 14:15 – 14:30 | **Break** | |
-| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min triad / 20 min wrap |
+| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min quad / 20 min wrap |
 
 ## The TCD template (Friday's deliverable)
 
 ```markdown
 # Technical Concept Document — <feature name>
-**Sibling to:** PRD <link>  |  **Authors:** <triad>  |  **Status:** Draft / Reviewed
+**Sibling to:** PRD <link>  |  **Authors:** <quad>  |  **Status:** Draft / Reviewed
 
 ## 1. Architecture stance
 Monolith / microservice / hybrid; one paragraph defending the call from
@@ -78,9 +78,9 @@ the trigger that would cause us to revisit.
 | Constraint | Stakeholder | Status (proposed / discussed / approved) |
 ```
 
-## Triads
+## Quads
 
-Same triads from Weeks 1–3. They authored the PRD; they author the TCD.
+Same quads from Weeks 1–3. They authored the PRD; they author the TCD.
 
 ## Friday review rubric (TCD)
 

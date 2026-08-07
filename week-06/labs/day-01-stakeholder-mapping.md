@@ -1,18 +1,18 @@
 # Day 1 — Identifying & Mapping Key Stakeholders
 
-> **Activity packet** for participant triads. Today's job: take the TCD Section 6 sign-off matrix, expand it into a real stakeholder map (Power × Interest + RACI), and draft SEP Section 1.
+> **Activity packet** for participant quads. Today's job: take the TCD Section 6 sign-off matrix, expand it into a real stakeholder map (Power × Interest + RACI), and draft SEP Section 1.
 
 ## Where we are in the week
 
 The TCD already has Section 6 — a sign-off matrix listing constraints and owners. That matrix is the **starting input** to today's work. Today expands it into a usable map: who has what kind of power, who cares how much, who is Responsible, Accountable, Consulted, or Informed.
 
-By 16:00, every triad has SEP Section 1 — a stakeholder map ready to drive engagement planning tomorrow.
+By 16:00, every quad has SEP Section 1 — a stakeholder map ready to drive engagement planning tomorrow.
 
 ## Inputs
 
 - TCD Section 6 (stakeholder sign-off matrix from Week 4 Day 5)
 - PRD Section 10 (named dependencies + owners)
-- The triad's customer interviews (Week 1) for stakeholder context
+- The quad's customer interviews (Week 1) for stakeholder context
 
 ---
 
@@ -95,12 +95,12 @@ For a single feature, several decisions need RACI:
 
 ## Activity 1 — Build the Stakeholder List
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-Build a **complete** stakeholder list before mapping. Most triads will start with 5–7 stakeholders and discover they have 12–15.
+Build a **complete** stakeholder list before mapping. Most quads will start with 5–7 stakeholders and discover they have 12–15.
 
-### Triad protocol
+### Quad protocol
 
 1. **Start with TCD Section 6** (5 min). Copy every stakeholder name from the sign-off matrix into a list.
 2. **Augment with the "five circles"** (15 min). For each circle, add anyone who isn't already on the list:
@@ -122,12 +122,12 @@ A **comprehensive stakeholder list** (typically 10–18 names) with role + conce
 
 ## Activity 2 — Power × Interest Mapping
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Place each stakeholder on the 2×2 grid. The discussion of *where* each one goes is most of the learning.
 
-### Triad protocol
+### Quad protocol
 
 1. **Sketch the 2×2** on whiteboard or paper (5 min).
 2. **Place each stakeholder with a sticky note** (15 min). Argue when you disagree — don't average.
@@ -141,7 +141,7 @@ Place each stakeholder on the 2×2 grid. The discussion of *where* each one goes
 ### What "good" looks like
 
 - **All four quadrants populated** (if your "low power / low interest" is empty, you've over-prioritized)
-- **Discussion happened** — triads converged on placements through argument, not by the loudest voice
+- **Discussion happened** — quads converged on placements through argument, not by the loudest voice
 - **Engagement style** is named per quadrant
 - **The two surprises** are flagged — these are your high-leverage discoveries
 
@@ -151,7 +151,7 @@ Place each stakeholder on the 2×2 grid. The discussion of *where* each one goes
                             High Interest
                                   ▲
                                   │
-    [Operations VP] ←──────────── │ ──── [Reconcile triad's eng lead]
+    [Operations VP] ←──────────── │ ──── [Reconcile quad's eng lead]
                                   │ ───── [Customer success lead]
     Keep informed                 │      [QA lead]
                                   │      Manage closely
@@ -173,7 +173,7 @@ The "surprise" for FieldPulse: **Compliance** is low-interest in the abstract bu
 
 ## Activity 3 — RACI Assignment for Five Decisions
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Assign RACI to the five most consequential decisions for the feature.
@@ -200,7 +200,7 @@ For most features:
 | OOS backlog ownership | TPM | TPM | Eng Lead | Backlog readers |
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Draft the matrix** (20 min). One A per decision. Multiple R/C/I OK.
 2. **The "no two A's" check** (5 min). Walk the columns; verify exactly one A per decision.
@@ -211,7 +211,7 @@ For most features:
 
 ## Activity 4 — SEP Section 1 Polish + Stakeholder Watch List
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Polish Section 1 of the SEP, plus identify a **watch list** of stakeholders whose status could change in the next month.
@@ -231,7 +231,7 @@ Examples:
 
 A watch list is the early-warning system. It's the section that distinguishes a TPM who manages stakeholders from one who reacts to them.
 
-### Triad protocol
+### Quad protocol
 
 1. **Polish Section 1** (15 min). Combine list + Power×Interest grid + RACI into one section. Add the "two surprises" callouts.
 2. **Build the watch list** (20 min). 3–5 stakeholders with their triggers.
@@ -255,7 +255,7 @@ Format: 3 numbered findings, each with a one-sentence rationale.
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - One stakeholder whose quadrant placement was the most contested
 - One RACI-A that was reassigned during discussion
@@ -265,7 +265,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 1 with:
+Each quad ends Day 1 with:
 
 - [x] Comprehensive stakeholder list with role + concern
 - [x] **Power × Interest grid** populated

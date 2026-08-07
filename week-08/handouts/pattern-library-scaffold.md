@@ -1,12 +1,12 @@
 # Pattern Library — Cumulative Scaffold (Weeks 2–8)
 
-> **Day 5 handout.** The Pattern Library is the running collection of *validated prompts and reusable techniques* your triad accumulated week by week — the reusable "moves," not the artifacts themselves. This scaffold is the **structure to assemble yours in**, not a finished library. Fill it from your own triad's notes across the academy; only your triad knows which patterns actually earned their place.
+> **Day 5 handout.** The Pattern Library is the running collection of *validated prompts and reusable techniques* your quad accumulated week by week — the reusable "moves," not the artifacts themselves. This scaffold is the **structure to assemble yours in**, not a finished library. Fill it from your own quad's notes across the academy; only your quad knows which patterns actually earned their place.
 
 ---
 
 ## What the Pattern Library is
 
-- A **triad-owned** collection of the prompts and techniques that worked — the ones you'd reach for again.
+- A **quad-owned** collection of the prompts and techniques that worked — the ones you'd reach for again.
 - Each entry is a **reusable pattern**: what it's for, the prompt or move itself, and the validation step that keeps it honest.
 - It is **not** a re-list of your artifacts (those are the outputs). It's the *methods* that produced them.
 - It grows week over week. Week 8 doesn't create it — it **completes and hands it back** to you.
@@ -40,7 +40,7 @@
 
 ---
 
-## Assembly protocol (for your triad)
+## Assembly protocol (for your quad)
 
 1. **Gather** — each member pulls the prompts/techniques they logged across Weeks 2–8.
 2. **Dedupe** — keep the strongest version of each pattern; merge near-duplicates.

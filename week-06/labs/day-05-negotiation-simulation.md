@@ -1,17 +1,17 @@
 # Day 5 — Negotiating Priorities & Roadmaps (Live Simulations)
 
-> **Activity packet** for participant triads. Today's job: run **three rounds of simulated negotiation**, capture outcomes, and ship the SEP — the fourth and final sibling artifact alongside PRD / TCD / TMD.
+> **Activity packet** for participant quads. Today's job: run **three rounds of simulated negotiation**, capture outcomes, and ship the SEP — the fourth and final sibling artifact alongside PRD / TCD / TMD.
 
 ## Where we are in the week
 
-Sections 1–4 of the SEP are ready. Today is the live exercise: three rounds of simulated negotiation, with triads playing each other's stakeholders. By 16:00, every triad has logged outcomes, written the Section 5 outcomes log, and shipped the SEP.
+Sections 1–4 of the SEP are ready. Today is the live exercise: three rounds of simulated negotiation, with quads playing each other's stakeholders. By 16:00, every quad has logged outcomes, written the Section 5 outcomes log, and shipped the SEP.
 
 ## Today's cadence
 
 | Clock | Block | What happens |
 |-------|-------|--------------|
-| 09:00 – 09:15 | Opening; sim pairings posted; rubric reminder | Pair triad A with triad B (and so on); each triad plays "stakeholder" for one of their counterpart's negotiations |
-| 09:15 – 10:45 | **Round 1 — Architecture / SLO negotiation** | First triad negotiates one TCD Section 4 SLO or Section 5 trade-off |
+| 09:00 – 09:15 | Opening; sim pairings posted; rubric reminder | Pair quad A with quad B (and so on); each quad plays "stakeholder" for one of their counterpart's negotiations |
+| 09:15 – 10:45 | **Round 1 — Architecture / SLO negotiation** | First quad negotiates one TCD Section 4 SLO or Section 5 trade-off |
 | 10:45 – 11:00 | Break | |
 | 11:00 – 12:00 | Round 1 debrief + Round 2 prep | Capture outcomes; swap setups |
 | 12:00 – 13:00 | Lunch | |
@@ -23,17 +23,17 @@ Sections 1–4 of the SEP are ready. Today is the live exercise: three rounds of
 ## The three rounds — what each is for
 
 ### Round 1: Architecture / SLO
-**Triad A is the author**; **triad B plays a high-power technical stakeholder** (architect, security lead, eng director).
+**Quad A is the author**; **quad B plays a high-power technical stakeholder** (architect, security lead, eng director).
 
-The author triad pitches the trade-off they wrote up Day 3. The stakeholder triad pushes back using the objection map from Day 4 — and improvises further objections.
+The author quad pitches the trade-off they wrote up Day 3. The stakeholder quad pushes back using the objection map from Day 4 — and improvises further objections.
 
 ### Round 2: Scope
-**Triad B is the author**; **triad A plays a non-technical stakeholder** (PM director, customer success lead, sales VP).
+**Quad B is the author**; **quad A plays a non-technical stakeholder** (PM director, customer success lead, sales VP).
 
-The author triad defends their PRD scope. The stakeholder triad challenges with a scope-creep ask: "we need this feature to also do X" or "we need this earlier."
+The author quad defends their PRD scope. The stakeholder quad challenges with a scope-creep ask: "we need this feature to also do X" or "we need this earlier."
 
 ### Round 3: Resource / timeline
-Triads pair freshly. **One triad plays an executive** (CFO, GM); the other negotiates a resource or timeline change.
+Quads pair freshly. **One quad plays an executive** (CFO, GM); the other negotiates a resource or timeline change.
 
 Specifically: an executive demands the feature ship 30% sooner, OR cuts the team by one engineer, OR demands a feature added without scope cuts. The author negotiates against impossible asks.
 
@@ -41,7 +41,7 @@ Specifically: an executive demands the feature ship 30% sooner, OR cuts the team
 
 ## The negotiation rubric (live scoring)
 
-Each triad scores both sides of each round on:
+Each quad scores both sides of each round on:
 
 | Dimension | Weight | Exemplary |
 |-----------|--------|-----------|
@@ -66,11 +66,11 @@ For each round, capture:
 
 ```markdown
 ### Round N: <topic>
-**Triad A (author):** <names>  |  **Triad B (stakeholder):** <names>
+**Quad A (author):** <names>  |  **Quad B (stakeholder):** <names>
 **Stakeholder role played:** <e.g., Architect>
 
 **The ask:**
-<What the author triad asked for>
+<What the author quad asked for>
 
 **Stakeholder's response:**
 <What the stakeholder pushed back with — top 1-2 objections>
@@ -97,27 +97,27 @@ to <person>">
 
 ## Round 1 — Architecture / SLO Negotiation
 
-**Format:** Triad pairs &bull; **90 min total** (5 prep + 15 negotiate + 10 debrief, repeated to swap)
+**Format:** Quad pairs &bull; **90 min total** (5 prep + 15 negotiate + 10 debrief, repeated to swap)
 
 ### The setup
 
-Each author triad has the 1-page brief from Day 3 + the objection map from Day 4. The stakeholder triad plays a high-power technical role (architect, security lead, or eng director) and has the brief and the objection map (so they know what's coming), plus a **surprise-objection card** from `week-06/handouts/surprise-objection-set.md` — objections **not** in the author's prep, to push past their rehearsed answers.
+Each author quad has the 1-page brief from Day 3 + the objection map from Day 4. The stakeholder quad plays a high-power technical role (architect, security lead, or eng director) and has the brief and the objection map (so they know what's coming), plus a **surprise-objection card** from `week-06/handouts/surprise-objection-set.md` — objections **not** in the author's prep, to push past their rehearsed answers.
 
-The **public surface** of each surprise-objection card (the stakeholder type and role) is visible to both triads. The card's roleplayer-only content is for the stakeholder triad; the author triad does not see it before the round — that's the point.
+The **public surface** of each surprise-objection card (the stakeholder type and role) is visible to both quads. The card's roleplayer-only content is for the stakeholder quad; the author quad does not see it before the round — that's the point.
 
-### Triad protocol (per round)
+### Quad protocol (per round)
 
-1. **Author triad opens** (60 sec) — using their rehearsed opening from Day 4.
-2. **Stakeholder triad responds** with their first objection. Author responds.
-3. **Stakeholder triad escalates** with the surprise objection. Author improvises.
+1. **Author quad opens** (60 sec) — using their rehearsed opening from Day 4.
+2. **Stakeholder quad responds** with their first objection. Author responds.
+3. **Stakeholder quad escalates** with the surprise objection. Author improvises.
 4. **The conversation runs 12–15 minutes total**, including pivots, restatements, attempts to find trade space.
 5. **Both sides try to close** with a specific outcome — agreement, deferral, or escalation path.
 
 ### Debrief (10 min)
 
 - What was the highest-leverage moment?
-- What did the author triad *not* hear from the stakeholder?
-- What language did the author triad use that should be retired?
+- What did the author quad *not* hear from the stakeholder?
+- What language did the author quad use that should be retired?
 - Score both sides on the rubric.
 
 ### Roles swap; repeat.
@@ -130,15 +130,15 @@ The **public surface** of each surprise-objection card (the stakeholder type and
 
 ### The setup
 
-The non-technical stakeholder triad arrives with a **scope-creep ask** from the scope-creep ask cards (`week-06/handouts/scope-creep-ask-cards.md`). Examples of the kind of ask:
+The non-technical stakeholder quad arrives with a **scope-creep ask** from the scope-creep ask cards (`week-06/handouts/scope-creep-ask-cards.md`). Examples of the kind of ask:
 
 - **PM Director:** "Marketing wants us to add a manager-view dashboard before launch. It's a small ask but they're committed to a campaign."
 - **Customer Success Lead:** "Our top-3 customer just asked for tablet support. They've made it a renewal condition."
 - **Sales VP:** "We have a deal in flight that requires this feature to support multi-shop manager view. Help us make the deal."
 
-The **public surface** (the stakeholder role and the ask) is visible to both triads. Any roleplayer-only content on the card is for the stakeholder triad only.
+The **public surface** (the stakeholder role and the ask) is visible to both quads. Any roleplayer-only content on the card is for the stakeholder quad only.
 
-### The author triad's challenge
+### The author quad's challenge
 
 Defend the **non-goals** in PRD Section 3 and the **out-of-scope follow-ups** in PRD Section 11. Honestly evaluate whether to:
 
@@ -168,7 +168,7 @@ If nothing can move, you're not negotiating — you're saying yes or no. A skill
 
 ## Round 3 — Resource / Timeline Negotiation
 
-**Format:** Fresh pairing; one triad plays executive; **60 min**
+**Format:** Fresh pairing; one quad plays executive; **60 min**
 
 ### The setup (the hard one)
 
@@ -178,13 +178,13 @@ The executive arrives with one of the demands from the executive-demand scenario
 2. **"You've lost an engineer to a higher priority. Same scope, same date."** Same exercise from a different angle.
 3. **"We need [adjacent feature] added. Same date, same team."** Scope expansion against constraints.
 
-The **public surface** (the executive role and the demand) is visible to both triads. What's really driving the executive and where they'll settle is roleplayer-only content on the card — the author's job is to find it.
+The **public surface** (the executive role and the demand) is visible to both quads. What's really driving the executive and where they'll settle is roleplayer-only content on the card — the author's job is to find it.
 
 ### What "good" looks like
 
-The author triad surfaces all four trade-space axes and offers movement on at least two, while protecting their non-negotiables.
+The author quad surfaces all four trade-space axes and offers movement on at least two, while protecting their non-negotiables.
 
-The stakeholder triad pushes hard but **agrees somewhere**, even if it's "deferred to next QBR."
+The stakeholder quad pushes hard but **agrees somewhere**, even if it's "deferred to next QBR."
 
 ### Debrief (10 min)
 
@@ -196,7 +196,7 @@ The stakeholder triad pushes hard but **agrees somewhere**, even if it's "deferr
 
 ## SEP Section 5 — The Outcomes Log
 
-By 15:45, every triad has Section 5 with three round entries. The polish:
+By 15:45, every quad has Section 5 with three round entries. The polish:
 
 - All three rounds documented in the template
 - Owner + next step for each (no "TBD")
@@ -207,7 +207,7 @@ By 15:45, every triad has Section 5 with three round entries. The polish:
 
 ## End-of-week (Week 6) checkpoint
 
-Each triad ships:
+Each quad ships:
 
 - [x] **Full SEP** with Sections 1–5
 - [x] Section 1 Stakeholder map (Power × Interest + RACI + watch list)

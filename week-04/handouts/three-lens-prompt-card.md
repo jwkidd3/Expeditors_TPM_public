@@ -1,6 +1,6 @@
 # Three-Lens Prompt Card
 
-> **Day 3 · Activity 3 handout.** When you review another triad's C4 diagrams, read them through these three lenses. A reviewer who just nods isn't engaging — force a named scenario and walk it.
+> **Day 3 · Activity 3 handout.** When you review another quad's C4 diagrams, read them through these three lenses. A reviewer who just nods isn't engaging — force a named scenario and walk it.
 
 ---
 
@@ -16,7 +16,7 @@
 
 ### Review protocol (with the diagram's author listening)
 
-1. **Swap diagrams** (5 min). Read the other triad's Context and Container diagrams.
+1. **Swap diagrams** (5 min). Read the other quad's Context and Container diagrams.
 2. **Failure trace** (10 min). Pick one failure scenario; walk the diagram aloud. The author listens.
 3. **Trust-boundary mark-up** (10 min). Mark where data crosses out of the author's control.
 4. **Evolvability question** (10 min). Ask "if you were to split X into a new service, which arrows would change?"

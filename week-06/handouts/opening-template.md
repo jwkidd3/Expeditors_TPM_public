@@ -44,7 +44,7 @@
 
 ## Rehearsal checklist
 
-- [ ] Read aloud twice in the triad
+- [ ] Read aloud twice in the quad
 - [ ] Timed — under 75 seconds
 - [ ] The currency line names something *this* stakeholder actually cares about
 - [ ] The ask is a single, concrete decision

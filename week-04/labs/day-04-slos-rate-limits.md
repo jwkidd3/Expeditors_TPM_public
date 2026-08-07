@@ -1,6 +1,6 @@
 # Day 4 — Targeting Latency, Availability, and Rate Limits
 
-> **Activity packet** for your triad. Today's job: set realistic **SLO targets** anchored to user behavior, calculate a **per-hop latency budget**, and design a **rate-limit policy** the team will actually defend.
+> **Activity packet** for your quad. Today's job: set realistic **SLO targets** anchored to user behavior, calculate a **per-hop latency budget**, and design a **rate-limit policy** the team will actually defend.
 
 ## Where we are in the week
 
@@ -98,13 +98,13 @@ The TPM job is to surface this math early — *before* the feature ships and fal
 
 ## Activity 1 — SLO Triage
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Calibrate on real-world SLO examples — distinguishing realistic targets from cargo-culted ones.
 
 ### Setup
-Each triad receives the **SLO Triage Pack**: 8 SLO statements drawn from real (anonymized) systems. Some are clean. Most have a hidden failure.
+Each quad receives the **SLO Triage Pack**: 8 SLO statements drawn from real (anonymized) systems. Some are clean. Most have a hidden failure.
 
 ### The failure modes to hunt for
 
@@ -117,13 +117,13 @@ A well-formed SLO has **three parts**: a percentile, a measurement window, and a
 - **Mismatched to the user threshold** — a target that's far looser or tighter than the user actually experiences.
 - **Confusion with an SLA** — a contractual-sounding commitment where an internal objective belongs.
 
-### Triad protocol
+### Quad protocol
 
 1. Triage all 8 (15 min). Identify failures. Mark "clean" if applicable.
 2. Rewrite the 5 worst (15 min) to pass the three checks: percentile + window + defense.
 3. Identify the one with the most subtle failure (5 min) — discuss in readout.
 
-### Readout (60 sec per triad)
+### Readout (60 sec per quad)
 
 > "The most subtle failure was [X] because [why]. Our cleanest rewrite was [example]."
 
@@ -135,15 +135,15 @@ Triaged 8-pack with failure-mode labels and 5 rewrites passing the percentile + 
 
 ## Activity 2 — Set Your Three SLOs
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Set the three SLOs (latency, availability, throughput / rate limit) for your triad's feature.
+Set the three SLOs (latency, availability, throughput / rate limit) for your quad's feature.
 
 ### Setup
-Each triad needs the Week-2 Tier Sheet, the architecture-revised performance NFRs, and any platform precedent the cohort knows. AI optional.
+Each quad needs the Week-2 Tier Sheet, the architecture-revised performance NFRs, and any platform precedent the cohort knows. AI optional.
 
-### Triad protocol
+### Quad protocol
 
 #### Step 1 — Latency SLO (15 min)
 
@@ -197,15 +197,15 @@ Three SLOs (latency, availability, throughput/rate-limit) using the NFR template
 
 ## Activity 3 — Latency Budget Walk
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Take the latency SLO and **walk it across the Container diagram** from Day 3 — does the math fit?
 
 ### Setup
-Each triad needs the Container diagram from Day 3, the latency-budget reference card, and the SLO sheet from Activity 2.
+Each quad needs the Container diagram from Day 3, the latency-budget reference card, and the SLO sheet from Activity 2.
 
-### Triad protocol
+### Quad protocol
 
 1. **Annotate the Container diagram** (15 min). For each arrow, estimate (or research) the latency contribution. Use:
     - **Network hop**: 20–80ms LAN to internet RTT depending
@@ -259,7 +259,7 @@ Annotated Container diagram with per-hop latency estimates, total sum vs the SLO
 
 ## Activity 4 — Cross-Review + AI Sanity Check
 
-**Format:** Triad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Cross-review the SLO sheet (same pairing as Day 3 ideal). Use AI to surface what's unrealistic.
@@ -269,13 +269,13 @@ Instructor confirms pairings (re-use Day 3 ideally). Each pair needs both SLO sh
 
 ### Cross-review protocol (20 min)
 
-Reviewer triad reads the SLO sheet and the latency-budget walk. They ask three questions:
+Reviewer quad reads the SLO sheet and the latency-budget walk. They ask three questions:
 
 1. **Is the latency target realistic given the platform precedent we know?**
 2. **Is the availability target realistic given the team's on-call reality?**
 3. **Does the rate-limit policy protect against a real abuse / accident scenario?**
 
-The author triad listens, captures, and decides what to address.
+The author quad listens, captures, and decides what to address.
 
 ### AI sanity-check prompt (15 min)
 
@@ -291,7 +291,7 @@ Constraints:
 Format: Numbered list, each with: Issue / Scenario / Suggested target.
 ```
 
-### Triad action (10 min)
+### Quad action (10 min)
 
 Decide which AI findings + which peer findings to adopt. Update Section 4. Provenance note.
 
@@ -301,7 +301,7 @@ Updated TCD Section 4 with adopted peer + AI findings, an error-budget consequen
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - One SLO they would defend hard in front of an engineering lead
 - One they're worried is too aspirational (be honest)
@@ -313,7 +313,7 @@ The third question is the most important — converting the SLO into a behavior 
 
 ## End-of-day checkpoint
 
-Each triad ends Day 4 with:
+Each quad ends Day 4 with:
 
 - [x] Three **SLOs**: latency, availability, throughput / rate limit
 - [x] **Latency-budget walk** annotating the Container diagram

@@ -1,6 +1,6 @@
 # Day 1 — Product Delivery Outcomes + Agile Manifesto & Principles
 
-> **Activity packet** for participant triads. Today's job: name the **outcomes** the feature is meant to produce (not the outputs), and use the **Agile Manifesto values** as a decision-making aid for real product trade-offs.
+> **Activity packet** for participant quads. Today's job: name the **outcomes** the feature is meant to produce (not the outputs), and use the **Agile Manifesto values** as a decision-making aid for real product trade-offs.
 
 ## Where we are in the week
 
@@ -9,7 +9,7 @@ The week opens by separating the muscle of **delivery** from the muscle of **out
 ## Inputs
 
 - The full sibling artifact set: PRD / TCD / TMD / SEP
-- The triad's NS Defense Card and Tier Sheet (Week 2)
+- The quad's NS Defense Card and Tier Sheet (Week 2)
 - The negotiated outcomes log from SEP Section 5 (Week 6 Day 5)
 
 ---
@@ -70,14 +70,14 @@ The 6 we de-emphasize aren't wrong; they're harder for a junior TPM to drive dir
 
 ## Activity 1 — Output / Outcome Sort
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-Calibrate the output/outcome distinction with examples before applying it to the triad's feature.
+Calibrate the output/outcome distinction with examples before applying it to the quad's feature.
 
 ### The sort pack — 12 statements
 
-For each, the triad labels: Output / Outcome / Both (a thing stated as both) / Neither.
+For each, the quad labels: Output / Outcome / Both (a thing stated as both) / Neither.
 
 1. "We shipped the new reconcile flow on July 15."
 2. "Dispatchers spend 30 minutes less per shift on after-shift reconciliation."
@@ -92,13 +92,13 @@ For each, the triad labels: Output / Outcome / Both (a thing stated as both) / N
 11. "We held 4 user research sessions this quarter."
 12. "Active dispatchers (defined as: completed at least one reconcile in the past 7 days) grew 15% MoM."
 
-### Triad protocol
+### Quad protocol
 
 1. **Label all 12** (15 min).
 2. **Argue when you disagree** (15 min). At least 2 should produce useful disagreement.
 3. **For each "Both"-labeled statement**, rewrite it to be cleanly one or the other (5 min).
 
-### Readout (60 sec per triad)
+### Readout (60 sec per quad)
 
 > "The trickiest one was [#X] because [why]. The cleanest outcome was [#Y]."
 
@@ -106,10 +106,10 @@ For each, the triad labels: Output / Outcome / Both (a thing stated as both) / N
 
 ## Activity 2 — Build Your Outcome Map
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-For the triad's feature, name the outcomes it's meant to produce. Each gets pulled directly from the NS / Tier Sheet / journey map.
+For the quad's feature, name the outcomes it's meant to produce. Each gets pulled directly from the NS / Tier Sheet / journey map.
 
 ### The outcome map template
 
@@ -136,7 +136,7 @@ For each:
 > <claims we are NOT making — usually pulled from PRD Section 3 non-goals>
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Pull the primary outcome from your NS** (10 min). It should be one of:
     - Movement on a Tier Sheet operational signal
@@ -158,14 +158,14 @@ For each:
 
 ## Activity 3 — Agile Values in Trade-offs
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
-Use the Manifesto values as a decision aid on real trade-offs from the triad's prior weeks' work.
+Use the Manifesto values as a decision aid on real trade-offs from the quad's prior weeks' work.
 
 ### The trade-off scenarios
 
-The triad walks through 4 real trade-offs (3 from prior weeks + 1 new) and applies the Manifesto:
+The quad walks through 4 real trade-offs (3 from prior weeks + 1 new) and applies the Manifesto:
 
 1. **From Week 5:** "Should we hand-write a longer technical spec or get to coding faster?"
    - Manifesto frame: **Working software over comprehensive documentation**
@@ -186,44 +186,44 @@ The triad walks through 4 real trade-offs (3 from prior weeks + 1 new) and appli
    - Standups are a tool, not a value
    - Discussion: when is the ceremony serving collaboration vs replacing it?
 
-### Triad protocol
+### Quad protocol
 
 1. **For each scenario** (8 min each):
     - State the Manifesto value at play
     - State what the value implies
     - State what the value does *not* imply
-    - Decide: what would your triad do?
+    - Decide: what would your quad do?
 
-2. **Final synthesis** (8 min): Which Manifesto value did your triad invoke most? Least? Why?
+2. **Final synthesis** (8 min): Which Manifesto value did your quad invoke most? Least? Why?
 
 ### What "good" looks like
 
 - Each Manifesto value is named **with its non-implication** ("doesn't mean no docs / no plan / no process")
-- The triad's decision is grounded in evidence (data, customer signal, team capacity) — not "the Manifesto says so"
+- The quad's decision is grounded in evidence (data, customer signal, team capacity) — not "the Manifesto says so"
 
 ---
 
 ## Activity 4 — Outcome Map Cross-Review + Wrap
 
-**Format:** Triad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Cross-review the outcome map with another triad. Surface where outputs are masquerading as outcomes.
+Cross-review the outcome map with another quad. Surface where outputs are masquerading as outcomes.
 
 ### Cross-review questions
 
-The reviewer triad reads the outcome map and asks:
+The reviewer quad reads the outcome map and asks:
 
 1. **Is each "outcome" actually an outcome, or is one a dressed-up output?**
 2. **Do the supporting outcomes overlap?** (a sign of weak distinction)
 3. **Is the counter-outcome specific enough to detect a real cheat?**
 4. **What outcome is missing?**
 
-### Triad protocol
+### Quad protocol
 
-1. **Pair triads** (instructor assigns).
+1. **Pair quads** (instructor assigns).
 2. **20 min cross-review** with the 4 questions.
-3. **15 min author-triad revisions.**
+3. **15 min author-quad revisions.**
 4. **AI sanity check** (10 min):
 
 ```
@@ -240,7 +240,7 @@ Format: 3 numbered findings.
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - Their **primary outcome** read aloud
 - **One Manifesto value** they invoked in their map
@@ -250,7 +250,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 1 with:
+Each quad ends Day 1 with:
 
 - [x] Calibration on output/outcome distinction (12-statement sort)
 - [x] **Outcome map** with primary + supporting + counter-outcomes + explicit not-claims

@@ -1,8 +1,8 @@
 # Executive-Demand Scenario Cards — Round 3 (Resource / Timeline)
 
-> **Day 5 · Round 3 handout.** For the triad **playing the executive** (CFO or GM). You arrive with an impossible ask and no give offered up front. The author negotiates against it — surfacing all four trade-space axes and offering movement on at least two, while protecting their non-negotiables. Push hard, but **agree somewhere** by the end, even if it's "deferred to next QBR."
+> **Day 5 · Round 3 handout.** For the quad **playing the executive** (CFO or GM). You arrive with an impossible ask and no give offered up front. The author negotiates against it — surfacing all four trade-space axes and offering movement on at least two, while protecting their non-negotiables. Push hard, but **agree somewhere** by the end, even if it's "deferred to next QBR."
 
-**Public surface (both triads may read):** the executive role and the demand.
+**Public surface (both quads may read):** the executive role and the demand.
 **Hidden (roleplayer only):** what's really driving you and where you'll actually settle. Don't reveal the Hidden section — make the author find your real constraint.
 
 All scenarios are grounded in the FieldPulse "End-of-Day Reconcile" world.

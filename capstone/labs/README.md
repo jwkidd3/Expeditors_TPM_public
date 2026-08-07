@@ -10,8 +10,8 @@ The academy has **two capstone moments**: a mid-arc PRD discipline check in Week
 | AI tools | **Off** — honor system | **On** with validation discipline; new AI Spec Development pattern introduced Day 1 |
 | Deliverable | One Technical PRD + review-resolution log | 6-artifact set (PRD/TCD/TMD/SEP/DP + AI Spec) |
 | Compression rule | None — full 11-section PRD | **2 pages per artifact** — discipline is what to cut |
-| Triads | Same triads since Week 1 | Same triads since Week 1 |
-| Friday | Cross-triad peer review (2 primary reviewers + 1 secondary, then revise) | 15-min triad presentations + 5 min Q&A; cohort + instructors score |
+| Quads | Same quads since Week 1 | Same quads since Week 1 |
+| Friday | Cross-quad peer review (2 primary reviewers + 1 secondary, then revise) | 15-min quad presentations + 5 min Q&A; cohort + instructors score |
 | Output proves | Cohort can write a defensible PRD without AI | Muscles from Weeks 1–7 applied end-to-end on an unfamiliar enterprise problem |
 
 ---
@@ -72,7 +72,7 @@ Allowed: spell-check, dictionary, customer-interview transcripts, Week 1–2 art
 
 ## Week 8 — Final Capstone: Integrated Artifact Set
 
-The final capstone is **wide and integrative**. Every triad works the **Holocron** problem (brief issued end of Week 7) and produces a compressed-but-complete version of the 5-week artifact set, plus a new AI-generated integrated technical spec. Nothing is pre-specified — the brief gives business context and facts; the requirements are the triad's work.
+The final capstone is **wide and integrative**. Every quad works the **Holocron** problem (brief issued end of Week 7) and produces a compressed-but-complete version of the 5-week artifact set, plus a new AI-generated integrated technical spec. Nothing is pre-specified — the brief gives business context and facts; the requirements are the quad's work.
 
 ### What ships Friday
 
@@ -100,7 +100,7 @@ capstone/
 
 ### Friday — presentation day
 
-For ~6 triads: 15 min present + 5 min Q&A each, two morning blocks + two afternoon blocks, then cohort retrospective and post-assessments + course closure.
+For ~6 quads: 15 min present + 5 min Q&A each, two morning blocks + two afternoon blocks, then cohort retrospective and post-assessments + course closure.
 
 ### Presentation rubric
 
@@ -112,7 +112,7 @@ For ~6 triads: 15 min present + 5 min Q&A each, two morning blocks + two afterno
 | Trade-off honesty (≥2 named with cost + revisit trigger) | 15% |
 | Outcome thinking (NS / Tier-Sheet / leading-indicator vocabulary) | 10% |
 | Delivery readiness (DP-light: backlog + tracking + one experiment) | 10% |
-| Presentation craft (all triad voices; time-managed; curious Q&A) | 15% |
+| Presentation craft (all quad voices; time-managed; curious Q&A) | 15% |
 
 ### AI Spec Development (the new technique)
 

@@ -28,18 +28,18 @@ Today's job is to name the **top 5 trade-offs** (TCD Section 5), build the **sta
 ## Activity 4 — Integration + Cross-Review + Sign-Off
 
 **Cues:**
-- Watch for "Approved" without an honest gap list. The rubric should set the bar, not the triad's confidence.
+- Watch for "Approved" without an honest gap list. The rubric should set the bar, not the quad's confidence.
 - Reviewers who score generously should be calibrated against the rubric mid-block.
 
 ## Facilitator wrap (15 min, end of day)
 
-- Read aloud one trade-off from each triad's TCD that the cohort should learn from.
+- Read aloud one trade-off from each quad's TCD that the cohort should learn from.
 - Surface the **most common pattern of trade-off avoidance** the cohort exhibited (this is a Week 5 + 6 coaching theme).
 - Preview Week 5: TCD becomes the spine. Data modeling will reference Section 2; performance baselines will reference Section 4; APIs will reference Section 3 (auth) and Section 4 (rate limits).
 
 ## Facilitator reflection prompts (end of week)
 
-- Which triad's TCD reads like an architect could pick it up? They are the Week-5 positive example.
-- Which triad's stakeholder matrix is the weakest? Coach individually before Week 5.
-- Did any triad over-specify and accidentally make architectural decisions? Coach toward "surface trade-offs, don't decide."
+- Which quad's TCD reads like an architect could pick it up? They are the Week-5 positive example.
+- Which quad's stakeholder matrix is the weakest? Coach individually before Week 5.
+- Did any quad over-specify and accidentally make architectural decisions? Coach toward "surface trade-offs, don't decide."
 - AI use this week: was the discipline maintained? If not, surface for the cohort.

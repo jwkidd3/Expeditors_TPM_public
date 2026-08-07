@@ -2,7 +2,7 @@
 
 > A short retention check covering the week's core ideas: drafting technical PRDs, granular acceptance criteria, non-functional requirements, PRD assembly, and structured peer review. Answer each question, then check yourself against the key at the end. Aim for concepts, not trivia — every answer maps back to something we used in a lab.
 
-**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or triad.
+**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or quad.
 
 ---
 
@@ -15,7 +15,7 @@
 - C) A PRD that fits on a single page
 - D) A PRD marketing can turn into launch copy
 
-**2. (T/F)** Week 3 encourages using AI to draft the PRD faster, so triads can spend more of their time on review.
+**2. (T/F)** Week 3 encourages using AI to draft the PRD faster, so quads can spend more of their time on review.
 
 **3. (MC)** Which of the following *belongs* in the Section 5 Solution Sketch, rather than being cut as over-specification?
 

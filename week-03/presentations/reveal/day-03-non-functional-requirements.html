@@ -638,7 +638,7 @@ Mid-week. AC done yesterday. Today is NFRs — the requirements that decide whet
 </ul>
 
 Note:
-By 16:00, every triad has Section 7 complete. PRD is one day from full assembly.
+By 16:00, every quad has Section 7 complete. PRD is one day from full assembly.
 
 ---
 
@@ -663,7 +663,7 @@ Arc: calibrate → Perf+Obs → Sec+A11y+Comp → review with trade-offs.
 <h3>Why most NFR sections fail</h3>
 
 Note:
-Most NFR sections fail by being either generic ("the system shall be performant") or untestable. Block 1 calibrates the shape before triads write anything.
+Most NFR sections fail by being either generic ("the system shall be performant") or untestable. Block 1 calibrates the shape before quads write anything.
 
 ---
 
@@ -771,7 +771,7 @@ A11y and Compliance are the most-skipped. Plant the discipline of "no category e
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 1 — NFR Triage</h2>
-<h3>Triads • 35 minutes</h3>
+<h3>Quads • 35 minutes</h3>
 <p>10 NFR examples. Identify the failure mode(s) for each. Rewrite the 5 worst.</p>
 <ul>
 <li>15 min: triage all 10</li>
@@ -781,7 +781,7 @@ A11y and Compliance are the most-skipped. Plant the discipline of "no category e
 <div class="timebox">⏱ 15 triage · 15 rewrite · 5 reflect</div>
 
 Note:
-Triads will under-detect "no defense" — it sounds clean if the number is specific. Surface this with your own example.
+Quads will under-detect "no defense" — it sounds clean if the number is specific. Surface this with your own example.
 
 ---
 
@@ -791,7 +791,7 @@ Triads will under-detect "no defense" — it sounds clean if the number is speci
 <h3>"What should we expect" + "How would we know"</h3>
 
 Note:
-Performance and observability are paired because one is meaningless without the other. Push triads toward p95 targets and named events, not averages and vague "monitoring."
+Performance and observability are paired because one is meaningless without the other. Push quads toward p95 targets and named events, not averages and vague "monitoring."
 
 ---
 
@@ -839,15 +839,15 @@ per shift.
 </div>
 
 Note:
-This is where Week-2's Tier Sheet pays off. Triads who skipped that work struggle here.
+This is where Week-2's Tier Sheet pays off. Quads who skipped that work struggle here.
 
 ---
 
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 2 — Perf + Obs NFRs</h2>
-<h3>Triads • 40 minutes</h3>
-<p>Each member proposes 1 Performance NFR; triad picks 2–3. Same drill for Observability.</p>
+<h3>Quads • 40 minutes</h3>
+<p>Each member proposes 1 Performance NFR; quad picks 2–3. Same drill for Observability.</p>
 <ul>
 <li>15 min: 2–3 Performance NFRs with defenses</li>
 <li>15 min: 2–3 Observability NFRs (reference Tier Sheet)</li>
@@ -856,7 +856,7 @@ This is where Week-2's Tier Sheet pays off. Triads who skipped that work struggl
 <div class="timebox">⏱ 15 + 15 + 10</div>
 
 Note:
-If a triad's perf target is "average," push to p95. Average is the most common rookie failure.
+If a quad's perf target is "average," push to p95. Average is the most common rookie failure.
 
 ---
 
@@ -866,7 +866,7 @@ If a triad's perf target is "average," push to p95. Average is the most common r
 <h3>The "draft the first version" categories</h3>
 
 Note:
-These categories often get skipped or hand-waved. Today triads draft first versions — specific enough that security, a11y, and compliance reviewers can react.
+These categories often get skipped or hand-waved. Today quads draft first versions — specific enough that security, a11y, and compliance reviewers can react.
 
 ---
 
@@ -905,7 +905,7 @@ pass before launch.
 ```
 
 Note:
-If a triad omits A11y, redirect to Week 2 Day 3's A11y Floor work. The 8 checks become the requirement.
+If a quad omits A11y, redirect to Week 2 Day 3's A11y Floor work. The 8 checks become the requirement.
 
 ---
 
@@ -936,7 +936,7 @@ Compliance is the most-skipped category. Force at least one NFR.
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 3 — Sec + A11y + Comp</h2>
-<h3>Triads • 40 minutes</h3>
+<h3>Quads • 40 minutes</h3>
 <p>3–5 Security NFRs (5-question set). 1–2 A11y NFRs (Week 2 Day 3). 1–2 Compliance NFRs.</p>
 <ul>
 <li>15 min: Security (3–5 NFRs)</li>
@@ -974,7 +974,7 @@ Senior engineers expect NFR sections to surface trade-offs, not pretend everythi
 </div>
 
 Note:
-The "Known Trade-offs" subsection is the senior-author signal. Triads who include it score higher Friday.
+The "Known Trade-offs" subsection is the senior-author signal. Quads who include it score higher Friday.
 
 ---
 
@@ -1002,18 +1002,18 @@ Note:
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 4 — NFR Cross-Review + Trade-offs</h2>
-<h3>Triad pairs • 45 minutes • Wrap</h3>
+<h3>Quad pairs • 45 minutes • Wrap</h3>
 <p>Cross-review the NFR section (same pairing as Day 2). Surface trade-offs. Add the Known Trade-offs subsection.</p>
 <ul>
 <li>10 min: read NFR section, check defenses + verifications</li>
 <li>10 min: reviewer surfaces trade-offs</li>
-<li>10 min: author triad responds</li>
+<li>10 min: author quad responds</li>
 <li>15 min: revise + add Known Trade-offs subsection</li>
 </ul>
 <div class="timebox">⏱ 10 + 10 + 10 + 15 · 15-min wrap-share</div>
 
 Note:
-Wrap share: each triad reads aloud one explicit trade-off they made.
+Wrap share: each quad reads aloud one explicit trade-off they made.
 
 ---
 

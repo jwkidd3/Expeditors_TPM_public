@@ -23,7 +23,7 @@
 
 ## The "engineer's first three questions" test
 
-After writing Section 5, each triad member proposes the **first three questions** an engineer would ask after reading it. Then diagnose:
+After writing Section 5, each quad member proposes the **first three questions** an engineer would ask after reading it. Then diagnose:
 
 | If the questions are about… | Your Section 5 is… | Do this |
 |-----------------------------|-------------|---------|
@@ -35,7 +35,7 @@ After writing Section 5, each triad member proposes the **first three questions*
 
 ---
 
-## Triad three-questions capture
+## Quad three-questions capture
 
 | Member | Q1 | Q2 | Q3 | Over / under / OK? |
 |--------|----|----|----|--------------------|

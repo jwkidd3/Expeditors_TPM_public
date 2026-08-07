@@ -1,9 +1,9 @@
 # Surprise-Objection Set — Round 1 (Architecture / SLO)
 
-> **Day 5 · Round 1 handout.** For the triad **playing the technical stakeholder**. In Round 1, the author triad already has the objection map they wrote Day 4 — so you use these **surprise objections** (not in their map) to push past the rehearsed answers. Deliver one, listen, then escalate with the second if the author is holding up.
+> **Day 5 · Round 1 handout.** For the quad **playing the technical stakeholder**. In Round 1, the author quad already has the objection map they wrote Day 4 — so you use these **surprise objections** (not in their map) to push past the rehearsed answers. Deliver one, listen, then escalate with the second if the author is holding up.
 
-**Public surface (both triads may read):** the stakeholder type and role.
-**Hidden (roleplayer only):** the two surprise objections and how hard to push. Do **not** show the author triad the Hidden section before the round — the point is that these aren't in their prep.
+**Public surface (both quads may read):** the stakeholder type and role.
+**Hidden (roleplayer only):** the two surprise objections and how hard to push. Do **not** show the author quad the Hidden section before the round — the point is that these aren't in their prep.
 
 All objections are grounded in the FieldPulse "End-of-Day Reconcile" world (async audit write, inventory-service dependency, dispatcher p95 SLO).
 

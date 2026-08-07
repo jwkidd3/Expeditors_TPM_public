@@ -10,7 +10,7 @@
 
 **Answer key / watch-for:**
 
-- The "share" question is the calibration point. **POST /lists/{id}/shares** (resource) beats **POST /lists/{id}/share** (verb). REST nudges toward nouns, even when actions are involved. Triads will land differently in Step 4 — hold the answer until after they argue; the discussion is the point.
+- The "share" question is the calibration point. **POST /lists/{id}/shares** (resource) beats **POST /lists/{id}/share** (verb). REST nudges toward nouns, even when actions are involved. Quads will land differently in Step 4 — hold the answer until after they argue; the discussion is the point.
 
 ## Activity 2 — Design Your Feature's API
 
@@ -35,7 +35,7 @@
 
 ## End-of-day reflection prompts
 
-- Which triad's resource design was cleanest? Hold up Friday.
+- Which quad's resource design was cleanest? Hold up Friday.
 - Did anyone use verbs in URLs? Coach back.
 - Did anyone skip idempotency? Push — most rookie APIs are accidentally non-idempotent.
 - Did the cohort engage with REST principles or just memorize forms? The deeper engagement is the goal.

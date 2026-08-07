@@ -1,12 +1,12 @@
 # UX Audit Template
 
-> **Day 3 · Activity 3 handout.** The worksheet for auditing your triad's chosen product surface: top 3 violations (severity-scored), top 3 strengths, A11y result, TPM lenses, and the one question only design can answer.
+> **Day 3 · Activity 3 handout.** The worksheet for auditing your quad's chosen product surface: top 3 violations (severity-scored), top 3 strengths, A11y result, TPM lenses, and the one question only design can answer.
 
 ## The template
 
 ```markdown
 # UX Audit: <Product surface>
-**Auditor triad:** <names>
+**Auditor quad:** <names>
 **Flow audited:** <e.g., "Dispatcher first-time reconcile flow">
 
 ## Top 3 violations

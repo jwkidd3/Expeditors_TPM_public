@@ -4,11 +4,11 @@
 
 Week 7 takes the negotiated commitments from Week 6 and turns them into **deliverable work**: backlog items in Azure DevOps, sprint plans, outcome metrics, and a value stream the team can actually inspect.
 
-By Friday afternoon, every triad ships a **Delivery Plan (DP)** — the fifth and final sibling artifact alongside PRD / TCD / TMD / SEP. The DP includes the loaded ADO backlog, the outcome-tracking plan, the value stream map, and the bottleneck-removal plan.
+By Friday afternoon, every quad ships a **Delivery Plan (DP)** — the fifth and final sibling artifact alongside PRD / TCD / TMD / SEP. The DP includes the loaded ADO backlog, the outcome-tracking plan, the value stream map, and the bottleneck-removal plan.
 
 ## What's different about Week 7
 
-- **Hands-on tooling.** Day 2 is an ADO workshop — triads load their feature into a real (or sandboxed) ADO instance.
+- **Hands-on tooling.** Day 2 is an ADO workshop — quads load their feature into a real (or sandboxed) ADO instance.
 - **Outcome ≠ output.** Day 3 explicitly distinguishes "we shipped X" (output) from "the customer is winning" (outcome). Most teams confuse these.
 - **Lean foundations.** Days 4–5 introduce value stream mapping and bottleneck-identification — practices that travel beyond software.
 - **AI is restored as a delivery aid** — for instance, summarizing standup updates, drafting release notes, surfacing patterns in cycle time.
@@ -39,20 +39,20 @@ By Friday afternoon, each participant can:
 | Clock | Block | Mix |
 |-------|-------|-----|
 | 09:00 – 09:15 | Opening & objectives | Instructor |
-| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min triad work |
+| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min quad work |
 | 10:30 – 10:45 | **Break** | |
-| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min triad work |
+| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min quad work |
 | 12:00 – 13:00 | **Lunch** | |
-| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min triad work |
+| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min quad work |
 | 14:15 – 14:30 | **Break** | |
-| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min triad / 20 min wrap |
+| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min quad / 20 min wrap |
 
 ## The DP template
 
 ```markdown
 # Delivery Plan — <feature>
 **Sibling to:** PRD <link>, TCD <link>, TMD <link>, SEP <link>
-**Authors:** <triad>  |  **Status:** Draft / Reviewed
+**Authors:** <quad>  |  **Status:** Draft / Reviewed
 
 ## 1. Outcome map
 What customer-visible / business outcomes this feature is meant
@@ -78,9 +78,9 @@ Top 2–3 bottlenecks identified with evidence + experiments to test
 removal. Each experiment: hypothesis, test, success criterion.
 ```
 
-## Triads
+## Quads
 
-Same triads from Weeks 1–6. PRD authors → TCD authors → TMD authors → SEP authors → DP authors.
+Same quads from Weeks 1–6. PRD authors → TCD authors → TMD authors → SEP authors → DP authors.
 
 ## Friday review rubric (DP)
 
@@ -95,4 +95,4 @@ Same triads from Weeks 1–6. PRD authors → TCD authors → TMD authors → SE
 
 ## Bridge to Week 8
 
-Week 8 (AI Spec Development & Capstone) is the capstone. Every triad works the same subject — the **Holocron** enterprise string-management problem, supplied as a problem brief — and produces an integrated artifact set. The DP from Week 7 is the **delivery template** the capstone instance will follow. Week 8's "AI Spec Development" topic gets explicit treatment — using AI to draft technical specs that integrate with the PRD/TCD/TMD/SEP/DP artifact set built across Weeks 3–7.
+Week 8 (AI Spec Development & Capstone) is the capstone. Every quad works the same subject — the **Holocron** enterprise string-management problem, supplied as a problem brief — and produces an integrated artifact set. The DP from Week 7 is the **delivery template** the capstone instance will follow. Week 8's "AI Spec Development" topic gets explicit treatment — using AI to draft technical specs that integrate with the PRD/TCD/TMD/SEP/DP artifact set built across Weeks 3–7.

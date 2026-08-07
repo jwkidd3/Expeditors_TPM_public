@@ -1,6 +1,6 @@
 # Day 5 — Technical Trade-Offs & Constraints (TCD Assembly + Review)
 
-> **Activity packet** for your triad. Today's job: name the **top 5 trade-offs** in your architecture (TCD Section 5), build the **stakeholder sign-off matrix** (TCD Section 6), assemble the integrated TCD, peer-review it, and ship it as the sibling artifact to your PRD.
+> **Activity packet** for your quad. Today's job: name the **top 5 trade-offs** in your architecture (TCD Section 5), build the **stakeholder sign-off matrix** (TCD Section 6), assemble the integrated TCD, peer-review it, and ship it as the sibling artifact to your PRD.
 
 ## Where we are in the week
 
@@ -42,19 +42,19 @@ A constraint without an owner is a constraint nobody implements. The sign-off ma
 - The **status**: proposed / discussed / approved
 - The **next step** if status isn't "approved"
 
-This section is the **action list** for Week 6 (stakeholder negotiation). Today the triad pre-loads it with everyone they'll need to talk to.
+This section is the **action list** for Week 6 (stakeholder negotiation). Today the quad pre-loads it with everyone they'll need to talk to.
 
 ---
 
 ## Activity 1 — Surface the Trade-Offs
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Identify the actual trade-offs your architecture made. Most teams under-report — they describe the choice and skip the alternative.
 
 ### Setup
-Each triad needs TCD Sections 1–4 from this week. AI optional; use the Critique-hat prompt if you do.
+Each quad needs TCD Sections 1–4 from this week. AI optional; use the Critique-hat prompt if you do.
 
 ### The five categories of architectural trade-off
 
@@ -70,7 +70,7 @@ For most features, trade-offs fall into one of these:
 
 A well-written Section 5 covers **multiple categories**. A Section 5 with 5 trade-offs all in the same category usually missed real tensions.
 
-### Triad protocol
+### Quad protocol
 
 1. **Brainstorm 8–10 candidate trade-offs** (15 min). Pull from Sections 1–4. Look for places where your TCD said "we chose X" — for each, what was the alternative?
 2. **Categorize each** (5 min). Which of the 5 categories?
@@ -92,13 +92,13 @@ A well-written Section 5 covers **multiple categories**. A Section 5 with 5 trad
 
 ## Activity 2 — Write the Top 5 Trade-Offs
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Convert the structure from Activity 1 into the final Section 5 prose.
 
 ### Setup
-Each triad needs the trade-off sketches from Activity 1 and the Section 5 template. AI optional.
+Each quad needs the trade-off sketches from Activity 1 and the Section 5 template. AI optional.
 
 ### The trade-off template
 
@@ -145,10 +145,10 @@ Each triad needs the trade-off sketches from Activity 1 and the Section 5 templa
         within < 1 second.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Solo drafts** (15 min). Each member drafts 2 of the 5 final trade-offs.
-2. **Pool and refine** (15 min). The triad polishes each — clarity, specificity.
+2. **Pool and refine** (15 min). The quad polishes each — clarity, specificity.
 3. **Consistency check** (10 min). Do the trade-offs **contradict** each other? If yes, that's a finding — surface it.
 
 ### Deliverable
@@ -159,13 +159,13 @@ TCD Section 5 with five fully written trade-offs using the template, plus a note
 
 ## Activity 3 — Stakeholder Sign-Off Matrix
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Build Section 6. Every constraint that requires another team's buy-in goes on the matrix with an owner and a status.
 
 ### Setup
-Each triad needs TCD Sections 1–5 from this week, PRD Section 10 (Dependencies), and any owner names surfaced earlier. AI optional.
+Each quad needs TCD Sections 1–5 from this week, PRD Section 10 (Dependencies), and any owner names surfaced earlier. AI optional.
 
 ### The matrix template
 
@@ -189,7 +189,7 @@ Each triad needs TCD Sections 1–5 from this week, PRD Section 10 (Dependencies
 - **Approved**: Stakeholder said yes (capture how — Slack, meeting note, email)
 - **Blocked**: Stakeholder pushed back; needs different proposal
 
-### Triad protocol
+### Quad protocol
 
 1. **List every constraint that needs sign-off** (15 min). Walk through TCD Sections 1–5; for each load-bearing decision, who has to agree?
 2. **Assign a real person** (10 min). Use names from PRD Section 10 + anyone new. "TBD" is not allowed.
@@ -211,17 +211,17 @@ TCD Section 6 sign-off matrix with at least 6 named entries, each with constrain
 
 ## Activity 4 — Integration + Cross-Review + Sign-Off
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Final TCD assembly. Cross-review by another triad. Internal sign-off. The TCD ships alongside the PRD.
+Final TCD assembly. Cross-review by another quad. Internal sign-off. The TCD ships alongside the PRD.
 
 ### Setup
-Instructor confirms pairings. Each triad needs the full TCD Sections 1–6 draft, the integration checklist, and the Friday TCD rubric.
+Instructor confirms pairings. Each quad needs the full TCD Sections 1–6 draft, the integration checklist, and the Friday TCD rubric.
 
 ### Integration pass (10 min)
 
-As a triad, work the checklist below and fix any inconsistency before the cross-review.
+As a quad, work the checklist below and fix any inconsistency before the cross-review.
 
 | Check | Pass criterion |
 |-------|----------------|
@@ -234,7 +234,7 @@ As a triad, work the checklist below and fix any inconsistency before the cross-
 
 ### Cross-review (20 min)
 
-Pair with another triad. The reviewer focuses on:
+Pair with another quad. The reviewer focuses on:
 
 1. **Is each trade-off really a trade-off** or just a description of the choice?
 2. **Does the stakeholder matrix have any obvious gaps?** (e.g., no security person)
@@ -251,13 +251,13 @@ The reviewer also reads with the **Friday TCD rubric** in mind:
 | Trade-off honesty | 15% | Both sides named; trigger to revisit specified |
 | Stakeholder map | 10% | Owners are people; sign-off status honest |
 
-### Triad action (10 min)
+### Quad action (10 min)
 
 Adopt / defer / reject reviewer findings. Same Week-3 discipline. Update sections.
 
 ### Internal sign-off (5 min)
 
-The triad declares the TCD **Status: Approved** (or "Approved with gaps", as Week 3). The TCD is now a sibling artifact to the PRD.
+The quad declares the TCD **Status: Approved** (or "Approved with gaps", as Week 3). The TCD is now a sibling artifact to the PRD.
 
 ### Deliverable
 
@@ -265,13 +265,13 @@ Signed-off TCD (Status: Approved or Approved with gaps) with adopted cross-revie
 
 ### Wrap (last 15 min)
 
-Each triad shares **one of their five trade-offs**, including the revisit trigger. The cohort gets to hear how others reasoned through architecture decisions.
+Each quad shares **one of their five trade-offs**, including the revisit trigger. The cohort gets to hear how others reasoned through architecture decisions.
 
 ---
 
 ## End-of-week (Week 4) checkpoint
 
-Each triad ships:
+Each quad ships:
 
 - [x] **TCD** with Sections 1–6 complete and integrated
 - [x] **Architecture stance** with trade-off + revisit trigger (Section 1)

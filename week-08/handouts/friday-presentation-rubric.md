@@ -1,12 +1,12 @@
 # Friday Presentation Rubric + Q&A Discipline
 
-> **Day 5 handout.** How your 15-minute capstone presentation is scored, and how to handle the 5-minute Q&A. Review this before you present. Each cohort member scores every triad (peer scores); the instructor scores separately. Final = (peer mean + instructor) / 2.
+> **Day 5 handout.** How your 15-minute capstone presentation is scored, and how to handle the 5-minute Q&A. Review this before you present. Each cohort member scores every quad (peer scores); the instructor scores separately. Final = (peer mean + instructor) / 2.
 
 ---
 
 ## The rubric
 
-Each triad's 15-min presentation is scored **0–4 per dimension**; apply weights for a total out of 4.0. Whole-number scores only.
+Each quad's 15-min presentation is scored **0–4 per dimension**; apply weights for a total out of 4.0. Whole-number scores only.
 
 | Dimension | Weight | Exemplary |
 |-----------|--------|-----------|
@@ -16,9 +16,9 @@ Each triad's 15-min presentation is scored **0–4 per dimension**; apply weight
 | **Trade-off honesty** | 15% | At least 2 trade-offs named with cost + revisit trigger |
 | **Outcome thinking** | 10% | NS / Tier-Sheet / leading indicator vocabulary used naturally |
 | **Delivery readiness** | 10% | DP-light shows backlog, tracking, one bottleneck experiment |
-| **Presentation craft** | 15% | All triad voices speak; time-managed; questions answered with curiosity not defensiveness |
+| **Presentation craft** | 15% | All quad voices speak; time-managed; questions answered with curiosity not defensiveness |
 
-**Scoring discipline (when you score peers):** score *while listening*, not afterward — memory degrades. Keep specific notes per dimension. Score against the rubric, **not against other triads** — don't grade on a curve.
+**Scoring discipline (when you score peers):** score *while listening*, not afterward — memory degrades. Keep specific notes per dimension. Score against the rubric, **not against other quads** — don't grade on a curve.
 
 ---
 
@@ -34,7 +34,7 @@ Each triad's 15-min presentation is scored **0–4 per dimension**; apply weight
 | 2 min | Stakeholder + delivery readiness | SEP-light + DP-light highlights |
 | 2 min | What you'd do differently with more time | Honesty + reflection |
 
-Plus **5 min Q&A.** All three triad voices speak; hold the 15-min limit within 30 seconds.
+Plus **5 min Q&A.** All three quad voices speak; hold the 15-min limit within 30 seconds.
 
 ---
 
@@ -48,4 +48,4 @@ Plus **5 min Q&A.** All three triad voices speak; hold the 15-min limit within 3
 | A question about something out of scope | Acknowledge; reference Section 11 / DP-light "explicitly NOT" |
 | A hostile question | Curiosity, not defense: "What concern would that address?" |
 
-Q&A is part of the rubric (presentation craft). Triads who handle Q&A with **curiosity, not defensiveness**, score high.
+Q&A is part of the rubric (presentation craft). Quads who handle Q&A with **curiosity, not defensiveness**, score high.

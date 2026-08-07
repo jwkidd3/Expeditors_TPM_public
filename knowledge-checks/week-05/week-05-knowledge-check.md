@@ -2,7 +2,7 @@
 
 > A short retention check covering the week's core ideas: data models & access patterns, cloud architecture, REST/SOAP APIs, high-level sequence modeling, and performance baselines, monitoring & AI-summary validation. Answer each question, then check yourself against the key at the end. Aim for concepts, not trivia — every answer maps back to something we used in a lab.
 
-**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or triad.
+**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or quad.
 
 ---
 
@@ -92,7 +92,7 @@
 
 **8. False** — URLs are nouns; the verb is the HTTP method. `POST /share` is wrong; `POST /shares` is right.
 
-**9. B** — Naming the invariant (e.g., "at most one ReconcileEvent per Idempotency-Key per 24h") is the senior-author signal. If a triad can't name the invariant, the weird-path design isn't done.
+**9. B** — Naming the invariant (e.g., "at most one ReconcileEvent per Idempotency-Key per 24h") is the senior-author signal. If a quad can't name the invariant, the weird-path design isn't done.
 
 **10. False** — The user must have a path forward, not a dead-end. A sad path that ends "user is stuck" is not designed — force the recovery action.
 

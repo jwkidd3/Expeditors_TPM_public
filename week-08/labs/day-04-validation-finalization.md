@@ -1,6 +1,6 @@
 # Day 4 — Technical Logic Validation & Finalization
 
-> **Activity packet** for participant triads. Today's job: catch every inconsistency across the artifact set, add the **SEP-light** and **DP-light**, integrate everything, and rehearse the presentation. Tomorrow you present.
+> **Activity packet** for participant quads. Today's job: catch every inconsistency across the artifact set, add the **SEP-light** and **DP-light**, integrate everything, and rehearse the presentation. Tomorrow you present.
 
 ## Where we are in the week
 
@@ -11,7 +11,7 @@ Plus today produces the last 2 documents: **SEP-light** and **DP-light**, in com
 ## Inputs
 
 - All 4 documents from Day 3
-- Day-3 cross-triad findings
+- Day-3 cross-quad findings
 - The SEP / DP templates from Weeks 6–7
 
 ---
@@ -41,20 +41,20 @@ Technical logic validation = **walk every cross-artifact reference** and verify 
 | 6 | Trade-offs don't contradict each other | TCD-light Section 5 |
 | 7 | Stakeholder sign-off captures all constraints | TCD-light Section 6 |
 
-A triad that passes all 7 has a coherent artifact set. Most fail 2–3 on first pass — that's expected; that's why this day exists.
+A quad that passes all 7 has a coherent artifact set. Most fail 2–3 on first pass — that's expected; that's why this day exists.
 
 ---
 
 ## Activity 1 — The 7-Point Validation
 
-**Format:** Triad &bull; **40 min** &bull; Block 1
+**Format:** Quad &bull; **40 min** &bull; Block 1
 
 ### Purpose
 Walk every check; document what passes and what doesn't.
 
-### Triad protocol
+### Quad protocol
 
-For each of the 7 checks, the triad walks the cross-references:
+For each of the 7 checks, the quad walks the cross-references:
 
 1. **Pull both sides of the check** (e.g., for #4: latency SLO target + sequence diagram totals)
 2. **Compare** — do they agree?
@@ -86,7 +86,7 @@ A validation log + updated artifacts.
 
 ## Activity 2 — SEP-Light + DP-Light
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Compressed Weeks 6 + 7 in 40 minutes. SEP-light captures stakeholder + 1 trade-off brief + 1 simulated negotiation; DP-light captures outcome map + backlog skeleton + 1 experiment.
@@ -130,7 +130,7 @@ Top 3 queues identified.
 Hypothesis / test / success criterion for one queue.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **SEP-light** (20 min):
     - 5 min: 3 stakeholders + RACI for the most consequential decision
@@ -153,7 +153,7 @@ Hypothesis / test / success criterion for one queue.
 
 ## Activity 3 — Cross-Artifact Integration Pass
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Read all 6 documents top-to-bottom. Catch any remaining contradictions. Add forward / backward references between artifacts.
@@ -175,7 +175,7 @@ For every cross-artifact reference, confirm:
 - The referenced section **exists** and **says what's claimed**
 - The reference **adds value** (linking provides context the reader needs)
 
-### Triad protocol
+### Quad protocol
 
 1. **Solo read-through** (15 min). Each member reads all 6 documents.
 2. **Pool issues** (10 min).
@@ -191,7 +191,7 @@ For every cross-artifact reference, confirm:
 
 ## Activity 4 — Presentation Rehearsal
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Rehearse the 15-minute Friday presentation. Time it. Get feedback. Fix what doesn't land.
@@ -210,9 +210,9 @@ Rehearse the 15-minute Friday presentation. Time it. Get feedback. Fix what does
 
 Plus 5 min Q&A.
 
-### Triad protocol
+### Quad protocol
 
-1. **Decide who speaks** (5 min). All 3 triad members on stage; assign sections.
+1. **Decide who speaks** (5 min). All 3 quad members on stage; assign sections.
 2. **Run-through #1 with timer** (15 min). One pass; nobody interrupts.
 3. **Capture what didn't work** (10 min). Where did the timer break? Where did a section drag?
 4. **Run-through #2** (15 min). Apply fixes. Time again.
@@ -220,14 +220,14 @@ Plus 5 min Q&A.
 ### What "good" looks like
 
 - The 15-min limit is held (within 30 sec)
-- All three triad voices speak
+- All three quad voices speak
 - The customer + problem section grounds the rest
 - The trade-off section is **defended in business terms**, not technical jargon
 - The "what we'd do differently" section is **honest**, not performative
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - Their **opening sentence**
 - The **section they're least sure of**
@@ -237,7 +237,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 4 with:
+Each quad ends Day 4 with:
 
 - [x] **Validation log** — all 7 checks marked
 - [x] **SEP-light** (1 page)

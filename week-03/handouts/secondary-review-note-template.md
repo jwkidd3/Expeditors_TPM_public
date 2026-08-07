@@ -6,7 +6,7 @@
 
 ```markdown
 # Secondary Review of PRD: <feature name>
-**Reviewer:** <triad>  |  **Authors:** <triad>
+**Reviewer:** <quad>  |  **Authors:** <quad>
 
 ## Final score: [weighted total]
 

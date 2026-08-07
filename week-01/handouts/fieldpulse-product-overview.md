@@ -1,6 +1,6 @@
 # FieldPulse — Product Overview
 
-> **Day 1 ambient context for the Week 1 running case study.** This one-pager is your shared starting point — enough to orient every triad on the same product before the activities begin. It intentionally does *not* diagnose problems or propose features; discovering those is your job across the week.
+> **Day 1 ambient context for the Week 1 running case study.** This one-pager is your shared starting point — enough to orient every quad on the same product before the activities begin. It intentionally does *not* diagnose problems or propose features; discovering those is your job across the week.
 
 ---
 

@@ -12,13 +12,13 @@
 Make sure the room notices Rita — she's the one they should rewrite Diana toward.
 
 **Cues:**
-- Rita is intentionally good. If a triad doesn't notice, ask: "Which of these would you actually use to make a decision?"
-- Tom is the trap — half good, half adjective-salad. Push triads to name the mix specifically, not just call him "mixed."
+- Rita is intentionally good. If a quad doesn't notice, ask: "Which of these would you actually use to make a decision?"
+- Tom is the trap — half good, half adjective-salad. Push quads to name the mix specifically, not just call him "mixed."
 
 ## Activity 2 — Build Your Persona
 
 **Cues:**
-- Watch for triads using AI to fill Boxes 1–4. If they do, ask them to point at the source — the AI invented it.
+- Watch for quads using AI to fill Boxes 1–4. If they do, ask them to point at the source — the AI invented it.
 - The "3 claims to validate" circle is the bridge to Activity 3. If they skip it, they will struggle with the role-play.
 
 ## Activity 3 — Role-Play Interviews
@@ -37,5 +37,5 @@ Keep interviewers from seeing Hidden details in advance — that's the whole exe
 ## Activity 4 — JTBD Cross-Examination
 
 **Cues:**
-- Celebrate triads who drop a claim publicly. This is the hardest thing we ask all week and the most important signal of intellectual honesty.
-- If a triad changes nothing under cross-examination, the cross-examiner was too soft. Coach the cross-examiner before the next pairing.
+- Celebrate quads who drop a claim publicly. This is the hardest thing we ask all week and the most important signal of intellectual honesty.
+- If a quad changes nothing under cross-examination, the cross-examiner was too soft. Coach the cross-examiner before the next pairing.

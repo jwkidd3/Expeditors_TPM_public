@@ -1,6 +1,6 @@
 # Negotiation Rubric
 
-> **Day 5 handout.** The dimensions each triad scores both sides on, every round. Reference this while observing; record scores on the printed score sheet.
+> **Day 5 handout.** The dimensions each quad scores both sides on, every round. Reference this while observing; record scores on the printed score sheet.
 
 ---
 
@@ -26,7 +26,7 @@ Score each dimension on a **1–4 scale** (1 = absent, 2 = attempted, 3 = solid,
 ## Debrief prompts (use each round)
 
 - What was the highest-leverage moment?
-- What did the author triad *not* hear from the stakeholder?
+- What did the author quad *not* hear from the stakeholder?
 - What language did the author use that should be retired?
 - Which trade-space axis did the stakeholder push? Which did the author offer?
 - What's the owner + next step? (Force this — don't let a round end without it.)

@@ -4,7 +4,7 @@
 
 ```markdown
 # Strategy Brief — <Problem area>
-**Triad:** <names>  |  **NS:** <one line>
+**Quad:** <names>  |  **NS:** <one line>
 
 ## Executive summary (5 bullets max, hand-written)
 …
@@ -26,7 +26,7 @@ For each theme:
 - One open question we still need humans for
 
 ## Provenance log
-- Prompts used: link to triad's Pattern Library entries
+- Prompts used: link to quad's Pattern Library entries
 - Manual validation steps taken
 - Where the AI was wrong (named openly)
 ```

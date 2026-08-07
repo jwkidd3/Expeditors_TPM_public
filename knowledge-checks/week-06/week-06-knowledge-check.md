@@ -2,7 +2,7 @@
 
 > A short retention check covering the week's core ideas: stakeholder mapping (Power × Interest, RACI, watch lists), managing engagement, communicating technical trade-offs, AI-augmented meeting prep, and live negotiation. Answer each question, then check yourself against the key at the end. Aim for concepts, not trivia — every answer maps back to something we used in a lab.
 
-**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or triad.
+**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or quad.
 
 ---
 

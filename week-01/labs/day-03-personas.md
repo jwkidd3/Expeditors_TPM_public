@@ -1,17 +1,17 @@
 # Day 3 — Building & Validating Personas
 
-> **Activity packet for participant triads.** Day 3 produces a validated persona per triad and trains the core validation-interview muscle.
+> **Activity packet for participant quads.** Day 3 produces a validated persona per quad and trains the core validation-interview muscle.
 
 ## Prerequisite artifacts (from Day 2)
 
-- Completed triad PR/FAQ (including customer quote, FAQs, Evidence log)
+- Completed quad PR/FAQ (including customer quote, FAQs, Evidence log)
 - "Most worrying unvalidated assumption" sentence from end of Day 2
 
 ## Materials for the day
 
 ### FieldPulse Research Packet (distributed at start of day)
 
-Each triad receives:
+Each quad receives:
 
 1. **Dispatcher Interview A** — "Maria R., 12yr dispatcher, 90-tech shop" (1 page, 8 excerpted quotes, 3 behaviors observed)
 2. **Dispatcher Interview B** — "Trey W., 3yr dispatcher, former tech, 60-tech shop" (1 page, 6 quotes, 2 behaviors)
@@ -21,7 +21,7 @@ Each triad receives:
 
 ### Persona Validation Canvas
 
-Provided as a printable participant handout (one per triad, A3 recommended): `week-01/handouts/persona-validation-canvas.md` (also built to `.pdf`). The canvas has six boxes:
+Provided as a printable participant handout (one per quad, A3 recommended): `week-01/handouts/persona-validation-canvas.md` (also built to `.pdf`). The canvas has six boxes:
 
 1. Role & context
 2. Goals (in their words)
@@ -36,13 +36,13 @@ Each box has a column on the right for evidence tier tags.
 
 ## Activity 1 — Persona Triage
 
-**Format:** Triad &bull; **30 min** &bull; Block 1
+**Format:** Quad &bull; **30 min** &bull; Block 1
 
 ### Purpose
-Calibrate the triad's eye for behavioral vs demographic vs adjectival persona claims before they build their own.
+Calibrate the quad's eye for behavioral vs demographic vs adjectival persona claims before they build their own.
 
 ### Setup
-Your triad has the three provided personas below (also available as the handout `week-01/handouts/sample-personas.md`, one page each). You'll need colored pens or a digital equivalent for marking up claims.
+Your quad has the three provided personas below (also available as the handout `week-01/handouts/sample-personas.md`, one page each). You'll need colored pens or a digital equivalent for marking up claims.
 
 ### Steps
 
@@ -72,7 +72,7 @@ Your triad has the three provided personas below (also available as the handout 
    - "Young, digital native, eager to learn new tools"
    - "Loves to be efficient"
 
-### Triad task (20 min)
+### Quad task (20 min)
 
 For each persona:
 
@@ -88,23 +88,23 @@ For each persona:
 
 ### Deliverable
 
-A marked-up handout per triad plus a one-paragraph rewrite of the weakest persona in the strongest one's behavioral-evidence form.
+A marked-up handout per quad plus a one-paragraph rewrite of the weakest persona in the strongest one's behavioral-evidence form.
 
 ---
 
 ## Activity 2 — Build Your Persona
 
-**Format:** Triad &bull; **45 min** &bull; Block 2
+**Format:** Quad &bull; **45 min** &bull; Block 2
 
 ### Purpose
 Take the FieldPulse Research Packet and produce a canvas-format persona that is evidence-tagged box by box.
 
 ### Setup
-Your triad has the FieldPulse Research Packet (interviews A/B/C + ride-along + analytics) and the Persona Validation Canvas template. AI assistant access required for Boxes 5 and 6 only.
+Your quad has the FieldPulse Research Packet (interviews A/B/C + ride-along + analytics) and the Persona Validation Canvas template. AI assistant access required for Boxes 5 and 6 only.
 
 ### Steps
 
-1. Review the FieldPulse Research Packet as a triad (10 min)
+1. Review the FieldPulse Research Packet as a quad (10 min)
 2. Start with what you know (Boxes 1–4). Tag every claim.
 3. Pull candidate pain points (Box 5) from interviews + ride-along
 4. For Box 6, brainstorm assumptions you're carrying that need validating
@@ -152,20 +152,20 @@ Format: Persona Validation Canvas (6 sections).
 
 ### Deliverable
 
-A completed Persona Validation Canvas per triad: all six boxes filled, evidence-tagged, with three validation targets circled.
+A completed Persona Validation Canvas per quad: all six boxes filled, evidence-tagged, with three validation targets circled.
 
 ---
 
 ## Activity 3 — Role-Play Interviews
 
-**Format:** Triad (rotating roles) &bull; **45 min** &bull; Block 3
+**Format:** Quad (rotating roles) &bull; **45 min** &bull; Block 3
 
 ### Purpose
-Rehearse the validation-interview protocol on three character cards while a third triad member tallies bias traps.
+Rehearse the validation-interview protocol on three character cards while a third quad member tallies bias traps.
 
 ### Setup — character cards
 
-Each triad uses one set of three cards (participant handout `week-01/handouts/dispatcher-character-cards.md`, also built to `.pdf`; print A5). Each card has:
+Each quad uses one set of three cards (participant handout `week-01/handouts/dispatcher-character-cards.md`, also built to `.pdf`; print A5). Each card has:
 
 - **Public surface:** role, company size, tenure — everyone may read
 - **Hidden details:** revealed **only to the "interviewee"** for that round. Interviewers must surface them with good questions — do not read the Hidden section of a card you're interviewing.
@@ -180,9 +180,9 @@ Each triad uses one set of three cards (participant handout `week-01/handouts/di
 
 | Round | Duration | Interviewer | Interviewee | Observer |
 |-------|----------|-------------|-------------|----------|
-| 1 | 7 min + 3 min debrief | Triad member 1 | Triad member 2 (using card) | Triad member 3 |
-| 2 | 7 min + 3 min debrief | Triad member 2 | Triad member 3 | Triad member 1 |
-| 3 | 7 min + 3 min debrief | Triad member 3 | Triad member 1 | Triad member 2 |
+| 1 | 7 min + 3 min debrief | Quad member 1 | Quad member 2 (using card) | Quad member 3 |
+| 2 | 7 min + 3 min debrief | Quad member 2 | Quad member 3 | Quad member 1 |
+| 3 | 7 min + 3 min debrief | Quad member 3 | Quad member 1 | Quad member 2 |
 
 ### The five validation questions (use in order)
 
@@ -203,7 +203,7 @@ Tick for each instance observed:
 | Enthusiasm conflation ("they loved it!") | |
 | Missed opportunity (interviewee hinted; interviewer didn't follow up) | |
 
-### Synthesis (15 min, triad)
+### Synthesis (15 min, quad)
 
 After all three rounds:
 
@@ -213,21 +213,21 @@ After all three rounds:
 
 ### Deliverable
 
-A synthesized list per triad: assumptions confirmed, assumptions broken, and the bias patterns the observer caught most often.
+A synthesized list per quad: assumptions confirmed, assumptions broken, and the bias patterns the observer caught most often.
 
 ---
 
 ## Activity 4 — JTBD Cross-Examination
 
-**Format:** Paired triads &bull; **60 min** &bull; Block 4
+**Format:** Paired quads &bull; **60 min** &bull; Block 4
 
 ### Purpose
-Stress-test the persona by writing JTBDs for it and letting another triad attack them. This is the day's hardest exercise — and the most useful.
+Stress-test the persona by writing JTBDs for it and letting another quad attack them. This is the day's hardest exercise — and the most useful.
 
 ### Setup
-Pair with another triad. Both triads have a completed persona canvas from Activity 2 and need a way to capture the parking lot of open validation questions.
+Pair with another quad. Both quads have a completed persona canvas from Activity 2 and need a way to capture the parking lot of open validation questions.
 
-### Step 1 — Draft JTBDs (15 min, within triad)
+### Step 1 — Draft JTBDs (15 min, within quad)
 
 Write **two Jobs to Be Done** for your persona in the canonical form:
 
@@ -235,7 +235,7 @@ Write **two Jobs to Be Done** for your persona in the canonical form:
 
 ### Step 2 — Cross-examination (25 min each direction)
 
-Triads pair. One presents the persona + 2 JTBDs. The other plays "skeptical engineer" and runs the stress-test checklist:
+Quads pair. One presents the persona + 2 JTBDs. The other plays "skeptical engineer" and runs the stress-test checklist:
 
 1. For each JTBD, can the persona produce a concrete last-time-this-happened story?
 2. Does the persona's current behavior explain what they "hire" today (even if it's paper)?
@@ -244,13 +244,13 @@ Triads pair. One presents the persona + 2 JTBDs. The other plays "skeptical engi
 
 Every "I don't know" goes on a **parking lot of open validation questions**.
 
-### Step 3 — Revise (bring back to own triad, 10 min)
+### Step 3 — Revise (bring back to own quad, 10 min)
 
 - Downgrade or remove unsupported claims
 - Move failed claims to Box 6 (Assumptions) or delete entirely
 - Update evidence tiers
 
-### Readout (60 sec per triad)
+### Readout (60 sec per quad)
 
 > "One claim we upgraded: …. One claim we had to drop: …"
 
@@ -262,11 +262,11 @@ A revised persona canvas with at least one claim upgraded, one downgraded or dro
 
 ## End-of-day checkpoint
 
-- [x] Completed Persona Validation Canvas per triad
+- [x] Completed Persona Validation Canvas per quad
 - [x] At least 5 candidate pain points (tagged, sourced) in Box 5
 - [x] Parking lot of open validation questions saved
-- [x] Observer bias tallies reviewed within each triad
+- [x] Observer bias tallies reviewed within each quad
 
 ## Bridge to Day 4
 
-Box 5 (pain points) is the direct input to Day 4's extraction activity. Each triad should leave Day 3 with **at least 5 candidate pains**, each phrased as verb + circumstance + consequence. Don't let anyone leave without that.
+Box 5 (pain points) is the direct input to Day 4's extraction activity. Each quad should leave Day 3 with **at least 5 candidate pains**, each phrased as verb + circumstance + consequence. Don't let anyone leave without that.

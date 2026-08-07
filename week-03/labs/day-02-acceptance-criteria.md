@@ -1,6 +1,6 @@
 # Day 2 — Writing Granular Acceptance Criteria
 
-> **Activity packet** for participant triads. Today's job: take your Sections 1–5 draft from Day 1 and write 8–12 testable Acceptance Criteria in Given/When/Then form. By 16:00, the AC section is shareable; tomorrow we add NFRs.
+> **Activity packet** for participant quads. Today's job: take your Sections 1–5 draft from Day 1 and write 8–12 testable Acceptance Criteria in Given/When/Then form. By 16:00, the AC section is shareable; tomorrow we add NFRs.
 
 ## Where we are in the week
 
@@ -41,7 +41,7 @@ Then <an observable, falsifiable result>
 | **4. Multi-condition (AND-soup)** | "Then X and Y and Z and W happen" | Split into multiple ACs |
 | **5. Implementation-prescriptive** | "Then a Redis cache hit returns…" | Describe behavior, not implementation |
 
-A good triad will produce AC that fail **none** of these five failure modes.
+A good quad will produce AC that fail **none** of these five failure modes.
 
 ---
 
@@ -55,7 +55,7 @@ A complete AC section covers three categories of scenario:
 | **Sad** | What happens when the user does the wrong thing or input is invalid? | 2–4 |
 | **Weird** | What about network drops, partial data, race conditions, edge cases the user wouldn't think of? | 2–4 |
 
-Triads should aim for **8–12 AC total** with this coverage shape.
+Quads should aim for **8–12 AC total** with this coverage shape.
 
 The "weird path" is where TPMs earn their seat. PMs who don't think technically miss it. Engineers who don't think about users miss it differently.
 
@@ -63,15 +63,15 @@ The "weird path" is where TPMs earn their seat. PMs who don't think technically 
 
 ## Activity 1 — AC Triage
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Calibrate the eye for the 5 failure modes by triaging real-world AC examples before drafting your own.
 
 ### Setup
-Each triad receives the **AC Triage Pack**: 12 AC examples drawn from real (anonymized) PRDs. Some are good. Some have one of the 5 failures. A few have multiple.
+Each quad receives the **AC Triage Pack**: 12 AC examples drawn from real (anonymized) PRDs. Some are good. Some have one of the 5 failures. A few have multiple.
 
-### Triad protocol
+### Quad protocol
 
 1. For each AC: identify which failure mode(s) are present (or "clean")
 2. For each failed AC: rewrite it
@@ -85,7 +85,7 @@ Each triad receives the **AC Triage Pack**: 12 AC examples drawn from real (anon
 - `Given a network drop, When the user submits the form, Then the data is queued via WebSocket retry mechanism.`
 - `Given a duplicate ticket, When the API receives it, Then 409 Conflict is returned with the original ticket ID in the body.`
 
-### Readout (60 seconds per triad)
+### Readout (60 seconds per quad)
 
 > "The most common failure in our pack was [X]. Our cleanest rewrite was [example]."
 
@@ -97,19 +97,19 @@ Each triad receives the **AC Triage Pack**: 12 AC examples drawn from real (anon
 
 ## Activity 2 — Happy-Path AC for Your PRD
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Write the 3–5 happy-path AC for the triad's PRD. These are usually the easiest — get them out of the way first.
+Write the 3–5 happy-path AC for the quad's PRD. These are usually the easiest — get them out of the way first.
 
 ### Setup
-Each triad needs their Section 5 solution sketch from Day 1, the AC template card, and the 5-failure-mode checklist. No AI.
+Each quad needs their Section 5 solution sketch from Day 1, the AC template card, and the 5-failure-mode checklist. No AI.
 
-### Triad protocol
+### Quad protocol
 
 1. **Identify the happy path** (5 min). Re-read Section 5 from yesterday. The 4–8 step flow becomes the basis for AC.
 2. **Solo drafts** (15 min). Each member writes 3 happy-path AC alone.
-3. **Pool, de-dupe, refine** (15 min). The triad converges on 3–5 final happy-path AC.
+3. **Pool, de-dupe, refine** (15 min). The quad converges on 3–5 final happy-path AC.
 4. **Failure-mode check** (5 min). Run each AC through the 5-failure list.
 
 ### What "good" looks like
@@ -138,13 +138,13 @@ Then the reconcile modal opens within 1 second
 
 ## Activity 3 — Sad-Path and Weird-Path AC
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Cover the failure modes — what goes wrong when the user, the network, or the data does something unexpected.
 
 ### Setup
-Each triad needs the happy-path AC from Activity 2 and the sad/weird-path generator prompts. No AI.
+Each quad needs the happy-path AC from Activity 2 and the sad/weird-path generator prompts. No AI.
 
 ### The sad-path generator
 
@@ -165,9 +165,9 @@ For each happy-path AC, ask:
 - What if the **upstream system is down**?
 - What if the **user is at the boundary** (max characters, max items, empty)?
 
-### Triad protocol
+### Quad protocol
 
-1. **Solo sad-path drafts** (10 min). Each member produces 2 sad-path AC for the triad's PRD.
+1. **Solo sad-path drafts** (10 min). Each member produces 2 sad-path AC for the quad's PRD.
 2. **Solo weird-path drafts** (10 min). Each member produces 2 weird-path AC.
 3. **Pool and cull to 4–6** (10 min). 2–4 sad, 2–4 weird.
 4. **Failure-mode check** (10 min). The 5 failure modes again.
@@ -199,23 +199,23 @@ Then the modal opens with the first 25 tickets pre-selected
 
 ## Activity 4 — AC Cross-Review
 
-**Format:** Triad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Apply the calibrated eye to *another triad's* AC. Cross-review surfaces failure modes the author triad has gone blind to.
+Apply the calibrated eye to *another quad's* AC. Cross-review surfaces failure modes the author quad has gone blind to.
 
 ### Setup
-Instructor pre-assigns triad pairs. Each triad needs their own Sections 1–6 (incl. AC) and a printed review template. No AI.
+Instructor pre-assigns quad pairs. Each quad needs their own Sections 1–6 (incl. AC) and a printed review template. No AI.
 
 ### The protocol
 
-1. **Pair triads** (instructor assigns).
+1. **Pair quads** (instructor assigns).
 2. **Swap AC sections** (5 min). Read the other's PRD Sections 1–5 first for context, then their AC.
 3. **Review pass — identify failures** (15 min). For each AC:
     - Which failure mode (if any)?
     - Which path (happy / sad / weird) is *missing*?
-    - Is there an implicit AC the author triad didn't write?
-4. **Author triad responds** (10 min). For each finding: adopt / defer / push back.
+    - Is there an implicit AC the author quad didn't write?
+4. **Author quad responds** (10 min). For each finding: adopt / defer / push back.
 5. **Authors revise** (15 min). Update the AC section.
 
 ### Output
@@ -225,13 +225,13 @@ Instructor pre-assigns triad pairs. Each triad needs their own Sections 1–6 (i
 
 ### Wrap (last 15 min)
 
-Each triad shares **one AC** they're proudest of and **one** they're least sure about. The "least sure" share is the calibration — what does the room think about it?
+Each quad shares **one AC** they're proudest of and **one** they're least sure about. The "least sure" share is the calibration — what does the room think about it?
 
 ---
 
 ## End-of-day checkpoint
 
-Each triad leaves the day with their PRD updated to include:
+Each quad leaves the day with their PRD updated to include:
 
 - [x] Section 6 with **8–12 testable AC** in Given/When/Then form
 - [x] Coverage spans happy / sad / weird paths

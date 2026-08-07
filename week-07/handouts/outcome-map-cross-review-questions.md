@@ -1,8 +1,8 @@
 # Outcome Map Cross-Review Questions
 
-> **Day 1 · Activity 4 handout.** Reviewer triad: read the other triad's outcome map and press on these four questions. The goal is to surface outputs masquerading as outcomes.
+> **Day 1 · Activity 4 handout.** Reviewer quad: read the other quad's outcome map and press on these four questions. The goal is to surface outputs masquerading as outcomes.
 
-You are reviewing another triad's DP Section 1 outcome map. Read it, then ask each question out loud and make them defend the answer.
+You are reviewing another quad's DP Section 1 outcome map. Read it, then ask each question out loud and make them defend the answer.
 
 ## The four questions
 
@@ -15,9 +15,9 @@ You are reviewing another triad's DP Section 1 outcome map. Read it, then ask ea
 
 ## Cross-review protocol
 
-1. **Pair triads** (instructor assigns).
+1. **Pair quads** (instructor assigns).
 2. **20 min cross-review** using the four questions above.
-3. **15 min author-triad revisions** based on what surfaced.
+3. **15 min author-quad revisions** based on what surfaced.
 
 ## AI sanity check (optional, 10 min)
 

@@ -1,6 +1,6 @@
 # Week-2 Feature Cards — FieldPulse Dispatcher Workflow
 
-> **Day 1 · Activity 1 handout.** Three candidate feature concepts your triad carries from Week 2. Re-read all three aloud, score each on the four dimensions, then commit to exactly one to PRD this week. (If your triad produced its own Week-2 cards, use those instead — these are a backstop set grounded in the FieldPulse canon.)
+> **Day 1 · Activity 1 handout.** Three candidate feature concepts your quad carries from Week 2. Re-read all three aloud, score each on the four dimensions, then commit to exactly one to PRD this week. (If your quad produced its own Week-2 cards, use those instead — these are a backstop set grounded in the FieldPulse canon.)
 
 Each card is one candidate. None is "the right answer" — the discipline of choosing is the work.
 

@@ -1,6 +1,6 @@
 # Review-Resolution Log Template
 
-> **Day 5 · Activity 3 handout.** The author triad's log of what happened to every review finding: adopted, deferred, or pushed back — each with reasoning. This is the evidence of the process, and it's what the secondary reviewer honesty-checks in the afternoon.
+> **Day 5 · Activity 3 handout.** The author quad's log of what happened to every review finding: adopted, deferred, or pushed back — each with reasoning. This is the evidence of the process, and it's what the secondary reviewer honesty-checks in the afternoon.
 
 ---
 
@@ -9,7 +9,7 @@
 ```markdown
 ## Friday review-resolution log
 
-**Reviewers (AM):** Triad B, Triad C
+**Reviewers (AM):** Quad B, Quad C
 **Total scores:** B = 3.1 / C = 2.8 → addressed below
 
 ### Adopted (changes made)

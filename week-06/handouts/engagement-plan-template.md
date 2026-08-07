@@ -52,7 +52,7 @@ Specific beats vague: "approve the SLO" beats "review the doc."
 
 ## Engagement anti-patterns — self-diagnostic
 
-Rate your triad H / M / L on susceptibility to each, then bake a counter-measure into the plan.
+Rate your quad H / M / L on susceptibility to each, then bake a counter-measure into the plan.
 
 | Anti-pattern | Symptom | Counter-measure |
 |--------------|---------|-----------------|

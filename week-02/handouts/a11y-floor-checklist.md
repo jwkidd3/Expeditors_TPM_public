@@ -17,7 +17,7 @@
 
 ---
 
-## How to run it (triad protocol)
+## How to run it (quad protocol)
 
 1. Open the FieldPulse mobile app (or your chosen surface) on each member's device.
 2. Split the checks so all 8 are covered, plus one overlap — each member runs 3 of the 8.

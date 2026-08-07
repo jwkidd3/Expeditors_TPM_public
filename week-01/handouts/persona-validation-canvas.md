@@ -1,6 +1,6 @@
 # Persona Validation Canvas
 
-> **Day 3 · Activity 2 template.** One canvas per triad (A3 recommended if printed). Fill Boxes 1–4 from what you know, pull Box 5 from the Research Packet, brainstorm Box 6. **Tag every claim with an evidence tier**, then circle the **3 claims you'd most want to validate with a real dispatcher.**
+> **Day 3 · Activity 2 template.** One canvas per quad (A3 recommended if printed). Fill Boxes 1–4 from what you know, pull Box 5 from the Research Packet, brainstorm Box 6. **Tag every claim with an evidence tier**, then circle the **3 claims you'd most want to validate with a real dispatcher.**
 >
 > Evidence tiers: **Observed** › **Reported** › **Inferred** › **AI-generated** (lowest). AI-generated claims may *seed* a box but must move to a higher tier before Friday's readout.
 

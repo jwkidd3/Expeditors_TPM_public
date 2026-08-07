@@ -1,12 +1,12 @@
 # Review Document Template
 
-> **Day 5 · Activity 1 handout.** The primary-review deliverable. Each reviewing triad fills one of these independently (two reviewing triads per PRD, no coordination). Score with the Friday rubric, then give three strengths, five specific findings, and the questions you'll ask in the clarifying conversation.
+> **Day 5 · Activity 1 handout.** The primary-review deliverable. Each reviewing quad fills one of these independently (two reviewing quads per PRD, no coordination). Score with the Friday rubric, then give three strengths, five specific findings, and the questions you'll ask in the clarifying conversation.
 
 ---
 
 ```markdown
 # Review of PRD: <feature name>
-**Reviewers:** <reviewer triad>  |  **PRD authors:** <author triad>  |  **Date:** <today>
+**Reviewers:** <reviewer quad>  |  **PRD authors:** <author quad>  |  **Date:** <today>
 
 ## Scores (0–4 per dimension)
 
@@ -55,7 +55,7 @@ For each: cite the section / line, name the problem, propose the fix.
    - Why it matters:
    - Suggested fix:
 
-## Open questions for the author triad
+## Open questions for the author quad
 > Things we'd ask in the in-person clarifying conversation (Block 2).
 ```
 

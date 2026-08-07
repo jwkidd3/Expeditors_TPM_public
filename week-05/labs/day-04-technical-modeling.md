@@ -1,6 +1,6 @@
 # Day 4 — High-Level Technical Modeling
 
-> **Activity packet** for participant triads. Today's job: tie data, cloud, and API together into a **sequence diagram** that names every hop, protocol, and failure handler. Plus 1–2 sad/weird-path sequences. This is TMD Section 4.
+> **Activity packet** for participant quads. Today's job: tie data, cloud, and API together into a **sequence diagram** that names every hop, protocol, and failure handler. Plus 1–2 sad/weird-path sequences. This is TMD Section 4.
 
 ## Where we are in the week
 
@@ -64,15 +64,15 @@ Sad and weird paths can be sketched more abbreviated than the happy path — the
 
 ## Activity 1 — Happy-Path Sequence
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Draw the central happy-path sequence diagram. Every lifeline, every arrow, every protocol.
 
 ### Setup
-Each triad needs TCD Section 2 (Container diagram), TMD Sections 1–3, the TCD Section 4 latency-budget walk, and whiteboard or paper. AI optional.
+Each quad needs TCD Section 2 (Container diagram), TMD Sections 1–3, the TCD Section 4 latency-budget walk, and whiteboard or paper. AI optional.
 
-### Triad protocol
+### Quad protocol
 
 1. **Identify the actors** (5 min). Pull from TCD Section 2 + TMD Section 2 + Section 3. Examples for FieldPulse reconcile:
     - Dispatcher (user)
@@ -85,7 +85,7 @@ Each triad needs TCD Section 2 (Container diagram), TMD Sections 1–3, the TCD 
 2. **Order the lifelines** (5 min). Caller on the left; called on the right.
 3. **Draw the messages** (15 min). Solid for sync, dashed for async. Label with method + path.
 4. **Annotate latency budget per arrow** (5 min). Pull from yesterday's TCD Section 4 latency-budget walk.
-5. **The 60-second test** (5 min). Walk the diagram aloud to another triad in 60 seconds.
+5. **The 60-second test** (5 min). Walk the diagram aloud to another quad in 60 seconds.
 
 ### Worked example — FieldPulse reconcile happy path
 
@@ -126,25 +126,26 @@ Dispatcher    Mobile      API GW    Reconcile    Tickets    Postgres   EventHubs
 
 A happy-path sequence diagram with labeled lifelines, protocols, per-arrow latency annotations, and a total that matches the TCD Section 4 SLO.
 
+
 ---
 
 ## Activity 2 — Sad-Path Sequence
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Pick the most consequential sad path from your AC — usually a user-error scenario — and draw the sequence.
 
 ### Setup
-Each triad needs PRD Section 6 sad-path AC, TMD Section 3 (API error codes), and the happy-path sequence from Activity 1.
+Each quad needs PRD Section 6 sad-path AC, TMD Section 3 (API error codes), and the happy-path sequence from Activity 1.
 
-### Triad protocol
+### Quad protocol
 
 1. **Pick the sad path** (5 min). From PRD Section 6 sad-path AC. Examples: "user submits with no tickets selected"; "user lacks permission"; "ticket already reconciled by someone else".
 2. **Draw the divergence** (20 min). The sad path usually shares the first 1–2 arrows with the happy path, then branches. Draw from the divergence point.
 3. **Show the user-visible result** (5 min). What does the user see? What status code? What error body?
 4. **Annotate** (5 min). What's the user's recovery action?
-5. **The 30-second walk** (5 min). To another triad.
+5. **The 30-second walk** (5 min). To another quad.
 
 ### Worked example — sad path: ticket already reconciled
 
@@ -179,17 +180,51 @@ A sad-path sequence diagram with the divergence point marked, the user-visible e
 
 ---
 
+## Activity 2B — Solo Sequence Drill *(ad hoc)*
+
+**Format:** Solo (individual) &bull; **40 min** &bull; pre-lunch block — start it in the last slot before lunch; because it's solo, you may carry it into the break at your own pace and pick up after.
+
+### Purpose
+Every quad member should be able to draw a sequence diagram — not just whoever drove Activities 1–2. This solo block builds individual fluency and widens your quad's path coverage: each person drills a flow the quad **hasn't drawn yet**.
+
+### Setup
+Work alone. You need the day's reference (lifelines / arrows / protocols / latency), your **TMD Section 3** API contract, your **PRD Section 6** acceptance criteria, and the quad's Activity-1 happy path as a reference (don't copy it). Each quad member picks a **different** flow.
+
+### Steps
+
+1. **Pick an uncovered flow** (5 min). Something the quad hasn't drawn — a second sad path, an alternate happy flow (e.g., offline draft → later sync), or a boundary/weird case from your AC's "weird" coverage.
+2. **Draw it solo** (25 min). Full sequence from the divergence point: labeled lifelines (5–12), ordered arrows with a **protocol on each**, a **failure handler on every external/async call**, and per-arrow latency where it matters. Note which acceptance criterion it satisfies.
+3. **Self-check** (10 min):
+    - Every arrow named + protocol labeled?
+    - A failure handler on each external/async call — no silent failure?
+    - Latency annotated; does the sum respect the TCD Section 4 SLO?
+    - Does it trace to a specific acceptance criterion?
+    - 5–12 lifelines, 10–25 arrows — readable, not a wall?
+
+### Deliverable
+One individually-drawn, self-checked sequence diagram per person. After lunch, **present it to your team** — together you'll choose which of the solo sequences to add to your TMD Section 4 to widen your path coverage.
+
+### Common failure modes
+- Redrawing the happy path everyone already has — pick something new.
+- Dropping the failure handlers — that coverage is the whole point.
+- Too many lifelines → unreadable; abstract the minor services.
+- No latency annotations → you can't check it against the SLO.
+
+> **Scheduling:** this adds a solo 40-min block. Run it as the last block before lunch so it flexes across the break (solo work needs no coordination). If the day is tight, recover the time by trimming Activity 4's AI critique.
+
+---
+
 ## Activity 3 — Weird-Path Sequence
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Draw a weird-path sequence — network drop, race, timeout, or boundary case.
 
 ### Setup
-Each triad needs PRD Section 6 weird-path AC, TMD Section 3 (idempotency approach), and the happy-path diagram for reference.
+Each quad needs PRD Section 6 weird-path AC, TMD Section 3 (idempotency approach), and the happy-path diagram for reference.
 
-### Triad protocol
+### Quad protocol
 
 1. **Pick the weird path** (5 min). From PRD Section 6 weird-path AC.
     - Network drop mid-submit
@@ -198,7 +233,7 @@ Each triad needs PRD Section 6 weird-path AC, TMD Section 3 (idempotency approac
     - Boundary: 47 tickets when modal can list 25
 2. **Draw the divergence + recovery** (25 min). Weird paths often need to show retry, idempotency, or fallback behavior.
 3. **Annotate the system invariants that hold** (5 min). What can the user trust to be true even in this case?
-4. **Walk it** (5 min) to another triad.
+4. **Walk it** (5 min) to another quad.
 
 ### Worked example — weird path: network drop mid-submit
 
@@ -242,23 +277,23 @@ A weird-path sequence diagram with a named invariant, visible recovery, and the 
 
 ## Activity 4 — Cross-Review + AI Sequence Critique
 
-**Format:** Triad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Cross-review the three sequences with another triad. Then use AI to surface what was missed.
+Cross-review the three sequences with another quad. Then use AI to surface what was missed.
 
 ### Setup
-Instructor pairs triads. Each pair needs all three sequence diagrams in text form (for AI input) plus the cross-review prompt. AI required for the critique.
+Instructor pairs quads. Each pair needs all three sequence diagrams in text form (for AI input) plus the cross-review prompt. AI required for the critique.
 
 ### Cross-review protocol (20 min)
 
-The reviewer triad reads the three sequences with these questions:
+The reviewer quad reads the three sequences with these questions:
 
 1. **Happy path:** does the latency add up? Are protocols consistent with Section 3?
 2. **Sad path:** does the user have a clear recovery action?
 3. **Weird path:** is an invariant named? Is the recovery actually safe?
 
-The author triad listens, captures, decides what to address.
+The author quad listens, captures, decides what to address.
 
 ### AI critique prompt
 
@@ -279,7 +314,7 @@ Constraints:
 Format: Three sections; ranked items in each.
 ```
 
-### Triad action (15 min)
+### Quad action (15 min)
 
 Adopt / defer / reject. Update the diagrams. Provenance note.
 
@@ -289,7 +324,7 @@ Updated TMD Section 4 with all three sequences, adopted cross-review and AI find
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - The **invariant** they're proudest of (from the weird path)
 - The **arrow** AI surfaced as missing
@@ -299,11 +334,11 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 4 with:
+Each quad ends Day 4 with:
 
 - [x] **Happy-path sequence** with lifelines, protocols, latencies
 - [x] **Sad-path sequence** with status code, error body, recovery
 - [x] **Weird-path sequence** with invariant + recovery
-- [x] Cross-reviewed with another triad
+- [x] Cross-reviewed with another quad
 - [x] AI provenance log entry
 - [x] TMD Section 4 drafted (with all three sequence diagrams)

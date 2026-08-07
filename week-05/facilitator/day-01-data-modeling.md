@@ -6,8 +6,8 @@
 
 **Cues:**
 
-- "Freshness req. = real-time" is rare. Most B2B features tolerate last-minute. Force triads to defend "real-time" claims.
-- If a triad lists writes without invariants, push them: "what would you never want to allow?" That's the invariant.
+- "Freshness req. = real-time" is rare. Most B2B features tolerate last-minute. Force quads to defend "real-time" claims.
+- If a quad lists writes without invariants, push them: "what would you never want to allow?" That's the invariant.
 
 ## Activity 2 — Draft the Entity Model
 
@@ -32,7 +32,7 @@
 
 ## End-of-day reflection prompts
 
-- Which triad's access patterns drove the model most cleanly? Surface as Friday positive example.
+- Which quad's access patterns drove the model most cleanly? Surface as Friday positive example.
 - Did anyone design the schema before writing queries? Coach back.
 - Did anyone propose a "real-time" freshness requirement without defending it? Most rookie mistake.
 - Did the cohort use AI as critic, not oracle?

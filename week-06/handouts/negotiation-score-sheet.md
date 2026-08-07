@@ -1,12 +1,12 @@
 # Negotiation Score Sheet
 
-> **Day 5 handout.** One printed sheet per round, per side. Score each dimension 1–4 using the rubric, weight it, and total out of 4.0. Note one strength and one thing to sharpen. Hand totals to the author triad for their SEP Section 5 outcomes log.
+> **Day 5 handout.** One printed sheet per round, per side. Score each dimension 1–4 using the rubric, weight it, and total out of 4.0. Note one strength and one thing to sharpen. Hand totals to the author quad for their SEP Section 5 outcomes log.
 
 ---
 
 ## Round: ____   Side scored:  ☐ Author   ☐ Stakeholder
 
-**Author triad:** ______________  **Stakeholder triad:** ______________
+**Author quad:** ______________  **Stakeholder quad:** ______________
 **Stakeholder role played:** ______________  **Topic:** ______________
 
 ### Scores (1 = absent · 2 = attempted · 3 = solid · 4 = exemplary)

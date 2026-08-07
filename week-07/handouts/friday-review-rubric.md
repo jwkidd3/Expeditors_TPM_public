@@ -19,9 +19,9 @@ Score **0–4** per dimension. Apply weights for a total out of **4.0**.
 
 ## Cross-review protocol (40 min)
 
-1. **Pair triads** (5 min). Same pair as prior weeks if possible.
+1. **Pair quads** (5 min). Same pair as prior weeks if possible.
 2. **20 min cross-read** with the rubric.
-3. **10 min author-triad responds** to feedback.
+3. **10 min author-quad responds** to feedback.
 4. **5 min final score** captured.
 
 ## Score-capture line

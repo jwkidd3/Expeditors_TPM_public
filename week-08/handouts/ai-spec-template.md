@@ -7,7 +7,7 @@
 ```markdown
 # AI Spec — <feature>
 **Sibling to:** PRD <link>, TCD <link>, TMD <link>, SEP <link>, DP <link>
-**Authors:** <triad>  |  **Status:** Draft / Reviewed
+**Authors:** <quad>  |  **Status:** Draft / Reviewed
 **AI Provenance:** see end-of-doc log
 
 ## 1. Headline

@@ -169,29 +169,22 @@ vertical-align: middle;
   <style>
 @page { size: Letter; margin: 0.75in; }
 * { box-sizing: border-box; }
-body { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-font-size: 11pt; line-height: 1.45; color: #1a202c; max-width: 100%; margin: 0; }
+body { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11pt; line-height: 1.45; color: #1a202c; margin: 0; }
 h1 { font-size: 20pt; color: #1a365d; border-bottom: 3px solid #2b6cb0; padding-bottom: 6px; margin: 0 0 14px; }
 h2 { font-size: 15pt; color: #2b6cb0; margin: 20px 0 8px; border-bottom: 1px solid #cbd5e0; padding-bottom: 3px; }
 h3 { font-size: 12.5pt; color: #2c5282; margin: 15px 0 6px; }
 h4 { font-size: 11pt; color: #2d3748; margin: 12px 0 5px; }
 p, li { margin: 4px 0; }
 ul, ol { margin: 6px 0 6px 22px; }
-code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 9.5pt;
-background: #edf2f7; padding: 1px 4px; border-radius: 3px; }
-pre { background: #1a202c; color: #e2e8f0; padding: 12px 14px; border-radius: 6px;
-overflow-x: auto; font-size: 9pt; line-height: 1.4; page-break-inside: avoid; }
-pre code { background: none; color: inherit; padding: 0; }
-blockquote { border-left: 4px solid #2b6cb0; background: #ebf8ff; margin: 10px 0;
-padding: 8px 14px; color: #2a4365; }
-table { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 10pt;
-page-break-inside: avoid; }
+code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 9.5pt; background: #edf2f7; color: #1a202c; padding: 1px 4px; border-radius: 3px; }
+pre { background: #f4f4f7; color: #1a202c; padding: 12px 14px; border-radius: 6px; border: 1px solid #d4d4dc; overflow-x: auto; font-size: 9pt; line-height: 1.4; page-break-inside: avoid; white-space: pre-wrap; }
+pre code { background: none; color: #1a202c; padding: 0; }
+blockquote { border-left: 4px solid #2b6cb0; background: #ebf8ff; margin: 10px 0; padding: 8px 14px; color: #2a4365; }
+table { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 10pt; page-break-inside: avoid; }
 th { background: #2b6cb0; color: #fff; text-align: left; padding: 6px 9px; }
 td { border: 1px solid #cbd5e0; padding: 6px 9px; vertical-align: top; }
 tr:nth-child(even) td { background: #f7fafc; }
 hr { border: none; border-top: 1px solid #cbd5e0; margin: 18px 0; }
-strong { color: #1a202c; }
-a { color: #2b6cb0; text-decoration: none; }
 h1,h2,h3,h4 { page-break-after: avoid; }
 </style>
 </head>
@@ -207,7 +200,7 @@ check yourself against the key at the end. Aim for concepts, not trivia
 — every answer maps back to something we used in the capstone.</p>
 </blockquote>
 <p><strong>Format:</strong> 12 questions (multiple choice + true/false).
-~15 minutes. Individual or triad.</p>
+~15 minutes. Individual or quad.</p>
 <hr />
 <h2 id="questions">Questions</h2>
 <p><strong>1. (MC)</strong> In the AI Spec Development pattern, the
@@ -251,8 +244,8 @@ quotes</li>
 <li>C) The headline and the section titles</li>
 <li>D) The provenance log entries</li>
 </ul>
-<p><strong>6. (T/F)</strong> In the Day-3 cross-triad spot-check, a
-reviewer triad that reads the AI Spec and reports &quot;looks fine&quot; without
+<p><strong>6. (T/F)</strong> In the Day-3 cross-quad spot-check, a
+reviewer quad that reads the AI Spec and reports &quot;looks fine&quot; without
 checking claims against the source has done its job correctly.</p>
 <p><strong>7. (MC)</strong> The 7-point technical-logic validation on
 Day 4 exists mainly to check:</p>
@@ -262,7 +255,7 @@ Day 4 exists mainly to check:</p>
 <li>C) That the AI Spec matches the presentation deck word-for-word</li>
 <li>D) That grammar and formatting are consistent across documents</li>
 </ul>
-<p><strong>8. (T/F)</strong> Most triads pass all 7 technical-logic
+<p><strong>8. (T/F)</strong> Most quads pass all 7 technical-logic
 checks on the first pass.</p>
 <p><strong>9. (MC)</strong> In the cross-artifact integration pass, a
 good cross-reference must be:</p>
@@ -280,7 +273,7 @@ dimension carries the single highest weight?</p>
 <li>C) Trade-off honesty (15%)</li>
 <li>D) Presentation craft (15%)</li>
 </ul>
-<p><strong>11. (T/F)</strong> Triads are scored on a curve — ranked
+<p><strong>11. (T/F)</strong> Quads are scored on a curve — ranked
 against one another so the scores spread out.</p>
 <p><strong>12. (MC)</strong> During Q&amp;A, when asked a specific
 question you cannot answer, the disciplined response is:</p>
@@ -313,7 +306,7 @@ against the source is the failure mode.</p>
 <p><strong>7. B</strong> — Each artifact may be fine on its own; the 7
 checks ask whether they fit together (e.g., SLO budget fits the sequence
 diagram, data model supports the API).</p>
-<p><strong>8. False</strong> — Most triads fail 2–3 checks on the first
+<p><strong>8. False</strong> — Most quads fail 2–3 checks on the first
 pass. That&#39;s expected — that&#39;s why the finalization day exists.</p>
 <p><strong>9. B</strong> — Specific (cite the Section), verified, and
 adds value. &quot;See the TCD&quot; without a section number is a sign the writer
@@ -322,8 +315,8 @@ never actually verified it.</p>
 highest-weighted dimension — the week&#39;s signature artifact carries the
 most weight.</p>
 <p><strong>11. False</strong> — Score against the rubric, not against
-other triads. Whole-number scores, no curve: if two triads earn 3.5,
-both are 3.5.</p>
+other quads. Whole-number scores, no curve: if two quads earn 3.5, both
+are 3.5.</p>
 <p><strong>12. B</strong> — &quot;Honestly, I don&#39;t know — here&#39;s what we&#39;d
 do to find out.&quot; Curiosity, not defensiveness; a well-handled &quot;I don&#39;t
 know&quot; beats a hand-wave.</p>

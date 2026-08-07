@@ -1,12 +1,12 @@
 # PRD Template
 
-> **Day 1 · Activity 2 handout.** The 11-section PRD skeleton your triad drafts across Week 3. Print it, pin it, fill it section by section. Sections carry a `[Day X]` tag telling you when each gets written.
+> **Day 1 · Activity 2 handout.** The 11-section PRD skeleton your quad drafts across Week 3. Print it, pin it, fill it section by section. Sections carry a `[Day X]` tag telling you when each gets written.
 
 ---
 
 ```markdown
 # PRD — <Feature name>
-**Author triad:** <names>  |  **Date:** <date>  |  **Status:** Draft
+**Author quad:** <names>  |  **Date:** <date>  |  **Status:** Draft
 
 ## 1. Context                       [Day 1]
 Why this work (customer signal) · Why now (strategic fit) · What changed.

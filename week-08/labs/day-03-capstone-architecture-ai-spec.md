@@ -1,10 +1,10 @@
 # Day 3 — Capstone Architecture + AI Spec Drafted
 
-> **Activity packet** for participant triads. Today's job: produce **TCD-light + TMD-light**, then run the **AI Spec 5-prompt sequence** on the capstone to produce AI Spec v1. The most ambitious day of the week.
+> **Activity packet** for participant quads. Today's job: produce **TCD-light + TMD-light**, then run the **AI Spec 5-prompt sequence** on the capstone to produce AI Spec v1. The most ambitious day of the week.
 
 ## Where we are in the week
 
-PRD-light shipped yesterday. Today compresses Weeks 4–5 into one day, then applies Day-1's AI Spec pattern to integrate everything. By 16:00, every triad has 4 documents: PRD-light, TCD-light, TMD-light, and AI Spec v1.
+PRD-light shipped yesterday. Today compresses Weeks 4–5 into one day, then applies Day-1's AI Spec pattern to integrate everything. By 16:00, every quad has 4 documents: PRD-light, TCD-light, TMD-light, and AI Spec v1.
 
 ## Inputs
 
@@ -82,12 +82,12 @@ Happy path; 1 sad path; 1 weird path with named invariant.
 
 ## Activity 1 — TCD-light
 
-**Format:** Triad &bull; **40 min** &bull; Block 1
+**Format:** Quad &bull; **40 min** &bull; Block 1
 
 ### Purpose
 Compressed Week-4 work in 40 minutes. Architecture stance + integration + threat model + SLOs + top trade-offs + sign-off.
 
-### Triad protocol
+### Quad protocol
 
 1. **Architecture stance** (10 min). 1 paragraph applying the three-question frame (deploy / failure / scale).
 2. **Integration map** (10 min). Pull from PRD-light Section 10 (deps) + sketch from Day 2. Sync/async + R/W + failure handling.
@@ -107,12 +107,12 @@ Compressed Week-4 work in 40 minutes. Architecture stance + integration + threat
 
 ## Activity 2 — TMD-light
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Compressed Week-5 work in 40 minutes. Data + cloud + API + sequence + monitoring.
 
-### Triad protocol
+### Quad protocol
 
 1. **Data model** (10 min). 3–5 entities with PK + key indexes + relationships. 1 storage trade-off (often: normalize vs denormalize).
 2. **Cloud topology** (10 min). Region / managed vs self / tenancy / network. ROM cost — even rough.
@@ -132,12 +132,12 @@ Compressed Week-5 work in 40 minutes. Data + cloud + API + sequence + monitoring
 
 ## Activity 3 — Run the 5-Prompt AI Spec Sequence
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Apply the Day-1-rehearsed sequence to the Holocron capstone.
 
-### Triad protocol
+### Quad protocol
 
 Same 5 prompts as Day 1, with capstone inputs this time:
 
@@ -160,19 +160,19 @@ AI Spec v1 — assembled from the 5 outputs, plus the provenance log.
 
 ---
 
-## Activity 4 — Cross-Triad Spot-Check + Day-4 Setup
+## Activity 4 — Cross-Quad Spot-Check + Day-4 Setup
 
-**Format:** Triad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
-Cross-triads validate each other's AI Specs against the source artifacts. Catch what the author triad missed.
+Cross-quads validate each other's AI Specs against the source artifacts. Catch what the author quad missed.
 
 ### Cross-validation protocol
 
-1. **Pair triads** (5 min).
-2. **Reviewer triad receives** the source PRD-light + TCD-light + TMD-light AND the AI Spec v1.
-3. **20 min validation pass:** the reviewer triad takes 5–10 specific claims from the AI Spec and checks each against the source. Mark wrong / partly right / right.
-4. **5 min author triad listens** to findings.
+1. **Pair quads** (5 min).
+2. **Reviewer quad receives** the source PRD-light + TCD-light + TMD-light AND the AI Spec v1.
+3. **20 min validation pass:** the reviewer quad takes 5–10 specific claims from the AI Spec and checks each against the source. Mark wrong / partly right / right.
+4. **5 min author quad listens** to findings.
 5. **15 min author revises** AI Spec.
 
 ### Day-4 setup (last 5 min, before wrap)
@@ -185,21 +185,21 @@ Tomorrow's job: technical logic validation + finalization. Plan ahead.
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - The **AI Spec section** they're proudest of
-- The **claim** the cross-triad caught as wrong / weak
+- The **claim** the cross-quad caught as wrong / weak
 - One **gap** they want to address tomorrow
 
 ---
 
 ## End-of-day checkpoint
 
-Each triad ends Day 3 with:
+Each quad ends Day 3 with:
 
 - [x] **TCD-light** (1.5 pages)
 - [x] **TMD-light** (1.5 pages)
 - [x] **AI Spec v1** (assembled from 5-prompt sequence)
-- [x] Cross-triad validation findings captured
+- [x] Cross-quad validation findings captured
 - [x] Provenance log entry
 - [x] Day-4 plan

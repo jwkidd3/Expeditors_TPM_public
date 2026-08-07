@@ -1,13 +1,13 @@
 # Day 1 — Monolith vs Microservices
 
-> **Activity packet** for your triad. Today's job: frame the monolith-vs-microservices conversation in **business and operational terms** — not framework hype — and write the architecture stance section of your TCD.
+> **Activity packet** for your quad. Today's job: frame the monolith-vs-microservices conversation in **business and operational terms** — not framework hype — and write the architecture stance section of your TCD.
 
 ## Where we are in the week
 
 Week 4 opens by asking: *given the PRD's NFRs, where does this feature belong in the system?* The answer is a **stance**, not a final architectural decision. The architect makes the call; the TPM names the constraints that should drive it.
 
 Inputs from prior weeks:
-- Your triad's locked PRD (Week 3 deliverable)
+- Your quad's locked PRD (Week 3 deliverable)
 - The NFRs in PRD Section 7
 - The integration / dependency list in PRD Section 10
 
@@ -63,13 +63,13 @@ The TPM's job is to **surface the business cost** of premature service-orientati
 
 ## Activity 1 — Mono/Micro Triage
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Calibrate the room on the three-question frame using public-company examples before applying it to your PRD feature.
 
 ### Setup
-Each triad receives the 8-card triage pack and a stamp sheet for the four stances (Monolith / Microservice / Modular monolith / Need more info).
+Each quad receives the 8-card triage pack and a stamp sheet for the four stances (Monolith / Microservice / Modular monolith / Need more info).
 
 ### The triage pack (8 examples, anonymized)
 
@@ -84,13 +84,13 @@ For each, apply the three-question frame and stamp **Monolith fits / Microservic
 7. A small-team's first internal tool, built next to the main app
 8. A feature whose load triples every World Cup but is otherwise small
 
-### Triad protocol
+### Quad protocol
 
 1. Stamp each card (15 min)
 2. Pick the **2 cards with the strongest case** for separation, and the **2 with the strongest case for staying together** (10 min)
-3. Identify **1 card** where your triad disagreed (10 min); be ready to explain the disagreement
+3. Identify **1 card** where your quad disagreed (10 min); be ready to explain the disagreement
 
-### Readout (60 sec per triad)
+### Readout (60 sec per quad)
 
 > "The clearest case for separation was [X] because [reason]. The clearest case for staying together was [Y] because [reason]. We disagreed about [Z] — the unresolved question is [...]."
 
@@ -102,15 +102,15 @@ Stamped triage pack with reasoning for the two strongest "separate" cases, two s
 
 ## Activity 2 — Apply the Frame to Your PRD Feature
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Run the three-question frame against your triad's locked PRD feature and draft Section 1 of the TCD.
+Run the three-question frame against your quad's locked PRD feature and draft Section 1 of the TCD.
 
 ### Setup
-Each triad needs their locked PRD (especially Section 10 Dependencies) and the TCD Section 1 template. AI optional but governed by Week-2 Day-4 provenance rules.
+Each quad needs their locked PRD (especially Section 10 Dependencies) and the TCD Section 1 template. AI optional but governed by Week-2 Day-4 provenance rules.
 
-### Triad protocol
+### Quad protocol
 
 1. **Re-read PRD Section 10 (Dependencies)** (5 min). Which systems does the feature touch?
 2. **Three-question pass** (15 min). For each of the three questions, write a 2-sentence honest answer with evidence. "We don't know" is allowed and informative.
@@ -146,13 +146,13 @@ TCD Section 1 (Architecture stance) drafted: stance, three-question answers with
 
 ## Activity 3 — Integration Map (first pass)
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Begin Section 2 of the TCD by listing the systems your feature depends on or extends. Wednesday will draw the diagram; today we list and characterize.
 
 ### Setup
-Each triad needs PRD Section 10 (Dependencies) and the integration table template with the five columns (System, Owner, Sync/async, R/W, Failure handling).
+Each quad needs PRD Section 10 (Dependencies) and the integration table template with the five columns (System, Owner, Sync/async, R/W, Failure handling).
 
 ### The integration table
 
@@ -167,7 +167,7 @@ For each integration, capture:
 
 The **Failure handling** column forces a choice the team often defers — make it explicit now.
 
-### Triad protocol
+### Quad protocol
 
 1. **List integrations** (15 min). Draw from PRD Section 10 plus anything you forgot.
 2. **Characterize each** (15 min). Sync/async, read/write, failure mode.
@@ -181,13 +181,13 @@ TCD Section 2 first-pass integration table with sync/async, R/W, and named failu
 
 ## Activity 4 — AI-Assisted Architecture Q&A (Reintroducing AI)
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Reintroduce AI as a research and structuring assistant — without surrendering judgment. The Week 1 prompt patterns and Week 2 Day 4 provenance discipline both apply.
 
 ### Setup
-Each triad needs the TCD Section 1 draft + integration table, the two Pattern Library prompts, and a fresh provenance log entry. AI is allowed and required.
+Each quad needs the TCD Section 1 draft + integration table, the two Pattern Library prompts, and a fresh provenance log entry. AI is allowed and required.
 
 ### The two AI-assisted exercises
 
@@ -219,7 +219,7 @@ Constraints:
 Format: Numbered list, each item naming a category and a specific check.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Run Prompt A** (10 min). Capture the 3 objections.
 2. **Decide which objections to adopt** (10 min). For each: adopt / defer / reject — same discipline as Week 3.
@@ -233,7 +233,7 @@ Updated TCD Sections 1–2 incorporating adopted AI objections and added integra
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - Their architecture stance (one sentence)
 - The strongest objection AI surfaced — and whether they accepted it
@@ -243,7 +243,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 1 with:
+Each quad ends Day 1 with:
 
 - [x] Section 1 of the TCD — Architecture stance, with trade-off and revisit trigger
 - [x] Section 2 (first pass) — Integration table with failure-handling stances

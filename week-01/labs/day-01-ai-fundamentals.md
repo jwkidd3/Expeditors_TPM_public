@@ -1,6 +1,6 @@
 # Day 1 — AI Fundamentals & Prompting for TPMs
 
-> **Activity packet for participant triads.** This file is your source of truth for the day's small-group work, character cases, and deliverable templates.
+> **Activity packet for participant quads.** This file is your source of truth for the day's small-group work, character cases, and deliverable templates.
 
 ## Running case study — FieldPulse
 
@@ -18,27 +18,27 @@ Every day of Week 1 uses the same fictional product to keep momentum.
 
 ---
 
-## Triad formation
+## Quad formation
 
-Form triads by 10:30 on Day 1. Composition rules:
+Form quads by 10:30 on Day 1. Composition rules:
 
-1. Mix experience levels (at least one person with 3+ years in an engineering-adjacent role per triad where possible)
+1. Mix experience levels (at least one person with 3+ years in an engineering-adjacent role per quad where possible)
 2. Mix domain backgrounds
 3. No two people from the same home team if cohort is intra-company
 
-Triads persist through the **end of Week 3** (they carry the mini-capstone). Make the formation stick.
+Quads persist through the **end of Week 3** (they carry the mini-capstone). Make the formation stick.
 
 ---
 
 ## Activity 1 — "Same Question, Three Models"
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Surface that (a) different AI tools give materially different answers to the same question, and (b) "it sounded confident" is not evidence of correctness.
 
 ### Setup
-Each triad picks **one** question from the list below. Each triad member runs it on a different tool (ChatGPT, Claude, Gemini/Copilot). If only one tool is available to the whole cohort, vary **phrasing** across the three triad members instead.
+Each quad picks **one** question from the list below. Each quad member runs it on a different tool (ChatGPT, Claude, Gemini/Copilot). If only one tool is available to the whole cohort, vary **phrasing** across the three quad members instead.
 
 ### The question bank (pick one)
 
@@ -55,8 +55,8 @@ Each triad picks **one** question from the list below. Each triad member runs it
 
 ### Steps
 
-1. **Pick (5 min).** Triad selects one question from the bank above.
-2. **Run (10 min).** Each triad member runs the same question on a different tool.
+1. **Pick (5 min).** Quad selects one question from the bank above.
+2. **Run (10 min).** Each quad member runs the same question on a different tool.
 3. **Score (15 min).** Compare outputs across usefulness, verifiability, and risk-if-wrong using the rubric below.
 4. **Prepare readout (5 min).** Draft a one-line trust statement.
 
@@ -76,13 +76,13 @@ A scored comparison across three tools plus a one-line readout: "We would trust 
 
 ## Activity 2 — Rewrite This Prompt
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Convert the Day 1 teaching (RCCF) into reflexive behavior. Handle three weak prompts pulled from the FieldPulse backlog and rewrite them.
 
 ### Setup
-Your triad has the three weak prompts below, access to one AI assistant, and the FieldPulse handouts from the morning.
+Your quad has the three weak prompts below, access to one AI assistant, and the FieldPulse handouts from the morning.
 
 ### The three weak prompts
 
@@ -99,7 +99,7 @@ Your triad has the three weak prompts below, access to one AI assistant, and the
 
 ### Deliverable — Prompt Pattern Library (seed)
 
-Each triad publishes a shared document (any format) with this schema:
+Each quad publishes a shared document (any format) with this schema:
 
 ```markdown
 ## Pattern: <short name>
@@ -122,13 +122,13 @@ Minimum four entries by end of Day 1. Entries earned in Activities 2, 3, and 4.
 
 ## Activity 3 — The Three Hats
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Use AI as a rapid multi-perspective critic, and practice asking a single question from each perspective.
 
 ### Setup
-Your triad has a working AI assistant and the FieldPulse one-paragraph problem brief below. The brief is the shared input for all three hats.
+Your quad has a working AI assistant and the FieldPulse one-paragraph problem brief below. The brief is the shared input for all three hats.
 
 ### The FieldPulse one-paragraph problem brief
 
@@ -149,20 +149,20 @@ For each hat: the single most uncomfortable question surfaced. One of those thre
 
 ## Activity 4 — Prompt Pattern Library (Publish)
 
-**Format:** Triad &bull; **45 min** &bull; Block 4 + readouts
+**Format:** Quad &bull; **45 min** &bull; Block 4 + readouts
 
 ### Purpose
 Ship a durable artifact. The library is referenced every remaining day of Week 1 and beyond.
 
 ### Setup
-Your triad has been collecting candidate prompts through Activities 2 and 3. You now formalize a shared document — any tool the triad will reliably use (markdown file, shared doc, wiki page).
+Your quad has been collecting candidate prompts through Activities 2 and 3. You now formalize a shared document — any tool the quad will reliably use (markdown file, shared doc, wiki page).
 
 ### Steps
 
-1. **Inventory (10 min).** Pull every candidate prompt the triad has used today.
+1. **Inventory (10 min).** Pull every candidate prompt the quad has used today.
 2. **Cull (15 min).** Keep the ones with a clear "when to use" and a known failure mode.
 3. **Format (15 min).** Convert each to the schema below. Minimum four entries.
-4. **Star (5 min).** Pick the prompt the triad would actually reuse on Monday morning.
+4. **Star (5 min).** Pick the prompt the quad would actually reuse on Monday morning.
 
 ### Required entries (minimum)
 
@@ -178,9 +178,9 @@ Your triad has been collecting candidate prompts through Activities 2 and 3. You
 
 ### Deliverable
 
-A shared Prompt Pattern Library with at least four entries, each tagged with when-to-use, the template, why it works, and known caveats. One entry is starred as the triad's go-to.
+A shared Prompt Pattern Library with at least four entries, each tagged with when-to-use, the template, why it works, and known caveats. One entry is starred as the quad's go-to.
 
-### Readout structure (60 seconds per triad)
+### Readout structure (60 seconds per quad)
 
 > "Our starred prompt is <name>. We tested it on <situation>. The reason we'd reuse it is <why>. Its known failure mode is <caveat>."
 
@@ -188,9 +188,9 @@ A shared Prompt Pattern Library with at least four entries, each tagged with whe
 
 ## End-of-day checkpoint
 
-Each triad leaves the day with:
+Each quad leaves the day with:
 
-- [x] Formed triad with declared norms (meet-time, tool choice, note-keeper role)
-- [x] At least one person per triad who owns the Pattern Library file
+- [x] Formed quad with declared norms (meet-time, tool choice, note-keeper role)
+- [x] At least one person per quad who owns the Pattern Library file
 - [x] A Day 3 research target question selected from Activity 3
 - [x] A pre-Day-2 commitment: one product idea they want to PR/FAQ tomorrow

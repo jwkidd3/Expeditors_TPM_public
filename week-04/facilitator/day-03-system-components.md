@@ -4,13 +4,13 @@
 
 ## Framing note
 
-Today's job is to draw a **C4-style component diagram** (Context + Container) for each triad's feature — replacing hand-waving with a shared visual vocabulary. By 16:00 every triad should have two diagrams ready to walk through with an architect.
+Today's job is to draw a **C4-style component diagram** (Context + Container) for each quad's feature — replacing hand-waving with a shared visual vocabulary. By 16:00 every quad should have two diagrams ready to walk through with an architect.
 
 ## Activity 1 — Context Diagram
 
 **Cues:**
-- If a triad's diagram is just "User → System → Database", they've drawn a Container diagram badly. Push them to surface real external systems.
-- If a triad lists 25 boxes, they're drafting a Container diagram inside the Context. Cap them and lift detail to Activity 2.
+- If a quad's diagram is just "User → System → Database", they've drawn a Container diagram badly. Push them to surface real external systems.
+- If a quad lists 25 boxes, they're drafting a Container diagram inside the Context. Cap them and lift detail to Activity 2.
 - The "indirect roles" check is a strong differentiator — Ops VP, compliance, customer success often appear on the Context diagram as readers of audit data.
 
 ## Activity 2 — Container Diagram
@@ -33,7 +33,7 @@ Today's job is to draw a **C4-style component diagram** (Context + Container) fo
 
 ## Facilitator reflection prompts (end of day)
 
-- Which triad's diagram has the cleanest legend? Hold up Friday.
-- Which triad over-detailed the Context (sneaking Container concerns in)? Coach tomorrow.
+- Which quad's diagram has the cleanest legend? Hold up Friday.
+- Which quad over-detailed the Context (sneaking Container concerns in)? Coach tomorrow.
 - Did anyone produce a "Database is part of our system" arrow when the database is actually shared platform infra? That's a trust-boundary error worth surfacing.
 - Did the cohort handle AI critique with discipline, or absorb every suggestion?

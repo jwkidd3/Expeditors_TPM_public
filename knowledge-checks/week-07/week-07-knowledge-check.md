@@ -2,7 +2,7 @@
 
 > A short retention check covering the week's core ideas: outputs vs outcomes and the Agile Manifesto, ADO hierarchy and field discipline, outcome/leading-indicator tracking, Lean value stream mapping, and removing delivery bottlenecks. Answer each question, then check yourself against the key at the end. Aim for concepts, not trivia — every answer maps back to something we used in a lab.
 
-**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or triad.
+**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or quad.
 
 ---
 

@@ -1,16 +1,16 @@
 # Day 2 — Working Backwards
 
-> **Activity packet for participant triads.** Day 2 produces a one-page PR/FAQ per triad and runs the first cross-triad critique of the academy.
+> **Activity packet for participant quads.** Day 2 produces a one-page PR/FAQ per quad and runs the first cross-quad critique of the academy.
 
 ## Prerequisite artifacts (from Day 1)
 
-- Triad **Prompt Pattern Library** (at minimum: Research, Summarization, Critique-hat, Where-could-you-be-wrong)
-- Day 3 research target question per triad
-- Optional: a chosen product idea per triad (from the FieldPulse backlog list below)
+- Quad **Prompt Pattern Library** (at minimum: Research, Summarization, Critique-hat, Where-could-you-be-wrong)
+- Day 3 research target question per quad
+- Optional: a chosen product idea per quad (from the FieldPulse backlog list below)
 
 ## FieldPulse backlog — eligible product ideas
 
-Pick any one per triad. Triads may also propose their own subject to facilitator approval.
+Pick any one per quad. Quads may also propose their own subject to facilitator approval.
 
 1. **End-of-Day Reconcile** — guided flow for dispatchers to close out the day in 5 min
 2. **Mid-Day Re-Route** — AI-assisted tech re-routing when someone calls out sick
@@ -24,17 +24,17 @@ Pick any one per triad. Triads may also propose their own subject to facilitator
 
 ## Activity 1 — Forward or Backward?
 
-**Format:** Triad &bull; **30 min** &bull; Block 1
+**Format:** Quad &bull; **30 min** &bull; Block 1
 
 ### Purpose
 Before drafting, calibrate what the difference feels like in practice by analyzing 4 short vignettes.
 
 ### Setup
-Your triad has the four vignettes below (also available as the handout `week-01/handouts/working-backwards-vignettes.md`). Have a way to take quick notes — paper or shared doc is fine.
+Your quad has the four vignettes below (also available as the handout `week-01/handouts/working-backwards-vignettes.md`). Have a way to take quick notes — paper or shared doc is fine.
 
 ### Steps
 
-1. **Read (10 min).** Each triad member reads all four vignettes silently.
+1. **Read (10 min).** Each quad member reads all four vignettes silently.
 2. **Sort (5 min).** Tag each vignette: forward, backward, or ambiguous.
 3. **Discuss (10 min).** For each: what's the one question that, if asked earlier, would have changed the outcome?
 4. **Full-room debrief (5 min).** Cohort-wide discussion of vignettes C and D.
@@ -57,23 +57,23 @@ Your triad has the four vignettes below (also available as the handout `week-01/
 
 ### Deliverable
 
-A one-sentence "earlier question" per vignette, recorded by the triad and surfaced in the cohort debrief.
+A one-sentence "earlier question" per vignette, recorded by the quad and surfaced in the cohort debrief.
 
 ---
 
 ## Activity 2 — Headline + Sub-headline
 
-**Format:** Triad &bull; **45 min** &bull; Block 2
+**Format:** Quad &bull; **45 min** &bull; Block 2
 
 ### Purpose
 Produce three candidate headlines, then use AI to critique them on three axes. Pick one.
 
 ### Setup
-Your triad has chosen (or will pick now) one product idea from the backlog above. Confirm AI assistant access.
+Your quad has chosen (or will pick now) one product idea from the backlog above. Confirm AI assistant access.
 
 ### Steps
 
-1. Pick a product idea from the backlog (or a triad's own)
+1. Pick a product idea from the backlog (or a quad's own)
 2. Draft **three** candidate PR heading + sub-headings (5 min per candidate)
 3. Use the following prompt (adapted from your Pattern Library):
 
@@ -100,19 +100,19 @@ The single chosen heading + sub-headline, pinned for use in Activity 3.
 
 ## Activity 3 — Answer the Five, Concretely
 
-**Format:** Triad &bull; **45 min** &bull; Block 3
+**Format:** Quad &bull; **45 min** &bull; Block 3
 
 ### Purpose
 Complete a draft PR paragraph + customer quote + 6 FAQ entries.
 
 ### Setup
-Your triad has its chosen heading/sub-headline from Activity 2. Use the PR template below.
+Your quad has its chosen heading/sub-headline from Activity 2. Use the PR template below.
 
 ### Steps
 
 1. **Plan (10 min).** Map the heading/sub-heading to the rest of the template; identify the riskiest section.
 2. **Draft (25 min).** Fill the template — Summary, Problem, Solution, Customer quote, both FAQs.
-3. **Self-review (10 min).** Read aloud within the triad; tag every claim with an evidence tier.
+3. **Self-review (10 min).** Read aloud within the quad; tag every claim with an evidence tier.
 
 ### Template
 
@@ -154,19 +154,19 @@ Your triad has its chosen heading/sub-headline from Activity 2. Use the PR templ
 
 ### Deliverable
 
-A complete one-page PR/FAQ per triad: heading, sub-headline, three paragraphs, customer quote, 3 customer FAQs, 3 internal FAQs, and an Evidence log.
+A complete one-page PR/FAQ per quad: heading, sub-headline, three paragraphs, customer quote, 3 customer FAQs, 3 internal FAQs, and an Evidence log.
 
 ---
 
-## Activity 4 — Cross-Triad PR/FAQ Review
+## Activity 4 — Cross-Quad PR/FAQ Review
 
-**Format:** Paired triads &bull; **60 min** &bull; Block 4
+**Format:** Paired quads &bull; **60 min** &bull; Block 4
 
 ### Purpose
-Two triads exchange PR/FAQs and run the academy's first cross-triad critique. The critique protocol is what makes it productive instead of defensive.
+Two quads exchange PR/FAQs and run the academy's first cross-quad critique. The critique protocol is what makes it productive instead of defensive.
 
 ### Setup
-Pair with another triad. Both triads have a completed PR/FAQ from Activity 3 and a stopwatch (phone is fine).
+Pair with another quad. Both quads have a completed PR/FAQ from Activity 3 and a stopwatch (phone is fine).
 
 ### The critique protocol (enforce)
 
@@ -182,7 +182,7 @@ Pair with another triad. Both triads have a completed PR/FAQ from Activity 3 and
 - Revise the PR/FAQ to address the highest-priority concern
 - Update the Evidence log for any claim that changed tier
 
-### Readout (60 seconds per triad)
+### Readout (60 seconds per quad)
 
 > "We changed X because the reviewer helped us see Y. We left Z because we disagreed for this reason."
 
@@ -198,15 +198,15 @@ Pair with another triad. Both triads have a completed PR/FAQ from Activity 3 and
 
 ### Deliverable
 
-A revised PR/FAQ per triad with documented changes (what changed, what was left, and why) plus a 60-second readout.
+A revised PR/FAQ per quad with documented changes (what changed, what was left, and why) plus a 60-second readout.
 
 ---
 
 ## End-of-day checkpoint
 
-- [x] Each triad has a completed one-page PR/FAQ + FAQ entries + Evidence log
-- [x] Each triad has been critiqued by one other triad and has documented what they changed/left
-- [x] Each triad has identified their **most worrying unvalidated assumption** (the one that keeps their PR from being fully defensible)
+- [x] Each quad has a completed one-page PR/FAQ + FAQ entries + Evidence log
+- [x] Each quad has been critiqued by one other quad and has documented what they changed/left
+- [x] Each quad has identified their **most worrying unvalidated assumption** (the one that keeps their PR from being fully defensible)
 
 ## Bridge to Day 3
 

@@ -6,7 +6,7 @@
 
 **Cues:**
 - The "Restating the goal" failure is the trickiest — surfaces only when you ask "could this be tested without running A/B against the metric?"
-- Every triad will have at least one over-confident "this is clean" call. Use that for shared learning.
+- Every quad will have at least one over-confident "this is clean" call. Use that for shared learning.
 
 **Answer key / watch-for (the 5 sample triage items in the student pack):**
 
@@ -21,13 +21,13 @@
 ## Activity 2 — Happy-Path AC for Your PRD
 
 **Cues:**
-- If a triad pools drafts before doing solo work, push them back to solo. Solo first produces specificity.
+- If a quad pools drafts before doing solo work, push them back to solo. Solo first produces specificity.
 - AND-soup in the Then clause is the most common drift; coach toward splitting into multiple AC.
 
 ## Activity 3 — Sad-Path and Weird-Path AC
 
 **Cues:**
-- Triads who can't generate weird-path AC haven't engaged with the system reality. Push with named scenarios — network drop, race, timeout.
+- Quads who can't generate weird-path AC haven't engaged with the system reality. Push with named scenarios — network drop, race, timeout.
 - Watch for sad-path AC that are happy-path in disguise (the "successful error" pattern); the recovery must be observable.
 
 ## Activity 4 — AC Cross-Review
@@ -39,6 +39,6 @@
 
 ## Facilitator reflection prompts (end of day)
 
-- Which triad over-indexed on happy path? They need a weird-path push tomorrow.
-- Which triad's AC are most implementation-prescriptive? Coach them privately — old habits.
+- Which quad over-indexed on happy path? They need a weird-path push tomorrow.
+- Which quad's AC are most implementation-prescriptive? Coach them privately — old habits.
 - Did anyone use AI? Privately and directly intercept; restate the rule.

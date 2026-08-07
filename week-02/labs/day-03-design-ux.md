@@ -1,17 +1,17 @@
 # Day 3 — Product Design & UX Principles for TPMs
 
-> **Activity packet for participant triads.** Today's job: equip you to partner credibly with design — to spot UX failures, name them in the right vocabulary, and ship 3 design principles your squad can hold the line on.
+> **Activity packet for participant quads.** Today's job: equip you to partner credibly with design — to spot UX failures, name them in the right vocabulary, and ship 3 design principles your squad can hold the line on.
 
 ## Where we are in the week
 
-Days 1–2 produced a Metrics Tier Sheet and a defensible North Star. Today the triads zoom into the **product surface** — the actual screens, flows, and moments where the strategy meets the user.
+Days 1–2 produced a Metrics Tier Sheet and a defensible North Star. Today the quads zoom into the **product surface** — the actual screens, flows, and moments where the strategy meets the user.
 
 A TPM is not a designer. But a TPM who cannot tell a designer why a UX choice matters, in design vocabulary, will lose every trade-off conversation. That's today's muscle.
 
 ## Inputs
 
-- The triad's NS and Tier Sheet (from Days 1–2)
-- One product surface (FieldPulse mobile, FieldPulse web, or a competitor like Housecall Pro / ServiceTitan) — chosen by the triad before today
+- The quad's NS and Tier Sheet (from Days 1–2)
+- One product surface (FieldPulse mobile, FieldPulse web, or a competitor like Housecall Pro / ServiceTitan) — chosen by the quad before today
 - The **UX Heuristics Card** (handout)
 - The **A11y Floor Checklist** (handout)
 
@@ -44,34 +44,34 @@ We use Nielsen's 10 heuristics as the shared vocabulary, plus three TPM-specific
 
 ## Activity 1 — Heuristic Hunt
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Calibrate the room on the Nielsen 10 by hunting violations in a live product before they audit their own.
 
 ### Setup
-Each triad uses the **same** product (we recommend a B2B SaaS the cohort doesn't already use — e.g., a niche CRM trial). The triad walks through one core flow (signup → first action → return).
+Each quad uses the **same** product (we recommend a B2B SaaS the cohort doesn't already use — e.g., a niche CRM trial). The quad walks through one core flow (signup → first action → return).
 
 ### The protocol
 
-1. Each triad member silently captures **3 heuristic violations** (5 min)
-2. Triad pools and de-dupes (15 min)
-3. Triad picks the **single most painful** violation and the **single most subtle** one (10 min)
+1. Each quad member silently captures **3 heuristic violations** (5 min)
+2. Quad pools and de-dupes (15 min)
+3. Quad picks the **single most painful** violation and the **single most subtle** one (10 min)
 4. Prepare a 60-second readout (5 min)
 
-### Readout (60 sec per triad)
+### Readout (60 sec per quad)
 
 > "The most painful violation we found was [X]. The most subtle was [Y] — we almost missed it because [reason]."
 
 ### Deliverable
 
-A short list per triad: 3+ heuristic violations with the heuristic number named, plus one "most painful" and one "most subtle" call.
+A short list per quad: 3+ heuristic violations with the heuristic number named, plus one "most painful" and one "most subtle" call.
 
 ---
 
 ## Activity 2 — A11y Floor Audit
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 TPMs at most companies inherit accessibility debt. Today we install the **non-negotiable floor** — the small set of checks a TPM should run before *any* PRD ships.
@@ -89,7 +89,7 @@ TPMs at most companies inherit accessibility debt. Today we install the **non-ne
 | Error messages identify the field | Submit a broken form | "Error" with no field reference |
 | Touch targets &ge; 44px on mobile | DevTools mobile view | Buttons too small to tap reliably |
 
-### Triad protocol
+### Quad protocol
 
 1. Open the FieldPulse mobile (or chosen surface) on each member's device
 2. Each member runs **3 of the 8 checks** (assign so all 8 are covered, plus one overlap)
@@ -102,19 +102,19 @@ Accessibility is a regulatory floor (ADA / Section 508 / EAA), an SEO floor, and
 
 ### Deliverable
 
-A one-page A11y Floor Audit per triad: each of the 8 checks rated pass/partial/fail with a heuristic cross-link for every fail.
+A one-page A11y Floor Audit per quad: each of the 8 checks rated pass/partial/fail with a heuristic cross-link for every fail.
 
 ---
 
-## Activity 3 — Heuristic Audit of Your Triad's Surface
+## Activity 3 — Heuristic Audit of Your Quad's Surface
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
-Apply the calibrated eye from Activity 1 + the floor from Activity 2 to the triad's chosen product surface.
+Apply the calibrated eye from Activity 1 + the floor from Activity 2 to the quad's chosen product surface.
 
 ### Setup
-Each triad opens its chosen flow (FieldPulse mobile, web, or competitor). All three triad members need access.
+Each quad opens its chosen flow (FieldPulse mobile, web, or competitor). All three quad members need access.
 
 ### Steps
 
@@ -127,7 +127,7 @@ Each triad opens its chosen flow (FieldPulse mobile, web, or competitor). All th
 
 ```markdown
 # UX Audit: <Product surface>
-**Auditor triad:** <names>
+**Auditor quad:** <names>
 **Flow audited:** <e.g., "Dispatcher first-time reconcile flow">
 
 ## Top 3 violations
@@ -164,19 +164,19 @@ Each triad opens its chosen flow (FieldPulse mobile, web, or competitor). All th
 
 ### Deliverable
 
-A completed UX Audit per triad covering top 3 violations (severity-scored), top 3 strengths, A11y result, TPM lens findings, and one design-only question.
+A completed UX Audit per quad covering top 3 violations (severity-scored), top 3 strengths, A11y result, TPM lens findings, and one design-only question.
 
 ---
 
 ## Activity 4 — From Audit to Design Principles
 
-**Format:** Triad &bull; **45 min** + Readouts &bull; Block 4
+**Format:** Quad &bull; **45 min** + Readouts &bull; Block 4
 
 ### Purpose
 Convert the audit findings into **3 design principles** the squad can hold the line on across PRDs. This is the day's keeper artifact.
 
 ### Setup
-Each triad has its completed UX Audit from Activity 3 and a way to write the principle cards (paper or digital).
+Each quad has its completed UX Audit from Activity 3 and a way to write the principle cards (paper or digital).
 
 ### Steps
 
@@ -197,14 +197,14 @@ A good design principle is:
 | "Show the network state on every screen — assume connectivity is broken." | Drives concrete choices | "Use Material Design" | A toolkit, not a principle |
 | "Power users get keyboard shortcuts. New users get them visible too." | Tension named and resolved | "Be consistent" | True but not actionable |
 
-### Triad protocol
+### Quad protocol
 
 1. **Cluster audit findings** (10 min). Group your findings into themes — each theme suggests a principle.
 2. **Draft 5 candidate principles** (15 min). Some will be bad. That's fine.
 3. **Cull to 3** (10 min). Test each: does it tell us what to choose when two options compete?
 4. **Write the principle card** (10 min). Each principle gets one line + one example of a decision it would force.
 
-### Readout structure (90 seconds per triad)
+### Readout structure (90 seconds per quad)
 
 > 1. "Our top audit finding was [X], severity [N]."
 > 2. "The 3 principles we'd hold the squad to are: [P1], [P2], [P3]."
@@ -212,13 +212,13 @@ A good design principle is:
 
 ### Deliverable
 
-A 3-Principle Card per triad: each principle as one line + one decision it would force.
+A 3-Principle Card per quad: each principle as one line + one decision it would force.
 
 ---
 
 ## End-of-day checkpoint
 
-Each triad leaves the day with:
+Each quad leaves the day with:
 
 - [x] A heuristic-violation finding from Activity 1 (live calibration)
 - [x] An A11y Floor Audit for one surface

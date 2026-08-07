@@ -4,7 +4,7 @@
 
 Week 1 grounds the Academy in the practice that separates TPMs from feature-delivery managers: **relentless customer understanding**. Every subsequent week — metrics, PRDs, architecture, stakeholder negotiation, delivery — loses anchoring without this foundation.
 
-This week is the most group-oriented of the entire academy. Participants form **cohort triads** on Day 1 that persist through the end of Week 3 (carrying them into the mini-capstone).
+This week is the most group-oriented of the entire academy. Participants form **cohort quads** on Day 1 that persist through the end of Week 3 (carrying them into the mini-capstone).
 
 ## Learning outcomes
 
@@ -20,11 +20,11 @@ By Friday afternoon, each participant can:
 
 | Day | Topic | Key artifact produced |
 |-----|-------|----------------------|
-| 1 | AI fundamentals & prompting for PMs | Prompt pattern library (triad) |
-| 2 | Working Backwards framework | PR/FAQ draft (triad) |
-| 3 | Building & validating user personas | Validated persona sheet (triad) |
-| 4 | Identifying pain points | Ranked pain-point map (triad) |
-| 5 | Data-driven problem framing | Problem statement + evidence brief (triad, presented) |
+| 1 | AI fundamentals & prompting for PMs | Prompt pattern library (quad) |
+| 2 | Working Backwards framework | PR/FAQ draft (quad) |
+| 3 | Building & validating user personas | Validated persona sheet (quad) |
+| 4 | Identifying pain points | Ranked pain-point map (quad) |
+| 5 | Data-driven problem framing | Problem statement + evidence brief (quad, presented) |
 
 Each day's artifact is an input to the next. Friday readouts preview the muscles used in the Week 3 mini-capstone.
 
@@ -41,7 +41,7 @@ Each day's artifact is an input to the next. Friday readouts preview the muscles
 | 14:15 – 14:30 | **Break** | |
 | 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Readouts + Wrap | ~25 min teach / 45 min group / 20 min readout |
 
-**Group composition:** triads (3 participants) are the default. Every activity brief calls out when the format is pair, triad, quartet, or full-room.
+**Group composition:** quads (3 participants) are the default. Every activity brief calls out when the format is pair, quad, quartet, or full-room.
 
 ## Materials referenced across the week
 
@@ -53,7 +53,7 @@ Each day's artifact is an input to the next. Friday readouts preview the muscles
 
 ## Week 1 readout rubric (Friday afternoon)
 
-Each triad presents a **10-minute integrated artifact**: persona → top 3 pain points → problem statement. Peer and instructor score on:
+Each quad presents a **10-minute integrated artifact**: persona → top 3 pain points → problem statement. Peer and instructor score on:
 
 | Dimension | Weight | What "exemplary" looks like |
 |-----------|--------|------------------------------|
@@ -65,4 +65,4 @@ Each triad presents a **10-minute integrated artifact**: persona → top 3 pain 
 
 ## Bridge to Week 2
 
-Week 2 opens by converting each triad's problem statement into **strategic design moves and metrics** — the North Star, operational signals, and customer-journey map that will turn Week 1's understanding into something measurable.
+Week 2 opens by converting each quad's problem statement into **strategic design moves and metrics** — the North Star, operational signals, and customer-journey map that will turn Week 1's understanding into something measurable.

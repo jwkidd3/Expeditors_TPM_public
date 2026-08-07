@@ -4,11 +4,11 @@
 
 ## Facilitator pre-flight checklist
 
-- [ ] Confirm every triad has accessible PRD + TCD + TMD Monday morning.
+- [ ] Confirm every quad has accessible PRD + TCD + TMD Monday morning.
 - [ ] Pre-print or share digitally: **Power/Interest Grid** (Day 1), **RACI Worksheet** (Day 1), **Engagement Plan Template** (Day 2), **One-Page Brief Template** (Day 3), **Meeting Prep Template** (Day 4), **Negotiation Outcomes Log** (Day 5).
 - [ ] Build **stakeholder personas** for Friday's simulation. Suggested set: Operations VP, Architect, Security Lead, Eng Director, Customer Success Lead, CFO.
 - [ ] Review the **Friday simulation rubric**.
-- [ ] Coach yourself on the **most common Week 6 trap**: triads who treat the stakeholder map as an org-chart exercise rather than a negotiation tool. The map is **the input** to the conversations, not the deliverable.
+- [ ] Coach yourself on the **most common Week 6 trap**: quads who treat the stakeholder map as an org-chart exercise rather than a negotiation tool. The map is **the input** to the conversations, not the deliverable.
 
 ## Per-day facilitator guides
 

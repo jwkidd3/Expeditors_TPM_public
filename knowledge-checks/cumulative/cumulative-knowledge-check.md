@@ -2,7 +2,7 @@
 
 > A capstone-week check that tests the course as a *system*, not week by week. Every question is about how the artifacts connect — what feeds what, what must stay consistent across documents, and what each artifact is *for*. If you can answer these, you understand why the eight weeks are one arc, not eight topics.
 
-**Format:** 16 questions (multiple choice + true/false). ~25 minutes. Individual or triad. Aim for the *relationships between* artifacts, not trivia inside one.
+**Format:** 16 questions (multiple choice + true/false). ~25 minutes. Individual or quad. Aim for the *relationships between* artifacts, not trivia inside one.
 
 ---
 
@@ -46,7 +46,7 @@
 
 **6. (T/F)** An SLO defined in the TCD but with no corresponding monitoring/alert plan in the TMD is an unverifiable target — you've promised something you can't observe.
 
-**7. (MC)** In the Week-8 cross-artifact validation, a triad finds their TMD reconcile sequence sums to ~800 ms but the TCD SLO says p95 ≤ 500 ms. This is:
+**7. (MC)** In the Week-8 cross-artifact validation, a quad finds their TMD reconcile sequence sums to ~800 ms but the TCD SLO says p95 ≤ 500 ms. This is:
 
 - A) Fine — the SLO and the sequence are different documents
 - B) A real inconsistency: the design can't meet its own stated target, and one has to change
@@ -91,7 +91,7 @@
 
 - A) To replace the PRD/TCD/TMD with a single AI-written document
 - B) To integrate the artifact set into one engineering-ready spec, drafted with AI and **validated section by section**
-- C) To let AI make the product decisions the triad couldn't
+- C) To let AI make the product decisions the quad couldn't
 - D) To summarize the artifacts for executives
 
 **16. (T/F)** The reason the eight weeks form one chain is traceability: a line in the AI Spec should trace back — through the TMD, TCD, and PRD — to a real customer problem tagged with real evidence.
@@ -128,6 +128,6 @@
 
 **14. True** — "Self-sufficient enough that the reader can act without a clarifying call" is the through-line standard: the PRD for an engineer, the SEP for a stakeholder, the AI Spec for the whole build.
 
-**15. B** — The AI Spec **integrates** the set into one engineering-ready spec, drafted fast with AI but validated section by section. AI accelerates the typing; the triad's judgment (and the validation chain) keeps it honest.
+**15. B** — The AI Spec **integrates** the set into one engineering-ready spec, drafted fast with AI but validated section by section. AI accelerates the typing; the quad's judgment (and the validation chain) keeps it honest.
 
 **16. True** — Traceability is the point. If a line in the AI Spec can't be walked back to a real, evidence-tagged customer problem, it's ungrounded — the same failure the whole course is built to prevent, just at the end of the chain instead of the start.

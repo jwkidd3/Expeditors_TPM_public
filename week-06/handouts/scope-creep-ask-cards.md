@@ -1,8 +1,8 @@
 # Scope-Creep Ask Cards — Round 2 (Scope Negotiation)
 
-> **Day 5 · Round 2 handout.** For the triad **playing the non-technical stakeholder**. You arrive with a scope-creep ask the author triad must handle without breaking their PRD. The author defends PRD Section 3 non-goals and Section 11 out-of-scope follow-ups — deciding whether to hold the line, cut existing scope, offer a phased plan, or escalate.
+> **Day 5 · Round 2 handout.** For the quad **playing the non-technical stakeholder**. You arrive with a scope-creep ask the author quad must handle without breaking their PRD. The author defends PRD Section 3 non-goals and Section 11 out-of-scope follow-ups — deciding whether to hold the line, cut existing scope, offer a phased plan, or escalate.
 
-**Public surface (both triads may read):** the role and the headline ask.
+**Public surface (both quads may read):** the role and the headline ask.
 **Hidden (roleplayer only):** the real driver, your fallback, and how immovable you are. Don't reveal the Hidden section — make the author *discover* which trade-space axis you actually care about.
 
 All asks are grounded in the FieldPulse "End-of-Day Reconcile" world.

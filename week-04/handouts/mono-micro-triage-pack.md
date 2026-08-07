@@ -38,7 +38,7 @@ A feature whose load triples every World Cup but is otherwise small.
 
 1. **Stamp each card** (15 min) using the stamp sheet.
 2. **Pick the 2 cards with the strongest case for separation**, and the **2 with the strongest case for staying together** (10 min).
-3. **Identify 1 card where your triad disagreed** (10 min); be ready to explain the disagreement.
+3. **Identify 1 card where your quad disagreed** (10 min); be ready to explain the disagreement.
 
 ### Readout (60 sec)
 

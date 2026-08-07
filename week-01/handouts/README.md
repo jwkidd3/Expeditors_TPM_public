@@ -8,7 +8,7 @@ The "ambient context" the Day 1 activity packet promises — evidence, not concl
 
 | Handout | Used in | What it is |
 |---|---|---|
-| `fieldpulse-product-overview` | All week | One-page product overview — orients every triad on the same product |
+| `fieldpulse-product-overview` | All week | One-page product overview — orients every quad on the same product |
 | `customer-quote-prior-pr` | Day 2 | Composite customer quote from an earlier PR — a model grounded, in-character quote |
 | `dispatcher-interview-transcripts` | Day 3, Day 4 | Three anonymized dispatcher interviews (Maria R. / Trey W. / Susana O.) |
 | `support-tickets` | Day 4 | 14 sanitized support tickets, from severe-and-frequent to noise |
@@ -26,6 +26,6 @@ The "ambient context" the Day 1 activity packet promises — evidence, not concl
 | `pain-point-severity-matrix` | Day 4 · A2 | Printable Severity × Frequency grid + Addressability color key |
 | `problem-statement-template` | Day 5 · A1 | Who / Currently / Which causes / Because / Evidence / Success template |
 | `evidence-brief-template` | Day 5 | Persona → pain map → problem statement → evidence log → open questions |
-| `readout-score-sheet` | Day 5 | Cohort scoring rubric + per-triad score sheet for the Friday readout |
+| `readout-score-sheet` | Day 5 | Cohort scoring rubric + per-quad score sheet for the Friday readout |
 
 **Design principle:** these handouts *provide evidence, not conclusions* — they deliberately do not diagnose pains, rank problems, or propose features; surfacing and scoring those is the participants' work. Characters, numbers, and product facts stay consistent across all of them so cross-referencing (a quote against a ticket against the funnel) is a valid exercise.

@@ -1,6 +1,6 @@
 # Week 5 Handouts — Technical Infrastructure & Modeling
 
-Participant-facing reference cards and fillable templates for Week 5. Each is extracted from a daily lab so triads have the card in hand rather than buried in the activity packet. Distribute the day's set before that day.
+Participant-facing reference cards and fillable templates for Week 5. Each is extracted from a daily lab so quads have the card in hand rather than buried in the activity packet. Distribute the day's set before that day.
 
 Week 5 produces the **TMD** (Technical Modeling Document), Sections 1–5, one section per day, integrated and signed off on Friday.
 
@@ -53,4 +53,4 @@ Week 5 produces the **TMD** (Technical Modeling Document), Sections 1–5, one s
 
 ---
 
-**Design principle:** these are *cards and blank templates*, not answer keys. Worked examples and answer keys stay in the lab activity packets. Templates ship blank so triads produce the analysis themselves.
+**Design principle:** these are *cards and blank templates*, not answer keys. Worked examples and answer keys stay in the lab activity packets. Templates ship blank so quads produce the analysis themselves.

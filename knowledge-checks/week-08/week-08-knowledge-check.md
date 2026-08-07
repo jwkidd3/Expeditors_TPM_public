@@ -2,7 +2,7 @@
 
 > A short retention check covering the week's core ideas: the AI Spec Development pattern, capstone discovery and the compressed PRD, compressed architecture (TCD/TMD-light), technical-logic validation and finalization, and Friday's presentations. Answer each question, then check yourself against the key at the end. Aim for concepts, not trivia — every answer maps back to something we used in the capstone.
 
-**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or triad.
+**Format:** 12 questions (multiple choice + true/false). ~15 minutes. Individual or quad.
 
 ---
 
@@ -38,7 +38,7 @@
 - C) The headline and the section titles
 - D) The provenance log entries
 
-**6. (T/F)** In the Day-3 cross-triad spot-check, a reviewer triad that reads the AI Spec and reports "looks fine" without checking claims against the source has done its job correctly.
+**6. (T/F)** In the Day-3 cross-quad spot-check, a reviewer quad that reads the AI Spec and reports "looks fine" without checking claims against the source has done its job correctly.
 
 **7. (MC)** The 7-point technical-logic validation on Day 4 exists mainly to check:
 
@@ -47,7 +47,7 @@
 - C) That the AI Spec matches the presentation deck word-for-word
 - D) That grammar and formatting are consistent across documents
 
-**8. (T/F)** Most triads pass all 7 technical-logic checks on the first pass.
+**8. (T/F)** Most quads pass all 7 technical-logic checks on the first pass.
 
 **9. (MC)** In the cross-artifact integration pass, a good cross-reference must be:
 
@@ -63,7 +63,7 @@
 - C) Trade-off honesty (15%)
 - D) Presentation craft (15%)
 
-**11. (T/F)** Triads are scored on a curve — ranked against one another so the scores spread out.
+**11. (T/F)** Quads are scored on a curve — ranked against one another so the scores spread out.
 
 **12. (MC)** During Q&A, when asked a specific question you cannot answer, the disciplined response is:
 
@@ -90,12 +90,12 @@
 
 **7. B** — Each artifact may be fine on its own; the 7 checks ask whether they fit together (e.g., SLO budget fits the sequence diagram, data model supports the API).
 
-**8. False** — Most triads fail 2–3 checks on the first pass. That's expected — that's why the finalization day exists.
+**8. False** — Most quads fail 2–3 checks on the first pass. That's expected — that's why the finalization day exists.
 
 **9. B** — Specific (cite the Section), verified, and adds value. "See the TCD" without a section number is a sign the writer never actually verified it.
 
 **10. B** — AI Spec quality at 20% is the highest-weighted dimension — the week's signature artifact carries the most weight.
 
-**11. False** — Score against the rubric, not against other triads. Whole-number scores, no curve: if two triads earn 3.5, both are 3.5.
+**11. False** — Score against the rubric, not against other quads. Whole-number scores, no curve: if two quads earn 3.5, both are 3.5.
 
 **12. B** — "Honestly, I don't know — here's what we'd do to find out." Curiosity, not defensiveness; a well-handled "I don't know" beats a hand-wave.

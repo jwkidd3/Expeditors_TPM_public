@@ -21,7 +21,7 @@
 **Cues:**
 
 - Pending entries without dates become permanent. Force a deadline before close.
-- Triads that skip the inventory and only log what they remember missed something; push to enumerate from the Pattern Library.
+- Quads that skip the inventory and only log what they remember missed something; push to enumerate from the Pattern Library.
 
 ## Activity 4 — TMD Integration + Cross-Review + Sign-Off
 
@@ -32,13 +32,13 @@
 
 ## End-of-week facilitator wrap (15 min, end of week)
 
-- Read aloud one section per triad that the cohort should learn from.
+- Read aloud one section per quad that the cohort should learn from.
 - Surface the **most common AI-validation gap** — coach the cohort to notice it next time.
-- Preview Week 6: the **stakeholder sign-off matrix** from TCD Section 6 becomes the negotiation list. Each triad picks 1–2 constraints to actively negotiate.
+- Preview Week 6: the **stakeholder sign-off matrix** from TCD Section 6 becomes the negotiation list. Each quad picks 1–2 constraints to actively negotiate.
 
 ## End-of-week reflection prompts
 
-- Which triad's TMD reads like an engineer could pick it up and start coding? They are the Week-6 positive example.
-- Which triad's AI-validation log is most rigorous? Hold up — this discipline is the differentiator.
+- Which quad's TMD reads like an engineer could pick it up and start coding? They are the Week-6 positive example.
+- Which quad's AI-validation log is most rigorous? Hold up — this discipline is the differentiator.
 - Did anyone over-engineer the monitoring plan with 20 alerts? Coach back to <5.
 - Did the cohort use AI as critic or as oracle this week? Strong indicator for Week 6 negotiation prep.

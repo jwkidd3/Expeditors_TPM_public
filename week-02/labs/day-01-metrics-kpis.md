@@ -1,18 +1,18 @@
 # Day 1 — Operational Signals & KPIs
 
-> **Activity packet for participant triads.** This file is the single source of truth for your small-group work, examples, and deliverable templates.
+> **Activity packet for participant quads.** This file is the single source of truth for your small-group work, examples, and deliverable templates.
 
 ## Where we are in the week
 
-Week 2 opens by giving each triad a vocabulary for "what better looks like." Today's job is to install three terms that will be used every day for the rest of the academy: **operational signal**, **KPI**, and **North Star** (which gets its full treatment on Day 2).
+Week 2 opens by giving each quad a vocabulary for "what better looks like." Today's job is to install three terms that will be used every day for the rest of the academy: **operational signal**, **KPI**, and **North Star** (which gets its full treatment on Day 2).
 
-Inputs from Week 1: each triad arrives with its **problem statement** and **Prompt Pattern Library**. Both are referenced today.
+Inputs from Week 1: each quad arrives with its **problem statement** and **Prompt Pattern Library**. Both are referenced today.
 
 ---
 
 ## The Metrics Tier Sheet (today's main artifact)
 
-Each triad ends Day 1 with a Metrics Tier Sheet for the FieldPulse problem they framed in Week 1. The sheet has three rows:
+Each quad ends Day 1 with a Metrics Tier Sheet for the FieldPulse problem they framed in Week 1. The sheet has three rows:
 
 | Tier | Definition | How many today | Purpose |
 |------|------------|----------------|---------|
@@ -26,13 +26,13 @@ A "well-formed" tier sheet has a believable **causal chain**: a change in an ope
 
 ## Activity 1 — "Metric or Vanity?"
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Ground the room in the difference between metrics that move because the customer's life got better, and metrics that move because the team got clever.
 
 ### Setup
-Each triad receives the **Vanity-Metric Card Pack** (12 metrics drawn from FieldPulse-adjacent SaaS products). Examples in the pack:
+Each quad receives the **Vanity-Metric Card Pack** (12 metrics drawn from FieldPulse-adjacent SaaS products). Examples in the pack:
 
 - Daily Active Users
 - Number of features shipped per quarter
@@ -45,7 +45,7 @@ Each triad receives the **Vanity-Metric Card Pack** (12 metrics drawn from Field
 
 ### Steps
 
-For each card, the triad places it on a 2x2:
+For each card, the quad places it on a 2x2:
 
 ```
                 Easy to game
@@ -63,7 +63,7 @@ Then they pick the **two cards** they would bet on for FieldPulse and the **two 
 
 A sorted 2x2 with bet-on and never-report-up cards labeled, plus a one-sentence rationale per pick.
 
-### Readout (60 seconds per triad)
+### Readout (60 seconds per quad)
 
 > "We would bet on [X] and [Y] because [reason rooted in causal chain]. We would never report up [A] or [B] because [reason]."
 
@@ -71,19 +71,19 @@ A sorted 2x2 with bet-on and never-report-up cards labeled, plus a one-sentence 
 
 ## Activity 2 — Operational signal sprint
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Generate a credible bench of operational signals for the triad's Week-1 problem statement.
+Generate a credible bench of operational signals for the quad's Week-1 problem statement.
 
 ### Setup
-Each triad has its Week-1 problem statement pinned visibly. Each member needs sticky notes or a shared doc for solo brainstorm.
+Each quad has its Week-1 problem statement pinned visibly. Each member needs sticky notes or a shared doc for solo brainstorm.
 
 ### Steps
 
-1. Re-read the triad's problem statement aloud.
-2. Each triad member independently writes 4 candidate operational signals (12 total).
-3. The triad culls to **6 finalists**. For each, capture:
+1. Re-read the quad's problem statement aloud.
+2. Each quad member independently writes 4 candidate operational signals (12 total).
+3. The quad culls to **6 finalists**. For each, capture:
     - **What it measures**
     - **Where the data comes from** (system, log, instrumentation gap)
     - **How fast it moves** (real-time, hourly, daily, weekly)
@@ -91,7 +91,7 @@ Each triad has its Week-1 problem statement pinned visibly. Each member needs st
 
 ### The "instrumentation gap" check
 
-For at least 2 of the 6 finalists, the triad will discover the data **does not exist yet**. That is intentional. Mark these in red — they become input for the Week 4–5 technical infrastructure conversations.
+For at least 2 of the 6 finalists, the quad will discover the data **does not exist yet**. That is intentional. Mark these in red — they become input for the Week 4–5 technical infrastructure conversations.
 
 ### Output (added to Metrics Tier Sheet)
 
@@ -105,19 +105,19 @@ The 6 operational signals populate the bottom row.
 
 ## Activity 3 — KPI laddering
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Bridge from operational signals (squad-level) to KPIs (org-level). This is where TPMs earn their seat in cross-functional rooms.
 
 ### Setup
-Each triad has the 6 operational signals from Activity 2 visible.
+Each quad has the 6 operational signals from Activity 2 visible.
 
 ### Steps
 
 ### The laddering exercise
 
-Take the 6 operational signals from Activity 2. For each, the triad answers:
+Take the 6 operational signals from Activity 2. For each, the quad answers:
 
 > "If this signal moved 30% in the right direction for an entire quarter, what business KPI would that show up in?"
 
@@ -144,30 +144,30 @@ The 2–3 KPIs populate the middle row.
 
 ## Activity 4 — Tier Sheet defense + North Star placeholder
 
-**Format:** Triad &bull; **45 min** + Readouts &bull; Block 4
+**Format:** Quad &bull; **45 min** + Readouts &bull; Block 4
 
 ### Purpose
 Complete the Tier Sheet, do a peer-defense round, and seed Day 2's North Star work.
 
 ### Setup
-Pair each triad with another. Both triads have draft Tier Sheets (NS placeholder + KPIs + operational signals).
+Pair each quad with another. Both quads have draft Tier Sheets (NS placeholder + KPIs + operational signals).
 
 ### Steps
 
-### Triad workflow
+### Quad workflow
 
-1. **Draft a North Star placeholder** (15 min). The triad invents a one-sentence NS using the template:
+1. **Draft a North Star placeholder** (15 min). The quad invents a one-sentence NS using the template:
    > "We are winning when [customer outcome] increases for [user segment], measured by [single number]."
    This will be revisited tomorrow. Today, just get a placeholder to react to.
 
-2. **Pair-defense round** (20 min). Each triad pairs with another triad. Defender presents the Tier Sheet for 4 minutes. Challenger uses the **Three Standard Challenges**:
+2. **Pair-defense round** (20 min). Each quad pairs with another quad. Defender presents the Tier Sheet for 4 minutes. Challenger uses the **Three Standard Challenges**:
     - **Causal chain:** "Show me how a change in operational signal #3 plausibly moves your KPI."
     - **Gameability:** "Pick the easiest of these to game. How would a sales-incentivized team game it?"
     - **Instrumentation:** "Which two of these can you actually measure today, in production?"
 
 3. **Refine** (10 min). Capture the strongest challenge in a "known weaknesses" line at the bottom of the Tier Sheet.
 
-### Readout structure (60 seconds per triad)
+### Readout structure (60 seconds per quad)
 
 > "Our NS placeholder is [X]. Our hardest challenge was [Y]. Our biggest instrumentation gap is [Z]."
 
@@ -179,7 +179,7 @@ A complete Metrics Tier Sheet (NS placeholder + KPIs + 6 operational signals) pl
 
 ## End-of-day checkpoint
 
-Each triad leaves the day with:
+Each quad leaves the day with:
 
 - [x] A complete Metrics Tier Sheet (NS placeholder + 2–3 KPIs + 6 operational signals)
 - [x] At least one named instrumentation gap

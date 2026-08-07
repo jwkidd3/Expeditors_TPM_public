@@ -2,16 +2,16 @@
 
 > *"Eight weeks of muscle. Five days of proof."*
 
-Week 8 is the capstone. Every triad works the same **capstone subject** — the **Holocron** enterprise string-management problem, supplied as a problem brief at the end of Week 7 — and produces a compressed-but-complete artifact set, anchored on the new technique introduced this week: **AI Spec Development** — using AI to draft the integrated technical spec that ties PRD / TCD / TMD outputs together, with full validation discipline.
+Week 8 is the capstone. Every quad works the same **capstone subject** — the **Holocron** enterprise string-management problem, supplied as a problem brief at the end of Week 7 — and produces a compressed-but-complete artifact set, anchored on the new technique introduced this week: **AI Spec Development** — using AI to draft the integrated technical spec that ties PRD / TCD / TMD outputs together, with full validation discipline.
 
 Friday is **final artifact presentations**. The cohort + instructors score on a rubric that touches every muscle from Weeks 1–7.
 
 ## What's different about Week 8
 
-- **The subject is fixed: Holocron.** Every triad gets the same problem brief and writes its own requirements from it — nothing is pre-specified.
+- **The subject is fixed: Holocron.** Every quad gets the same problem brief and writes its own requirements from it — nothing is pre-specified.
 - **Compression.** The 5-artifact set produced over Weeks 3–7 gets re-produced in **one week** for the new subject. This tests whether the muscles transfer.
 - **AI Spec Development is new.** Day 1 introduces the technique; Day 3 applies it.
-- **Friday is presentations.** Each triad has 15 minutes + 5 min Q&A.
+- **Friday is presentations.** Each quad has 15 minutes + 5 min Q&A.
 - **The tone is summative, not introductory.** This week shows whether the academy worked.
 
 ## Learning outcomes
@@ -39,34 +39,34 @@ By Friday afternoon, each participant can:
 | Clock | Block | Mix |
 |-------|-------|-----|
 | 09:00 – 09:15 | Opening & objectives | Instructor |
-| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min triad work |
+| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min quad work |
 | 10:30 – 10:45 | **Break** | |
-| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min triad work |
+| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min quad work |
 | 12:00 – 13:00 | **Lunch** | |
-| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min triad work |
+| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min quad work |
 | 14:15 – 14:30 | **Break** | |
-| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min triad / 20 min wrap |
+| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min quad / 20 min wrap |
 
 ### Friday cadence (presentations)
 
-For 6 triads (typical cohort), Friday is structured as:
+For 4 quads, Friday is structured as (each quad: 15 min present + 5 min Q&A):
 
 | Clock | Block | What happens |
 |-------|-------|--------------|
-| 09:00 – 09:30 | Opening; presentation order; rubric; final tweaks | Instructor + triads |
-| 09:30 – 10:50 | **Triad 1 + Triad 2 presentations** (15 + 5 min Q&A each, plus 10 min flex) | Cohort scores |
-| 10:50 – 11:05 | Break | |
-| 11:05 – 12:25 | **Triad 3 + Triad 4 presentations** | |
-| 12:25 – 13:25 | Lunch | |
-| 13:25 – 14:45 | **Triad 5 + Triad 6 presentations** | |
-| 14:45 – 15:15 | Cohort retrospective | What worked; what to deepen |
-| 15:15 – 16:00 | Course closure: post-assessments, certificates, wrap | Instructor-led |
+| 09:00 – 09:30 | Opening; presentation order; rubric; final tweaks | Instructor + quads |
+| 09:30 – 10:30 | **Quad 1 + Quad 2 presentations** (20 min each + ~10 min flex) | Cohort scores |
+| 10:30 – 10:45 | Break | |
+| 10:45 – 11:45 | **Quad 3 + Quad 4 presentations** | |
+| 11:45 – 12:15 | Cohort debrief / scoring reconcile | What worked; what to deepen |
+| 12:15 – 13:15 | Lunch | |
+| 13:15 – 15:00 | Course closure: post-assessments (PM + Data Literacy), certificates | Instructor-led |
+| 15:00 – 16:00 | Cohort retrospective + send-off | |
 
 If the cohort is smaller, Friday compresses; if larger, the morning extends and break shifts.
 
 ## The capstone artifact set (compressed)
 
-Each triad ships a **compressed but complete** version of the 5-week artifact set:
+Each quad ships a **compressed but complete** version of the 5-week artifact set:
 
 ```
 capstone/
@@ -80,13 +80,13 @@ capstone/
 
 Compression is the constraint. Every artifact must fit on **2 pages** or less. The discipline is **what to cut**, not what to add.
 
-## Triads
+## Quads
 
-Same triads from Weeks 1–7. The PRD authors → TCD authors → TMD authors → SEP authors → DP authors → AI-Spec authors → presenters.
+Same quads from Weeks 1–7. The PRD authors → TCD authors → TMD authors → SEP authors → DP authors → AI-Spec authors → presenters.
 
 ## Friday presentation rubric
 
-Each triad's 15-min presentation is scored on:
+Each quad's 15-min presentation is scored on:
 
 | Dimension | Weight | Exemplary |
 |-----------|--------|-----------|
@@ -96,7 +96,7 @@ Each triad's 15-min presentation is scored on:
 | **Trade-off honesty** | 15% | At least 2 trade-offs named with cost + revisit trigger |
 | **Outcome thinking** | 10% | NS / Tier-Sheet / leading indicator vocabulary used naturally |
 | **Delivery readiness** | 10% | DP-light shows backlog, tracking, one bottleneck experiment |
-| **Presentation craft** | 15% | All triad voices speak; time-managed; questions answered with curiosity not defensiveness |
+| **Presentation craft** | 15% | All quad voices speak; time-managed; questions answered with curiosity not defensiveness |
 
 ## Bridge — what closes when the academy closes
 

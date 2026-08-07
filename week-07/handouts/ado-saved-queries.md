@@ -1,6 +1,6 @@
 # The 5 Saved Queries Every Team Needs (WIQL)
 
-> **Day 2 · Activity 3 handout.** Build and save these five queries in ADO. Fill the `<our area>` placeholders with your triad's area path. Save them all in a shared folder with clear names.
+> **Day 2 · Activity 3 handout.** Build and save these five queries in ADO. Fill the `<our area>` placeholders with your quad's area path. Save them all in a shared folder with clear names.
 
 ## 1. What's open in the current sprint?
 
@@ -56,4 +56,4 @@ State: Not Closed
 - All 5 queries are **saved and named clearly** in a shared folder.
 - Set up the **sprint board**: columns To Do / In Progress / In Review / Done, with WIP limits where appropriate (e.g., max 3 In Progress per developer).
 - Set up the **Kanban board** for the whole Feature (same columns; this view spans the feature, not just one sprint).
-- Each triad member: pick the **one query you'd run every morning**. Discuss and converge.
+- Each quad member: pick the **one query you'd run every morning**. Discuss and converge.

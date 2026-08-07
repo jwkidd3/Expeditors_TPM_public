@@ -1,12 +1,12 @@
 # TCD Template
 
-> **Day 1 handout.** The 6-section Technical Concept Document (TCD) skeleton your triad builds across Week 4 — the sibling artifact to your Week-3 PRD. Print it, pin it, fill it section by section. Each section carries a `[Day X]` tag telling you when it gets written. Friday it ships, peer-reviewed and signed off.
+> **Day 1 handout.** The 6-section Technical Concept Document (TCD) skeleton your quad builds across Week 4 — the sibling artifact to your Week-3 PRD. Print it, pin it, fill it section by section. Each section carries a `[Day X]` tag telling you when it gets written. Friday it ships, peer-reviewed and signed off.
 
 ---
 
 ```markdown
 # Technical Concept Document — <feature name>
-**Sibling to:** PRD <link>  |  **Authors:** <triad>  |  **Status:** Draft / Reviewed
+**Sibling to:** PRD <link>  |  **Authors:** <quad>  |  **Status:** Draft / Reviewed
 
 ## 1. Architecture stance                              [Day 1]
 Monolith / microservice / hybrid. One paragraph defending the call from

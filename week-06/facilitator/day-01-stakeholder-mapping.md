@@ -6,8 +6,8 @@
 
 **Cues:**
 
-- If a triad's list is < 8, push: "have you thought about [circle]?" Most lists under-include compliance and finance.
-- If a triad's list is > 20, ask which 5 they'd cut. Coverage isn't usefulness.
+- If a quad's list is < 8, push: "have you thought about [circle]?" Most lists under-include compliance and finance.
+- If a quad's list is > 20, ask which 5 they'd cut. Coverage isn't usefulness.
 
 ## Activity 3 — RACI Assignment for Five Decisions
 
@@ -19,7 +19,7 @@
 
 ## Facilitator reflection prompts (end of day)
 
-- Which triad's grid was most rigorously argued? Hold up Friday.
-- Did any triad have multiple A's? Most common discipline failure.
-- Did any triad miss compliance / legal / finance? Common omissions.
-- The two surprises per triad — they're the most useful insight of the day. Document them publicly.
+- Which quad's grid was most rigorously argued? Hold up Friday.
+- Did any quad have multiple A's? Most common discipline failure.
+- Did any quad miss compliance / legal / finance? Common omissions.
+- The two surprises per quad — they're the most useful insight of the day. Document them publicly.

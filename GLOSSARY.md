@@ -139,7 +139,7 @@ Each week produces one document; together they're the TPM's integrated spec. Wee
 | **AI** | Artificial Intelligence |
 | **AI Spec** | The integrated, AI-drafted technical spec (validated section by section) |
 
-*Capstone subject is **Holocron** — an enterprise string-management problem supplied as a brief; every triad writes its own requirements from it.*
+*Capstone subject is **Holocron** — an enterprise string-management problem supplied as a brief; every quad writes its own requirements from it.*
 
 ---
 

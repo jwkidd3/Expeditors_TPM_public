@@ -26,7 +26,7 @@ Two outcomes in one icebreaker: every participant leaves with at least one face-
 
 ### Deliverable
 
-The index card stays with the participant. They will re-use it for the Activity 3 triad commitment.
+The index card stays with the participant. They will re-use it for the Activity 3 quad commitment.
 
 ### Facilitation cues
 
@@ -91,59 +91,59 @@ One story-with-diagnosis per quartet, surfaced in the readout. Capture these —
 
 ---
 
-## Activity 3 — Triad Formation + First Commitment
+## Activity 3 — Quad Formation + First Commitment
 
-**Format:** Self-organize → triads &bull; **25 min** &bull; Block 2
+**Format:** Self-organize → quads &bull; **25 min** &bull; Block 2
 
 ### Purpose
 
-Form the working groups that carry through Week 3's mini-capstone PRD. The composition decision here directly affects the quality of Week 3 work — cognitively diverse triads outperform friend triads on every prior cohort.
+Form the working groups that carry through Week 3's mini-capstone PRD. The composition decision here directly affects the quality of Week 3 work — cognitively diverse quads outperform friend quads on every prior cohort.
 
 ### Setup
 
-- Have index cards (one per triad) and Sharpies at the front of the room.
+- Have index cards (one per quad) and Sharpies at the front of the room.
 - Have the composition rules visible on the screen during the activity.
 
 ### Composition rules
 
-A triad must include **at least one different dimension** across its three members:
+A quad must include **at least one different dimension** across its four members:
 
 1. **Experience level** — at least one with 3+ years in engineering-adjacent role, where possible
 2. **Domain background** — different functional areas (e.g., not three from supply chain)
 3. **Home team** — no two from the same home team if the cohort is intra-company
 
-The bar is "at least one different dimension." A triad that's three engineers from the same team is forbidden. A triad that's three engineers from three teams is fine.
+The bar is "at least one different dimension." A quad that's three engineers from the same team is forbidden. A quad that's three engineers from three teams is fine.
 
 ### Steps
 
-1. **Stand and mingle — 8 min.** Participants stand, walk the room, and form groups of three. Facilitator circulates and breaks up triads that violate composition rules.
-2. **Sit + name — 5 min.** Each triad sits together. They give the triad a name (anything memorable — fast).
-3. **Write the commitment — 8 min.** On a single index card, the triad writes a **one-sentence commitment** about how they will work together. Examples:
+1. **Stand and mingle — 8 min.** Participants stand, walk the room, and form groups of three. Facilitator circulates and breaks up quads that violate composition rules.
+2. **Sit + name — 5 min.** Each quad sits together. They give the quad a name (anything memorable — fast).
+3. **Write the commitment — 8 min.** On a single index card, the quad writes a **one-sentence commitment** about how they will work together. Examples:
    - "We will tell each other when our drafts are weak, before peer review tells us."
    - "We will not let any one of us carry the PRD alone."
    - "We will surface disagreement before Friday."
-4. **Share — 4 min.** Each triad reads their name and commitment to the room. Thirty seconds per triad, hard timebox.
+4. **Share — 4 min.** Each quad reads their name and commitment to the room. Thirty seconds per quad, hard timebox.
 
 ### Deliverable
 
-A named triad with a one-sentence commitment card. Photograph or collect the cards — they're a useful artifact for the Week 3 retrospective.
+A named quad with a one-sentence commitment card. Photograph or collect the cards — they're a useful artifact for the Week 3 retrospective.
 
 ### Facilitation cues
 
 - The "stand and mingle" step is where cliques try to re-form. Watch for two friends nodding at each other across the room — break it up before they settle.
-- If the cohort is small (e.g., 9 people forming 3 triads), you may need to dictate composition rather than let it self-organize.
-- A triad that produces a fluffy commitment ("we will try our best") should be asked to rewrite — the commitment is the artifact, and fluffy commitments are not useful in Week 3.
+- If the cohort is small (e.g., 9 people forming 3 quads), you may need to dictate composition rather than let it self-organize.
+- A quad that produces a fluffy commitment ("we will try our best") should be asked to rewrite — the commitment is the artifact, and fluffy commitments are not useful in Week 3.
 - Don't moralize about composition rules. Just enforce them quietly. Participants who get reshuffled will recognize the value by Week 2.
 
 ### Common failure modes
 
-- **Friend triads.** Three friends who already know each other form fast and produce comfortable but cognitively narrow Week 3 PRDs. Break them up.
+- **Friend quads.** Three friends who already know each other form fast and produce comfortable but cognitively narrow Week 3 PRDs. Break them up.
 - **Aspirational commitments.** "We will be excellent" is not a commitment — it's a wish. Push for a behavior they can act on.
 - **Skipping the share.** The room-read makes the commitment public, which makes it sticky. Don't cut it for time.
 
 ### What to do with the cards after the kickoff
 
-Keep the cards through Week 3. At the Week 3 mini-capstone retrospective, hand each triad their original card and ask: "Did you keep the commitment? If not, what got in the way?" This is one of the more durable feedback loops the academy has.
+Keep the cards through Week 3. At the Week 3 mini-capstone retrospective, hand each quad their original card and ask: "Did you keep the commitment? If not, what got in the way?" This is one of the more durable feedback loops the academy has.
 
 ---
 
@@ -153,7 +153,7 @@ Keep the cards through Week 3. At the Week 3 mini-capstone retrospective, hand e
 |---|---|---|
 | 1. Two Truths and a TPM | 20 min | Pairs |
 | 2. Win or Lose | 30 min | Quartets |
-| 3. Triad Formation | 25 min | Triads |
+| 3. Quad Formation | 25 min | Quads |
 
 Total activity time: 75 minutes across the half-day. The remaining 135 minutes are teaching, transitions, break, and Q&A.
 
@@ -204,24 +204,24 @@ The activities above are written for an in-person room. The same three activitie
 - A facilitator should hop between breakout rooms during the 15-min discussion block — catches stuck quartets faster than waiting for chat SOS.
 - If quartets struggle with the silent-read step, give them permission to use chat-reactions (👀 to acknowledge they've read each card).
 
-### Activity 3 — Triad Formation + First Commitment (virtual)
+### Activity 3 — Quad Formation + First Commitment (virtual)
 
-**Format:** Triads &bull; **25 min** &bull; Random breakout-room assignment
+**Format:** Quads &bull; **25 min** &bull; Random breakout-room assignment
 
-The in-person "stand and mingle to find a triad" step doesn't translate. Use the platform's **random auto-assign for 3-person rooms** — that's the project's chosen approach. Trade-off acknowledged: random assignment doesn't enforce the "at least one different dimension" composition rule. Facilitators should be ready to coach triads whose composition turns out cognitively narrow.
+The in-person "stand and mingle to find a quad" step doesn't translate. Use the platform's **random auto-assign for 3-person rooms** — that's the project's chosen approach. Trade-off acknowledged: random assignment doesn't enforce the "at least one different dimension" composition rule. Facilitators should be ready to coach quads whose composition turns out cognitively narrow.
 
 - **Breakout setup.** Auto-assign 3-person rooms. 17-minute timer; main-room broadcasts a 5-min announce + 3-min stand-up readout window.
-- **Announce — 5 min.** Facilitator explains: "Your breakout room is your triad. The platform mixed you randomly. You're together through end of Week 3."
+- **Announce — 5 min.** Facilitator explains: "Your breakout room is your quad. The platform mixed you randomly. You're together through end of Week 3."
 - **In the breakout:**
-  - **Sit + name — 5 min.** Triad picks a memorable name. (Skip the "sit together" step — they're already in a room.)
-  - **Write the commitment — 8 min.** Each triad has a pre-built Miro **commitment card** (or Google Doc section) — one card per triad, labeled with a placeholder number that becomes the triad name. Triad collaboratively types its one-sentence commitment into the card.
+  - **Sit + name — 5 min.** Quad picks a memorable name. (Skip the "sit together" step — they're already in a room.)
+  - **Write the commitment — 8 min.** Each quad has a pre-built Miro **commitment card** (or Google Doc section) — one card per quad, labeled with a placeholder number that becomes the quad name. Quad collaboratively types its one-sentence commitment into the card.
   - **(Optional)** One member is "card keeper" — they screenshot the finished card and save it to a shared Drive folder for the Week 3 retro.
-- **Share — 4 min.** Back in main room. Each triad reads name + commitment, 30 seconds each, unmuted. Same as in-person.
+- **Share — 4 min.** Back in main room. Each quad reads name + commitment, 30 seconds each, unmuted. Same as in-person.
 
 **Virtual-specific cues:**
-- **Random assignment can produce friend-clusters by chance.** If a triad ends up obviously narrow (e.g., three engineers from the same team), the facilitator can either re-roll (move one person across triads) or coach them in-room to lean hard on the cognitive-diversity stretch. Decide which posture you want before kickoff.
+- **Random assignment can produce friend-clusters by chance.** If a quad ends up obviously narrow (e.g., three engineers from the same team), the facilitator can either re-roll (move one person across quads) or coach them in-room to lean hard on the cognitive-diversity stretch. Decide which posture you want before kickoff.
 - The commitment card is **the artifact** — preserve a screenshot or link in a shared folder. Without the physical card, it's easy to lose track of for the Week 3 retro.
-- If a triad finishes early (~5 min), have them write a **stretch goal** on the same card: "we'll also \_\_\_" — gives extra triads something to do without disrupting the timer.
+- If a quad finishes early (~5 min), have them write a **stretch goal** on the same card: "we'll also \_\_\_" — gives extra quads something to do without disrupting the timer.
 
 ### Virtual pre-flight checklist (in addition to the in-person checklist above)
 
@@ -229,5 +229,5 @@ The in-person "stand and mingle to find a triad" step doesn't translate. Use the
 - [ ] Test the platform's breakout auto-assign for 2 / 4 / 3-person rooms before the cohort joins
 - [ ] Visible countdown timer ready to screen-share for every timed step
 - [ ] Have a co-facilitator (or yourself) on **chat watch** during breakouts for technical SOS
-- [ ] Pre-create a **shared Drive folder** for screenshots of the triad commitment cards
+- [ ] Pre-create a **shared Drive folder** for screenshots of the quad commitment cards
 - [ ] Test screen-share permissions in breakout rooms — some platforms require participants to be unmuted-and-promoted to share

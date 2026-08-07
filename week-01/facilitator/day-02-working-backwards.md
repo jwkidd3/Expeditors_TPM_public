@@ -12,22 +12,22 @@
 
 **Cues:**
 - Protect Vignette D's discussion. The "fictional customer quote" is the most common PR/FAQ failure in practice — make sure the room names it.
-- If a triad confidently classifies C as forward or backward, push back. The ambiguity is the lesson.
+- If a quad confidently classifies C as forward or backward, push back. The ambiguity is the lesson.
 
 ## Activity 2 — Headline + Sub-headline
 
 **Cues:**
-- If a triad picks their favorite candidate without running the AI critique, push them back to step 3 — the critique is the muscle.
+- If a quad picks their favorite candidate without running the AI critique, push them back to step 3 — the critique is the muscle.
 - The "interchangeable with a competitor's marketing" question kills the favored draft often. That's the lesson; let it sting.
 
 ## Activity 3 — Answer the Five, Concretely
 
 **Cues:**
 - Walk the room watching for generic customers and benefit bouquets — the two most common failure modes.
-- If a triad's customer quote uses marketing language, ask them to read it aloud in the dispatcher's voice. The mismatch becomes obvious.
+- If a quad's customer quote uses marketing language, ask them to read it aloud in the dispatcher's voice. The mismatch becomes obvious.
 
-## Activity 4 — Cross-Triad PR/FAQ Review
+## Activity 4 — Cross-Quad PR/FAQ Review
 
 **Cues:**
 - Enforce "questions only" in the critique block. The first time someone breaks it, name it gently and reset.
-- Triads that change nothing after critique usually didn't hear it. Walk over and ask what surprised them — that opens the door.
+- Quads that change nothing after critique usually didn't hear it. Walk over and ask what surprised them — that opens the door.

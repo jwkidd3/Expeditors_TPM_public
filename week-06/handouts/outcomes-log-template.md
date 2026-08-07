@@ -8,11 +8,11 @@
 
 ```markdown
 ### Round N: <topic>
-**Triad A (author):** <names>  |  **Triad B (stakeholder):** <names>
+**Quad A (author):** <names>  |  **Quad B (stakeholder):** <names>
 **Stakeholder role played:** <e.g., Architect>
 
 **The ask:**
-<What the author triad asked for>
+<What the author quad asked for>
 
 **Stakeholder's response:**
 <What the stakeholder pushed back with — top 1–2 objections>

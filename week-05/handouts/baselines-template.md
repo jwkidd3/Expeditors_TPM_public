@@ -2,7 +2,7 @@
 
 > **Day 5 handout.** A baseline is what a metric reads *today* (or at launch). Without one, you can't tell whether you've improved. Set a baseline for every SLO plus a few operational signals — and a date to verify it against reality.
 
-**Triad:** ______________________  **Feature:** ______________________
+**Quad:** ______________________  **Feature:** ______________________
 
 | Metric | Baseline | Source / assumption | Verify at |
 |--------|----------|----------------------|-----------|

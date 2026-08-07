@@ -1,10 +1,10 @@
 # Day 5 — Data-Driven Problem Framing
 
-> **Activity packet for participant triads.** Day 5 is the integration day: every prior artifact of Week 1 funnels into a problem statement + evidence brief + 10-minute cohort readout.
+> **Activity packet for participant quads.** Day 5 is the integration day: every prior artifact of Week 1 funnels into a problem statement + evidence brief + 10-minute cohort readout.
 
 ## Prerequisite artifacts (must be brought in)
 
-Each triad arrives with:
+Each quad arrives with:
 
 - **Prompt Pattern Library** (Day 1)
 - **PR/FAQ** (Day 2)
@@ -69,13 +69,13 @@ Each triad arrives with:
 
 ## Activity 1 — Draft Your Statement
 
-**Format:** Triad &bull; **45 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Convert the Week-1 artifact stack (persona + Top 3 pains) into a single six-line problem statement an engineer could scope from.
 
 ### Setup
-Your triad has its Day 3 persona, Day 4 Top 3 pains, and the printed Problem Statement Template.
+Your quad has its Day 3 persona, Day 4 Top 3 pains, and the printed Problem Statement Template.
 
 ### Steps
 
@@ -87,7 +87,7 @@ Your triad has its Day 3 persona, Day 4 Top 3 pains, and the printed Problem Sta
    - No root cause? (Run the 5 Whys again — briefly)
    - Ungrounded? (Tag the evidence)
    - Success-agnostic? (Quantify or time-bound the target)
-4. **Within-triad peer read (5 min).** One member reads aloud. Others listen for what's still weak.
+4. **Within-quad peer read (5 min).** One member reads aloud. Others listen for what's still weak.
 
 ### Common mistakes to watch for
 
@@ -97,19 +97,19 @@ Your triad has its Day 3 persona, Day 4 Top 3 pains, and the printed Problem Sta
 
 ### Deliverable
 
-A six-line problem statement per triad, evidence-tagged, that survives the failure-mode audit.
+A six-line problem statement per quad, evidence-tagged, that survives the failure-mode audit.
 
 ---
 
 ## Activity 2 — Pressure Test
 
-**Format:** Triad &bull; **45 min** &bull; Block 2
+**Format:** Quad &bull; **45 min** &bull; Block 2
 
 ### Purpose
 Use AI to surface the questions a skeptical engineer would ask — then answer them honestly, including by adding to the Open questions list.
 
 ### Setup
-Your triad has its draft problem statement from Activity 1 and an AI assistant. Use the pressure-test prompt below.
+Your quad has its draft problem statement from Activity 1 and an AI assistant. Use the pressure-test prompt below.
 
 ### The prompt (from Day 1 library)
 
@@ -133,7 +133,7 @@ Format: Numbered list of questions, ranked.
 3. **Revise (10 min).** Update the problem statement and Evidence log based on answers. Move failed claims to Open questions or drop.
 
 ### Guardrail
-**AI does not get to rewrite the statement.** Ownership stays with the triad. The prompt's job is to surface weakness, not to patch it.
+**AI does not get to rewrite the statement.** Ownership stays with the quad. The prompt's job is to surface weakness, not to patch it.
 
 ### Deliverable
 
@@ -143,22 +143,22 @@ A revised problem statement plus an updated Evidence log and an expanded Open qu
 
 ## Activity 3 — Paired Dry-Run
 
-**Format:** Paired triads &bull; **45 min** &bull; Block 3
+**Format:** Paired quads &bull; **45 min** &bull; Block 3
 
 ### Purpose
-Rehearse the 10-minute readout against another triad's stopwatch, and surface where intent and listener-summary diverge.
+Rehearse the 10-minute readout against another quad's stopwatch, and surface where intent and listener-summary diverge.
 
 ### Setup
-Pair with another triad. Each triad needs a stopwatch (phone is fine) and a note-taker on the partner side.
+Pair with another quad. Each quad needs a stopwatch (phone is fine) and a note-taker on the partner side.
 
 ### Steps
 
-1. Triads pair up.
-2. Triad A delivers a **full timed 10-minute readout** to Triad B. Partner uses a stopwatch.
+1. Quads pair up.
+2. Quad A delivers a **full timed 10-minute readout** to Quad B. Partner uses a stopwatch.
 3. During the readout, Partner writes down:
    - The **3 questions** they would ask in real Q&A
    - **One sentence**: "I heard the problem to be…"
-4. Compare that one-sentence summary to what Triad A intended to convey.
+4. Compare that one-sentence summary to what Quad A intended to convey.
 5. Swap directions.
 6. **Joint debrief (15 min):** Where did the heard-summary differ from intent? Why? What slide/paragraph caused the gap?
 
@@ -174,7 +174,7 @@ Revise accordingly before Block 4.
 
 ### Deliverable
 
-A polished 10-minute readout plus a documented gap (intent vs. heard-summary) that the triad has addressed before Block 4.
+A polished 10-minute readout plus a documented gap (intent vs. heard-summary) that the quad has addressed before Block 4.
 
 ---
 
@@ -182,7 +182,7 @@ A polished 10-minute readout plus a documented gap (intent vs. heard-summary) th
 
 **Format:** Full cohort &bull; **~90 min** &bull; Block 4
 
-### Structure per triad (10 minutes)
+### Structure per quad (10 minutes)
 
 | Clock | Content |
 |-------|---------|
@@ -192,14 +192,14 @@ A polished 10-minute readout plus a documented gap (intent vs. heard-summary) th
 | 5:30 – 7:30 | Evidence sample + open questions |
 | 7:30 – 10:00 | Q&A — **questions only**, no defending |
 
-### Between triads (3 min)
+### Between quads (3 min)
 
 Silent. Every audience member fills out a score sheet: rubric scores + 1 strength + 1 suggestion.
 
 ### Score sheet template
 
 ```markdown
-## Triad: [name]
+## Quad: [name]
 
 ### Scores (1–5)
 - Customer authenticity: __
@@ -219,7 +219,7 @@ Silent. Every audience member fills out a score sheet: rubric scores + 1 strengt
 
 ## End-of-Week-1 checkpoint
 
-Each triad leaves the week with:
+Each quad leaves the week with:
 
 - [x] Problem statement + Evidence brief, reviewed by peers and scored
 - [x] Readout deck/visuals reusable on demand
@@ -228,4 +228,4 @@ Each triad leaves the week with:
 
 ## Bridge to Week 2
 
-Monday opens with: *"Review the problem statements from Friday. Choose your triad's candidate North Star metric. Bring three candidates, come ready to defend one."*
+Monday opens with: *"Review the problem statements from Friday. Choose your quad's candidate North Star metric. Bring three candidates, come ready to defend one."*

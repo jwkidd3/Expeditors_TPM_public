@@ -1,10 +1,10 @@
 # Day 1 — Drafting Technical PRDs from Customer Requirements
 
-> **Activity packet** for participant triads. Today's job: take your triad's top Week-2 feature concept and start the PRD you'll ship Friday — context, problem, goals, scope, and a solution sketch crisp enough for an engineer to imagine the shape.
+> **Activity packet** for participant quads. Today's job: take your quad's top Week-2 feature concept and start the PRD you'll ship Friday — context, problem, goals, scope, and a solution sketch crisp enough for an engineer to imagine the shape.
 
 ## Where we are in the week
 
-Week 3 is the mini-capstone. Triads carry their Week-2 strategy package and pick **one feature concept** to PRD this week. By Friday, that PRD ships, peer-reviewed.
+Week 3 is the mini-capstone. Quads carry their Week-2 strategy package and pick **one feature concept** to PRD this week. By Friday, that PRD ships, peer-reviewed.
 
 Today produces sections 1–5 of the PRD. AC come Day 2. NFRs come Day 3. The integrated assembly happens Day 4. Reviews happen Day 5.
 
@@ -16,7 +16,7 @@ This week is the discipline of producing a defensible written artifact without a
 
 ```markdown
 # PRD — <Feature name>
-**Author triad:** <names>  |  **Date:** <date>  |  **Status:** Draft
+**Author quad:** <names>  |  **Date:** <date>  |  **Status:** Draft
 
 ## 1. Context
 ## 2. Problem
@@ -35,15 +35,15 @@ This week is the discipline of producing a defensible written artifact without a
 
 ## Activity 1 — Pick the One Feature
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-Force the triad to commit to **one** feature concept from Week 2 and articulate why that one. Many triads will want to keep all three — the discipline of choosing is the work.
+Force the quad to commit to **one** feature concept from Week 2 and articulate why that one. Many quads will want to keep all three — the discipline of choosing is the work.
 
 ### Setup
-Each triad needs their three Week-2 feature cards, the four-dimension scoring sheet, and a blank memo template. No AI tools.
+Each quad needs their three Week-2 feature cards, the four-dimension scoring sheet, and a blank memo template. No AI tools.
 
-### Triad protocol
+### Quad protocol
 
 1. **Re-read the 3 feature cards aloud** (5 min)
 2. **Score each on 4 dimensions** (10 min). 1–5 each:
@@ -51,7 +51,7 @@ Each triad needs their three Week-2 feature cards, the four-dimension scoring sh
     - **Metric movability** — how confident are we it'll move the metric in 30 days?
     - **Build feasibility** — how achievable in one quarter?
     - **Learning value** — what do we learn even if it doesn't ship?
-3. **Pick one** (10 min). Highest total score is the default; if scores tie, the triad must argue.
+3. **Pick one** (10 min). Highest total score is the default; if scores tie, the quad must argue.
 4. **Write the "Why this one" memo** (10 min). Two paragraphs:
     - Paragraph 1: Why this feature, in user terms
     - Paragraph 2: Why this feature, in business / strategy terms
@@ -64,13 +64,13 @@ A single feature locked in, with a "Why this one" memo. The memo seeds Section 1
 
 ## Activity 2 — Section 1 (Context) and Section 2 (Problem)
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Write the two sections that give the engineer who reads the PRD enough to **care** about the work before they read what to build.
 
 ### Setup
-Each triad needs Week-1 interview notes and the Week-2 journey map within arm's reach. Print or pin the PRD template. No AI.
+Each quad needs Week-1 interview notes and the Week-2 journey map within arm's reach. Print or pin the PRD template. No AI.
 
 ### Section 1: Context (½ page max)
 
@@ -96,7 +96,7 @@ What this section answers:
 
 Tie explicitly to the **Week-2 journey map**. Reference the friction stars.
 
-### Triad protocol
+### Quad protocol
 
 1. **Each member drafts Section 1 alone** (10 min). Three drafts.
 2. **Pick the strongest** (10 min). Combine if needed.
@@ -111,19 +111,19 @@ Tie explicitly to the **Week-2 journey map**. Reference the friction stars.
 
 ### Deliverable
 
-Drafted Section 1 (Context) and Section 2 (Problem) appended to the triad's PRD, with at least one verbatim customer quote in Section 2.
+Drafted Section 1 (Context) and Section 2 (Problem) appended to the quad's PRD, with at least one verbatim customer quote in Section 2.
 
 ---
 
 ## Activity 3 — Section 3 (Goals & Non-goals) and Section 4 (Scope)
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Define what success means **in user terms** and bound what will and won't ship in this iteration. Non-goals and out-of-scope items are the most under-valued sections of any PRD.
 
 ### Setup
-Each triad needs their Week-2 Tier Sheet (for metric ties) and the Sections 1–2 they just drafted. Whiteboard or worksheet for the scope table.
+Each quad needs their Week-2 Tier Sheet (for metric ties) and the Sections 1–2 they just drafted. Whiteboard or worksheet for the scope table.
 
 ### Section 3: Goals & non-goals
 
@@ -149,7 +149,7 @@ A two-column table:
 
 Out-of-scope is the **negotiation tool** — it tells stakeholders "I see what you might also want; here's why this iteration doesn't include it."
 
-### Triad protocol
+### Quad protocol
 
 1. **Draft 5 candidate goals** (10 min). Cull to 3.
 2. **Draft 3 candidate non-goals** (10 min). Cull to 2.
@@ -164,13 +164,13 @@ Section 3 (Goals & non-goals) and Section 4 (Scope in/out table) appended to the
 
 ## Activity 4 — Section 5 (Solution Sketch)
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Describe the solution **just enough** for an engineer to imagine its shape — not so much that you've designed it for them. This is the most-mis-written section in real-world PRDs.
 
 ### Setup
-Each triad needs blank paper for sketches, the Sections 1–4 they just drafted, and the Section 5 inclusion/exclusion checklist. No AI.
+Each quad needs blank paper for sketches, the Sections 1–4 they just drafted, and the Section 5 inclusion/exclusion checklist. No AI.
 
 ### What goes in Section 5
 
@@ -191,7 +191,7 @@ Each triad needs blank paper for sketches, the Sections 1–4 they just drafted,
 
 After writing Section 5, ask: what are the **first three questions** an engineer would ask after reading this? If those questions are about implementation choice, you've over-specified. If they're about user behavior or scope, you've under-specified.
 
-### Triad protocol
+### Quad protocol
 
 1. **Sketch the flow** (15 min). On paper. 4–8 steps.
 2. **Write the happy-path paragraph** (10 min).
@@ -200,11 +200,11 @@ After writing Section 5, ask: what are the **first three questions** an engineer
 
 ### Deliverable
 
-Section 5 (Solution sketch) appended to the PRD: flow steps, hard-interactions list, happy-path paragraph, and the triad's three-questions diagnosis.
+Section 5 (Solution sketch) appended to the PRD: flow steps, hard-interactions list, happy-path paragraph, and the quad's three-questions diagnosis.
 
 ### Wrap (last 15 min)
 
-Each triad shares with the room:
+Each quad shares with the room:
 
 - The feature name
 - One sentence of context
@@ -212,13 +212,13 @@ Each triad shares with the room:
 - The top goal
 - The top non-goal
 
-This **two-minute share** is intentional. It catches generic feature concepts before the triad invests another 3 days drafting.
+This **two-minute share** is intentional. It catches generic feature concepts before the quad invests another 3 days drafting.
 
 ---
 
 ## End-of-day checkpoint
 
-Each triad leaves the day with a draft PRD containing:
+Each quad leaves the day with a draft PRD containing:
 
 - [x] Title + author + date + status
 - [x] Section 1 (Context)

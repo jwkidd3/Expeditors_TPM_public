@@ -4,11 +4,11 @@
 
 ## Facilitator pre-flight checklist
 
-- [ ] Confirm every triad's Week-2 artifacts are accessible Monday morning (NS, journey map, top 3 feature concepts).
-- [ ] Pre-print the **PRD template** (1 per triad) and the **review rubric** (Friday).
+- [ ] Confirm every quad's Week-2 artifacts are accessible Monday morning (NS, journey map, top 3 feature concepts).
+- [ ] Pre-print the **PRD template** (1 per quad) and the **review rubric** (Friday).
 - [ ] Set the **non-AI rule** explicitly Monday morning. Repeat Tuesday and Thursday.
 - [ ] Decide review pairings before Friday. Each PRD gets two primary reviewers, plus a different secondary reviewer in the afternoon.
-- [ ] Coach yourself on the **most common Week 3 trap**: triads writing AC that just restates goals in Given/When/Then syntax. Hold the line on testability.
+- [ ] Coach yourself on the **most common Week 3 trap**: quads writing AC that just restates goals in Given/When/Then syntax. Hold the line on testability.
 
 ## Per-day facilitator guides
 

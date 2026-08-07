@@ -1,10 +1,10 @@
 # Day 1 — Database Structures & Data Logic
 
-> **Activity packet** for participant triads. Today's job: model the **entities** the feature reads, writes, and indexes; defend the **storage choice**; and draft TMD Section 1.
+> **Activity packet** for participant quads. Today's job: model the **entities** the feature reads, writes, and indexes; defend the **storage choice**; and draft TMD Section 1.
 
 ## Where we are in the week
 
-The TCD's component diagram showed *that* there's a datastore. This week's work names *what's in it* and *how it's shaped*. By 16:00, every triad has TMD Section 1 — a data model an engineer could begin coding against.
+The TCD's component diagram showed *that* there's a datastore. This week's work names *what's in it* and *how it's shaped*. By 16:00, every quad has TMD Section 1 — a data model an engineer could begin coding against.
 
 ## Inputs
 
@@ -60,15 +60,15 @@ If your data model can't be defended *by the queries that drive it*, it's wrong.
 
 ## Activity 1 — Read Patterns + Write Patterns
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Surface every read and write the feature needs *before* drawing the schema.
 
 ### Setup
-Each triad needs the PRD Section 5 sketch, PRD Section 6 AC list, and the Access Pattern Sheet template. AI optional.
+Each quad needs the PRD Section 5 sketch, PRD Section 6 AC list, and the Access Pattern Sheet template. AI optional.
 
-### Triad protocol
+### Quad protocol
 
 1. **Re-read the PRD Section 5 sketch** (5 min). What does the user do? What screens load? What submits send?
 2. **List read patterns** (15 min). For each screen / API call:
@@ -96,13 +96,13 @@ A two-column **Access Pattern Sheet**:
 
 ## Activity 2 — Draft the Entity Model
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Convert the access patterns into an entity model. Tables / collections, keys, relationships, indexes.
 
 ### Setup
-Each triad needs the Access Pattern Sheet from Activity 1 and the entity-model template. AI optional.
+Each quad needs the Access Pattern Sheet from Activity 1 and the entity-model template. AI optional.
 
 ### The entity model template
 
@@ -128,7 +128,7 @@ For each entity, capture:
 - ticket.status is one of {open, reconciled, voided}.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **List the entities** (10 min). Include both new entities (you're creating) and existing entities you're reading from.
 2. **For each new entity, draft the fields** (15 min). Use the template.
@@ -177,13 +177,13 @@ Entity-model draft with PKs, indexes referencing access patterns by number, name
 
 ## Activity 3 — Storage Trade-Offs
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 For each non-trivial design choice, surface the trade-off explicitly. Today's choices are local — schema-level — but the discipline is the same as Week 4's architectural trade-offs.
 
 ### Setup
-Each triad needs the entity model from Activity 2, TCD Section 4 SLOs for cross-reference, and the Week-4 trade-off template.
+Each quad needs the entity model from Activity 2, TCD Section 4 SLOs for cross-reference, and the Week-4 trade-off template.
 
 ### Three trade-offs every model encounters
 
@@ -219,7 +219,7 @@ Each triad needs the entity model from Activity 2, TCD Section 4 SLOs for cross-
         a high-volume query.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Identify 3 trade-off points** in your model (15 min). For each: what was the choice, what was the alternative?
 2. **Use the Week-4 trade-off template** (15 min). Same Option A/B/Choice/Why/Cost/Trigger.
@@ -239,13 +239,13 @@ Each triad needs the entity model from Activity 2, TCD Section 4 SLOs for cross-
 
 ## Activity 4 — AI-Assisted Schema Critique + Polish
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Use AI as a critic. Update Section 1. Add the provenance log entry.
 
 ### Setup
-Each triad needs the entity model, the Access Pattern Sheet, and the trade-off list. AI required; log provenance.
+Each quad needs the entity model, the Access Pattern Sheet, and the trade-off list. AI required; log provenance.
 
 ### The two prompts
 
@@ -273,7 +273,7 @@ the user will eventually want* are not yet supported by this
 schema? List 3, ranked by likelihood of mattering within 6 months.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Run Prompt A** (10 min). Adopt / defer / reject each issue.
 2. **Run Prompt B** (10 min). Decide which deferred queries to capture in Section 11 (out-of-scope follow-ups).
@@ -287,7 +287,7 @@ Polished TMD Section 1 (entity model + trade-offs) incorporating adopted AI find
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - One **trade-off** they made explicit (with revisit trigger)
 - One **query** AI surfaced that would have caught them in 6 months
@@ -297,7 +297,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 1 with:
+Each quad ends Day 1 with:
 
 - [x] **Access Pattern Sheet** (read + write patterns, with frequency + freshness)
 - [x] **Entity model** with PKs, indexes, relationships, invariants

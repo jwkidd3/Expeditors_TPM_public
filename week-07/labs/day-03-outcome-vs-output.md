@@ -1,6 +1,6 @@
 # Day 3 — Outcome-Based Planning vs Output-Based Tracking
 
-> **Activity packet** for participant triads. Today's job: wire **tracking** on top of yesterday's ADO backlog so the team sees both outputs (work shipped) and outcomes (impact produced) — and surfaces failure early. Draft DP Section 3.
+> **Activity packet** for participant quads. Today's job: wire **tracking** on top of yesterday's ADO backlog so the team sees both outputs (work shipped) and outcomes (impact produced) — and surfaces failure early. Draft DP Section 3.
 
 ## Where we are in the week
 
@@ -56,9 +56,9 @@ Tracking is wasted unless someone looks at it on a regular rhythm:
 | Cadence | Audience | What's reviewed |
 |---------|----------|-----------------|
 | **Daily** | Engineers / on-call | Alerts, error budget, immediate breaks |
-| **Sprint (2 weeks)** | Triad + eng lead | Output velocity, leading indicators trending right? |
+| **Sprint (2 weeks)** | Quad + eng lead | Output velocity, leading indicators trending right? |
 | **Monthly** | TPM + PM director | Outcome metrics — is the feature winning? |
-| **Quarterly** | Triad + leadership | NS movement, KPI roll-up, the big picture |
+| **Quarterly** | Quad + leadership | NS movement, KPI roll-up, the big picture |
 
 If a metric has no cadence, it has no audience. If a metric has an audience but no cadence, it's reviewed when there's a fire — too late.
 
@@ -66,12 +66,12 @@ If a metric has no cadence, it has no audience. If a metric has an audience but 
 
 ## Activity 1 — Output / Outcome / Leading-Indicator Triples
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Build the central tracking table — every meaningful output paired with an outcome and a leading indicator.
 
-### Triad protocol
+### Quad protocol
 
 1. **List the outputs** (10 min). Pull from DP Section 2 — the User Stories that produce user-visible behavior. Aim for 5–8 outputs (not all stories produce distinct outcomes).
 2. **For each output, name the outcome** (10 min). Use DP Section 1's outcome map. Several outputs may share an outcome — that's fine.
@@ -99,7 +99,7 @@ Build the central tracking table — every meaningful output paired with an outc
 
 ## Activity 2 — Sprint-Level Tracking (the 2-week loop)
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Design the sprint review where outputs and outcomes are inspected together.
@@ -117,7 +117,7 @@ A typical sprint review covers:
 
 The TPM-owned twist: **at least one slide / segment is about outcome**, not output. The team sees the leading indicators next to the velocity.
 
-### Triad protocol
+### Quad protocol
 
 1. **Design the sprint review template** (15 min). 6 sections, with content per section.
 2. **Decide the cadence anchor** (5 min). Day of week; time; recurring.
@@ -134,7 +134,7 @@ The TPM-owned twist: **at least one slide / segment is about outcome**, not outp
 
 ## Activity 3 — Monthly + Quarterly Tracking
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Design the monthly outcome review and the quarterly NS roll-up.
@@ -178,7 +178,7 @@ The quarterly review answers: **did the feature contribute to the NS?**
 - Did counter-outcomes stay flat?
 - Did the NS itself move? (Often hard to attribute to one feature; that's fine — name what you can.)
 
-### Triad protocol
+### Quad protocol
 
 1. **Monthly review template** (15 min). Customize the structure above for your feature.
 2. **Quarterly roll-up template** (15 min). Same.
@@ -196,7 +196,7 @@ The quarterly review answers: **did the feature contribute to the NS?**
 
 ## Activity 4 — Build the Tracking Plan + AI Pattern Detection
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Combine Activities 1–3 into a single tracking plan section of the DP. Add the AI-pattern-detection prompt that helps spot anomalies.
@@ -252,16 +252,16 @@ Constraints:
 Format: 3 numbered patterns; each with: pattern / evidence / suggested investigation.
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Combine into Section 3** (15 min). All four sections.
 2. **Run the AI prompt** on a synthetic sprint (10 min).
 3. **Validate** (10 min). Cross-check claims.
-4. **Cross-review with another triad** (10 min). The reviewer asks: is each leading indicator measurable within 7 days?
+4. **Cross-review with another quad** (10 min). The reviewer asks: is each leading indicator measurable within 7 days?
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - One **leading indicator** they're proudest of
 - One **anomaly** they expect to see in the first sprint
@@ -271,7 +271,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 3 with:
+Each quad ends Day 3 with:
 
 - [x] Output/outcome/leading-indicator triples (5–8 outputs)
 - [x] **Sprint-level review template** + cadence + dashboard

@@ -634,11 +634,11 @@ Today: tie data + cloud + API together. Sequence diagrams for happy / sad / weir
 <li class="fragment fade-up">Draw a <strong>sad-path sequence</strong> showing user-visible recovery</li>
 <li class="fragment fade-up">Draw a <strong>weird-path sequence</strong> with named invariant</li>
 <li class="fragment fade-up">Verify total latency annotation matches <strong>Technical Concept Document (TCD) Section 4 Service Level Objective (SLO) budget</strong></li>
-<li class="fragment fade-up">Cross-review with another triad and use AI to surface gaps</li>
+<li class="fragment fade-up">Cross-review with another quad and use AI to surface gaps</li>
 </ul>
 
 Note:
-By 16:00, every triad has TMD Section 4 with three sequence diagrams.
+By 16:00, every quad has TMD Section 4 with three sequence diagrams.
 
 ---
 
@@ -663,7 +663,7 @@ Three sequences ship today.
 <h3>Time top to bottom; actors as lifelines</h3>
 
 Note:
-Start with the happy path so triads internalize the diagram grammar. Watch for missing audit-publish arrows — a common compliance miss.
+Start with the happy path so quads internalize the diagram grammar. Watch for missing audit-publish arrows — a common compliance miss.
 
 ---
 
@@ -682,7 +682,7 @@ Start with the happy path so triads internalize the diagram grammar. Watch for m
 </div>
 
 Note:
-If a triad's diagram has 25 lifelines, push them to merge or simplify.
+If a quad's diagram has 25 lifelines, push them to merge or simplify.
 
 ---
 
@@ -707,7 +707,7 @@ If a triad's diagram has 25 lifelines, push them to merge or simplify.
 </div>
 
 Note:
-Triads who try to draw "the whole system" in one sequence diagram drown. Coach to one user action.
+Quads who try to draw "the whole system" in one sequence diagram drown. Coach to one user action.
 
 ---
 
@@ -729,13 +729,13 @@ Don't redraw the whole happy sequence for sad/weird. Just diverge.
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 1 — Happy Path</h2>
-<h3>Triads • 35 minutes</h3>
+<h3>Quads • 35 minutes</h3>
 <ul>
 <li>5 min: identify actors (lifelines)</li>
 <li>5 min: order them caller→called</li>
 <li>15 min: draw messages with protocol labels</li>
 <li>5 min: latency annotations per arrow</li>
-<li>5 min: 60-sec walk to another triad</li>
+<li>5 min: 60-sec walk to another quad</li>
 </ul>
 <div class="timebox">⏱ 5 + 5 + 15 + 5 + 5</div>
 
@@ -773,7 +773,7 @@ A sad path that ends "user is stuck" is not designed. Force the recovery.
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 2 — Sad Path</h2>
-<h3>Triads • 40 minutes</h3>
+<h3>Quads • 40 minutes</h3>
 <ul>
 <li>5 min: pick the sad path</li>
 <li>20 min: draw the divergence</li>
@@ -794,7 +794,7 @@ Most common sad paths to choose: validation error, permission denied, state conf
 <h3>Network drop, race, timeout, boundary — with named invariant</h3>
 
 Note:
-A weird path without a named invariant isn't designed — it's hoped. Push triads to state the invariant out loud before they call the diagram done.
+A weird path without a named invariant isn't designed — it's hoped. Push quads to state the invariant out loud before they call the diagram done.
 
 ---
 
@@ -809,7 +809,7 @@ A weird path without a named invariant isn't designed — it's hoped. Push triad
 </div>
 
 Note:
-If a triad can't name the invariant, the weird-path design isn't done.
+If a quad can't name the invariant, the weird-path design isn't done.
 
 ---
 
@@ -847,17 +847,17 @@ The invariant line at the bottom is what makes this diagram a contract, not a sk
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 3 — Weird Path</h2>
-<h3>Triads • 40 minutes</h3>
+<h3>Quads • 40 minutes</h3>
 <ul>
 <li>5 min: pick the weird path</li>
 <li>25 min: draw divergence + recovery</li>
 <li>5 min: name the invariant</li>
-<li>5 min: walk to another triad</li>
+<li>5 min: walk to another quad</li>
 </ul>
 <div class="timebox">⏱ 5 + 25 + 5 + 5</div>
 
 Note:
-Push for the invariant. Triads who can't name it haven't designed the weird path.
+Push for the invariant. Quads who can't name it haven't designed the weird path.
 
 ---
 
@@ -908,7 +908,7 @@ Add to Pattern Library. The "ranked by importance" frame is reusable.
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 4 — Cross-Review + AI</h2>
-<h3>Triad pairs • 45 minutes • Wrap</h3>
+<h3>Quad pairs • 45 minutes • Wrap</h3>
 <ul>
 <li>20 min: cross-review with 3 questions</li>
 <li>10 min: AI critique</li>

@@ -1,12 +1,12 @@
 # TMD Template
 
-> **Day 1 handout.** The 5-section Technical Modeling Document (TMD) skeleton your triad builds across Week 5 — the sibling to your PRD and TCD, one level deeper than the TCD. Print it, pin it, fill it section by section. Each section carries a `[Day X]` tag telling you when it gets written. Friday it ships, peer-reviewed.
+> **Day 1 handout.** The 5-section Technical Modeling Document (TMD) skeleton your quad builds across Week 5 — the sibling to your PRD and TCD, one level deeper than the TCD. Print it, pin it, fill it section by section. Each section carries a `[Day X]` tag telling you when it gets written. Friday it ships, peer-reviewed.
 
 ---
 
 ```markdown
 # Technical Modeling Document — <feature>
-**Sibling to:** PRD <link>, TCD <link>  |  **Authors:** <triad>  |  **Status:** Draft / Reviewed
+**Sibling to:** PRD <link>, TCD <link>  |  **Authors:** <quad>  |  **Status:** Draft / Reviewed
 
 ## 1. Data model                                       [Day 1]
 Entity-level model: tables / collections, keys, relationships, indexes.

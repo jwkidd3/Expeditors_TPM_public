@@ -1,6 +1,6 @@
 # Day 3 — REST & SOAP API Fundamentals
 
-> **Activity packet** for participant triads. Today's job: design the **API contract** for the feature — resource modeling, methods, idempotency, versioning, error semantics — and draft TMD Section 3.
+> **Activity packet** for participant quads. Today's job: design the **API contract** for the feature — resource modeling, methods, idempotency, versioning, error semantics — and draft TMD Section 3.
 
 ## Where we are in the week
 
@@ -62,17 +62,17 @@ A TPM doesn't write the OpenAPI spec line by line, but should be able to **revie
 
 ## Activity 1 — Resource Modeling Calibration
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-Convert entities into resource designs before applying it to the triad's PRD feature.
+Convert entities into resource designs before applying it to the quad's PRD feature.
 
 ### Setup
-Each triad needs the REST method-map card and blank paper for resource sketches. AI optional; provenance-log if used.
+Each quad needs the REST method-map card and blank paper for resource sketches. AI optional; provenance-log if used.
 
 ### The example: a "todo list" API
 
-The triad designs the resource model for a generic todo-list API. Specifically:
+The quad designs the resource model for a generic todo-list API. Specifically:
 
 - The user has todo-lists; each list has todo-items
 - A todo-item belongs to one list; can be marked done; has a title + description + due-date
@@ -87,9 +87,9 @@ The triad designs the resource model for a generic todo-list API. Specifically:
 3. **Identify the trickiest design choice** (10 min). Two examples:
     - Reordering items within a list — what does the request look like?
     - Sharing a list — is "share" a verb or a resource (e.g., POST /lists/{id}/shares)?
-4. **Argue** (5 min). Different triads will land differently. The discussion is the calibration.
+4. **Argue** (5 min). Different quads will land differently. The discussion is the calibration.
 
-### Readout (60 sec per triad)
+### Readout (60 sec per quad)
 
 > "Our resource for sharing was [X]. We considered [Y] but rejected because [reason]."
 
@@ -101,15 +101,15 @@ Resource sketch for the todo-list API: URLs, methods, and a decision on the "sha
 
 ## Activity 2 — Design Your Feature's API
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Apply the resource modeling to your triad's PRD feature.
+Apply the resource modeling to your quad's PRD feature.
 
 ### Setup
-Each triad needs TMD Section 1 (entities), the TCD Section 4 SLOs, and an OpenAPI-style template. AI optional.
+Each quad needs TMD Section 1 (entities), the TCD Section 4 SLOs, and an OpenAPI-style template. AI optional.
 
-### Triad protocol
+### Quad protocol
 
 1. **List the resources from your data model** (10 min). Each entity is a candidate resource. Some are sub-resources.
 2. **Design the URL paths** (10 min). Use `/<plural>/{id}` for individual; nested for sub-resources.
@@ -174,13 +174,13 @@ Resource list with URL paths, methods, and status codes, plus one detailed OpenA
 
 ## Activity 3 — Idempotency, Versioning, Error Semantics
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Cover the three aspects most often hand-waved: idempotency, versioning, and error semantics.
 
 ### Setup
-Each triad needs the resource design from Activity 2, the idempotency-mechanism card, the versioning-strategy card, and the standard error-codes card.
+Each quad needs the resource design from Activity 2, the idempotency-mechanism card, the versioning-strategy card, and the standard error-codes card.
 
 ### Idempotency — the "safe to retry" guarantee
 
@@ -238,7 +238,7 @@ Standardize the **error body shape** across the API:
 }
 ```
 
-### Triad protocol
+### Quad protocol
 
 1. **Idempotency** (15 min). For each mutating endpoint, decide approach + window.
 2. **Versioning** (10 min). Pick strategy; document in Section 3.
@@ -252,13 +252,13 @@ A documented idempotency approach per mutating endpoint, a chosen versioning str
 
 ## Activity 4 — REST vs SOAP + AI Critique
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Decide whether any part of the API surface needs SOAP. Use AI to critique the contract.
 
 ### Setup
-Each triad needs TCD Section 2 (integration map), the API contract from Activities 2–3, and the AI critique prompt. AI required.
+Each quad needs TCD Section 2 (integration map), the API contract from Activities 2–3, and the AI critique prompt. AI required.
 
 ### When to consider SOAP
 
@@ -270,7 +270,7 @@ For each external integration in your TCD Section 2, ask:
 
 For most FieldPulse-shaped features, the answer is **no**. SOAP appears occasionally for legacy enterprise integrations. Document the call honestly.
 
-### Triad protocol — SOAP question (10 min)
+### Quad protocol — SOAP question (10 min)
 
 Walk the integration map. For each, default to REST. If SOAP is required for one, document it as an exception in Section 3.
 
@@ -289,7 +289,7 @@ Constraints:
 Format: Numbered — Issue / What's wrong / Fix.
 ```
 
-### Triad protocol — AI critique (20 min)
+### Quad protocol — AI critique (20 min)
 
 1. **Run the prompt** (10 min). Capture the 5 issues.
 2. **Adopt / defer / reject** (10 min). Same Week-3 discipline.
@@ -304,7 +304,7 @@ Polished TMD Section 3 incorporating adopted AI findings, any SOAP exceptions do
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - One endpoint they're proudest of (with a one-line "why")
 - One idempotency choice they made
@@ -314,7 +314,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 3 with:
+Each quad ends Day 3 with:
 
 - [x] Resource design with URL paths
 - [x] Methods + status codes per endpoint

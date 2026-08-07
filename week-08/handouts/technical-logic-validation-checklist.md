@@ -1,6 +1,6 @@
 # Technical Logic Validation — 7-Point Checklist + Log
 
-> **Day 4 handout.** Each artifact can be fine in isolation yet inconsistent together. Technical logic validation = **walk every cross-artifact reference** and verify they fit. Most triads fail 2–3 checks on first pass — that's expected; that's why this day exists.
+> **Day 4 handout.** Each artifact can be fine in isolation yet inconsistent together. Technical logic validation = **walk every cross-artifact reference** and verify they fit. Most quads fail 2–3 checks on first pass — that's expected; that's why this day exists.
 
 ---
 
@@ -48,4 +48,4 @@ For each check: pull **both sides**, compare, and if they disagree — decide to
 ---
 
 ### The bar to clear
-Don't mark a check "Pass" without walking the references — be ready to **show the section reference** for every pass. A triad that genuinely passes all 7 has a coherent artifact set.
+Don't mark a check "Pass" without walking the references — be ready to **show the section reference** for every pass. A quad that genuinely passes all 7 has a coherent artifact set.

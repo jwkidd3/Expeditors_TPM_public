@@ -1,6 +1,6 @@
 # North Star Defense Card
 
-> **Day 2 · Activity 2 handout.** The card your triad locks its North Star into: the statement, a rebuttal to each of the three pitfalls, and a counter-metric that guards against gameability. Extended in Activity 3 with the CEO and dispatcher challenges.
+> **Day 2 · Activity 2 handout.** The card your quad locks its North Star into: the statement, a rebuttal to each of the three pitfalls, and a counter-metric that guards against gameability. Extended in Activity 3 with the CEO and dispatcher challenges.
 
 Fill the template below. Keep each rebuttal under 30 words.
 

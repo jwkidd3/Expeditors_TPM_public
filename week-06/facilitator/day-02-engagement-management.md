@@ -12,7 +12,7 @@
 
 ## Facilitator reflection prompts (end of day)
 
-- Which triad's plan is most calibrated by quadrant? Hold up Friday.
+- Which quad's plan is most calibrated by quadrant? Hold up Friday.
 - Did anyone over-invest in low-power × high-interest? Common; coach back.
 - Did anyone skip high-power × low-interest engagement? Most dangerous.
 - Did the cohort surface the asymmetric-asks anti-pattern? It's the most-missed.

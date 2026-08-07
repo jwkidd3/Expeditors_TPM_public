@@ -15,7 +15,7 @@
 | **Section 7 NFRs reference Section 8 observability** | An observability NFR enables every Tier Sheet metric | |
 | **Section 4 scope-out feeds Section 11 follow-ups** | Items deliberately left out appear in the follow-ups list | |
 | **Section 9 risks named, owned, mitigated** | No "no risks" | |
-| **No AI-generic prose** | Consistent triad voice; no fortune-cookie sentences | |
+| **No AI-generic prose** | Consistent quad voice; no fortune-cookie sentences | |
 
 ---
 

@@ -1,6 +1,6 @@
 # Day 4 — Identifying Pain Points
 
-> **Activity packet for participant triads.** Day 4 produces a scored pain-point matrix and a rank-ordered Top 3 per triad.
+> **Activity packet for participant quads.** Day 4 produces a scored pain-point matrix and a rank-ordered Top 3 per quad.
 
 ## Prerequisite artifacts (from Day 3)
 
@@ -12,7 +12,7 @@
 
 ### FieldPulse Pain Extraction Packet (distributed at start of day)
 
-Each triad receives a **shuffled subset** of the packet — no two triads get the same full set. Encourages later cross-triad learning.
+Each quad receives a **shuffled subset** of the packet — no two quads get the same full set. Encourages later cross-quad learning.
 
 Contents (total):
 
@@ -29,18 +29,18 @@ Provided as a printable 3×3 grid with color overlay. Severity (high/medium/low)
 
 ## Activity 1 — Extract From the Packet
 
-**Format:** Triad &bull; **45 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Train the eye for real pain hiding in observed behavior, not just stated complaints.
 
 ### Setup
-Your triad receives a shuffled subset of the FieldPulse Pain Extraction Packet — tickets, ride-along notes, interview excerpts, and one analytics screenshot.
+Your quad receives a shuffled subset of the FieldPulse Pain Extraction Packet — tickets, ride-along notes, interview excerpts, and one analytics screenshot.
 
 ### Steps
 
 1. **Silent pass (10 min):** Read the packet individually. Flag anything that hints at pain.
-2. **Extract (25 min):** As a triad, produce at least **15 candidate pains**. Each must:
+2. **Extract (25 min):** As a quad, produce at least **15 candidate pains**. Each must:
    - Be a verb + circumstance + consequence
    - Cite its source (ticket #, interview initials, observation line)
 3. **Review (10 min):** Go through each entry and mark:
@@ -63,13 +63,13 @@ A raw list of 15+ pain-point candidates, tagged with source.
 
 ## Activity 2 — Dig, Sort, Promote
 
-**Format:** Triad &bull; **50 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Take the raw pain list from Activity 1 and structure it: deepen with 5 Whys, then cluster via silent affinity mapping.
 
 ### Setup
-Your triad has its 15+ raw pains from Activity 1. You need wall space (or a whiteboard tool) for the silent sort.
+Your quad has its 15+ raw pains from Activity 1. You need wall space (or a whiteboard tool) for the silent sort.
 
 ### Step 1 — 5 Whys on 3 pains (20 min)
 
@@ -90,7 +90,7 @@ L3: <new pain>
 > **Work in silence for this block.**
 
 1. Write each pain on a sticky note (or equivalent in your tool)
-2. In silence, each triad member places pains on the wall, grouping by affinity
+2. In silence, each quad member places pains on the wall, grouping by affinity
 3. When two members disagree on placement, move the note — don't discuss
 4. After 10 minutes of placing, stop. Take 2 minutes of silent look.
 
@@ -108,13 +108,13 @@ Now speak. For each cluster:
 
 ## Activity 3 — Score Your Map
 
-**Format:** Triad &bull; **45 min** &bull; Block 3
+**Format:** Quad &bull; **45 min** &bull; Block 3
 
 ### Purpose
 Place each promoted pain on the Severity × Frequency matrix and color-code by Addressability — surfacing pains we must engineer for and pains we must communicate about.
 
 ### Setup
-Your triad has 5–8 promoted pains and the printed 3×3 Severity × Frequency matrix.
+Your quad has 5–8 promoted pains and the printed 3×3 Severity × Frequency matrix.
 
 ### Steps
 
@@ -144,17 +144,17 @@ A completed matrix with all promoted pains placed and color-coded. "Must live wi
 
 ---
 
-## Activity 4 — Cross-Triad Challenge
+## Activity 4 — Cross-Quad Challenge
 
-**Format:** Paired triads &bull; **60 min** &bull; Block 4
+**Format:** Paired quads &bull; **60 min** &bull; Block 4
 
 ### Purpose
-Triads pick a Top 3, defend it under cross-triad challenge, and rank-order the final set for Friday's problem statement.
+Quads pick a Top 3, defend it under cross-quad challenge, and rank-order the final set for Friday's problem statement.
 
 ### Setup
-Pair with another triad. Both triads bring their scored matrices.
+Pair with another quad. Both quads bring their scored matrices.
 
-### Step 1 — Select Top 3 (within triad, 10 min)
+### Step 1 — Select Top 3 (within quad, 10 min)
 
 Pick the three pains you'll carry into Friday's problem statement. Rank-order them. Be prepared to defend:
 
@@ -162,21 +162,21 @@ Pick the three pains you'll carry into Friday's problem statement. Rank-order th
 2. Are they independent, or aspects of the same root cause?
 3. What's the "if we solved this, everything else is easier" pain?
 
-### Step 2 — Cross-triad challenge (25 min each direction)
+### Step 2 — Cross-quad challenge (25 min each direction)
 
-Triad A presents Top 3 + matrix. Triad B must:
+Quad A presents Top 3 + matrix. Quad B must:
 
 - Nominate the **weakest** of the three (based on evidence tier, not feel)
 - Propose one pain **not** selected that might be stronger, with reasoning
 - Ask one **"so what if we're wrong?"** question per pain
 
-### Step 3 — Revise (within triad, 15 min)
+### Step 3 — Revise (within quad, 15 min)
 
 Update Top 3 based on critique. If nothing changes, re-read the critique.
 
 ### Step 4 — Readout (full room, 10 min)
 
-Each triad: 60 seconds. Final Top 3, with one-sentence defense each.
+Each quad: 60 seconds. Final Top 3, with one-sentence defense each.
 
 ### Scoring rubric (each critique pair peer-scores)
 
@@ -189,17 +189,17 @@ Each triad: 60 seconds. Final Top 3, with one-sentence defense each.
 
 ### Deliverable
 
-A rank-ordered Top 3 pain set per triad, defended against cross-triad challenge, with one AI-leverage candidate identified.
+A rank-ordered Top 3 pain set per quad, defended against cross-quad challenge, with one AI-leverage candidate identified.
 
 ---
 
 ## End-of-day checkpoint
 
-- [x] Scored Severity × Frequency × Addressability matrix per triad
+- [x] Scored Severity × Frequency × Addressability matrix per quad
 - [x] "Must live with" notes for any red "Must fix" cells
-- [x] Rank-ordered Top 3 pains, each defended against cross-triad critique
+- [x] Rank-ordered Top 3 pains, each defended against cross-quad critique
 - [x] One AI-leverage candidate identified (for raising addressability)
 
 ## Bridge to Day 5
 
-The Top 3 pain set is the direct input to the Friday problem statement. Each triad should also carry forward **the one pain they dropped that they're still wrestling with** — it's useful material for Day 5.
+The Top 3 pain set is the direct input to the Friday problem statement. Each quad should also carry forward **the one pain they dropped that they're still wrestling with** — it's useful material for Day 5.

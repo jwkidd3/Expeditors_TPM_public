@@ -1,12 +1,12 @@
 # Day 4 — Lean Delivery & Value Stream Mapping
 
-> **Activity packet** for participant triads. Today's job: map the **value stream** for delivering the feature — from idea to value-realized — naming each step's lead time, process time, and flow efficiency. Draft DP Section 4.
+> **Activity packet** for participant quads. Today's job: map the **value stream** for delivering the feature — from idea to value-realized — naming each step's lead time, process time, and flow efficiency. Draft DP Section 4.
 
 ## Where we are in the week
 
 The outcome map exists (Day 1). The backlog is loaded (Day 2). The tracking plan is wired (Day 3). Today we look at **the system that produces the work**, not the work itself. Most teams optimize the wrong step because they've never seen the whole stream.
 
-By 16:00, every triad has DP Section 4 — a value stream map for the feature's delivery, with lead times measured (or honestly estimated) and queues named.
+By 16:00, every quad has DP Section 4 — a value stream map for the feature's delivery, with lead times measured (or honestly estimated) and queues named.
 
 ## Inputs
 
@@ -67,12 +67,12 @@ For most teams, the worst queues are:
 
 ## Activity 1 — Identify Your Value Stream
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
-List the steps in the triad's feature delivery stream, before measuring or estimating times.
+List the steps in the quad's feature delivery stream, before measuring or estimating times.
 
-### Triad protocol
+### Quad protocol
 
 1. **Walk the stream from idea to value-realized** (15 min). For each step:
     - What happens here?
@@ -89,15 +89,15 @@ List the steps in the triad's feature delivery stream, before measuring or estim
 | Step | What happens | Owner |
 |------|--------------|-------|
 | **Idea** | Customer signal reaches the team | Customer Success / Sales |
-| **Discovery** | Triad reviews signal; decides to investigate | TPM |
-| **Spec** | PRD/TCD/TMD/SEP authored | TPM + triad |
+| **Discovery** | Quad reviews signal; decides to investigate | TPM |
+| **Spec** | PRD/TCD/TMD/SEP authored | TPM + quad |
 | **Estimate + accept** | Engineering accepts into a sprint | Eng Lead |
 | **Build** | Code + test written | Engineers |
 | **Code review** | PRs reviewed and merged | Engineers (peer) |
 | **QA + integration** | Pre-release testing | QA / Engineers |
 | **Deploy** | Code reaches production | DevOps / on-call |
 | **Measure** | Outcome metrics + leading indicators reviewed | TPM |
-| **Iterate** | Decisions about next iteration | TPM + triad |
+| **Iterate** | Decisions about next iteration | TPM + quad |
 
 ### What "good" looks like
 
@@ -110,12 +110,12 @@ List the steps in the triad's feature delivery stream, before measuring or estim
 
 ## Activity 2 — Measure or Estimate Each Step
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
 Add **process time**, **lead time**, and **flow efficiency** numbers to each step.
 
-### Triad protocol
+### Quad protocol
 
 For each step:
 
@@ -152,12 +152,12 @@ Use real data where available (ADO data; team retros). Otherwise estimate honest
 
 ## Activity 3 — Identify the Top 3 Queues
 
-**Format:** Triad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **40 min** &bull; Block 3
 
 ### Purpose
 Find where the time hides. Rank queues by impact.
 
-### Triad protocol
+### Quad protocol
 
 1. **Sum the queue times** across the stream (5 min). If you're spending 6 weeks total and only 2–3 days of actual work, where are the other 5+ weeks?
 2. **Identify the top 3 queues** (10 min). The longest waits.
@@ -188,7 +188,7 @@ Find where the time hides. Rank queues by impact.
 
 ## Activity 4 — Map the VSM + AI Critique
 
-**Format:** Triad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
 
 ### Purpose
 Draw the visual VSM and use AI to surface non-obvious queues.
@@ -215,7 +215,7 @@ Total flow efficiency: __%
 
 For a feature delivery, this is one page (whiteboard or paper). The visual makes the queues hit emotionally.
 
-### Triad protocol
+### Quad protocol
 
 1. **Draw the VSM** (20 min). On a whiteboard or large paper. Use the canvas above.
 2. **Run the AI critique** (10 min):
@@ -239,7 +239,7 @@ Format: 3 numbered findings — what's missing / why suspect / how to verify.
 
 ### Wrap (last 15 min)
 
-Each triad shares:
+Each quad shares:
 
 - Their **flow efficiency number** for the whole stream
 - The **single biggest queue** in their stream (by hours)
@@ -249,7 +249,7 @@ Each triad shares:
 
 ## End-of-day checkpoint
 
-Each triad ends Day 4 with:
+Each quad ends Day 4 with:
 
 - [x] Value stream identified (7–10 steps)
 - [x] Process time + lead time + flow efficiency per step

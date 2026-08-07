@@ -1,6 +1,6 @@
 # Translation Drill Pack — 6 Technical Statements
 
-> **Day 3 · Activity 1 handout.** Six technical statements, each paired with a stakeholder and their currency. Your triad picks 3, and writes the **business-framing** version for each — the same trade-off, re-framed in terms the audience already cares about. Then critique: would they act on it? What's their first follow-up?
+> **Day 3 · Activity 1 handout.** Six technical statements, each paired with a stakeholder and their currency. Your quad picks 3, and writes the **business-framing** version for each — the same trade-off, re-framed in terms the audience already cares about. Then critique: would they act on it? What's their first follow-up?
 
 Re-framing is not "use simpler words." It is naming the trade-off in the audience's currency: cost, customer outcome, regulatory exposure, revenue, operational risk, or velocity. All statements are drawn from the FieldPulse "End-of-Day Reconcile" work.
 

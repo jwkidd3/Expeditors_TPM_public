@@ -1,12 +1,12 @@
 # Day 2 — Defining the North Star Metric
 
-> **Activity packet for participant triads.** Today's job: take yesterday's NS placeholder and stress-test it into a North Star you can defend in front of a CEO and a dispatcher in the same conversation.
+> **Activity packet for participant quads.** Today's job: take yesterday's NS placeholder and stress-test it into a North Star you can defend in front of a CEO and a dispatcher in the same conversation.
 
 ## Where we are in the week
 
 Day 1 produced a Metrics Tier Sheet with a placeholder NS. Today we replace the placeholder with a defensible NS — and along the way, the cohort encounters the **three standard pitfalls** that catch even seasoned PMs.
 
-By 16:00, every triad will have:
+By 16:00, every quad will have:
 
 - A **North Star statement** that names the customer outcome, the segment, and the measurement
 - A **defense card** that names the three pitfalls applied to their own NS and rebuts each
@@ -28,13 +28,13 @@ Every well-formed NS has been challenged against all three and survived.
 
 ## Activity 1 — Three Pitfalls Triage
 
-**Format:** Triad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **35 min** &bull; Block 1
 
 ### Purpose
 Recognize the three pitfalls in real-world examples before applying them to your own NS — pattern-recognition before self-diagnosis.
 
 ### Setup
-Each triad has the example pack of 8 anonymized public-company NS candidates.
+Each quad has the example pack of 8 anonymized public-company NS candidates.
 
 ### Steps
 
@@ -49,35 +49,35 @@ Each triad has the example pack of 8 anonymized public-company NS candidates.
 7. "Successful Deliveries per Active Customer per Month" — logistics SaaS (Expeditors-adjacent)
 8. "Queries Resolved without Human Escalation" — customer support SaaS
 
-### Triad protocol
+### Quad protocol
 
-For each card, the triad assigns **0, 1, 2, or 3** pitfalls present and writes a 1-line argument.
+For each card, the quad assigns **0, 1, 2, or 3** pitfalls present and writes a 1-line argument.
 
-### Readout (60 seconds per triad)
+### Readout (60 seconds per quad)
 
 > "We give [X] a clean bill of health because [reason]. We give [Y] all three pitfalls because [reason]."
 
 ### Deliverable
 
-A scored card pack per triad: each card tagged with 0–3 pitfalls and a one-line argument; one clean-bill-of-health pick and one all-three pick identified.
+A scored card pack per quad: each card tagged with 0–3 pitfalls and a one-line argument; one clean-bill-of-health pick and one all-three pick identified.
 
 ---
 
 ## Activity 2 — Re-write Your NS
 
-**Format:** Triad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **40 min** &bull; Block 2
 
 ### Purpose
-Apply yesterday's placeholder + today's pitfalls to draft a defensible NS for the triad's Week-1 problem.
+Apply yesterday's placeholder + today's pitfalls to draft a defensible NS for the quad's Week-1 problem.
 
 ### Setup
-Each triad has its Day-1 NS placeholder visible, plus the Day-2 three-pitfalls vocabulary fresh from Activity 1.
+Each quad has its Day-1 NS placeholder visible, plus the Day-2 three-pitfalls vocabulary fresh from Activity 1.
 
 ### Steps
 
-### Triad protocol
+### Quad protocol
 
-1. **Read your placeholder NS aloud** (each triad member, then a 2-minute discussion of dissatisfaction).
+1. **Read your placeholder NS aloud** (each quad member, then a 2-minute discussion of dissatisfaction).
 2. **Generate three NS candidates** (15 min). Each member proposes one. They must:
     - Name a customer outcome (verb-based, not feature-based)
     - Specify a user segment narrowly
@@ -112,24 +112,24 @@ The **counter-metric** concept is new today. Examples:
 
 ### Deliverable
 
-A completed NS Defense Card per triad: NS statement, three pitfall rebuttals, and a named counter-metric.
+A completed NS Defense Card per quad: NS statement, three pitfall rebuttals, and a named counter-metric.
 
 ---
 
 ## Activity 3 — The "CEO and Dispatcher" Test
 
-**Format:** Triad pairs &bull; **40 min** &bull; Block 3
+**Format:** Quad pairs &bull; **40 min** &bull; Block 3
 
 ### Purpose
 A defensible NS sounds right to two audiences at once. Today we rehearse.
 
 ### Setup
 
-Triads pair off. Each triad has its NS Defense Card from Activity 2 and the two persona scripts below.
+Quads pair off. Each quad has its NS Defense Card from Activity 2 and the two persona scripts below.
 
 ### Steps
 
-Each triad takes turns being the **defender** and the **challenger**.
+Each quad takes turns being the **defender** and the **challenger**.
 
 - Challenger plays **CEO** for 4 minutes: probe whether the NS will move the company forward, scale, and survive a board review.
 - Challenger plays **Dispatcher (target customer)** for 4 minutes: probe whether the NS reflects something they would actually feel.
@@ -145,10 +145,10 @@ Each triad takes turns being the **defender** and the **challenger**.
 
 ### After the round
 
-Each triad updates its NS Defense Card with:
+Each quad updates its NS Defense Card with:
 
-- The CEO's strongest challenge + how the triad would address it
-- The dispatcher's strongest challenge + how the triad would address it
+- The CEO's strongest challenge + how the quad would address it
+- The dispatcher's strongest challenge + how the quad would address it
 
 If the NS doesn't survive both — that's the artifact for tomorrow's coaching, not a failure.
 
@@ -160,24 +160,24 @@ An updated NS Defense Card with two new lines: the CEO's strongest challenge + r
 
 ## Activity 4 — NS Lock-in + Tier Sheet Refresh
 
-**Format:** Triad &bull; **45 min** + Readouts &bull; Block 4
+**Format:** Quad &bull; **45 min** + Readouts &bull; Block 4
 
 ### Purpose
 Replace yesterday's placeholder, walk the new NS up and down the Tier Sheet to confirm coherence, and present.
 
 ### Setup
-Each triad has its NS Defense Card (updated through Activity 3) and Day-1 Tier Sheet visible.
+Each quad has its NS Defense Card (updated through Activity 3) and Day-1 Tier Sheet visible.
 
 ### Steps
 
-### Triad workflow
+### Quad workflow
 
 1. **Lock in the NS** (10 min). Confirm wording. Confirm the counter-metric. Confirm the NS rebuttal answers.
 2. **Walk it down** (15 min). Re-examine the operational signals from yesterday — does each one *plausibly* contribute to this NS? Drop or replace any that don't.
 3. **Walk it up** (5 min). Does the NS roll up clearly to a business outcome that leadership cares about?
 4. **Polish** (15 min). Final Tier Sheet, final Defense Card. Both shareable.
 
-### Readout structure (90 seconds per triad)
+### Readout structure (90 seconds per quad)
 
 > 1. "Our NS is [X], measured by [Y], for [segment]."
 > 2. "The strongest challenge it survived was [Z]."
@@ -191,7 +191,7 @@ A locked NS + counter-metric, a refreshed Tier Sheet with the placeholder replac
 
 ## End-of-day checkpoint
 
-Each triad leaves the day with:
+Each quad leaves the day with:
 
 - [x] A locked-in **North Star** with explicit pitfall rebuttals
 - [x] A **counter-metric** that guards against gameability

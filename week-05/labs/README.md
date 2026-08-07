@@ -2,7 +2,7 @@
 
 > *"The TCD says what the system must respect. The TMD shows what the system actually looks like at a level an engineer can build from."*
 
-Week 5 takes the **Technical Concept Document (TCD)** from Week 4 and goes one level deeper. Each triad produces a **Technical Modeling Document (TMD)** — a sibling artifact that documents:
+Week 5 takes the **Technical Concept Document (TCD)** from Week 4 and goes one level deeper. Each quad produces a **Technical Modeling Document (TMD)** — a sibling artifact that documents:
 
 - The **data model** the feature reads, writes, and indexes
 - The **cloud topology** it deploys to
@@ -11,7 +11,7 @@ Week 5 takes the **Technical Concept Document (TCD)** from Week 4 and goes one l
 - A **performance baseline + monitoring plan** that lets the team know whether the SLOs from Week 4 are actually being met
 - An **AI-summary validation log** — the discipline of checking AI-generated data summaries against the source
 
-By Friday afternoon, every triad has a TMD that an engineering lead would accept as scoping input for sprint planning.
+By Friday afternoon, every quad has a TMD that an engineering lead would accept as scoping input for sprint planning.
 
 ## What's different about Week 5
 
@@ -47,20 +47,20 @@ Each day adds a section. Friday assembles the whole document and runs an integra
 | Clock | Block | Mix |
 |-------|-------|-----|
 | 09:00 – 09:15 | Opening & objectives | Instructor |
-| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min triad work |
+| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min quad work |
 | 10:30 – 10:45 | **Break** | |
-| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min triad work |
+| 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min quad work |
 | 12:00 – 13:00 | **Lunch** | |
-| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min triad work |
+| 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min quad work |
 | 14:15 – 14:30 | **Break** | |
-| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min triad / 20 min wrap |
+| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min quad / 20 min wrap |
 
 ## The TMD template (Friday's deliverable)
 
 ```markdown
 # Technical Modeling Document — <feature>
 **Sibling to:** PRD <link>, TCD <link>
-**Authors:** <triad>  |  **Status:** Draft / Reviewed
+**Authors:** <quad>  |  **Status:** Draft / Reviewed
 
 ## 1. Data model
 Entity-level model: tables / collections, keys, relationships, indexes.
@@ -85,9 +85,9 @@ sequences. Names every hop, protocol, and failure handler. (Day 4)
   with their validation status) (Day 5)
 ```
 
-## Triads
+## Quads
 
-Same triads from Weeks 1–4. PRD authors → TCD authors → TMD authors. By Week 6 these triads will negotiate this work with stakeholders.
+Same quads from Weeks 1–4. PRD authors → TCD authors → TMD authors. By Week 6 these quads will negotiate this work with stakeholders.
 
 ## Friday review rubric (TMD)
 
@@ -102,4 +102,4 @@ Same triads from Weeks 1–4. PRD authors → TCD authors → TMD authors. By We
 
 ## Bridge to Week 6
 
-Week 6 (Stakeholder Alignment & Negotiation) takes the TCD's Stakeholder Sign-Off Matrix (Section 6) and the TMD's technical decisions and **negotiates** them. Each triad picks one or two constraints to actively negotiate with simulated stakeholders. The TMD's specificity is what makes those negotiations productive — vague briefs produce vague conversations.
+Week 6 (Stakeholder Alignment & Negotiation) takes the TCD's Stakeholder Sign-Off Matrix (Section 6) and the TMD's technical decisions and **negotiates** them. Each quad picks one or two constraints to actively negotiate with simulated stakeholders. The TMD's specificity is what makes those negotiations productive — vague briefs produce vague conversations.

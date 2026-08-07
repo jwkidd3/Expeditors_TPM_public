@@ -1,6 +1,6 @@
 # Evidence Brief Template
 
-> **Day 5 handout.** The integrated Week 1 artifact — persona → pain map → problem statement → evidence log → open questions. This is what your triad presents in the Friday readout.
+> **Day 5 handout.** The integrated Week 1 artifact — persona → pain map → problem statement → evidence log → open questions. This is what your quad presents in the Friday readout.
 
 ---
 
