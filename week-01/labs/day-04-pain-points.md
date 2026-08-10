@@ -108,7 +108,7 @@ Now speak. For each cluster:
 
 ## Activity 3 — Score Your Map
 
-**Format:** Quad &bull; **45 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Place each promoted pain on the Severity × Frequency matrix and color-code by Addressability — surfacing pains we must engineer for and pains we must communicate about.

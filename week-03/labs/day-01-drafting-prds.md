@@ -35,7 +35,7 @@ This week is the discipline of producing a defensible written artifact without a
 
 ## Activity 1 — Pick the One Feature
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Force the quad to commit to **one** feature concept from Week 2 and articulate why that one. Many quads will want to keep all three — the discipline of choosing is the work.
@@ -64,7 +64,7 @@ A single feature locked in, with a "Why this one" memo. The memo seeds Section 1
 
 ## Activity 2 — Section 1 (Context) and Section 2 (Problem)
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Write the two sections that give the engineer who reads the PRD enough to **care** about the work before they read what to build.
@@ -117,7 +117,7 @@ Drafted Section 1 (Context) and Section 2 (Problem) appended to the quad's PRD, 
 
 ## Activity 3 — Section 3 (Goals & Non-goals) and Section 4 (Scope)
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Define what success means **in user terms** and bound what will and won't ship in this iteration. Non-goals and out-of-scope items are the most under-valued sections of any PRD.
@@ -164,7 +164,7 @@ Section 3 (Goals & non-goals) and Section 4 (Scope in/out table) appended to the
 
 ## Activity 4 — Section 5 (Solution Sketch)
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Describe the solution **just enough** for an engineer to imagine its shape — not so much that you've designed it for them. This is the most-mis-written section in real-world PRDs.

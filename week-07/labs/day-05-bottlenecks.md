@@ -62,7 +62,7 @@ The experiment **must** have a success criterion that's measurable. "We'll see i
 
 ## Activity 1 — Design 3 Experiments
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Convert the top 3 queues from Day 4 into 3 specific experiments.
@@ -114,7 +114,7 @@ to-merge against the 8 sprints prior.
 
 ## Activity 2 — DP Integration Pass
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Read the full DP top to bottom. Fix incoherences. Lock the version that goes into Friday's review.
@@ -140,7 +140,7 @@ Read the full DP top to bottom. Fix incoherences. Lock the version that goes int
 
 ## Activity 3 — Cross-Review with Friday Rubric
 
-**Format:** Quad-pair &bull; **40 min** &bull; Block 3
+**Format:** Quad-pair &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Cross-review the full DP with another quad using the Friday rubric.
@@ -158,7 +158,7 @@ Cross-review the full DP with another quad using the Friday rubric.
 
 Score 0–4 per dimension. Apply weights for total /4.0. Same convention as prior weeks.
 
-### Cross-review protocol (40 min)
+### Cross-review protocol (50 min)
 
 1. **Pair quads** (5 min). Same pair as prior weeks if possible.
 2. **20 min cross-read** with the rubric.
@@ -169,7 +169,7 @@ Score 0–4 per dimension. Apply weights for total /4.0. Same convention as prio
 
 ## Activity 4 — Sign-Off + Bridge to Week 8
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Sign off the DP. Bridge to Week 8's capstone work.

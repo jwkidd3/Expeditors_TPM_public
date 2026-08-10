@@ -40,13 +40,13 @@ The SEP ships Friday alongside the PRD, TCD, and TMD.
 | Clock | Block | Mix |
 |-------|-------|-----|
 | 09:00 – 09:15 | Opening & objectives | Instructor |
-| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min quad work |
+| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 45 min quad work |
 | 10:30 – 10:45 | **Break** | |
 | 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min quad work |
 | 12:00 – 13:00 | **Lunch** | |
 | 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min quad work |
 | 14:15 – 14:30 | **Break** | |
-| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 45 min quad / 20 min wrap |
+| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Wrap | ~25 min teach / 55 min quad / 10 min wrap |
 
 ### Friday cadence (negotiation simulation)
 

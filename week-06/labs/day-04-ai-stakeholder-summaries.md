@@ -64,7 +64,7 @@ The 1–3 things you cannot give up. Knowing these in advance is the defense aga
 
 ## Activity 1 — Prior-Context Summary (with Validation)
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Use AI to assemble a prior-context summary, then validate it.
@@ -116,7 +116,7 @@ A validated prior-context summary + a gap list. Add to AI-validation log.
 
 ## Activity 2 — Objection Map
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Predict the top 5 objections the stakeholder will raise, with honest response + pivot.
@@ -171,7 +171,7 @@ ground we give up?>
 
 ## Activity 3 — The Opening + Non-Negotiables
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Write the 60-second opening for tomorrow's negotiation. Identify the 1–3 non-negotiables.
@@ -230,7 +230,7 @@ The discipline:
 
 ## Activity 4 — Cross-Review + Mock Meeting
 
-**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Pair quads. Each quad runs a 5-minute mock meeting opening with the other quad in role. Surface what works and what doesn't before tomorrow.

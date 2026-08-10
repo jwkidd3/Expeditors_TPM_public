@@ -84,7 +84,7 @@ The "right now" rows are what change month-to-month; the "recurring" rows are st
 
 ## Activity 1 — Engagement Style Calibration
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Practice picking the right engagement style on real-world examples, before applying it to the quad's stakeholders.
@@ -116,7 +116,7 @@ Each card describes a stakeholder from a hypothetical company. The quad picks: c
 
 ## Activity 2 — Build Your Recurring Engagement Plan
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 For each stakeholder on your map, fill in the **recurring** part of the engagement plan.
@@ -141,7 +141,7 @@ For each stakeholder on your map, fill in the **recurring** part of the engageme
 
 ## Activity 3 — Build Your "Right Now" Asks
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 For each stakeholder, name what you need from them in the **next 2–4 weeks** and what they're likely to need from you.
@@ -174,7 +174,7 @@ For each stakeholder, list 1–3 asks per category that you'll need over the nex
 
 ## Activity 4 — The "Engagement Anti-Patterns" Diagnostic
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Identify the engagement anti-patterns the quad is most prone to, and design counter-measures into the SEP Section 2.

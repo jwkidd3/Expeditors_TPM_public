@@ -63,7 +63,7 @@ The "weird path" is where TPMs earn their seat. PMs who don't think technically 
 
 ## Activity 1 — AC Triage
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Calibrate the eye for the 5 failure modes by triaging real-world AC examples before drafting your own.
@@ -97,7 +97,7 @@ Each quad receives the **AC Triage Pack**: 12 AC examples drawn from real (anony
 
 ## Activity 2 — Happy-Path AC for Your PRD
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Write the 3–5 happy-path AC for the quad's PRD. These are usually the easiest — get them out of the way first.
@@ -138,7 +138,7 @@ Then the reconcile modal opens within 1 second
 
 ## Activity 3 — Sad-Path and Weird-Path AC
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Cover the failure modes — what goes wrong when the user, the network, or the data does something unexpected.
@@ -199,7 +199,7 @@ Then the modal opens with the first 25 tickets pre-selected
 
 ## Activity 4 — AC Cross-Review
 
-**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Apply the calibrated eye to *another quad's* AC. Cross-review surfaces failure modes the author quad has gone blind to.

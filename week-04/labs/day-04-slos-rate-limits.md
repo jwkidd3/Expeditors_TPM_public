@@ -98,7 +98,7 @@ The TPM job is to surface this math early — *before* the feature ships and fal
 
 ## Activity 1 — SLO Triage
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Calibrate on real-world SLO examples — distinguishing realistic targets from cargo-culted ones.
@@ -135,7 +135,7 @@ Triaged 8-pack with failure-mode labels and 5 rewrites passing the percentile + 
 
 ## Activity 2 — Set Your Three SLOs
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Set the three SLOs (latency, availability, throughput / rate limit) for your quad's feature.
@@ -197,7 +197,7 @@ Three SLOs (latency, availability, throughput/rate-limit) using the NFR template
 
 ## Activity 3 — Latency Budget Walk
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Take the latency SLO and **walk it across the Container diagram** from Day 3 — does the math fit?
@@ -259,7 +259,7 @@ Annotated Container diagram with per-hop latency estimates, total sum vs the SLO
 
 ## Activity 4 — Cross-Review + AI Sanity Check
 
-**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Cross-review the SLO sheet (same pairing as Day 3 ideal). Use AI to surface what's unrealistic.

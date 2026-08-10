@@ -63,7 +63,7 @@ The TPM's job is to **surface the business cost** of premature service-orientati
 
 ## Activity 1 — Mono/Micro Triage
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Calibrate the room on the three-question frame using public-company examples before applying it to your PRD feature.
@@ -102,7 +102,7 @@ Stamped triage pack with reasoning for the two strongest "separate" cases, two s
 
 ## Activity 2 — Apply the Frame to Your PRD Feature
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Run the three-question frame against your quad's locked PRD feature and draft Section 1 of the TCD.
@@ -146,7 +146,7 @@ TCD Section 1 (Architecture stance) drafted: stance, three-question answers with
 
 ## Activity 3 — Integration Map (first pass)
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Begin Section 2 of the TCD by listing the systems your feature depends on or extends. Wednesday will draw the diagram; today we list and characterize.
@@ -181,7 +181,7 @@ TCD Section 2 first-pass integration table with sync/async, R/W, and named failu
 
 ## Activity 4 — AI-Assisted Architecture Q&A (Reintroducing AI)
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Reintroduce AI as a research and structuring assistant — without surrendering judgment. The Week 1 prompt patterns and Week 2 Day 4 provenance discipline both apply.

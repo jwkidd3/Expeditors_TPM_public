@@ -82,10 +82,10 @@ Happy path; 1 sad path; 1 weird path with named invariant.
 
 ## Activity 1 — TCD-light
 
-**Format:** Quad &bull; **40 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
-Compressed Week-4 work in 40 minutes. Architecture stance + integration + threat model + SLOs + top trade-offs + sign-off.
+Compressed Week-4 work in 45 minutes. Architecture stance + integration + threat model + SLOs + top trade-offs + sign-off.
 
 ### Quad protocol
 
@@ -107,10 +107,10 @@ Compressed Week-4 work in 40 minutes. Architecture stance + integration + threat
 
 ## Activity 2 — TMD-light
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
-Compressed Week-5 work in 40 minutes. Data + cloud + API + sequence + monitoring.
+Compressed Week-5 work in 50 minutes. Data + cloud + API + sequence + monitoring.
 
 ### Quad protocol
 
@@ -132,7 +132,7 @@ Compressed Week-5 work in 40 minutes. Data + cloud + API + sequence + monitoring
 
 ## Activity 3 — Run the 5-Prompt AI Spec Sequence
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Apply the Day-1-rehearsed sequence to the Holocron capstone.
@@ -162,7 +162,7 @@ AI Spec v1 — assembled from the 5 outputs, plus the provenance log.
 
 ## Activity 4 — Cross-Quad Spot-Check + Day-4 Setup
 
-**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Cross-quads validate each other's AI Specs against the source artifacts. Catch what the author quad missed.

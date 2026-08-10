@@ -64,7 +64,7 @@ Sad and weird paths can be sketched more abbreviated than the happy path — the
 
 ## Activity 1 — Happy-Path Sequence
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Draw the central happy-path sequence diagram. Every lifeline, every arrow, every protocol.
@@ -131,7 +131,7 @@ A happy-path sequence diagram with labeled lifelines, protocols, per-arrow laten
 
 ## Activity 2 — Sad-Path Sequence
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Pick the most consequential sad path from your AC — usually a user-error scenario — and draw the sequence.
@@ -216,7 +216,7 @@ One individually-drawn, self-checked sequence diagram per person. After lunch, *
 
 ## Activity 3 — Weird-Path Sequence
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Draw a weird-path sequence — network drop, race, timeout, or boundary case.
@@ -277,7 +277,7 @@ A weird-path sequence diagram with a named invariant, visible recovery, and the 
 
 ## Activity 4 — Cross-Review + AI Sequence Critique
 
-**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Cross-review the three sequences with another quad. Then use AI to surface what was missed.

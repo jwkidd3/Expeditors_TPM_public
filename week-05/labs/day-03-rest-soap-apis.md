@@ -62,7 +62,7 @@ A TPM doesn't write the OpenAPI spec line by line, but should be able to **revie
 
 ## Activity 1 — Resource Modeling Calibration
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Convert entities into resource designs before applying it to the quad's PRD feature.
@@ -101,7 +101,7 @@ Resource sketch for the todo-list API: URLs, methods, and a decision on the "sha
 
 ## Activity 2 — Design Your Feature's API
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Apply the resource modeling to your quad's PRD feature.
@@ -174,7 +174,7 @@ Resource list with URL paths, methods, and status codes, plus one detailed OpenA
 
 ## Activity 3 — Idempotency, Versioning, Error Semantics
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Cover the three aspects most often hand-waved: idempotency, versioning, and error semantics.
@@ -252,7 +252,7 @@ A documented idempotency approach per mutating endpoint, a chosen versioning str
 
 ## Activity 4 — REST vs SOAP + AI Critique
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Decide whether any part of the API surface needs SOAP. Use AI to critique the contract.

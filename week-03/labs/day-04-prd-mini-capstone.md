@@ -25,7 +25,7 @@ What's not: ChatGPT, Claude, Copilot, AI features built into your editor (turn t
 
 ## Activity 1 — Section 8: Metrics & Validation
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Connect the PRD to the **Tier Sheet from Week 2 Day 1** and the **NS from Week 2 Day 2**. This section is what Week 7's Agile Delivery work will measure against.
@@ -85,7 +85,7 @@ Section 8 appended to the PRD: one primary metric, one counter-metric, up to thr
 
 ## Activity 2 — Section 9: Risks & Open Questions
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Name the things that could go wrong, the things you don't yet know, and the things you'll find out only after launch. **A PRD with "no risks" is a fail.**
@@ -139,7 +139,7 @@ Section 9 appended to the PRD: 3–4 risks with mitigations, 3–5 owned open qu
 
 ## Activity 3 — Sections 10 & 11: Dependencies + Out-of-Scope Follow-ups
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Make the network of "things outside our PRD that this PRD depends on or hands off to" explicit. Most PRDs hand-wave this; mature ones tabulate.
@@ -196,7 +196,7 @@ Sections 10 and 11 appended to the PRD: dependency table with named owners and h
 
 ## Activity 4 — Integration Pass + Lock
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Read the whole PRD top-to-bottom. Fix incoherences. Lock the version that goes into Friday's review.

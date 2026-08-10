@@ -142,7 +142,7 @@ The log is **cumulative across weeks** — the team should know which AI outputs
 
 ## Activity 1 — Performance Baselines
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Set baselines for each SLO + key operational signal.
@@ -184,7 +184,7 @@ A baselines table covering every TCD Section 4 SLO and 2–3 Tier Sheet operatio
 
 ## Activity 2 — The Monitoring Plan
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Design dashboards + alerts across the three layers.
@@ -244,7 +244,7 @@ A shorter list:
 
 ## Activity 3 — AI-Summary Validation Log
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Walk back through every AI-assisted summary used across Weeks 1–5 and document its validation status.
@@ -288,7 +288,7 @@ A cumulative AI-summary validation log covering Weeks 2–5, with honest status 
 
 ## Activity 4 — TMD Integration + Cross-Review + Sign-Off
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Assemble the full TMD, cross-review with another quad, and sign off. Same Week-3 / Week-4 review pattern.

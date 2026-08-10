@@ -36,7 +36,7 @@ Each box has a column on the right for evidence tier tags.
 
 ## Activity 1 — Persona Triage
 
-**Format:** Quad &bull; **30 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Calibrate the quad's eye for behavioral vs demographic vs adjectival persona claims before they build their own.
@@ -94,7 +94,7 @@ A marked-up handout per quad plus a one-paragraph rewrite of the weakest persona
 
 ## Activity 2 — Build Your Persona
 
-**Format:** Quad &bull; **45 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Take the FieldPulse Research Packet and produce a canvas-format persona that is evidence-tagged box by box.
@@ -158,7 +158,7 @@ A completed Persona Validation Canvas per quad: all six boxes filled, evidence-t
 
 ## Activity 3 — Role-Play Interviews
 
-**Format:** Quad (rotating roles) &bull; **45 min** &bull; Block 3
+**Format:** Quad (rotating roles) &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Rehearse the validation-interview protocol on three character cards while a third quad member tallies bias traps.

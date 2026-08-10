@@ -47,7 +47,7 @@ A quad that passes all 7 has a coherent artifact set. Most fail 2–3 on first p
 
 ## Activity 1 — The 7-Point Validation
 
-**Format:** Quad &bull; **40 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Walk every check; document what passes and what doesn't.
@@ -86,10 +86,10 @@ A validation log + updated artifacts.
 
 ## Activity 2 — SEP-Light + DP-Light
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
-Compressed Weeks 6 + 7 in 40 minutes. SEP-light captures stakeholder + 1 trade-off brief + 1 simulated negotiation; DP-light captures outcome map + backlog skeleton + 1 experiment.
+Compressed Weeks 6 + 7 in 50 minutes. SEP-light captures stakeholder + 1 trade-off brief + 1 simulated negotiation; DP-light captures outcome map + backlog skeleton + 1 experiment.
 
 ### SEP-light template
 
@@ -153,7 +153,7 @@ Hypothesis / test / success criterion for one queue.
 
 ## Activity 3 — Cross-Artifact Integration Pass
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Read all 6 documents top-to-bottom. Catch any remaining contradictions. Add forward / backward references between artifacts.
@@ -191,7 +191,7 @@ For every cross-artifact reference, confirm:
 
 ## Activity 4 — Presentation Rehearsal
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Rehearse the 15-minute Friday presentation. Time it. Get feedback. Fix what doesn't land.

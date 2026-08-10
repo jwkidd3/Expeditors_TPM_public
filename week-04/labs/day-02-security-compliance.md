@@ -70,7 +70,7 @@ A TPM doesn't write the compliance program. A TPM **flags which frame applies** 
 
 ## Activity 1 — STRIDE Calibration on a Public Example
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Practice the STRIDE walk on a feature outside FieldPulse before applying it to your PRD. Calibration first, application second.
@@ -105,7 +105,7 @@ A STRIDE walk on the password-reset flow with the top-5 threats culled, each nam
 
 ## Activity 2 — STRIDE Pass on Your PRD Feature
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Apply the calibrated STRIDE pass to your quad's PRD feature.
@@ -145,7 +145,7 @@ Top-5 threats documented with letter, scenario, likelihood/impact, specific miti
 
 ## Activity 3 — Compliance Frame + Updated NFRs
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Identify which compliance frames apply, write the constraints, and use the threat model + compliance to **rewrite the PRD's first-draft Security NFRs**.
@@ -203,7 +203,7 @@ TCD Section 3 drafted with applicable compliance frames named and a revised Secu
 
 ## Activity 4 — Security Stakeholder Conversation Prep
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 The TCD Section 3 will eventually be reviewed by the actual security team. Today the quad rehearses that conversation — what to bring, what to ask, what the security team will most likely push back on.

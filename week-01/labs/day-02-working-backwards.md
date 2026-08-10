@@ -24,7 +24,7 @@ Pick any one per quad. Quads may also propose their own subject to facilitator a
 
 ## Activity 1 — Forward or Backward?
 
-**Format:** Quad &bull; **30 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Before drafting, calibrate what the difference feels like in practice by analyzing 4 short vignettes.
@@ -63,7 +63,7 @@ A one-sentence "earlier question" per vignette, recorded by the quad and surface
 
 ## Activity 2 — Headline + Sub-headline
 
-**Format:** Quad &bull; **45 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Produce three candidate headlines, then use AI to critique them on three axes. Pick one.
@@ -100,7 +100,7 @@ The single chosen heading + sub-headline, pinned for use in Activity 3.
 
 ## Activity 3 — Answer the Five, Concretely
 
-**Format:** Quad &bull; **45 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Complete a draft PR paragraph + customer quote + 6 FAQ entries.

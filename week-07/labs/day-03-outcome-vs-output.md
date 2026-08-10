@@ -66,7 +66,7 @@ If a metric has no cadence, it has no audience. If a metric has an audience but 
 
 ## Activity 1 — Output / Outcome / Leading-Indicator Triples
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Build the central tracking table — every meaningful output paired with an outcome and a leading indicator.
@@ -99,7 +99,7 @@ Build the central tracking table — every meaningful output paired with an outc
 
 ## Activity 2 — Sprint-Level Tracking (the 2-week loop)
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Design the sprint review where outputs and outcomes are inspected together.
@@ -134,7 +134,7 @@ The TPM-owned twist: **at least one slide / segment is about outcome**, not outp
 
 ## Activity 3 — Monthly + Quarterly Tracking
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Design the monthly outcome review and the quarterly NS roll-up.
@@ -196,7 +196,7 @@ The quarterly review answers: **did the feature contribute to the NS?**
 
 ## Activity 4 — Build the Tracking Plan + AI Pattern Detection
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Combine Activities 1–3 into a single tracking plan section of the DP. Add the AI-pattern-detection prompt that helps spot anomalies.

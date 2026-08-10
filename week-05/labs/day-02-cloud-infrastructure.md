@@ -48,7 +48,7 @@ Each decision has a **cost dimension** and a **risk dimension**. The TPM job: su
 
 ## Activity 1 — Region & Availability Zone Choice
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Decide which region(s) the feature deploys to and which multi-AZ stance it takes. Defend in customer + compliance + cost terms.
@@ -102,7 +102,7 @@ A regional-stance section ready for TMD Section 2.
 
 ## Activity 2 — Managed vs Self-Managed for Each Component
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 For each container in the TCD's Container diagram, decide whether to use a managed service or self-manage. Defend each.
@@ -155,7 +155,7 @@ Managed-vs-self table covering every TCD container, with a specific reason for e
 
 ## Activity 3 — Multi-Tenancy + Network Boundary
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Decide the multi-tenancy stance and the network boundary. Both are stakeholder-touching decisions.
@@ -222,7 +222,7 @@ Tenancy stance and network boundary documented with rationale, revisit triggers,
 
 ## Activity 4 — Cost Awareness + AI Sanity Check
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 A TMD Section 2 without a cost dimension reads as wishful thinking. Today's last block: rough out the cost shape and use AI to surface gaps.

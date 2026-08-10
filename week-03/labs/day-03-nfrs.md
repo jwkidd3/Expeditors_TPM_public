@@ -83,7 +83,7 @@ The **Defense** is the section that distinguishes a TPM-quality NFR from boilerp
 
 ## Activity 1 — NFR Triage
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Calibrate the eye on real-world NFR examples — most PRD templates ship with terrible boilerplate NFRs. The cohort needs to see what bad looks like before writing their own.
@@ -117,7 +117,7 @@ Each quad receives the **NFR Triage Pack**: 10 NFR examples drawn from real PRDs
 
 ## Activity 2 — Performance + Observability NFRs
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Cover two related categories that TPMs most often own jointly. Performance NFRs are the "what should we expect" side; observability NFRs are the "how would we know" side.
@@ -174,7 +174,7 @@ Each quad needs their Week-2 Tier Sheet operational signals and the NFR four-par
 
 ## Activity 3 — Security + Accessibility + Compliance
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Cover the three remaining categories. These are the categories most often delegated to "the security team will tell us" or "the legal team will tell us" — the TPM job is to **draft the first version** so those conversations have a starting point.
@@ -235,7 +235,7 @@ Pull from the **A11y Floor Checklist** from Week 2 Day 3. State the conformance 
 
 ## Activity 4 — NFR Cross-Review + Trade-Off Discussion
 
-**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Cross-review the NFR sections (same pairing as Day 2 if possible — the reviewer is now familiar with the PRD). Surface trade-offs explicitly: NFRs interact, and several often pull in opposite directions.

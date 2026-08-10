@@ -33,13 +33,13 @@ Each day's artifact feeds the next. Friday readouts are the seed of every quad's
 | Clock | Block | Mix |
 |-------|-------|-----|
 | 09:00 – 09:15 | Opening & objectives | Instructor |
-| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 50 min group |
+| 09:15 – 10:30 | Teaching Block 1 + Activity 1 | ~25 min teach / 45 min group |
 | 10:30 – 10:45 | **Break** | |
 | 10:45 – 12:00 | Teaching Block 2 + Activity 2 | ~25 min teach / 50 min group |
 | 12:00 – 13:00 | **Lunch** | |
 | 13:00 – 14:15 | Teaching Block 3 + Activity 3 | ~25 min teach / 50 min group |
 | 14:15 – 14:30 | **Break** | |
-| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Readouts + Wrap | ~25 min teach / 45 min group / 20 min readout |
+| 14:30 – 16:00 | Teaching Block 4 + Activity 4 + Readouts + Wrap | ~25 min teach / 55 min group / 10 min readout |
 
 **Group composition:** quads carry over from Week 1. If a participant joined late, place them in the smallest existing quad rather than forming new groups.
 

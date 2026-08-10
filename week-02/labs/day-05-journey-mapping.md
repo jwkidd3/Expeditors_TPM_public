@@ -52,7 +52,7 @@ Below the swim lanes, two columns:
 
 ## Activity 1 — Anchor the Journey
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Draw the **factual** journey before debating fixes. Most quads jump to features prematurely — today's discipline is to map first.
@@ -80,7 +80,7 @@ A staged journey skeleton — actions and stages only. Thoughts/emotions/frictio
 
 ## Activity 2 — Fill the Lanes
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Populate Thoughts, Emotions, and Touchpoints lanes — and surface friction.
@@ -115,7 +115,7 @@ A populated Journey Map Canvas with stages, actions, thoughts (quotes), emotions
 
 ## Activity 3 — From Friction to Features
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Translate the highest-friction stages into **3 feature concepts** that pass the strategy test.
@@ -160,7 +160,7 @@ A feature concept earns a place on your map if it passes all three:
 
 ## Activity 4 — Friday Readouts (Full Week-2 Package)
 
-**Format:** Quad &bull; **45 min total + readouts** &bull; Block 4
+**Format:** Quad &bull; **55 min total + readouts** &bull; Block 4
 
 ### Purpose
 Each quad delivers a **12-minute integrated strategy package** to the cohort. Peer + instructor scoring.

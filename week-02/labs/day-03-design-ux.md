@@ -44,7 +44,7 @@ We use Nielsen's 10 heuristics as the shared vocabulary, plus three TPM-specific
 
 ## Activity 1 — Heuristic Hunt
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Calibrate the room on the Nielsen 10 by hunting violations in a live product before they audit their own.
@@ -71,7 +71,7 @@ A short list per quad: 3+ heuristic violations with the heuristic number named, 
 
 ## Activity 2 — A11y Floor Audit
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 TPMs at most companies inherit accessibility debt. Today we install the **non-negotiable floor** — the small set of checks a TPM should run before *any* PRD ships.
@@ -108,7 +108,7 @@ A one-page A11y Floor Audit per quad: each of the 8 checks rated pass/partial/fa
 
 ## Activity 3 — Heuristic Audit of Your Quad's Surface
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Apply the calibrated eye from Activity 1 + the floor from Activity 2 to the quad's chosen product surface.
@@ -170,7 +170,7 @@ A completed UX Audit per quad covering top 3 violations (severity-scored), top 3
 
 ## Activity 4 — From Audit to Design Principles
 
-**Format:** Quad &bull; **45 min** + Readouts &bull; Block 4
+**Format:** Quad &bull; **55 min** + Readouts &bull; Block 4
 
 ### Purpose
 Convert the audit findings into **3 design principles** the squad can hold the line on across PRDs. This is the day's keeper artifact.

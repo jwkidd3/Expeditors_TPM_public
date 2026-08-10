@@ -88,7 +88,7 @@ The discipline: the **whole brief** fits on one page. The appendix is references
 
 ## Activity 1 — Translation Drill
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Calibrate the translation muscle on examples before applying it to the quad's own trade-off.
@@ -120,7 +120,7 @@ For each, the quad writes the business-framing version targeting a specific stak
 
 ## Activity 2 — Pick Your Trade-Off + Pick Your Stakeholder
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Pick one of your TCD Section 5 trade-offs (or a TMD trade-off) AND one stakeholder, then design the brief together.
@@ -154,7 +154,7 @@ Pick one of your TCD Section 5 trade-offs (or a TMD trade-off) AND one stakehold
 
 ## Activity 3 — Draft the 1-Page Brief
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Draft the brief. The 1-page constraint is hard.
@@ -216,7 +216,7 @@ visibility within < 1 second.
 
 ## Activity 4 — Cross-Review + AI Critique
 
-**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Cross-review with another quad **playing the stakeholder role**. Use AI to predict objections.

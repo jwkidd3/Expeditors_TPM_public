@@ -28,7 +28,7 @@ Every well-formed NS has been challenged against all three and survived.
 
 ## Activity 1 — Three Pitfalls Triage
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Recognize the three pitfalls in real-world examples before applying them to your own NS — pattern-recognition before self-diagnosis.
@@ -65,7 +65,7 @@ A scored card pack per quad: each card tagged with 0–3 pitfalls and a one-line
 
 ## Activity 2 — Re-write Your NS
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Apply yesterday's placeholder + today's pitfalls to draft a defensible NS for the quad's Week-1 problem.
@@ -118,7 +118,7 @@ A completed NS Defense Card per quad: NS statement, three pitfall rebuttals, and
 
 ## Activity 3 — The "CEO and Dispatcher" Test
 
-**Format:** Quad pairs &bull; **40 min** &bull; Block 3
+**Format:** Quad pairs &bull; **50 min** &bull; Block 3
 
 ### Purpose
 A defensible NS sounds right to two audiences at once. Today we rehearse.
@@ -160,7 +160,7 @@ An updated NS Defense Card with two new lines: the CEO's strongest challenge + r
 
 ## Activity 4 — NS Lock-in + Tier Sheet Refresh
 
-**Format:** Quad &bull; **45 min** + Readouts &bull; Block 4
+**Format:** Quad &bull; **55 min** + Readouts &bull; Block 4
 
 ### Purpose
 Replace yesterday's placeholder, walk the new NS up and down the Tier Sheet to confirm coherence, and present.

@@ -32,7 +32,7 @@ That's 2 pages. Every word earns its place.
 
 ## Activity 1 — Compressed Customer Discovery
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Compressed Week-1 work: ground in customer signal, name the persona, name the pain, name the journey friction.
@@ -81,7 +81,7 @@ A 1-page **discovery summary** that becomes the input to PRD-light Sections 1–
 
 ## Activity 2 — PRD-Light Sections 1–4
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Draft sections 1–4 of the compressed PRD: context, problem, goals/non-goals, scope.
@@ -128,7 +128,7 @@ A 2-column table. Default: cut aggressively to fit the 4-day capstone window.
 
 ## Activity 3 — PRD-Light Sections 5–7
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Draft Section 5 solution sketch + Section 6 Acceptance Criteria + Section 7 NFRs.
@@ -174,7 +174,7 @@ Each NFR uses the Wk 3 template: requirement / defense / verification.
 
 ## Activity 4 — AI Validation Pass + Day-3 Setup
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Run the validation pass on PRD-light. Set up Day 3's compressed architecture work.

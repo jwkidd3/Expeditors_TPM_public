@@ -60,7 +60,7 @@ If your data model can't be defended *by the queries that drive it*, it's wrong.
 
 ## Activity 1 — Read Patterns + Write Patterns
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Surface every read and write the feature needs *before* drawing the schema.
@@ -96,7 +96,7 @@ A two-column **Access Pattern Sheet**:
 
 ## Activity 2 — Draft the Entity Model
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Convert the access patterns into an entity model. Tables / collections, keys, relationships, indexes.
@@ -177,7 +177,7 @@ Entity-model draft with PKs, indexes referencing access patterns by number, name
 
 ## Activity 3 — Storage Trade-Offs
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 For each non-trivial design choice, surface the trade-off explicitly. Today's choices are local — schema-level — but the discipline is the same as Week 4's architectural trade-offs.
@@ -239,7 +239,7 @@ Each quad needs the entity model from Activity 2, TCD Section 4 SLOs for cross-r
 
 ## Activity 4 — AI-Assisted Schema Critique + Polish
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Use AI as a critic. Update Section 1. Add the provenance log entry.

@@ -32,7 +32,7 @@ Quads persist through the **end of Week 3** (they carry the mini-capstone). Make
 
 ## Activity 1 — "Same Question, Three Models"
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Surface that (a) different AI tools give materially different answers to the same question, and (b) "it sounded confident" is not evidence of correctness.
@@ -76,7 +76,7 @@ A scored comparison across three tools plus a one-line readout: "We would trust 
 
 ## Activity 2 — Rewrite This Prompt
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Convert the Day 1 teaching (RCCF) into reflexive behavior. Handle three weak prompts pulled from the FieldPulse backlog and rewrite them.
@@ -122,7 +122,7 @@ Minimum four entries by end of Day 1. Entries earned in Activities 2, 3, and 4.
 
 ## Activity 3 — The Three Hats
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Use AI as a rapid multi-perspective critic, and practice asking a single question from each perspective.
@@ -149,7 +149,7 @@ For each hat: the single most uncomfortable question surfaced. One of those thre
 
 ## Activity 4 — Prompt Pattern Library (Publish)
 
-**Format:** Quad &bull; **45 min** &bull; Block 4 + readouts
+**Format:** Quad &bull; **55 min** &bull; Block 4 + readouts
 
 ### Purpose
 Ship a durable artifact. The library is referenced every remaining day of Week 1 and beyond.

@@ -67,7 +67,7 @@ For most teams, the worst queues are:
 
 ## Activity 1 — Identify Your Value Stream
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 List the steps in the quad's feature delivery stream, before measuring or estimating times.
@@ -110,7 +110,7 @@ List the steps in the quad's feature delivery stream, before measuring or estima
 
 ## Activity 2 — Measure or Estimate Each Step
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Add **process time**, **lead time**, and **flow efficiency** numbers to each step.
@@ -152,7 +152,7 @@ Use real data where available (ADO data; team retros). Otherwise estimate honest
 
 ## Activity 3 — Identify the Top 3 Queues
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Find where the time hides. Rank queues by impact.
@@ -188,7 +188,7 @@ Find where the time hides. Rank queues by impact.
 
 ## Activity 4 — Map the VSM + AI Critique
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Draw the visual VSM and use AI to surface non-obvious queues.

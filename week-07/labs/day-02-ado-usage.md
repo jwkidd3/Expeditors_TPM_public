@@ -81,7 +81,7 @@ The cost of skipping fields shows up at sprint review when nobody can find anyth
 
 ## Activity 1 — Build the Hierarchy
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Map the feature into the Epic → Feature → User Story → Task hierarchy.
@@ -142,7 +142,7 @@ A skeleton: 1 Epic + 1 Feature + 5–10 User Stories with parent links.
 
 ## Activity 2 — Field Discipline + Tasks
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Populate fields on every work item. Add Tasks under each User Story.
@@ -197,7 +197,7 @@ Tasks for a typical user story:
 
 ## Activity 3 — Queries (WIQL) + Boards
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Build the queries that surface what's happening. Set up the boards for sprint visibility.
@@ -273,7 +273,7 @@ Used: monthly; ensures NFRs aren't being deferred indefinitely.
 
 ## Activity 4 — Reading the Charts + AI as Standup Aid
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Read the standard ADO charts (cumulative flow, burn-down, velocity) and learn to use AI as a standup aid (without replacing the team).

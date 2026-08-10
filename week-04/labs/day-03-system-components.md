@@ -97,7 +97,7 @@ A diagram without a legend is a Rorschach test. Force the legend.
 
 ## Activity 1 — Context Diagram
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Draw the Context diagram for your PRD feature. It should be readable in 60 seconds by a stakeholder who has never seen the feature.
@@ -128,7 +128,7 @@ A Context (C4 Level 1) diagram for the feature with people, external systems, la
 
 ## Activity 2 — Container Diagram
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Draw the Container diagram. Every container is something you'd deploy, update, or scale independently.
@@ -185,7 +185,7 @@ A Container diagram that an architect can react to. Even (especially) a hand-dra
 
 ## Activity 3 — Stress-Test the Diagram
 
-**Format:** Quad-pair &bull; **40 min** &bull; Block 3
+**Format:** Quad-pair &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Pair quads. Each quad's diagram is read by another quad. Find what's missing, what's wrong, what's unclear.
@@ -225,7 +225,7 @@ Annotated diagrams with trust boundaries marked, a failure trace recorded, and 1
 
 ## Activity 4 — AI-Assisted Diagram Critique + Final Polish
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Use AI as a critic to surface what a senior architect would push back on. Update the diagram and TCD Section 2.

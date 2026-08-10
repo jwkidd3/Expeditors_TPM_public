@@ -26,7 +26,7 @@ A "well-formed" tier sheet has a believable **causal chain**: a change in an ope
 
 ## Activity 1 — "Metric or Vanity?"
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Ground the room in the difference between metrics that move because the customer's life got better, and metrics that move because the team got clever.
@@ -71,7 +71,7 @@ A sorted 2x2 with bet-on and never-report-up cards labeled, plus a one-sentence 
 
 ## Activity 2 — Operational signal sprint
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Generate a credible bench of operational signals for the quad's Week-1 problem statement.
@@ -105,7 +105,7 @@ The 6 operational signals populate the bottom row.
 
 ## Activity 3 — KPI laddering
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Bridge from operational signals (squad-level) to KPIs (org-level). This is where TPMs earn their seat in cross-functional rooms.
@@ -144,7 +144,7 @@ The 2–3 KPIs populate the middle row.
 
 ## Activity 4 — Tier Sheet defense + North Star placeholder
 
-**Format:** Quad &bull; **45 min** + Readouts &bull; Block 4
+**Format:** Quad &bull; **55 min** + Readouts &bull; Block 4
 
 ### Purpose
 Complete the Tier Sheet, do a peer-defense round, and seed Day 2's North Star work.

@@ -95,7 +95,7 @@ For a single feature, several decisions need RACI:
 
 ## Activity 1 — Build the Stakeholder List
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Build a **complete** stakeholder list before mapping. Most quads will start with 5–7 stakeholders and discover they have 12–15.
@@ -122,7 +122,7 @@ A **comprehensive stakeholder list** (typically 10–18 names) with role + conce
 
 ## Activity 2 — Power × Interest Mapping
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Place each stakeholder on the 2×2 grid. The discussion of *where* each one goes is most of the learning.
@@ -173,7 +173,7 @@ The "surprise" for FieldPulse: **Compliance** is low-interest in the abstract bu
 
 ## Activity 3 — RACI Assignment for Five Decisions
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Assign RACI to the five most consequential decisions for the feature.
@@ -211,7 +211,7 @@ For most features:
 
 ## Activity 4 — SEP Section 1 Polish + Stakeholder Watch List
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Polish Section 1 of the SEP, plus identify a **watch list** of stakeholders whose status could change in the next month.

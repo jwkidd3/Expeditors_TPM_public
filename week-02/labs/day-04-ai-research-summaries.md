@@ -62,7 +62,7 @@ The **Provenance log** is mandatory. A strategy brief without it is fiction.
 
 ## Activity 1 — Multi-source Synthesis Drill
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Practice the **summarize-with-evidence-tags** pattern at scale before applying it to the real research pack.
@@ -87,7 +87,7 @@ A **two-paragraph diagnosis** of the failure modes the quad observed, plus the i
 
 ## Activity 2 — The Research Pack Pass
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Apply the iterated prompt pattern to the **real FieldPulse Research Pack** and produce the first draft of the Pain Themes section.
@@ -121,7 +121,7 @@ Each quad has its iterated prompt from Activity 1, the FieldPulse Research Pack,
 
 ## Activity 3 — Competitive Snapshot
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Use AI to do the most defensible part of competitive research: **structuring** information you already have access to. This is also the failure mode the AI is most frequently used for *poorly* — generating fake market data.
@@ -172,7 +172,7 @@ A clean **Competitive Snapshot** (matrix + open questions) added to the Strategy
 
 ## Activity 4 — Brief Assembly + Provenance Log
 
-**Format:** Quad &bull; **45 min** + Readouts &bull; Block 4
+**Format:** Quad &bull; **55 min** + Readouts &bull; Block 4
 
 ### Purpose
 Stitch the day's outputs into a single strategy brief, write the executive summary by hand, and complete the provenance log.

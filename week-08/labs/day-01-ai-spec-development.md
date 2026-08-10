@@ -175,7 +175,7 @@ Format: 3 sub-sections.
 
 ## Activity 1 — Holocron Scoping
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Lock a defensible slice of the Holocron problem. The subject is fixed; what varies is how much you take on — and an over-broad slice won't survive contact with a 4-day build.
@@ -200,7 +200,7 @@ A one-sentence problem statement, a named primary user, an explicit in/out scope
 
 ## Activity 2 — Walk Through the AI Spec Template
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Internalize the AI Spec template by walking through it section-by-section using a **previously-completed FieldPulse artifact set** as the source.
@@ -224,7 +224,7 @@ Internalize the AI Spec template by walking through it section-by-section using 
 
 ## Activity 3 — Run the 5-Prompt Sequence on FieldPulse
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Practice the sequence on the FieldPulse artifact set (where the inputs are complete and validated) before applying it to the capstone tomorrow.
@@ -246,7 +246,7 @@ A first AI Spec for FieldPulse — produced via the 5-prompt sequence — that t
 
 ## Activity 4 — Capstone Discovery Plan
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Plan the discovery work needed for tomorrow's compressed PRD. Distribute the work across quad members.

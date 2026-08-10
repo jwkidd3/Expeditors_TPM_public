@@ -48,7 +48,7 @@ This section is the **action list** for Week 6 (stakeholder negotiation). Today 
 
 ## Activity 1 — Surface the Trade-Offs
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Identify the actual trade-offs your architecture made. Most teams under-report — they describe the choice and skip the alternative.
@@ -92,7 +92,7 @@ A well-written Section 5 covers **multiple categories**. A Section 5 with 5 trad
 
 ## Activity 2 — Write the Top 5 Trade-Offs
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Convert the structure from Activity 1 into the final Section 5 prose.
@@ -159,7 +159,7 @@ TCD Section 5 with five fully written trade-offs using the template, plus a note
 
 ## Activity 3 — Stakeholder Sign-Off Matrix
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Build Section 6. Every constraint that requires another team's buy-in goes on the matrix with an owner and a status.
@@ -211,7 +211,7 @@ TCD Section 6 sign-off matrix with at least 6 named entries, each with constrain
 
 ## Activity 4 — Integration + Cross-Review + Sign-Off
 
-**Format:** Quad &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Final TCD assembly. Cross-review by another quad. Internal sign-off. The TCD ships alongside the PRD.

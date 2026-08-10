@@ -103,7 +103,7 @@ A six-line problem statement per quad, evidence-tagged, that survives the failur
 
 ## Activity 2 — Pressure Test
 
-**Format:** Quad &bull; **45 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 Use AI to surface the questions a skeptical engineer would ask — then answer them honestly, including by adding to the Open questions list.
@@ -143,7 +143,7 @@ A revised problem statement plus an updated Evidence log and an expanded Open qu
 
 ## Activity 3 — Paired Dry-Run
 
-**Format:** Paired quads &bull; **45 min** &bull; Block 3
+**Format:** Paired quads &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Rehearse the 10-minute readout against another quad's stopwatch, and surface where intent and listener-summary diverge.

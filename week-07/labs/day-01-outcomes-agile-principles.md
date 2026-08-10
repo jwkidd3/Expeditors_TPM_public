@@ -70,7 +70,7 @@ The 6 we de-emphasize aren't wrong; they're harder for a junior TPM to drive dir
 
 ## Activity 1 — Output / Outcome Sort
 
-**Format:** Quad &bull; **35 min** &bull; Block 1
+**Format:** Quad &bull; **45 min** &bull; Block 1
 
 ### Purpose
 Calibrate the output/outcome distinction with examples before applying it to the quad's feature.
@@ -106,7 +106,7 @@ For each, the quad labels: Output / Outcome / Both (a thing stated as both) / Ne
 
 ## Activity 2 — Build Your Outcome Map
 
-**Format:** Quad &bull; **40 min** &bull; Block 2
+**Format:** Quad &bull; **50 min** &bull; Block 2
 
 ### Purpose
 For the quad's feature, name the outcomes it's meant to produce. Each gets pulled directly from the NS / Tier Sheet / journey map.
@@ -158,7 +158,7 @@ For each:
 
 ## Activity 3 — Agile Values in Trade-offs
 
-**Format:** Quad &bull; **40 min** &bull; Block 3
+**Format:** Quad &bull; **50 min** &bull; Block 3
 
 ### Purpose
 Use the Manifesto values as a decision aid on real trade-offs from the quad's prior weeks' work.
@@ -205,7 +205,7 @@ The quad walks through 4 real trade-offs (3 from prior weeks + 1 new) and applie
 
 ## Activity 4 — Outcome Map Cross-Review + Wrap
 
-**Format:** Quad-pair &bull; **45 min** + Wrap &bull; Block 4
+**Format:** Quad-pair &bull; **55 min** + Wrap &bull; Block 4
 
 ### Purpose
 Cross-review the outcome map with another quad. Surface where outputs are masquerading as outcomes.
