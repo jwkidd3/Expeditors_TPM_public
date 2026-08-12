@@ -46,7 +46,7 @@ Each quad needs their three Week-2 feature cards, the four-dimension scoring she
 ### Quad protocol
 
 1. **Re-read the 3 feature cards aloud** (5 min)
-2. **Score each on 4 dimensions** (10 min). 1–5 each:
+2. **Score each on 4 dimensions** (20 min). 1–5 each:
     - **Friction severity** — how big is the pain it addresses?
     - **Metric movability** — how confident are we it'll move the metric in 30 days?
     - **Build feasibility** — how achievable in one quarter?
@@ -98,7 +98,7 @@ Tie explicitly to the **Week-2 journey map**. Reference the friction stars.
 
 ### Quad protocol
 
-1. **Each member drafts Section 1 alone** (10 min). Three drafts.
+1. **Each member drafts Section 1 alone** (20 min). Three drafts.
 2. **Pick the strongest** (10 min). Combine if needed.
 3. **Each member drafts Section 2 alone** (10 min).
 4. **Pick the strongest, combine, edit** (10 min).
@@ -153,7 +153,7 @@ Out-of-scope is the **negotiation tool** — it tells stakeholders "I see what y
 
 1. **Draft 5 candidate goals** (10 min). Cull to 3.
 2. **Draft 3 candidate non-goals** (10 min). Cull to 2.
-3. **Draft scope table** (15 min). Force the right column.
+3. **Draft scope table** (25 min). Force the right column.
 4. **Sanity check** (5 min). Does each goal tie to a friction star or metric?
 
 ### Deliverable
@@ -193,7 +193,7 @@ After writing Section 5, ask: what are the **first three questions** an engineer
 
 ### Quad protocol
 
-1. **Sketch the flow** (15 min). On paper. 4–8 steps.
+1. **Sketch the flow** (25 min). On paper. 4–8 steps.
 2. **Write the happy-path paragraph** (10 min).
 3. **List the hard interactions** (10 min).
 4. **The three-questions test** (10 min). Each member proposes 3 engineer questions; flag any that signal over- or under-specification.

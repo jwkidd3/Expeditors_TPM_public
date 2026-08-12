@@ -83,7 +83,7 @@ Each quad needs TCD Section 2 (Container diagram), TMD Sections 1–3, the TCD S
     - Postgres
     - Audit stream (Event Hubs)
 2. **Order the lifelines** (5 min). Caller on the left; called on the right.
-3. **Draw the messages** (15 min). Solid for sync, dashed for async. Label with method + path.
+3. **Draw the messages** (25 min). Solid for sync, dashed for async. Label with method + path.
 4. **Annotate latency budget per arrow** (5 min). Pull from yesterday's TCD Section 4 latency-budget walk.
 5. **The 60-second test** (5 min). Walk the diagram aloud to another quad in 60 seconds.
 
@@ -142,7 +142,7 @@ Each quad needs PRD Section 6 sad-path AC, TMD Section 3 (API error codes), and 
 ### Quad protocol
 
 1. **Pick the sad path** (5 min). From PRD Section 6 sad-path AC. Examples: "user submits with no tickets selected"; "user lacks permission"; "ticket already reconciled by someone else".
-2. **Draw the divergence** (20 min). The sad path usually shares the first 1–2 arrows with the happy path, then branches. Draw from the divergence point.
+2. **Draw the divergence** (30 min). The sad path usually shares the first 1–2 arrows with the happy path, then branches. Draw from the divergence point.
 3. **Show the user-visible result** (5 min). What does the user see? What status code? What error body?
 4. **Annotate** (5 min). What's the user's recovery action?
 5. **The 30-second walk** (5 min). To another quad.
@@ -231,7 +231,7 @@ Each quad needs PRD Section 6 weird-path AC, TMD Section 3 (idempotency approach
     - Race: two dispatchers reconcile the same ticket simultaneously
     - Timeout: Tickets module slow
     - Boundary: 47 tickets when modal can list 25
-2. **Draw the divergence + recovery** (25 min). Weird paths often need to show retry, idempotency, or fallback behavior.
+2. **Draw the divergence + recovery** (35 min). Weird paths often need to show retry, idempotency, or fallback behavior.
 3. **Annotate the system invariants that hold** (5 min). What can the user trust to be true even in this case?
 4. **Walk it** (5 min) to another quad.
 

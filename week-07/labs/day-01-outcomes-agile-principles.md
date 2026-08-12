@@ -94,7 +94,7 @@ For each, the quad labels: Output / Outcome / Both (a thing stated as both) / Ne
 
 ### Quad protocol
 
-1. **Label all 12** (15 min).
+1. **Label all 12** (25 min).
 2. **Argue when you disagree** (15 min). At least 2 should produce useful disagreement.
 3. **For each "Both"-labeled statement**, rewrite it to be cleanly one or the other (5 min).
 
@@ -138,7 +138,7 @@ For each:
 
 ### Quad protocol
 
-1. **Pull the primary outcome from your NS** (10 min). It should be one of:
+1. **Pull the primary outcome from your NS** (20 min). It should be one of:
     - Movement on a Tier Sheet operational signal
     - Movement on a KPI
     - Movement on the NS itself (rare for a single feature)

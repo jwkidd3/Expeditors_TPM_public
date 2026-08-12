@@ -126,7 +126,7 @@ Format: Numbered list of questions, ranked.
 ### Protocol
 
 1. **Run the prompt (10 min).** Paste in the problem statement and evidence log.
-2. **Answer what you can (25 min).** Go question by question.
+2. **Answer what you can (30 min).** Go question by question.
    - Green: answered from existing evidence (note the source)
    - Yellow: answerable if we do X (add to Open questions)
    - Red: unknowable from current evidence; flag the assumption we're carrying

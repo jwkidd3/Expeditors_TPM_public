@@ -108,7 +108,7 @@ Each quad needs their Section 5 solution sketch from Day 1, the AC template card
 ### Quad protocol
 
 1. **Identify the happy path** (5 min). Re-read Section 5 from yesterday. The 4–8 step flow becomes the basis for AC.
-2. **Solo drafts** (15 min). Each member writes 3 happy-path AC alone.
+2. **Solo drafts** (25 min). Each member writes 3 happy-path AC alone.
 3. **Pool, de-dupe, refine** (15 min). The quad converges on 3–5 final happy-path AC.
 4. **Failure-mode check** (5 min). Run each AC through the 5-failure list.
 
@@ -167,7 +167,7 @@ For each happy-path AC, ask:
 
 ### Quad protocol
 
-1. **Solo sad-path drafts** (10 min). Each member produces 2 sad-path AC for the quad's PRD.
+1. **Solo sad-path drafts** (20 min). Each member produces 2 sad-path AC for the quad's PRD.
 2. **Solo weird-path drafts** (10 min). Each member produces 2 weird-path AC.
 3. **Pool and cull to 4–6** (10 min). 2–4 sad, 2–4 weird.
 4. **Failure-mode check** (10 min). The 5 failure modes again.

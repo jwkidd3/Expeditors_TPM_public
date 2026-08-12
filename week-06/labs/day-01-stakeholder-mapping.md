@@ -103,7 +103,7 @@ Build a **complete** stakeholder list before mapping. Most quads will start with
 ### Quad protocol
 
 1. **Start with TCD Section 6** (5 min). Copy every stakeholder name from the sign-off matrix into a list.
-2. **Augment with the "five circles"** (15 min). For each circle, add anyone who isn't already on the list:
+2. **Augment with the "five circles"** (25 min). For each circle, add anyone who isn't already on the list:
     - **Customer-facing:** customer success, sales, support
     - **Engineering-adjacent:** architecture, security, platform, infra, data, QA
     - **Operating partners:** ops, IT, compliance, legal, finance
@@ -130,7 +130,7 @@ Place each stakeholder on the 2×2 grid. The discussion of *where* each one goes
 ### Quad protocol
 
 1. **Sketch the 2×2** on whiteboard or paper (5 min).
-2. **Place each stakeholder with a sticky note** (15 min). Argue when you disagree — don't average.
+2. **Place each stakeholder with a sticky note** (25 min). Argue when you disagree — don't average.
 3. **Highlight the four corners** (10 min). For each quadrant:
     - Who is here?
     - What does our engagement style with them need to look like?
@@ -202,7 +202,7 @@ For most features:
 
 ### Quad protocol
 
-1. **Draft the matrix** (20 min). One A per decision. Multiple R/C/I OK.
+1. **Draft the matrix** (30 min). One A per decision. Multiple R/C/I OK.
 2. **The "no two A's" check** (5 min). Walk the columns; verify exactly one A per decision.
 3. **The "is the A actually empowered?"** (10 min). For each A, check: do they have the authority (formal + informal) to make the call? If not, reassign.
 4. **The "anyone surprised by being I?"** (5 min). Often a stakeholder gets I when they think they're C. Surface that and decide.
@@ -234,7 +234,7 @@ A watch list is the early-warning system. It's the section that distinguishes a 
 ### Quad protocol
 
 1. **Polish Section 1** (15 min). Combine list + Power×Interest grid + RACI into one section. Add the "two surprises" callouts.
-2. **Build the watch list** (20 min). 3–5 stakeholders with their triggers.
+2. **Build the watch list** (30 min). 3–5 stakeholders with their triggers.
 3. **Cross-check against the TCD Section 6 sign-off matrix** (5 min). Anyone in Section 1 not on Section 6? Add to Section 6. Anyone on Section 6 not in Section 1? Add to Section 1.
 4. **AI cross-check** (5 min). Run the prompt below.
 

@@ -101,7 +101,7 @@ Each quad receives the **NFR Triage Pack**: 10 NFR examples drawn from real PRDs
 
 ### Quad protocol
 
-1. Triage all 10 NFRs (15 min). Identify failures. Mark "clean" if applicable.
+1. Triage all 10 NFRs (25 min). Identify failures. Mark "clean" if applicable.
 2. Rewrite the 5 worst (15 min). Use the NFR template.
 3. Pick the one that is hardest to defend even after rewriting (5 min) — discuss in the readout.
 
@@ -156,7 +156,7 @@ Each quad needs their Week-2 Tier Sheet operational signals and the NFR four-par
 
 ### Quad protocol
 
-1. **Performance first** (15 min). Each member proposes 1 performance NFR. Quad picks 2–3 to keep. Write defenses.
+1. **Performance first** (25 min). Each member proposes 1 performance NFR. Quad picks 2–3 to keep. Write defenses.
 2. **Observability next** (15 min). Same drill. The observability NFRs should explicitly reference the Tier Sheet operational signals from Week 2.
 3. **Cross-check** (10 min). Does each performance NFR have an observability NFR that allows us to **see whether we hit the target**?
 

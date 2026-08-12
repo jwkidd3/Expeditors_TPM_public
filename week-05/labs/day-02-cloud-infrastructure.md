@@ -60,7 +60,7 @@ Each quad needs PRD Section 2 (customer base), TCD Section 3 (compliance), TCD S
 
 1. **Pull customer-location facts from PRD Section 2** (5 min). Where do users live? Where is the bulk of traffic?
 2. **Pull compliance facts from TCD Section 3** (5 min). Any data-residency requirements?
-3. **Decide on region(s)** (10 min). Single region? Multi-region active-passive? Multi-region active-active?
+3. **Decide on region(s)** (20 min). Single region? Multi-region active-passive? Multi-region active-active?
 4. **Decide on multi-AZ** (10 min). At minimum, 2-AZ for any production workload. 3-AZ for stateful workloads with quorum requirements.
 5. **Capture the trade-off** (5 min). Use the Week-4 template.
 
@@ -125,7 +125,7 @@ For most B2B features, the answer is **managed**. Don't reinvent.
 
 1. **List each container** (5 min). Pull from TCD Section 2.
 2. **For each, identify the managed-service option** (10 min). e.g., Azure Database for PostgreSQL for Postgres, Azure Event Hubs for Kafka-protocol streams, Azure Cache for Redis, Azure Application Gateway for the load balancer.
-3. **For each, decide managed or self** (15 min). Use the four-question test:
+3. **For each, decide managed or self** (25 min). Use the four-question test:
     - Do failure modes match our needs?
     - Is cost reasonable at expected scale?
     - Does compliance allow it?
@@ -178,7 +178,7 @@ Most B2B SaaS at FieldPulse's stage uses **pooled with per-tenant rate limits** 
 
 1. **Identify your customers' tenancy expectations** (10 min). What did your PRD Section 1 customer say? Are any large customers contractually expecting dedicated infra?
 2. **Pick a stance** (10 min). Pooled is the default; defend if you choose dedicated.
-3. **Network boundary** (15 min). Decide:
+3. **Network boundary** (25 min). Decide:
     - Public internet (default for SaaS APIs)
     - Customer-VPN-only (some enterprise contracts)
     - ExpressRoute / Private Link (large enterprise, regulated industries)
@@ -264,7 +264,7 @@ Format: Numbered — Risk / Scenario / Likelihood / Mitigation.
 
 ### Quad protocol
 
-1. **ROM cost table** (15 min). Rough numbers for each component.
+1. **ROM cost table** (25 min). Rough numbers for each component.
 2. **AI sanity check** (10 min). Run the prompt; capture the 3 risks.
 3. **Adopt / defer / reject** (10 min).
 4. **Update Section 2** (10 min). Polish for sharing.

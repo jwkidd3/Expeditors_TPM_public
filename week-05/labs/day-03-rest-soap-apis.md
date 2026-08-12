@@ -111,7 +111,7 @@ Each quad needs TMD Section 1 (entities), the TCD Section 4 SLOs, and an OpenAPI
 
 ### Quad protocol
 
-1. **List the resources from your data model** (10 min). Each entity is a candidate resource. Some are sub-resources.
+1. **List the resources from your data model** (20 min). Each entity is a candidate resource. Some are sub-resources.
 2. **Design the URL paths** (10 min). Use `/<plural>/{id}` for individual; nested for sub-resources.
 3. **Methods + status codes** (10 min). For each path, which methods? What status codes for happy path / sad path?
 4. **Document one endpoint in detail** (10 min). Pick the central endpoint; write a short OpenAPI-style entry.
@@ -240,7 +240,7 @@ Standardize the **error body shape** across the API:
 
 ### Quad protocol
 
-1. **Idempotency** (15 min). For each mutating endpoint, decide approach + window.
+1. **Idempotency** (25 min). For each mutating endpoint, decide approach + window.
 2. **Versioning** (10 min). Pick strategy; document in Section 3.
 3. **Error semantics** (15 min). Define error body shape; list the 7 most-needed codes for your endpoints.
 

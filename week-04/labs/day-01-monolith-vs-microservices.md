@@ -86,7 +86,7 @@ For each, apply the three-question frame and stamp **Monolith fits / Microservic
 
 ### Quad protocol
 
-1. Stamp each card (15 min)
+1. Stamp each card (25 min)
 2. Pick the **2 cards with the strongest case** for separation, and the **2 with the strongest case for staying together** (10 min)
 3. Identify **1 card** where your quad disagreed (10 min); be ready to explain the disagreement
 
@@ -113,7 +113,7 @@ Each quad needs their locked PRD (especially Section 10 Dependencies) and the TC
 ### Quad protocol
 
 1. **Re-read PRD Section 10 (Dependencies)** (5 min). Which systems does the feature touch?
-2. **Three-question pass** (15 min). For each of the three questions, write a 2-sentence honest answer with evidence. "We don't know" is allowed and informative.
+2. **Three-question pass** (25 min). For each of the three questions, write a 2-sentence honest answer with evidence. "We don't know" is allowed and informative.
 3. **Draft the stance** (15 min). One paragraph in the TCD Section 1 form:
 
 ```markdown
@@ -169,7 +169,7 @@ The **Failure handling** column forces a choice the team often defers — make i
 
 ### Quad protocol
 
-1. **List integrations** (15 min). Draw from PRD Section 10 plus anything you forgot.
+1. **List integrations** (25 min). Draw from PRD Section 10 plus anything you forgot.
 2. **Characterize each** (15 min). Sync/async, read/write, failure mode.
 3. **Identify the "two-way contracts"** (10 min). Which integrations require coordination with another team? Mark these — they go on the dependency owner list.
 
@@ -221,7 +221,7 @@ Format: Numbered list, each item naming a category and a specific check.
 
 ### Quad protocol
 
-1. **Run Prompt A** (10 min). Capture the 3 objections.
+1. **Run Prompt A** (20 min). Capture the 3 objections.
 2. **Decide which objections to adopt** (10 min). For each: adopt / defer / reject — same discipline as Week 3.
 3. **Run Prompt B** (10 min). Use the answers to add 1–2 missing integrations to the table.
 4. **Update Section 1 + Section 2 with provenance** (10 min). Add a small "AI use" note: which prompts, what was adopted, what was rejected.

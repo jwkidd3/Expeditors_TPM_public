@@ -105,7 +105,7 @@ Each card describes a stakeholder from a hypothetical company. The quad picks: c
 ### Quad protocol
 
 1. **Place each on the Power × Interest grid** (10 min).
-2. **Pick cadence + format + length** (15 min).
+2. **Pick cadence + format + length** (25 min).
 3. **Disagree productively** (10 min). For 1–2 cards your quad disagreed on, document why.
 
 ### Readout (60 sec per quad)
@@ -124,7 +124,7 @@ For each stakeholder on your map, fill in the **recurring** part of the engageme
 ### Quad protocol
 
 1. **Sort stakeholders by quadrant** (5 min).
-2. **For high-power × high-interest (typically 3–5):** detailed plan (10 min). These are your closest partners.
+2. **For high-power × high-interest (typically 3–5):** detailed plan (20 min). These are your closest partners.
 3. **For high-power × low-interest (typically 3–5):** crisp plan (10 min). The dangerous quadrant.
 4. **For low-power × high-interest (typically 2–4):** group plan (5 min). Email digests, group threads.
 5. **For low-power × low-interest (typically 2–3):** lightweight plan (5 min). Newsletter; launch comms.
@@ -158,7 +158,7 @@ For each stakeholder, list 1–3 asks per category that you'll need over the nex
 
 ### Quad protocol
 
-1. **Walk each stakeholder** (20 min). For each, list 3–5 "right now" asks (mix of decisions, information, action).
+1. **Walk each stakeholder** (30 min). For each, list 3–5 "right now" asks (mix of decisions, information, action).
 2. **List reciprocal asks** (10 min). What will *they* ask of *you*? Predict the top 1–2 per stakeholder.
 3. **Flag conflicts** (5 min). Are any of your asks in tension with each other? (e.g., asking the architect to defer a decision while asking the eng director to approve a launch date)
 4. **Triage** (5 min). Which 5 asks across all stakeholders are the most consequential? Those go on the radar for Friday's negotiation.
@@ -193,7 +193,7 @@ Identify the engagement anti-patterns the quad is most prone to, and design coun
 ### Quad protocol
 
 1. **Score the quad's natural tendencies** (10 min). For each anti-pattern, rate yourselves H / M / L on susceptibility. Be honest.
-2. **Design counter-measures** (15 min). For your top 2–3 anti-patterns, what's the specific counter-measure baked into your plan?
+2. **Design counter-measures** (25 min). For your top 2–3 anti-patterns, what's the specific counter-measure baked into your plan?
 3. **Document in Section 2** (15 min).
 4. **AI sanity check** (5 min). Run the prompt below.
 

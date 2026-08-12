@@ -71,7 +71,7 @@ Each quad needs the PRD Section 5 sketch, PRD Section 6 AC list, and the Access 
 ### Quad protocol
 
 1. **Re-read the PRD Section 5 sketch** (5 min). What does the user do? What screens load? What submits send?
-2. **List read patterns** (15 min). For each screen / API call:
+2. **List read patterns** (25 min). For each screen / API call:
     - What data is shown?
     - What filters / sorts / pagination apply?
     - How fresh must it be? (real-time, last-minute, last-hour)
@@ -131,7 +131,7 @@ For each entity, capture:
 ### Quad protocol
 
 1. **List the entities** (10 min). Include both new entities (you're creating) and existing entities you're reading from.
-2. **For each new entity, draft the fields** (15 min). Use the template.
+2. **For each new entity, draft the fields** (25 min). Use the template.
 3. **Mark the indexes** (10 min). For each entity, what indexes serve the high-frequency queries from Activity 1?
 4. **Mark relationships and cardinalities** (5 min). 1:1, 1:N, N:N — diagram them or list them.
 
@@ -221,7 +221,7 @@ Each quad needs the entity model from Activity 2, TCD Section 4 SLOs for cross-r
 
 ### Quad protocol
 
-1. **Identify 3 trade-off points** in your model (15 min). For each: what was the choice, what was the alternative?
+1. **Identify 3 trade-off points** in your model (25 min). For each: what was the choice, what was the alternative?
 2. **Use the Week-4 trade-off template** (15 min). Same Option A/B/Choice/Why/Cost/Trigger.
 3. **Cross-check against TCD Section 4 SLOs** (10 min). Does any choice push against a latency target? If yes, name it.
 
@@ -277,7 +277,7 @@ schema? List 3, ranked by likelihood of mattering within 6 months.
 
 1. **Run Prompt A** (10 min). Adopt / defer / reject each issue.
 2. **Run Prompt B** (10 min). Decide which deferred queries to capture in Section 11 (out-of-scope follow-ups).
-3. **Update Section 1** (15 min). Final entity model + indexes + trade-offs.
+3. **Update Section 1** (25 min). Final entity model + indexes + trade-offs.
 4. **Provenance note** (5 min). What prompts, what was adopted/rejected.
 5. **AI-prose check** (5 min). Rewrite anything generic in your own voice.
 

@@ -90,7 +90,7 @@ For each step in the flow, the quad answers each of the 6 STRIDE questions. You 
 ### Quad protocol
 
 1. **Sketch the flow** on paper (5 min).
-2. **STRIDE walk** (20 min). Per step, per letter: threat? if yes, what? Mitigation?
+2. **STRIDE walk** (30 min). Per step, per letter: threat? if yes, what? Mitigation?
 3. **Cull to top 5** (10 min). Which 5 threats would a security reviewer most likely call out as the biggest risk?
 
 ### Readout (60 sec per quad)
@@ -116,7 +116,7 @@ Each quad needs yesterday's integration table, the PRD Section 5 sketch, and the
 ### Quad protocol
 
 1. **Re-draw the data flow** (10 min). Use the integration table from yesterday plus the PRD Section 5 sketch.
-2. **STRIDE walk** (20 min). Same drill: 6 questions per box and arrow.
+2. **STRIDE walk** (30 min). Same drill: 6 questions per box and arrow.
 3. **Top-5 threats** (10 min). Document each as:
 
 ```markdown
@@ -213,7 +213,7 @@ Each quad needs the threat model, updated NFRs, TCD Section 3, and the security-
 
 ### Quad protocol
 
-1. **List 5 questions you'd ask the security team** (15 min). Examples:
+1. **List 5 questions you'd ask the security team** (25 min). Examples:
     - "Does our SSO scope model fit the existing Microsoft Entra ID / Azure RBAC patterns?"
     - "Where is the line between 'we mitigate' and 'platform mitigates'?"
     - "What's the precedent for this data classification?"

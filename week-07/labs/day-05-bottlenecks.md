@@ -70,7 +70,7 @@ Convert the top 3 queues from Day 4 into 3 specific experiments.
 ### Quad protocol
 
 1. **Re-read your top 3 queues** (5 min) from DP Section 4.
-2. **For each, draft an experiment** (25 min) using the template above. Commit to:
+2. **For each, draft an experiment** (35 min) using the template above. Commit to:
     - A specific change (not "improve code review" — "auto-assign reviewers based on path")
     - A duration (typically 2–4 sprints)
     - A success criterion with baseline, target, and window
@@ -132,7 +132,7 @@ Read the full DP top to bottom. Fix incoherences. Lock the version that goes int
 
 ### Quad protocol
 
-1. **Solo read-through** (15 min). Each member reads Sections 1–5; marks issues in margins.
+1. **Solo read-through** (25 min). Each member reads Sections 1–5; marks issues in margins.
 2. **Pool issues** (10 min). De-dupe.
 3. **Fix in priority order** (15 min). Coherence first, then prose.
 

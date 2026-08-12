@@ -73,7 +73,7 @@ Build the central tracking table — every meaningful output paired with an outc
 
 ### Quad protocol
 
-1. **List the outputs** (10 min). Pull from DP Section 2 — the User Stories that produce user-visible behavior. Aim for 5–8 outputs (not all stories produce distinct outcomes).
+1. **List the outputs** (20 min). Pull from DP Section 2 — the User Stories that produce user-visible behavior. Aim for 5–8 outputs (not all stories produce distinct outcomes).
 2. **For each output, name the outcome** (10 min). Use DP Section 1's outcome map. Several outputs may share an outcome — that's fine.
 3. **For each outcome, name the leading indicator** (10 min). The earliest signal you'd watch.
 4. **Sanity-check** (5 min). Is each leading indicator measurable within 7 days of launch?
@@ -119,7 +119,7 @@ The TPM-owned twist: **at least one slide / segment is about outcome**, not outp
 
 ### Quad protocol
 
-1. **Design the sprint review template** (15 min). 6 sections, with content per section.
+1. **Design the sprint review template** (25 min). 6 sections, with content per section.
 2. **Decide the cadence anchor** (5 min). Day of week; time; recurring.
 3. **Build the "leading indicator dashboard"** (15 min). What charts go on it? Each chart references one or more leading indicators from Activity 1.
 4. **Identify the alarm** (5 min). For each leading indicator: at what threshold do we say "this isn't moving — what should we change next sprint"?
@@ -180,7 +180,7 @@ The quarterly review answers: **did the feature contribute to the NS?**
 
 ### Quad protocol
 
-1. **Monthly review template** (15 min). Customize the structure above for your feature.
+1. **Monthly review template** (25 min). Customize the structure above for your feature.
 2. **Quarterly roll-up template** (15 min). Same.
 3. **Identify the **author + audience** for each (5 min). Who writes? Who reads?
 4. **Identify the **cadence anchor** (5 min). First Tuesday of every month? Day after sprint? Pick.
@@ -254,7 +254,7 @@ Format: 3 numbered patterns; each with: pattern / evidence / suggested investiga
 
 ### Quad protocol
 
-1. **Combine into Section 3** (15 min). All four sections.
+1. **Combine into Section 3** (25 min). All four sections.
 2. **Run the AI prompt** on a synthetic sprint (10 min).
 3. **Validate** (10 min). Cross-check claims.
 4. **Cross-review with another quad** (10 min). The reviewer asks: is each leading indicator measurable within 7 days?

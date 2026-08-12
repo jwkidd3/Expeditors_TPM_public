@@ -68,7 +68,7 @@ We'll consider this feature successful if [primary metric] moves
 ### Quad protocol
 
 1. **Pull from Tier Sheet** (10 min). Pick the primary metric, the counter, and 3 secondaries.
-2. **Set targets** (15 min). Concrete numbers, with a sentence of defense.
+2. **Set targets** (25 min). Concrete numbers, with a sentence of defense.
 3. **Validation plan** (10 min). The four-checkpoint cadence above.
 
 ### What "good" looks like
@@ -126,7 +126,7 @@ Each quad needs Sections 1–8 and the three-list template (Risks, Open question
 
 ### Quad protocol
 
-1. **Risks brainstorm** (15 min). Aim for 5 candidates. Cull to 3–4 with non-trivial impact.
+1. **Risks brainstorm** (25 min). Aim for 5 candidates. Cull to 3–4 with non-trivial impact.
 2. **Open questions** (10 min). Each member contributes; pool. 3–5 questions.
 3. **Assumptions** (10 min). Often the hardest section — what are we taking for granted?
 4. **Owner + by-when assignment** (5 min). Every open question and risk gets an owner and a deadline.
@@ -178,7 +178,7 @@ What this PRD acknowledges but won't ship:
 
 ### Quad protocol
 
-1. **Dependencies** (20 min). Brainstorm the dependency network. For each: owner, what, when, status.
+1. **Dependencies** (30 min). Brainstorm the dependency network. For each: owner, what, when, status.
 2. **Out-of-scope follow-ups** (15 min). Pull from Section 3 non-goals + Section 4 scope-out + anything that came up this week.
 3. **Status sanity check** (5 min). Have you confirmed any of these? If not, "Pending" is honest.
 
@@ -219,7 +219,7 @@ Each quad needs the full Sections 1–11 draft, the eight-item integration check
 
 ### Quad protocol
 
-1. **Solo read-through** (15 min). Each member reads the whole PRD top-to-bottom and marks issues in the margins.
+1. **Solo read-through** (25 min). Each member reads the whole PRD top-to-bottom and marks issues in the margins.
 2. **Pool issues** (10 min). What did each member catch? De-dupe.
 3. **Fix in priority order** (15 min). Coherence first, then prose.
 4. **Lock the version** (5 min). Mark the document **Status: In review**. Save a copy as "v0 — for Friday".

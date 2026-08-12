@@ -119,7 +119,7 @@ Each quad opens its chosen flow (FieldPulse mobile, web, or competitor). All thr
 ### Steps
 
 1. **Solo walk-through (10 min).** Each member captures 3+ findings independently.
-2. **Pool + score severity (15 min).** Consolidate findings; assign 1–5 severity per the guide.
+2. **Pool + score severity (25 min).** Consolidate findings; assign 1–5 severity per the guide.
 3. **Write up (10 min).** Fill the template — top 3 violations, top 3 strengths, A11y result, TPM lenses.
 4. **Question for design (5 min).** Name the one question that only the design team can answer.
 

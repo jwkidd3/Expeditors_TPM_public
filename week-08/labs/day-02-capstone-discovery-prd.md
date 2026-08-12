@@ -39,7 +39,7 @@ Compressed Week-1 work: ground in customer signal, name the persona, name the pa
 
 ### Quad protocol
 
-#### Step 1 — Synthesize what you know (10 min)
+#### Step 1 — Synthesize what you know (20 min)
 
 Each quad member shares the inputs they gathered. Pool into:
 
@@ -90,7 +90,7 @@ Draft sections 1–4 of the compressed PRD: context, problem, goals/non-goals, s
 
 The Week-3 discipline holds. AI accelerates drafting but does not replace judgment.
 
-#### Step 1 — Context + Problem (15 min)
+#### Step 1 — Context + Problem (25 min)
 
 Each quad member solo-drafts Section 1 and Section 2 first. Then quad picks the strongest.
 
@@ -141,7 +141,7 @@ Draft Section 5 solution sketch + Section 6 Acceptance Criteria + Section 7 NFRs
 
 The "engineer's first three questions" test from Week 3 still applies.
 
-#### Step 2 — Section 6 Acceptance Criteria (15 min)
+#### Step 2 — Section 6 Acceptance Criteria (25 min)
 
 6–8 ACs total. Coverage:
 

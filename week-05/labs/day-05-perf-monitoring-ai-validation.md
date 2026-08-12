@@ -154,7 +154,7 @@ Each quad needs the TCD Section 4 SLOs, the Week-2 Tier Sheet, and the baseline 
 
 1. **List the metrics that need baselines** (5 min). One per SLO + 2–3 op-signals from Tier Sheet.
 2. **For each, classify** (5 min). Existing-system baseline or expected-launch?
-3. **Capture the baseline value** (15 min). For existing: production number (real or assumed). For expected: the assumption + reasoning.
+3. **Capture the baseline value** (25 min). For existing: production number (real or assumed). For expected: the assumption + reasoning.
 4. **Set the "test at launch + N days" plan** (10 min). When will we check the baseline against reality?
 
 ### What "good" looks like
@@ -254,7 +254,7 @@ Each quad needs the cumulative AI provenance notes from Weeks 2, 4, and 5, the P
 
 ### Quad protocol
 
-1. **Inventory the AI uses** (15 min). List every AI-assisted output you used in any artifact: prompts from Weeks 2, 4, 5.
+1. **Inventory the AI uses** (25 min). List every AI-assisted output you used in any artifact: prompts from Weeks 2, 4, 5.
 2. **For each, capture the validation row** (15 min):
     - Summary purpose
     - Prompt link (Pattern Library entry)
@@ -300,7 +300,7 @@ Instructor confirms pairings. Each quad needs the full TMD Sections 1–5 draft 
 
 1. **Solo read-through** (10 min). Each member reads Sections 1–5 and marks coherence issues.
 2. **Pool issues** (5 min). De-dupe.
-3. **Cross-review** (20 min). Pair with another quad. Reviewer scores with the **Friday TMD rubric**:
+3. **Cross-review** (30 min). Pair with another quad. Reviewer scores with the **Friday TMD rubric**:
 
 | Dimension | Weight | What "exemplary" looks like |
 |-----------|--------|------------------------------|

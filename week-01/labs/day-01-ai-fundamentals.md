@@ -57,7 +57,7 @@ Each quad picks **one** question from the list below. Each quad member runs it o
 
 1. **Pick (5 min).** Quad selects one question from the bank above.
 2. **Run (10 min).** Each quad member runs the same question on a different tool.
-3. **Score (15 min).** Compare outputs across usefulness, verifiability, and risk-if-wrong using the rubric below.
+3. **Score (25 min).** Compare outputs across usefulness, verifiability, and risk-if-wrong using the rubric below.
 4. **Prepare readout (5 min).** Draft a one-line trust statement.
 
 ### Scoring rubric (each tool gets three 1–5 scores)
@@ -136,7 +136,7 @@ Your quad has a working AI assistant and the FieldPulse one-paragraph problem br
 
 ### Steps
 
-1. **Engineer hat (10 min).** Prompt: "Read this as a skeptical engineer scoping the work. What three questions will you ask first?"
+1. **Engineer hat (20 min).** Prompt: "Read this as a skeptical engineer scoping the work. What three questions will you ask first?"
 2. **Blocker-stakeholder hat (10 min).** Prompt: "Read this as the operations VP who most often blocks dispatcher-app launches here (she's worried about training load). What objection worries you most?"
 3. **Target-customer hat (10 min).** Prompt: "Read this as Maria, a 12-year HVAC dispatcher at a 90-tech shop. Where does this not ring true?"
 4. **Synthesize (10 min).** Pick one question per hat that is most uncomfortable; pick one that becomes the Day 3 research target.
@@ -160,7 +160,7 @@ Your quad has been collecting candidate prompts through Activities 2 and 3. You 
 ### Steps
 
 1. **Inventory (10 min).** Pull every candidate prompt the quad has used today.
-2. **Cull (15 min).** Keep the ones with a clear "when to use" and a known failure mode.
+2. **Cull (25 min).** Keep the ones with a clear "when to use" and a known failure mode.
 3. **Format (15 min).** Convert each to the schema below. Minimum four entries.
 4. **Star (5 min).** Pick the prompt the quad would actually reuse on Monday morning.
 

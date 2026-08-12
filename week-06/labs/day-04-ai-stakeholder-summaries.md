@@ -105,7 +105,7 @@ Format: 3 gaps, each with: gap / scenario / suggested research.
 
 1. **Identify the topic** (5 min). What's the negotiation about? (Pull from "5 most consequential asks" — Day 2.)
 2. **Run Prompt A** (10 min). Generate the prior-context summary.
-3. **Validate** (15 min). For each cited section: does it actually say what the AI claims? Same Wk 5 D5 discipline. Mark each: cross-checked / spot-checked / wrong → cut.
+3. **Validate** (25 min). For each cited section: does it actually say what the AI claims? Same Wk 5 D5 discipline. Mark each: cross-checked / spot-checked / wrong → cut.
 4. **Run Prompt B** (5 min). Capture the 3 gaps.
 
 ### Output
@@ -157,7 +157,7 @@ ground we give up?>
 
 1. **Run the AI prompt** (10 min). Capture 5 objections.
 2. **Validate** (10 min). Are these realistic for this stakeholder? Edit; some AI predictions will be wrong tonally or factually.
-3. **Write the response template** (15 min). Each objection gets honest response + pivot + line we hold.
+3. **Write the response template** (25 min). Each objection gets honest response + pivot + line we hold.
 4. **Identify the highest-stakes objection** (5 min). Which is most likely to derail tomorrow?
 
 ### What "good" looks like
@@ -214,7 +214,7 @@ The discipline:
 
 ### Quad protocol
 
-1. **Draft the opening** (15 min). Use the 4-part template.
+1. **Draft the opening** (25 min). Use the 4-part template.
 2. **Rehearse** (10 min). Read it aloud in the quad twice. Time it. If > 75 seconds, cut.
 3. **Identify non-negotiables** (10 min). 1–3 specific items.
 4. **Pick fallback for each** (5 min). What scope / time / approach would you give up to protect each non-negotiable?

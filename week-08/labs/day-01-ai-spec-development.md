@@ -183,7 +183,7 @@ Lock a defensible slice of the Holocron problem. The subject is fixed; what vari
 ### Quad protocol
 
 1. **Re-read the problem brief** (5 min). Compare it against the one-sentence problem you captured Friday.
-2. **The 5 scoping questions** (15 min):
+2. **The 5 scoping questions** (25 min):
     - **One-sentence problem?** Can you state it so an engineer could scope from it — not a restatement of the mandate?
     - **Who is it for first?** Have you named the primary user, and can you defend choosing them over the others in the brief?
     - **Substantive but bounded?** Rich enough to carry a real spec, small enough to finish in 4 days?
@@ -208,7 +208,7 @@ Internalize the AI Spec template by walking through it section-by-section using 
 ### Quad protocol
 
 1. **Read the AI Spec template** (5 min).
-2. **Walk each section** (30 min). For each of the 8 sections, identify:
+2. **Walk each section** (40 min). For each of the 8 sections, identify:
     - What input artifact does this synthesize?
     - What's likely to be missing if the input is thin?
     - What would an engineer expect here that we should make sure to include?
@@ -231,7 +231,7 @@ Practice the sequence on the FieldPulse artifact set (where the inputs are compl
 
 ### Quad protocol
 
-1. **Run Prompts 1–5 in sequence** (30 min). For each:
+1. **Run Prompts 1–5 in sequence** (40 min). For each:
     - Paste the relevant input
     - Capture the output
     - Validate (cross-check / spot-check / mark)
@@ -253,7 +253,7 @@ Plan the discovery work needed for tomorrow's compressed PRD. Distribute the wor
 
 ### Quad protocol
 
-1. **List discovery inputs needed** (10 min). For your capstone:
+1. **List discovery inputs needed** (20 min). For your capstone:
     - Customer signal — interviews, support data, public reviews
     - Strategic context — why this matters, what's been tried
     - System inputs — existing docs, codebase access, related artifacts

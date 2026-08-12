@@ -119,7 +119,7 @@ A well-formed SLO has **three parts**: a percentile, a measurement window, and a
 
 ### Quad protocol
 
-1. Triage all 8 (15 min). Identify failures. Mark "clean" if applicable.
+1. Triage all 8 (25 min). Identify failures. Mark "clean" if applicable.
 2. Rewrite the 5 worst (15 min) to pass the three checks: percentile + window + defense.
 3. Identify the one with the most subtle failure (5 min) — discuss in readout.
 
@@ -207,7 +207,7 @@ Each quad needs the Container diagram from Day 3, the latency-budget reference c
 
 ### Quad protocol
 
-1. **Annotate the Container diagram** (15 min). For each arrow, estimate (or research) the latency contribution. Use:
+1. **Annotate the Container diagram** (25 min). For each arrow, estimate (or research) the latency contribution. Use:
     - **Network hop**: 20–80ms LAN to internet RTT depending
     - **Database read** (indexed): 5–30ms
     - **Database write** (single-row): 10–50ms

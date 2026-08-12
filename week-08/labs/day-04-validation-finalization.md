@@ -132,7 +132,7 @@ Hypothesis / test / success criterion for one queue.
 
 ### Quad protocol
 
-1. **SEP-light** (20 min):
+1. **SEP-light** (30 min):
     - 5 min: 3 stakeholders + RACI for the most consequential decision
     - 10 min: 1 trade-off brief (pull from TCD-light Section 5)
     - 5 min: 1 simulated negotiation outcome
@@ -177,7 +177,7 @@ For every cross-artifact reference, confirm:
 
 ### Quad protocol
 
-1. **Solo read-through** (15 min). Each member reads all 6 documents.
+1. **Solo read-through** (25 min). Each member reads all 6 documents.
 2. **Pool issues** (10 min).
 3. **Fix in priority order** (15 min): coherence first, prose second.
 
@@ -213,7 +213,7 @@ Plus 5 min Q&A.
 ### Quad protocol
 
 1. **Decide who speaks** (5 min). All 3 quad members on stage; assign sections.
-2. **Run-through #1 with timer** (15 min). One pass; nobody interrupts.
+2. **Run-through #1 with timer** (25 min). One pass; nobody interrupts.
 3. **Capture what didn't work** (10 min). Where did the timer break? Where did a section drag?
 4. **Run-through #2** (15 min). Apply fixes. Time again.
 

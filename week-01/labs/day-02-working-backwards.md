@@ -34,7 +34,7 @@ Your quad has the four vignettes below (also available as the handout `week-01/h
 
 ### Steps
 
-1. **Read (10 min).** Each quad member reads all four vignettes silently.
+1. **Read (25 min).** Each quad member reads all four vignettes silently.
 2. **Sort (5 min).** Tag each vignette: forward, backward, or ambiguous.
 3. **Discuss (10 min).** For each: what's the one question that, if asked earlier, would have changed the outcome?
 4. **Full-room debrief (5 min).** Cohort-wide discussion of vignettes C and D.
@@ -111,7 +111,7 @@ Your quad has its chosen heading/sub-headline from Activity 2. Use the PR templa
 ### Steps
 
 1. **Plan (10 min).** Map the heading/sub-heading to the rest of the template; identify the riskiest section.
-2. **Draft (25 min).** Fill the template — Summary, Problem, Solution, Customer quote, both FAQs.
+2. **Draft (30 min).** Fill the template — Summary, Problem, Solution, Customer quote, both FAQs.
 3. **Self-review (10 min).** Read aloud within the quad; tag every claim with an evidence tier.
 
 ### Template

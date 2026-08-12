@@ -118,7 +118,7 @@ Your quad has 5–8 promoted pains and the printed 3×3 Severity × Frequency ma
 
 ### Steps
 
-1. Place each promoted pain on the Severity × Frequency matrix (20 min)
+1. Place each promoted pain on the Severity × Frequency matrix (25 min)
 2. Color-code by Addressability: green (fully our product), amber (partial), red (out of scope) (10 min)
 3. For each **red "Must fix"** pain (high sev + high freq + low addr), draft two sentences (10 min):
    - *Why we cannot solve this.*

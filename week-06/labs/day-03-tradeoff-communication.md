@@ -109,7 +109,7 @@ For each, the quad writes the business-framing version targeting a specific stak
 ### Quad protocol
 
 1. **Pick 3 of the 6** (5 min). Mix of stakeholders.
-2. **Translate each** (20 min) using the audience's currency.
+2. **Translate each** (30 min) using the audience's currency.
 3. **Critique the translations** (10 min). For each: would the stakeholder act on this brief? Would they have follow-up questions? What's missing?
 
 ### Readout (60 sec per quad)
@@ -133,7 +133,7 @@ Pick one of your TCD Section 5 trade-offs (or a TMD trade-off) AND one stakehold
     - The stakeholder you'd brief has **power to approve or block**
     - Trade-off has a **non-obvious cost** that needs explaining
 3. **Pick the stakeholder** (10 min). Pull from SEP Section 1. Ideally a **high-power** stakeholder (HI or LI quadrant).
-4. **Predict 5 questions they'll ask** (15 min). Their first 5 questions; rank by likelihood.
+4. **Predict 5 questions they'll ask** (25 min). Their first 5 questions; rank by likelihood.
 
 ### What "good" looks like
 
@@ -162,7 +162,7 @@ Draft the brief. The 1-page constraint is hard.
 ### Quad protocol
 
 1. **Write "the decision" sentence** (5 min). One sentence. If it requires two, the trade-off isn't sharp enough.
-2. **Write "why this matters to you"** (10 min). 1–2 sentences in their currency. Run through the predicted 5 questions to make sure this answers their #1.
+2. **Write "why this matters to you"** (20 min). 1–2 sentences in their currency. Run through the predicted 5 questions to make sure this answers their #1.
 3. **Write "the choice"** (10 min). 2–3 bullets each: what we're doing / not doing / cost.
 4. **Write "what would change our mind"** (5 min). One concrete trigger.
 5. **Write "what we need from you"** (5 min). Checkboxes; specific.

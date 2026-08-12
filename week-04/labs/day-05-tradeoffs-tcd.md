@@ -72,7 +72,7 @@ A well-written Section 5 covers **multiple categories**. A Section 5 with 5 trad
 
 ### Quad protocol
 
-1. **Brainstorm 8–10 candidate trade-offs** (15 min). Pull from Sections 1–4. Look for places where your TCD said "we chose X" — for each, what was the alternative?
+1. **Brainstorm 8–10 candidate trade-offs** (25 min). Pull from Sections 1–4. Look for places where your TCD said "we chose X" — for each, what was the alternative?
 2. **Categorize each** (5 min). Which of the 5 categories?
 3. **Cull to 5 finalists** (10 min). Pick the trade-offs that are most consequential — the ones a senior architect would interrogate.
 4. **Rough out the structure** (5 min). For each, jot Option A / Option B / Choice / Accepted cost / Revisit trigger.
@@ -147,7 +147,7 @@ Each quad needs the trade-off sketches from Activity 1 and the Section 5 templat
 
 ### Quad protocol
 
-1. **Solo drafts** (15 min). Each member drafts 2 of the 5 final trade-offs.
+1. **Solo drafts** (25 min). Each member drafts 2 of the 5 final trade-offs.
 2. **Pool and refine** (15 min). The quad polishes each — clarity, specificity.
 3. **Consistency check** (10 min). Do the trade-offs **contradict** each other? If yes, that's a finding — surface it.
 
@@ -191,7 +191,7 @@ Each quad needs TCD Sections 1–5 from this week, PRD Section 10 (Dependencies)
 
 ### Quad protocol
 
-1. **List every constraint that needs sign-off** (15 min). Walk through TCD Sections 1–5; for each load-bearing decision, who has to agree?
+1. **List every constraint that needs sign-off** (25 min). Walk through TCD Sections 1–5; for each load-bearing decision, who has to agree?
 2. **Assign a real person** (10 min). Use names from PRD Section 10 + anyone new. "TBD" is not allowed.
 3. **Set the next step** (10 min). For each Proposed: how will the conversation happen?
 4. **Status sanity check** (5 min). Honest status — most should be Proposed.

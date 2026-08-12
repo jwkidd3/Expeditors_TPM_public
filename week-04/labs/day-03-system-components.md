@@ -109,7 +109,7 @@ Each quad needs whiteboard or large paper, markers, and the integration table fr
 
 1. **List people** (5 min). All roles that interact with the feature. Include indirect roles (e.g., the Operations VP who reviews reconciles).
 2. **List external systems** (5 min). Pull from the integration table. If you find new ones today, add them to the table now.
-3. **Draw it on a whiteboard or paper** (15 min). One central box ("the system"); people on the left; external systems on the right or below. Label each arrow with the intent.
+3. **Draw it on a whiteboard or paper** (25 min). One central box ("the system"); people on the left; external systems on the right or below. Label each arrow with the intent.
 4. **Add the legend** (5 min). Don't skip it.
 5. **The 60-second test** (5 min). One member walks an "outsider" (another quad) through the diagram in 60 seconds.
 
@@ -139,7 +139,7 @@ Each quad needs the Context diagram from Activity 1, the architecture stance fro
 ### Quad protocol
 
 1. **List containers** (10 min). For each, name what it is, what tech stack (rough — "Spring Boot", "iOS native", "Postgres", not framework-version detail), and who owns it.
-2. **Draw the diagram** (15 min). Containers as boxes; arrows with protocol labels.
+2. **Draw the diagram** (25 min). Containers as boxes; arrows with protocol labels.
 3. **Annotate the modular split** (10 min). If the architecture stance from Day 1 was "modular monolith", draw the modules **inside** the monolith container as labeled sub-boxes. Don't promote them to standalone containers.
 4. **The 90-second test** (5 min). One member walks another quad through the diagram, including: which containers we own, which we depend on, which arrows are sync vs async.
 
@@ -206,7 +206,7 @@ The reviewer quad reads the diagram with these three lenses:
 ### Quad-pair protocol
 
 1. **Swap diagrams** (5 min). Spend 5 min reading the other quad's diagrams.
-2. **Failure trace** (10 min). Pick one failure scenario; walk the diagram aloud. The author quad listens.
+2. **Failure trace** (20 min). Pick one failure scenario; walk the diagram aloud. The author quad listens.
 3. **Trust boundary mark-up** (10 min). Reviewer marks where data crosses out of the author's control.
 4. **Evolvability question** (10 min). Reviewer asks "if you were to split X into a new service, which arrows would change?"
 5. **Author updates** (5 min). Authors annotate their diagram with the findings.
@@ -265,7 +265,7 @@ Format: 5 numbered questions, each with the concern behind it.
 
 ### Quad protocol
 
-1. **Run Prompt A** (10 min). Capture top 3 issues.
+1. **Run Prompt A** (20 min). Capture top 3 issues.
 2. **Decide which to address in the diagram** (10 min). Adopt / defer / reject — same Week 3 discipline.
 3. **Run Prompt B** (10 min). Capture stakeholder questions.
 4. **Update the diagrams** (10 min). Final polish, including legend, trust boundaries, and key annotations.

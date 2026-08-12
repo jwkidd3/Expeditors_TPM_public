@@ -724,11 +724,11 @@ The most common rookie mistake is reverse: design the schema, then realize queri
 <p>List every read and write the feature needs. Capture data, frequency, freshness requirement.</p>
 <ul>
 <li>5 min: re-read Product Requirements Document (PRD) Section 5</li>
-<li>15 min: list reads (data, filter, freshness)</li>
+<li>25 min: list reads (data, filter, freshness)</li>
 <li>10 min: list writes (entity, invariants, concurrency)</li>
 <li>5 min: highlight 1–2 highest-volume reads</li>
 </ul>
-<div class="timebox">⏱ 5 + 15 + 10 + 5</div>
+<div class="timebox">⏱ 5 + 25 + 10 + 5</div>
 
 Note:
 "Real-time" freshness is rare in B2B. Force quads to defend "real-time" claims.
@@ -817,11 +817,11 @@ Note signature_hash + R-threat reference — TCD Section 3 (Day 2 of Week 4) STR
 <p>List entities. For each, draft fields, indexes, relationships, invariants.</p>
 <ul>
 <li>10 min: list entities (new + existing)</li>
-<li>15 min: draft fields per new entity</li>
+<li>25 min: draft fields per new entity</li>
 <li>10 min: indexes (referencing patterns)</li>
 <li>5 min: relationships + cardinalities</li>
 </ul>
-<div class="timebox">⏱ 10 + 15 + 10 + 5</div>
+<div class="timebox">⏱ 10 + 25 + 10 + 5</div>
 
 Note:
 No surprise columns. Every field has a query that uses it.
@@ -884,11 +884,11 @@ Note the "what we deliberately can't do efficiently" framing — that's the seni
 <h2>👥 Activity 3 — Storage Trade-Offs</h2>
 <h3>Quads • 50 minutes</h3>
 <ul>
-<li>15 min: identify 3 trade-off points in your model</li>
+<li>25 min: identify 3 trade-off points in your model</li>
 <li>15 min: write each (Option A/B/Choice/Why/Cost/Trigger)</li>
 <li>10 min: cross-check against Technical Concept Document (TCD) Section 4 Service Level Objectives (SLOs)</li>
 </ul>
-<div class="timebox">⏱ 15 + 15 + 10</div>
+<div class="timebox">⏱ 25 + 15 + 10</div>
 
 Note:
 At least one trade-off should reference a TCD SLO.
@@ -938,9 +938,9 @@ Both prompts go in the Pattern Library.
 <li>10 min: Prompt A → 3 issues</li>
 <li>10 min: adopt / defer / reject</li>
 <li>10 min: Prompt B → forgotten queries</li>
-<li>15 min: update Section 1 + provenance + AI-prose check</li>
+<li>25 min: update Section 1 + provenance + AI-prose check</li>
 </ul>
-<div class="timebox">⏱ 10 + 10 + 10 + 15 · 15-min wrap</div>
+<div class="timebox">⏱ 10 + 10 + 10 + 25 · 15-min wrap</div>
 
 Note:
 Wrap-share: each quad names 1 trade-off, 1 AI-surfaced query, 1 question for the architect.

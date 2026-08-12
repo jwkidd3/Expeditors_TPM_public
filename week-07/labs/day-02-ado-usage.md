@@ -109,7 +109,7 @@ Tags: <release tag, persona tag>
 
 For FieldPulse: "Reconcile flow (mobile)".
 
-#### Step 3 — Generate User Stories (15 min)
+#### Step 3 — Generate User Stories (25 min)
 
 For each PRD Section 6 Acceptance Criterion (or related cluster), draft a User Story:
 
@@ -149,7 +149,7 @@ Populate fields on every work item. Add Tasks under each User Story.
 
 ### Quad protocol
 
-#### Step 1 — Field pass on every work item (15 min)
+#### Step 1 — Field pass on every work item (25 min)
 
 For each Epic / Feature / User Story:
 
@@ -258,7 +258,7 @@ Used: monthly; ensures NFRs aren't being deferred indefinitely.
 
 ### Quad protocol
 
-1. **Build all 5 queries** in ADO (15 min). Save them in a shared folder.
+1. **Build all 5 queries** in ADO (25 min). Save them in a shared folder.
 2. **Set up the sprint board** (10 min). Configure columns: To Do / In Progress / In Review / Done. Add WIP limits where appropriate (e.g., max 3 In Progress per developer).
 3. **Set up the Kanban board** for the Feature (10 min). Same columns; this view is for the whole feature, not just one sprint.
 4. **The "what would I check daily?"** (5 min). Each member identifies the one query they'd run every morning. Discuss; converge.
@@ -324,7 +324,7 @@ Validation discipline: same as Week 5 Day 5. Cross-check the AI's claims against
 
 ### Quad protocol
 
-1. **Walk the three charts** (15 min). For each, identify what your team would look for.
+1. **Walk the three charts** (25 min). For each, identify what your team would look for.
 2. **Run the AI standup-prep prompt** (10 min). Use yesterday's ADO state (or a synthetic example).
 3. **Validate the output** (10 min). What's wrong? What's right? What's missing?
 4. **Document in DP Section 2** (10 min). The 5 queries, the board configuration, the AI-aid pattern — all referenced.

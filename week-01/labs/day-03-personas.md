@@ -46,7 +46,7 @@ Your quad has the three provided personas below (also available as the handout `
 
 ### Steps
 
-1. **Mark up (15 min).** For each persona, highlight every claim as behavioral, demographic, or adjectival; circle the ones that would change a product decision.
+1. **Mark up (30 min).** For each persona, highlight every claim as behavioral, demographic, or adjectival; circle the ones that would change a product decision.
 2. **Rewrite (10 min).** Rewrite the weakest persona using the strongest one's evidence-tagged form.
 3. **Debrief (5 min).** Full-room: which persona changes the most decisions, and why?
 

@@ -89,7 +89,7 @@ Compressed Week-4 work in 45 minutes. Architecture stance + integration + threat
 
 ### Quad protocol
 
-1. **Architecture stance** (10 min). 1 paragraph applying the three-question frame (deploy / failure / scale).
+1. **Architecture stance** (15 min). 1 paragraph applying the three-question frame (deploy / failure / scale).
 2. **Integration map** (10 min). Pull from PRD-light Section 10 (deps) + sketch from Day 2. Sync/async + R/W + failure handling.
 3. **Threat model summary** (10 min). 3 STRIDE-flagged threats. Apply walk-the-data-flow frame.
 4. **SLOs** (5 min). 1 each of latency / availability / rate-limit. Target + defense.
@@ -114,7 +114,7 @@ Compressed Week-5 work in 50 minutes. Data + cloud + API + sequence + monitoring
 
 ### Quad protocol
 
-1. **Data model** (10 min). 3–5 entities with PK + key indexes + relationships. 1 storage trade-off (often: normalize vs denormalize).
+1. **Data model** (20 min). 3–5 entities with PK + key indexes + relationships. 1 storage trade-off (often: normalize vs denormalize).
 2. **Cloud topology** (10 min). Region / managed vs self / tenancy / network. ROM cost — even rough.
 3. **API contract** (10 min). 3–5 endpoints. Method + path + status codes + idempotency approach.
 4. **Sequence** (5 min). Happy path narrative + 1 sad + 1 weird with **named invariant**.
@@ -141,11 +141,11 @@ Apply the Day-1-rehearsed sequence to the Holocron capstone.
 
 Same 5 prompts as Day 1, with capstone inputs this time:
 
-1. **Prompt 1 — Headline + summary** (8 min). Inputs: PRD-light Sections 1–5, TCD-light Section 1, TMD-light Section 3.
-2. **Prompt 2 — Data + API synthesis** (8 min). Inputs: TMD-light Section 1 + Section 3.
-3. **Prompt 3 — Sequence + failure** (8 min). Inputs: TMD-light Section 4.
-4. **Prompt 4 — Constraints** (8 min). Inputs: TCD-light Section 3 + Section 4 + PRD-light Section 7.
-5. **Prompt 5 — Decisions + stakeholders** (8 min). Inputs: TCD-light Section 5 + Section 6.
+1. **Prompt 1 — Headline + summary** (10 min). Inputs: PRD-light Sections 1–5, TCD-light Section 1, TMD-light Section 3.
+2. **Prompt 2 — Data + API synthesis** (10 min). Inputs: TMD-light Section 1 + Section 3.
+3. **Prompt 3 — Sequence + failure** (10 min). Inputs: TMD-light Section 4.
+4. **Prompt 4 — Constraints** (10 min). Inputs: TCD-light Section 3 + Section 4 + PRD-light Section 7.
+5. **Prompt 5 — Decisions + stakeholders** (10 min). Inputs: TCD-light Section 5 + Section 6.
 
 ### Validation discipline (between every prompt)
 

@@ -77,7 +77,7 @@ Each quad gets a small "warm-up pack": **2 interview transcripts + 4 tickets** (
     - Did the AI cite real sources or invent them?
     - Did themes get over-generalized into mush?
     - Are any themes missing that you spotted yourself reading?
-3. **Iterate the prompt** (15 min). Add one constraint per failure mode. Re-run. Compare.
+3. **Iterate the prompt** (25 min). Add one constraint per failure mode. Re-run. Compare.
 
 ### Deliverable
 
@@ -102,7 +102,7 @@ Each quad has its iterated prompt from Activity 1, the FieldPulse Research Pack,
     - Context (what problem you're investigating)
     - Constraints (must cite source material; flag inferred themes)
     - Format (theme / evidence / confidence / AI-flag)
-2. **Run** (15 min). Feed the Research Pack chunks into the AI. Note: most tools have a context limit — split the pack into 2–3 calls.
+2. **Run** (25 min). Feed the Research Pack chunks into the AI. Note: most tools have a context limit — split the pack into 2–3 calls.
 3. **Cross-validate** (15 min). Each member takes a different theme and verifies *every* citation against the source. Mark any that fail.
 4. **Edit** (5 min). Cut themes with failed citations. Lower confidence on inferred themes.
 
@@ -182,7 +182,7 @@ Each quad has all the day's outputs visible: warm-up diagnosis, 5 pain themes, C
 
 ### Quad protocol
 
-1. **Hand-write the executive summary** (15 min). 5 bullets max. The AI cannot do this — it doesn't know what your audience cares about.
+1. **Hand-write the executive summary** (25 min). 5 bullets max. The AI cannot do this — it doesn't know what your audience cares about.
 2. **Hand-write the strategy implications** (10 min). What does the NS imply for these themes? Which design principle most directly addresses each?
 3. **Complete the provenance log** (10 min). For every AI-generated section:
     - Which prompts (link to Pattern Library)

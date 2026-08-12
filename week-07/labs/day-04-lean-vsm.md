@@ -74,7 +74,7 @@ List the steps in the quad's feature delivery stream, before measuring or estima
 
 ### Quad protocol
 
-1. **Walk the stream from idea to value-realized** (15 min). For each step:
+1. **Walk the stream from idea to value-realized** (25 min). For each step:
     - What happens here?
     - Who does it?
     - What's the input? What's the output?
@@ -161,7 +161,7 @@ Find where the time hides. Rank queues by impact.
 
 1. **Sum the queue times** across the stream (5 min). If you're spending 6 weeks total and only 2–3 days of actual work, where are the other 5+ weeks?
 2. **Identify the top 3 queues** (10 min). The longest waits.
-3. **Investigate each** (15 min). For each:
+3. **Investigate each** (25 min). For each:
     - **Why does this queue exist?** (capacity, policy, inertia, hidden dependency)
     - **What would shrink it?** (more capacity, different policy, parallel work, dependency removal)
     - **Cost of shrinking it?** (people-time, money, organizational change)
@@ -217,7 +217,7 @@ For a feature delivery, this is one page (whiteboard or paper). The visual makes
 
 ### Quad protocol
 
-1. **Draw the VSM** (20 min). On a whiteboard or large paper. Use the canvas above.
+1. **Draw the VSM** (30 min). On a whiteboard or large paper. Use the canvas above.
 2. **Run the AI critique** (10 min):
 
 ```
