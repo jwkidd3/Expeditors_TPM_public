@@ -756,6 +756,52 @@ The hostile question test catches under-prepared briefs.
 
 ---
 
+<h2>📚 Decision-Shaped — or Not?</h2>
+<table>
+<tr><th>A real call ✅</th><th>Not a decision ❌</th></tr>
+<tr><td>"Accept a 10-sec audit lag to keep writes async?"</td><td>"We should have good performance"</td></tr>
+<tr><td>"Modular monolith, or a new service?"</td><td>"Let's follow best practices"</td></tr>
+<tr><td>"Active-passive or active-active across regions?"</td><td>"Make it reliable"</td></tr>
+</table>
+<div class="highlight-box warning">
+If the stakeholder can't say <strong>yes or no</strong> to it, it's not a trade-off brief — it's a status update. Pick the one with a real call and a non-obvious cost.
+</div>
+
+Note:
+The #1 failure mode is picking a "trade-off" that isn't a decision — nobody can approve or block it, so the brief has no purpose. Push quads to phrase their pick as a yes/no question.
+
+---
+
+<h2>🎯 Right Call → Right Person</h2>
+<p>Pull the stakeholder from your <strong>SEP Section 1</strong> map. Match the <em>kind</em> of call to whoever owns it — and aim for a <strong>high-power</strong> quadrant (they can actually approve or block).</p>
+<table>
+<tr><th>Trade-off</th><th>Who owns the call</th></tr>
+<tr><td>Async audit write (10-sec lag)</td><td>Compliance Lead</td></tr>
+<tr><td>Modular monolith vs. new service</td><td>Architect</td></tr>
+<tr><td>Denormalize <code>ticket_ids</code></td><td>Eng Director</td></tr>
+<tr><td>Active-passive vs. active-active</td><td>CFO + Architect</td></tr>
+</table>
+
+Note:
+These are the FieldPulse pairings from the lab. The point: a trade-off pitched to someone without authority is wasted effort. Cost-shaped calls go to the CFO; architectural posture goes to the Architect; risk/compliance goes to Compliance.
+
+---
+
+<h2>🤝 Predict Their First 5 Questions</h2>
+<ul>
+<li><strong>Rank by likelihood</strong> — what do they ask <em>first</em>, not eventually?</li>
+<li><strong>Speak their currency</strong> — the CFO asks "what's the dollar number?"; Compliance asks "what's our exposure?"</li>
+<li><strong>At least one hostile</strong> — if all 5 are friendly, you haven't stress-tested the brief.</li>
+</ul>
+<div class="highlight-box success">
+<strong>Worked example — CFO on active-active:</strong> "What does it cost per year?" · "What actually breaks if we stay active-passive?" · "Who else is asking for this?" · "What's the revenue at risk?" · "Can we defer it a quarter?"
+</div>
+
+Note:
+Predicting questions is the rehearsal. The hostile-question rule is the forcing function — it's what separates a brief that survives the room from one that folds at the first pushback.
+
+---
+
 <!-- .slide: data-background="linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%)" class="lab-callout" -->
 
 <h2>👥 Activity 2 — Pick + Predict</h2>
