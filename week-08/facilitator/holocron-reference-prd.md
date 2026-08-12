@@ -38,7 +38,7 @@ UI text across the enterprise is managed in fragmented, often hardcoded patterns
 
 ## Solution Overview
 
-Holocron is a centralized string management wherein content changes do not require code deployments to consuming applications. All text is authored and governed in one place service providing:
+Holocron is a centralized string-management platform: content changes no longer require code deployments to consuming applications. All text is authored and governed in one place. The platform provides:
 
 - Management Application — A web-based interface for content owners, legal/compliance reviewers, and administrators to create, edit, govern, and monitor strings
 
@@ -1094,7 +1094,7 @@ Holocron is a centralized string management wherein content changes do not requi
 | DEP-002 | Translation service partner selection | CS17, CS16-FR-001 (format decision) — BLOCKING: export cannot be delivered without this decision | Anna Woods + stakeholders |
 | DEP-003 | Architecture decision: namespaced key model and segment depth | CS3-FR-006 (cannot change after strings are entered) | Architecture team |
 | DEP-004 | Architecture decision: string delivery mechanism design | CS7, CS7-FR-001–005 | Nick Grant + engineering |
-| DEP-005 | RTL language scope decision | HLC-FR-017 \[unresolved — no matching requirement found in source\] | Architecture + product stakeholders |
+| DEP-005 | RTL language scope decision | CS15 (Translation Lifecycle) + Appendix A (RTL locales) | Architecture + product stakeholders |
 | DEP-006 | AKS namespace and database provisioning | Delivery | Infrastructure |
 | DEP-007 | MDM/RDM coordination | Alias governance model | Anna Woods + MDM/RDM team |
 | DEP-008 | Legal/compliance: audit trail retention period | CS5-FR-006 | Legal/Compliance |
@@ -1113,7 +1113,7 @@ Holocron is a centralized string management wherein content changes do not requi
 | In-system access for external translation vendors | External vendors interact via export/import exchange only. No in-system vendor login is in scope. |
 | A/B testing and regional string variants | Deferred to a future phase. |
 | Component string ripple/pin behavior | Deferred to a future phase. |
-| Review via emailed link (approver UX) | Planned future capability referenced in CS12-FR-002. Not in scope for initial delivery. |
+| Review via emailed link (approver UX) | Planned future capability; in-app review decisions (CS12) ship first. Not in scope for initial delivery. |
 | MDM/RDM operating model ownership | Post-POC ownership transition is a program-level decision; not a product requirement. |
 
 ## Appendices
@@ -1333,6 +1333,6 @@ Note: AI has recommended using industry-standard libraries and practices by leve
 </tbody>
 </table>
 
-### Appendix F – Export file options
+### Appendix E — Export file options
 
 The approved format strategy (single canonical format vs approved format set, such as XLIFF and/or versioned JSON) is a discovery decision to be confirmed with translation service stakeholders before delivery.

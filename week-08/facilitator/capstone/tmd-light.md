@@ -11,7 +11,7 @@ PostgreSQL is the system of record. Keys and versions are **immutable** — an e
 | Entity | PK | Key FKs | Immutable? | Notable columns |
 |---|---|---|---|---|
 | **Product** | `product_id` | — | root mutable | `app_identifier` (unique namespace root), `target_languages[]`, `retired_at` |
-| **SourceString** | `string_id` | `product_id` → Product | key is immutable | `namespace_key` (immutable, unique per product), `do_not_translate`, `lifecycle_status` (Draft/Published/Retired) |
+| **SourceString** | `string_id` | `product_id` → Product | key is immutable | `namespace_key` (immutable, unique per product), `do_not_translate`, `criticality` (`normal` \| `critical/legal`), `lifecycle_status` (Draft/Published/Retired) |
 | **SourceStringVersion** | `src_version_id` | `string_id` → SourceString | **yes** | `version_no`, `en_us_content`, `placeholder_meta jsonb`, `actor_id`, `created_at` |
 | **TranslationVariant** | `variant_id` | `string_id` → SourceString | container mutable | `locale`, `translation_state` (Not Translated…Outdated), `published_selection_id` → PublicationSelection |
 | **TranslationVersion** | `tr_version_id` | `variant_id` → TranslationVariant; `src_version_ref` → SourceStringVersion | **yes** | `version_no`, `content`, `actor_id`, `created_at` |
@@ -48,8 +48,11 @@ PostgreSQL is the system of record. Keys and versions are **immutable** — an e
 | Method | Path | Auth | Status codes | Idempotency |
 |---|---|---|---|---|
 | GET | `/v1/products/{productId}/namespaces/{namespace}?locale=…` | Entra ID bearer | 200 / 401 / 403 / 404 / 429 | pure read; safe/repeatable |
-| POST | `/v1/products/{productId}/strings` | Entra bearer (Content Owner scope) | 201 / 400 / 401 / 403 / 409 | `Idempotency-Key` header; duplicate key OR replayed idem-key → 409 |
-| POST | `/v1/strings/{stringId}/reviews` | Entra bearer (Content Owner scope) | 201 / 400 / 401 / 403 / 409 | one open request per (version, type) — repeat returns existing 409 |
+| POST | `/v1/products/{productId}/namespaces/{namespace}/strings` | Entra bearer (Content Owner) | 201 / 400 / 401 / 403 / 409 | `Idempotency-Key` header; duplicate namespaced key OR replayed idem-key → 409 |
+| POST | `…/strings/{key}/versions` | Entra bearer (Content Owner) | 201 / 400 / 401 / 403 / 409 | edit = new immutable version; `Idempotency-Key` guards replays |
+| POST | `…/strings/{key}/review-requests` | Entra bearer (Content Owner) | 201 / 400 / 401 / 403 / 409 | one open request per (version, type) — repeat returns existing 409 |
+| PATCH | `…/review-requests/{id}` `{ "state":"complete" }` | Entra bearer (Reviewer) | 200 / 400 / 401 / 403 / 404 | idempotent state transition |
+| POST | `…/strings/{key}/publish` | Entra bearer (Content Owner / Holocron Admin) | 200 / 400 / 401 / 403 / 409 | writes PublicationSelection + AuditEntry in one tx; a `critical/legal` string requires a completed compliance review (else **409**) and triggers synchronous cache invalidation (<5s) |
 
 **Delivery GET — full contract.** Returns only **Published** content for the namespace prefix, resolved for the requested locale:
 
@@ -112,7 +115,7 @@ DELIVERY FETCH (consuming app, p95 ≤ 200ms)
 
 ## 5. Performance baseline + monitoring
 
-**Baselines (3):** delivery fetch **p95 ≤ 200ms / p99 ≤ 500ms**; delivery availability **99.9%** (management app 99.5%); publish→delivery propagation **≤ 60s**.
+**Baselines (3):** delivery fetch **p95 ≤ 200ms / p99 ≤ 500ms**; delivery availability **99.9%** (management app 99.5%); publish→delivery propagation **≤ 60s** for normal strings, **< 5s** for `critical/legal`-flagged strings (synchronous invalidation, per SEP §3).
 
 **Monitoring plan — one alert per SLO (Azure Monitor):**
 
@@ -121,7 +124,7 @@ DELIVERY FETCH (consuming app, p95 ≤ 200ms)
 | Delivery latency | APIM/AKS request-duration histogram | p95 > 200ms **or** p99 > 500ms over 5 min |
 | Delivery availability | APIM 5xx / total, synthetic probe on GET | success rate < 99.9% over rolling 30 min |
 | Management availability | AKS mgmt-API health probe | success rate < 99.5% over 30 min |
-| Propagation ≤60s | timestamp delta: publish AuditEntry (Event Hubs) → first cache-repopulated read | p95 delta > 60s |
+| Propagation | timestamp delta: publish AuditEntry (Event Hubs) → first cache-repopulated read | normal p95 delta > 60s; `critical/legal` delta > 5s (tighter alert) |
 | Rate limiting | APIM 429 count per consumer | sustained 429s → notify (possible misconfig, not an incident) |
 
 **Leading indicator (measurable within 7 days):** **Redis cache-hit ratio** on the delivery path. A falling hit ratio predicts rising p95 *before* the latency alert fires — it's the early warning that invalidation is too aggressive or a hot namespace is thrashing. Dashboard it alongside p95 so the correlation is visible day-one.

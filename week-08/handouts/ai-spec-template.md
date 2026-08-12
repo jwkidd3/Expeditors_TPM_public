@@ -32,7 +32,7 @@ Synthesizes: TCD Section 3 + TCD Section 4 + PRD Section 7.
 Top trade-offs (TCD Section 5) + open questions still requiring decision.
 
 ## 7. Stakeholders + sign-off
-Who must sign off on what. From SEP Section 1 + TCD Section 6.
+Who must sign off on what. From TCD Section 6 (sign-off matrix) for the Day-3 v1; enrich with SEP Section 1 on the Day-4 pass, once SEP-light exists.
 
 ## 8. Provenance log
 Every AI prompt + validation status.
@@ -50,7 +50,7 @@ Every AI prompt + validation status.
 | 4. Sequence + failure handling | TMD Section 4 |
 | 5. Constraints | TCD Section 3 + TCD Section 4 + PRD Section 7 |
 | 6. Decisions made (and not made) | TCD Section 5 + open questions |
-| 7. Stakeholders + sign-off | SEP Section 1 + TCD Section 6 |
+| 7. Stakeholders + sign-off | TCD Section 6 (v1); + SEP Section 1 on the Day-4 pass |
 | 8. Provenance log | every prompt + its validation status |
 
 ### The bar to clear

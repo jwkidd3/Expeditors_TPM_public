@@ -38,7 +38,7 @@ Holocron gives content owners across 150+ countries a single governed place to c
 | Review Request | Links a version to a reviewer; states request → complete; optional by default. |
 | Publication Selection | Per locale at publish: `approved \| previous \| en-US fallback`. |
 | AuditEntry | **Immutable**, one per mutating op; actor from Entra ID token; streamed to Event Hubs → Blob. |
-| User | Microsoft Entra ID identity, role-scoped (viewer / editor / reviewer / admin), product-scoped. |
+| User | Microsoft Entra ID identity, role-scoped (Authenticated Employee / Content Owner / Reviewer / Review Admin / Holocron Admin — PRD §7), product-scoped. |
 
 **Delivery endpoint (TMD §3) — the read contract 20–30+ apps depend on.**
 
@@ -60,21 +60,24 @@ Authorization: Bearer <Entra ID token>
 
 ```
 POST /v1/products/{productId}/namespaces/{namespace}/strings
-     → create a Source String (+ first Source String Version)   [role: editor]
+     → create a Source String (+ first Source String Version)   [role: Content Owner]
 
 POST /v1/.../strings/{key}/versions
-     → add a Source String Version (edit = new immutable version) [role: editor]
+     → add a Source String Version (edit = new immutable version) [role: Content Owner]
 
 POST /v1/.../strings/{key}/review-requests
-     → request review of a version                               [role: editor]
+     → request review of a version                               [role: Content Owner]
 PATCH /v1/.../review-requests/{id}  { "state": "complete" }
-     → complete a review                                         [role: reviewer]
+     → complete a review                                         [role: Reviewer]
 
 POST /v1/.../strings/{key}/publish
      { "locale": "...", "selection": "approved|previous|en-US" }
      → publish; writes Publication Selection + AuditEntry in one tx.
-       Publishing without a completed review is allowed by default
-       but records an audited publish-time override.             [role: editor/admin]
+       normal strings: publishing without a completed review is
+       allowed by default but records an audited publish-time override.
+       critical/legal strings: a completed compliance review is
+       REQUIRED (else 409) and publish invalidates the cache
+       synchronously (<5s).                    [role: Content Owner / Holocron Admin]
 ```
 
 ## 4. Sequence + failure handling
@@ -123,15 +126,15 @@ WEIRD — audit stream unavailable
 
 **Security (TCD §3, §4; PRD §7).** Microsoft Entra ID token validation on every management and delivery call, at the API Management edge and re-checked server-side. RBAC is enforced server-side per operation (product-scoped roles; least-privilege delivery identity), never trusted from the client. Every mutating op writes an **immutable AuditEntry** (actor from the token) → Event Hubs → Blob archive; publish-time review overrides are themselves audited. Secrets (connection strings, cache keys, signing material) live in Azure Key Vault; auth fails closed (cached JWKS validates existing tokens, new sign-ins blocked during a token-endpoint outage).
 
-**Compliance.** Internal data classification. Immutable, append-only audit retained per Internal policy in Blob Storage; the audit trail — not enforced pre-publish gates — is the compliance control for the optional-review default (see §6, decision 2).
+**Compliance.** Internal data classification. Immutable, append-only audit retained per Internal policy in Blob Storage; the audit trail is the compliance control for the optional-review default on *normal* strings. `critical/legal`-flagged strings additionally require an enforced pre-publish compliance review and synchronous (<5s) invalidation (SEP §3). (see §6, decision 2).
 
 **Scale.** ~500,000 strings, 30–40 languages, 150+ countries, 20–30+ consuming apps. Delivery pods scale horizontally on read QPS and survive a management-app deploy or outage by serving from Redis + a Postgres read replica.
 
 ## 6. Decisions made (and not made)
 
 **Made (TCD §5):**
-1. **Redis read-cache in front of delivery**, accepting ≤60s publish→delivery staleness. Revisit if a consumer has a hard <5s propagation requirement (e.g., a legal/pricing string that must flip instantly).
-2. **Reviews optional by default + audited publish-time override** (unless a review designation is set), rather than mandatory gates on every publish. Accepted cost: a string can ship unreviewed; we rely on audit, not prevention. Revisit if governance/compliance mandates enforced approval for a product or locale class.
+1. **Redis read-cache in front of delivery**, accepting ≤60s publish→delivery staleness for normal strings. `critical/legal`-flagged strings get synchronous <5s invalidation (SEP §3 negotiation outcome). Revisit if an *unflagged* string class needs <5s across the board.
+2. **Reviews optional by default + audited publish-time override** for normal strings, rather than mandatory gates on every publish. `critical/legal`-flagged strings require an enforced pre-publish compliance review (SEP §3). Accepted cost: a normal string can ship unreviewed; we rely on audit, not prevention. Revisit if compliance extends enforced approval beyond the flagged class.
 3. **Immutable namespaced keys** (and immutable versions). Accepted cost: renaming means create-new + deprecate-old. Revisit if in-place renames become unmanageable at scale.
 4. **Missing translation → `en-US` fallback with an explicit `fallback` indicator**, so a live key never 404s and consumers can render the fallback transparently.
 
@@ -148,9 +151,9 @@ From SEP §1 + TCD §6.
 |---|---|---|
 | Anna Woods — Product (Holocron) | Scope slice + release-1 value | Approved |
 | Nick Grant — Engineering / delivery | AKS topology, delivery SLOs, Redis/Postgres split | Approved |
-| Enterprise Infrastructure | Entra ID scoping + AKS platform | Approved |
-| Legal / Compliance | Audit retention + review gates | Conditional — revisit if compliance mandates enforced pre-publish approval |
-| Architecture | Immutable namespaced key schema | Approved (pending Key Vault rotation runbook) |
+| Enterprise Infrastructure | Entra ID scoping + AKS platform + secrets | Approved (pending Key Vault rotation runbook) |
+| Legal / Compliance | Audit retention + review gates | Approved — `critical/legal` flag enforces pre-publish review + <5s propagation (SEP §3) |
+| Architecture | Immutable namespaced key schema | Approved |
 
 ## 8. Provenance log
 
@@ -160,9 +163,9 @@ AI-drafted spec; human judgment shaped every section. Each row records what AI a
 |---|---|---|---|---|
 | 1 | §1 Headline | Compress what/who/outcome into one sentence | Checked scale + p95 figure against PRD §1–3 and TCD §3; user roles match PRD §2–3 | ✅ Validated |
 | 2 | §2 Engineering-ready summary | Synthesize problem/scope/stance/data into 5 paragraphs | Each paragraph traced to PRD §1–5, TCD §1, TMD §1/§3; IN/OUT list checked against PRD §4–5 verbatim | ✅ Validated |
-| 3 | §3 Data + API contract | Draft entity table + endpoint signatures | Entities + immutability rules checked against TMD §1; delivery endpoint, status codes, `fallback` flag checked against TMD §3; RBAC roles checked against PRD §2 | ✅ Validated |
+| 3 | §3 Data + API contract | Draft entity table + endpoint signatures | Entities + immutability rules checked against TMD §1; delivery endpoint, status codes, `fallback` flag checked against TMD §3; RBAC role names match PRD §7 (Authenticated Employee / Content Owner / Reviewer / Review Admin / Holocron Admin) | ✅ Validated |
 | 4 | §4 Sequence + failure handling | Draft happy/sad/weird publish→deliver flow | Checked against TCD §2 integration failure handling + TMD §4; SLO figures (≤200ms, ≤60s, 50 req/s) match TCD §3/§4 exactly | ✅ Validated |
 | 5 | §5 Constraints | Assemble SLO + security + compliance + scale table | Every SLO figure copied from TCD §3/§4 (not paraphrased); security/audit claims traced to TCD §3–4 STRIDE + PRD §7 | ✅ Validated |
-| 6 | §6 Decisions made (and not made) | List 4 trade-offs + open items | 4 decisions match TCD §5 trade-off table (choice + accepted cost + revisit trigger); open items (RPO/RTO, aliases, export) confirmed as NOT-decided in the spine, not invented | ✅ Validated |
-| 7 | §7 Stakeholders + sign-off | Merge named stakeholders + status | Names from SEP §1 spine; statuses reconciled with TCD §6 sign-off table (Legal + Architecture conditions preserved) | ✅ Validated |
+| 6 | §6 Decisions made (and not made) | List trade-offs + open items | 3 decisions map to the TCD §5 trade-off table (choice + accepted cost + revisit trigger); the en-US fallback decision traces to PRD §5 + CS7 AC, not a TCD §5 row; open items (RPO/RTO, aliases, export) confirmed NOT-decided in the spine, not invented | ✅ Validated |
+| 7 | §7 Stakeholders + sign-off | Merge named stakeholders + status | Names from SEP §1; statuses reconciled with TCD §6 — Legal resolved to Approved via the `critical/legal` flag (SEP §3), and the Key Vault rotation-runbook condition is carried on Enterprise Infrastructure (Security/Identity), not Architecture | ✅ Validated |
 | 8 | §8 Provenance log | Draft this table | Self-referential; instructor confirms every other row cites a real source section before this spec is called "Reviewed" | ✅ Validated |

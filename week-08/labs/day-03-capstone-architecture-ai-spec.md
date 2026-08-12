@@ -90,7 +90,7 @@ Compressed Week-4 work in 45 minutes. Architecture stance + integration + threat
 ### Quad protocol
 
 1. **Architecture stance** (15 min). 1 paragraph applying the three-question frame (deploy / failure / scale).
-2. **Integration map** (10 min). Pull from PRD-light Section 10 (deps) + sketch from Day 2. Sync/async + R/W + failure handling.
+2. **Integration map** (10 min). Pull dependencies from your Day-2 discovery + sketch from Day 2. Sync/async + R/W + failure handling.
 3. **Threat model summary** (10 min). 3 STRIDE-flagged threats. Apply walk-the-data-flow frame.
 4. **SLOs** (5 min). 1 each of latency / availability / rate-limit. Target + defense.
 5. **Top trade-offs** (5 min). 3 trade-offs in Option A/B/Choice/Cost/Revisit format.

@@ -38,14 +38,14 @@ A **modular service on AKS** — one deployable with internally separated module
 |---|---|---|
 | Delivery fetch latency | p95 ≤ 200ms / p99 ≤ 500ms | Apps fetch strings on render — latency is on the critical UI path, so it must beat a human-noticeable frame. Redis serves the hot path. Verify via Azure Monitor percentile dashboards + alerts on the delivery API. |
 | Delivery availability | 99.9% | Consuming apps depend on delivery for every localized screen across 150+ countries; the read path is deliberately isolated so authoring incidents can't take it down. Verify via synthetic probes + edge success-rate monitors. |
-| Publish → delivery propagation | ≤ 60s | Editors expect a published change to reach apps quickly but not instantly; 60s lets us cache aggressively while staying operationally honest. Verify with a publish-to-fetch timing probe in Azure Monitor. |
+| Publish → delivery propagation | ≤ 60s normal / **< 5s** for `critical/legal`-flagged strings | Editors expect a published change to reach apps quickly but not instantly; 60s lets us cache aggressively while staying operationally honest. Compliance-critical strings carry a `critical/legal` flag that forces synchronous cache invalidation (< 5s) — the outcome of the Legal/Compliance negotiation (SEP §3). Verify with a publish-to-fetch timing probe in Azure Monitor, split by flag. |
 
 ## 5. Top 3 trade-offs
 
 | Option A | Option B | Choice | Accepted cost | Revisit trigger |
 |---|---|---|---|---|
-| Redis read-cache in front of delivery | Strong-consistency reads straight from Postgres | **A — cache** | Up to ≤60s staleness between publish and delivery | A consumer has a hard requirement for <5s propagation (e.g., legal/pricing string that must flip instantly). |
-| Reviews **optional by default** + audited publish-time override | Mandatory review gates on every publish | **A — optional + override** | A string can ship unreviewed; we rely on audit, not prevention | Governance/compliance requires enforced approval before publish for a product or locale class. |
+| Redis read-cache in front of delivery | Strong-consistency reads straight from Postgres | **A — cache** | Up to ≤60s staleness for normal strings; `critical/legal`-flagged strings get synchronous <5s invalidation (SEP §3) | An *unflagged* string class needs <5s propagation across the board. |
+| Reviews **optional by default** + audited publish-time override | Mandatory review gates on every publish | **A — optional + override, flagged exception** | A *normal* string can ship unreviewed (audit, not prevention); `critical/legal`-flagged strings require enforced pre-publish compliance review (SEP §3) | Compliance extends enforced approval beyond the flagged class. |
 | **Immutable** namespaced keys | Mutable/renamable keys | **A — immutable** | Renaming means create-new + deprecate-old, more editor friction | Editors need in-place key renames at a scale where deprecate-and-recreate becomes unmanageable. |
 
 ## 6. Stakeholder sign-off
@@ -56,4 +56,4 @@ A **modular service on AKS** — one deployable with internally separated module
 | Platform / SRE lead | AKS topology, delivery SLOs, Redis/Postgres split | Approved |
 | Security / Identity lead | Entra ID scoping, RBAC, audit immutability | Approved (pending Key Vault rotation runbook) |
 | Consuming-app representative | Delivery API contract + ≤60s propagation tolerance | Approved |
-| Localization / governance owner | Optional-review default + audit trail | Conditional — revisit if compliance mandates gated approval |
+| Legal / Compliance (governance owner) | Pre-publish review for compliance-critical strings + audit trail | Approved — `critical/legal` flag enforces pre-publish review + <5s propagation (SEP §3) |
