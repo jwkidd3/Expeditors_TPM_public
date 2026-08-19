@@ -2,58 +2,59 @@
 
 # TCD-light — Holocron (release-1 slice)
 
-Product: **Holocron** — centralized, governed management of UI strings. Scale target: 150+ countries, 20–30+ consuming apps, 30–40 languages, `en-US` source of truth, ~500,000 strings, Internal data classification. This TCD covers the **release-1 slice**: access roles, product setup, create/edit/publish strings, version history + audit, search, delivery to consumers, review request/complete, translation variants. Out of scope: aliases, advanced reviewer config, export/import, rollback, AI translation, Figma, screenshots.
+Scale: 150+ countries, 20–30+ consuming apps, 30–40 locales, `en-US` source, ~500k strings, Internal data. Slice: access roles, product setup, create/edit/publish, version history + audit, search, delivery, review, translation variants (CS1–7, CS11–12, CS15). Out: aliases, advanced reviewer config, export/import, rollback, AI translation, Figma.
 
 ## 1. Architecture stance
 
-A **modular service on AKS** — one deployable with internally separated modules, not a distributed microservice mesh and not a monolith we can't scale. The decisive move is **two physically separate paths sharing one PostgreSQL system of record**: a low-traffic **management/authoring path** (create/edit/publish/review, management app at 99.5%) and a high-traffic, **read-optimized delivery path** fronted by **Azure Cache for Redis** and served through **API Management + Application Gateway** (delivery at 99.9%, p95 ≤ 200ms). Business case: 20–30+ apps fetching strings on every render generate orders of magnitude more traffic than the handful of content editors — collapsing both onto the authoring path would let read spikes starve publishing, and would force us to scale the expensive authoring/audit machinery just to serve cache-friendly reads. Operationally, the split lets us scale, deploy, and set SLOs for delivery independently: delivery pods scale horizontally on read QPS and can survive a management-app deploy or outage (they serve from Redis + Postgres read replica), while authoring changes never risk the delivery contract. Starting modular (not micro) keeps the release-1 team small and the transaction boundary — publish + audit-write — inside one process; we extract a service only when a module's scale or ownership demands it.
+A **modular service on AKS** — one deployable, internally separated modules; not a microservice mesh, not an unscalable monolith. The decisive move: **two physically separate paths over one PostgreSQL system of record** — a low-traffic **authoring path** (create/edit/publish/review; management app 99.5%) and a high-traffic, read-optimized **delivery path** fronted by **Azure Cache for Redis** and served through **API Management + Application Gateway** (delivery 99.9%, p95 ≤200ms). Rationale: 20–30+ apps fetching on every render generate far more traffic than a handful of editors; collapsing both paths would let read spikes starve publishing. Publish + audit-write stay in one transaction; a service is extracted only when a module's scale or ownership demands it.
 
 ## 2. Integration map
 
-| System | Owner | Sync / Async | R / W | Failure handling |
-|---|---|---|---|---|
-| Azure Database for PostgreSQL (system of record) | Platform | Sync | R/W | Primary write target; publish + audit written in one transaction. Failover to replica; delivery falls back to Redis if primary unreachable (serves last-published). |
-| Azure Cache for Redis (delivery read cache) | Platform | Sync (read) / Async (fill) | R (delivery) / W (on publish) | Cache miss or eviction → read-through from Postgres, then backfill. Redis down → delivery degrades to direct Postgres reads (higher latency, SLO-protected by rate limit). |
-| Microsoft Entra ID (identity / SSO + role scoping) | Security | Sync | R | Every management + delivery call validates an Entra ID token. Token-endpoint outage → cached JWKS validates existing tokens; new sign-ins blocked (fail-closed on auth). |
-| Application Gateway + Azure API Management (delivery API) | Platform | Sync | R | Terminates TLS, enforces per-consumer rate limit (50 req/s, burst 100) and token validation at the edge. Backend unhealthy → 503 + Retry-After; consumers hold last good strings. |
-| Azure Event Hubs (audit / event stream) | Platform | Async | W | Every mutating op emits an AuditEntry. Hub unavailable → buffer + retry with backpressure; publish transaction still commits to Postgres (audit is append-only downstream, never blocks the write). |
-| Blob Storage (audit archive) | Platform | Async | W | Consumes Event Hubs stream → immutable archive, retention per Internal policy. Write failure → Event Hubs retention window covers replay; alert on archiver lag. |
-| Azure Key Vault (secrets) | Security | Sync (startup) / cached | R | Connection strings, cache keys, signing material. Vault unreachable → run on last-fetched cached secrets; block rotation, alert. |
-| Azure Monitor (observability) | Platform | Async | W | Metrics/logs/traces for SLO tracking + alerting. Telemetry loss is non-blocking; gaps alert but never fail a request. |
-| Consuming apps (20–30+) | Product teams | Sync | R | Call `GET /v1/products/{productId}/namespaces/{namespace}?locale=…` with an Entra ID token. Expected to cache client-side and tolerate ≤60s propagation + `en-US` fallback. |
+| System | Sync/Async | R/W | Failure handling |
+|---|---|---|---|
+| Azure Database for PostgreSQL (system of record) | Sync | R/W | Publish + audit in one tx; failover to replica. |
+| Azure Cache for Redis (delivery cache) | Sync read / async fill | R/W-on-publish | Miss → read-through + backfill; down → direct Postgres reads (SLO-protected by rate limit). |
+| Microsoft Entra ID (identity) | Sync | R | Token validated every call; token-endpoint outage → cached JWKS validates, new sign-ins blocked (fail-closed). |
+| App Gateway + API Management (delivery edge) | Sync | R | TLS, per-consumer rate limit (50 req/s, burst 100), token validation; backend down → 503 + Retry-After. |
+| Event Hubs → Blob (audit) | Async | W | Every mutating op emits an AuditEntry → WORM archive; hub down → buffer + retry, publish still commits. |
+| Key Vault (secrets) | Cached | R | DB creds, cache keys, signing; vault down → last-cached secrets, block rotation, alert. |
+| Azure Monitor (observability) | Async | W | Metrics/logs/alerts; telemetry loss is non-blocking. |
 
-## 3. Threat-model summary (STRIDE)
+## 3. Threat model (STRIDE)
 
-| Threat (STRIDE) | On the flow | Mitigation (Azure) |
-|---|---|---|
-| **S**poofing a consumer | Forged/borrowed token hits the delivery API | Entra ID token validation at API Management edge; per-app identities with scoped audiences; no anonymous delivery. |
-| **T**ampering with published content | Altering strings in transit or at rest between publish and delivery | TLS end to end; Postgres is the only write path (delivery is read-only); Redis fill is derived from committed rows; RBAC-gated publish. |
-| **R**epudiation of a publish/approve | Editor/reviewer denies making a change | Immutable `AuditEntry` per mutating op → Event Hubs → Blob archive; actor identity from Entra ID token; publish-time review override is itself audited. |
-| **E**levation of privilege via role scope | A viewer/editor performs a publish or review they shouldn't | Entra ID role scoping enforced server-side per operation (RBAC), not in the client; product-scoped roles; least-privilege delivery identity. |
-| **D**enial of service on delivery | One consumer floods the fetch endpoint | Per-consumer rate limit 50 req/s / burst 100 at API Management; Redis absorbs read load; delivery path scales independently and isolates authoring. |
+| Threat | Mitigation |
+|---|---|
+| **S**poofing a consumer | Entra ID token validation at the APIM edge; per-app scoped audiences; no anonymous delivery. |
+| **T**ampering with content | TLS end to end; Postgres is the only write path (delivery read-only); RBAC-gated publish. |
+| **R**epudiation of publish/approve | Immutable AuditEntry per op → Event Hubs → Blob; actor from token; override itself audited. |
+| **E**levation via role scope | Entra ID roles enforced server-side per operation; product-scoped; least-privilege delivery identity. |
+| **D**enial of service on delivery | Per-consumer 50 req/s / burst 100 at APIM; Redis absorbs load; delivery scales independently. |
 
-## 4. SLOs (3)
+## 4. SLOs
 
-| SLO | Target | Defense (user behavior) + verification |
-|---|---|---|
-| Delivery fetch latency | p95 ≤ 200ms / p99 ≤ 500ms | Apps fetch strings on render — latency is on the critical UI path, so it must beat a human-noticeable frame. Redis serves the hot path. Verify via Azure Monitor percentile dashboards + alerts on the delivery API. |
-| Delivery availability | 99.9% | Consuming apps depend on delivery for every localized screen across 150+ countries; the read path is deliberately isolated so authoring incidents can't take it down. Verify via synthetic probes + edge success-rate monitors. |
-| Publish → delivery propagation | ≤ 60s normal / **< 5s** for `critical/legal`-flagged strings | Editors expect a published change to reach apps quickly but not instantly; 60s lets us cache aggressively while staying operationally honest. Compliance-critical strings carry a `critical/legal` flag that forces synchronous cache invalidation (< 5s) — the outcome of the Legal/Compliance negotiation (SEP §3). Verify with a publish-to-fetch timing probe in Azure Monitor, split by flag. |
+| SLO | Target |
+|---|---|
+| Delivery fetch latency | p95 ≤ 200ms / p99 ≤ 500ms |
+| Delivery availability | 99.9% (management app 99.5%) |
+| Publish → delivery propagation | ≤ 60s normal / **< 5s** for `critical/legal`-flagged strings (synchronous invalidation, per SEP §3) |
+| Per-consumer rate limit | 50 req/s, burst 100 |
+
+*Verify via Azure Monitor percentile dashboards + a publish-to-fetch timing probe, split by flag.*
 
 ## 5. Top 3 trade-offs
 
-| Option A | Option B | Choice | Accepted cost | Revisit trigger |
-|---|---|---|---|---|
-| Redis read-cache in front of delivery | Strong-consistency reads straight from Postgres | **A — cache** | Up to ≤60s staleness for normal strings; `critical/legal`-flagged strings get synchronous <5s invalidation (SEP §3) | An *unflagged* string class needs <5s propagation across the board. |
-| Reviews **optional by default** + audited publish-time override | Mandatory review gates on every publish | **A — optional + override, flagged exception** | A *normal* string can ship unreviewed (audit, not prevention); `critical/legal`-flagged strings require enforced pre-publish compliance review (SEP §3) | Compliance extends enforced approval beyond the flagged class. |
-| **Immutable** namespaced keys | Mutable/renamable keys | **A — immutable** | Renaming means create-new + deprecate-old, more editor friction | Editors need in-place key renames at a scale where deprecate-and-recreate becomes unmanageable. |
+| Choice | Accepted cost | Revisit trigger |
+|---|---|---|
+| **Redis read-cache** (vs strong-consistency Postgres reads) | ≤60s staleness for normal strings; `critical/legal` get synchronous <5s invalidation (SEP §3) | An *unflagged* string class needs <5s across the board. |
+| **Reviews optional + audited override** (vs mandatory gates) | A *normal* string can ship unreviewed (audit, not prevention); `critical/legal` require enforced pre-publish review (SEP §3) | Compliance extends enforced approval beyond the flagged class. |
+| **Immutable namespaced keys** (vs renamable) | Renaming = create-new + deprecate-old | In-place renames become unmanageable at scale. |
 
 ## 6. Stakeholder sign-off
 
-| Stakeholder | Interest | Status |
-|---|---|---|
-| Product lead (Holocron) | Scope slice + release-1 value | Approved |
-| Platform / SRE lead | AKS topology, delivery SLOs, Redis/Postgres split | Approved |
-| Security / Identity lead | Entra ID scoping, RBAC, audit immutability | Approved (pending Key Vault rotation runbook) |
-| Consuming-app representative | Delivery API contract + ≤60s propagation tolerance | Approved |
-| Legal / Compliance (governance owner) | Pre-publish review for compliance-critical strings + audit trail | Approved — `critical/legal` flag enforces pre-publish review + <5s propagation (SEP §3) |
+| Stakeholder | Status |
+|---|---|
+| Product lead (Holocron) | Approved |
+| Platform / SRE lead — AKS, SLOs, Redis/Postgres split | Approved |
+| Security / Identity lead — Entra ID, RBAC, audit immutability | Approved (pending Key Vault rotation runbook) |
+| Consuming-app representative — delivery contract + ≤60s tolerance | Approved |
+| Legal / Compliance (governance owner) | Approved — `critical/legal` flag enforces pre-publish review + <5s propagation (SEP §3) |

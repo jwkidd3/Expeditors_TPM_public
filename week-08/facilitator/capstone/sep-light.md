@@ -2,52 +2,32 @@
 
 # SEP-light — Holocron source-string delivery (release 1)
 
-## 1. Stakeholder map (compressed)
+## 1. Stakeholder map
 
-Power × Interest placement for the named stakeholders, plus a one-line engagement approach each. RACI is for the single most consequential decision: **adopt the Redis read-cache delivery path with ≤60s propagation staleness** (see §2).
+RACI is for the single most consequential decision: **adopt the Redis read-cache delivery path with ≤60s propagation** (§2).
 
-```
-         HIGH POWER
-              │
-  Enterprise  │  Legal/Compliance ★      Named high-power/high-interest:
-  Infra       │  Nick Grant (Eng) ★      Legal/Compliance + Nick Grant.
-  ────────────┼────────────────────────  Manage both closely; they can
-  (Chance     │  Anna Woods (Product)     block or reshape the delivery
-   Kennedy)   │  Architecture             stance.
-              │
-          LOW │  HIGH INTEREST
-```
-
-| Stakeholder | Power / Interest | Engagement approach (one line) |
+| Stakeholder | Power / Interest | Engagement (one line) |
 |---|---|---|
-| **Anna Woods** — Product; owns scope + MDM/RDM coordination (Master/Reference Data Management) | High / High | Partner as decision-driver — she frames the scope line and arbitrates freshness-vs-latency; align early and keep her the single throat to choke on scope. |
-| **Nick Grant** — Engineering; delivery-mechanism architecture ★ | High / High | Co-own the trade-off; he proposes the cache design, so bring him into the SLO framing before it reaches Legal. |
-| **Legal/Compliance** — audit retention + compliance-review gates ★ | High / High | Manage closely and translate everything into risk/exposure currency (§2); secure sign-off on the staleness window in writing. |
-| **Enterprise Infrastructure** — Entra ID + AKS provisioning (Azure identity + Azure Kubernetes Service) | High / Low | Keep satisfied — give lead time on Entra ID / AKS asks; consult on provisioning, don't involve in product trade-offs. |
-| **Architecture** — key-schema / namespace governance | Med / High | Consult on namespace + key-schema conventions before publish contract locks; keep informed on cache keying. |
-| **Chance Kennedy** — future AI / Figma (out of scope for release 1) | Low / Low | Monitor only — one-line release-1 update; re-engage when the AI-assist slice opens. |
+| **Anna Woods** — Product; scope + MDM/RDM | High / High | Decision-driver; frames the scope line, arbitrates freshness-vs-latency. |
+| **Nick Grant** — Engineering; delivery mechanism ★ | High / High | Co-owns the trade-off; brings the cache design; frame SLOs with him before Legal. |
+| **Legal / Compliance** — audit + review gates ★ | High / High | Manage closely; speak in risk/exposure; get the staleness window signed in writing. |
+| **Enterprise Infrastructure** — Entra ID + AKS | High / Low | Keep satisfied; lead time on identity/provisioning asks; not in product trade-offs. |
+| **Architecture** — key/namespace governance | Med / High | Consult on key-schema + cache keying before the publish contract locks. |
+| **Chance Kennedy** — future AI/Figma (out of R1) | Low / Low | Monitor; re-engage when the AI-assist slice opens. |
 
-**RACI — decision: "Adopt Redis read-cache with ≤60s propagation for the delivery path"**
-
-| | Anna Woods | Nick Grant | Legal/Compliance | Enterprise Infra | Architecture |
-|---|---|---|---|---|---|
-| Role | **A** (accountable) | **R** (responsible) | **C** (consulted — must sign the staleness window) | I | C |
+**RACI — "Adopt Redis read-cache with ≤60s propagation":** Anna Woods **A** · Nick Grant **R** · Legal/Compliance **C** (must sign the staleness window) · Enterprise Infra **I** · Architecture **C**.
 
 ## 2. Trade-off brief — for Legal/Compliance (in their currency)
 
-**Decision (plain terms):** Consuming apps will read published source strings from a fast in-memory copy (Redis cache) instead of hitting the system of record on every read. This lets us serve 20+ apps at p95 ≤ 200ms delivery latency and 99.9% availability. **The cost:** after someone publishes or edits a string, the copy every app sees can lag the true value by up to **60 seconds** before it refreshes.
-
-**Why you should care (the risk, in exposure terms):** For a compliance-sensitive string — a legal disclaimer, a regulated notice, a takedown-driven wording change — there is a window of up to 60 seconds where consuming apps can still be showing the *old* text after Legal has approved and published the new one. On a normal UI label that is harmless. On a legal string, that 60-second window is the exposure.
-
-**The ask:** Accept the ≤60s propagation window for **normal** strings in exchange for the latency and scale it buys, and tell us which strings you consider compliance-critical so we can treat them differently. We revisit the whole trade-off if any consumer needs sub-5-second freshness across the board.
-
-**SLO context we're committing to:** delivery p95 ≤ 200ms, availability 99.9%, propagation ≤ 60s.
+**Decision.** Consuming apps read published strings from a fast in-memory copy (Redis) instead of the system of record on every read — serving 20+ apps at p95 ≤200ms and 99.9% availability. **Cost:** after a publish, the copy apps see can lag the true value by up to **60 seconds**.
+**Why it matters (exposure).** On a normal label, harmless. On a **compliance-sensitive string** — a legal disclaimer, a regulated notice — that 60-second window is exposure: apps can still render the *old* text after Legal has approved the new one.
+**The ask.** Accept ≤60s for **normal** strings in exchange for the latency and scale, and tell us which strings are compliance-critical so we can treat them differently. Revisit the whole trade-off if any consumer needs sub-5-second freshness across the board.
 
 ## 3. Simulated negotiation outcome
 
-**Status vocabulary used:** `PROPOSED → COUNTERED → AGREED` (with `DEFERRED` / `ESCALATE` paths).
+**Status vocabulary:** `PROPOSED → COUNTERED → AGREED` (with `DEFERRED` / `ESCALATE`).
 
-- **The ask (PROPOSED):** Product/Eng propose Legal/Compliance accept the ≤60s propagation window across all published strings, in exchange for p95 ≤ 200ms delivery and read scale across 20+ apps.
-- **The pushback (COUNTERED):** Legal/Compliance's single strongest objection — "A 60-second window where apps still render a superseded legal string after we've published a correction is unacceptable exposure. We can't sign a blanket staleness window." They do not object to the cache for ordinary content.
-- **The settle point (AGREED):** ≤60s propagation stands as the **default** for normal strings. Compliance-critical strings carry a **`critical/legal` flag**; flagging one forces (a) a **required compliance review before publish** — publish is blocked until Legal signs — and (b) **synchronous cache invalidation on publish (<5s propagation)** rather than the lazy ≤60s refresh. Product (Anna Woods) is Accountable; Nick Grant is Responsible for the flag-driven invalidation path; Architecture is Consulted on how the flag is carried in the key schema.
-- **Audit / next step:** Decision recorded with the `critical/legal` flag semantics and the <5s target for flagged strings; the required-review gate is logged to the audit-retention trail Legal already owns. **Open item — `DEFERRED`:** if any consumer later needs sub-5s freshness for *unflagged* strings, the base ≤60s trade-off reopens (owner: Nick Grant, revisit trigger). No `ESCALATE` needed — settled at the working level.
+- **PROPOSED:** Product/Eng propose Legal accept ≤60s propagation across all published strings, for p95 ≤200ms + read scale.
+- **COUNTERED:** Legal's strongest objection — "A 60-second window where apps still render a superseded legal string after we've published a correction is unacceptable. We can't sign a blanket staleness window." No objection to the cache for ordinary content.
+- **AGREED:** ≤60s stands as the **default** for normal strings. Compliance-critical strings carry a **`critical/legal` flag**; flagging one forces (a) a **required compliance review before publish** — publish blocked until Legal signs — and (b) **synchronous cache invalidation (<5s)** rather than lazy ≤60s refresh. Anna Woods **A**, Nick Grant **R** for the flag-driven invalidation, Architecture **C** on carrying the flag in the key schema.
+- **Audit / next step:** Decision recorded with the flag semantics + <5s target; the required-review gate logs to the audit-retention trail Legal owns. **`DEFERRED`:** if any consumer later needs sub-5s for *unflagged* strings, the base ≤60s trade-off reopens (owner: Nick Grant). No `ESCALATE` — settled at the working level.
