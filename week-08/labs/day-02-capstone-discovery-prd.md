@@ -24,7 +24,8 @@ That's 2 pages. Every word earns its place.
 
 ## Inputs
 
-- The discovery inputs gathered overnight + this morning
+- The **Holocron Discovery Signal Pack** (`holocron-discovery-signal` handout) — the starting customer signal to synthesize
+- Any additional signal gathered firsthand from the real stakeholders named in the problem brief
 - The AI Spec template from Day 1
 - The Pattern Library prompts from Weeks 2, 4, 5
 
@@ -41,11 +42,11 @@ Compressed Week-1 work: ground in customer signal, name the persona, name the pa
 
 #### Step 1 — Synthesize what you know (20 min)
 
-Each quad member shares the inputs they gathered. Pool into:
+Start from the **Discovery Signal Pack** handout, then add anything each quad member confirmed firsthand with the real stakeholders. Pool into:
 
 - **Direct customer signal** — interviews, support tickets, observation, data
 - **Indirect signal** — public reviews, competitor analysis, internal Slack
-- **What's missing** — be honest
+- **What's missing** — be honest (see the pack's open questions)
 
 #### Step 2 — Name the persona (10 min)
 
