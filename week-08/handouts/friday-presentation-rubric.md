@@ -1,6 +1,6 @@
 # Friday Presentation Rubric + Q&A Discipline
 
-> **Day 5 handout.** How your 15-minute capstone presentation is scored, and how to handle the 5-minute Q&A. Review this before you present. Each cohort member scores every quad (peer scores); the instructor scores separately. Final = (peer mean + instructor) / 2.
+> **Day 5 handout.** How your 15-minute capstone presentation is scored, and how to handle the 5-minute Q&A. Review this before you present.
 
 ---
 

@@ -37,8 +37,6 @@ Each quad's 15-min presentation is scored on:
 
 Score 0–4 per dimension. Apply weights for total /4.0. Same convention as prior weeks.
 
-Each cohort member scores every quad (peer scores). Instructor scores separately. Final score = (peer mean + instructor) / 2.
-
 ---
 
 ## Activity 1 — Final Tweaks + Presentation Order
