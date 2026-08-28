@@ -1,6 +1,6 @@
 # Friday Presentation Rubric
 
-> **Day 5 scorecard.** Score each quad's 15-minute capstone presentation: **0–4 per dimension**, whole numbers only; apply the weights for a total out of 4.0. Score **against the rubric, not against other quads** — don't grade on a curve. Each cohort member scores every quad; the instructor scores separately. **Final = (peer mean + instructor) / 2.**
+> **Day 5 scorecard.** Score each quad's 15-minute capstone presentation: **0–4 per dimension**, whole numbers only; apply the weights for a total out of 4.0. Score **against the rubric, not against other quads** — don't grade on a curve.
 
 **Quad presenting:** ______________________  **Scorer:** ______________________
 
